@@ -1,23 +1,28 @@
 {
- "generated": "2026-10-23T14:27:50+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/39969822044",
- "scanned": 32597,
+ "generated": "2026-10-23T18:37:08+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/40004757763",
+ "scanned": 32558,
  "boards": 293,
  "errors": [
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429"
   }
  ],
  "dropped": {
-  "non-ME discipline": 755,
-  "no Summer/Fall 2027": 5041,
+  "non-ME discipline": 764,
+  "no Summer/Fall 2027": 4978,
   "degree-level blocker": 9,
-  "below threshold": 473,
-  "no mechanical signal": 207,
-  "off-target season in title": 401,
-  "not a student req": 25341
+  "below threshold": 476,
+  "no mechanical signal": 203,
+  "off-target season in title": 394,
+  "not a student req": 25363
  },
  "jobs": [
   {
@@ -40,7 +45,7 @@
      47.0
     ],
     "fresh": 9,
-    "age": 3.6,
+    "age": 3.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -86,7 +91,7 @@
    "location": "Santa Clara, CA or Any Office Location",
    "url": "https://job-boards.greenhouse.io/oklo/jobs/6204291004",
    "posted": "2026-09-23",
-   "body": "We are excited to announce an open call for talented interns to join Oklo's dynamic team! Below are multiple positions across various disciplines that may be available, offering the chance to work on innovative projects for Summer 2027. If you're passionate about solving complex challenges, thrive in a collaborative environment, and are eager to contribute to groundbreaking solutions, we encourage you to apply. Requirements Oklo interns are required to: Relocate or be available to work out of Santa Clara CA where Oklo Headquarters is located for the duration of the internship or out of one of our satellite locations in Denver, CO, Brooklyn, NY, Idaho Falls, ID, or Washington D.C. Be available to work 30-40 hours per week between June 7, 2027 - August 20, 2027 (depending on the scope of work) Be currently enrolled or recently (2027) graduated with a Bachelor's or Master's Degree from an accredited university Intern Position Descriptions Core Thermal Hydraulics Intern The CTH Intern will develop intermediate fidelity (IF) subchannel and high-fidelity computational fluid dynamics (CFD) models for applications in sodium fast reactors (SFRs). The project will involve comparisons between simulation results and experimental data. The exact topic will depend on interest and company needs but could cover fluid-structure interaction, turbulence model development, uncertainty quantification, or surrogate modeling. Required Qualifications Coursework in fluid mechanics and heat transfer Experience with 3-D CFD and meshing workflows Proficiency in Python Clear technical communication and documentation skills Bonus Qualifications Experience with advanced 3-D CFD concepts (large eddy simulation, fluid-structure interaction) Familiarity with high-performance computing workflows and tools Experience with MOOSE Familiarity with statistics and reduced order modeling Materials Intern Working with members of Oklo\u2019s Materials Team, will help with the selection and qualification of materials for use in nuclear reactor systems. Typical work duties include computational model development and implementation, engineering analysis, documentation, and interfacing with our fuel fabrication and engineering teams. Key Responsibilities Analyzing material performance across expected operating conditions Developing new analysis methods to predict material behavior in service Performing engineering analyses, including assessments of thermal performance, mechanical performance, safety performance, manufacturability, and cost. Collaborating cross-functionally to provide technical feedback to quick-iterating computational teams. Authoring technical reports using modern documentation tools and techniques Required Qualifications Experience working with and developing material behavior models Experience with material characterization (material testing, metallography) Background in nuclear, chemical, materials engineering, or equivalent Motivated learner who is adept at efficiently summarizing literature Bonus Qualifications Experience with engineering simulation software, such as ANSYS or COMSOL Coding or data analysis experience (e.g., Python or similar tools) Mechanical Analyst Intern This intern will contribute to the evaluation and optimization of mechanical components that are critical to Oklo\u2019s advanced power plant designs. This position offers hands-on experience in applying engineering fundamentals, performing structural analysis, and integrating results into design iterations. Key Responsibilities Apply first-principles mechanics and strength of materials to support analysis of structural components Assist in summarizing mechanical analysis results for design teams, highlighting key findings such as peak stresses, margins of safety, and potential design revisions Support the development of technical documentation, ensuring clear and concise communication of assumptions, methods, and results Collaborate with design, manufacturing, and testing teams to help inform design improvements Required Qualifications Working toward a degree in Mechanical Engineering, Aerospace Engineering, Materials Science, or a related discipline Strong foundation in mechanics of materials, dynamics, and heat transfer Exposure to FEA tools (e.g., Ansys, Abaqus, COMSOL, or similar) through coursework or projects Proficiency in Python, MATLAB, or another programming language for basic data analysis or workflow automation Strong communication skills with the ability to clearly document and present technical findings Bonus Qualifications Prior research or project experience involving creep, fatigue, or thermal-mechanical problems Familiarity with engineering codes and standards (e.g., ASME, AISC, or similar) Experience using Git or another version control system Instrumentation and Controls Intern This intern will contribute to the development, integration, and testing of measurement and control systems that support advanced reactor operation and power generation. This position provides hands-on exposure to sensors, automation, and control strategies, while giving interns the opportunity to apply classroom knowledge to real-world engineering challenges. Key Responsibilities Assist in developing and testing sensors, instrumentation, and actuators under real design constraints Help design and implement control algorithms for equipment and processes Support the integration of I&C components into reactor systems and analysis workflows Contribute to documenting methods, results, and system designs in a clear and professional manner Collaborate with design and analysis teams to provide feedback that supports rapid iteration and improvement Required Qualifications Working toward a degree in Electrical Engineering, Mechanical Engineering, Computer Engineering, or a related field Familiarity with measurement techniques, data acquisition, and signal processing Exposure to control theory and feedback systems through coursework or projects Basic programming skills in Python (or similar) for data analysis and automation Strong communication skills and an eagerness to learn in a collaborative environment Bonus Qualifications Experience with circuit design (analog or digital) from labs, research, or projects Exposure to communication protocols and digital networks Familiarity with Git version control Neutronics Methodologies Intern This intern will assist in updating and streamlining neutronic methodologies to align with the latest format and standards. They will ensure that the methodologies match the way the code base builds the model, verifying consistency across both. This position also involves identifying and documenting gaps or discrepancies in the review process for future improvements. Key Responsibilities Update and optimize neutronic methodologies to the latest format and standards. Ensure methodologies align with the way the code base builds the model. Identify and document any gaps or discrepancies in the current processes. Collaborate with team members to ensure consistency and accuracy in modeling procedures. Required Qualifications Proficient in Python for scripting and automation. Familiar with AsciiDoc for documentation and formatting. Strong background in nuclear engineering and neutronics. Attention to detail with an ability to identify gaps in methodologies and processes. Process Intern This intern will support the design and analysis of fluid and power systems that are essential to Oklo\u2019s advanced reactors. This position provides hands-on experience with system modeling, equipment evaluation, and prototyping, offering interns a chance to apply classroom knowledge to real-world energy systems. Key Responsibilities Assist in designing fluid and process systems, including piping, valves, pumps, compressors, and heat exchangers Support definition of process equipment specifications, performance criteria, and operating conditions Contribute to prototype setup and testing activities for iterative system design and validation Help prepare technical documentation to support system layout, fabrication, installation, and operation Collaborate with engineers on analyses to evaluate performance and inform design refinements Document results and methods in a clear and professional manner for use across design and regulatory teams Required Qualifications Working toward a bachelor\u2019s or master\u2019s degree in Mechanical Engineering, Chemical Engineering, Nuclear Engineering, or a related discipline Background in thermodynamics, fluid mechanics, and heat transfer through coursework or projects Familiarity with process or system modeling tools (e.g., MATLAB, Python, Aspen, or similar) Strong problem-solving skills with attention to detail Ability to clearly communicate technical findings through reports or presentations Bonus Qualifications Experience with lab work, prototyping, or experimental systems Exposure to piping and instrumentation diagrams (P&IDs) or process design coursework Familiarity with pumps, heat exchangers, or thermal-fluid systems from research or internships Prototyping/Manufacturing Intern The prototyping engineering intern will be a part of the prototyping and visualization team. Key Responsibilities Assist in machining and general fabrication of prototypes and test setups Work with engineers to develop and execute testing procedures for mechanical systems Support assembly, troubleshooting, and optimization of electro-mechanical systems Conduct inspections and quality control on fabricated components Document test results, process improvements, and technical findings Collaborate with the engineering team to improve designs and manufacturing processes Maintain a safe and organized workspace Required qualifications Mechanical, manufacturing, electrical, nuclear, chemical, or similar engineering student graduating with bachelors, masters, or PhD within the following year Hands-on experience with mechanical fabrication, machining, or assembly Good understanding of mechanical design, materials, and manufacturing processes Familiarity with mechanical measurement tools (calipers, micrometers, etc.) Ability to read and interpret engineering drawings and schematics Strong problem-solving skills and ability to work independently and in a team environment Good communication and technical documentation skills Bonus qualifications Experience with manual or CNC machining Exposure to electronics, sensors, and control systems (mechatronics experience) Experience with CAD software (SolidWorks, AutoCAD, or similar) Experience with welding, 3D printing, or other prototyping techniques Understanding of fluid mechanics, thermodynamics, or materials science Experience with data acquisition systems and programming (Python, LabVIEW, or MATLAB) Business Operations Intern This role provides an opportunity to gain hands-on experience in business operations, process improvement, and cross-functional collaboration. This role is ideal for someone looking to grow their operational skill set in core business operational functions and is passionate about contributing to initiatives that drive efficiency while supporting key compliance functions across the organization. Key Responsibilities Assist with day-to-day business operations, including process documentation, workflow optimization, and project coordination. Collect, organize, and analyze operational and financial data to generate insights and support decision-making. Prepare reports, presentations, and dashboards for internal stakeholders. Collaborate with cross-functional teams (finance, HR, marketing, product, etc.) to support operational initiatives. Conduct research on industry trends, competitors, and best practices to support strategic planning. Identify and recommend opportunities for process improvements and increased efficiency. Provide administrative and logistical support for team projects and meetings. Required Qualifications Currently pursuing a bachelor\u2019s degree in Business Administration, Operations Management, Economics, or a related field. Strong analytical, organizational, and problem-solving skills. Proficiency in Microsoft Office Suite (Excel, PowerPoint, Word) or Google Workspace. Excellent written and verbal communication skills. Ability to work independently and collaboratively in a fast-paced environment. Attention to detail and eagerness to learn. Competencies We are looking for interns that are: Passionate about making advanced fission a reality Willing and able to learn quickly Eager to work on a dynamic team, receive constructive feedback, and grow with us Willing to think differently and do things in new ways Comfortable in a fast-paced, highly iterative startup environment Excited to think creatively, critically, and reflectively about the problems they are solving, while not leaning only on what has been done before Willing to propose novel and creative solutions to technical problems An excellent writer who can write in modern active voice, so make your cover letter compelling and write it well! Able to communicate technical content and results verbally Who you are: A startup person : You aren't driven by titles or hierarchy, and prefer efficiency to excess process. You don't need or expect to have a lot of guidance but you enjoy working in a fast-paced team. If you prefer the culture and feel of a large organization, that is great, but you likely won\u2019t enjoy working with us! There is plenty of important work and plenty of good opportunities with organizations like that. Motivated : You are self-motivated. You bring an enthusiasm to the team, and imbue a sense of passion that goes beyond clocking in and clocking out. This isn\u2019t about a fake or arbitrary \u201cpieces of flair\u201d mentality or lack of work-life balance! It is about being a part of the vision and feeling a part of reaching team goals. A team-player : Oklo genuinely is a team. We aren\u2019t about taking credit for ourselves, and we aren\u2019t about pushing blame to others. We do incredible things because we work as a team. An excellent communicator : We need a person who is not only technically competent but also a clear and upbeat communicator. Creative : Being creative means that when things fall outside clear scopes or processes or problems arise without clear solutions, you are able to identify it as well as invent ways to solve a problem or fill a need without micromanagement. The successful person in this job will not only be creative, but also enjoy being creative and solving open-ended problems which may change day-by-day. Detail-oriented : This focus is a big part of excellence, consistency, and quality. Excellent grammar and spelling matter for both good communication as well as the image of the company that we put forward. About Oklo's Intern compensation: Oklo offers housing assistance, $35 - $44 per hour (compensation is determined based on education, skills, and experience), 1-on-1 mentorship, hands-on training, and the opportunity to engage in fun team-building activities as well as interactive workshops, enhancing both professional and personal growth. Due to the nature of Oklo's work, only U.S. citizens can be considered for these positions. About Oklo Inc.: Oklo Inc. is developing fast fission power plants to deliver clean, reliable, and affordable energy at scale; establishing a domestic supply chain for critical radioisotopes; and advancing nuclear fuel recycling to convert nuclear waste into clean energy. Oklo was the first to receive a site use permit from the U.S. Department of Energy for a commercial advanced fission plant, was awarded fuel material from Idaho National Laboratory, and submitted the first custom combined license application for an advanced reactor to the U.S. Nuclear Regulatory Commission. Oklo is also developing advanced fuel recycling technologies in collaboration with the U.S. Department of Energy and U.S. National Laboratories. #CHOP: Oklo\u2019s Values Collaboration : We go further, together. We bring diverse perspectives, listen actively, and build trust through transparency and respect. We work across disciplines, sharing ownership to turn complex challenges into shared successes. Humility : We are team players who act for the good of the company and for the world. We are focused on our mission, not personal recognition. Ownership : We take pride in what we do and how we do it. We are proactive in finding solutions and see tasks through to completion. We are committed to delivering on our promises to provide clean, reliable, and affordable energy. Pathfinding : We chart new ground where no path exists by approaching challenges with curiosity, courage, and creativity while navigating ambiguity. Candidates should be aware that employment may be contingent upon successful completion of a drug screening, and employees may be subject to drug testing at any time in accordance with company policy and applicable laws. Recruitment Fraud Disclaimer Oklo is aware of recent recruitment fraud attempts targeting job seekers. Please be cautious of anyone claiming to represent Oklo who does not contact you from an official Oklo email address. All legitimate communications from our recruiting team\u2014 including application updates, interview requests, and job offers \u2014 will come exclusively from an @oklo.com email. Oklo will never ask for sensitive personal information, payments, or account credentials during the hiring process. If you receive suspicious outreach or have concerns about the authenticity of any communication claiming to be from Oklo, please contact us through the official channels listed on our website.",
+   "body": "We are excited to announce an open call for talented interns to join Oklo's dynamic team! Below are multiple positions across various disciplines that may be available, offering the chance to work on innovative projects for Summer 2027. If you're passionate about solving complex challenges, thrive in a collaborative environment, and are eager to contribute to groundbreaking solutions, we encourage you to apply. Requirements Oklo interns are required to: Relocate or be available to work out of Santa Clara CA where Oklo Headquarters is located for the duration of the internship or out of one of our satellite locations in Denver, CO, Brooklyn, NY, Idaho Falls, ID, or Washington D.C. Be available to work 30-40 hours per week between June 7, 2027 - August 20, 2027 (depending on the scope of work) Be currently enrolled or recently (2027) graduated with a Bachelor's or Master's Degree from an accredited university Intern Position Descriptions Thermal Hydraulics Intern The TH Intern will develop intermediate fidelity (IF) subchannel and high-fidelity computational fluid dynamics (CFD) models for applications in sodium fast reactors (SFRs). The project will involve comparisons between simulation results and experimental data. The exact topic will depend on interest and company needs but could cover fluid-structure interaction, turbulence model development, uncertainty quantification, or surrogate modeling. Required Qualifications Coursework in fluid mechanics and heat transfer General reactor physics and systems analysis Statistical methods and uncertainty quantification Experience with 3-D CFD and meshing workflows Proficiency in Python Bonus Qualifications Experience with advanced 3-D CFD concepts (large eddy simulation, fluid-structure interaction) Familiarity with high-performance computing workflows and tools Experience with MOOSE framework (SAS, RELAP, MOOSE subchannel) Experience with legacy codes in FORTRAN or similar Familiarity with statistics and reduced order modeling Materials Intern Working with members of Oklo\u2019s Materials Team, will help with the selection and qualification of materials for use in nuclear reactor systems. Typical work duties include computational model development and implementation, engineering analysis, documentation, and interfacing with our fuel fabrication and engineering teams. Key Responsibilities Analyzing material performance across expected operating conditions Developing new analysis methods to predict material behavior in service Performing engineering analyses, including assessments of thermal performance, mechanical performance, safety performance, manufacturability, and cost. Collaborating cross-functionally to provide technical feedback to quick-iterating computational teams. Authoring technical reports using modern documentation tools and techniques Required Qualifications Experience working with and developing material behavior models Experience with material characterization (material testing, metallography) Background in nuclear, chemical, materials engineering, or equivalent Motivated learner who is adept at efficiently summarizing literature Bonus Qualifications Experience with engineering simulation software, such as ANSYS or COMSOL Coding or data analysis experience (e.g., Python or similar tools) Mechanical Analyst Intern This intern will contribute to the evaluation and optimization of mechanical components that are critical to Oklo\u2019s advanced power plant designs. This position offers hands-on experience in applying engineering fundamentals, performing structural analysis, and integrating results into design iterations. Key Responsibilities Apply first-principles mechanics and strength of materials to support analysis of structural components Assist in summarizing mechanical analysis results for design teams, highlighting key findings such as peak stresses, margins of safety, and potential design revisions Support the development of technical documentation, ensuring clear and concise communication of assumptions, methods, and results Collaborate with design, manufacturing, and testing teams to help inform design improvements Required Qualifications Working toward a degree in Mechanical Engineering, Aerospace Engineering, Materials Science, or a related discipline Strong foundation in mechanics of materials, dynamics, and heat transfer Exposure to FEA tools (e.g., Ansys, Abaqus, COMSOL, or similar) through coursework or projects Proficiency in Python, MATLAB, or another programming language for basic data analysis or workflow automation Strong communication skills with the ability to clearly document and present technical findings Bonus Qualifications Prior research or project experience involving creep, fatigue, or thermal-mechanical problems Familiarity with engineering codes and standards (e.g., ASME, AISC, or similar) Experience using Git or another version control system Instrumentation and Controls Intern This intern will contribute to the development, integration, and testing of measurement and control systems that support advanced reactor operation and power generation. This position provides hands-on exposure to sensors, automation, and control strategies, while giving interns the opportunity to apply classroom knowledge to real-world engineering challenges. Key Responsibilities Assist in developing and testing sensors, instrumentation, and actuators under real design constraints Help design and implement control algorithms for equipment and processes Support the integration of I&C components into reactor systems and analysis workflows Contribute to documenting methods, results, and system designs in a clear and professional manner Collaborate with design and analysis teams to provide feedback that supports rapid iteration and improvement Required Qualifications Working toward a degree in Electrical Engineering, Mechanical Engineering, Computer Engineering, or a related field Familiarity with measurement techniques, data acquisition, and signal processing Exposure to control theory and feedback systems through coursework or projects Basic programming skills in Python (or similar) for data analysis and automation Strong communication skills and an eagerness to learn in a collaborative environment Bonus Qualifications Experience with circuit design (analog or digital) from labs, research, or projects Exposure to communication protocols and digital networks Familiarity with Git version control Neutronics Methodologies Intern This intern will assist in updating and streamlining neutronic methodologies to align with the latest format and standards. They will ensure that the methodologies match the way the code base builds the model, verifying consistency across both. This position also involves identifying and documenting gaps or discrepancies in the review process for future improvements. Key Responsibilities Update and optimize neutronic methodologies to the latest format and standards. Ensure methodologies align with the way the code base builds the model. Identify and document any gaps or discrepancies in the current processes. Collaborate with team members to ensure consistency and accuracy in modeling procedures. Required Qualifications Proficient in Python for scripting and automation. Familiar with AsciiDoc for documentation and formatting. Strong background in nuclear engineering and neutronics. Attention to detail with an ability to identify gaps in methodologies and processes. Process Intern This intern will support the design and analysis of fluid and power systems that are essential to Oklo\u2019s advanced reactors. This position provides hands-on experience with system modeling, equipment evaluation, and prototyping, offering interns a chance to apply classroom knowledge to real-world energy systems. Key Responsibilities Assist in designing fluid and process systems, including piping, valves, pumps, compressors, and heat exchangers Support definition of process equipment specifications, performance criteria, and operating conditions Contribute to prototype setup and testing activities for iterative system design and validation Help prepare technical documentation to support system layout, fabrication, installation, and operation Collaborate with engineers on analyses to evaluate performance and inform design refinements Document results and methods in a clear and professional manner for use across design and regulatory teams Required Qualifications Working toward a bachelor\u2019s or master\u2019s degree in Mechanical Engineering, Chemical Engineering, Nuclear Engineering, or a related discipline Background in thermodynamics, fluid mechanics, and heat transfer through coursework or projects Familiarity with process or system modeling tools (e.g., MATLAB, Python, Aspen, or similar) Strong problem-solving skills with attention to detail Ability to clearly communicate technical findings through reports or presentations Bonus Qualifications Experience with lab work, prototyping, or experimental systems Exposure to piping and instrumentation diagrams (P&IDs) or process design coursework Familiarity with pumps, heat exchangers, or thermal-fluid systems from research or internships Prototyping/Manufacturing Intern The prototyping engineering intern will be a part of the prototyping and visualization team. Key Responsibilities Assist in machining and general fabrication of prototypes and test setups Work with engineers to develop and execute testing procedures for mechanical systems Support assembly, troubleshooting, and optimization of electro-mechanical systems Conduct inspections and quality control on fabricated components Document test results, process improvements, and technical findings Collaborate with the engineering team to improve designs and manufacturing processes Maintain a safe and organized workspace Required qualifications Mechanical, manufacturing, electrical, nuclear, chemical, or similar engineering student graduating with bachelors, masters, or PhD within the following year Hands-on experience with mechanical fabrication, machining, or assembly Good understanding of mechanical design, materials, and manufacturing processes Familiarity with mechanical measurement tools (calipers, micrometers, etc.) Ability to read and interpret engineering drawings and schematics Strong problem-solving skills and ability to work independently and in a team environment Good communication and technical documentation skills Bonus qualifications Experience with manual or CNC machining Exposure to electronics, sensors, and control systems (mechatronics experience) Experience with CAD software (SolidWorks, AutoCAD, or similar) Experience with welding, 3D printing, or other prototyping techniques Understanding of fluid mechanics, thermodynamics, or materials science Experience with data acquisition systems and programming (Python, LabVIEW, or MATLAB) Business Operations Intern This role provides an opportunity to gain hands-on experience in business operations, process improvement, and cross-functional collaboration. This role is ideal for someone looking to grow their operational skill set in core business operational functions and is passionate about contributing to initiatives that drive efficiency while supporting key compliance functions across the organization. Key Responsibilities Assist with day-to-day business operations, including process documentation, workflow optimization, and project coordination. Collect, organize, and analyze operational and financial data to generate insights and support decision-making. Prepare reports, presentations, and dashboards for internal stakeholders. Collaborate with cross-functional teams (finance, HR, marketing, product, etc.) to support operational initiatives. Conduct research on industry trends, competitors, and best practices to support strategic planning. Identify and recommend opportunities for process improvements and increased efficiency. Provide administrative and logistical support for team projects and meetings. Required Qualifications Currently pursuing a bachelor\u2019s degree in Business Administration, Operations Management, Economics, or a related field. Strong analytical, organizational, and problem-solving skills. Proficiency in Microsoft Office Suite (Excel, PowerPoint, Word) or Google Workspace. Excellent written and verbal communication skills. Ability to work independently and collaboratively in a fast-paced environment. Attention to detail and eagerness to learn. Competencies We are looking for interns that are: Passionate about making advanced fission a reality Willing and able to learn quickly Eager to work on a dynamic team, receive constructive feedback, and grow with us Willing to think differently and do things in new ways Comfortable in a fast-paced, highly iterative startup environment Excited to think creatively, critically, and reflectively about the problems they are solving, while not leaning only on what has been done before Willing to propose novel and creative solutions to technical problems An excellent writer who can write in modern active voice, so make your cover letter compelling and write it well! Able to communicate technical content and results verbally Who you are: A startup person : You aren't driven by titles or hierarchy, and prefer efficiency to excess process. You don't need or expect to have a lot of guidance but you enjoy working in a fast-paced team. If you prefer the culture and feel of a large organization, that is great, but you likely won\u2019t enjoy working with us! There is plenty of important work and plenty of good opportunities with organizations like that. Motivated : You are self-motivated. You bring an enthusiasm to the team, and imbue a sense of passion that goes beyond clocking in and clocking out. This isn\u2019t about a fake or arbitrary \u201cpieces of flair\u201d mentality or lack of work-life balance! It is about being a part of the vision and feeling a part of reaching team goals. A team-player : Oklo genuinely is a team. We aren\u2019t about taking credit for ourselves, and we aren\u2019t about pushing blame to others. We do incredible things because we work as a team. An excellent communicator : We need a person who is not only technically competent but also a clear and upbeat communicator. Creative : Being creative means that when things fall outside clear scopes or processes or problems arise without clear solutions, you are able to identify it as well as invent ways to solve a problem or fill a need without micromanagement. The successful person in this job will not only be creative, but also enjoy being creative and solving open-ended problems which may change day-by-day. Detail-oriented : This focus is a big part of excellence, consistency, and quality. Excellent grammar and spelling matter for both good communication as well as the image of the company that we put forward. About Oklo's Intern compensation: Oklo offers housing assistance, $35 - $44 per hour (compensation is determined based on education, skills, and experience), 1-on-1 mentorship, hands-on training, and the opportunity to engage in fun team-building activities as well as interactive workshops, enhancing both professional and personal growth. Due to the nature of Oklo's work, only U.S. citizens can be considered for these positions. About Oklo Inc.: Oklo Inc. is developing fast fission power plants to deliver clean, reliable, and affordable energy at scale; establishing a domestic supply chain for critical radioisotopes; and advancing nuclear fuel recycling to convert nuclear waste into clean energy. Oklo was the first to receive a site use permit from the U.S. Department of Energy for a commercial advanced fission plant, was awarded fuel material from Idaho National Laboratory, and submitted the first custom combined license application for an advanced reactor to the U.S. Nuclear Regulatory Commission. Oklo is also developing advanced fuel recycling technologies in collaboration with the U.S. Department of Energy and U.S. National Laboratories. #CHOP: Oklo\u2019s Values Collaboration : We go further, together. We bring diverse perspectives, listen actively, and build trust through transparency and respect. We work across disciplines, sharing ownership to turn complex challenges into shared successes. Humility : We are team players who act for the good of the company and for the world. We are focused on our mission, not personal recognition. Ownership : We take pride in what we do and how we do it. We are proactive in finding solutions and see tasks through to completion. We are committed to delivering on our promises to provide clean, reliable, and affordable energy. Pathfinding : We chart new ground where no path exists by approaching challenges with curiosity, courage, and creativity while navigating ambiguity. Candidates should be aware that employment may be contingent upon successful completion of a drug screening, and employees may be subject to drug testing at any time in accordance with company policy and applicable laws. Recruitment Fraud Disclaimer Oklo is aware of recent recruitment fraud attempts targeting job seekers. Please be cautious of anyone claiming to represent Oklo who does not contact you from an official Oklo email address. All legitimate communications from our recruiting team\u2014 including application updates, interview requests, and job offers \u2014 will come exclusively from an @oklo.com email. Oklo will never ask for sensitive personal information, payments, or account credentials during the hiring process. If you receive suspicious outreach or have concerns about the authenticity of any communication claiming to be from Oklo, please contact us through the official channels listed on our website.",
    "company": "Oklo",
    "score": {
     "total": 87,
@@ -100,7 +105,7 @@
      44.0
     ],
     "fresh": 0,
-    "age": 30.6,
+    "age": 30.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -160,7 +165,7 @@
      47.0
     ],
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -220,7 +225,7 @@
      45.0
     ],
     "fresh": -8,
-    "age": 134.6,
+    "age": 134.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -280,7 +285,7 @@
      40.0
     ],
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -340,7 +345,7 @@
      35.0
     ],
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -400,7 +405,7 @@
      40.0
     ],
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -460,7 +465,7 @@
      40.0
     ],
     "fresh": 3,
-    "age": 17.6,
+    "age": 17.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -517,7 +522,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -574,7 +579,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -634,7 +639,7 @@
      48.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -694,7 +699,7 @@
      50.0
     ],
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -735,66 +740,6 @@
    "first_seen": "2026-10-19T21:39:01+00:00"
   },
   {
-   "id": "gh:flyzipline:7891460003",
-   "title": "Long Range Platform Hardware Engineering Intern (Summer 2027)",
-   "location": "South San Francisco, California, USA",
-   "url": "https://www.zipline.com/open-roles/7891460003?gh_jid=7891460003",
-   "posted": "2026-08-18",
-   "body": "About Zipline Zipline is the world\u2019s largest and most experienced drone delivery service. We are on a mission to serve all humans equally by ensuring access to food, medicine and essential goods anytime, anywhere. We design, build, and operate the world\u2019s largest autonomous logistics system, delivering critical supplies quickly and reliably. Today, Zipline operates on four continents, makes a delivery somewhere in the world every 30 seconds, and has completed millions of deliveries to date, including blood, vaccines, medical supplies, food, and retail products. Our customers include the world\u2019s largest and most prominent healthcare systems, governments, retailers, restaurants and global businesses who rely on us to save lives, reduce emissions, increase economic opportunity, and provide delivery from point A to point B as fast as possible. The drone is only 15% of what we\u2019ve built to enable seamless, reliable, global operations. Our system strengthens supply chains, reduces congestion, and gives people time back. With more than 140 million commercial autonomous miles safely flown, Zipline is redefining access to healthcare, consumer products, and food across the globe. We operate at a global scale and are looking for practical problem solvers who thrive on real-world challenges and rapid growth. Our team is motivated by building systems that have a direct, meaningful impact on people\u2019s lives and by scaling the future of logistics. We are seeking people who sculpt from first principles, enjoy facing adversity, and can do the impossible at record breaking speeds. About the Long Range Platform Engineering Team The Long Range Platform Design Engineering team is responsible for designing, testing, and continuously improving the hardware that makes up Zipline\u2019s long-range autonomous delivery aircraft. We own hardware across the aircraft, from structures and mechanisms to electromechanical systems, taking designs from early concepts and prototypes through validation, production, and operation in the field. Our engineers work hands-on and cross-functionally, partnering closely with teams across Test, Manufacturing, Supply Chain, and Operations to solve challenging multidisciplinary problems. We focus not just on making hardware that works, but on making it reliable, lightweight, manufacturable, maintainable, and capable of performing day after day in demanding environments. By improving the performance and reliability of our aircraft, our team directly enables Zipline to deliver critical goods safely and consistently at global scale. What makes our team special is the breadth of ownership: you can take an idea from a sketch or CAD model, build and test it yourself, and ultimately see it flying in a system serving customers around the world. Your Role As a Hardware Engineering Intern on the Long Range Platform Design Engineering team, you\u2019ll take ownership of real hardware challenges that directly impact the performance, reliability, and scalability of Zipline\u2019s long-range delivery system. You\u2019ll have the opportunity to take a project from understanding the problem and developing concepts through building, testing, and iterating on real hardware. Your work won\u2019t live on a shelf\u2014you\u2019ll see how the decisions you make contribute to aircraft that operate every day and help Zipline expand access to essential goods around the world. Along the way, you\u2019ll work closely with experienced engineers and collaborate with teams across the company, learning how complex hardware goes from an idea to a reliable product operating at scale. This is an opportunity to build your engineering judgment, get your hands dirty, and make a meaningful contribution to a system with real-world impact. What You'll Do Own a focused hardware design project or root-cause investigation from problem definition through a tested solution. Develop mechanical and/or electrical designs using engineering fundamentals, CAD, and analysis. Build and iterate on prototypes, test fixtures, and hardware using hands-on fabrication and assembly. Design and run tests to characterize performance, investigate failures, and validate solutions. Analyze test data to identify root causes, evaluate tradeoffs, and make engineering decisions. Collaborate with experienced engineers across disciplines and learn how complex hardware is developed and deployed. Communicate your work through design reviews, test results, and technical documentation. What You'll Bring Pursuing a Bachelor\u2019s degree in Mechanical Engineering, Electrical Engineering, or a related field, ideally in your junior or senior year. Strong understanding of core engineering fundamentals and an ability to apply them to open-ended hardware problems. Experience building, testing, or troubleshooting physical systems through coursework, project teams, research, internships, or personal projects. Comfort working hands-on with prototypes, tools, test equipment, and basic fabrication or assembly. Ability to analyze data, identify likely root causes, and clearly communicate your reasoning. Curiosity, ownership, and a willingness to learn quickly from both successes and failures. Ability to work onsite and collaborate closely with engineers in a hands-on hardware development environment. What Else You Should Know Our internships are full-time positions, in-person at our South San Francisco office. We will host our Summer 2027 interns from May/June 2027 to August/September 2027. This position is also open to Spring/Summer co-ops. The hourly rate for this internship is $40 per hour. Additional benefits may include relocation support, a housing stipend, overtime pay, paid sick time, and other benefits, where applicable and subject to local requirements. Candidates are limited to three (3) applications within a 30-day period. Zipline is an equal opportunity employer and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws or our own sensibilities. Zipline is also committed to providing reasonable accommodations to individuals with disabilities. Please let your point of contact at Zipline know if you require any accommodations throughout your interview process. Voluntary Self-Identification For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file. As set forth in Zipline \u2019s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.",
-   "company": "Zipline",
-   "score": {
-    "total": 80,
-    "base": 88,
-    "fit": 60,
-    "loc": 7,
-    "traj": 15,
-    "pay": 6,
-    "rate": [
-     40.0,
-     40.0
-    ],
-    "fresh": -8,
-    "age": 66.6,
-    "age_basis": "posted",
-    "tier": "A",
-    "why": [
-     [
-      "title: hardware engineer",
-      12
-     ],
-     [
-      "body: test fixture",
-      10
-     ],
-     [
-      "title: hardware",
-      8
-     ],
-     [
-      "body: fixture",
-      8
-     ],
-     [
-      "body: root cause",
-      7
-     ],
-     [
-      "body: mechanism",
-      7
-     ],
-     [
-      "body: electromechanical",
-      6
-     ],
-     [
-      "pay $40/hr",
-      6
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
    "id": "gh:flyzipline:7824316003",
    "title": "Quality & Manufacturing Intern (Summer 2027)",
    "location": "South San Francisco, California, USA",
@@ -814,7 +759,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 81.6,
+    "age": 81.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -874,7 +819,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 66.6,
+    "age": 66.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -934,7 +879,7 @@
      32.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -994,7 +939,7 @@
      50.0
     ],
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1051,7 +996,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1111,7 +1056,7 @@
      45.0
     ],
     "fresh": 0,
-    "age": 29.6,
+    "age": 29.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1168,7 +1113,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1228,7 +1173,7 @@
      30.0
     ],
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1288,7 +1233,7 @@
      50.0
     ],
     "fresh": 3,
-    "age": 18.6,
+    "age": 18.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1348,7 +1293,7 @@
      50.0
     ],
     "fresh": 3,
-    "age": 18.6,
+    "age": 18.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1408,7 +1353,7 @@
      32.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1468,7 +1413,7 @@
      33.0
     ],
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1528,7 +1473,7 @@
      33.0
     ],
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1588,7 +1533,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 57.6,
+    "age": 57.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1648,7 +1593,7 @@
      32.0
     ],
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1705,7 +1650,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 15.6,
+    "age": 15.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1765,7 +1710,7 @@
      35.0
     ],
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1825,7 +1770,7 @@
      40.0
     ],
     "fresh": 3,
-    "age": 18.6,
+    "age": 18.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1885,7 +1830,7 @@
      32.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1945,7 +1890,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2002,7 +1947,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2059,7 +2004,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2115,7 +2060,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2172,7 +2117,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2229,7 +2174,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2289,7 +2234,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 32.6,
+    "age": 32.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2349,7 +2294,7 @@
      62.98
     ],
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2406,7 +2351,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 8.6,
+    "age": 8.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2466,7 +2411,7 @@
      58.75
     ],
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2523,7 +2468,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2575,7 +2520,7 @@
      42.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2631,7 +2576,7 @@
      45.0
     ],
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2687,7 +2632,7 @@
      34.0
     ],
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2747,7 +2692,7 @@
      41.0
     ],
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2807,7 +2752,7 @@
      38.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2867,7 +2812,7 @@
      35.0
     ],
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2924,7 +2869,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2984,7 +2929,7 @@
      33.0
     ],
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3044,7 +2989,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 66.6,
+    "age": 66.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3104,7 +3049,7 @@
      74.52
     ],
     "fresh": -4,
-    "age": 50.6,
+    "age": 50.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3161,7 +3106,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3218,7 +3163,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.6,
+    "age": 66.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3275,7 +3220,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.6,
+    "age": 66.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3332,7 +3277,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 72.6,
+    "age": 72.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3389,7 +3334,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 72.6,
+    "age": 72.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3449,7 +3394,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 65.6,
+    "age": 65.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3506,7 +3451,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3566,7 +3511,7 @@
      38.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3626,7 +3571,7 @@
      31.0
     ],
     "fresh": -8,
-    "age": 92.6,
+    "age": 92.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3686,7 +3631,7 @@
      37.0
     ],
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3743,7 +3688,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 84.6,
+    "age": 84.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3803,7 +3748,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 63.6,
+    "age": 63.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3860,7 +3805,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3920,7 +3865,7 @@
      47.0
     ],
     "fresh": 9,
-    "age": 3.6,
+    "age": 3.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3945,6 +3890,59 @@
    "first_seen": "2026-10-20T22:28:35+00:00"
   },
   {
+   "id": "or:hctz:2506606",
+   "title": "Summer 2027 - Validation Engineering Intern",
+   "location": "Nampa, ID, United States",
+   "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506606",
+   "posted": "2026-10-23",
+   "body": "onsemi (Nasdaq: ON) is driving disruptive innovations to help build a better future. With a focus on automotive and industrial end-markets, the company is accelerating change in megatrends such as vehicle electrification and safety, sustainable energy grids, industrial automation, and 5G and cloud infrastructure. With a highly differentiated and innovative product portfolio, onsemi creates intelligent power and sensing technologies that solve the world\u2019s most complex challenges and leads the way in creating a safer, cleaner, and smarter world. Here at onsemi we take great pride in our internship program and the efforts we take to provide students with hands-on industry experience. We provide competitive pay, medical benefits, various networking event opportunities, and flexible hours based on school schedule. onsemi is seeking a highly skilled and motivated intern to join our Validation Engineering team to work cross functionally with technology development, design, quality assurance, product engineering, test, and applications engineering. Validation Engineering is responsible for planning and executing product validation activities that confirm sensor performance, functionality, reliability readiness, and manufacturability from early silicon through production release. With a strong focus on test development, data analysis, debug, and issue resolution, Validation Engineering plays a central role in validating new products, identifying risks, supporting silicon bring-up, and enabling high-quality customer and production readiness. The ideal candidate is excited by working cross-functionally on a diverse range of technical challenges with an eye to continuous learning and developing the competencies needed to find solutions. This opportunity will ask a student to have the following performance objectives: Support validation planning, silicon bring-up, debug, and characterization of new and derivative image sensor products, including test chips targeted at circuit and process learning, reliability readiness, and manufacturability. Validate new circuit IP and sensor functions such as memories, OTPM, pumps, regulators, serial communication interfaces, safety mechanisms, and new DFT test modes. Develop and improve validation test methodologies, automation, and data analysis flows to detect issues early, reduce debug cycle time, and support robust product release decisions. Enhance the performance and usability of existing validation tools by improving scripts, automation, documentation, and reporting workflows. Support failure analysis, root-cause investigation, and cross-functional debug activities as key components of the validation engineering role. In order to be considered for an internship, you must be a student currently enrolled in school pursuing an accredited degree program. This position is specifically looking for someone who is enrolled in a Bachelor\u2019s, Master\u2019s, or doctoral program in Electrical Engineering or related field with emphasis on chip level circuit design. Bachelor\u2019s degree in Electrical Engineering in progress, or related field with coursework on analog and digital circuit design. Solid understanding of semiconductor device physics. Proficient in scripting languages (e.g. Python, VB, Perl, C, bash). Strong analytical and problem-solving skills. Excellent written and verbal communication skills. Strong team player and ability to work well in a collaborative environment. Experience with Electrical lab equipment (e.g. oscilloscopes, power supplies, power meters, signal generators). Familiarity with CMOS Circuit design and test methodology preferred. Understanding of imager sensor architecture and product reliability requirements preferred.",
+   "company": "onsemi",
+   "score": {
+    "total": 63,
+    "base": 51,
+    "fit": 40,
+    "loc": 0,
+    "traj": 11,
+    "pay": 0,
+    "rate": null,
+    "fresh": 12,
+    "age": 0.8,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: validation",
+      8
+     ],
+     [
+      "body: failure analysis",
+      7
+     ],
+     [
+      "body: mechanism",
+      7
+     ],
+     [
+      "body: regulator",
+      5
+     ],
+     [
+      "body: pump",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-23T18:37:08+00:00"
+  },
+  {
    "id": "wd:pg:R000157840",
    "title": "Manufacturing Internship, Summer 2027",
    "location": "CINCINNATI CHEMICALS PLANT; AUBURN PLANT; ANDOVER PLANT; TABLER STATION PLANT; ALEXANDRIA PLANT; GREEN BAY PLANT; CAPE GIRARDEAU PLANT; DOVER WIPES PLANT; OXNARD PLANT; BOX ELDER PLANT; ST LOUIS PLANT; SACRAMENTO PLANT; MEHOOPANY PLANT; PHOENIX PLANT; LIMA (OHIO) PLANT; NORTH CHICAGO PLANT; KANSAS CITY PLANT - F&HC; IOWA CITY ORAL CARE SITE; IOWA CITY PLANT; ALBANY PLANT; GREENSBORO SWING ROAD PLANT; GREENSBORO BROWN SUMMIT PLANT; BOSTON PLANT",
@@ -3964,7 +3962,7 @@
      58.75
     ],
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4017,7 +4015,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4074,7 +4072,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4122,7 +4120,7 @@
      39.0
     ],
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4174,7 +4172,7 @@
      39.0
     ],
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4234,7 +4232,7 @@
      38.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4291,7 +4289,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 42.6,
+    "age": 42.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4351,7 +4349,7 @@
      57.13
     ],
     "fresh": 9,
-    "age": 3.6,
+    "age": 3.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4396,7 +4394,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 20.6,
+    "age": 20.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4449,7 +4447,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4506,7 +4504,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 17.6,
+    "age": 17.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4554,7 +4552,7 @@
      48.0
     ],
     "fresh": 3,
-    "age": 17.6,
+    "age": 17.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4606,7 +4604,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 39.6,
+    "age": 39.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4666,7 +4664,7 @@
      34.0
     ],
     "fresh": -4,
-    "age": 39.6,
+    "age": 39.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4723,7 +4721,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -4779,7 +4777,7 @@
      32.0
     ],
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4836,7 +4834,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 0.6,
+    "age": 0.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -4892,7 +4890,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4952,7 +4950,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5012,7 +5010,7 @@
      33.0
     ],
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5072,7 +5070,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 66.6,
+    "age": 66.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5125,7 +5123,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 8.6,
+    "age": 8.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5185,7 +5183,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 60.6,
+    "age": 60.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5242,7 +5240,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.6,
+    "age": 7.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5298,7 +5296,7 @@
      34.0
     ],
     "fresh": -4,
-    "age": 39.6,
+    "age": 39.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5358,7 +5356,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 66.6,
+    "age": 66.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5415,7 +5413,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5464,7 +5462,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5517,7 +5515,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5577,7 +5575,7 @@
      20.0
     ],
     "fresh": 0,
-    "age": 32.6,
+    "age": 32.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5637,7 +5635,7 @@
      29.0
     ],
     "fresh": 0,
-    "age": 32.6,
+    "age": 32.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5686,7 +5684,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5730,7 +5728,7 @@
      31.67
     ],
     "fresh": 6,
-    "age": 8.6,
+    "age": 8.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5783,7 +5781,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5836,7 +5834,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5888,7 +5886,7 @@
      32.0
     ],
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5944,7 +5942,7 @@
      50.82
     ],
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5985,46 +5983,6 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
-   "id": "ef:microsoft.com:200060962",
-   "title": "Researcher Intern, CoreAI",
-   "location": "Redmond, WA, US; Mountain View, CA, US",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027387",
-   "posted": "2026-10-15",
-   "body": "Overview The Code|AI team leads applied research and data science for GitHub Copilot and VS Code, working on the future of AI for developers. We are a diverse, entrepreneurial, and multi-disciplinary group of scientists, researchers, and engineers with a passion for using AI to improve the productivity of millions of developers around the world. We have released AI for code advancements in Github Copilot, VS Code, Visual Studio and Copilot extensions in other IDEs. Our team focuses on post-training code specific models like code completion, code embedding models and agentic research for Copilot Coding Agent, Copilot CLI and Copilot Code Review. We embrace open source and continue to share our research and work with the developer and research communities to advance AI in Developer tools. We are seeking entrepreneurial and creative Applied Researcher Interns to lead groundbreaking research projects, taking these from research into product. You will collaborate with scientists, engineers, and designers across Microsoft Research, Microsoft product teams, and Github. You will have an opportunity to build and train state-of-the-art models, and opportunities to both apply and advance existing approaches of using LLMs for software engineering, from using RAG to evaluation. Most importantly, you will have an opportunity to work closely with several developer product teams to run experiments, evaluate, iterate, and improve your AI projects on a large scale. Microsoft\u2019s mission is to empower every person and every organization on the planet to achieve more. As employees, we come together with a growth mindset, innovate to empower others and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. This is for a Summer 2027 Internship. #Code|AI #CoreAI #EiP Responsibilities Contributes to projects on the future of AI for developers. Collaborates across disciplines with product teams across Microsoft and Github. Stays up to date with the research literature and product advances in AI for software engineering. Creates new datasets from both the world's public code and Microsoft's internal data. Builds and manages large-scale ML experiments and models. Embodies our Culture and Values Qualifications Required qualifications Currently enrolled in a Doctorate Degree program in a relevant field. Must be enrolled in a Doctorate Degree program in a relevant field for the role during the academic term immediately before the internship. Must have at least one additional quarter/semester of a Doctorate Degree program program in area relevant for the role remaining following the completion of the internship. Additional Qualifications: 1+ year(s) experience in Calculus, Probability and Statistics and/or Machine Learning. 1+ year(s) experience in one or more general purpose programming languages including: C/C++, Java, R or Python, and domain relevant libraries and frameworks (e.g., PyTorch). 1+ year(s) experience (classroom or work related) in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, etc. The base pay range for this internship is USD $5,690.00 - $11,210.00 per month. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $7,410.00 - $12,250.00 per month. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-intern-pay Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April) This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
-   "company": "Microsoft",
-   "score": {
-    "total": 53,
-    "base": 47,
-    "fit": 8,
-    "loc": 8,
-    "traj": 19,
-    "pay": 12,
-    "rate": [
-     32.89,
-     70.81
-    ],
-    "fresh": 6,
-    "age": 8.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $52/hr",
-      12
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: computer vision",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-10-15T09:17:02+00:00"
-  },
-  {
    "id": "wd:ngc:R10256851",
    "title": "2027Aeronautical Integration and Test Intern -  Huntsville AL",
    "location": "United States-Alabama-Huntsville",
@@ -6044,7 +6002,7 @@
      31.0
     ],
     "fresh": 9,
-    "age": 3.6,
+    "age": 3.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6093,7 +6051,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 3.6,
+    "age": 3.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6153,7 +6111,7 @@
      30.0
     ],
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6202,7 +6160,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 0.6,
+    "age": 0.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6242,7 +6200,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 37.6,
+    "age": 37.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6302,7 +6260,7 @@
      29.0
     ],
     "fresh": 0,
-    "age": 30.6,
+    "age": 30.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6350,7 +6308,7 @@
      41.25
     ],
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6399,7 +6357,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 11.6,
+    "age": 11.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6444,7 +6402,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6489,7 +6447,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6541,7 +6499,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6601,7 +6559,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6661,7 +6619,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6721,7 +6679,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6778,7 +6736,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 24.6,
+    "age": 24.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6811,46 +6769,6 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
-   "id": "gh:doordashusa:8312381",
-   "title": "Drone Operations, Intern - Labs (Summer 2027)",
-   "location": "San Francisco, CA",
-   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8312381",
-   "posted": "2026-10-22",
-   "body": "About the Team DoorDash Labs is an independent team within DoorDash. The Drone Operations team keeps DoorDash's drones airworthy and operates them safely. Our missions range from experimental test flights to commercial delivery. We're hiring Drone Operations interns to work at the intersection of operations and robotics to solve key business problems with elegant technical solutions. If you have a passion for applying robotics solutions to a service loved by millions of people, then we want to talk to you! About the Role As a Drone Operations Intern, you will support daily flight operations for DoorDash\u2019s drone delivery program, from our test flight program to our commercial operation. You will get exposure to all elements of our operation, including Pilots, Maintenance Technicians, Quality/Safety, and Engineering. You will rotate around our facilities and get an end-to-end view of our program. In your first 30 days, you will learn our flight procedures and safety practices. By 90 days, you will own a project that improves flight safety, reliability, or efficiency. Success means the team adopts your work and our operations measurably improve. It is an exciting time to join as we scale from test flights to commercial delivery.You will report into the Head of Drone Operations on our Drone Operations team in our Labs organization. You\u2019re excited about this opportunity because you will\u2026 Work with pilots, technicians, and engineers to troubleshoot issues and improve procedures. Review flight logs and mission data to find trends in safety, reliability, and delivery performance. Help run field operations at flight sites, including aircraft setup, loading, and recovery. Own an intern project and present your results to the team at the end of summer. We\u2019re excited about you because\u2026 You are pursuing a B.S. or M.S. Degree in Aviation Studies or equivalent, have no more than 2 years of full-time work experience, and are graduating between Fall 2027 to Summer 2028.You are available for a May or June 2027 start date (Internships are only hosted during the Summer) You hold, or are willing to obtain, a Federal Aviation Administration (FAA) Part 107 Remote Pilot Certificate. You have hands-on experience building, flying, or maintaining drones or radio-controlled (RC) aircraft. You can operate in field environments with extended periods of standing, repetitive drone handling, and outdoor exposure to varying weather (heat, dust, cold, wind, etc.). You communicate clearly and follow safety procedures carefully. Applications for this position are accepted on an ongoing basis Compensation Actual compensation within the pay range listed below will be decided based on factors including, but not limited to, skills, prior relevant experience, and specific work location. Base salary is localized according to employee work location. DoorDash cares about you and your overall well-being. That\u2019s why we offer a comprehensive benefits package to all regular employees, which includes a 401(k) plan with employer matching, 16 weeks of paid parental leave, wellness benefits, commuter benefits match, paid time off and paid sick leave in compliance with applicable laws (e.g. Colorado Healthy Families and Workplaces Act). DoorDash also offers medical, dental, and vision benefits, 11 paid holidays, disability and basic life insurance, family-forming assistance, and a mental health program, among others. To learn more about our benefits, visit our careers page here . See below for paid time off details: For salaried roles: flexible paid time off/vacation, plus 80 hours of paid sick time per year. For hourly roles: vacation accrued at about 1 hour for every 25.97 hours worked (e.g. about 6.7 hours/month if working 40 hours/week; about 3.4 hours/month if working 20 hours/week), and paid sick time accrued at 1 hour for every 30 hours worked (e.g. about 5.8 hours/month if working 40 hours/week; about 2.9 hours/month if working 20 hours/week). The national base pay range for this position within the United States, including Illinois and Colorado. $107,400 \u2014 $158,000 USD About DoorDash At DoorDash, our mission to empower local economies shapes how our team members move quickly, learn, and reiterate in order to make impactful decisions that display empathy for our range of users\u2014from Dashers to merchant partners to consumers. We are a technology and logistics company that started by enabling door-to-door delivery, and we are looking for team members who can help us go from a company that is known as the place you order food to a company that people turn to for any and all goods. DoorDash is growing rapidly and changing constantly, which gives our team members the opportunity to share their unique perspectives, solve new challenges, and own their careers. We're committed to supporting employees\u2019 happiness, healthiness, and overall well-being by providing comprehensive benefits and perks including premium healthcare, wellness expense reimbursement, paid parental leave and more. Our Commitment to Diversity and Inclusion We\u2019re committed to growing and empowering a more inclusive community within our company, industry, and cities. That\u2019s why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel. Statement of Non-Discrimination: In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on: race, color, ancestry, national origin, religion, age, gender, marital/domestic partner status, sexual orientation, gender identity or expression, disability status, or veteran status. Above and beyond discrimination and harassment based on \u201cprotected categories,\u201d we also strive to prevent other subtler forms of inappropriate behavior (i.e., stereotyping) from ever gaining a foothold in our office. Whether blatant or hidden, barriers to success have no place at DoorDash. We value a diverse workforce \u2013 people who identify as women, non-binary or gender non-conforming, LGBTQIA+, American Indian or Native Alaskan, Black or African American, Hispanic or Latinx, Native Hawaiian or Other Pacific Islander, differently-abled, caretakers and parents, and veterans are strongly encouraged to apply. Thank you to the Level Playing Field Institute for this statement of non-discrimination. Pursuant to the San Francisco Fair Chance Ordinance, Los Angeles Fair Chance Initiative for Hiring Ordinance, and any other state or local hiring regulations, we will consider for employment any qualified applicant, including those with arrest and conviction records, in a manner consistent with the applicable regulation. If you need any accommodations, please inform your recruiting contact upon initial connection. Notice to Applicants for Jobs Located in NYC or Remote Jobs Associated With Office in NYC Only We used Covey as part of our hiring and/or promotional process for jobs in NYC and certain features may qualify it as an AEDT in NYC. As part of the hiring and/or promotion process, we provided Covey with job requirements and candidate submitted applications. We began using Covey Scout for Inbound from August 21, 2023, through December 21, 2023. We resumed using Covey Scout for Inbound again on June 29, 2024, and ceased using Covey Scout for Inbound on April 30, 2026. The Covey tool has been reviewed by an independent auditor. Results of the audit may be viewed here: https://getcovey.com/nyc-local-law-144 . Beware of recruitment scams: DoorDash, Deliveroo, and Wolt will never ask you to pay money or share sensitive financial information during hiring \u2014 learn more about our legitimate recruiting process at Recruitment Scam Awareness - DoorDash .",
-   "company": "DoorDash",
-   "score": {
-    "total": 50,
-    "base": 38,
-    "fit": 5,
-    "loc": 7,
-    "traj": 11,
-    "pay": 15,
-    "rate": [
-     51.63,
-     75.96
-    ],
-    "fresh": 12,
-    "age": 1.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $64/hr",
-      15
-     ],
-     [
-      "body: fea",
-      3
-     ],
-     [
-      "body: nx",
-      2
-     ]
-    ]
-   },
-   "first_seen": "2026-10-22T17:39:05+00:00"
-  },
-  {
    "id": "wd:marvell:2604975",
    "title": "Hardware Engineer Intern, BS - Summer 2027",
    "location": "Santa Clara, CA",
@@ -6867,7 +6785,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 18.6,
+    "age": 18.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6907,7 +6825,7 @@
      35.0
     ],
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6963,7 +6881,7 @@
      33.0
     ],
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7023,7 +6941,7 @@
      50.0
     ],
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7072,7 +6990,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7125,7 +7043,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7182,7 +7100,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 8.6,
+    "age": 8.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7230,7 +7148,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 63.6,
+    "age": 63.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7287,7 +7205,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7336,7 +7254,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7381,7 +7299,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7434,7 +7352,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7483,7 +7401,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7532,7 +7450,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 3.6,
+    "age": 3.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7584,7 +7502,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 43.6,
+    "age": 43.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7636,7 +7554,7 @@
      32.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7688,7 +7606,7 @@
      44.18
     ],
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7737,7 +7655,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 3.6,
+    "age": 3.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7782,7 +7700,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7830,7 +7748,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7887,7 +7805,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 71.6,
+    "age": 71.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7947,7 +7865,7 @@
      37.0
     ],
     "fresh": -8,
-    "age": 64.6,
+    "age": 64.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8007,7 +7925,7 @@
      24.23
     ],
     "fresh": -4,
-    "age": 37.6,
+    "age": 37.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8063,7 +7981,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 21.6,
+    "age": 21.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8112,7 +8030,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8148,7 +8066,7 @@
      30.0
     ],
     "fresh": 0,
-    "age": 24.6,
+    "age": 24.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8208,7 +8126,7 @@
      28.15
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8265,7 +8183,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8306,7 +8224,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8362,7 +8280,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8418,7 +8336,7 @@
      45.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8466,7 +8384,7 @@
      32.0
     ],
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8495,6 +8413,198 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "wd:globalfoundries:JR-2604627",
+   "title": "Advanced Manufacturing Engineering Intern, Process & Equipment (Summer 2027)",
+   "location": "USA - New York - Malta",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Advanced-Manufacturing-Engineering-Intern--Process---Equipment--Summer-2027-_JR-2604627",
+   "posted": "2026-10-23",
+   "body": "About GlobalFoundries: GlobalFoundries (GF) is a leading manufacturer of essential semiconductors, enabling AI at scale from the cloud to the physical world. Through deep partnerships with customers, GF delivers differentiated, power \u2011 efficient and high \u2011 performance solutions for high \u2011 growth markets. GF is a trusted and holistic technology partner for customers around the world. GF\u2019s talented, global team remains focused every day on security, longevity and sustainability. For more information, visit www.gf.com . Internship Program Overview: Our Interns & Co-ops are our entry-level talent pipeline for GF across the globe. Our goal is to provide students with a meaningful work experience that will equip them with the skills to embark on a career in the fast-paced and growing semiconductor industry after graduation. As an intern at GF, you\u2019ll experience one-on-one mentorship, work assignments that prioritize your growth and potential, professional development opportunities, and the chance to network with executives. Summary of Role: GlobalFoundries Fab 8 is seeking highly skilled and motivated Process & Equipment Engineering interns to become part of our state of the art 300mm factory. Essential Responsibilities Include: In your role as Engineering Intern you will be working with an assigned Engineer to: Reduce variability in the process recovery procedures Increase the ability to detect problems earlier, enhancement in LOD Reduce cost of chemicals and or qualification wafers Standardize processes across like equipment Enhance process performance measurement techniques Lead improvement projects and present results Collaborate with equipment and maintenance teams including engineers, technicians, managers and production employees in a dynamic environment. Other Responsibilities: Perform all activities in a safe and responsible manner and support all Environmental, Health, Safety & Security requirements and programs Required Qualifications: Education \u2013 At least a sophomore at time of application and actively pursuing a Bachelor\u2019s in Chemical engineering , Electrical Engineering, Mechanical Engineering, Materials Science or related field through an accredited degree program during the time of internship. Must have at least an overall 3.0 GPA and be in good academic standing. Language Fluency - English (Written & Verbal) Ability to work at least 40 hours per week during the internship. Preferred Qualifications: Prior related internship or co-op experience Strong interest in leveraging AI tools and emerging technologies to enhance productivity, streamline workflows, and support effective decision-making. Demonstrated prior leadership experience in the workplace, school projects, competitions, etc. Project management skills, i.e., the ability to innovate and execute on solutions that matter; the ability to navigate ambiguity. Strong written and verbal communication skills Strong planning & organizational skills Demonstrated ability to meet deadlines and commitments Individuals will be and must be able to understand complex automated systems and human interactions. SPC Controls experience . #InternshipProgramUS Expected Salary Range $20.00 - $40.00 Expected Salary Range $0.00 - $0.00 The exact Salary will be determined based on qualifications, experience and location. If you need a reasonable accommodation for any part of the employment process, please contact us by email at usaccommodations@gf.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address. An offer with GlobalFoundries is conditioned upon the successful completion of pre-employment conditions, as applicable, and subject to applicable laws and regulations. GlobalFoundries is fully committed to equal opportunity in the workplace and believes that cultural diversity within the company enhances its business potential. GlobalFoundries goal of excellence in business necessitates the attraction and retention of highly qualified people. Artificial barriers and stereotypic biases detract from this objective and may be illegally discriminatory. All policies and processes which pertain to employees including recruitment, selection, training, utilization, promotion, compensation, benefits, extracurricular programs, and termination are created and implemented without regard to age, ethnicity, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, sexual orientation, gender identity or expression, veteran status, or any other characteristic or category specified by local, state or federal law",
+   "company": "GlobalFoundries",
+   "score": {
+    "total": 46,
+    "base": 34,
+    "fit": 17,
+    "loc": 6,
+    "traj": 11,
+    "pay": 0,
+    "rate": [
+     20.0,
+     40.0
+    ],
+    "fresh": 12,
+    "age": 0.8,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: equipment",
+      7
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: manufacturing",
+      3
+     ],
+     [
+      "title: process",
+      3
+     ],
+     [
+      "pay $30/hr",
+      0
+     ]
+    ]
+   },
+   "first_seen": "2026-10-23T18:37:08+00:00"
+  },
+  {
+   "id": "wd:globalfoundries:JR-2604626",
+   "title": "Advanced Manufacturing Engineering Intern, Process & Equipment (Summer 2027)",
+   "location": "USA - New York - Malta",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Advanced-Manufacturing-Engineering-Intern--Process---Equipment--Summer-2027-_JR-2604626",
+   "posted": "2026-10-23",
+   "body": "About GlobalFoundries: GlobalFoundries (GF) is a leading manufacturer of essential semiconductors, enabling AI at scale from the cloud to the physical world. Through deep partnerships with customers, GF delivers differentiated, power \u2011 efficient and high \u2011 performance solutions for high \u2011 growth markets. GF is a trusted and holistic technology partner for customers around the world. GF\u2019s talented, global team remains focused every day on security, longevity and sustainability. For more information, visit www.gf.com . Internship Program Overview: Our Interns & Co-ops are our entry-level talent pipeline for GF across the globe. Our goal is to provide students with a meaningful work experience that will equip them with the skills to embark on a career in the fast-paced and growing semiconductor industry after graduation. As an intern at GF, you\u2019ll experience one-on-one mentorship, work assignments that prioritize your growth and potential, professional development opportunities, and the chance to network with executives. Summary of Role: GlobalFoundries Fab 8 is seeking highly skilled and motivated Process & Equipment Engineering interns to become part of our state of the art 300mm factory. Essential Responsibilities Include: In your role as Engineering Intern you will be working with an assigned Engineer to: Reduce variability in the process recovery procedures Increase the ability to detect problems earlier, enhancement in LOD Reduce cost of chemicals and or qualification wafers Standardize processes across like equipment Enhance process performance measurement techniques Lead improvement projects and present results Collaborate with equipment and maintenance teams including engineers, technicians, managers and production employees in a dynamic environment. Other Responsibilities: Perform all activities in a safe and responsible manner and support all Environmental, Health, Safety & Security requirements and programs Required Qualifications: Education \u2013 At least a sophomore at time of application and actively pursuing a Bachelor\u2019s in Chemical engineering , Electrical Engineering, Mechanical Engineering, Materials Science or related field through an accredited degree program during the time of internship. Must have at least an overall 3.0 GPA and be in good academic standing. Language Fluency - English (Written & Verbal) Ability to work at least 40 hours per week during the internship. Preferred Qualifications: Prior related internship or co-op experience Strong interest in leveraging AI tools and emerging technologies to enhance productivity, streamline workflows, and support effective decision-making. Demonstrated prior leadership experience in the workplace, school projects, competitions, etc. Project management skills, i.e., the ability to innovate and execute on solutions that matter; the ability to navigate ambiguity. Strong written and verbal communication skills Strong planning & organizational skills Demonstrated ability to meet deadlines and commitments Individuals will be and must be able to understand complex automated systems and human interactions. SPC Controls experience . #InternshipProgramUS Expected Salary Range $20.00 - $40.00 Expected Salary Range $0.00 - $0.00 The exact Salary will be determined based on qualifications, experience and location. If you need a reasonable accommodation for any part of the employment process, please contact us by email at usaccommodations@gf.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address. An offer with GlobalFoundries is conditioned upon the successful completion of pre-employment conditions, as applicable, and subject to applicable laws and regulations. GlobalFoundries is fully committed to equal opportunity in the workplace and believes that cultural diversity within the company enhances its business potential. GlobalFoundries goal of excellence in business necessitates the attraction and retention of highly qualified people. Artificial barriers and stereotypic biases detract from this objective and may be illegally discriminatory. All policies and processes which pertain to employees including recruitment, selection, training, utilization, promotion, compensation, benefits, extracurricular programs, and termination are created and implemented without regard to age, ethnicity, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, sexual orientation, gender identity or expression, veteran status, or any other characteristic or category specified by local, state or federal law",
+   "company": "GlobalFoundries",
+   "score": {
+    "total": 46,
+    "base": 34,
+    "fit": 17,
+    "loc": 6,
+    "traj": 11,
+    "pay": 0,
+    "rate": [
+     20.0,
+     40.0
+    ],
+    "fresh": 12,
+    "age": 0.8,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: equipment",
+      7
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: manufacturing",
+      3
+     ],
+     [
+      "title: process",
+      3
+     ],
+     [
+      "pay $30/hr",
+      0
+     ]
+    ]
+   },
+   "first_seen": "2026-10-23T18:37:08+00:00"
+  },
+  {
+   "id": "wd:globalfoundries:JR-2604583",
+   "title": "Advanced Manufacturing Engineering Intern, Process & Equipment (Summer 2027)",
+   "location": "USA - New York - Malta",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Advanced-Manufacturing-Engineering-Intern--Process---Equipment--Summer-2027-_JR-2604583",
+   "posted": "2026-10-23",
+   "body": "About GlobalFoundries: GlobalFoundries (GF) is a leading manufacturer of essential semiconductors, enabling AI at scale from the cloud to the physical world. Through deep partnerships with customers, GF delivers differentiated, power \u2011 efficient and high \u2011 performance solutions for high \u2011 growth markets. GF is a trusted and holistic technology partner for customers around the world. GF\u2019s talented, global team remains focused every day on security, longevity and sustainability. For more information, visit www.gf.com . Internship Program Overview: Our Interns & Co-ops are our entry-level talent pipeline for GF across the globe. Our goal is to provide students with a meaningful work experience that will equip them with the skills to embark on a career in the fast-paced and growing semiconductor industry after graduation. As an intern at GF, you\u2019ll experience one-on-one mentorship, work assignments that prioritize your growth and potential, professional development opportunities, and the chance to network with executives. Summary of Role: GlobalFoundries Fab 8 is seeking highly skilled and motivated Process & Equipment Engineering interns to become part of our state of the art 300mm factory. Essential Responsibilities Include: In your role as Engineering Intern you will be working with an assigned Engineer to: Reduce variability in the process recovery procedures Increase the ability to detect problems earlier, enhancement in LOD Reduce cost of chemicals and or qualification wafers Standardize processes across like equipment Enhance process performance measurement techniques Lead improvement projects and present results Collaborate with equipment and maintenance teams including engineers, technicians, managers and production employees in a dynamic environment. Other Responsibilities: Perform all activities in a safe and responsible manner and support all Environmental, Health, Safety & Security requirements and programs Required Qualifications: Education \u2013 At least a sophomore at time of application and actively pursuing a Bachelor\u2019s in Chemical engineering , Electrical Engineering, Mechanical Engineering, Materials Science or related field through an accredited degree program during the time of internship. Must have at least an overall 3.0 GPA and be in good academic standing. Language Fluency - English (Written & Verbal) Ability to work at least 40 hours per week during the internship. Preferred Qualifications: Prior related internship or co-op experience Strong interest in leveraging AI tools and emerging technologies to enhance productivity, streamline workflows, and support effective decision-making. Demonstrated prior leadership experience in the workplace, school projects, competitions, etc. Project management skills, i.e., the ability to innovate and execute on solutions that matter; the ability to navigate ambiguity. Strong written and verbal communication skills Strong planning & organizational skills Demonstrated ability to meet deadlines and commitments Individuals will be and must be able to understand complex automated systems and human interactions. SPC Controls experience . #InternshipProgramUS Expected Salary Range $20.00 - $40.00 Expected Salary Range $0.00 - $0.00 The exact Salary will be determined based on qualifications, experience and location. If you need a reasonable accommodation for any part of the employment process, please contact us by email at usaccommodations@gf.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address. An offer with GlobalFoundries is conditioned upon the successful completion of pre-employment conditions, as applicable, and subject to applicable laws and regulations. GlobalFoundries is fully committed to equal opportunity in the workplace and believes that cultural diversity within the company enhances its business potential. GlobalFoundries goal of excellence in business necessitates the attraction and retention of highly qualified people. Artificial barriers and stereotypic biases detract from this objective and may be illegally discriminatory. All policies and processes which pertain to employees including recruitment, selection, training, utilization, promotion, compensation, benefits, extracurricular programs, and termination are created and implemented without regard to age, ethnicity, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, sexual orientation, gender identity or expression, veteran status, or any other characteristic or category specified by local, state or federal law",
+   "company": "GlobalFoundries",
+   "score": {
+    "total": 46,
+    "base": 34,
+    "fit": 17,
+    "loc": 6,
+    "traj": 11,
+    "pay": 0,
+    "rate": [
+     20.0,
+     40.0
+    ],
+    "fresh": 12,
+    "age": 0.8,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: equipment",
+      7
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: manufacturing",
+      3
+     ],
+     [
+      "title: process",
+      3
+     ],
+     [
+      "pay $30/hr",
+      0
+     ]
+    ]
+   },
+   "first_seen": "2026-10-23T18:37:08+00:00"
+  },
+  {
+   "id": "wd:globalfoundries:JR-2604625",
+   "title": "Advanced Manufacturing Engineering Intern, Process & Equipment (Summer 2027)",
+   "location": "USA - New York - Malta",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Advanced-Manufacturing-Engineering-Intern--Process---Equipment--Summer-2027-_JR-2604625",
+   "posted": "2026-10-23",
+   "body": "About GlobalFoundries: GlobalFoundries (GF) is a leading manufacturer of essential semiconductors, enabling AI at scale from the cloud to the physical world. Through deep partnerships with customers, GF delivers differentiated, power \u2011 efficient and high \u2011 performance solutions for high \u2011 growth markets. GF is a trusted and holistic technology partner for customers around the world. GF\u2019s talented, global team remains focused every day on security, longevity and sustainability. For more information, visit www.gf.com . Internship Program Overview: Our Interns & Co-ops are our entry-level talent pipeline for GF across the globe. Our goal is to provide students with a meaningful work experience that will equip them with the skills to embark on a career in the fast-paced and growing semiconductor industry after graduation. As an intern at GF, you\u2019ll experience one-on-one mentorship, work assignments that prioritize your growth and potential, professional development opportunities, and the chance to network with executives. Summary of Role: GlobalFoundries Fab 8 is seeking highly skilled and motivated Process & Equipment Engineering interns to become part of our state of the art 300mm factory. Essential Responsibilities Include: In your role as Engineering Intern you will be working with an assigned Engineer to: Reduce variability in the process recovery procedures Increase the ability to detect problems earlier, enhancement in LOD Reduce cost of chemicals and or qualification wafers Standardize processes across like equipment Enhance process performance measurement techniques Lead improvement projects and present results Collaborate with equipment and maintenance teams including engineers, technicians, managers and production employees in a dynamic environment. Other Responsibilities: Perform all activities in a safe and responsible manner and support all Environmental, Health, Safety & Security requirements and programs Required Qualifications: Education \u2013 At least a sophomore at time of application and actively pursuing a Bachelor\u2019s in Chemical engineering , Electrical Engineering, Mechanical Engineering, Materials Science or related field through an accredited degree program during the time of internship. Must have at least an overall 3.0 GPA and be in good academic standing. Language Fluency - English (Written & Verbal) Ability to work at least 40 hours per week during the internship. Preferred Qualifications: Prior related internship or co-op experience Strong interest in leveraging AI tools and emerging technologies to enhance productivity, streamline workflows, and support effective decision-making. Demonstrated prior leadership experience in the workplace, school projects, competitions, etc. Project management skills, i.e., the ability to innovate and execute on solutions that matter; the ability to navigate ambiguity. Strong written and verbal communication skills Strong planning & organizational skills Demonstrated ability to meet deadlines and commitments Individuals will be and must be able to understand complex automated systems and human interactions. SPC Controls experience . #InternshipProgramUS Expected Salary Range $20.00 - $40.00 Expected Salary Range $0.00 - $0.00 The exact Salary will be determined based on qualifications, experience and location. If you need a reasonable accommodation for any part of the employment process, please contact us by email at usaccommodations@gf.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address. An offer with GlobalFoundries is conditioned upon the successful completion of pre-employment conditions, as applicable, and subject to applicable laws and regulations. GlobalFoundries is fully committed to equal opportunity in the workplace and believes that cultural diversity within the company enhances its business potential. GlobalFoundries goal of excellence in business necessitates the attraction and retention of highly qualified people. Artificial barriers and stereotypic biases detract from this objective and may be illegally discriminatory. All policies and processes which pertain to employees including recruitment, selection, training, utilization, promotion, compensation, benefits, extracurricular programs, and termination are created and implemented without regard to age, ethnicity, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, sexual orientation, gender identity or expression, veteran status, or any other characteristic or category specified by local, state or federal law",
+   "company": "GlobalFoundries",
+   "score": {
+    "total": 46,
+    "base": 34,
+    "fit": 17,
+    "loc": 6,
+    "traj": 11,
+    "pay": 0,
+    "rate": [
+     20.0,
+     40.0
+    ],
+    "fresh": 12,
+    "age": 0.8,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: equipment",
+      7
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: manufacturing",
+      3
+     ],
+     [
+      "title: process",
+      3
+     ],
+     [
+      "pay $30/hr",
+      0
+     ]
+    ]
+   },
+   "first_seen": "2026-10-23T18:37:08+00:00"
+  },
+  {
    "id": "wd:globalfoundries:JR-2604358",
    "title": "Process Integration Intern, ULP CMOS Technology Development (Summer 2027)",
    "location": "USA - New York - Malta",
@@ -8514,7 +8624,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8570,7 +8680,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8615,7 +8725,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 0.6,
+    "age": 0.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8647,7 +8757,7 @@
      48.0
     ],
     "fresh": -4,
-    "age": 57.6,
+    "age": 57.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8696,7 +8806,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8733,51 +8843,6 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
-   "id": "wd:globalhr:01882181",
-   "title": "Summer Engineering Intern (Summer 2027)",
-   "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Summer-Engineering-Intern--Summer-2027-_01882181",
-   "posted": "2026-10-23",
-   "body": "Date Posted: 2026-10-23 Country: United States of America Location: US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: Must be authorized to work in the U.S. without the company\u2019s immigration sponsorship now or in the future. The company will not offer immigration sponsorship for this position.\u200b The company will not seek an export authorization for this role. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. What You Will Do Support the design, development, and maintenance of flight-critical embedded software for commercial aviation solutions and avionics products Contribute to assigned cross-functional engineering project team responsible for the design, development, and verification of real-time embedded software Support project team activities related to the specification of requirements, software implementation, test case development, verification test execution, and certification support Work with desktop computer in an office environment and with target hardware in an engineering lab to achieve the goal of delivering a high-quality software product within schedule and cost constraints What You Will Learn You will deepen your understanding of aircraft systems engineering, gaining insights into integration and development processes You will gain exposure to Avionics regulatory and certification requirements and processes You will expand your professional network, working alongside industry experts and global teams You will learn why people enjoy and feel fulfilled by working in our industry Qualifications You Must Have Must be pursuing Bachelor\u2019s or Advanced degree in Science, Technology, Engineering or Mathematics (STEM) actively enrolled through the completion of the internship/co-op session. Must have a minimum of 60 hours of credit by the start of the internship / co-op session. Experience may be obtained through on-the-job experience, research, coursework, or projects. Qualifications We Prefer Must be willing to work 40 hours per week Cumulative GPA of 3.0 or above is required Demonstrated interest in embedded software solutions and board-level device drivers Programming experience in C, C++ and/or Python Prior RTX internship, co-op, or work experience. What We Offer Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX we value: Trust, Respect, Accountability, Collaboration, and Innovation. Relocation Eligibility Learn More & Apply Now! Please consider the following role type definition as you apply for this role. Onsite : Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate\u2019s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company\u2019s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans\u2019 Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms",
-   "company": "RTX",
-   "score": {
-    "total": 46,
-    "base": 34,
-    "fit": 21,
-    "loc": 0,
-    "traj": 13,
-    "pay": 0,
-    "rate": null,
-    "fresh": 12,
-    "age": 0.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: regulator",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
    "id": "ab:revel:6ca4dca8-a43e-41da-acc3-e6b4d8f9b3c1",
    "title": "Internship: Forward Deployed Engineer, Test",
    "location": "Los Angeles",
@@ -8794,7 +8859,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 17.6,
+    "age": 17.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8842,7 +8907,7 @@
      22.0
     ],
     "fresh": 3,
-    "age": 16.6,
+    "age": 16.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8902,7 +8967,7 @@
      38.0
     ],
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8955,7 +9020,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9003,7 +9068,7 @@
      29.0
     ],
     "fresh": 0,
-    "age": 29.6,
+    "age": 29.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9051,7 +9116,7 @@
      38.0
     ],
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9111,7 +9176,7 @@
      44.18
     ],
     "fresh": 9,
-    "age": 4.6,
+    "age": 4.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9160,7 +9225,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 14.6,
+    "age": 14.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9212,7 +9277,7 @@
      24.0
     ],
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9272,7 +9337,7 @@
      34.0
     ],
     "fresh": 0,
-    "age": 21.6,
+    "age": 21.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9313,6 +9378,50 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "wd:globalfoundries:JR-2603957",
+   "title": "New Product Development Test Engineer Intern (Summer 2027)",
+   "location": "USA - Texas - Richardson",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/New-Product-Development-Test-Engineer-Intern--Summer-2027-_JR-2603957",
+   "posted": "2026-10-23",
+   "body": "About GlobalFoundries GlobalFoundries is a leading full-service semiconductor foundry providing a unique combination of design, development, and fabrication services to some of the world\u2019s most inspired technology companies. With a global manufacturing footprint spanning three continents, GlobalFoundries makes possible the technologies and systems that transform industries and give customers the power to shape their markets. For more information, visit www.gf.com. Internship Program Overview: Our Interns & Co-ops are our entry-level talent pipeline for GF across the globe. Our goal is to provide students with a meaningful work experience that will equip them with the skills to embark on a career in the fast-paced and growing semiconductor industry after graduation. As an intern at GF, you\u2019ll experience one-on-one mentorship, work assignments that prioritize your growth and potential, professional development opportunities, and the chance to network with executives. Summary of Role: Join the New Product Development team for a hands-on engineering internship focused on automated test solutions for complex digital, analog, and mixed-signal integrated circuits used in automotive and industrial applications. You will work alongside Product and Test Engineers on defined assignments spanning test planning, ATE development, silicon bring-up, validation, data analysis, and manufacturing-readiness activities using Advantest and Teradyne platforms. Essential Responsibilities include: Support pre-silicon planning by translating product requirements and datasheets into technical specifications, specification-compliance matrices, design-for-test requirements, and ATE test plans. Assist with the design of cost-effective ATE hardware and resource allocation that improve multisite efficiency and pin multiplexing for silicon bring-up, validation, and production release. Develop, bring up, validate, and debug automated test programs for digital, analog, and mixed-signal integrated circuits on Advantest and Teradyne ATE platforms. Analyze test and characterization data to investigate design margins, wafer-fabrication process variation, parametric performance, yield, and test-time opportunities. Support process-window experiments, silicon and package qualification activities, and product specification compliance across automotive, industrial, or commercial requirements. Collaborate with Design, DFT, Design Validation, Program Management, Quality and Reliability Engineering, Customer Quality Engineering, Bench Characterization, Applications, Fab, Assembly, and factory Test teams. Contribute to ATE test hardware, socket design, board schematics, layout, diagnostic code, and test automation specifications under the guidance of experienced engineers. Document gaps, lessons learned, and best practices, and contribute reusable methods to the Standard Test Methods Library (STML) across ATE platforms. Other Responsibilities: Perform all activities in a safe and responsible manner and support all Environmental, Health, Safety & Security requirements and programs. Required Qualifications: Education \u2013 At least a sophomore at time of application and actively pursuing a Bachelor\u2019s or Master\u2019s in Electrical Engineering, Computer Engineering, or related field through an accredited degree program during the time of internship. Must have at least an overall 3.0 GPA and be in good academic standing. Language Fluency - English (Written & Verbal) Ability to work at least 40 hours per week during the internship. Preferred Qualifications: Prior related internship or co-op experience Demonstrated prior leadership experience in the workplace, school projects, competitions, etc. Strong interest in leveraging AI tools and emerging technologies to enhance productivity, streamline workflows, and support effective decision-making. Project management skills, i.e., the ability to innovate and execute on solutions that matter; the ability to navigate ambiguity. Strong written and verbal communication skills Strong planning & organizational skills Coursework or project experience in semiconductor test, design-for-test, integrated-circuit design, electronics, or semiconductor physics. Programming experience in one or more languages, including C, C++, Python, or Perl. Familiarity with digital, analog, or mixed-signal circuits, test automation, or laboratory measurement equipment. #InternshipProgramUS Expected Salary Range $20.00 - $40.00 Expected Salary Range $0.00 - $0.00 The exact Salary will be determined based on qualifications, experience and location. If you need a reasonable accommodation for any part of the employment process, please contact us by email at usaccommodations@gf.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address. An offer with GlobalFoundries is conditioned upon the successful completion of pre-employment conditions, as applicable, and subject to applicable laws and regulations. GlobalFoundries is fully committed to equal opportunity in the workplace and believes that cultural diversity within the company enhances its business potential. GlobalFoundries goal of excellence in business necessitates the attraction and retention of highly qualified people. Artificial barriers and stereotypic biases detract from this objective and may be illegally discriminatory. All policies and processes which pertain to employees including recruitment, selection, training, utilization, promotion, compensation, benefits, extracurricular programs, and termination are created and implemented without regard to age, ethnicity, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, sexual orientation, gender identity or expression, veteran status, or any other characteristic or category specified by local, state or federal law",
+   "company": "GlobalFoundries",
+   "score": {
+    "total": 45,
+    "base": 33,
+    "fit": 22,
+    "loc": 0,
+    "traj": 11,
+    "pay": 0,
+    "rate": [
+     20.0,
+     40.0
+    ],
+    "fresh": 12,
+    "age": 0.8,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: test",
+      12
+     ],
+     [
+      "body: test plan",
+      6
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "pay $30/hr",
+      0
+     ]
+    ]
+   },
+   "first_seen": "2026-10-23T18:37:08+00:00"
+  },
+  {
    "id": "wd:marvell:2603856",
    "title": "Process Engineer Intern, MS - Summer 2027",
    "location": "Santa Clara, CA",
@@ -9329,7 +9438,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9374,7 +9483,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9418,7 +9527,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9463,7 +9572,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9503,7 +9612,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 37.6,
+    "age": 37.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9563,7 +9672,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 37.6,
+    "age": 37.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9623,7 +9732,7 @@
      29.0
     ],
     "fresh": 0,
-    "age": 34.6,
+    "age": 34.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9671,7 +9780,7 @@
      50.0
     ],
     "fresh": 12,
-    "age": 1.6,
+    "age": 1.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9716,7 +9825,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 38.6,
+    "age": 38.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9764,7 +9873,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 63.6,
+    "age": 63.8,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -9824,7 +9933,7 @@
      21.6
     ],
     "fresh": 0,
-    "age": 21.6,
+    "age": 21.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9877,7 +9986,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 32.6,
+    "age": 32.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9922,7 +10031,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9963,7 +10072,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 3.6,
+    "age": 3.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10007,7 +10116,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10063,7 +10172,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10123,7 +10232,7 @@
      24.23
     ],
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10180,7 +10289,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 30.6,
+    "age": 30.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10232,7 +10341,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10281,7 +10390,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10325,7 +10434,7 @@
      45.25
     ],
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10377,7 +10486,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10425,7 +10534,7 @@
      29.0
     ],
     "fresh": 9,
-    "age": 2.6,
+    "age": 2.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10474,7 +10583,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 21.6,
+    "age": 21.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10526,7 +10635,7 @@
      25.0
     ],
     "fresh": 0,
-    "age": 29.6,
+    "age": 29.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10586,7 +10695,7 @@
      28.0
     ],
     "fresh": 0,
-    "age": 32.6,
+    "age": 32.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10643,7 +10752,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 11.6,
+    "age": 11.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10696,7 +10805,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10737,7 +10846,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10789,7 +10898,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 39.6,
+    "age": 39.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10849,7 +10958,7 @@
      28.85
     ],
     "fresh": -4,
-    "age": 42.6,
+    "age": 42.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10906,7 +11015,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10958,7 +11067,7 @@
      33.0
     ],
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11018,7 +11127,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 134.6,
+    "age": 134.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11066,7 +11175,7 @@
      41.0
     ],
     "fresh": 3,
-    "age": 14.6,
+    "age": 14.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11114,7 +11223,7 @@
      29.0
     ],
     "fresh": 0,
-    "age": 34.6,
+    "age": 34.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11166,7 +11275,7 @@
      29.0
     ],
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11219,7 +11328,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 8.6,
+    "age": 8.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11271,7 +11380,7 @@
      38.0
     ],
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11327,7 +11436,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 65.6,
+    "age": 65.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11387,7 +11496,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11432,7 +11541,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 31.6,
+    "age": 31.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11472,7 +11581,7 @@
      47.0
     ],
     "fresh": -4,
-    "age": 50.6,
+    "age": 50.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11520,7 +11629,7 @@
      33.0
     ],
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11580,7 +11689,7 @@
      34.0
     ],
     "fresh": -4,
-    "age": 50.6,
+    "age": 50.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11628,7 +11737,7 @@
      29.0
     ],
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11676,7 +11785,7 @@
      40.0
     ],
     "fresh": 6,
-    "age": 7.6,
+    "age": 7.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11724,7 +11833,7 @@
      40.0
     ],
     "fresh": 6,
-    "age": 7.6,
+    "age": 7.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11749,54 +11858,6 @@
    "first_seen": "2026-10-16T17:58:09+00:00"
   },
   {
-   "id": "wd:globalfoundries:JR-2604628",
-   "title": "Advanced Manufacturing Engineering Intern, Process & Equipment (Summer 2027)",
-   "location": "USA - New York - Malta",
-   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Advanced-Manufacturing-Engineering-Intern--Process---Equipment--Summer-2027-_JR-2604628",
-   "posted": "2026-10-15",
-   "body": "About GlobalFoundries: GlobalFoundries (GF) is a leading manufacturer of essential semiconductors, enabling AI at scale from the cloud to the physical world. Through deep partnerships with customers, GF delivers differentiated, power \u2011 efficient and high \u2011 performance solutions for high \u2011 growth markets. GF is a trusted and holistic technology partner for customers around the world. GF\u2019s talented, global team remains focused every day on security, longevity and sustainability. For more information, visit www.gf.com . Internship Program Overview: Our Interns & Co-ops are our entry-level talent pipeline for GF across the globe. Our goal is to provide students with a meaningful work experience that will equip them with the skills to embark on a career in the fast-paced and growing semiconductor industry after graduation. As an intern at GF, you\u2019ll experience one-on-one mentorship, work assignments that prioritize your growth and potential, professional development opportunities, and the chance to network with executives. Summary of Role: GlobalFoundries Fab 8 is seeking highly skilled and motivated Process & Equipment Engineering interns to become part of our state of the art 300mm factory. Essential Responsibilities Include: In your role as Engineering Intern you will be working with an assigned Engineer to: Reduce variability in the process recovery procedures Increase the ability to detect problems earlier, enhancement in LOD Reduce cost of chemicals and or qualification wafers Standardize processes across like equipment Enhance process performance measurement techniques Lead improvement projects and present results Collaborate with equipment and maintenance teams including engineers, technicians, managers and production employees in a dynamic environment. Other Responsibilities: Perform all activities in a safe and responsible manner and support all Environmental, Health, Safety & Security requirements and programs Required Qualifications: Education \u2013 At least a sophomore at time of application and actively pursuing a Bachelor\u2019s in Chemical engineering , Electrical Engineering, Mechanical Engineering, Materials Science or related field through an accredited degree program during the time of internship. Must have at least an overall 3.0 GPA and be in good academic standing. Language Fluency - English (Written & Verbal) Ability to work at least 40 hours per week during the internship. Preferred Qualifications: Prior related internship or co-op experience Strong interest in leveraging AI tools and emerging technologies to enhance productivity, streamline workflows, and support effective decision-making. Demonstrated prior leadership experience in the workplace, school projects, competitions, etc. Project management skills, i.e., the ability to innovate and execute on solutions that matter; the ability to navigate ambiguity. Strong written and verbal communication skills Strong planning & organizational skills Demonstrated ability to meet deadlines and commitments Individuals will be and must be able to understand complex automated systems and human interactions. SPC Controls experience . #InternshipProgramUS Expected Salary Range $20.00 - $40.00 Expected Salary Range $0.00 - $0.00 The exact Salary will be determined based on qualifications, experience and location. If you need a reasonable accommodation for any part of the employment process, please contact us by email at usaccommodations@gf.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address. An offer with GlobalFoundries is conditioned upon the successful completion of pre-employment conditions, as applicable, and subject to applicable laws and regulations. GlobalFoundries is fully committed to equal opportunity in the workplace and believes that cultural diversity within the company enhances its business potential. GlobalFoundries goal of excellence in business necessitates the attraction and retention of highly qualified people. Artificial barriers and stereotypic biases detract from this objective and may be illegally discriminatory. All policies and processes which pertain to employees including recruitment, selection, training, utilization, promotion, compensation, benefits, extracurricular programs, and termination are created and implemented without regard to age, ethnicity, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, sexual orientation, gender identity or expression, veteran status, or any other characteristic or category specified by local, state or federal law",
-   "company": "GlobalFoundries",
-   "score": {
-    "total": 40,
-    "base": 34,
-    "fit": 17,
-    "loc": 6,
-    "traj": 11,
-    "pay": 0,
-    "rate": [
-     20.0,
-     40.0
-    ],
-    "fresh": 6,
-    "age": 8.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: equipment",
-      7
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "title: manufacturing",
-      3
-     ],
-     [
-      "title: process",
-      3
-     ],
-     [
-      "pay $30/hr",
-      0
-     ]
-    ]
-   },
-   "first_seen": "2026-10-15T14:16:27+00:00"
-  },
-  {
    "id": "wd:globalfoundries:JR-2604578",
    "title": "Advanced Manufacturing Engineering Intern, Process & Equipment (Summer 2027)",
    "location": "USA - New York - Malta",
@@ -11816,7 +11877,7 @@
      40.0
     ],
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11864,7 +11925,7 @@
      48.0
     ],
     "fresh": 0,
-    "age": 24.6,
+    "age": 24.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11912,7 +11973,7 @@
      59.0
     ],
     "fresh": 0,
-    "age": 24.6,
+    "age": 24.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11953,7 +12014,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11985,7 +12046,7 @@
      50.0
     ],
     "fresh": 6,
-    "age": 8.6,
+    "age": 8.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12026,7 +12087,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 17.6,
+    "age": 17.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12071,7 +12132,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 17.6,
+    "age": 17.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12116,7 +12177,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 17.6,
+    "age": 17.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12161,7 +12222,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 24.6,
+    "age": 24.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12214,7 +12275,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 24.6,
+    "age": 24.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12270,7 +12331,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12327,7 +12388,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.6,
+    "age": 66.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12380,7 +12441,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.6,
+    "age": 66.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12436,7 +12497,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12496,7 +12557,7 @@
      44.0
     ],
     "fresh": -8,
-    "age": 64.6,
+    "age": 64.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12544,7 +12605,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 65.6,
+    "age": 65.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12593,7 +12654,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12633,7 +12694,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 39.6,
+    "age": 39.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12674,7 +12735,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 11.6,
+    "age": 11.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12707,7 +12768,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 74.6,
+    "age": 74.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12748,7 +12809,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 42.6,
+    "age": 42.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12800,7 +12861,7 @@
      24.23
     ],
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12852,7 +12913,7 @@
      24.23
     ],
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12904,7 +12965,7 @@
      57.6
     ],
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12956,7 +13017,7 @@
      29.0
     ],
     "fresh": 0,
-    "age": 29.6,
+    "age": 29.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13000,7 +13061,7 @@
      38.0
     ],
     "fresh": 6,
-    "age": 9.6,
+    "age": 9.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13052,7 +13113,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 65.6,
+    "age": 65.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13109,7 +13170,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.6,
+    "age": 10.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13145,7 +13206,7 @@
      48.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13194,7 +13255,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13243,7 +13304,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 32.6,
+    "age": 32.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13283,7 +13344,7 @@
      41.0
     ],
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13320,7 +13381,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 21.6,
+    "age": 21.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13361,7 +13422,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13409,7 +13470,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 43.6,
+    "age": 43.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13457,7 +13518,7 @@
      27.69
     ],
     "fresh": 0,
-    "age": 31.6,
+    "age": 31.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13514,7 +13575,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 30.6,
+    "age": 30.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13551,7 +13612,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13592,7 +13653,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13629,7 +13690,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 38.6,
+    "age": 38.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13670,7 +13731,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.6,
+    "age": 35.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13715,7 +13776,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13760,7 +13821,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 29.6,
+    "age": 29.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13808,7 +13869,7 @@
      27.0
     ],
     "fresh": 3,
-    "age": 17.6,
+    "age": 17.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13860,7 +13921,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13920,7 +13981,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13980,7 +14041,7 @@
      22.0
     ],
     "fresh": 3,
-    "age": 16.6,
+    "age": 16.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14028,7 +14089,7 @@
      20.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14088,7 +14149,7 @@
      60.0
     ],
     "fresh": 0,
-    "age": 29.6,
+    "age": 29.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14136,7 +14197,7 @@
      24.23
     ],
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14192,7 +14253,7 @@
      48.0
     ],
     "fresh": -4,
-    "age": 46.6,
+    "age": 46.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14252,7 +14313,7 @@
      45.0
     ],
     "fresh": 0,
-    "age": 30.6,
+    "age": 30.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14292,7 +14353,7 @@
      24.0
     ],
     "fresh": 3,
-    "age": 11.6,
+    "age": 11.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14344,7 +14405,7 @@
      50.0
     ],
     "fresh": 3,
-    "age": 16.6,
+    "age": 16.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14392,7 +14453,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14444,7 +14505,7 @@
      31.0
     ],
     "fresh": -8,
-    "age": 92.6,
+    "age": 92.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14501,7 +14562,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 18.6,
+    "age": 18.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14542,7 +14603,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 18.6,
+    "age": 18.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14583,7 +14644,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 21.6,
+    "age": 21.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14624,7 +14685,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 28.6,
+    "age": 28.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14676,7 +14737,7 @@
      45.0
     ],
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14720,7 +14781,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 58.6,
+    "age": 58.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14765,7 +14826,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14821,7 +14882,7 @@
      50.82
     ],
     "fresh": -4,
-    "age": 51.6,
+    "age": 51.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14870,7 +14931,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 24.6,
+    "age": 24.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14903,7 +14964,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14936,7 +14997,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14969,7 +15030,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 20.6,
+    "age": 20.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15009,7 +15070,7 @@
      43.0
     ],
     "fresh": 3,
-    "age": 17.6,
+    "age": 17.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15050,7 +15111,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 24.6,
+    "age": 24.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15095,7 +15156,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 24.6,
+    "age": 24.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15143,7 +15204,7 @@
      27.0
     ],
     "fresh": 3,
-    "age": 11.6,
+    "age": 11.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15196,7 +15257,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15248,7 +15309,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 65.6,
+    "age": 65.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15296,7 +15357,7 @@
      48.0
     ],
     "fresh": -4,
-    "age": 46.6,
+    "age": 46.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15341,7 +15402,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15393,7 +15454,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 28.6,
+    "age": 28.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15441,7 +15502,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 28.6,
+    "age": 28.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15486,7 +15547,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15523,7 +15584,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15563,7 +15624,7 @@
      46.51
     ],
     "fresh": 0,
-    "age": 22.6,
+    "age": 22.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15607,7 +15668,7 @@
      34.29
     ],
     "fresh": -4,
-    "age": 37.6,
+    "age": 37.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15651,7 +15712,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15696,7 +15757,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15740,7 +15801,7 @@
      25.0
     ],
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15788,7 +15849,7 @@
      24.23
     ],
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15840,7 +15901,7 @@
      34.0
     ],
     "fresh": -4,
-    "age": 43.6,
+    "age": 43.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15900,7 +15961,7 @@
      34.0
     ],
     "fresh": -4,
-    "age": 37.6,
+    "age": 37.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15949,7 +16010,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15989,7 +16050,7 @@
      29.0
     ],
     "fresh": 0,
-    "age": 30.6,
+    "age": 30.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16026,7 +16087,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 37.6,
+    "age": 37.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16067,7 +16128,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 57.6,
+    "age": 57.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16108,7 +16169,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 30.6,
+    "age": 30.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16156,7 +16217,7 @@
      50.0
     ],
     "fresh": -8,
-    "age": 64.6,
+    "age": 64.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16205,7 +16266,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 39.6,
+    "age": 39.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16242,7 +16303,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 50.6,
+    "age": 50.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16295,7 +16356,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 29.6,
+    "age": 29.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16336,7 +16397,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16381,7 +16442,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16426,7 +16487,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 23.6,
+    "age": 23.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16474,7 +16535,7 @@
      29.0
     ],
     "fresh": -8,
-    "age": 69.6,
+    "age": 69.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16515,7 +16576,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 28.6,
+    "age": 28.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16556,7 +16617,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16601,7 +16662,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16646,7 +16707,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 25.6,
+    "age": 25.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16694,7 +16755,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 58.6,
+    "age": 58.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16742,7 +16803,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 58.6,
+    "age": 58.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16790,7 +16851,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 43.6,
+    "age": 43.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16842,7 +16903,7 @@
      36.0
     ],
     "fresh": -8,
-    "age": 81.6,
+    "age": 81.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16894,7 +16955,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16950,7 +17011,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17006,7 +17067,7 @@
      29.0
     ],
     "fresh": -8,
-    "age": 69.6,
+    "age": 69.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17054,7 +17115,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 88.6,
+    "age": 88.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17095,7 +17156,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17132,7 +17193,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.6,
+    "age": 49.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17165,7 +17226,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17209,7 +17270,7 @@
      37.0
     ],
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17254,7 +17315,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17298,7 +17359,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17350,7 +17411,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17394,7 +17455,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 57.6,
+    "age": 57.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17446,7 +17507,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 57.6,
+    "age": 57.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17498,7 +17559,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 57.6,
+    "age": 57.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17550,7 +17611,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 57.6,
+    "age": 57.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17599,7 +17660,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 39.6,
+    "age": 39.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17639,7 +17700,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17695,7 +17756,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17748,7 +17809,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17792,7 +17853,7 @@
      45.0
     ],
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17825,7 +17886,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 37.6,
+    "age": 37.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17869,7 +17930,7 @@
      50.0
     ],
     "fresh": -4,
-    "age": 57.6,
+    "age": 57.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17906,7 +17967,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17951,7 +18012,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17992,7 +18053,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 53.6,
+    "age": 53.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18036,7 +18097,7 @@
      60.0
     ],
     "fresh": -8,
-    "age": 64.6,
+    "age": 64.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18077,7 +18138,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 42.6,
+    "age": 42.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18122,7 +18183,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18155,7 +18216,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.6,
+    "age": 52.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18188,7 +18249,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 39.6,
+    "age": 39.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18217,7 +18278,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 36.6,
+    "age": 36.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18262,7 +18323,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 44.6,
+    "age": 44.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18302,7 +18363,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18350,7 +18411,7 @@
      33.0
     ],
     "fresh": -4,
-    "age": 45.6,
+    "age": 45.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18391,7 +18452,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 38.6,
+    "age": 38.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18435,7 +18496,7 @@
      20.0
     ],
     "fresh": -8,
-    "age": 66.6,
+    "age": 66.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18484,7 +18545,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 78.6,
+    "age": 78.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18513,7 +18574,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 70.6,
+    "age": 70.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18542,7 +18603,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 70.6,
+    "age": 70.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18587,7 +18648,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 65.6,
+    "age": 65.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18628,7 +18689,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 65.6,
+    "age": 65.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18669,7 +18730,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 65.6,
+    "age": 65.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18713,7 +18774,7 @@
      20.0
     ],
     "fresh": -8,
-    "age": 67.6,
+    "age": 67.8,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19498,13 +19559,6 @@
   },
   {
    "company": "BAE Systems",
-   "title": "Engineer Intern \u2013 System Integration, Summer 2027",
-   "location": "Rockville, Maryland, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/130377BR",
-   "reason": "scored 24, below tier B"
-  },
-  {
-   "company": "BAE Systems",
    "title": "Engineering Intern (EE/CE/RF), Summer 2027 (Hybrid)",
    "location": "Nashua, New Hampshire, United States",
    "url": "https://jobs.baesystems.com/us/en/job/129933BR",
@@ -19596,13 +19650,6 @@
   },
   {
    "company": "BAE Systems",
-   "title": "Programmer Intern, Summer 2027",
-   "location": "Washington, District Of Columbia, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/130483BR",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "BAE Systems",
    "title": "Quality Engineering Intern III (Summer 2027) Nashua, NH",
    "location": "Nashua, New Hampshire, United States",
    "url": "https://jobs.baesystems.com/us/en/job/130888BR",
@@ -19656,13 +19703,6 @@
    "location": "Rockville, Maryland, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131759BR",
    "reason": "scored 11, below tier B"
-  },
-  {
-   "company": "BAE Systems",
-   "title": "System Test Development Intern (Missile Focus), Summer 2027",
-   "location": "Rockville, Maryland, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131166BR",
-   "reason": "scored 27, below tier B"
   },
   {
    "company": "BWX Technologies",
@@ -19995,13 +20035,6 @@
   },
   {
    "company": "Booz Allen",
-   "title": "University - Summer 2027 Quantum Computing Research Intern",
-   "location": "Washington, DC",
-   "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Washington-DC/University---Summer-2027-Quantum-Computing-Research-Intern_R0249046",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Booz Allen",
    "title": "University Master\u2019s, 2026 Fall Technologist Intern",
    "location": "Honolulu, HI",
    "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Honolulu-HI/University-Master-s--2026-Fall-Technologist-Intern_R0249247",
@@ -20174,6 +20207,13 @@
    "location": "Sterling, VA, US",
    "url": "https://caci.wd1.myworkdayjobs.com/External/job/Sterling-VA-US/VT-Scholar-Program---Summer-2027-Internship_330553",
    "reason": "scored 14, below tier B"
+  },
+  {
+   "company": "Carrier",
+   "title": "Software Engineering Intern - Summer",
+   "location": "CAN01: Carrier-Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",
+   "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN01-Carrier-Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Software-Engineering-Intern---Summer_30220588",
+   "reason": "non-ME discipline"
   },
   {
    "company": "CesiumAstro",
@@ -20708,20 +20748,6 @@
    "reason": "scored 21, below tier B"
   },
   {
-   "company": "GE HealthCare",
-   "title": "Commercial Sales Leadership Program Internship",
-   "location": "Waukesha",
-   "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Waukesha/Commercial-Sales-Leadership-Program-Internship_R4043921-1",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "GE HealthCare",
-   "title": "Supplier Quality and Development Engineering Co-op (Fall 2027)",
-   "location": "Madison",
-   "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Madison/Supplier-Quality-and-Development-Engineering-Co-op--Fall-2027-_R4046025-1",
-   "reason": "scored 26, below tier B"
-  },
-  {
    "company": "GE Vernova",
    "title": "GE Vernova - AGI - Grid Foundational Models Intern - Summer 2027",
    "location": "Bellevue",
@@ -20846,6 +20872,13 @@
    "location": "Greenville",
    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Greenville/GE-Vernova-Gas-Power-Greenville-Manufacturing-Summer-2027-Internship_R5053693-3",
    "reason": "scored 25, below tier B"
+  },
+  {
+   "company": "GE Vernova",
+   "title": "GE Vernova Gas Power Supply Chain & Manufacturing  Internship/Co-op \u2013 SPRING/SUMMER 2027 (Bangor, Maine)-6",
+   "location": "Bangor",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bangor/GE-Vernova-Gas-Power-Supply-Chain---Manufacturing--Internship-Co-op---SPRING-SUMMER-2027--Bangor--Maine--6_R5056308-2",
+   "reason": "non-ME discipline"
   },
   {
    "company": "GE Vernova",
@@ -21285,6 +21318,13 @@
    "company": "GlobalFoundries",
    "title": "Industrial Engineering Intern (Summer 2027)",
    "location": "USA - Vermont - Essex Junction",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Industrial-Engineering-Intern--Summer-2027-_JR-2604630",
+   "reason": "scored 15, below tier B"
+  },
+  {
+   "company": "GlobalFoundries",
+   "title": "Industrial Engineering Intern (Summer 2027)",
+   "location": "USA - Vermont - Essex Junction",
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Industrial-Engineering-Intern--Summer-2027-_JR-2604569",
    "reason": "scored 19, below tier B"
   },
@@ -21392,6 +21432,20 @@
    "location": "USA - Texas - Austin",
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Strategic-Transactions---Alliances-Intern--Summer-2027-_JR-2604237",
    "reason": "scored 15, below tier B"
+  },
+  {
+   "company": "GlobalFoundries",
+   "title": "Systems/Process Engineering, Tapeout Operations Intern (Summer 2027)",
+   "location": "USA - Vermont - Essex Junction",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Systems-Process-Engineering--Tapeout-Operations-Summer-2027-_JR-2604924",
+   "reason": "scored 30, below tier B"
+  },
+  {
+   "company": "GlobalFoundries",
+   "title": "Tapeout Engineering Intern, Tapeout Operations (Summer 2027)",
+   "location": "USA - Vermont - Essex Junction",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Tapeout-Engineering-Intern--Tapeout-Operations--Summer-2027-_JR-2604923",
+   "reason": "scored 30, below tier B"
   },
   {
    "company": "GlobalFoundries",
@@ -22059,13 +22113,6 @@
    "reason": "no mechanical signal"
   },
   {
-   "company": "Jabil",
-   "title": "Enterprise Solutions Intern",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Enterprise-Solutions-Intern_J2464889",
-   "reason": "scored 14, below tier B"
-  },
-  {
    "company": "Johnson Controls",
    "title": "Accounting & Finance Intern",
    "location": "Milwaukee-Wisconsin-United States of America",
@@ -22347,6 +22394,13 @@
   },
   {
    "company": "Lockheed Martin",
+   "title": "College Student - DMSMS Intern",
+   "location": "Stratford, CT, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477460318",
+   "reason": "scored 18, below tier B"
+  },
+  {
+   "company": "Lockheed Martin",
    "title": "Engineering - Intern",
    "location": "Mt Laurel Township, NJ, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477288560",
@@ -22372,6 +22426,13 @@
    "location": "Troy, AL, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477211510",
    "reason": "no mechanical signal"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "Systems Engineer - Intern",
+   "location": "Fort Worth, TX, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477385176",
+   "reason": "scored 18, below tier B"
   },
   {
    "company": "MBDA",
@@ -22442,13 +22503,6 @@
    "location": "Santa Clara, CA",
    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Supply-Chain-Intern--BS---Summer-2027_2604541-1",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Marvell",
-   "title": "Technical Writer Intern, BS/BA - Summer 2027",
-   "location": "Santa Clara, CA",
-   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Technical-Writer-Intern--BS-BA---Summer-2027_2604149",
-   "reason": "scored 23, below tier B"
   },
   {
    "company": "Medtronic",
@@ -22802,34 +22856,6 @@
   },
   {
    "company": "Optiver",
-   "title": "Quantitative Intern (Summer 2027)",
-   "location": "Austin, Texas, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Optiver",
-   "title": "Quantitative Intern (Summer 2027)",
-   "location": "Chicago, Illinois, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8402215002/?gh_jid=8402215002",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Optiver",
-   "title": "Quantitative Research Intern, PhD (Summer 2027)",
-   "location": "Chicago, Illinois, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8451781002/?gh_jid=8451781002",
-   "reason": "scored 26, below tier B"
-  },
-  {
-   "company": "Optiver",
-   "title": "Quantitative Research Intern, PhD (Summer 2027)",
-   "location": "Austin, Texas, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002",
-   "reason": "scored 21, below tier B"
-  },
-  {
-   "company": "Optiver",
    "title": "Quantitative Research Internship, Bachelor or Master (Summer 2027 - Shanghai)",
    "location": "Shanghai, China",
    "url": "https://www.optiver.com/join-us/jobs/8644376002/?gh_jid=8644376002",
@@ -22841,13 +22867,6 @@
    "location": "Shanghai, China",
    "url": "https://www.optiver.com/join-us/jobs/8623923002/?gh_jid=8623923002",
    "reason": "scored 24, below tier B"
-  },
-  {
-   "company": "Optiver",
-   "title": "Trading Automation and Operations Intern (Summer 2027)",
-   "location": "Chicago, Illinois, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8489582002/?gh_jid=8489582002",
-   "reason": "scored 31, below tier B"
   },
   {
    "company": "Oshkosh",
@@ -23016,13 +23035,6 @@
    "location": "Appleton, Wisconsin, United States",
    "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Appleton-Wisconsin-United-States/Materials-Management-Intern--Summer-2027-or-Year-Round-_R49751",
    "reason": "scored 12, below tier B"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Materials Management Intern (Summer 2027)",
-   "location": "Murfreesboro, Tennessee, United States",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Murfreesboro-Tennessee-United-States/Materials-Intern_R49881",
-   "reason": "no mechanical signal"
   },
   {
    "company": "Oshkosh",
@@ -23313,6 +23325,13 @@
   },
   {
    "company": "RTX",
+   "title": "Advanced Manufacturing Engineering Co-Op (Summer/Fall 2027)",
+   "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Advanced-Manufacturing-Engineering-Co-Op--Summer-Fall-2027-_01874261",
+   "reason": "scored 24, below tier B"
+  },
+  {
+   "company": "RTX",
    "title": "Advanced Measurements Research and Development Intern (Summer 2027) (Onsite)",
    "location": "US-CT-MIDDLETOWN-220A ~ Aircraft Rd ~ BLDG 220A",
    "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-MIDDLETOWN-220A--Aircraft-Rd--BLDG-220A/Advanced-Measurements-Research-and-Development-Intern--Summer-2027---Onsite-_01864777-1",
@@ -23541,6 +23560,13 @@
    "location": "US-IA-CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108",
    "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Manufacturing-Electrical-Engineering-Co-Op--Summer-Fall-2027-_01870641",
    "reason": "non-ME discipline"
+  },
+  {
+   "company": "RTX",
+   "title": "Materials Management & Logistics Internship Program (Summer 2027)",
+   "location": "US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Materials-Management---Logistics-Internship-Program--Summer-2027-_01862953-1",
+   "reason": "scored 17, below tier B"
   },
   {
    "company": "RTX",
@@ -23790,13 +23816,6 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
    "location": "Albuquerque, NM",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
    "reason": "non-ME discipline"
@@ -23804,8 +23823,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
    "reason": "non-ME discipline"
   },
   {
@@ -23817,9 +23836,16 @@
   },
   {
    "company": "Rocket Lab",
+   "title": "Security Analyst Intern Summer 2027",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
    "reason": "non-ME discipline"
   },
   {
@@ -23832,8 +23858,8 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
@@ -24664,6 +24690,13 @@
   },
   {
    "company": "Type One Energy",
+   "title": "Summer Internship - Human Resources",
+   "location": "Knoxville, TN",
+   "url": "https://ats.rippling.com/type-one-energy-group/jobs/e6a6d057-f15d-4f84-bb26-cd9fc5cccaaa",
+   "reason": "scored 17, below tier B"
+  },
+  {
+   "company": "Type One Energy",
    "title": "Summer Internship - Marketing and Communications",
    "location": "Knoxville, TN",
    "url": "https://ats.rippling.com/type-one-energy-group/jobs/387f53dc-6136-4a08-9ffd-445384787a0e",
@@ -24675,6 +24708,13 @@
    "location": "Knoxville, TN",
    "url": "https://ats.rippling.com/type-one-energy-group/jobs/21601e37-fe47-423f-8333-1dba8e21f674",
    "reason": "scored 26, below tier B"
+  },
+  {
+   "company": "Type One Energy",
+   "title": "Summer Internship - Plasma Diagnostics",
+   "location": "Knoxville, TN",
+   "url": "https://ats.rippling.com/type-one-energy-group/jobs/f2197e39-1718-433f-8272-ab94ecfa02e6",
+   "reason": "scored 24, below tier B"
   },
   {
    "company": "Type One Energy",
@@ -24691,11 +24731,18 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Ursa Major",
-   "title": "2027 Summer In-Space Propulsion Engineering Intern",
-   "location": "Berthoud, Colorado",
-   "url": "https://ursamajor.com/careers/?gh_jid=4745126005",
-   "reason": "scored 31, below tier B"
+   "company": "Type One Energy",
+   "title": "Summer Internship - Systems Engineer",
+   "location": "Knoxville, TN",
+   "url": "https://ats.rippling.com/type-one-energy-group/jobs/7bc8e29f-a367-4f5a-9c8f-f9c5a737267b",
+   "reason": "scored 22, below tier B"
+  },
+  {
+   "company": "Type One Energy",
+   "title": "Summer Internship - Systems Engineer",
+   "location": "Madison, WI",
+   "url": "https://ats.rippling.com/type-one-energy-group/jobs/7bc8e29f-a367-4f5a-9c8f-f9c5a737267b",
+   "reason": "scored 22, below tier B"
   },
   {
    "company": "Ursa Major",
@@ -25238,6 +25285,13 @@
   },
   {
    "company": "Watts Water Technologies",
+   "title": "NPD Engineer Intern, Summer 2027",
+   "location": "Fort Worth, TX",
+   "url": "https://wattswater.wd5.myworkdayjobs.com/External/job/Fort-Worth-TX/NPD-Engineer-Intern--Summer-2027_10017809",
+   "reason": "scored 8, below tier B"
+  },
+  {
+   "company": "Watts Water Technologies",
    "title": "Product Specialist Intern, Summer 2027",
    "location": "Fort Myers, FL",
    "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/Fort-Myers-FL/Product-Specialist-Intern-2027_10017586",
@@ -25655,6 +25709,13 @@
    "location": "Milwaukee, WI",
    "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/Visual-Communications-Intern--Summer-2027-_REQ-020086",
    "reason": "no mechanical signal"
+  },
+  {
+   "company": "iRhythm Technologies",
+   "title": "Lifecycle Engineering Co-op Intern",
+   "location": "Orange County, CA",
+   "url": "https://irhythmtech.wd5.myworkdayjobs.com/irhythm/job/Orange-County-CA/Lifecycle-Engineering-Co-Op-Full-Time-Intern-Jan-June-2027_JR1784-1",
+   "reason": "scored 10, below tier B"
   },
   {
    "company": "nVent",
