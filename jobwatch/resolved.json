@@ -103,6 +103,10 @@
   "trajectory": 12,
   "verified": true
  },
+ "Aerotech": {
+  "board": null,
+  "trajectory": 11
+ },
  "Agilent Technologies": {
   "board": "workday",
   "host": "wd5",
@@ -718,8 +722,11 @@
   "weak": "one-word name, owner 'CoreWeave'"
  },
  "Corning": {
-  "board": null,
-  "trajectory": 12
+  "base": "https://corningjobs.corning.com",
+  "board": "successfactors",
+  "source": "simplify",
+  "trajectory": 12,
+  "verified": true
  },
  "Crane Aerospace and Electronics": {
   "board": "workday",
@@ -947,6 +954,13 @@
  "Etched": {
   "board": "ashby",
   "slug": "Etched",
+  "source": "simplify",
+  "trajectory": 11,
+  "verified": true
+ },
+ "Fab2": {
+  "board": "ashby",
+  "slug": "fab2",
   "source": "simplify",
   "trajectory": 11,
   "verified": true
@@ -1621,6 +1635,15 @@
  "Lutron Electronics": {
   "board": null,
   "trajectory": 12
+ },
+ "MBDA": {
+  "board": "workday",
+  "host": "wd3",
+  "site": "MBDA-UK",
+  "source": "simplify",
+  "tenant": "mbda",
+  "trajectory": 11,
+  "verified": true
  },
  "MITRE": {
   "base": "https://careers.mitre.org/us/en",
@@ -2367,6 +2390,13 @@
   "trajectory": 11,
   "verified": true
  },
+ "Simbe Robotics": {
+  "board": "lever",
+  "slug": "SimbeRobotics",
+  "source": "simplify",
+  "trajectory": 11,
+  "verified": true
+ },
  "Skydio": {
   "board": "ashby",
   "postings": 157,
@@ -2667,6 +2697,13 @@
   "trajectory": 11,
   "verified": true
  },
+ "Upscale AI": {
+  "board": "lever",
+  "slug": "upscale-ai",
+  "source": "simplify",
+  "trajectory": 11,
+  "verified": true
+ },
  "Ursa Major": {
   "board": "greenhouse",
   "slug": "ursamajor",
@@ -2905,6 +2942,15 @@
   "site": "Elkay_External",
   "source": "simplify",
   "tenant": "elkay",
+  "trajectory": 11,
+  "verified": true
+ },
+ "iRhythm Technologies": {
+  "board": "workday",
+  "host": "wd5",
+  "site": "irhythm",
+  "source": "simplify",
+  "tenant": "irhythmtech",
   "trajectory": 11,
   "verified": true
  },
