@@ -134,6 +134,11 @@ dispatch when another run is already queued or running, so there is only ever on
 chain. The `8,28,48 * * * *` schedule stays as a backup that restarts the chain if
 it ever stops. Runner minutes are free on a public repo.
 
+Publishing to Pages occasionally hangs on GitHub's side ("updating_pages" until
+timeout). The deploy job retries once and never fails the run over it, so the
+loop and the scan carry on and the next run publishes; the dashboard banner flags
+data older than 2 hours.
+
 To pause the loop, add a repository variable `JOBWATCH_LOOP` = `off`
 (Settings, Secrets and variables, Actions, Variables), or disable the workflow in
 the Actions tab. Delete the variable and run the workflow once to restart it.
@@ -152,7 +157,7 @@ whose git email is on your account.
 error to the job summary and as an Actions warning, and exits non-zero when more
 than a quarter of boards fail or nothing was scanned, which turns the run red and
 triggers GitHub's failure email. The dashboard shows board errors and a stale-data
-warning (last scan over 26 hours old) in a banner at the top of the page.
+warning (dashboard data over 2 hours old; scans run every 20 minutes) in a banner at the top of the page.
 
 ## Growing the company list
 
