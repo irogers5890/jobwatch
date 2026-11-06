@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-06T21:36:57+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42298168785",
- "scanned": 34493,
+ "generated": "2026-11-06T21:57:00+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42300825336",
+ "scanned": 34503,
  "boards": 317,
  "errors": [
+  {
+   "company": "Baker Hughes",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
-  },
-  {
-   "company": "Johnson and Johnson",
-   "board": "workday",
-   "error": "failed after 3 tries: HTTP 429"
   },
   {
    "company": "Tektronix",
@@ -21,13 +21,13 @@
   }
  ],
  "dropped": {
-  "non-ME discipline": 787,
+  "non-ME discipline": 789,
   "degree-level blocker": 9,
-  "below threshold": 521,
-  "no Summer/Fall 2027": 5441,
+  "below threshold": 512,
+  "no Summer/Fall 2027": 5456,
   "no mechanical signal": 225,
-  "off-target season in title": 324,
-  "not a student req": 26787
+  "off-target season in title": 325,
+  "not a student req": 26786
  },
  "jobs": [
   {
@@ -5890,6 +5890,54 @@
     ]
    },
    "first_seen": "2026-10-26T17:17:00+00:00"
+  },
+  {
+   "id": "sf:corningjobs.corning.com:1448737300",
+   "title": "Manufacturing Engineering Intern - Summer 2027",
+   "location": "",
+   "url": "https://corningjobs.corning.com/job/Durham-Manufacturing-Engineering-Intern-Summer-2027-NC-27712/1448737300/",
+   "posted": "2026-11-06",
+   "body": "> Requisition Number: 79334 The company built on breakthroughs. \u200b Join us.\u200b Corning is one of the world\u2019s leading innovators in glass, ceramic, and materials science. From the depths of the ocean to the farthest reaches of space, our technologies push the boundaries of what\u2019s possible. \u200b How do we do this? With our people. They break through limitations and expectations \u2013 not once in a career, but every day. They help move our company, and the world, forward. \u200b \u200bAt Corning, there are endless possibilities for making an impact. You can help connect the unconnected, drive the future of automobiles, transform at-home entertainment, and ensure the delivery of lifesaving medicines. And so much more.\u200b \u200bCome break through with us. As a leading developer, manufacturer, and global supplier of scientific laboratory products for 100 years, Corning\u2019s Life Sciences segment collaborates with researchers seeking new approaches to increase efficiencies, reduce costs and compress timelines in the drug discovery process. Using unique expertise in the fields of materials science, surface science, optics, biochemistry and biology, the segment provides innovative solutions that improve productivity and enable breakthrough discoveries. Scope of Position Work as part of the operations team on various projects supporting all manufacturing areas. Applies knowledge of engineering principles and practices to effectively accomplish technical assignments and projects that improve manufacturing performance. Provide general engineering and manufacturing skills and knowledge (understands theories and fundamentals) and lead a project to get to root cause of issues and put permanent solutions in place. Develop knowledge of material, process and/or equipment in focused areas of manufacturing or engineering. Recommend and implement permanent solutions to long term performance issues and improve existing and new technologies. You will work in a team-based environment and participate as an individual contributor. We are looking for an applicant with a strong level of technical curiosity and who can deliver creative technical solutions to manufacturing challenges. Program Perks Competitive salaries Assistance with housing and travel Meaningful project and final project presentation Intern Activities Social and networking opportunities Weekly tech talks Community involvement Requirements Pursuing a degree in Engineering preferably Mechanical, Electrical or Biomedical Must be available for 10 weeks during Summer 2027 (May 26-July 30, 2027) with a graduation date of December 2027 or later Be interested in working for Corning, Inc after graduation, if presented with a full-time job opportunity. Be willing to work at the posted work location Desired Skills At least one semester of core engineering course work completed GPA > 3.0 This position does not support immigration sponsorship. \u200bThe range for this position is $1,635.00 - $3,185.00 biweekly. Starting pay for the successful applicant is prescribed based on geographic location, nature of position, and year in school. \u200b A job that shapes a life. We prohibit discrimination on the basis of race, color, gender, age, religion, national origin, sexual orientation, gender identity or expression, disability, veteran status or any other legally protected status. Corning is committed to providing equal employment opportunities and considers requests for reasonable accommodations in accordance with applicable laws. Individuals with disabilities or sincerely held religious beliefs may request reasonable accommodations to participate in the application or interview process, perform essential job functions, or access other benefits and privileges of employment. To submit a request for reasonable accommodation related to disability or religion, please contact us at accommodations@corning.com . <span",
+   "company": "Corning",
+   "score": {
+    "total": 56,
+    "base": 44,
+    "fit": 17,
+    "loc": 0,
+    "traj": 12,
+    "pay": 15,
+    "rate": [
+     40.88,
+     79.62
+    ],
+    "fresh": 12,
+    "age": 0.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "pay $60/hr",
+      15
+     ],
+     [
+      "body: root cause",
+      7
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: manufacturing",
+      3
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-06T21:57:00+00:00"
   },
   {
    "id": "ef:microsoft.com:200060962",
@@ -12044,66 +12092,6 @@
    "first_seen": "2026-11-03T17:46:02+00:00"
   },
   {
-   "id": "gh:rocketlab:7991448003",
-   "title": "Mechanical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7991448003",
-   "posted": "2026-09-14",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Mechanical Engineering Intern based at Rocket Lab\u2019s site in Long Beach, California, you will have the opportunity to support the team as they develop new concepts and hardware, build and test our designs to ensure they will stand up to the extreme space environments, and ultimately deliver our fully tested hardware to the spacecraft integration team. You\u2019ll contribute to improving our capabilities by supporting the development of the next generation of high performing spacecraft. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an Aerospace, Aeronautical, Astronautical, or Mechanical engineering discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Proficient in Computer-aided design and manufacturing (CAD/ CAM) software (NX & Teamcenter) for designing and modeling mechanical components Finite Element Analysis experience (ANSYS, Simcenter 3D, FEMAP/NASTRAN) 3D printing experience Geometric Dimensioning & Tolerancing machining experience Lathe machining experience Familiarity with spacecraft design principles ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range CA: $28.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs Level and base salary will be determined on a case-by-case basis and may vary based on the following considerations: job-related knowledge and skills, education, and experience. Base salary is just one component of our total rewards package at Rocket Lab. Our comprehensive benefits package includes our industry-leading Employee Stock Purchase Program (with a 15% discount on company stock), top-tier medical plans (HMO, PPO, and a zero cost HDHP option with a significant HSA company contribution), dental and vision coverage, paid vacation and sick time, 11 paid holidays, flexible spending and dependent care accounts, paid parental leave, disability and life insurance, and a 401(k) retirement plan with company match. Additional perks include subsidized EV charging, onsite fitness centers (where available), discounted gym memberships, complimentary snacks and beverages, 50% employee discount on our popular merch store, and a variety of other employee discounts. Eligibility for benefits may vary based on employment status, please check with your recruiter for a comprehensive list of the benefits available for this role. Benefit programs are subject to change at the company\u2019s discretion. Hourly Pay Range (CA Only) $28 \u2014 $28 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
-   "company": "Rocket Lab",
-   "score": {
-    "total": 42,
-    "base": 46,
-    "fit": 32,
-    "loc": 4,
-    "traj": 13,
-    "pay": -3,
-    "rate": [
-     28.0,
-     28.0
-    ],
-    "fresh": -4,
-    "age": 53.9,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: mechanical",
-      7
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: machining",
-      4
-     ],
-     [
-      "body: 3d printing",
-      4
-     ],
-     [
-      "body: finite element",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "body: pressure",
-      3
-     ],
-     [
-      "body: nx",
-      2
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T02:04:57+00:00"
-  },
-  {
    "id": "gh:rocketlab:7991769003",
    "title": "Mechanical Engineering Intern Summer 2027",
    "location": "Toronto, CAN",
@@ -12158,6 +12146,66 @@
      [
       "body: drawings",
       3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T02:04:57+00:00"
+  },
+  {
+   "id": "gh:rocketlab:7991448003",
+   "title": "Mechanical Engineering Intern Summer 2027",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7991448003",
+   "posted": "2026-09-14",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Mechanical Engineering Intern based at Rocket Lab\u2019s site in Long Beach, California, you will have the opportunity to support the team as they develop new concepts and hardware, build and test our designs to ensure they will stand up to the extreme space environments, and ultimately deliver our fully tested hardware to the spacecraft integration team. You\u2019ll contribute to improving our capabilities by supporting the development of the next generation of high performing spacecraft. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an Aerospace, Aeronautical, Astronautical, or Mechanical engineering discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Proficient in Computer-aided design and manufacturing (CAD/ CAM) software (NX & Teamcenter) for designing and modeling mechanical components Finite Element Analysis experience (ANSYS, Simcenter 3D, FEMAP/NASTRAN) 3D printing experience Geometric Dimensioning & Tolerancing machining experience Lathe machining experience Familiarity with spacecraft design principles ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range CA: $28.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs Level and base salary will be determined on a case-by-case basis and may vary based on the following considerations: job-related knowledge and skills, education, and experience. Base salary is just one component of our total rewards package at Rocket Lab. Our comprehensive benefits package includes our industry-leading Employee Stock Purchase Program (with a 15% discount on company stock), top-tier medical plans (HMO, PPO, and a zero cost HDHP option with a significant HSA company contribution), dental and vision coverage, paid vacation and sick time, 11 paid holidays, flexible spending and dependent care accounts, paid parental leave, disability and life insurance, and a 401(k) retirement plan with company match. Additional perks include subsidized EV charging, onsite fitness centers (where available), discounted gym memberships, complimentary snacks and beverages, 50% employee discount on our popular merch store, and a variety of other employee discounts. Eligibility for benefits may vary based on employment status, please check with your recruiter for a comprehensive list of the benefits available for this role. Benefit programs are subject to change at the company\u2019s discretion. Hourly Pay Range (CA Only) $28 \u2014 $28 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "company": "Rocket Lab",
+   "score": {
+    "total": 42,
+    "base": 46,
+    "fit": 32,
+    "loc": 4,
+    "traj": 13,
+    "pay": -3,
+    "rate": [
+     28.0,
+     28.0
+    ],
+    "fresh": -4,
+    "age": 53.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: mechanical",
+      7
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: machining",
+      4
+     ],
+     [
+      "body: 3d printing",
+      4
+     ],
+     [
+      "body: finite element",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: pressure",
+      3
+     ],
+     [
+      "body: nx",
+      2
      ]
     ]
    },
@@ -20093,6 +20141,47 @@
    "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
+   "id": "wd:jj:R-096727",
+   "title": "Design and Development Co-Op, Summer 2027",
+   "location": "Cincinnati, Ohio, United States of America",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Design-and-Development-Co-Op--Summer-2027_R-096727",
+   "posted": "2026-09-01",
+   "body": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at jnj.com As guided by Our Credo, Johnson & Johnson is responsible to our employees who work with us throughout the world. We provide an inclusive work environment where each person is considered as an individual. At Johnson & Johnson, we respect the diversity and dignity of our employees and recognize their merit. Job Function: Career Programs Job Sub Function: Non-LDP Intern/Co-Op Job Category: Career Program All Job Posting Locations: Cincinnati, Ohio, United States of America Job Description: Johnson & Johnson is recruiting for R&D Design & Development Co-ops for the Summer 2027 term within our MedTech sector, located in Cincinnati, OH. At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at https://www.jnj.com/. For more than 130 years, diversity, equity & inclusion (DEI) has been a part of our cultural fabric at Johnson & Johnson and woven into how we do business every day. Rooted in Our Credo, the values of DEI fuel our pursuit to create a healthier, more equitable world. Our diverse workforce and culture of belonging accelerate innovation to solve the world\u2019s most pressing healthcare challenges. We know that the success of our business \u2013 and our ability to deliver meaningful solutions \u2013 depends on how well we understand and meet the diverse needs of the communities we serve. Which is why we foster a culture of inclusion and belonging where all perspectives, abilities and experiences are valued and our people can reach their potential. At Johnson & Johnson, we all belong. Ethicon Surgical Technologies offers a broad range of products, platforms, and technologies\u2014including sutures, surgical staplers, advanced energy, robotic surgery, clip appliers, trocars and synthetic mesh devices\u2014that are used in a wide variety of minimally invasive and open surgical procedures. Specialties include support for treatment of colorectal and thoracic conditions, women\u2019s health conditions, hernias, cancer and obesity. Ethicon Surgical Technologies combines products and services of two market leading legacy companies, both with long histories of medical innovation. Formerly called Ethicon, Inc. based in Somerville, New Jersey, was founded more than 80 years ago, as a pioneer in suture development and manufacturing, helping to transform the safety and effectiveness of open surgery. Formerly called Ethicon Endo-Surgery, Inc. was created 25 years ago, in Cincinnati, Ohio, developing creative devices that have driven the groundbreaking shift from open to minimally invasive surgery that continues to lead the industry today. The Smmer term dates are approximately from 05/10/2027 - 08/13/2027 Responsibilities: As a Co-Op in the R&D Design or Development department, you will have the chance to: Use state of the art tools and take advantage of training courses offered on-site. Perform testing, experimentation, and validation to support product design. Contribute to design solution activity through utilization of previously learned skills with CAD tools, simulation tools, fundamental engineering principles, and experienced mentorship from seasoned Team Engineers. Assist in developing laboratory testing, interpreting data results, and recommending next steps. Opportunities to receive intermediate CAD training, if applicable, including building simulation models, developing kinematics models, and performing stack-up analysis. Responsibilities will increase with each rotation as you learn more by returning to school. Rotations are generally 3-4 months and availability for multiple rotations is desired. We offer a competitive wage and housing assistance to non-local students that live 50+ miles from the site. The R&D Co-op program provides each student with a great support system, as well as the opportunity to meet people from various schools throughout the country. All co-ops that qualify for housing assistance will receive a one-time taxable stipend to support the cost of living during the co-op term. Prior to the start date all co-ops will be connected with other incoming co-ops and provided with housing resources to individually secure housing arrangements. Transportation is not provided; all co-ops are responsible for securing their own transportation to and from the site daily. Qualifications Be enrolled in an accredited college/institution pursuing a Bachelor\u2019s or Master\u2019s degree in Mechanical Engineering, Biomedical Engineering, Electrical Engineering or a related field. (PhD degree may be considered) Must have completed a minimum of two semesters in school prior to the beginning of the co-op term (class standing of a sophomore or above). Considered a student during the co-op term, must not have a graduation date prior to the start of the co-op term. Have a minimum GPA of 3.0 Must be legally authorized to work in the United States for the full duration of the co-op term. Have demonstrated leadership/participation in campus programs and/or community service activities. Availability to work full-time on-site for the duration of the co-op term, if you are taking classes during the term all courses and coursework must be completed outside of business hours (8am - 5pm, M-F) Previous internship or co-op experience in the medical device industry is preferred Permanently authorized to work in the U.S., must not require sponsorship of an employment visa (e.g., H-1B or green card) at the time of application or in the future. Students currently on CPT, OPT, or STEM OPT usually requires future sponsorship for long term employment and do not meet the requirements for this program unless eligible for an alternative long-term status that does not require company sponsorship. Benefits: Co-Ops/Interns may be eligible to participate in Company sponsored employee medical benefits in accordance with the terms of the plan. Co-Ops and Interns are eligible for the following sick time benefits: up to 40 hours per calendar year; for employees who reside in the State of Washington, up to 56 hours per calendar year Co-Ops and Interns may be eligible to participate in the Company\u2019s consolidated retirement plan (pension) For additional general information on Company benefits, please go to https://www.careers.jnj.com/employee-benefits Permanently authorized to work in the U.S., must not require sponsorship of an employment visa (e.g., H-1B or green card) at the time of application or in the future. Students currently on CPT, OPT, or STEM OPT usually requires future sponsorship for long term employment and do not meet the requirements for this program unless eligible for an alternative long-term status that does not require company sponsorship. Johnson & Johnson is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, protected veteran status or other characteristics protected by federal, state or local law. We actively seek qualified candidates who are protected veterans and individuals with disabilities as defined under VEVRAA and Section 503 of the Rehabilitation Act. Johnson & Johnson is committed to providing an interview process that is inclusive of our applicants\u2019 needs. If you are an individual with a disability and would like to request an accommodation, external applicants please contact us via https://www.jnj.com/contact-us/careers . Internal employees contact AskGS to be directed to your accommodation resource. Required Skills: Preferred Skills: The anticipated base pay range for this position is : $23.50/hr to $52.50/hr Additional Description for Pay Transparency: The expected pay range for this position is between $23.50 per hour and $52.50 per hour but will be based on candidate's program year, discipline, degree and/or experience. Co-Ops/Interns are eligible to participate in Company sponsored employee medical benefits in accordance with the terms of the plan. Co-Ops and Interns are eligible for the following sick time benefits: up to 40 hours per calendar year; for employees who reside in the State of Washington, up to 56 hours per calendar year. Co-Ops and Interns are eligible to participate in the Company\u2019s consolidated retirement plan (pension). For additional general information on Company benefits, please go to: https://www.careers.jnj.com/employee-benefits This job posting is anticipated to close on [8/13/2027]. The Company may however extend this time-period, in which case the posting will remain available on https://www.careers.jnj.com to accept additional applications.",
+   "company": "Johnson and Johnson",
+   "score": {
+    "total": 25,
+    "base": 33,
+    "fit": 19,
+    "loc": 0,
+    "traj": 14,
+    "pay": 0,
+    "rate": null,
+    "fresh": -8,
+    "age": 66.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: product design",
+      6
+     ],
+     [
+      "body: kinematic",
+      5
+     ],
+     [
+      "body: housing assistance",
+      5
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T23:28:52+00:00"
+  },
+  {
    "id": "or:egup:20279202",
    "title": "Engineering Intern - DC Power Systems (Summer 2027)",
    "location": "Lorain, OH, United States",
@@ -21364,76 +21453,6 @@
    "location": "",
    "url": "https://careers.bwxt.com/job/Lynchburg-Welding-Engineering-Intern-Virginia-%28Summer-2027%29-VA-24501/1426358100/",
    "reason": "scored 30, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Engineering & Technology  Intern- Summer 2027 Opportunities",
-   "location": "US-OK-CLAREMORE-200 W STUART ROOSA DR",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-OK-CLAREMORE-200-W-STUART-ROOSA-DR/Intern---Engineering---Technology---Summer-2027-Opportunities_R168900",
-   "reason": "scored 22, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Engineering & Technology Intern- Summer 2027 Opportunities",
-   "location": "US-TX-MIDLAND-2101 MARKET STREET",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-TX-MIDLAND-2101-MARKET-STREET/Engineering---Technology-Intern--Summer-2027-Opportunities_R168911",
-   "reason": "scored 22, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineer Intern - Summer 2027 Opportunities",
-   "location": "GY-Demerara-Georgetown-Tract X Land of Canaan on the Eastern Bank of the Demerara Riv",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GY-Demerara-Georgetown-Tract-X-Land-of-Canaan-on-the-Eastern-Bank-of-the-Demerara-Riv/Field-Engineer-Intern---Summer-2027-Opportunities_R168905",
-   "reason": "scored 12, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineer Intern - Summer 2027 Opportunities",
-   "location": "US-CA-SHAFTER-3901 FANUCCHI WAY",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-CA-SHAFTER-3901-FANUCCHI-WAY/Field-Engineer-Intern---Summer-2027-Opportunities_R168901",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineering Intern- Summer 2027 Opportunities",
-   "location": "US-TX-HOUSTON-11150 EQUITY DRIVE",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-TX-HOUSTON-11150-EQUITY-DRIVE/Field-Engineering-Intern--Summer-2027-Opportunities_R169856",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineering Intern- Summer 2027 Opportunities",
-   "location": "US-PA-CANONSBURG-400 TECHNOLOGY DRIVE",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-PA-CANONSBURG-400-TECHNOLOGY-DRIVE/Field-Engineering-Intern--Summer-2027-Opportunities_R169855",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineering Intern- Summer 2027 Opportunities",
-   "location": "US-NV-MINDEN-1631 BENTLY PARKWAY SOUTH",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-NV-MINDEN-1631-BENTLY-PARKWAY-SOUTH/Field-Engineering-Intern--Summer-2027-Opportunities_R169854",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Intern - Field Engineer - Summer 2027 Opportunities",
-   "location": "CA-AB-CALGARY-6820 36 STREET SE",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/CA-AB-CALGARY-6820-36-STREET-SE/Intern---Field-Engineer---12-Month-2027-Opportunities_R168913-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Manufacturing  Intern - Summer 2027 Opportunities",
-   "location": "US-OK-CLAREMORE-2210 E L ANDERSON BLVD",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-OK-CLAREMORE-2210-E-L-ANDERSON-BLVD/Intern---Manufacturing---Summer-2027-Opportunities_R168909",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Quality Intern - Summer 2027 Opportunities",
-   "location": "GY-Demerara-Georgetown-Tract X Land of Canaan on the Eastern Bank of the Demerara Riv",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GY-Demerara-Georgetown-Tract-X-Land-of-Canaan-on-the-Eastern-Bank-of-the-Demerara-Riv/Quality-Intern---Summer-2027-Opportunities_R168916",
-   "reason": "scored 22, below tier B"
   },
   {
    "company": "Blue Origin",
@@ -23655,6 +23674,41 @@
    "reason": "non-ME discipline"
   },
   {
+   "company": "Johnson and Johnson",
+   "title": "Associate Clinical Account Specialist (ACAS) Intern (Summer 2027)",
+   "location": "Irvine, California, United States of America; Toledo, Ohio, United States; North Dakota (Any City); Connecticut (Any City); Richmond, Virginia, United States of America; Cleveland, Ohio, United States",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Irvine-California-United-States-of-America/Associate-Clinical-Account-Specialist--ACAS--Intern--Summer-2027-_R-104405",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Johnson and Johnson",
+   "title": "Clinical Pharmacology and Pharmacometrics Intern - Summer 2027",
+   "location": "Spring House, Pennsylvania, United States of America; Cambridge, Massachusetts, United States of America; La Jolla, California, United States of America; Raritan, New Jersey, United States of America; Titusville, New Jersey, United States of America",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Clinical-Pharmacology-and-Pharmacometrics-Intern---Summer-2027_R-098266",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Johnson and Johnson",
+   "title": "Electrical Engineering Co-Op, Summer 2027",
+   "location": "Cincinnati, Ohio, United States of America",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Electrical-Engineering-Co-Op--Summer-2027_R-096736",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Johnson and Johnson",
+   "title": "Research & Development Leadership Development Program (RDLDP)- Summer 2027 Internship",
+   "location": "Santa Clara, California, United States of America; Jacksonville, Florida, United States of America; Raritan, New Jersey, United States of America; Cincinnati, Ohio, United States of America; Redwood City, California, United States of America; Irvine, California, United States of America",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Santa-Clara-California-United-States-of-America/Research---Development-Leadership-Development-Program--RDLDP---Summer-2027-Internship_R-096476",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Johnson and Johnson",
+   "title": "Summer 2027 MBA Internship- MedTech Marketing Leadership Development Program (MLDP)",
+   "location": "Raritan, New Jersey, United States of America; Jacksonville, Florida, United States of America; Santa Clara, California, United States of America; Cincinnati, Ohio, United States of America; Irvine, California, United States of America; Danvers, Massachusetts, United States of America",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/MLDP-Internship_R-095504",
+   "reason": "non-ME discipline"
+  },
+  {
    "company": "K2 Space",
    "title": "Avionics Systems/Test Engineering Intern \u2013 Summer 2027",
    "location": "Los Angeles, CA",
@@ -23826,14 +23880,14 @@
    "company": "Lockheed Martin",
    "title": "Engineering Intern",
    "location": "Mt Laurel Township, NJ, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477286906",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477240395",
    "reason": "scored 14, below tier B"
   },
   {
    "company": "Lockheed Martin",
    "title": "Engineering Intern",
    "location": "Mt Laurel Township, NJ, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477240395",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477286906",
    "reason": "scored 14, below tier B"
   },
   {
@@ -23951,16 +24005,16 @@
   {
    "company": "Lockheed Martin",
    "title": "Systems Engineering Intern - Summer 2027",
-   "location": "Colorado Springs, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477461635",
-   "reason": "scored 16, below tier B"
+   "location": "King of Prussia, PA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477456336",
+   "reason": "scored 19, below tier B"
   },
   {
    "company": "Lockheed Martin",
    "title": "Systems Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477456336",
-   "reason": "scored 19, below tier B"
+   "location": "Colorado Springs, CO, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477461635",
+   "reason": "scored 16, below tier B"
   },
   {
    "company": "Loft Orbital",
@@ -25547,13 +25601,6 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Toronto, CAN",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990043003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Electrical Engineering Intern Summer 2027",
    "location": "Long Beach, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
@@ -25567,6 +25614,13 @@
   },
   {
    "company": "Rocket Lab",
+   "title": "Electrical Engineering Intern Summer 2027",
+   "location": "Toronto, CAN",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990043003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
    "title": "Flight Software Intern Summer 2027",
    "location": "Littleton, CO",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7989722003",
@@ -25575,15 +25629,15 @@
   {
    "company": "Rocket Lab",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Washington, DC",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
+   "location": "Littleton, CO",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
    "reason": "scored 14, below tier B"
   },
   {
    "company": "Rocket Lab",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Littleton, CO",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
+   "location": "Washington, DC",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
    "reason": "scored 14, below tier B"
   },
   {
@@ -25596,16 +25650,16 @@
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Wallops Island, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
-   "reason": "scored 28, below tier B"
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
+   "reason": "scored 31, below tier B"
   },
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
-   "reason": "scored 31, below tier B"
+   "location": "Wallops Island, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
+   "reason": "scored 28, below tier B"
   },
   {
    "company": "Rocket Lab",
@@ -25631,13 +25685,6 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
    "location": "Middle River, MD",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
    "reason": "non-ME discipline"
@@ -25645,8 +25692,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Wallops Island, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
    "reason": "non-ME discipline"
   },
   {
@@ -25658,9 +25705,16 @@
   },
   {
    "company": "Rocket Lab",
+   "title": "Security Analyst Intern Summer 2027",
+   "location": "Wallops Island, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
@@ -25673,8 +25727,8 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
