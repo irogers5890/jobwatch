@@ -134,10 +134,14 @@ dispatch when another run is already queued or running, so there is only ever on
 chain. The `8,28,48 * * * *` schedule stays as a backup that restarts the chain if
 it ever stops. Runner minutes are free on a public repo.
 
-Publishing to Pages occasionally hangs on GitHub's side ("updating_pages" until
-timeout). The deploy job retries once and never fails the run over it, so the
-loop and the scan carry on and the next run publishes; the dashboard banner flags
-data older than 2 hours.
+The dashboard reads `data.json` straight from the repo
+(`raw.githubusercontent.com/<user>/<repo>/main/docs/data.json`, cached about 5
+minutes), so it is fresh after every scan without republishing Pages. Pages
+refuses deploys when asked every 20 minutes ("Deployment failed, try again
+later"), so it is republished only when `docs/index.html` changed in the last 2
+hours, when a person started the run, or once every 6 hours; a refused deploy is
+retried once and never fails the run. The dashboard banner flags data older than
+2 hours.
 
 To pause the loop, add a repository variable `JOBWATCH_LOOP` = `off`
 (Settings, Secrets and variables, Actions, Variables), or disable the workflow in

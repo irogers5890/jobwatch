@@ -344,7 +344,22 @@ Sync.init();
 // pick up marks made on other devices when this tab comes back into view
 document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") Sync.run(); });
 
-fetch("data.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+// Every scan commits data.json to the repo, but GitHub Pages republishes slowly and
+// sometimes refuses deploys outright. So read the committed copy from
+// raw.githubusercontent.com (CORS-open, cached about 5 minutes) and fall back to
+// the Pages copy; whichever was generated later wins.
+function loadData(){
+  const t="?t="+Date.now(), host=location.hostname, path=location.pathname.split("/").filter(Boolean);
+  const raw=host.endsWith(".github.io")&&path.length
+    ? `https://raw.githubusercontent.com/${host.split(".")[0]}/${path[0]}/main/docs/data.json${t}` : null;
+  const get=u=>fetch(u).then(r=>r.ok?r.json():Promise.reject(r.status));
+  return Promise.allSettled([raw?get(raw):Promise.reject("no raw"), get("data.json"+t)]).then(rs=>{
+    const ok=rs.filter(r=>r.status==="fulfilled").map(r=>r.value);
+    if(!ok.length) throw new Error("no data");
+    return ok.sort((a,b)=>(b.generated||"").localeCompare(a.generated||""))[0];
+  });
+}
+loadData().then(d=>{
   DATA=d;
   const when=d.generated?new Date(d.generated):null;
   $("#meta").textContent=`${(d.jobs||[]).length} live matches · ${d.scanned} postings scanned across `+
