@@ -2,8 +2,10 @@ name: jobwatch
 
 on:
   schedule:
-    # every 20 minutes, all day, every day: postings drop at midnight and on weekends too.
-    # Off the hour on purpose: GitHub drops a lot of :00 / */20 cron events under load.
+    # Backup only. GitHub drops most scheduled events (2-4 of 72 a day fire here), so
+    # the real cadence comes from the `next` job below, which re-dispatches this
+    # workflow 20 minutes after each run starts. The schedule restarts that chain if
+    # it ever breaks. Off the hour on purpose: :00 events are dropped even more.
     - cron: "8,28,48 * * * *"
   workflow_dispatch:
 
@@ -11,6 +13,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: write      # lets the `next` job start the following run
 
 concurrency:
   group: jobwatch
@@ -76,3 +79,35 @@ jobs:
     steps:
       - id: dep
         uses: actions/deploy-pages@v4
+
+  # Start the next scan 20 minutes after this one started. GITHUB_TOKEN may trigger
+  # workflow_dispatch (unlike most events), so the loop needs no external service.
+  # Runs even if the scan failed, so one bad run does not end the chain; skips the
+  # dispatch when another run is already queued or running, so a scheduled run that
+  # does fire cannot fork a second chain. To pause the loop, set the repository
+  # variable JOBWATCH_LOOP to "off" (Settings, Secrets and variables, Actions,
+  # Variables) or disable the workflow.
+  next:
+    needs: [scan, deploy]
+    if: always() && vars.JOBWATCH_LOOP != 'off'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Wait until 20 minutes after this run started, then dispatch the next
+        run: |
+          api="repos/${GITHUB_REPOSITORY}/actions"
+          start=$(gh api "$api/runs/${GITHUB_RUN_ID}" --jq .run_started_at)
+          wait=$(( $(date -d "$start" +%s) + 1200 - $(date +%s) ))
+          if [ "$wait" -gt 0 ]; then echo "sleeping ${wait}s"; sleep "$wait"; fi
+          others=$(gh api "$api/workflows/jobwatch.yml/runs?per_page=30" --jq \
+            "[.workflow_runs[] | select(.id != ${GITHUB_RUN_ID}) |
+              select(.status == \"queued\" or .status == \"in_progress\" or
+                     .status == \"waiting\" or .status == \"pending\" or .status == \"requested\")] | length")
+          if [ "$others" -gt 0 ]; then
+            echo "another run is already queued or running; not dispatching"
+          else
+            gh workflow run jobwatch.yml --repo "$GITHUB_REPOSITORY" --ref "${GITHUB_REF_NAME}"
+            echo "dispatched the next run"
+          fi
