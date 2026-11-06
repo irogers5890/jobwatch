@@ -1,33 +1,23 @@
 {
- "generated": "2026-11-06T14:37:26+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42235560593",
- "scanned": 34457,
+ "generated": "2026-11-06T14:52:18+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42235926629",
+ "scanned": 34478,
  "boards": 317,
  "errors": [
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
-  },
-  {
-   "company": "Polaris",
-   "board": "workday",
-   "error": "failed after 3 tries: HTTP 429"
-  },
-  {
-   "company": "Tektronix",
-   "board": "eightfold",
-   "error": "HTTP 403 \u2014 check slug/tenant/site"
   }
  ],
  "dropped": {
-  "non-ME discipline": 780,
+  "non-ME discipline": 788,
   "degree-level blocker": 9,
-  "below threshold": 507,
-  "no Summer/Fall 2027": 5451,
-  "no mechanical signal": 222,
+  "below threshold": 512,
+  "no Summer/Fall 2027": 5457,
+  "no mechanical signal": 224,
   "off-target season in title": 330,
-  "not a student req": 26760
+  "not a student req": 26759
  },
  "jobs": [
   {
@@ -9671,6 +9661,66 @@
     ]
    },
    "first_seen": "2026-10-24T08:59:29+00:00"
+  },
+  {
+   "id": "sf:corningjobs.corning.com:1443998200",
+   "title": "Product Development Intern - Summer 2027",
+   "location": "",
+   "url": "https://corningjobs.corning.com/job/Keller-Product-Development-Intern-Summer-2027-TX-76248/1443998200/",
+   "posted": "2026-10-27",
+   "body": "> Requisition Number: 79040 The company built on breakthroughs. \u200b Join us.\u200b Corning is one of the world\u2019s leading innovators in glass, ceramic, and materials science. From the depths of the ocean to the farthest reaches of space, our technologies push the boundaries of what\u2019s possible. \u200b How do we do this? With our people. They break through limitations and expectations \u2013 not once in a career, but every day. They help move our company, and the world, forward. \u200b \u200b At Corning, there are endless possibilities for making an impact. You can help connect the unconnected, drive the future of automobiles, transform at-home entertainment, and ensure the delivery of lifesaving medicines. And so much more.\u200b \u200b Come break through with us. Scope of Position Support technology development in the telecommunications field by using engineering principles to design, build, & evaluate prototype products. Likely areas of focus will be fiber optic housing and cabinets that protect connection points. Technologies employed include: plastic injection molding, sheet metal fabrication, rapid prototyping, & optical design. Actively engage with cross-functional project teams to solve problems efficiently and effectively with the objective of meeting project requirements. Program Perks Competitive salaries Housing assistance Travel reimbursement Intern Activities Social and networking events Opportunities to volunteer Community involvement Responsibilities 2D & 3D CAD Design of new components and assemblies. Prototyping & evaluation of new components and assemblies. Coordinate, plan, and lead experiments in support of assigned projects. Draw on engineering principles from within the candidate\u2019s field of study to analyze experiment results, using statistical tools as appropriate. Actively engage within the project team and across project boundaries as needed to achieve objectives. Willingness to share ideas with the team is important, as is willingness to take direction and feedback from team members and technical experts. Manage priorities and timeline to achieve objectives in allotted time. Prepare oral and written reports to summarize test results and key conclusions for technical audiences including Development, Engineering, and Operations. Requirements Enrolled in BS or MS program in engineering discipline such as mechanical or industrial. Course work completed to include first and second year engineering studies. CAD Design Software Creativity in approach to solutions, experimental design, and results analysis. Ability to work with hands to build prototype products, test systems, etc. Excellent verbal and written communication skills; ability to effectively present information Results-oriented. Computer literate in MS Office programs (Word, Excel, PowerPoint). Must be available for 10 weeks during Summer 2027 (May-August 2027) with a graduation date of December 2027 or later Be interested in working for Corning, Inc after graduation, if presented with a full-time job opportunity. Be willing to work at the posted job location Desired Skills Experience using Creo CAD software. \"Hands-on\u201d laboratory experience using lathe, mill, and assorted hand tools Relevant work/class experience. GPA of 3.0 or above This position does not support immigration sponsorship. \u200bThe range for this position is $1,635.00 - $3,185.00 biweekly. Starting pay for the successful applicant is prescribed based on geographic location, nature of position, and year in school. A job that shapes a life. We prohibit discrimination on the basis of race, color, gender, age, religion, national origin, sexual orientation, gender identity or expression, disability, veteran status or any other legally protected status. Corning is committed to providing equal employment opportunities and considers requests for reasonable accommodations in accordance with applicable laws. Individuals with disabilities or sincerely held religious beliefs may request reasonable accommodations to participate in the application or interview process, perform essential job functions, or access other benefits and privileges of employment. To submit a request for reasonable accommodation related to disability or religion, please contact us at accommodations@corning.com . <span",
+   "company": "Corning",
+   "score": {
+    "total": 46,
+    "base": 43,
+    "fit": 16,
+    "loc": 0,
+    "traj": 12,
+    "pay": 15,
+    "rate": [
+     40.88,
+     79.62
+    ],
+    "fresh": 3,
+    "age": 10.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "pay $60/hr",
+      15
+     ],
+     [
+      "body: injection molding",
+      6
+     ],
+     [
+      "body: sheet metal",
+      5
+     ],
+     [
+      "body: rapid prototyping",
+      5
+     ],
+     [
+      "body: housing assistance",
+      5
+     ],
+     [
+      "body: prototype",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ],
+     [
+      "body: creo",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-27T18:19:03+00:00"
   },
   {
    "id": "wd:draper:JR003094",
@@ -21015,6 +21065,13 @@
    "company": "BAE Systems",
    "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
    "location": "Nashua, New Hampshire, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/131670BR",
+   "reason": "scored 19, below tier B"
+  },
+  {
+   "company": "BAE Systems",
+   "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
+   "location": "Nashua, New Hampshire, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131674BR",
    "reason": "scored 19, below tier B"
   },
@@ -23470,13 +23527,6 @@
   },
   {
    "company": "Jabil",
-   "title": "Computer Systems Analyst Intern",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Computer-Systems-Analyst-Intern_J2464586-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Jabil",
    "title": "Low voltage switchgear Electrical Engineering Intern",
    "location": "St. Petersburg/Tampa, FL",
    "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Low-voltage-switchgear-Electrical-Engineering-Intern_J2470772",
@@ -23733,6 +23783,13 @@
    "location": "Colorado Springs, CO, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477502700",
    "reason": "scored 11, below tier B"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "Dev Sec Ops Intern - Summer 2027",
+   "location": "Herndon, VA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477462963",
+   "reason": "no mechanical signal"
   },
   {
    "company": "Lockheed Martin",
@@ -26309,6 +26366,27 @@
    "location": "Redmond, Washington",
    "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Redmond-Washington/Human-Factors-Engineering-Intern_R572819",
    "reason": "no mechanical signal"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
+   "reason": "scored 16, below tier B"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
+   "reason": "scored 16, below tier B"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
+   "reason": "scored 16, below tier B"
   },
   {
    "company": "Teledyne FLIR",
