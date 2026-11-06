@@ -75,10 +75,20 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.dep.outputs.page_url }}
+      url: ${{ steps.dep.outputs.page_url || steps.dep2.outputs.page_url }}
     steps:
+      # Pages sometimes hangs in "updating_pages" until the action times out. Retry
+      # once, and never fail the run over it: the next run publishes again, and the
+      # dashboard flags data older than 2 hours.
       - id: dep
+        continue-on-error: true
         uses: actions/deploy-pages@v4
+        with: { timeout: 300000 }
+      - id: dep2
+        if: steps.dep.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with: { timeout: 600000 }
 
   # Start the next scan 20 minutes after this one started. GITHUB_TOKEN may trigger
   # workflow_dispatch (unlike most events), so the loop needs no external service.
