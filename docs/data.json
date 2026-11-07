@@ -1,23 +1,38 @@
 {
- "generated": "2026-11-07T13:45:57+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42378439002",
- "scanned": 34723,
+ "generated": "2026-11-07T14:05:59+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42379975611",
+ "scanned": 34627,
  "boards": 319,
  "errors": [
+  {
+   "company": "3M",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Baker Hughes",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "Carrier",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
   }
  ],
  "dropped": {
-  "non-ME discipline": 791,
-  "degree-level blocker": 9,
-  "below threshold": 518,
-  "no Summer/Fall 2027": 5484,
-  "no mechanical signal": 223,
-  "off-target season in title": 325,
-  "not a student req": 26972
+  "no Summer/Fall 2027": 5418,
+  "below threshold": 508,
+  "no mechanical signal": 221,
+  "non-ME discipline": 776,
+  "off-target season in title": 323,
+  "not a student req": 26972,
+  "degree-level blocker": 8
  },
  "jobs": [
   {
@@ -20297,34 +20312,6 @@
  ],
  "review": [
   {
-   "company": "3M",
-   "title": "Internship - 2027 Undergraduate 3M Industrial Design Intern - Safety & Industrial Business Group (SIBG)",
-   "location": "US, Minnesota, Maplewood; US, Texas, Austin",
-   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-3M-Industrial-Design-Intern---Safety---Industrial-Business-Group--SIBG-_R01172241",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "3M",
-   "title": "Internship - 2027 Undergraduate 3M UX/UI Design Intern - Safety & Industrial Business Group (SIBG)",
-   "location": "US, Minnesota, Maplewood; US, Texas, Austin",
-   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-3M-UX-UI-Design-Intern---Safety---Industrial-Business-Group--SIBG-_R01172459",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "3M",
-   "title": "Internship - 2027 Undergraduate and Master's Research & Development Intern",
-   "location": "US, Minnesota, Maplewood; US, Texas, Austin",
-   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-and-Master-s-Research---Development-Intern_R01170405",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "3M",
-   "title": "Internship - Spring 2027 / Fall 2027 Packaging Solutions Co-op",
-   "location": "US, Minnesota, Maplewood",
-   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---Spring-2027---Fall-2027-Packaging-Solutions-Co-op_R01171453",
-   "reason": "no mechanical signal"
-  },
-  {
    "company": "AGCO",
    "title": "Embedded Software Engineering Intern - Summer 2027",
    "location": "",
@@ -21487,76 +21474,6 @@
    "reason": "scored 30, below tier B"
   },
   {
-   "company": "Baker Hughes",
-   "title": "Engineering & Technology  Intern- Summer 2027 Opportunities",
-   "location": "US-OK-CLAREMORE-200 W STUART ROOSA DR",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-OK-CLAREMORE-200-W-STUART-ROOSA-DR/Intern---Engineering---Technology---Summer-2027-Opportunities_R168900",
-   "reason": "scored 22, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Engineering & Technology Intern- Summer 2027 Opportunities",
-   "location": "US-TX-MIDLAND-2101 MARKET STREET",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-TX-MIDLAND-2101-MARKET-STREET/Engineering---Technology-Intern--Summer-2027-Opportunities_R168911",
-   "reason": "scored 22, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineer Intern - Summer 2027 Opportunities",
-   "location": "GY-Demerara-Georgetown-Tract X Land of Canaan on the Eastern Bank of the Demerara Riv",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GY-Demerara-Georgetown-Tract-X-Land-of-Canaan-on-the-Eastern-Bank-of-the-Demerara-Riv/Field-Engineer-Intern---Summer-2027-Opportunities_R168905",
-   "reason": "scored 12, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineer Intern - Summer 2027 Opportunities",
-   "location": "US-CA-SHAFTER-3901 FANUCCHI WAY",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-CA-SHAFTER-3901-FANUCCHI-WAY/Field-Engineer-Intern---Summer-2027-Opportunities_R168901",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineering Intern- Summer 2027 Opportunities",
-   "location": "US-TX-HOUSTON-11150 EQUITY DRIVE",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-TX-HOUSTON-11150-EQUITY-DRIVE/Field-Engineering-Intern--Summer-2027-Opportunities_R169856",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineering Intern- Summer 2027 Opportunities",
-   "location": "US-PA-CANONSBURG-400 TECHNOLOGY DRIVE",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-PA-CANONSBURG-400-TECHNOLOGY-DRIVE/Field-Engineering-Intern--Summer-2027-Opportunities_R169855",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineering Intern- Summer 2027 Opportunities",
-   "location": "US-NV-MINDEN-1631 BENTLY PARKWAY SOUTH",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-NV-MINDEN-1631-BENTLY-PARKWAY-SOUTH/Field-Engineering-Intern--Summer-2027-Opportunities_R169854",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Intern - Field Engineer - Summer 2027 Opportunities",
-   "location": "CA-AB-CALGARY-6820 36 STREET SE",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/CA-AB-CALGARY-6820-36-STREET-SE/Intern---Field-Engineer---12-Month-2027-Opportunities_R168913-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Manufacturing  Intern - Summer 2027 Opportunities",
-   "location": "US-OK-CLAREMORE-2210 E L ANDERSON BLVD",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-OK-CLAREMORE-2210-E-L-ANDERSON-BLVD/Intern---Manufacturing---Summer-2027-Opportunities_R168909",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Quality Intern - Summer 2027 Opportunities",
-   "location": "GY-Demerara-Georgetown-Tract X Land of Canaan on the Eastern Bank of the Demerara Riv",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GY-Demerara-Georgetown-Tract-X-Land-of-Canaan-on-the-Eastern-Bank-of-the-Demerara-Riv/Quality-Intern---Summer-2027-Opportunities_R168916",
-   "reason": "scored 22, below tier B"
-  },
-  {
    "company": "Blue Origin",
    "title": "Summer 2027 Avionics Software Internship - Graduate",
    "location": "Greater Seattle Area; Los Angeles, CA; Denver, CO",
@@ -21735,22 +21652,22 @@
    "company": "CACI",
    "title": "AI Prompt Engineer High School Intern - Summer 2027",
    "location": "Ashburn, VA, US",
-   "url": "https://caci.wd1.myworkdayjobs.com/External/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1",
+   "url": "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1",
    "reason": "no mechanical signal"
   },
   {
    "company": "CACI",
    "title": "Aerospace Engineer Intern - Summer 2027",
    "location": "Aberdeen Proving Ground, MD, US",
-   "url": "https://caci.wd1.myworkdayjobs.com/External/job/Aberdeen-Proving-Ground-MD-US/Aerospace-Engineer-Intern---Summer-2027_333648",
-   "reason": "scored 15, below tier B"
+   "url": "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Aberdeen-Proving-Ground-MD-US/Aerospace-Engineer-Intern---Summer-2027_333648",
+   "reason": "scored 11, below tier B"
   },
   {
    "company": "CACI",
    "title": "Aerospace Engineer Intern - Summer 2027",
    "location": "Aberdeen Proving Ground, MD, US",
-   "url": "https://caci.wd1.myworkdayjobs.com/External/job/Aberdeen-Proving-Ground-MD-US/Aerospace-Engineer-Intern---Summer-2027_333570",
-   "reason": "scored 15, below tier B"
+   "url": "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Aberdeen-Proving-Ground-MD-US/Aerospace-Engineer-Intern---Summer-2027_333570",
+   "reason": "scored 11, below tier B"
   },
   {
    "company": "CACI",
@@ -21779,13 +21696,6 @@
    "location": "Sterling, VA, US",
    "url": "https://caci.wd1.myworkdayjobs.com/External/job/Sterling-VA-US/GMU-Scholar-Program---Summer-2027-Internship_330557",
    "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "CACI",
-   "title": "Network Engineer Intern - Summer 2027",
-   "location": "High Point, NC, US",
-   "url": "https://caci.wd1.myworkdayjobs.com/External/job/High-Point-NC-US/Network-Engineer-Intern---Summer-2027_332843",
-   "reason": "non-ME discipline"
   },
   {
    "company": "CACI",
