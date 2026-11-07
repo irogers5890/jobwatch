@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T18:52:46+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42403447598",
- "scanned": 34644,
+ "generated": "2026-11-07T19:12:49+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42405095106",
+ "scanned": 34617,
  "boards": 319,
  "errors": [
   {
@@ -10,19 +10,24 @@
    "error": "HTTP 404 \u2014 check slug/tenant/site"
   },
   {
+   "company": "Insulet",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
    "company": "NXP Semiconductors",
    "board": "workday",
    "error": "failed after 3 tries: Expecting value: line 1 column 1 (char 0)"
   }
  ],
  "dropped": {
-  "non-ME discipline": 789,
+  "non-ME discipline": 787,
   "degree-level blocker": 9,
-  "below threshold": 512,
-  "no Summer/Fall 2027": 5424,
+  "below threshold": 513,
+  "no Summer/Fall 2027": 5397,
   "no mechanical signal": 223,
   "off-target season in title": 324,
-  "not a student req": 26963
+  "not a student req": 26964
  },
  "jobs": [
   {
@@ -24024,15 +24029,22 @@
    "company": "Lockheed Martin",
    "title": "Systems Engineering - Intern",
    "location": "Palmdale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477805850",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477806176",
    "reason": "scored 15, below tier B"
   },
   {
    "company": "Lockheed Martin",
    "title": "Systems Engineering - Intern",
    "location": "Palmdale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477806176",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477805850",
    "reason": "scored 15, below tier B"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "Systems Engineering Intern - Summer 2027",
+   "location": "King of Prussia, PA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477456336",
+   "reason": "scored 19, below tier B"
   },
   {
    "company": "Lockheed Martin",
