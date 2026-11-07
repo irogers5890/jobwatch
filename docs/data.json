@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T06:37:16+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42347816040",
- "scanned": 34499,
+ "generated": "2026-11-07T06:57:18+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42349196348",
+ "scanned": 34290,
  "boards": 317,
  "errors": [
   {
@@ -15,23 +15,68 @@
    "error": "failed after 3 tries: HTTP 429"
   },
   {
-   "company": "Instron",
+   "company": "MBDA",
    "board": "workday",
-   "error": "failed after 3 tries: HTTP 429"
+   "error": "failed after 3 tries: The read operation timed out"
   },
   {
    "company": "Microsoft",
    "board": "eightfold",
    "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Munters",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
+  },
+  {
+   "company": "NXP Semiconductors",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
+  },
+  {
+   "company": "Philips",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
+  },
+  {
+   "company": "Renishaw",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
+  },
+  {
+   "company": "ResMed",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
+  },
+  {
+   "company": "Rolls-Royce",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
+  },
+  {
+   "company": "Sartorius",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
+  },
+  {
+   "company": "Thales",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
+  },
+  {
+   "company": "Tokyo Electron",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
   }
  ],
  "dropped": {
-  "non-ME discipline": 788,
+  "non-ME discipline": 778,
   "degree-level blocker": 9,
-  "below threshold": 521,
-  "no Summer/Fall 2027": 5412,
-  "no mechanical signal": 223,
-  "off-target season in title": 325,
+  "below threshold": 507,
+  "no Summer/Fall 2027": 5233,
+  "no mechanical signal": 221,
+  "off-target season in title": 323,
   "not a student req": 26823
  },
  "jobs": [
@@ -2527,63 +2572,6 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
-   "id": "wd:nxp:R-10067221",
-   "title": "Field Applications Engineer (FAE) Intern - Summer 2027",
-   "location": "Austin (Oakhill, Office); Novi; San Jose (Holger Way)",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Field-Applications-Engineer--FAE--Intern---Summer-2027_R-10067221",
-   "posted": "2026-10-06",
-   "body": "NXP Global Sales Introduction AI is rapidly moving beyond research labs and into the real world\u2014powering advancements in vehicles, factories, hospitals, homes, and connected devices. NXP brings together secure edge intelligence, advanced semiconductor solutions, and deep system expertise to help customers build what\u2019s next. Our Global Sales and Applications organization partners with customers to align technical solutions to application requirements, solve integration challenges, and accelerate design wins. We are seeking a technically curious engineering student to join our Field Applications team and help enable the integration of NXP semiconductor technologies into real customer systems. Program Overview The NXP Americas Global Sales & Applications Summer Internship is a 12 week, paid program for rising juniors, seniors, and graduate students who combine a strong technical foundation with the drive and curiosity to work directly with customers. Interns are embedded in the Field Application Engineering organization, paired with an experienced FAE mentor, and assigned meaningful technical work from day one. This internship is a primary pipeline into NXP\u2019s Technical Sales & Applications Program (TSAP), our early-career pathway for full-time technical sales and applications roles. Strong performers may receive a return offer upon graduation. What You'll Do As a Field Applications Engineering Intern, you will work alongside experienced FAEs on customer-facing technical projects with real business impact. You will help translate application requirements into practical NXP-based solutions, support evaluations and proof-of-concepts, and develop hands-on experience with embedded systems, lab validation, and design-in activity. Sample responsibilities include: Customer Application Support Work alongside FAEs to understand customer requirements and help select appropriate NXP MCUs, MPUs, connectivity, analog, power-management, and edge-processing solutions. Support technical customer meetings, design reviews, product evaluations, proof-of-concept activities, and NXP solution demonstrations. Help analyze customer issues, reproduce problems, document findings, and contribute to clear technical action plans and follow-up. Embedded Development & System Integration Bring up evaluation boards and reference designs; configure SDKs and development environments; and integrate example software into application prototypes. Develop or modify firmware and application code in C, C++, Python, or similar languages under the guidance of experienced engineers. Support embedded software debugging and system integration across real-time control, sensor interfaces, connectivity, Linux, or RTOS-based applications. Lab Validation & Design Support Perform product evaluation, lab validation, and basic system-level troubleshooting using oscilloscopes, logic analyzers, multimeters, power supplies, current/voltage probes, power analyzers, and software debug or trace tools. Assist with schematic and PCB reviews, interface checks, power-up sequencing, signal observations, and hardware/software integration investigations. Create concise test plans, capture measurements, organize results, and communicate conclusions to technical and non-technical stakeholders. Technical Enablement & Communication Prepare customer-ready technical presentations, demonstrations, quick-start guides, application notes, and training material with guidance from senior engineers. Capture customer feedback and collaborate with sales, marketing, product management, product-line, and engineering teams to improve tools, software, documentation, and support content. Present your summer project findings, technical approach, results, and recommendations to sales and applications leadership in a final intern capstone presentation. About You Minimum Qualifications Currently pursuing a Bachelor's or Master's degree in Electrical Engineering, Computer Engineering, Computer Science, Mechatronics, or a related technical field. Rising junior, senior, or graduate student \u2014 expected graduation between December 2027 and June 2029. Cumulative GPA of 3.0/4.0 or higher. Authorization to work in the United States (no sponsorship available for intern roles). Availability for 12 weeks full-time during Summer 2027 (May\u2013August). Preferred Qualifications Coursework or project experience in embedded systems, analog and digital circuits, computer architecture, microcontrollers/processors, wireless communications, power electronics, control systems, or semiconductor applications. Hands-on experience with microcontrollers, MPUs, FPGAs, development boards, evaluation kits, or reference designs; familiarity with ARM-based systems is a plus. Programming experience in C, C++, Python, or similar languages, with exposure to IDEs, SDKs, version control, RTOS basics, or embedded Linux. Familiarity with common embedded interfaces such as UART, SPI, I2C, CAN, USB, or Ethernet. Experience using or willingness to learn common lab equipment, schematic/PCB review, board bring-up, firmware debugging, sensor integration, motor control, edge AI, or robotics applications. Who Thrives Here You are curious about how semiconductor products solve real-world system problems and enjoy learning by building and testing. You approach debugging methodically: form a hypothesis, measure the system, isolate variables, and document the result. You communicate clearly with engineers, customers, sales teams, and non-technical stakeholders. You are proactive, take ownership, collaborate well, and adapt to changing priorities in a customer-focused environment. You are motivated to develop both technical expertise and business understanding while contributing to team results. What You'll Get Competitive paid hourly compensation. Dedicated FAE/TSE mentor and day-to-day manager support throughout the program. Hands-on exposure to the semiconductor applications cycle\u2014from requirements discovery and technical evaluation through proof-of-concept and design-in support. Participation in intern cohort events, including professional development workshops, executive speaker sessions, and cross-functional networking opportunities. Access to structured learning on NXP product portfolios, embedded systems, customer applications, and the semiconductor industry. Potential relocation support or housing stipend (location-dependent). Consideration for a return full-time offer into NXP's TSAP program upon graduation. Locations Field Sales Offices across the United States \u2014 including but not limited to: Austin, TX | Detroit, MI | San Jose, CA Preferred location will be discussed during the interview process. Some local customer travel may be expected. How to Apply Submit your application through NXP's careers portal at nxp.com/careers. Applications are reviewed on a rolling basis. Early application is strongly encouraged \u2014 positions fill quickly. More information about NXP in the United States... NXP is an Equal Opportunity/Affirmative Action Employer regardless of age, color, national origin, race, religion, creed, gender, sex, sexual orientation, gender identity and/or expression, marital status, status as a disabled veteran and/or veteran of the Vietnam Era or any other characteristic protected by federal, state or local law. In addition, NXP will provide reasonable accommodations for otherwise qualified disabled individuals. #LI-e41b",
-   "company": "NXP Semiconductors",
-   "score": {
-    "total": 69,
-    "base": 69,
-    "fit": 51,
-    "loc": 7,
-    "traj": 11,
-    "pay": 0,
-    "rate": null,
-    "fresh": 0,
-    "age": 32.3,
-    "age_basis": "posted",
-    "tier": "A",
-    "why": [
-     [
-      "body: return offer",
-      10
-     ],
-     [
-      "body: full-time offer",
-      10
-     ],
-     [
-      "body: test plan",
-      6
-     ],
-     [
-      "body: mechatronics",
-      6
-     ],
-     [
-      "body: housing stipend",
-      5
-     ],
-     [
-      "body: prototype",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-03T13:48:25+00:00"
   },
   {
    "id": "ab:Antares:7feb2782-3bdc-4efe-b459-9751db944f81",
@@ -13517,58 +13505,6 @@
    "first_seen": "2026-10-26T21:42:53+00:00"
   },
   {
-   "id": "wd:nxp:R-10065402",
-   "title": "UWB Radar Signal Processing & Algorithms Intern - Summer 2027",
-   "location": "Irvine",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Irvine/UWB-Radar-Signal-Processing---Algorithms-Intern---Summer-2027_R-10065402",
-   "posted": "2026-10-26",
-   "body": "We\u2019re looking for passionate engineering students for a hands-on UWB Radar Modem internship combining signal processing, ML, algorithm development, simulation, experimental validation, and real-hardware prototyping. Your Responsibilities Research, develop, and evaluate signal-processing and ML algorithms for UWB Radar applications. Build simulation, algorithm-development, and data-analysis tools. Design and conduct laboratory experiments, collect radar measurements, and analyze system performance. Develop tools for measurement automation, data collection, and chip/system validation. Prototype and demonstrate new sensing capabilities using real-world radar data and hardware. Document results and communicate findings through technical reports, presentations, and demonstrations. Collaborate with engineers across systems, algorithms, RF, hardware, software, and applications teams. Your Profile Minimum Qualifications Currently pursuing a Master\u2019s or Ph.D. in Electrical Engineering or Computer Engineering Strong foundation in digital signal processing, signals and systems, communication theory, linear algebra, probability, or related areas. Programming experience with Python, MATLAB, C/C++, or similar languages. Ability to translate mathematical concepts into simulations and working implementations. Strong analytical and problem-solving skills. Clear written and verbal communication skills and the ability to work effectively in a collaborative engineering environment. Nice to Have Experience in one or more of the following is a plus: Machine learning applied to sensing or signal-processing problems Embedded or real-time signal-processing implementation Laboratory measurements, RF test equipment, or hardware experimentation. Research, coursework, or technical projects in signal processing, radar, wireless systems, sensing, machine learning, localization, or related areas. Prior UWB or radar experience is not required. Strong fundamentals and demonstrated ability to solve challenging technical problems are equally valuable. Location & Internship Eligibility This role is based in our Irvine, California office. Interns should expect to work on-site five days per week to enable close collaboration and hands-on laboratory work. The internship is 40 hours per week. Candidates must meet NXP's internship eligibility requirements, including applicable student-status and graduation-date requirements. Why Join Us? Work on real technology: Contribute to UWB Radar and sensing technologies for industrial IoT, robotics, mobile, and emerging applications. Solve hard problems: Apply signal processing, ML, mathematical modeling, and experimentation to problems where the solution is not always known. Build and test: Go beyond simulation by working with radar hardware, collecting real-world data, and developing working prototypes. Learn from experts: Work alongside engineers with expertise spanning UWB, radar, RF, algorithms, hardware, software, and ML. Make an impact: Contribute to technology investigations, algorithms, prototypes, and future product concepts. In order to be considered for a summer internship with NXP you must be returning to school or graduating at the conclusion of the internship term. If you are graduating prior to July 2027 please apply to Entry Level full-time roles. The base salary range for this position is as mentioned below per year. We also provide competitive benefits, incentive compensation, and/or equity for certain roles. Company benefits include health. dental, and vision insurance. 401(k), and paid leave. Please note that the base salary range (OR hourly rate) is a guideline, and individual total compensation may vary based on a number of factors such as qualifications, skill level, work location, and other business and organizational needs. This base pay range is specific to California and is not applicable to other locations. A reasonable estimate of the base salary range as of the date of this posting is: $64,400 to $109,800 annually More information about NXP in the United States... NXP is an Equal Opportunity/Affirmative Action Employer regardless of age, color, national origin, race, religion, creed, gender, sex, sexual orientation, gender identity and/or expression, marital status, status as a disabled veteran and/or veteran of the Vietnam Era or any other characteristic protected by federal, state or local law. In addition, NXP will provide reasonable accommodations for otherwise qualified disabled individuals. #LI-e41b",
-   "company": "NXP Semiconductors",
-   "score": {
-    "total": 39,
-    "base": 36,
-    "fit": 15,
-    "loc": 4,
-    "traj": 11,
-    "pay": 6,
-    "rate": [
-     30.96,
-     52.79
-    ],
-    "fresh": 3,
-    "age": 12.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $42/hr",
-      6
-     ],
-     [
-      "body: prototype",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "title: process",
-      3
-     ],
-     [
-      "body: nx",
-      2
-     ],
-     [
-      "body: matlab",
-      2
-     ]
-    ]
-   },
-   "first_seen": "2026-11-03T13:48:25+00:00"
-  },
-  {
    "id": "ef:qualcomm.com:3097141",
    "title": "Modular Engineering Internship \u2013 Summer 2027",
    "location": "Los Altos, CA, US",
@@ -24430,48 +24366,6 @@
    "reason": "scored 31, below tier B"
   },
   {
-   "company": "NXP Semiconductors",
-   "title": "Digital Validation Intern - Summer 2027",
-   "location": "Austin (Oakhill, Office)",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Digital-Validation-Intern---Summer-2027_R-10065557",
-   "reason": "scored 29, below tier B"
-  },
-  {
-   "company": "NXP Semiconductors",
-   "title": "Equipment Engineer Intern - Summer 2027",
-   "location": "Chandler (Office)",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Equipment-Engineer-Intern---Summer-2027_R-10064584",
-   "reason": "scored 31, below tier B"
-  },
-  {
-   "company": "NXP Semiconductors",
-   "title": "HW/SW System and Application Engineer Intern-Summer 2027",
-   "location": "Chandler (Office)",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/HW-SW-System-and-Application-Engineer-Intern-Summer-2027_R-10064708",
-   "reason": "scored 17, below tier B"
-  },
-  {
-   "company": "NXP Semiconductors",
-   "title": "Photolithography Equipment Intern - Summer 2027",
-   "location": "Chandler (Office)",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Photolithography-Equipment-Intern---Summer-2027_R-10064587",
-   "reason": "scored 20, below tier B"
-  },
-  {
-   "company": "NXP Semiconductors",
-   "title": "Project Engineer / Project Management Intern - Summer 2027",
-   "location": "Chandler (Office)",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Project-Engineer---Project-Management-Intern---Summer-2027_R-10064585",
-   "reason": "scored 13, below tier B"
-  },
-  {
-   "company": "NXP Semiconductors",
-   "title": "Technical Sales Engineer (TSE) Intern - Summer 2027",
-   "location": "Austin (Oakhill, Office); Novi; San Jose (Holger Way)",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Technical-Sales-Engineer--TSE--Intern---Summer-2027_R-10067219",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Nokia",
    "title": "Automation Engineer Co-op/Intern",
    "location": "Canada",
@@ -24505,13 +24399,6 @@
    "location": "United States-California-Redondo Beach",
    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/XMLNAME-2027-Guidance-Navigation-and-Control-Engineer-Intern---Redondo-Beach-CA_R10259386",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Northrop Grumman",
-   "title": "2027 Mechanical Engineer Intern- Gilbert AZ",
-   "location": "United States-Arizona-Gilbert",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Gilbert/XMLNAME-2027-Mechanical-Engineer-Intern--Gilbert-AZ_R10258214",
-   "reason": "scored 21, below tier B"
   },
   {
    "company": "Northrop Grumman",
@@ -24869,48 +24756,6 @@
    "location": "Golden Valley, MN; Hanover Park, IL; Chardon, OH; Roselle,  IL; Delavan, WI; North Aurora, IL; New Brighton, MN; Sanford, NC; Apopka, FL; Conroe, TX; Moorpark, CA",
    "url": "https://pentair.wd5.myworkdayjobs.com/Pentair_Careers/job/Golden-Valley-MN/Supply-Chain---Operations-Leadership-Development-Internship-Program---Summer-2027_R23712",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Philips",
-   "title": "Intern - Industrial Design - Murrysville, PA - Summer 2027",
-   "location": "Murrysville, Pennsylvania, United States",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Murrysville-Pennsylvania-United-States/Intern---Industrial-Design---Murrysville--PA---Summer-2027_593133",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Philips",
-   "title": "Intern - Product Investigations Lab - New Kensington, PA - Summer 2027",
-   "location": "New Kensington, Pennsylvania, United States",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/New-Kensington-Pennsylvania-United-States/Intern---Product-Investigations-Lab---New-Kensington--PA---Summer-2027_593027",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Philips",
-   "title": "Intern - Systems Engineer \u2013 New Kensington, PA \u2013 Summer 2027",
-   "location": "New Kensington, Pennsylvania, United States",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/New-Kensington-Pennsylvania-United-States/Intern---Systems-Engineer---New-Kensington--PA---Summer-2027_592850",
-   "reason": "scored 28, below tier B"
-  },
-  {
-   "company": "Philips",
-   "title": "Intern-Customer Experience Analytics  (Health Systems Strategy and Growth) Nashville, TN-Summer 2027",
-   "location": "Nashville, Tennessee, United States",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern-Customer-Experience--Health-Systems-Strategy-and-Growth--Cambridge--MA-Summer-2027_593456",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Philips",
-   "title": "Intern/Co-op - STET Mechanical Engineer \u2013 Latham, NY \u2013 Spring/Summer 2027",
-   "location": "Latham, New York, United States",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Latham-New-York-United-States/Intern-Co-op---STET-Mechanical-Engineer---Latham--NY---Spring-Summer-2027_591053",
-   "reason": "scored 21, below tier B"
-  },
-  {
-   "company": "Philips",
-   "title": "Intern\u2013 Distribution and Reverse Logistics\u2013 Nashville, TN \u2013 Summer 2027",
-   "location": "Nashville, Tennessee, United States",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern--Distribution-and-Reverse-Logistics--Nashville--TN---Summer-2027_593028",
-   "reason": "scored 13, below tier B"
   },
   {
    "company": "Polaris",
@@ -25646,27 +25491,6 @@
    "location": "Milwaukee, Wisconsin, United States; Mayfield Heights, Ohio, United States",
    "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rolls-Royce",
-   "title": "Engineering and Technology Summer Internship - UK",
-   "location": "Derby; Rotherham; Washington; Solihull; Glasgow; Bristol",
-   "url": "https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Derby/Engineering-and-Technology-Summer-Internship---UK_JR6160585",
-   "reason": "scored 12, below tier B"
-  },
-  {
-   "company": "Rolls-Royce",
-   "title": "IET Power Academy Summer Internship - Derby, UK",
-   "location": "Derby",
-   "url": "https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Derby/IET-Power-Academy-Summer-Internship---Derby--UK_JR6160591",
-   "reason": "scored 12, below tier B"
-  },
-  {
-   "company": "Rolls-Royce",
-   "title": "Sir Ralph Robin Scholarship Summer Internship - Derby, UK",
-   "location": "Derby",
-   "url": "https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Derby/Sir-Ralph-Robin-Scholarship-Summer-Internship---Derby--UK_JR6162252",
-   "reason": "scored 12, below tier B"
   },
   {
    "company": "S and C Electric Company",
@@ -26457,20 +26281,6 @@
    "title": "Finance Intern, Global Shared Services - The Toro Company",
    "location": "Bloomington, MN",
    "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Finance-Intern--Global-Shared-Services---The-Toro-Company_JR17156",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Tokyo Electron",
-   "title": "Manufacturing Engineer 2027 Summer Intern",
-   "location": "Chaska",
-   "url": "https://tel.wd3.myworkdayjobs.com/TEL-Careers/job/Chaska/Manufacturing-Engineer-2027-Summer-Intern_R26-01590",
-   "reason": "scored 11, below tier B"
-  },
-  {
-   "company": "Tokyo Electron",
-   "title": "Research Scientist - ATG Optical Sensor Development Intern (Summer 2027)",
-   "location": "Austin RiverSouth",
-   "url": "https://tel.wd3.myworkdayjobs.com/TEL-Careers/job/Austin-RiverSouth/Research-Scientist---ATG-Optical-Sensor-Development-Intern--Summer-2027-_R26-02311",
    "reason": "non-ME discipline"
   },
   {
