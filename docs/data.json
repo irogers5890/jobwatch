@@ -1,23 +1,43 @@
 {
- "generated": "2026-11-07T04:44:35+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42339744662",
- "scanned": 34641,
+ "generated": "2026-11-07T05:04:39+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42341150735",
+ "scanned": 34518,
  "boards": 317,
  "errors": [
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "Jabil",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Johnson Controls",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Leidos",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Tektronix",
+   "board": "eightfold",
+   "error": "HTTP 403 \u2014 check slug/tenant/site"
   }
  ],
  "dropped": {
-  "non-ME discipline": 811,
+  "non-ME discipline": 782,
   "degree-level blocker": 9,
-  "below threshold": 527,
-  "no Summer/Fall 2027": 5519,
-  "no mechanical signal": 224,
-  "off-target season in title": 325,
-  "not a student req": 26825
+  "below threshold": 514,
+  "no Summer/Fall 2027": 5445,
+  "no mechanical signal": 223,
+  "off-target season in title": 324,
+  "not a student req": 26823
  },
  "jobs": [
   {
@@ -4531,6 +4551,63 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "gh:rocketlab:8007202003",
+   "title": "Ground Systems Engineering Intern Summer 2027",
+   "location": "Stennis Space Center, MS",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007202003",
+   "posted": "2026-10-19",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Grounds Systems Engineering Intern based at Rocket Lab\u2019s site in Stennis, Mississippi, you will have the opportunity to support the Test Ground Systems team as they provide the Archimedes engine with everything it needs to see for test, and provide the instrumentation, controls, and automation necessary to capture any and all data to accelerate the Neutron Program. The Ground Systems team is an integral part of the testing team, from designing and building new stands and capabilities, to making sure the stand continues to run smoothly day to day every day offers new challenges and opportunities to grow and contribute to the success of the mission. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering discipline such as Electrical, Mechatronics or Robotics Engineering, or physics discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Experience with Solidworks and MATLAB Finite Element Analysis (FEA) experience Computer-aided design and manufacturing (CAD/ CAM) experience Lathe Machining experience Geometric Dimensioning & Tolerancing experience Python and C++ experience Experience working with pressurized systems Proficient knowledge of fluid dynamics ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "company": "Rocket Lab",
+   "score": {
+    "total": 59,
+    "base": 56,
+    "fit": 43,
+    "loc": 0,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": 3,
+    "age": 19.2,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "body: mechatronics",
+      6
+     ],
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: machining",
+      4
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: finite element",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-20T00:40:49+00:00"
+  },
+  {
    "id": "gh:rocketlab:8042092003",
    "title": "Ground Systems Engineering Intern Summer 2027",
    "location": "Middle River, MD",
@@ -4589,63 +4666,6 @@
     ]
    },
    "first_seen": "2026-11-03T02:29:18+00:00"
-  },
-  {
-   "id": "gh:rocketlab:8007202003",
-   "title": "Ground Systems Engineering Intern Summer 2027",
-   "location": "Stennis Space Center, MS",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007202003",
-   "posted": "2026-10-19",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Grounds Systems Engineering Intern based at Rocket Lab\u2019s site in Stennis, Mississippi, you will have the opportunity to support the Test Ground Systems team as they provide the Archimedes engine with everything it needs to see for test, and provide the instrumentation, controls, and automation necessary to capture any and all data to accelerate the Neutron Program. The Ground Systems team is an integral part of the testing team, from designing and building new stands and capabilities, to making sure the stand continues to run smoothly day to day every day offers new challenges and opportunities to grow and contribute to the success of the mission. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering discipline such as Electrical, Mechatronics or Robotics Engineering, or physics discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Experience with Solidworks and MATLAB Finite Element Analysis (FEA) experience Computer-aided design and manufacturing (CAD/ CAM) experience Lathe Machining experience Geometric Dimensioning & Tolerancing experience Python and C++ experience Experience working with pressurized systems Proficient knowledge of fluid dynamics ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
-   "company": "Rocket Lab",
-   "score": {
-    "total": 59,
-    "base": 56,
-    "fit": 43,
-    "loc": 0,
-    "traj": 13,
-    "pay": 0,
-    "rate": null,
-    "fresh": 3,
-    "age": 19.2,
-    "age_basis": "posted",
-    "tier": "A",
-    "why": [
-     [
-      "body: mechatronics",
-      6
-     ],
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: machining",
-      4
-     ],
-     [
-      "body: solidworks",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: finite element",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-10-20T00:40:49+00:00"
   },
   {
    "id": "wd:oshkoshcorporation:R51242",
@@ -11851,51 +11871,6 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
-   "id": "wd:globalhr:01885172",
-   "title": "Structures Engineer Intern (Summer 2027)(Onsite)",
-   "location": "US-CT-MIDDLETOWN-140 ~ Aircraft Rd ~ BLDG 140",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-MIDDLETOWN-140--Aircraft-Rd--BLDG-140/Structures-Engineer-Intern--Summer-2027--Onsite-_01885172",
-   "posted": "2026-11-03",
-   "body": "Date Posted: 2026-11-03 Country: United States of America Location: US-CT-MIDDLETOWN-140 ~ Aircraft Rd ~ BLDG 140 Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. What You Will Do As a Structures Engineer Intern at Pratt & Whitney, you will\u2026\u2026 Provide analytical support for detailed design, through development, validation, certification, manufacturing and operational service. Use FE and classical methods for strength, stress/deflection, vibration, fatigue life, damage tolerance, containment, kinematic and optimization analyses. Cover validation testing (engine and rig) and data-reduction. Support in-service field investigations. Participate in multi-discipline teams to provide design solutions that balance customer requirements for durability, performance, cost and weight. Coordinate with others to advance technology and improve engineering standard work processes/methods. Document and present results to management and external customers. Travel Requirements: 10% What You Will Learn Engineering Interns at Pratt & Whitney work on challenging, meaningful, and impactful projects across our business. Our intern program seeks to help you develop an understanding of the aerospace industry and learn about our company and its operations. Qualifications You Must Have Must be pursuing a Bachelor\u2019s or Advanced degree in Mechanical Engineering or Aerospace Engineering or related Engineering field and actively enrolled through completion of the internship Experience with one or more of the following: ANSYS, Finite Element Analysis (FEA), or Fatigue and Fracture Minimum 3.0 Cumulative GPA Experience may be obtained through on-the-job experience, research, coursework, or projects. Qualifications We Prefer Structures experience including analytical methods (FEA), hand calculations, and spreadsheet methods Experience providing communication and driving task coordination to completion Experience analyzing strength, stress, deflection, vibration, fatigue life, and damage tolerance What We Offer Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX we value: Safety, Trust, Respect, Accountability, Collaboration, and Innovation. Relocation Eligibility Learn More & Apply Now! Please ensure the role type defined below is appropriate for your needs before applying to this role. This position is classified as: Onsite: Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate\u2019s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company\u2019s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans\u2019 Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms",
-   "company": "RTX",
-   "score": {
-    "total": 42,
-    "base": 33,
-    "fit": 20,
-    "loc": 0,
-    "traj": 13,
-    "pay": 0,
-    "rate": null,
-    "fresh": 9,
-    "age": 4.2,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: kinematic",
-      5
-     ],
-     [
-      "body: tolerance",
-      4
-     ],
-     [
-      "body: finite element",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "body: fea",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-03T17:46:02+00:00"
-  },
-  {
    "id": "gh:rocketlab:7991448003",
    "title": "Mechanical Engineering Intern Summer 2027",
    "location": "Long Beach, CA",
@@ -12412,51 +12387,6 @@
     ]
    },
    "first_seen": "2026-11-05T03:44:45+00:00"
-  },
-  {
-   "id": "wd:globalhr:01876185",
-   "title": "Secure System Engineering Intern (Summer 2027)",
-   "location": "US-CT-WINDSOR LOCKS-B1 ~ 1 Hamilton Rd ~ BLDG 1",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-WINDSOR-LOCKS-B1--1-Hamilton-Rd--BLDG-1/Cybersecurity-Engineering-Intern--Summer-2027-_01876185",
-   "posted": "2026-11-03",
-   "body": "Date Posted: 2026-11-03 Country: United States of America Location: US-CT-WINDSOR LOCKS-B1 ~ 1 Hamilton Rd ~ BLDG 1 Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. What You Will Do: You are the kind of engineering student who can\u2019t help pulling things apart to see exactly how they work. You're probably involved in cybersecurity and coding clubs, understand the term \u201cwhite hat\u201d does not refer to \"black-tie events\", and you definitely have a pile of dismantled electronic devices in the corner dedicated to personal projects. If that sounds like you, welcome to Secure System Engineering; the intersection of Systems, Software, and Safety Engineering. The Embedded Product Cybersecurity Engineering team is seeking a Secure System Engineer Intern for Summer 2027. Our shared services team supports product development across the company wherever a customer has a security requirement, or when a system will be exposed to cyber threats through connectivity or operational use over public networks. Members of our team help develop cyber-resilient systems by supporting design and implementation teams to ensure a Secure System Development Lifecycle (SSDLC). We also develop tools and testing techniques for integration and verification, helping identify residual defects in design or implementation that could negatively impact the confidentiality, availability, or integrity of a system. This is an onsite position. Located in WINDSOR LOCKS. Must be a U.S. Person/Permanent Resident Assist with developing and executing fuzzing and penetration tests to evaluate attack surface robustness. Develop threat models and data flow diagrams to ensure data is properly isolated in transit and at rest. Implement mandatory access controls (MAC) through the development of SELinux policies. Participate in code reviews to identify weaknesses in the implementation of security functions. Conduct vulnerability assessments on proposed and in-service systems. Develop and improve tools and scripts that enhance the overall efficacy of the Embedded Product Cybersecurity team. What You Will Learn: The stages and practical application of the Collins Aerospace Secure Systems Development Lifecycle. The day-to-day operations and responsibilities of a cybersecurity engineer. Practical experience in security testing methodologies, emphasizing fuzzing techniques. Advanced skills in developing Python scripts and tools to automate and enhance cybersecurity workflows. The end-to-end process of developing threat models and securing data through strict isolation and access controls. Qualifications You Must Have: Must be pursuing a Bachelor\u2019s or Advanced degree in an applicable discipline and actively ++enrolled through completion of the internship / co-op session. Must have a minimum of 60 hours of credit by the start of the internship / co-op session. Solid understanding of fundamental cybersecurity principles. High proficiency in Python programming. Familiarity with Linux operating systems. Basic knowledge of network protocols and secure architectures. Qualifications We Prefer: Strong problem-solving and analytical skills with a demonstrated passion for the field. Completed coursework or personal projects focusing on embedded systems security. Experience with embedded system integration and testing. Understanding of IP networking architectures and concepts. Knowledge of version control systems (e.g., Git). Proficiency in the Microsoft Office Tool Suite. What We Offer: Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX we value: Trust, Respect, Accountability, Collaboration, and Innovation. Relocation Eligible Learn More & Apply Now! Please consider the following role type definition as you apply for this role. Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate\u2019s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company\u2019s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans\u2019 Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms",
-   "company": "RTX",
-   "score": {
-    "total": 41,
-    "base": 32,
-    "fit": 19,
-    "loc": 0,
-    "traj": 13,
-    "pay": 0,
-    "rate": null,
-    "fresh": 9,
-    "age": 4.2,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "body: doe",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-03T10:05:50+00:00"
   },
   {
    "id": "wd:amat:R2626710",
@@ -13585,51 +13515,6 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
-   "id": "wd:jabil:J2469350",
-   "title": "Mechanical System Architect Intern",
-   "location": "Austin, TX",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Mechanical-System-Architect-Intern_J2469350",
-   "posted": "2026-10-26",
-   "body": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vibrant and diverse communities around the globe. Summary of Program Jabil\u2019s Summer Internship Program was recognized as one of the Top 100 Internship Programs in the country for 2026 by WayUp. This is the result of a holistic and engaging experience that summer interns at Jabil experience. As a result, interns that are a part of this program for summer 2027 will get to engage with members of Jabil\u2019s leadership team and participate in events related to professional development, networking & socializing, and community engagement. In addition, interns will have the opportunity to work with each other in committees, be assigned a mentor, tour some of Jabil\u2019s facilities and much more! If this sounds like a program you want to be a part of and you want to work for a company that strives to make EVERYTHING BETTER and ANYTHING POSSIBLE, then apply today. What will you do? - System Architects at Jabil collaborate with customers, sales, and product planning to establish the technical direction for Jabil design teams in the Cloud and Compute markets. As a Mechanical System Architect Intern, you will be expected to: Complete a primary project that includes project management and solution development. Contribute to determining the technical direction for customer originated projects and Jabil's own cloud compute product offerings: Documenting product requirements Communicating the plan of record design and tradeoffs System layout and mechanical feasibility Collaborating with system architects in the mechanical, electrical, thermal, firmware, and software domains Train on detailed design requirements of CPUs, GPUs, Storage, Memory, FPGAs, board materials, regulators, power supplies etc. Hands-on assembly and disassembly of cloud computing products How will you get here? Requirements: Education: Junior or Senior class year engineering student pursuing a Bachelor\u2019s degree in Mechanical Engineering or a similar area Preferred Qualifications: Understanding of mechanical engineering design principles Proven academic project experience Effective communication, self-starter \u2013 Ability to drive work. Strong data analysis skills Knowledge, Skills, Abilities: Capability to research and explore unfamiliar technologies and concepts with an eye towards feasibility Familiarity with the Intel, AMD, Nvidia or ARM CPU/GPU architectures. Direct experience with at least some of the above is preferred. Familiarity with ME design tools, preferably PTC Creo and Windchill Knowledge of data center environmental and infrastructure paradigms Familiarity in the mechanical and electrical domains. Specifically, an understanding of basics nomenclature, concepts and tools used by your architectural teammates. BE AWARE OF FRAUD: When applying for a job at Jabil you will be contacted via correspondence through our official job portal with a jabil.com e-mail address; direct phone call from a member of the Jabil team; or direct e-mail with a jabil.com e-mail address. Jabil does not request payments for interviews or at any other point during the hiring process. Jabil will not ask for your personal identifying information such as a social security number, birth certificate, financial institution, driver\u2019s license number or passport information over the phone or via e-mail. If you believe you are a victim of identity theft, contact the Federal Bureau of Investigations internet crime hotline (www.ic3.gov), the Federal Trade Commission identity theft hotline (www.identitytheft.gov) and/or your local police department. Any scam job listings should be reported to whatever website it was posted in. Jabil, including its subsidiaries, is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, age, disability, genetic information, veteran status, or any other characteristic protected by law. Accessibility Accommodation If you are a qualified individual with a disability, you have the right to request a reasonable accommodation if you are unable or limited in your ability to use or access Jabil.com/Careers site as a result of your disability. You can request a reasonable accommodation by sending an e-mail to Always_Accessible@Jabil.com or calling 727-803-7988 with the nature of your request and contact information. Please do not direct any other general employment related questions to this e-mail or phone number. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to. #whereyoubelong #AWorldofPossibilities #EarlyCareer",
-   "company": "Jabil",
-   "score": {
-    "total": 39,
-    "base": 36,
-    "fit": 21,
-    "loc": 4,
-    "traj": 11,
-    "pay": 0,
-    "rate": null,
-    "fresh": 3,
-    "age": 12.2,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: mechanical",
-      7
-     ],
-     [
-      "body: regulator",
-      5
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "body: creo",
-      3
-     ],
-     [
-      "body: fea",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-26T21:42:53+00:00"
   },
   {
    "id": "wd:nxp:R-10065402",
@@ -18125,12 +18010,12 @@
    "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
-   "id": "gh:rocketlab:7990270003",
+   "id": "gh:rocketlab:7990272003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Tucson, AZ",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
+   "location": "Chantilly, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "company": "Rocket Lab",
    "score": {
     "total": 30,
@@ -18181,12 +18066,12 @@
    "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
-   "id": "gh:rocketlab:7990272003",
+   "id": "gh:rocketlab:7990270003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Chantilly, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
+   "location": "Tucson, AZ",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "company": "Rocket Lab",
    "score": {
     "total": 30,
@@ -22194,13 +22079,6 @@
   },
   {
    "company": "Eaton",
-   "title": "Engineering Intern- Summer 2027",
-   "location": "Middlesex, NC, US",
-   "url": "https://eaton.eightfold.ai/careers/job/687239968190",
-   "reason": "scored 10, below tier B"
-  },
-  {
-   "company": "Eaton",
    "title": "Manufacturing Engineer Co-op - Fall 2027",
    "location": "Sumter, SC, US",
    "url": "https://eaton.eightfold.ai/careers/job/687239185228",
@@ -22334,20 +22212,6 @@
   },
   {
    "company": "GE Aerospace",
-   "title": "Engines Engineering Intern \u2013 Computer or Software Engineering \u2013 US \u2013 Summer 2027",
-   "location": "Evendale; Lynn",
-   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-Intern---Computer-or-Software-Engineering---US---Summer-2027_R5029622-1",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "GE Aerospace",
-   "title": "Engines Engineering Intern \u2013 US \u2013 Summer 2027",
-   "location": "Evendale; Lynn",
-   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-Intern---US---Summer-2027_R5029621-1",
-   "reason": "scored 21, below tier B"
-  },
-  {
-   "company": "GE Aerospace",
    "title": "Engines Engineering MBSE Intern - Summer 2027",
    "location": "Evendale; Lynn",
    "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-MBSE-Intern---Summer-2027_R5034811",
@@ -22366,13 +22230,6 @@
    "location": "Springdale; West Chester; Evendale",
    "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Springdale/Inspection-Engineering-Intern---Summer-2027_R5040956-1",
    "reason": "scored 25, below tier B"
-  },
-  {
-   "company": "GE Aerospace",
-   "title": "Manufacturing Engineering Intern \u2013 US \u2013 Summer 2027",
-   "location": "Evendale; Batesville; Durham; Bohemia; Arkansas City; Auburn AL USA; Madisonville; Asheville; Dayton; Rutland; Clearwater; Greenville; Terre Haute; Wilmington NC USA; McAllen; Erlanger; West Jefferson; Hooksett; Lafayette IN USA; Norwich; Lynn; Jacksonville; Sterling VA USA",
-   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Intern---US---Summer-2027_R5029659",
-   "reason": "scored 31, below tier B"
   },
   {
    "company": "GE Aerospace",
@@ -23279,20 +23136,6 @@
   },
   {
    "company": "Honeywell",
-   "title": "Artificial Intelligence/Machine Learning - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155522",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Building Automation Supply Chain Development Program (URDP) - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155506",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
    "title": "Building Automation Supply Chain Development Program (URDP) - Summer 2027 Intern (US Person Required)",
    "location": "United States",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155506",
@@ -23314,20 +23157,6 @@
   },
   {
    "company": "Honeywell",
-   "title": "Chemical Engineering - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155524",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Chemical Engineering - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155526",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
    "title": "Chemical Engineering - Summer 2027 Intern (US Person Required)",
    "location": "United States",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155526",
@@ -23338,20 +23167,6 @@
    "title": "Electrical Engineering - Summer 2027 Intern",
    "location": "United States",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155540",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Electrical Engineering - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155540",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Electrical Engineering - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155537",
    "reason": "non-ME discipline"
   },
   {
@@ -23398,13 +23213,6 @@
   },
   {
    "company": "Honeywell",
-   "title": "Future Finance Leaders Program - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155510",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
    "title": "Future HR Leaders - Summer 2027 Intern",
    "location": "United States",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/152206",
@@ -23426,30 +23234,9 @@
   },
   {
    "company": "Honeywell",
-   "title": "Future IT Leaders - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/156751",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
    "title": "Information Systems, IT, Cyber Engineer & Data Science - Summer 2027 Intern",
    "location": "United States",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155555",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Information Systems, IT, Cyber Engineer & Data Science - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155555",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Information Systems, IT, Cyber Engineer & Data Science - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155554",
    "reason": "non-ME discipline"
   },
   {
@@ -23485,20 +23272,6 @@
    "title": "Materials Engineering/Materials Science - Summer 2027 Intern",
    "location": "United States",
    "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155541",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Materials Engineering/Materials Science - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155541",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Materials Engineering/Materials Science - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155543",
    "reason": "non-ME discipline"
   },
   {
@@ -23789,76 +23562,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Jabil",
-   "title": "Low voltage switchgear Electrical Engineering Intern",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Low-voltage-switchgear-Electrical-Engineering-Intern_J2470772",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Jabil",
-   "title": "Mechanical Engineering Intern",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Mechanical-Engineering-Intern_J2470824-1",
-   "reason": "scored 31, below tier B"
-  },
-  {
-   "company": "Jabil",
-   "title": "Production Planning Intern (Part-Time)",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Production-Planning-Intern--Part-Time-_J2468448",
-   "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Jabil",
-   "title": "Purchasing Intern (Part-Time)",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Purchasing-Intern--Part-Time-_J2468450",
-   "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Jabil",
-   "title": "Validation Engineer Intern",
-   "location": "Austin, TX",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Validation-Engineer-Intern_J2469310",
-   "reason": "scored 28, below tier B"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Accounting & Finance Intern",
-   "location": "Milwaukee-Wisconsin-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Milwaukee-Wisconsin-United-States-of-America/Accounting---Finance-Intern_WD30278457",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Legal Intern",
-   "location": "Milwaukee-Wisconsin-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Milwaukee-Wisconsin-United-States-of-America/Legal-Intern_WD30283959",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Supply Chain & Operations Intern",
-   "location": "Lubbock-Texas-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Lubbock-Texas-United-States-of-America/Supply-Chain-Intern_WD30278671",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Supply Chain & Operations Intern",
-   "location": "Marinette-Wisconsin-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Marinette-Wisconsin-United-States-of-America/Supply-Chain-Intern_WD30278674",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Supply Chain Intern",
-   "location": "Airside Center of Excellence",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Airside-Center-of-Excellence/Supply-Chain-Intern_WD30278669",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Johnson and Johnson",
    "title": "Associate Clinical Account Specialist (ACAS) Intern (Summer 2027)",
    "location": "Irvine, California, United States of America; Toledo, Ohio, United States; North Dakota (Any City); Connecticut (Any City); Richmond, Virginia, United States of America; Cleveland, Ohio, United States",
@@ -24013,13 +23716,6 @@
    "reason": "scored 18, below tier B"
   },
   {
-   "company": "Leidos",
-   "title": "Migration Execution Intern",
-   "location": "6314 Remote/Teleworker US",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Migration-Execution-Intern_R-00196159",
-   "reason": "scored 2, below tier B"
-  },
-  {
    "company": "Lockheed Martin",
    "title": "Automation Test-INTERN",
    "location": "Colorado Springs, CO, US",
@@ -24151,13 +23847,6 @@
    "location": "Mt Laurel Township, NJ, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477596056",
    "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineer - Intern",
-   "location": "Fort Worth, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477385176",
-   "reason": "scored 18, below tier B"
   },
   {
    "company": "Lockheed Martin",
@@ -24728,13 +24417,6 @@
   },
   {
    "company": "Northrop Grumman",
-   "title": "2027 Contracts Administration Intern - Elkton MD",
-   "location": "United States-Maryland-Elkton",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Elkton/XMLNAME-2027-Contracts-Administration-Intern---Elkton-MD_R10253255",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Northrop Grumman",
    "title": "2027 Electrical Engineering Intern- Huntsville AL",
    "location": "United States-Alabama-Huntsville",
    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Electrical-Engineering-Intern--Huntsville-AL_R10259306-1",
@@ -24756,24 +24438,10 @@
   },
   {
    "company": "Northrop Grumman",
-   "title": "2027 Integration and Test (Electronics/Mechanical) Technical Intern - Dulles VA",
-   "location": "United States-Virginia-Dulles",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/XMLNAME-2027-Integration-and-Test--Electronics-Mechanical--Technical-Intern---Dulles-VA_R10259321",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Northrop Grumman",
    "title": "2027 Mechanical Engineer Intern- Gilbert AZ",
    "location": "United States-Arizona-Gilbert",
    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Gilbert/XMLNAME-2027-Mechanical-Engineer-Intern--Gilbert-AZ_R10258214",
    "reason": "scored 21, below tier B"
-  },
-  {
-   "company": "Northrop Grumman",
-   "title": "2027 S/W Embedded Engineering Intern \u2013 Sykesville MD",
-   "location": "United States-Maryland-Sykesville",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Sykesville/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Sykesville-MD_R10258553",
-   "reason": "scored 22, below tier B"
   },
   {
    "company": "Northrop Grumman",
@@ -25779,15 +25447,15 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
@@ -25828,16 +25496,16 @@
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Wallops Island, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
-   "reason": "scored 28, below tier B"
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
+   "reason": "scored 31, below tier B"
   },
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
-   "reason": "scored 31, below tier B"
+   "location": "Wallops Island, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
+   "reason": "scored 28, below tier B"
   },
   {
    "company": "Rocket Lab",
@@ -25863,13 +25531,6 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Wallops Island, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
    "location": "Middle River, MD",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
    "reason": "non-ME discipline"
@@ -25877,8 +25538,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Albuquerque, NM",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
+   "location": "Wallops Island, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
    "reason": "non-ME discipline"
   },
   {
@@ -25890,9 +25551,16 @@
   },
   {
    "company": "Rocket Lab",
+   "title": "Security Analyst Intern Summer 2027",
+   "location": "Albuquerque, NM",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
@@ -25905,8 +25573,8 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
    "reason": "non-ME discipline"
   },
   {
@@ -26706,27 +26374,6 @@
    "location": "Redmond, Washington",
    "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Redmond-Washington/Human-Factors-Engineering-Intern_R572819",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
-   "reason": "scored 16, below tier B"
   },
   {
    "company": "Teledyne FLIR",
