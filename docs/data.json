@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T09:57:38+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42361881659",
- "scanned": 34455,
+ "generated": "2026-11-07T10:17:42+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42363324774",
+ "scanned": 34523,
  "boards": 317,
  "errors": [
   {
@@ -10,18 +10,18 @@
    "error": "HTTP 404 \u2014 check slug/tenant/site"
   },
   {
-   "company": "Marvell",
+   "company": "Insulet",
    "board": "workday",
-   "error": "failed after 3 tries: The read operation timed out"
+   "error": "failed after 3 tries: HTTP 429"
   }
  ],
  "dropped": {
-  "non-ME discipline": 775,
+  "non-ME discipline": 782,
   "degree-level blocker": 9,
-  "below threshold": 510,
-  "no Summer/Fall 2027": 5406,
+  "below threshold": 519,
+  "no Summer/Fall 2027": 5444,
   "no mechanical signal": 223,
-  "off-target season in title": 323,
+  "off-target season in title": 325,
   "not a student req": 26823
  },
  "jobs": [
@@ -5815,6 +5815,51 @@
    "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
+   "id": "wd:marvell:2603850",
+   "title": "Silicon Validation Intern, BS - Summer 2027",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Silicon-Validation-Intern--BS---Summer-2027_2603850-1",
+   "posted": "2026-10-21",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact The Rack Scale Switch Chip Validation team validates and delivers the high-performance switching silicon and system-level solutions used inside modern AI and cloud data center racks. As an intern, you will contribute to day-to-day engineering work such as running emulation and verification tests, debugging silicon and hardware issues, troubleshooting switch performance and efficiency, and writing scripts to automate workflows, all alongside experienced engineers. Your work will support the team's efforts to deliver reliable, high-bandwidth, low-latency switch products that are a key part of Marvell's data infrastructure portfolio. These products help customers scale AI workloads and enable the next generation of data center networking. What You Can Expect Support post-silicon validation of high-speed switch silicon under the guidance of senior engineers. \u00b7 Assist in developing, documenting, and executing test plans and test cases for switch chip validation. \u00b7 Support lab-based silicon bring-up and run unit tests on hardware and firmware functionality, including emulation and verification environments. \u00b7 Help collect and analyze high-speed signal and link data (such as eye diagrams, jitter, and BER) using lab test equipment. \u00b7 Assist in debugging silicon and hardware issues, and in troubleshooting switch performance and efficiency. \u00b7 Use diagnostics, software tools, oscilloscopes, and protocol analyzers to help isolate the root cause of failing tests. \u00b7 Write and maintain scripts (for example in Python) to automate test execution, data collection, and result reporting. \u00b7 Document test results, findings, and debug progress, and present them to the team. What We're Looking For \u00b7 Currently pursuing a bachelor\u2019s degree in electrical engineering, Electrical Engineering, Computer Engineering, Computer Science, or a related field with an expected graduation date between Fall 2027 \u2013 Summer 2028 \u00b7 Foundational understanding of digital logic, computer architecture, and high-speed I/O concepts such as SerDes and PCIe or Ethernet protocols. \u00b7 Basic hands-on lab experience through coursework, research, or projects, such as hardware bring-up, testing, and debug. \u00b7 Familiarity with common lab equipment such as oscilloscopes, logic analyzers, or BERTs. \u00b7 Programming or scripting experience in Python, Perl, or a similar language. \u00b7 Strong analytical, problem-solving, and communication skills, with a willingness to learn. Preferred/Plus: \u00b7 Coursework or project experience with PCIe, Ethernet, or other high-speed interfaces. \u00b7 Exposure to the physical and protocol layers of high-speed interfaces (for example PHY, PCS, MAC). \u00b7 Experience with emulation, simulation, or verification environments. \u00b7 Ability to read board schematics and layouts. \u00b7 Familiarity with signal integrity concepts such as eye diagrams, jitter, and BER. Expected Base Pay Range (USD) 28 - 56, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 55,
+    "base": 52,
+    "fit": 29,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": 3,
+    "age": 17.4,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: validation",
+      8
+     ],
+     [
+      "body: root cause",
+      7
+     ],
+     [
+      "body: test plan",
+      6
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-21T16:07:33+00:00"
+  },
+  {
    "id": "lv:zoox:0c32245b-f51d-40d2-8e57-a0be1b744c5b",
    "title": "Hardware Engineer Intern, Vehicle Systems [Summer 2027]",
    "location": "Foster City, CA",
@@ -7138,6 +7183,51 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "wd:marvell:2603840",
+   "title": "Product Engineer Intern - Bachelor's Degree Summer 2027",
+   "location": "Singapore",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Product-Engineer-Intern---Bachelor-s-Degree-Summer-2027_2603840",
+   "posted": "2026-10-27",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact Marvell is looking for highly motivated, talented Product Engineer Intern. You will part of a dynamic product engineering team working on most advanced technologies. Working at Marvell is fun, exciting and lot of growth potential within the company. You will work closely with Test, Hardware, Design and Firmware engineering teams to design, develop, and debug products and solutions. In this role you will be partnered with a senior Product Engineer team member who will serve as your mentor, teaching and guiding you through the inner workings of Product Lifecycle Management (PLM), New Product Introduction (NPI), and Mass Production Release (MPR). What You Can Expect You will be assigned to support multiple Product Engineering related activities such as: Test Program Verification and Debug Failure Analysis and Device Characterization Execution or Coordination of Automated Test Equipment (ATE) and System Level Test (SLT) Operations Compiling and Presenting Engineering Analysis Reports DPPM Analysis and Yield Reporting In addition, you will be responsible for completing an engineering project under the guidance of your mentor. The project will focus on completion of a core subset of NPI deliverables or solving a technical challenge during NPI. At the end of this project, you will get an opportunity to share and present details of your engineering project to a wide audience including other interns. Internship Learning Outcomes Supporting high-volume manufacturing services from NPI, MPR to sustaining stages. Work with Test Engineering to deliver Automated Test Equipment (ATE) test and automation. Drive ATE operation for device test debug, device functionality, testability, and characterization. Support the manufacturing process from Fab process, wafer sort, package assembly, backend testing, characterization, and qualification. Support early production testing, and transfer products test to mass production offshore. Drive for the best possible yield at technology and design capability by contributing in debug (Yield, Test, and Design related issues). Drive manufacturing cost reduction and quality improvement. Participate in failure analysis (ATE, Bench, Physical) at product level. What We're Looking For What We're Looking For \u2022 Currently pursuing a Bachelor\u2019s degree in Electronics Engineering or relevant disciplines. \u2022 Able to start internship in Summer 2027 vacation period. \u2022 Secondary major or specialization in Data Analytics is a plus. \u2022 Strong organizational, data analytical and communications skills \u2022 Good understanding of data analysis tools such as JMP or statistical tools \u2022 Good problem-solving skills. Additional Compensation and Benefit Elements With competitive compensation and great benefits, you will enjoy our workstyle within an environment of shared collaboration, transparency, and inclusivity. We\u2019re dedicated to giving our people the tools and resources they need to succeed in doing work that matters, and to grow and develop with us. For additional information on what it\u2019s like to work at Marvell, visit our Careers page. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 51,
+    "base": 48,
+    "fit": 33,
+    "loc": 0,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": 3,
+    "age": 11.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: product engineer",
+      10
+     ],
+     [
+      "body: failure analysis",
+      7
+     ],
+     [
+      "body: npi",
+      6
+     ],
+     [
+      "body: new product introduction",
+      6
+     ],
+     [
+      "body: verification",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-27T06:11:09+00:00"
+  },
+  {
    "id": "wd:globalhr:01886247",
    "title": "Systems Engineering Intern (Summer 2027)",
    "location": "US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2",
@@ -7446,6 +7536,43 @@
     ]
    },
    "first_seen": "2026-10-27T06:11:09+00:00"
+  },
+  {
+   "id": "wd:marvell:2603877",
+   "title": "Hardware Signal Integrity Intern, MS - Summer 2027",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Hardware-Signal-Integrity-Intern--MS---Summer-2027_2603877-1",
+   "posted": "2026-11-03",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact The Cloud Platform Optics team builds highly integrated component platforms with high-speed Silicon photonics, transmit and receive amplifiers, controller ASIC\u2019s with Marvell DSP\u2019s. These components are made operational with a highly functional embedded firmware. The team is responsible for design, verification, and validation of these integrated high speed optical components. The team performs system level testing under various operating conditions, and validates the performance of the hardware, firmware and control loops. An engineer in this team will be involved in a full product lifecycle and will carry new products from inception all the way to NPI. What You Can Expect We are seeking a motivated and talented Electrical Hardware Engineering Intern to join our dynamic team. The ideal candidate will have a foundational understanding of electrical hardware design and development, with a keen interest in developing platform solutions for the AI market. This role offers an excellent learning opportunity in a fast-paced environment. Assist in the design, development, and testing of electrical hardware for optical modules and other AI platforms. Perform hands-on testing and debugging of hardware components using lab equipment such as oscilloscopes, multimeters, power supplies and signal analyzer. Participate in hardware validation and verification, including debugging and troubleshooting. Help develop and maintain detailed design documentation, including schematics, PCB layouts, and BOMs. What We're Looking For Currently enrolled in a Bachelors or Master\u2019s Degree in CS/EE, or a related field with an expected graduation date of Fall 2027 \u2013 Summer 2028 Completed courses in electric, circuit design and programming. Strong understanding of electrical engineering principles and practices. Familiarity with CAD tools for schematic capture and PCB layout (e.g., Allegro, OrCAD). Proficiency in using lab equipment, with a good understanding of electrical measurement and testing methodologies. Expected Base Pay Range (USD) 33 - 66, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 50,
+    "base": 41,
+    "fit": 18,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": 9,
+    "age": 4.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: hardware",
+      8
+     ],
+     [
+      "body: npi",
+      6
+     ],
+     [
+      "body: verification",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-03T22:34:03+00:00"
   },
   {
    "id": "ab:astro-mechanica:746a6647-a07d-41ef-91e4-0dfe3a10800b",
@@ -8688,6 +8815,43 @@
     ]
    },
    "first_seen": "2026-10-13T02:04:57+00:00"
+  },
+  {
+   "id": "wd:marvell:2604975",
+   "title": "Hardware Engineer Intern, BS - Summer 2027",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975",
+   "posted": "2026-10-05",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact As a part of the Multimarket Business Group, the System Engineering Hardware team is responsible for developing silicon validation board (EVB) and customer reference design board (CRB) for products ranging from compute processors, CXL accelerators, Security controllers as well as custom SoCs. Engineers on the team lead board design from concept through silicon validation by collaborating with internal cross-functional teams and external partners. What You Can Expect Collaborate with system design engineers throughout the design, review, bring-up, and validation of hardware platforms. Perform hands-on lab testing and debugging to identify and resolve board-level issues. Customize and validate FPGA logic for evaluation board control and system enablement. Review hardware schematics and PCB layouts to support design quality and functionality. Support hardware and software bring-up activities for internal development and customer systems. What We're Looking For Currently pursuing a Bachelor\u2019s degree in Computer Engineering, Electrical Engineering, or a related field with an expected graduation date between Fall 2027 and Summer 2028 Strong foundation in digital circuit design and analysis Experience with embedded programming using C Familiarity with Linux environments and scripting fundamentals Understanding of industry-standard communication protocols such as I2C and SPI Exposure to FPGA/RTL design, including simulation, synthesis, implementation, and verification Expected Base Pay Range (USD) 28 - 56, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-JY1",
+   "company": "Marvell",
+   "score": {
+    "total": 47,
+    "base": 47,
+    "fit": 24,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": 0,
+    "age": 33.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: hardware engineer",
+      12
+     ],
+     [
+      "title: hardware",
+      8
+     ],
+     [
+      "body: verification",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
   },
   {
    "id": "ef:qualcomm.com:3095750",
@@ -13711,6 +13875,47 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "wd:marvell:2604511",
+   "title": "Design for Test Intern, BS - Summer 2027",
+   "location": "Morrisville, NC; Westborough, MA; Boise, ID; Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Morrisville-NC/Design-for-Test-Intern--BS---Summer-2027_2604511",
+   "posted": "2026-09-04",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact Marvell is looking for an entry-level Design-for-Test (DFT) intern who will help with the design, and implementation of DFT designs and reference flows. They will coordinate and support their deployment on latest system-on-chip (SOC) designs to ensure successful delivery to end client. This work is critical to support Marvell\u2019s current customer engagements and directly leads to Marvell\u2019s revenue. What You Can Expect Understand the design requirements and customer specifications Learn and run the defined computer-aided design (CAD) tools/flow for the assigned designs Design and develop the SOC using Linux, TCL, Python/Perl (or other equivalent scripting languages) Analyze, debug, and implement DFT features using defined CAD tools/flow Collaborate with global CAD teams on design flow fixes and feature improvements Assist in design verification efforts using ICL/PDL constructs and SV/UVM What We're Looking For Currently enrolled in a Bachelor\u2019s Degree in EE, CE, or a related field with an expected graduation date of Fall 2027 \u2013 Summer 2028 Language Fluency \u2013 Fluent in English Language \u2013 written & verbal. Preferred Qualifications: Basic understanding of Linux/Unix/BSD Internals, with experience working on multi-threaded systems Strong programming skills in scripting languages (e.g., TCL, Python) in a Unix type environment, with good problem-solving skills Knowledge of SOC (system on a chip) design flow and DFT practices is a plus, e.g., At-Speed Test, Built-in Self-Test (BIST), Automated Test Pattern Generation (ATPG), IEEE1149.6 (AC-JTAG), and IEEE1687 (IJTAG). Expected Base Pay Range (USD) 30 - 59, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. This role is eligible to participate in Marvell's bonus and equity plans, including a new hire equity grant and annual equity refreshers, ensuring you are rewarded for your contributions and remain invested in the company's long-term success. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 38,
+    "base": 46,
+    "fit": 23,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": -8,
+    "age": 64.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: test",
+      12
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
+     ],
+     [
+      "body: fea",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
    "id": "or:fa-euwp-saasfaprod1:394834",
    "title": "Undergraduate Engineering Intern - Microfabrication",
    "location": "Rochester, MN, United States",
@@ -16311,6 +16516,43 @@
    "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
+   "id": "wd:marvell:2604515",
+   "title": "IC Validation Engineer Intern, MS - Summer 2027",
+   "location": "Santa Clara, CA; Irvine, CA; Westlake Village, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/IC-Validation-Engineer-Intern--MS---Summer-2027_2604515-1",
+   "posted": "2026-09-14",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact Data center engineering (DCE) team involves in the development of discrete components and integrated optics providing to the Marvell DCE group is looking for an electrical engineering interns. A qualified candidate will work with a team of energetic, technically strong, multi-disciplined engineering team in the development of critical components for 800G, 1.6T ZR high speed optical communication systems that will enable the next generation cloud computing that powers the today's AI landscape. The successful candidate will be part of the Optics team responsible for validation of Analog front end design used in various physical medium devices, Photonics Integrated circuits, board-level hardware design, test development in microwave test and measurement at mmWave and beyond, and scripting of automatic test systems for testing hardware with specific firmware. What You Can Expect This intern may be assigned any related to designing a test interface, probe solution, test automation, PIC test development, testing of CDSP SerDes, SiGe BiCMOS transimpedance amplifiers and laser drivers. This may include system modeling, block design, simulation, or lab measurement. Assignments will depend on the skills and interests of the student intern as well as the project phase. Detail responsibilities can be: Develop Hardware for Chip level and/or sub-system level performance evaluation/validation. Initial work will involve in execution of engineering validation plan for Optoelectronic components (TIAs & modulator Drivers) Learn to understand the Spec and functionalities of Marvell Optoelectronics products Designing hardware platform for validating chips and system with Senior member\u2019s guidance Coding/scripting to automate measurements in Python Verify and Trouble shoot board level or chip level design. Engage and collaborate among validation team members for test development, data base structure, test hardware (Probes wedges, probes cards, and PCB,) and performing assigned validation projects. Documentation of design/validation results and report generations Being successful during internship could potentially earn as a Post Silicon Validation Engineer role and overtime, design and innovate hardware/software and test/validation methodologies. Solving low noise- high gain amplifier testing up to mmWave. What We're Looking For Currently enrolled in a Master\u2019s Degree in CE, EE, or a related field with an expected graduation date of Fall 2027 \u2013 Summer 2028 \u200bPreferred Qualifications: Strong fundamentals in at least 2 to 3 of the following area: RF and Microwave Engineering (S-parameters.) & Devices (Filters, Splitters/ Combiners, Travelling wave amplifiers) Transistor-level Analog design Common building blocks & functions: OpAmps, Digital logic Communication Theories \u2013 modulations, noise, SNR, digital signal processing, equalization techniques, Q-factor, BER Digital System engineering \u2013 signaling and synchronization. Programming: Python, C, etc. (Exposures to Matlab and ADS is desirable) Silicon Photonics Enjoys hands on lab work using test and measurement equipment (VNA, Oscilloscope, Spectrum analyzer, and in circuit emulator.) Expected Base Pay Range (USD) 33 - 66, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 33,
+    "base": 37,
+    "fit": 14,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 54.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: validation",
+      8
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: matlab",
+      2
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
    "id": "wd:globalhr:01873117",
    "title": "Systems Engineering Co-Op (Summer/Fall 2027)",
    "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105",
@@ -17126,6 +17368,105 @@
    "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
+   "id": "wd:marvell:2603863",
+   "title": "AMS Validation Intern, BS - Summer 2027",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/AMS-Validation-Intern_2603863-1",
+   "posted": "2026-09-29",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact As a hardware and silicon validation engineer at Marvell, you\u2019ll be helping to deliver high bandwidth over long distances. This team performs analog validation on amplifiers and high speed circuits that drive optical electronic devices and receivers. What You Can Expect Help set up and run electrical lab measurements on analog and communication circuits. Learn to use lab instruments (oscilloscopes, spectrum analyzer) properly and create automated test code to remotely collect data. Document test procedures and results in weekly status updates. Collect, analyze data and present conclusions to the group's weekly meeting. Understand python automation code and improve to cover all test cases. What We're Looking For Currently enrolled in a Bachelors degree program in Electrical Engineering, Computer Engineering, with an expected graduation date between Fall 2027 and Summer 2028. Solid foundation in analog circuit design fundamentals, with a genuine interest in lab-based measurement work testing electronic chips, photonic integrated circuits. A methodical approach to problem-solving \u2014 able to debug hardware issues and trace them back to root-cause circuit behavior. Strong data presentation skills, with the ability to clearly communicate the key insights. Strong interest in writing automation scripts in Python, and familiarity with test environment tools such as Git, Confluence, and Jira. Expected Base Pay Range (USD) 28 - 56, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 31,
+    "base": 35,
+    "fit": 12,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 39.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: validation",
+      8
+     ],
+     [
+      "body: python",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
+   "id": "wd:marvell:2604518",
+   "title": "Physical Design Engineer Intern, MS - Summer 2027",
+   "location": "Santa Clara, CA; Austin, TX; Morrisville, NC; Rochester, MN; Burlington, VT; Westborough, MA; Boise, ID",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Physical-Design-Engineer-Intern--MS---Summer-2027_2604518-1",
+   "posted": "2026-09-04",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact Marvell\u2019s Physical Design teams span across multiple domains, giving you the opportunity to work on technologies that power next-generation cloud, AI, storage, and networking solutions. Some teams focus their design work on supporting architecture to GDSII (Graphic Data System) implementation of ASIC and processor designs. Other teams focus on timing analysis for future designs of our next-gen high-performance data center chips in a leading-edge CMOS process technology. Across all groups, you\u2019ll collaborate with your direct team and cross-functional partners, working through technical design challenges to ensure we meet the performance, power, and area requirements of an active design. What You Can Expect Perform synthesis, floor planning, place and route, clock insertion, timing analysis, and timing closure on complex logic blocks using industry standard EDA tools ( PrimeTime , Tempus) Write scripts in Python, TCL, Perl, and Shell to aid design and development activities Utilize problem solving skills to analyze, debug, and implement fixes for design violations using CAD tools Collaborate with RTL, S ynthesis, and other D esign teams to resolve congestion & timing bottleneck s, and ensure that all designs converge & integrate in a timely manner What We're Looking For Currently enrolled in a Maste r' s Degree in Ele ctrical Engineeri ng , Computer Engineering, or a related field with an expected graduation date between Fall 2027 \u2013 Summer 2028 Completed courses focusing on VLSI, digital logic, circuit design, computer architecture, RTL synthesis, V erilog or S ystemVerilog , place and route, static timing analysis, digital systems, or microelectronics Proficiency in programming & scripting languages like Python, TCL, Perl, and Shell Experience working in a Unix type environment Experience using tool s like Synopsys ( PrimeTime ) , Cadence ( Tempus ), and Mentor Strong analysis, problem solving, and communication skills Expected Base Pay Range (USD) 34 - 68, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. This role is eligible to participate in Marvell's bonus and equity plans, including a new hire equity grant and annual equity refreshers, ensuring you are rewarded for your contributions and remain invested in the company's long-term success. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 31,
+    "base": 39,
+    "fit": 16,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": -8,
+    "age": 64.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: design engineer",
+      12
+     ],
+     [
+      "body: python",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
+   "id": "wd:marvell:2604517",
+   "title": "Physical Design Engineer Intern, BS - Summer 2027",
+   "location": "Santa Clara, CA; Austin, TX; Morrisville, NC; Rochester, MN; Burlington, VT; Westborough, MA; Boise, ID",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Physical-Design-Engineer-Intern--BS---Summer-2027_2604517-1",
+   "posted": "2026-09-04",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact Marvell\u2019s Physical Design teams span across multiple domains, giving you the opportunity to work on technologies that power next-generation cloud, AI, storage, and networking solutions. Some teams focus their design work on supporting architecture to GDSII (Graphic Data System) implementation of ASIC and processor designs. Other teams focus on timing analysis for future designs of our next-gen high-performance data center chips in a leading-edge CMOS process technology. Across all groups, you\u2019ll collaborate with your direct team and cross-functional partners, working through technical design challenges to ensure we meet the performance, power, and area requirements of an active design. What You Can Expect Perform synthesis, floor planning, place and route, clock insertion, timing analysis, and timing closure on complex logic blocks using industry standard EDA tools ( PrimeTime , Tempus) Write scripts in Python, TCL, Perl, and Shell to aid design and development activities Utilize problem solving skills to analyze, debug, and implement fixes for design violations using CAD tools Collaborate with RTL, S ynthesis, and other D esign teams to resolve congestion & timing bottleneck s, and ensure that all designs converge & integrate in a timely manner What We're Looking For Currently enrolled in a Bachelo r' s Degree in Ele ctrical Engineeri ng , Computer Engineering, or a related field with an expected graduation date between Fall 2027 \u2013 Summer 2028 Completed courses focusing on VLSI, digital logic, circuit design, computer architecture, RTL synthesis, V erilog or S ystemVerilog , place and route, static timing analysis, digital systems, or microelectronics Proficiency in programming & scripting languages like Python, TCL, Perl, and Shell Experience working in a Unix type environment Experience using tool s like Synopsys ( PrimeTime ) , Cadence ( Tempus ), and Mentor Strong analysis, problem solving, and communication skills Expected Base Pay Range (USD) 29 - 57, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. This role is eligible to participate in Marvell's bonus and equity plans, including a new hire equity grant and annual equity refreshers, ensuring you are rewarded for your contributions and remain invested in the company's long-term success. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 31,
+    "base": 39,
+    "fit": 16,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": -8,
+    "age": 64.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: design engineer",
+      12
+     ],
+     [
+      "body: python",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
    "id": "wd:motorolasolutions:R68401",
    "title": "FPGA Design Engineering Intern - Summer 2027",
    "location": "Schaumburg, IL",
@@ -17530,6 +17871,80 @@
      [
       "title: phd",
       -14
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
+   "id": "wd:marvell:2604506",
+   "title": "Design Verification Intern, MS - Summer 2027",
+   "location": "Santa Clara, CA; Austin, TX; Westborough, MA; Boise, ID; Morrisville, NC",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-Verification-Intern--MS---Summer-2027_2604506-1",
+   "posted": "2026-09-04",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact Marvell\u2019s Design Verification teams span across multiple domains, giving you the opportunity to work on technologies that power next-generation cloud, AI, storage, and networking solutions. Some teams focus on pre-silicon emulation and verification for ODSP-related chips. Other teams focus on ASIC Design, where they testbench with UVM methodology and test specific SOC designs at block/cluster/full chip levels. Other teams focus on powering the full range of network connectivity from the optics of the AI GPU boards to top of the rack optical fibers and active copper cables of the data centers and their fabrics. Across all groups, you\u2019ll collaborate with your direct team and cross-functional partners (across software, physical design, digital design, and more) to deliver robust, scalable solutions that enable Marvell\u2019s leadership in data infrastructure. What You Can Expect Dive deep into the architecture of our cutting-edge processors and learn exactly how they function Use industry-standard tools to create powerful simulation environments that mimic real-world conditions Develop smart, automated tests that push our designs to their limits , creatively trying to \"break\" the chip to find & troubleshoot hidden flaws & failed simulations Analyze test coverage results & metrics Collaborate with chip architects and designers to solve complex problems and contribute to a team building real products What We're Looking For Currently enrolled in a Master' s Degree in Ele ctrical Engineeri ng , Computer Engineering, or a related field with an expected graduation date between Fall 2027 \u2013 Summer 2028 Completed courses focusing on computer architecture, logic, processor, memory system, V erilog , VLSI, VHDL, UVM, analog, integrated circuit design, digital logic design, SoC/ASIC design, verification principles, signals, system and signal processing Proficiency in programming & scripting languages like Python, C, C++, Perl, Java Experience using tool s like Synopsys, Cadence, or Mentor to run simulations and write & debug a testbench Hands-on experience with RTL integration and bring-up system Experience with debugging complex hardware/software interactions Strong analysis, problem solving, and communication skills Expected Base Pay Range (USD) 35 - 70, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. This role is eligible to participate in Marvell's bonus and equity plans, including a new hire equity grant and annual equity refreshers, ensuring you are rewarded for your contributions and remain invested in the company's long-term success. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 30,
+    "base": 38,
+    "fit": 15,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": -8,
+    "age": 64.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: verification",
+      7
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
+   "id": "wd:marvell:2604505",
+   "title": "Design Verification Intern, BS - Summer 2027",
+   "location": "Santa Clara, CA; Austin, TX; Westborough, MA; Boise, ID; Morrisville, NC",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-Verification-Intern--BS---Summer-2027_2604505-1",
+   "posted": "2026-09-04",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact Marvell\u2019s Design Verification teams span across multiple domains, giving you the opportunity to work on technologies that power next-generation cloud, AI, storage, and networking solutions. Some teams focus on pre-silicon emulation and verification for ODSP-related chips. Other teams focus on ASIC Design, where they testbench with UVM methodology and test specific SOC designs at block/cluster/full chip levels. Other teams focus on powering the full range of network connectivity from the optics of the AI GPU boards to top of the rack optical fibers and active copper cables of the data centers and their fabrics. Across all groups, you\u2019ll collaborate with your direct team and cross-functional partners (across software, physical design, digital design, and more) to deliver robust, scalable solutions that enable Marvell\u2019s leadership in data infrastructure. What You Can Expect Dive deep into the architecture of our cutting-edge processors and learn exactly how they function Use industry-standard tools to create powerful simulation environments that mimic real-world conditions Develop smart, automated tests that push our designs to their limits , creatively trying to \"break\" the chip to find & troubleshoot hidden flaws & failed simulations Analyze test coverage results & metrics Collaborate with chip architects and designers to solve complex problems and contribute to a team building real products What We're Looking For Currently enrolled in a Bachelor\u2019s Degree in Ele ctrical Engineeri ng , Computer Engineering, or a related field with an expected graduation date between Fall 2027 \u2013 Summer 2028 Completed courses focusing on computer architecture, logic, processor, memory system, V erilog , VLSI, VHDL, UVM, analog, integrated circuit design, digital logic design, SoC/ASIC design, verification principles, signals, system and signal processing Proficiency in programming & scripting languages like Python, C, C++, Perl, Java Experience using tool s like Synopsys, Cadence, or Mentor to run simulations and write & debug a testbench Hands-on experience with RTL integration and bring-up system Experience with debugging complex hardware/software interactions Strong analysis, problem solving, and communication skills Expected Base Pay Range (USD) 30 - 59, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. This role is eligible to participate in Marvell's bonus and equity plans, including a new hire equity grant and annual equity refreshers, ensuring you are rewarded for your contributions and remain invested in the company's long-term success. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 30,
+    "base": 38,
+    "fit": 15,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": -8,
+    "age": 64.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: verification",
+      7
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
      ]
     ]
    },
@@ -18893,6 +19308,39 @@
      [
       "title: design engineer",
       12
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
+   "id": "wd:marvell:2604514",
+   "title": "Functional Validation Intern, BS - Summer 2027",
+   "location": "Westborough, MA; Boise, ID; Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Westborough-MA/Functional-Validation-Intern--BS---Summer-2027_2604514-1",
+   "posted": "2026-09-04",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact The Custom Cloud Solutions (CCS) Hardware Validation Group is responsible for ensuring the quality, reliability, and performance of next-generation data center ASIC and SoC products \u2014 spanning cloud infrastructure, AI accelerators, network processors, NICs, custom ASICs, SSD controllers, CXL devices, and domain-specific accelerators. Our team owns end-to-end hardware validation, working across the full product lifecycle from early silicon bring-up through system-level qualification. As an intern, you will work alongside experienced engineers in a fully instrumented hardware lab, gaining hands-on exposure to cutting-edge silicon validation across high-speed interfaces and complex platform environments. This is a unique opportunity to contribute to real engineering challenges that directly impact the future of data infrastructure. What You Can Expect Assist in functional hardware validation and debug activities for platforms utilizing high-speed interfaces such as PCIe, CXL, and Ethernet Support system bring-up tasks by running test cases, collecting data, and documenting results under the guidance of senior engineers Write and execute automation scripts (Python or similar) to streamline silicon testing and validation workflows Operate standard lab equipment \u2014 including logic analyzers and oscilloscopes \u2014 to assist with signal integrity analysis and system debugging Collaborate with cross-functional teams (design, firmware, and validation) to investigate and reproduce hardware or protocol-level issues, and contribute to root-cause analysis What We're Looking For Currently enrolled in a Bachelor's Degree in Electrical Engineering, Computer Engineering, Computer Science, or a related field with an expected graduation date of Fall 2027 \u2013 Summer 2028 Basic understanding of digital logic, computer architecture, or hardware design principles gained through coursework or personal projects Familiarity with at least one scripting or programming language (Python, C, or similar) for writing test scripts or automating tasks Ability to work in a hands-on lab environment and a willingness to learn how to use standard lab equipment (e.g., oscilloscopes, logic analyzers) Strong communication skills and a collaborative mindset, with the ability to document findings clearly and work effectively within a team Preferred Qualifications: Coursework or project experience related to high-speed interfaces (PCIe, Ethernet, USB, or similar protocols) Exposure to hardware bring-up, FPGA/ASIC design, or embedded systems through academic projects or internships Experience with version control tools (e.g., Git) and basic familiarity with Linux/Unix environments Expected Base Pay Range (USD) 28 - 56, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. This role is eligible to participate in Marvell's bonus and equity plans, including a new hire equity grant and annual equity refreshers, ensuring you are rewarded for your contributions and remain invested in the company's long-term success. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 27,
+    "base": 35,
+    "fit": 12,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": -8,
+    "age": 64.4,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: validation",
+      8
+     ],
+     [
+      "body: python",
+      4
      ]
     ]
    },
@@ -23538,6 +23986,83 @@
    "location": "McLean, Virginia, United States of America; Bedford, Massachusetts, United States of America",
    "url": "https://careers.mitre.org/us/en/job/R117376",
    "reason": "scored 16, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "AI-Native Development Platform Engineer Intern, MS - Summer 2027",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1",
+   "reason": "scored 30, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "AIOps Forward Deployment Engineer Intern, BS - Summer 2027",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Project-Management-Intern--MBA---Summer-2027_2604440",
+   "reason": "scored 31, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "Analog Layout Intern, BS - Summer 2027",
+   "location": "Santa Clara, CA; Irvine, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Analog-Layout-Intern--BS---Summer-2027_2604735-1",
+   "reason": "scored 27, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "Application Engineer Intern, MS - Summer 2027",
+   "location": "Santa Clara, CA; Westlake Village, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Application-Engineer-Intern--MS---Summer-2027_2604509",
+   "reason": "scored 27, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "Architecture Intern, MS - Summer 2027",
+   "location": "Burlington, VT",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Burlington-VT/Architecture-Intern--MS---Summer-2027_2604613-1",
+   "reason": "scored 25, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "Data Science Intern, BS - Summer 2027",
+   "location": "Boise, ID",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Boise-ID/Data-Science-Intern--BS---Summer-2027_2603782",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Marvell",
+   "title": "Digital IC Design Intern, BS - Summer 2027",
+   "location": "Santa Clara, CA; Irvine, CA; Austin, TX; Boise, ID; Hudson Valley, NY",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Digital-IC-Design-Intern--BS---Summer-2027_2604827-1",
+   "reason": "scored 31, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "Digital IC Design Intern, MS - Summer 2027",
+   "location": "Santa Clara, CA; Irvine, CA; Austin, TX; Burlington, VT; Boise, ID; Hudson Valley, NY",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Digital-IC-Design-Intern--MS---Summer-2027_2604828-1",
+   "reason": "scored 31, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "Signal Integrity Intern, MS \u2013 2027 Co-Op",
+   "location": "CA-ON - Toronto - TOR",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CA-ON---Toronto---TOR/Hardware-Validation-Intern--MS---2027-Co-Op_2603755",
+   "reason": "scored 21, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "Signal and Power Integrity Intern, MS - Summer 2027",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Signal-and-Power-Integrity-Intern--MS---Summer-2027_2603858",
+   "reason": "scored 29, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "Supply Chain Intern, BS - Summer 2027",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Supply-Chain-Intern--BS---Summer-2027_2604541-1",
+   "reason": "non-ME discipline"
   },
   {
    "company": "Mayo Clinic",
