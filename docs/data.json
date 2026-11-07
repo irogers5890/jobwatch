@@ -1,13 +1,33 @@
 {
- "generated": "2026-11-07T18:26:25+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42399681627",
- "scanned": 34649,
+ "generated": "2026-11-07T18:32:44+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42401807058",
+ "scanned": 34603,
  "boards": 319,
  "errors": [
+  {
+   "company": "3M",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "Curtiss-Wright",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "IDEX",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Leidos",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
   },
   {
    "company": "NXP Semiconductors",
@@ -16,13 +36,13 @@
   }
  ],
  "dropped": {
-  "non-ME discipline": 790,
-  "degree-level blocker": 9,
-  "below threshold": 513,
-  "no Summer/Fall 2027": 5426,
-  "no mechanical signal": 223,
-  "off-target season in title": 324,
-  "not a student req": 26964
+  "no Summer/Fall 2027": 5398,
+  "below threshold": 511,
+  "no mechanical signal": 222,
+  "non-ME discipline": 777,
+  "off-target season in title": 323,
+  "not a student req": 26964,
+  "degree-level blocker": 8
  },
  "jobs": [
   {
@@ -20234,34 +20254,6 @@
  ],
  "review": [
   {
-   "company": "3M",
-   "title": "Internship - 2027 Undergraduate 3M Industrial Design Intern - Safety & Industrial Business Group (SIBG)",
-   "location": "US, Minnesota, Maplewood; US, Texas, Austin",
-   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-3M-Industrial-Design-Intern---Safety---Industrial-Business-Group--SIBG-_R01172241",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "3M",
-   "title": "Internship - 2027 Undergraduate 3M UX/UI Design Intern - Safety & Industrial Business Group (SIBG)",
-   "location": "US, Minnesota, Maplewood; US, Texas, Austin",
-   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-3M-UX-UI-Design-Intern---Safety---Industrial-Business-Group--SIBG-_R01172459",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "3M",
-   "title": "Internship - 2027 Undergraduate and Master's Research & Development Intern",
-   "location": "US, Minnesota, Maplewood; US, Texas, Austin",
-   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-and-Master-s-Research---Development-Intern_R01170405",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "3M",
-   "title": "Internship - Spring 2027 / Fall 2027 Packaging Solutions Co-op",
-   "location": "US, Minnesota, Maplewood",
-   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---Spring-2027---Fall-2027-Packaging-Solutions-Co-op_R01171453",
-   "reason": "no mechanical signal"
-  },
-  {
    "company": "AGCO",
    "title": "Embedded Software Engineering Intern - Summer 2027",
    "location": "",
@@ -23867,13 +23859,6 @@
    "reason": "scored 18, below tier B"
   },
   {
-   "company": "Leidos",
-   "title": "Migration Execution Intern",
-   "location": "6314 Remote/Teleworker US",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Migration-Execution-Intern_R-00196159",
-   "reason": "scored 2, below tier B"
-  },
-  {
    "company": "Lockheed Martin",
    "title": "Automation Test-INTERN",
    "location": "Colorado Springs, CO, US",
@@ -24018,7 +24003,7 @@
    "title": "Systems Engineer Intern - Summer 2027",
    "location": "King of Prussia, PA, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477472821",
-   "reason": "scored 18, below tier B"
+   "reason": "scored 15, below tier B"
   },
   {
    "company": "Lockheed Martin",
