@@ -1,22 +1,37 @@
 {
- "generated": "2026-11-07T14:26:02+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42381562795",
- "scanned": 34724,
+ "generated": "2026-11-07T14:46:05+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42383120452",
+ "scanned": 34626,
  "boards": 319,
  "errors": [
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "Johnson Controls",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Tektronix",
+   "board": "eightfold",
+   "error": "HTTP 403 \u2014 check slug/tenant/site"
   }
  ],
  "dropped": {
-  "non-ME discipline": 790,
+  "non-ME discipline": 783,
   "degree-level blocker": 9,
-  "below threshold": 517,
-  "no Summer/Fall 2027": 5487,
+  "below threshold": 515,
+  "no Summer/Fall 2027": 5399,
   "no mechanical signal": 223,
-  "off-target season in title": 325,
+  "off-target season in title": 324,
   "not a student req": 26972
  },
  "jobs": [
@@ -4651,6 +4666,47 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "wd:marvell:2603788",
+   "title": "Design For Test Intern, MS - Summer 2027",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-For-Test-Intern--MS---Summer-2027_2603788-1",
+   "posted": "2026-11-07",
+   "body": "About Marvell Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities. At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead. Your Team, Your Impact The Compute and Custom Solutions (CCS) Business Unit within Marvell develops cutting-edge SoCs and processors in advanced process nodes for some of the largest companies in the world. We develop silicon solutions for the growing data center, enterprise, wireless, and automotive compute markets, collaborating with strategic customers from architecture and design all the way through layout, packaging, prototype validation, and production ramp-up. The CCS DFT (Design for Test) team is a key part of Marvell's global DFT community, with global ownership and responsibility for delivering generic and more advanced custom DFT architecture solutions, methodology, and design. The team provides technology development, EDA/methodology development, and IP/chip design development. As an intern, you will be working with this team to directly enable customer DFT requirements in the CCS BU, gaining hands-on experience with industry-leading tools and methodologies used to build some of the world's most complex SoCs. What You Can Expect Develop understanding of the block level or chip top DFT and pattern generation flows for complex SOC designs Execute DFT insertion, pattern generation and verification flows for Scan, Memory Built-in Self-Test (MBIST), Boundary Scan and IP macro test Run DFT checks and analyze results to resolve testability issues and improve DFT coverage Support DFT flow automation through scripting (Tcl, Python, or shell) to improve design flows Contribute to DFT documentation, methodology improvements and automation Present intern project results to the team at the end of the internship What We're Looking For Currently pursuing a Masters in Computer Engineering, Electrical Engineering, or related fields Good understanding of digital logic design using Verilog/System Verilog Knowledge of DFT concepts, JTAG standards and Boundary scan implementation Knowledge of Scan test, memory BIST/BISR, functional test, JTAG, and other test methodologies is a plus Experience in programming and scripting languages such as Python, Shell, Tcl Knowledge of using AI assisted tools for coding, scripts and automation is a plus Effective teamwork and communication skills Expected Base Pay Range (USD) 30 - 59, $ per hour. The successful candidate\u2019s starting base pay will be determined based on job-related skills, experience, qualifications, work location and market conditions. The expected base pay range for this role may be modified based on market conditions. Additional Compensation and Benefit Elements Marvell is committed to providing exceptional, comprehensive benefits that support our employees at every stage - from internship to retirement and through life\u2019s most important moments. Our offerings are built around four key pillars: financial well-being, family support, mental and physical health, and recognition. Highlights for our interns: medical, dental, and vision coverage, perks and discounts, robust mental health resources to prioritize emotional well-being, and paid holidays. Additional compensation may be available for intern PhD candidates. We look forward to sharing more with you during the interview process. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Any applicant who requires a reasonable accommodation during the selection process should contact Marvell HR Helpdesk at TAOps@marvell.com . Interview Integrity To support fair and authentic hiring practices, candidates are not permitted to use AI tools (such as transcription apps, real-time answer generators like ChatGPT or Copilot, or automated note-taking bots) during interviews. These tools must not be used to record, assist with, or enhance responses in any way. Our interviews are designed to evaluate your individual experience, thought process, and communication skills in real time. Use of AI tools without prior instruction from the interviewer will result in disqualification from the hiring process. This position may require access to technology and/or software subject to U.S. export control laws and regulations, including the Export Administration Regulations (EAR). As such, applicants must be eligible to access export-controlled information as defined under applicable law. Marvell may be required to obtain export licensing approval from the U.S. Department of Commerce and/or the U.S. Department of State. Except for U.S. citizens, lawful permanent residents, or protected individuals as defined by 8 U.S.C. 1324b(a)(3), all applicants may be subject to an export license review process prior to employment. #LI-TT1",
+   "company": "Marvell",
+   "score": {
+    "total": 59,
+    "base": 47,
+    "fit": 24,
+    "loc": 8,
+    "traj": 15,
+    "pay": 0,
+    "rate": null,
+    "fresh": 12,
+    "age": 0.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: test",
+      12
+     ],
+     [
+      "body: prototype",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
    "id": "gh:rocketlab:8042092003",
    "title": "Ground Systems Engineering Intern Summer 2027",
    "location": "Middle River, MD",
@@ -6606,46 +6662,6 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
-   "id": "ef:microsoft.com:200060962",
-   "title": "Researcher Intern, CoreAI",
-   "location": "Redmond, WA, US; Mountain View, CA, US",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027387",
-   "posted": "2026-11-02",
-   "body": "Overview The Code|AI team leads applied research and data science for GitHub Copilot and VS Code, working on the future of AI for developers. We are a diverse, entrepreneurial, and multi-disciplinary group of scientists, researchers, and engineers with a passion for using AI to improve the productivity of millions of developers around the world. We have released AI for code advancements in Github Copilot, VS Code, Visual Studio and Copilot extensions in other IDEs. Our team focuses on post-training code specific models like code completion, code embedding models and agentic research for Copilot Coding Agent, Copilot CLI and Copilot Code Review. We embrace open source and continue to share our research and work with the developer and research communities to advance AI in Developer tools. We are seeking entrepreneurial and creative Applied Researcher Interns to lead groundbreaking research projects, taking these from research into product. You will collaborate with scientists, engineers, and designers across Microsoft Research, Microsoft product teams, and Github. You will have an opportunity to build and train state-of-the-art models, and opportunities to both apply and advance existing approaches of using LLMs for software engineering, from using RAG to evaluation. Most importantly, you will have an opportunity to work closely with several developer product teams to run experiments, evaluate, iterate, and improve your AI projects on a large scale. Microsoft\u2019s mission is to empower every person and every organization on the planet to achieve more. As employees, we come together with a growth mindset, innovate to empower others and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. This is for a Summer 2027 Internship. #Code|AI #CoreAI #EiP Responsibilities Contributes to projects on the future of AI for developers. Collaborates across disciplines with product teams across Microsoft and Github. Stays up to date with the research literature and product advances in AI for software engineering. Creates new datasets from both the world's public code and Microsoft's internal data. Builds and manages large-scale ML experiments and models. Embodies our Culture and Values Qualifications Required qualifications Currently enrolled in a Doctorate Degree program in a relevant field. Must be enrolled in a Doctorate Degree program in a relevant field for the role during the academic term immediately before the internship. Must have at least one additional quarter/semester of a Doctorate Degree program program in area relevant for the role remaining following the completion of the internship. Additional Qualifications: 1+ year(s) experience in Calculus, Probability and Statistics and/or Machine Learning. 1+ year(s) experience in one or more general purpose programming languages including: C/C++, Java, R or Python, and domain relevant libraries and frameworks (e.g., PyTorch). 1+ year(s) experience (classroom or work related) in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, etc. The base pay range for this internship is USD $5,690.00 - $11,210.00 per month. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $7,410.00 - $12,250.00 per month. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-intern-pay Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April) This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
-   "company": "Microsoft",
-   "score": {
-    "total": 53,
-    "base": 47,
-    "fit": 8,
-    "loc": 8,
-    "traj": 19,
-    "pay": 12,
-    "rate": [
-     32.89,
-     70.81
-    ],
-    "fresh": 6,
-    "age": 5.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $52/hr",
-      12
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: computer vision",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-10-15T09:17:02+00:00"
   },
   {
    "id": "gh:muonspace:5256286007",
@@ -23741,41 +23757,6 @@
    "reason": "scored 28, below tier B"
   },
   {
-   "company": "Johnson Controls",
-   "title": "Accounting & Finance Intern",
-   "location": "Milwaukee-Wisconsin-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Milwaukee-Wisconsin-United-States-of-America/Accounting---Finance-Intern_WD30278457",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Legal Intern",
-   "location": "Milwaukee-Wisconsin-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Milwaukee-Wisconsin-United-States-of-America/Legal-Intern_WD30283959",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Supply Chain & Operations Intern",
-   "location": "Lubbock-Texas-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Lubbock-Texas-United-States-of-America/Supply-Chain-Intern_WD30278671",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Supply Chain & Operations Intern",
-   "location": "Marinette-Wisconsin-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Marinette-Wisconsin-United-States-of-America/Supply-Chain-Intern_WD30278674",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Supply Chain Intern",
-   "location": "Airside Center of Excellence",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Airside-Center-of-Excellence/Supply-Chain-Intern_WD30278669",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Johnson and Johnson",
    "title": "Associate Clinical Account Specialist (ACAS) Intern (Summer 2027)",
    "location": "Irvine, California, United States of America; Toledo, Ohio, United States; North Dakota (Any City); Connecticut (Any City); Richmond, Virginia, United States of America; Cleveland, Ohio, United States",
@@ -24043,13 +24024,6 @@
   },
   {
    "company": "Lockheed Martin",
-   "title": "Software Engineer Intern - Summer 2027",
-   "location": "Sunnyvale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477427840",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Lockheed Martin",
    "title": "Supply Chain Analyst (Value Engineering) - Intern",
    "location": "Stratford, CT, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477599572",
@@ -24074,6 +24048,13 @@
    "title": "Systems Engineer Intern",
    "location": "Palmdale, CA, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477449180",
+   "reason": "scored 15, below tier B"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "Systems Engineer Intern - Summer 2027",
+   "location": "King of Prussia, PA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477472821",
    "reason": "scored 15, below tier B"
   },
   {
@@ -24334,13 +24315,6 @@
    "location": "Boise, ID - ID1",
    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---ID1/Intern--Technician--Process_JR112005",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Software Engineer: Intern Opportunities for University Students - CoreAI - Redmond, WA",
-   "location": "Redmond, WA, US",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Moog",
@@ -26553,27 +26527,6 @@
    "location": "Redmond, Washington",
    "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Redmond-Washington/Human-Factors-Engineering-Intern_R572819",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
-   "reason": "scored 16, below tier B"
   },
   {
    "company": "Teledyne FLIR",
