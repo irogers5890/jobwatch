@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T21:49:01+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42706030551",
- "scanned": 34684,
+ "generated": "2026-11-09T22:09:00+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42709166462",
+ "scanned": 34619,
  "boards": 319,
  "errors": [
   {
@@ -10,19 +10,29 @@
    "error": "HTTP 404 \u2014 check slug/tenant/site"
   },
   {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
    "company": "NXP Semiconductors",
    "board": "workday",
    "error": "HTTP 422 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "Tektronix",
+   "board": "eightfold",
+   "error": "HTTP 403 \u2014 check slug/tenant/site"
   }
  ],
  "dropped": {
-  "non-ME discipline": 779,
+  "non-ME discipline": 778,
   "degree-level blocker": 9,
-  "below threshold": 515,
-  "no Summer/Fall 2027": 5423,
+  "below threshold": 514,
+  "no Summer/Fall 2027": 5348,
   "no mechanical signal": 224,
   "off-target season in title": 314,
-  "not a student req": 27029
+  "not a student req": 27041
  },
  "jobs": [
   {
@@ -1680,6 +1690,66 @@
     ]
    },
    "first_seen": "2026-10-19T21:39:01+00:00"
+  },
+  {
+   "id": "wd:geaerospace:R5042864",
+   "title": "Digital Systems Intern - Bohemia, NY - Summer 2027",
+   "location": "Bohemia",
+   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Bohemia/Digital-Systems-Intern---Bohemia--NY---Summer-2027_R5042864-1",
+   "posted": "2026-11-09",
+   "body": "Job Description Summary Job Description Innoveering, a wholly owned subsidiary of GE Aerospace, is a dynamic engineering development company with exciting projects and product development in the aerospace and defense sector. Primary focus is on developing advanced, high-speed propulsion engines to support the Department of Defense Modernization Priorities. Our customers and partners include the U.S. Government and major aerospace prime weapons systems companies. In this role, you will collaborate with other engineers to design mechanical components for prototyping or parts for experimental rigs. To accomplish the given tasks, you must be familiar with mechanical design using CAD (preferably SolidWorks) and applying engineering principles to analyze the integrity and/or performance of the designed components. You should have an excellent understanding of the engineering design process, leading proof-of-concept ideas towards validated solutions. Communication and documentation are critical as you will often need to prepare slides (or other documents) to present to the team, whether it is to describe detailed designs or to discuss project progress. Responsibilities Design using 3D CAD and develop design from proof-of-concept to final manufacturable component Perform 1D calculations and/or conduct Finite Element Analysis (FEA) simulations Design and assembly of in-house equipment to test products and product concepts Prepare drawings to manufacture prototypes or components of an experimental setup Validate new designs and technologies through benchtop or larger-scale testing Participate in brainstorming sessions to develop new ideas Organize and/or attend meetings with team to discuss project tasks and schedule Prepare presentations and slides to communicate ideas and/or progress on projects Reports to Engineering Manager or senior Mechanical Engineers Qualifications U.S. Citizenship / Ability to pass background investigation & drug screening Attending a full-time matriculated and national accredited BS, BE, or MS program in mechanical engineering, aerospace engineering, or related field Minimum 3.0 cumulative GPA off a 4.0 scale without rounding Ability to work well in a team environment and coordinate between various teams and disciplines Proficient with 3D CAD (SolidWorks preferred) Strong understanding of engineering principles and applying them to technical tasks Skilled with Microsoft Office Suite, specifically Excel and PowerPoint Excellent communication and documentation skills Must be independent and self-motivated, demonstrating strong analytical skills and creative thinking Eligibility Requirements Any offer of employment is conditioned upon the successful completion of a background investigation and drug screen. Legal authorization to work in the U.S. is required. We will not sponsor individuals for employment visas, now or in the future, for this job opening. Preferred Skills Understanding of compressible flow Experience with Finite Element Analysis (FEA) and performing simulations in ANSYS Mechanical Knowledge of Additive Manufacturing (AM), specifically DMLS, and DFAM techniques Knowledge of GD&T and application to engineering drawings Experience with experimental setups and equipment in a hands-on environment Benefits Pay rates for this position begin at $24/hour and increase for each undergraduate year completed. Relocation support and housing assistance is available for those who relocate to a new city. This role requires access to U.S. export-controlled information. Therefore, employment will be contingent upon the ability to prove that you meet the status of a U.S. Person as one of the following: U.S. lawful permanent resident, U.S. Citizen, have been granted asylee or refugee status (i.e., a protected individual under the Immigration and Naturalization Act, 8 U.S.C. 1324b(a)(3)). Additional Information GE Aerospace offers a great work environment, professional development, challenging careers, and competitive compensation. GE Aerospace is an Equal Opportunity Employer . Employment decisions are made without regard to race, color, religion, national or ethnic origin, sex, sexual orientation, gender identity or expression, age, disability, protected veteran status or other characteristics protected by law. GE Aerospace will only employ those who are legally authorized to work in the United States for this opening. Any offer of employment is conditioned upon the successful completion of a drug screen (as applicable). Employees may also be subject to random and reasonable-suspicion drug and alcohol testing. Relocation Assistance Provided: Yes",
+   "company": "GE Aerospace",
+   "score": {
+    "total": 72,
+    "base": 60,
+    "fit": 52,
+    "loc": 0,
+    "traj": 14,
+    "pay": -6,
+    "rate": [
+     24.0,
+     24.0
+    ],
+    "fresh": 12,
+    "age": 0.9,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "body: gd&t",
+      8
+     ],
+     [
+      "body: dfa",
+      6
+     ],
+     [
+      "body: engineering drawings",
+      6
+     ],
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "body: housing assistance",
+      5
+     ],
+     [
+      "body: prototype",
+      4
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "body: finite element",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-09T22:09:00+00:00"
   },
   {
    "id": "wd:blueorigin:R71441",
@@ -6448,46 +6518,6 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
-   "id": "ef:microsoft.com:200060962",
-   "title": "Researcher Intern, CoreAI",
-   "location": "Redmond, WA, US; Mountain View, CA, US",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027387",
-   "posted": "2026-11-02",
-   "body": "Overview The Code|AI team leads applied research and data science for GitHub Copilot and VS Code, working on the future of AI for developers. We are a diverse, entrepreneurial, and multi-disciplinary group of scientists, researchers, and engineers with a passion for using AI to improve the productivity of millions of developers around the world. We have released AI for code advancements in Github Copilot, VS Code, Visual Studio and Copilot extensions in other IDEs. Our team focuses on post-training code specific models like code completion, code embedding models and agentic research for Copilot Coding Agent, Copilot CLI and Copilot Code Review. We embrace open source and continue to share our research and work with the developer and research communities to advance AI in Developer tools. We are seeking entrepreneurial and creative Applied Researcher Interns to lead groundbreaking research projects, taking these from research into product. You will collaborate with scientists, engineers, and designers across Microsoft Research, Microsoft product teams, and Github. You will have an opportunity to build and train state-of-the-art models, and opportunities to both apply and advance existing approaches of using LLMs for software engineering, from using RAG to evaluation. Most importantly, you will have an opportunity to work closely with several developer product teams to run experiments, evaluate, iterate, and improve your AI projects on a large scale. Microsoft\u2019s mission is to empower every person and every organization on the planet to achieve more. As employees, we come together with a growth mindset, innovate to empower others and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. This is for a Summer 2027 Internship. #Code|AI #CoreAI #EiP Responsibilities Contributes to projects on the future of AI for developers. Collaborates across disciplines with product teams across Microsoft and Github. Stays up to date with the research literature and product advances in AI for software engineering. Creates new datasets from both the world's public code and Microsoft's internal data. Builds and manages large-scale ML experiments and models. Embodies our Culture and Values Qualifications Required qualifications Currently enrolled in a Doctorate Degree program in a relevant field. Must be enrolled in a Doctorate Degree program in a relevant field for the role during the academic term immediately before the internship. Must have at least one additional quarter/semester of a Doctorate Degree program program in area relevant for the role remaining following the completion of the internship. Additional Qualifications: 1+ year(s) experience in Calculus, Probability and Statistics and/or Machine Learning. 1+ year(s) experience in one or more general purpose programming languages including: C/C++, Java, R or Python, and domain relevant libraries and frameworks (e.g., PyTorch). 1+ year(s) experience (classroom or work related) in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, etc. The base pay range for this internship is USD $5,690.00 - $11,210.00 per month. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $7,410.00 - $12,250.00 per month. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-intern-pay Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April) This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
-   "company": "Microsoft",
-   "score": {
-    "total": 53,
-    "base": 47,
-    "fit": 8,
-    "loc": 8,
-    "traj": 19,
-    "pay": 12,
-    "rate": [
-     32.89,
-     70.81
-    ],
-    "fresh": 6,
-    "age": 7.9,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $52/hr",
-      12
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: computer vision",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-10-15T09:17:02+00:00"
   },
   {
    "id": "gh:muonspace:5256286007",
@@ -11704,66 +11734,6 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
-   "id": "gh:rocketlab:7991769003",
-   "title": "Mechanical Engineering Intern Summer 2027",
-   "location": "Toronto, CAN",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7991769003",
-   "posted": "2026-09-11",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Mechanical Engineering Intern based at Rocket Lab\u2019s site in Toronto, Canada, you will have the opportunity to support the team responsible for the development, test, and maintenance of all mechanical aspects of our reaction wheel and star tracker products. WHAT YOU\u2019LL GET TO DO As an intern you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will be excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s program in mechanical or aerospace engineering and have at least one semester of school remaining post internship Experience designing parts and assemblies, and preparing engineering drawings, using CAD software such as Solidedge/Solidworks Hands-on experience working with mechanical components and assemblies GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Experience building electro-mechanical assemblies Experience in structural and thermal finite element analysis Python experience ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 16 consecutive weeks beginning May 3, 2027 COMPENSATION AND OTHER BENEFITS Pay rate: CAD $60,008 You may be eligible for a stipend to subsidize relocation costs The expected salary range for the position is displayed in accordance with the Ontario Pay Transparency Act. Final agreed upon compensation is based upon individual qualifications and experience. Base salary is only one part of Rocket Lab\u2019s compensation package for this role. You may be eligible for company stock, or cash incentives, and can purchase discounted stock through Rocket Lab\u2019s Employee Stock Purchase Program. Employee benefits also include medical, dental, and vision insurance coverage; RRSP retirement plan options; paid vacation, holidays, and sick leave; paid parental leave; and other discounts and perks. Base Pay Range (Ontario Only) $60,008 \u2014 $60,008 CAD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
-   "company": "Rocket Lab",
-   "score": {
-    "total": 42,
-    "base": 46,
-    "fit": 39,
-    "loc": 0,
-    "traj": 13,
-    "pay": -6,
-    "rate": [
-     20.77,
-     20.77
-    ],
-    "fresh": -4,
-    "age": 59.9,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: mechanical",
-      7
-     ],
-     [
-      "body: engineering drawings",
-      6
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: solidworks",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: finite element",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "body: drawings",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T02:04:57+00:00"
-  },
-  {
    "id": "gh:rocketlab:7991448003",
    "title": "Mechanical Engineering Intern Summer 2027",
    "location": "Long Beach, CA",
@@ -11818,6 +11788,66 @@
      [
       "body: nx",
       2
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T02:04:57+00:00"
+  },
+  {
+   "id": "gh:rocketlab:7991769003",
+   "title": "Mechanical Engineering Intern Summer 2027",
+   "location": "Toronto, CAN",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7991769003",
+   "posted": "2026-09-11",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Mechanical Engineering Intern based at Rocket Lab\u2019s site in Toronto, Canada, you will have the opportunity to support the team responsible for the development, test, and maintenance of all mechanical aspects of our reaction wheel and star tracker products. WHAT YOU\u2019LL GET TO DO As an intern you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will be excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s program in mechanical or aerospace engineering and have at least one semester of school remaining post internship Experience designing parts and assemblies, and preparing engineering drawings, using CAD software such as Solidedge/Solidworks Hands-on experience working with mechanical components and assemblies GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Experience building electro-mechanical assemblies Experience in structural and thermal finite element analysis Python experience ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 16 consecutive weeks beginning May 3, 2027 COMPENSATION AND OTHER BENEFITS Pay rate: CAD $60,008 You may be eligible for a stipend to subsidize relocation costs The expected salary range for the position is displayed in accordance with the Ontario Pay Transparency Act. Final agreed upon compensation is based upon individual qualifications and experience. Base salary is only one part of Rocket Lab\u2019s compensation package for this role. You may be eligible for company stock, or cash incentives, and can purchase discounted stock through Rocket Lab\u2019s Employee Stock Purchase Program. Employee benefits also include medical, dental, and vision insurance coverage; RRSP retirement plan options; paid vacation, holidays, and sick leave; paid parental leave; and other discounts and perks. Base Pay Range (Ontario Only) $60,008 \u2014 $60,008 CAD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "company": "Rocket Lab",
+   "score": {
+    "total": 42,
+    "base": 46,
+    "fit": 39,
+    "loc": 0,
+    "traj": 13,
+    "pay": -6,
+    "rate": [
+     20.77,
+     20.77
+    ],
+    "fresh": -4,
+    "age": 59.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: mechanical",
+      7
+     ],
+     [
+      "body: engineering drawings",
+      6
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: finite element",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: drawings",
+      3
      ]
     ]
    },
@@ -20771,13 +20801,6 @@
   },
   {
    "company": "BAE Systems",
-   "title": "Supply Chain Intern II, (Summer 2027) Hybrid",
-   "location": "Cedar Rapids, Iowa, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/127992BR",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "BAE Systems",
    "title": "System Modeling Engineer Intern, Summer 2027",
    "location": "Rockville, Maryland, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131759BR",
@@ -23335,14 +23358,14 @@
    "company": "Lockheed Martin",
    "title": "Engineering Intern",
    "location": "Mt Laurel Township, NJ, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477286906",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477240395",
    "reason": "scored 14, below tier B"
   },
   {
    "company": "Lockheed Martin",
    "title": "Engineering Intern",
    "location": "Mt Laurel Township, NJ, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477240395",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477286906",
    "reason": "scored 14, below tier B"
   },
   {
@@ -23358,6 +23381,20 @@
    "location": "King of Prussia, PA, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477721195",
    "reason": "non-ME discipline"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "Mechanical Test Engineer-INTERN",
+   "location": "Cape Canaveral, FL, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635652",
+   "reason": "scored 29, below tier B"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "Mechanical Test Engineer-INTERN",
+   "location": "Cape Canaveral, FL, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635668",
+   "reason": "scored 29, below tier B"
   },
   {
    "company": "Lockheed Martin",
@@ -23386,13 +23423,6 @@
    "location": "Camden, AR, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477460381",
    "reason": "scored 29, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Software Engineer Intern - Summer 2027",
-   "location": "Sunnyvale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477427840",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Lockheed Martin",
@@ -24979,15 +25009,15 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
   },
   {
@@ -25000,15 +25030,15 @@
   {
    "company": "Rocket Lab",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Washington, DC",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
+   "location": "Littleton, CO",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
    "reason": "scored 14, below tier B"
   },
   {
    "company": "Rocket Lab",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Littleton, CO",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
+   "location": "Washington, DC",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
    "reason": "scored 14, below tier B"
   },
   {
@@ -25021,16 +25051,16 @@
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
-   "reason": "scored 31, below tier B"
+   "location": "Wallops Island, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
+   "reason": "scored 28, below tier B"
   },
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Wallops Island, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
-   "reason": "scored 28, below tier B"
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
+   "reason": "scored 31, below tier B"
   },
   {
    "company": "Rocket Lab",
@@ -25070,15 +25100,15 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
    "reason": "non-ME discipline"
   },
   {
@@ -25878,27 +25908,6 @@
    "location": "USA Wilmington,  MA - HQ",
    "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Buyer_R8448",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
-   "reason": "scored 16, below tier B"
   },
   {
    "company": "Teledyne FLIR",
