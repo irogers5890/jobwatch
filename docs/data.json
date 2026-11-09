@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T20:08:42+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42690081352",
- "scanned": 34595,
+ "generated": "2026-11-09T20:28:48+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42693317181",
+ "scanned": 34649,
  "boards": 319,
  "errors": [
   {
@@ -10,24 +10,34 @@
    "error": "HTTP 404 \u2014 check slug/tenant/site"
   },
   {
-   "company": "Microsoft",
-   "board": "eightfold",
+   "company": "IDEX",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Jabil",
+   "board": "workday",
    "error": "failed after 3 tries: HTTP 429"
   },
   {
    "company": "NXP Semiconductors",
    "board": "workday",
    "error": "HTTP 422 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "Tektronix",
+   "board": "eightfold",
+   "error": "HTTP 403 \u2014 check slug/tenant/site"
   }
  ],
  "dropped": {
-  "non-ME discipline": 778,
+  "non-ME discipline": 774,
   "degree-level blocker": 9,
-  "below threshold": 513,
-  "no Summer/Fall 2027": 5343,
+  "below threshold": 509,
+  "no Summer/Fall 2027": 5406,
   "no mechanical signal": 225,
-  "off-target season in title": 316,
-  "not a student req": 27020
+  "off-target season in title": 317,
+  "not a student req": 27018
  },
  "jobs": [
   {
@@ -50,7 +60,7 @@
      55.0
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -110,7 +120,7 @@
      79.62
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -170,7 +180,7 @@
      51.0
     ],
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -227,7 +237,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 0.8,
+    "age": 0.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -287,7 +297,7 @@
      50.0
     ],
     "fresh": 0,
-    "age": 33.8,
+    "age": 33.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -347,7 +357,7 @@
      50.0
     ],
     "fresh": 3,
-    "age": 13.8,
+    "age": 13.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -407,7 +417,7 @@
      47.0
     ],
     "fresh": 3,
-    "age": 20.8,
+    "age": 20.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -464,7 +474,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -524,7 +534,7 @@
      45.0
     ],
     "fresh": -8,
-    "age": 151.8,
+    "age": 151.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -584,7 +594,7 @@
      44.0
     ],
     "fresh": -4,
-    "age": 47.8,
+    "age": 47.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -641,7 +651,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 0.8,
+    "age": 0.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -701,7 +711,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 98.8,
+    "age": 98.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -761,7 +771,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 83.8,
+    "age": 83.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -821,7 +831,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 34.8,
+    "age": 34.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -878,7 +888,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 68.8,
+    "age": 68.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -935,7 +945,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 68.8,
+    "age": 68.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -995,7 +1005,7 @@
      48.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1055,7 +1065,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1115,7 +1125,7 @@
      32.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1175,7 +1185,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 21.8,
+    "age": 21.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1235,7 +1245,7 @@
      35.0
     ],
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1292,7 +1302,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 5.8,
+    "age": 5.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1352,7 +1362,7 @@
      33.75
     ],
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1409,7 +1419,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 13.8,
+    "age": 13.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1469,7 +1479,7 @@
      50.0
     ],
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1526,7 +1536,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1586,7 +1596,7 @@
      45.0
     ],
     "fresh": -4,
-    "age": 46.8,
+    "age": 46.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1646,7 +1656,7 @@
      50.0
     ],
     "fresh": 0,
-    "age": 21.8,
+    "age": 21.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1706,7 +1716,7 @@
      32.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1766,7 +1776,7 @@
      50.0
     ],
     "fresh": 9,
-    "age": 4.8,
+    "age": 4.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1823,7 +1833,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1883,7 +1893,7 @@
      30.0
     ],
     "fresh": 3,
-    "age": 19.8,
+    "age": 19.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -1940,7 +1950,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 32.8,
+    "age": 32.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2000,7 +2010,7 @@
      33.0
     ],
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2060,7 +2070,7 @@
      33.0
     ],
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2120,7 +2130,7 @@
      32.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2180,7 +2190,7 @@
      79.62
     ],
     "fresh": 3,
-    "age": 17.8,
+    "age": 17.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2240,7 +2250,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 74.8,
+    "age": 74.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2300,7 +2310,7 @@
      79.62
     ],
     "fresh": 9,
-    "age": 3.8,
+    "age": 3.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2360,7 +2370,7 @@
      34.0
     ],
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2420,7 +2430,7 @@
      50.0
     ],
     "fresh": -4,
-    "age": 35.8,
+    "age": 35.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2480,7 +2490,7 @@
      50.0
     ],
     "fresh": -4,
-    "age": 35.8,
+    "age": 35.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2537,7 +2547,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2597,7 +2607,7 @@
      28.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2657,7 +2667,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 83.8,
+    "age": 83.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2717,7 +2727,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 35.8,
+    "age": 35.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2777,7 +2787,7 @@
      55.0
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2833,7 +2843,7 @@
      79.62
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2890,7 +2900,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2947,7 +2957,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 4.8,
+    "age": 4.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2999,7 +3009,7 @@
      50.0
     ],
     "fresh": 9,
-    "age": 4.8,
+    "age": 4.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3052,7 +3062,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3109,7 +3119,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3166,7 +3176,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 83.8,
+    "age": 83.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3223,7 +3233,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 89.8,
+    "age": 89.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3280,7 +3290,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 89.8,
+    "age": 89.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3340,7 +3350,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 82.8,
+    "age": 82.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3400,7 +3410,7 @@
      42.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3456,7 +3466,7 @@
      31.0
     ],
     "fresh": -8,
-    "age": 109.8,
+    "age": 109.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3513,7 +3523,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3573,7 +3583,7 @@
      35.0
     ],
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3630,7 +3640,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 101.8,
+    "age": 101.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3690,7 +3700,7 @@
      38.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3747,7 +3757,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3804,7 +3814,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 0.8,
+    "age": 0.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3856,7 +3866,7 @@
      33.0
     ],
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3916,7 +3926,7 @@
      45.0
     ],
     "fresh": 3,
-    "age": 19.8,
+    "age": 19.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -3972,7 +3982,7 @@
      38.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4032,7 +4042,7 @@
      74.52
     ],
     "fresh": -8,
-    "age": 67.8,
+    "age": 67.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4089,7 +4099,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4146,7 +4156,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4203,7 +4213,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 13.8,
+    "age": 13.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4260,7 +4270,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4320,7 +4330,7 @@
      62.98
     ],
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4380,7 +4390,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 56.8,
+    "age": 56.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4440,7 +4450,7 @@
      25.0
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4497,7 +4507,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 0.8,
+    "age": 0.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -4553,7 +4563,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 83.8,
+    "age": 83.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4609,7 +4619,7 @@
      41.0
     ],
     "fresh": 3,
-    "age": 13.8,
+    "age": 13.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4669,7 +4679,7 @@
      41.0
     ],
     "fresh": 3,
-    "age": 13.8,
+    "age": 13.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4725,7 +4735,7 @@
      38.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4785,7 +4795,7 @@
      79.62
     ],
     "fresh": 9,
-    "age": 3.8,
+    "age": 3.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -4837,7 +4847,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 77.8,
+    "age": 77.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -4897,7 +4907,7 @@
      31.0
     ],
     "fresh": 12,
-    "age": 0.8,
+    "age": 0.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -4945,7 +4955,7 @@
      35.0
     ],
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5005,7 +5015,7 @@
      47.0
     ],
     "fresh": 3,
-    "age": 20.8,
+    "age": 20.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5049,7 +5059,7 @@
      47.0
     ],
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5106,7 +5116,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5163,7 +5173,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 34.8,
+    "age": 34.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5211,7 +5221,7 @@
      48.0
     ],
     "fresh": 0,
-    "age": 34.8,
+    "age": 34.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5260,7 +5270,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 14.8,
+    "age": 14.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5316,7 +5326,7 @@
      38.5
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5369,7 +5379,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 2.8,
+    "age": 2.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5410,7 +5420,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 21.8,
+    "age": 21.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5470,7 +5480,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 83.8,
+    "age": 83.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5527,7 +5537,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 19.8,
+    "age": 19.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5575,7 +5585,7 @@
      37.0
     ],
     "fresh": 0,
-    "age": 21.8,
+    "age": 21.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5632,7 +5642,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 9,
-    "age": 3.8,
+    "age": 3.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5692,7 +5702,7 @@
      47.0
     ],
     "fresh": 12,
-    "age": 0.8,
+    "age": 0.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5733,7 +5743,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5777,7 +5787,7 @@
      45.0
     ],
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5826,7 +5836,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 6.8,
+    "age": 6.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -5886,7 +5896,7 @@
      57.13
     ],
     "fresh": 3,
-    "age": 20.8,
+    "age": 20.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5934,7 +5944,7 @@
      28.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -5994,7 +6004,7 @@
      47.0
     ],
     "fresh": 3,
-    "age": 14.8,
+    "age": 14.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6046,7 +6056,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 70.8,
+    "age": 70.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6106,7 +6116,7 @@
      33.0
     ],
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6163,7 +6173,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 11.8,
+    "age": 11.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6216,7 +6226,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6269,7 +6279,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6314,7 +6324,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 12.8,
+    "age": 12.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6366,7 +6376,7 @@
      79.62
     ],
     "fresh": 9,
-    "age": 3.8,
+    "age": 3.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6414,7 +6424,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 74.8,
+    "age": 74.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6455,6 +6465,46 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "ef:microsoft.com:200060962",
+   "title": "Researcher Intern, CoreAI",
+   "location": "Redmond, WA, US; Mountain View, CA, US",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027387",
+   "posted": "2026-11-02",
+   "body": "Overview The Code|AI team leads applied research and data science for GitHub Copilot and VS Code, working on the future of AI for developers. We are a diverse, entrepreneurial, and multi-disciplinary group of scientists, researchers, and engineers with a passion for using AI to improve the productivity of millions of developers around the world. We have released AI for code advancements in Github Copilot, VS Code, Visual Studio and Copilot extensions in other IDEs. Our team focuses on post-training code specific models like code completion, code embedding models and agentic research for Copilot Coding Agent, Copilot CLI and Copilot Code Review. We embrace open source and continue to share our research and work with the developer and research communities to advance AI in Developer tools. We are seeking entrepreneurial and creative Applied Researcher Interns to lead groundbreaking research projects, taking these from research into product. You will collaborate with scientists, engineers, and designers across Microsoft Research, Microsoft product teams, and Github. You will have an opportunity to build and train state-of-the-art models, and opportunities to both apply and advance existing approaches of using LLMs for software engineering, from using RAG to evaluation. Most importantly, you will have an opportunity to work closely with several developer product teams to run experiments, evaluate, iterate, and improve your AI projects on a large scale. Microsoft\u2019s mission is to empower every person and every organization on the planet to achieve more. As employees, we come together with a growth mindset, innovate to empower others and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. This is for a Summer 2027 Internship. #Code|AI #CoreAI #EiP Responsibilities Contributes to projects on the future of AI for developers. Collaborates across disciplines with product teams across Microsoft and Github. Stays up to date with the research literature and product advances in AI for software engineering. Creates new datasets from both the world's public code and Microsoft's internal data. Builds and manages large-scale ML experiments and models. Embodies our Culture and Values Qualifications Required qualifications Currently enrolled in a Doctorate Degree program in a relevant field. Must be enrolled in a Doctorate Degree program in a relevant field for the role during the academic term immediately before the internship. Must have at least one additional quarter/semester of a Doctorate Degree program program in area relevant for the role remaining following the completion of the internship. Additional Qualifications: 1+ year(s) experience in Calculus, Probability and Statistics and/or Machine Learning. 1+ year(s) experience in one or more general purpose programming languages including: C/C++, Java, R or Python, and domain relevant libraries and frameworks (e.g., PyTorch). 1+ year(s) experience (classroom or work related) in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, etc. The base pay range for this internship is USD $5,690.00 - $11,210.00 per month. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $7,410.00 - $12,250.00 per month. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-intern-pay Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April) This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
+   "company": "Microsoft",
+   "score": {
+    "total": 53,
+    "base": 47,
+    "fit": 8,
+    "loc": 8,
+    "traj": 19,
+    "pay": 12,
+    "rate": [
+     32.89,
+     70.81
+    ],
+    "fresh": 6,
+    "age": 7.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "pay $52/hr",
+      12
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: computer vision",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-15T09:17:02+00:00"
+  },
+  {
    "id": "gh:muonspace:5256286007",
    "title": "Environmental Test Engineering Intern (Summer 2027)",
    "location": "San Jose, CA",
@@ -6471,7 +6521,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 37.8,
+    "age": 37.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6527,7 +6577,7 @@
      50.0
     ],
     "fresh": 3,
-    "age": 14.8,
+    "age": 14.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6579,7 +6629,7 @@
      32.0
     ],
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6639,7 +6689,7 @@
      79.62
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6683,7 +6733,7 @@
      79.62
     ],
     "fresh": 3,
-    "age": 20.8,
+    "age": 20.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6736,7 +6786,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 5.8,
+    "age": 5.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6792,7 +6842,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 54.8,
+    "age": 54.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6849,7 +6899,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 25.8,
+    "age": 25.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -6906,7 +6956,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 13.8,
+    "age": 13.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -6966,7 +7016,7 @@
      37.0
     ],
     "fresh": 0,
-    "age": 21.8,
+    "age": 21.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7026,7 +7076,7 @@
      37.0
     ],
     "fresh": 0,
-    "age": 21.8,
+    "age": 21.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7083,7 +7133,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 68.8,
+    "age": 68.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7132,7 +7182,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 13.8,
+    "age": 13.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7177,7 +7227,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7222,7 +7272,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7282,7 +7332,7 @@
      20.0
     ],
     "fresh": -4,
-    "age": 49.8,
+    "age": 49.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7342,7 +7392,7 @@
      29.0
     ],
     "fresh": -4,
-    "age": 49.8,
+    "age": 49.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7394,7 +7444,7 @@
      79.62
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7442,7 +7492,7 @@
      50.0
     ],
     "fresh": 3,
-    "age": 13.8,
+    "age": 13.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7486,7 +7536,7 @@
      55.0
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7535,7 +7585,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 21.8,
+    "age": 21.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7588,7 +7638,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 17.8,
+    "age": 17.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7644,7 +7694,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 80.8,
+    "age": 80.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7704,7 +7754,7 @@
      50.82
     ],
     "fresh": -8,
-    "age": 68.8,
+    "age": 68.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7764,7 +7814,7 @@
      38.5
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7820,7 +7870,7 @@
      38.5
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7873,7 +7923,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -7926,7 +7976,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 11.8,
+    "age": 11.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -7978,7 +8028,7 @@
      24.0
     ],
     "fresh": 9,
-    "age": 4.8,
+    "age": 4.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8035,7 +8085,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 6.8,
+    "age": 6.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8084,7 +8134,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 54.8,
+    "age": 54.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8144,7 +8194,7 @@
      41.5
     ],
     "fresh": 12,
-    "age": 0.8,
+    "age": 0.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8181,7 +8231,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 88.8,
+    "age": 88.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8241,7 +8291,7 @@
      37.0
     ],
     "fresh": -8,
-    "age": 81.8,
+    "age": 81.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8301,7 +8351,7 @@
      29.0
     ],
     "fresh": -4,
-    "age": 47.8,
+    "age": 47.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8349,7 +8399,7 @@
      32.0
     ],
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8402,7 +8452,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 6.8,
+    "age": 6.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8439,7 +8489,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8495,7 +8545,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 70.8,
+    "age": 70.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8555,7 +8605,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 70.8,
+    "age": 70.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8615,7 +8665,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 70.8,
+    "age": 70.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8675,7 +8725,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 70.8,
+    "age": 70.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8735,7 +8785,7 @@
      44.0
     ],
     "fresh": 9,
-    "age": 4.8,
+    "age": 4.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8780,7 +8830,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 41.8,
+    "age": 41.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -8829,7 +8879,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8882,7 +8932,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8922,7 +8972,7 @@
      79.62
     ],
     "fresh": 3,
-    "age": 20.8,
+    "age": 20.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -8966,7 +9016,7 @@
      79.62
     ],
     "fresh": 3,
-    "age": 13.8,
+    "age": 13.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9026,7 +9076,7 @@
      79.62
     ],
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9071,7 +9121,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9128,7 +9178,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9181,7 +9231,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9226,7 +9276,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -9282,7 +9332,7 @@
      35.0
     ],
     "fresh": -4,
-    "age": 42.8,
+    "age": 42.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -9338,7 +9388,7 @@
      33.0
     ],
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -9398,7 +9448,7 @@
      32.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9450,7 +9500,7 @@
      35.45
     ],
     "fresh": 6,
-    "age": 6.8,
+    "age": 6.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9503,7 +9553,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 12,
-    "age": 0.8,
+    "age": 0.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9547,7 +9597,7 @@
      79.62
     ],
     "fresh": 9,
-    "age": 3.8,
+    "age": 3.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9604,7 +9654,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9649,7 +9699,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -9709,7 +9759,7 @@
      41.25
     ],
     "fresh": 3,
-    "age": 19.8,
+    "age": 19.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9758,7 +9808,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 21.8,
+    "age": 21.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9810,7 +9860,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 54.8,
+    "age": 54.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9870,7 +9920,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 54.8,
+    "age": 54.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -9930,7 +9980,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 60.8,
+    "age": 60.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -9982,7 +10032,7 @@
      44.0
     ],
     "fresh": 9,
-    "age": 4.8,
+    "age": 4.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10034,7 +10084,7 @@
      41.0
     ],
     "fresh": 6,
-    "age": 9.8,
+    "age": 9.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10082,7 +10132,7 @@
      35.45
     ],
     "fresh": 9,
-    "age": 3.8,
+    "age": 3.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10134,7 +10184,7 @@
      79.62
     ],
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10182,7 +10232,7 @@
      30.0
     ],
     "fresh": 9,
-    "age": 3.8,
+    "age": 3.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10231,7 +10281,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 55.8,
+    "age": 55.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10276,7 +10326,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10309,6 +10359,55 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "wd:globalhr:01883293",
+   "title": "Mechanical Engineering Intern (Summer 2027)",
+   "location": "US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Mechanical-Engineering-Intern--Summer-2027-_01883293",
+   "posted": "2026-10-28",
+   "body": "Date Posted: 2026-10-28 Country: United States of America Location: US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01 Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. The Raytheon Space and Airborne, Power and Digital (SAPD) Department consists of more than 150 engineers working collab\u00adoratively with internal and external customers and programs to provide innovative solutions for controlling \u200bproduct motion, including space and air launched vehicles used by a variety of end users who depend on the quality and integrity of our systems. Our systems include \u200belectronic processing units, harnessing design, and other components for interfacing with the vehicle and packaging the control assemblies. \u200bDue to the highly cross-functional nature of these sys\u00adtems, we are constantly looking for talented engineers with a sub-system solution mindset. \u200b What You Will Do: Support the design and development of high-speed digital hardware for aerospace products and associated test equipment Collaborating in a multi-discipline team setting to solve complex engineering problems Holding design and drawing reviews with peers and subject matter experts What You Will Learn You will contribute your knowledge of engineering practices and problem-solving to perform mechanical design and development activities. You will support, contribute, and collaborate in a team environment, receiving inputs from program or team experts, and work on projects, determining and developing approaches and solutions. Qualifications You Must Have: Must be pursuing Bachelor\u2019s or Advanced degree in Mechanical Engineering, Aerospace Engineering or related (STEM) major and actively Must have a minimum of 60 hours of credit by the start of the internship / co-op session. Experience utilizing CAD (Computer Aided Design) tools such as CREO or equivalent\u200b Experience with Engineering Analysis and Simulation software and programming tools such as MATLAB and Python\u200b Experience may be obtained through on-the-job experience, research, coursework, or projects Qualifications We Prefer Preferred majors: Mechanical Engineering, Electrical Engineering, Aerospace Engineering, Systems Engineering, Mathematics, or Physics. Experience in mechani\u00adcal or electrical design, engineering, and analysis\u200b Experience in manufac\u00adturing methods and pro\u00adcesses, including ma\u00adchining, casting, forging, welding, and bonding\u200b Experience in mechani\u00adcal drawing practices, dimensioning, and tolerancing\u200b Prior internship or co-op, and/or hands-on experience with club/team (i.e. baja/formula racing, robotics, rocketry, EV, RC/UAV, etc)\u200b What We Offer: Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX we value: Trust, Respect, Accountability, Collaboration, and Innovation. Relocation Eligibility Learn More & Apply Now! Please consider the following role type definition as you apply for this role. Onsite : Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 42,000 USD - 88,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate\u2019s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company\u2019s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans\u2019 Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms",
+   "company": "RTX",
+   "score": {
+    "total": 44,
+    "base": 41,
+    "fit": 24,
+    "loc": 4,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": 3,
+    "age": 12.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: mechanical",
+      7
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: creo",
+      3
+     ],
+     [
+      "body: matlab",
+      2
+     ]
+    ]
+   },
+   "first_seen": "2026-10-28T19:53:28+00:00"
+  },
+  {
    "id": "ab:rivianvw.tech:7967cd44-5469-48b8-b69f-f036e4098464",
    "title": "Data Engineering Intern - AI & Analytics (Summer 2027)",
    "location": "Palo Alto, California",
@@ -10328,7 +10427,7 @@
      51.0
     ],
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10372,7 +10471,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 53.8,
+    "age": 53.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10432,7 +10531,7 @@
      28.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -10492,7 +10591,7 @@
      38.0
     ],
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10552,7 +10651,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 38.8,
+    "age": 38.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10604,7 +10703,7 @@
      45.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10649,7 +10748,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 17.8,
+    "age": 17.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10686,7 +10785,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 5.8,
+    "age": 5.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10734,7 +10833,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 41.8,
+    "age": 41.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10791,7 +10890,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 25.8,
+    "age": 25.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10839,7 +10938,7 @@
      40.0
     ],
     "fresh": 3,
-    "age": 17.8,
+    "age": 17.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10888,7 +10987,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.8,
+    "age": 35.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10925,7 +11024,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 6.8,
+    "age": 6.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -10966,7 +11065,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11007,7 +11106,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 5.8,
+    "age": 5.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11052,7 +11151,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 34.8,
+    "age": 34.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11100,7 +11199,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -11153,7 +11252,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11189,7 +11288,7 @@
      40.0
     ],
     "fresh": 3,
-    "age": 12.8,
+    "age": 12.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11237,7 +11336,7 @@
      38.0
     ],
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11297,7 +11396,7 @@
      79.62
     ],
     "fresh": 3,
-    "age": 14.8,
+    "age": 14.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11341,7 +11440,7 @@
      79.62
     ],
     "fresh": 3,
-    "age": 11.8,
+    "age": 11.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11382,7 +11481,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 31.8,
+    "age": 31.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11434,7 +11533,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 42.8,
+    "age": 42.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11490,7 +11589,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 42.8,
+    "age": 42.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11538,7 +11637,7 @@
      48.0
     ],
     "fresh": -8,
-    "age": 74.8,
+    "age": 74.9,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -11587,7 +11686,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11639,7 +11738,7 @@
      20.77
     ],
     "fresh": -4,
-    "age": 59.8,
+    "age": 59.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11699,7 +11798,7 @@
      28.0
     ],
     "fresh": -4,
-    "age": 56.8,
+    "age": 56.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11759,7 +11858,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 151.8,
+    "age": 151.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11807,7 +11906,7 @@
      29.0
     ],
     "fresh": -4,
-    "age": 46.8,
+    "age": 46.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11855,7 +11954,7 @@
      29.0
     ],
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11911,7 +12010,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 82.8,
+    "age": 82.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -11971,7 +12070,7 @@
      34.0
     ],
     "fresh": -4,
-    "age": 38.8,
+    "age": 38.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12028,7 +12127,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 5.8,
+    "age": 5.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12068,7 +12167,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 40.8,
+    "age": 40.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12113,7 +12212,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12154,7 +12253,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 12.8,
+    "age": 12.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12194,7 +12293,7 @@
      29.0
     ],
     "fresh": -4,
-    "age": 51.8,
+    "age": 51.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12242,7 +12341,7 @@
      32.0
     ],
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12290,7 +12389,7 @@
      79.62
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12330,7 +12429,7 @@
      79.62
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12370,7 +12469,7 @@
      40.0
     ],
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12418,7 +12517,7 @@
      21.6
     ],
     "fresh": -4,
-    "age": 38.8,
+    "age": 38.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12471,7 +12570,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.8,
+    "age": 49.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12516,7 +12615,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 14.8,
+    "age": 14.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12564,7 +12663,7 @@
      28.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12617,7 +12716,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 83.8,
+    "age": 83.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12670,7 +12769,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 83.8,
+    "age": 83.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12726,7 +12825,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 53.8,
+    "age": 53.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12786,7 +12885,7 @@
      44.0
     ],
     "fresh": -8,
-    "age": 81.8,
+    "age": 81.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12834,7 +12933,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 82.8,
+    "age": 82.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12886,7 +12985,7 @@
      24.23
     ],
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12943,7 +13042,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 12.8,
+    "age": 12.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -12984,7 +13083,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 47.8,
+    "age": 47.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13033,7 +13132,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 28.8,
+    "age": 28.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13089,7 +13188,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 42.8,
+    "age": 42.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13141,7 +13240,7 @@
      30.0
     ],
     "fresh": -4,
-    "age": 56.8,
+    "age": 56.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13166,51 +13265,6 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
-   "id": "wd:jabil:J2469350",
-   "title": "Mechanical System Architect Intern",
-   "location": "Austin, TX",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Mechanical-System-Architect-Intern_J2469350",
-   "posted": "2026-10-26",
-   "body": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vibrant and diverse communities around the globe. Summary of Program Jabil\u2019s Summer Internship Program was recognized as one of the Top 100 Internship Programs in the country for 2026 by WayUp. This is the result of a holistic and engaging experience that summer interns at Jabil experience. As a result, interns that are a part of this program for summer 2027 will get to engage with members of Jabil\u2019s leadership team and participate in events related to professional development, networking & socializing, and community engagement. In addition, interns will have the opportunity to work with each other in committees, be assigned a mentor, tour some of Jabil\u2019s facilities and much more! If this sounds like a program you want to be a part of and you want to work for a company that strives to make EVERYTHING BETTER and ANYTHING POSSIBLE, then apply today. What will you do? - System Architects at Jabil collaborate with customers, sales, and product planning to establish the technical direction for Jabil design teams in the Cloud and Compute markets. As a Mechanical System Architect Intern, you will be expected to: Complete a primary project that includes project management and solution development. Contribute to determining the technical direction for customer originated projects and Jabil's own cloud compute product offerings: Documenting product requirements Communicating the plan of record design and tradeoffs System layout and mechanical feasibility Collaborating with system architects in the mechanical, electrical, thermal, firmware, and software domains Train on detailed design requirements of CPUs, GPUs, Storage, Memory, FPGAs, board materials, regulators, power supplies etc. Hands-on assembly and disassembly of cloud computing products How will you get here? Requirements: Education: Junior or Senior class year engineering student pursuing a Bachelor\u2019s degree in Mechanical Engineering or a similar area Preferred Qualifications: Understanding of mechanical engineering design principles Proven academic project experience Effective communication, self-starter \u2013 Ability to drive work. Strong data analysis skills Knowledge, Skills, Abilities: Capability to research and explore unfamiliar technologies and concepts with an eye towards feasibility Familiarity with the Intel, AMD, Nvidia or ARM CPU/GPU architectures. Direct experience with at least some of the above is preferred. Familiarity with ME design tools, preferably PTC Creo and Windchill Knowledge of data center environmental and infrastructure paradigms Familiarity in the mechanical and electrical domains. Specifically, an understanding of basics nomenclature, concepts and tools used by your architectural teammates. BE AWARE OF FRAUD: When applying for a job at Jabil you will be contacted via correspondence through our official job portal with a jabil.com e-mail address; direct phone call from a member of the Jabil team; or direct e-mail with a jabil.com e-mail address. Jabil does not request payments for interviews or at any other point during the hiring process. Jabil will not ask for your personal identifying information such as a social security number, birth certificate, financial institution, driver\u2019s license number or passport information over the phone or via e-mail. If you believe you are a victim of identity theft, contact the Federal Bureau of Investigations internet crime hotline (www.ic3.gov), the Federal Trade Commission identity theft hotline (www.identitytheft.gov) and/or your local police department. Any scam job listings should be reported to whatever website it was posted in. Jabil, including its subsidiaries, is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, age, disability, genetic information, veteran status, or any other characteristic protected by law. Accessibility Accommodation If you are a qualified individual with a disability, you have the right to request a reasonable accommodation if you are unable or limited in your ability to use or access Jabil.com/Careers site as a result of your disability. You can request a reasonable accommodation by sending an e-mail to Always_Accessible@Jabil.com or calling 727-803-7988 with the nature of your request and contact information. Please do not direct any other general employment related questions to this e-mail or phone number. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to. #whereyoubelong #AWorldofPossibilities #EarlyCareer",
-   "company": "Jabil",
-   "score": {
-    "total": 39,
-    "base": 36,
-    "fit": 21,
-    "loc": 4,
-    "traj": 11,
-    "pay": 0,
-    "rate": null,
-    "fresh": 3,
-    "age": 14.8,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: mechanical",
-      7
-     ],
-     [
-      "body: regulator",
-      5
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "body: creo",
-      3
-     ],
-     [
-      "body: fea",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-26T21:42:53+00:00"
-  },
-  {
    "id": "wd:nvidia:JR2027561",
    "title": "Differentiable Simulation Research Intern - Summer 2027",
    "location": "US, CA, Santa Clara",
@@ -13227,7 +13281,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13260,7 +13314,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13293,7 +13347,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 38.8,
+    "age": 38.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13342,7 +13396,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 14.8,
+    "age": 14.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13383,7 +13437,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 91.8,
+    "age": 91.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13424,7 +13478,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 59.8,
+    "age": 59.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13476,7 +13530,7 @@
      41.0
     ],
     "fresh": 0,
-    "age": 31.8,
+    "age": 31.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13521,7 +13575,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13557,7 +13611,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 82.8,
+    "age": 82.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13614,7 +13668,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13655,7 +13709,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 7.8,
+    "age": 7.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13704,7 +13758,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 6,
-    "age": 5.8,
+    "age": 5.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13733,7 +13787,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 19.8,
+    "age": 19.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13774,7 +13828,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13826,7 +13880,7 @@
      33.0
     ],
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13886,7 +13940,7 @@
      79.62
     ],
     "fresh": 3,
-    "age": 10.8,
+    "age": 10.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13926,7 +13980,7 @@
      40.0
     ],
     "fresh": 3,
-    "age": 17.8,
+    "age": 17.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -13974,7 +14028,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 42.8,
+    "age": 42.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14019,7 +14073,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 53.8,
+    "age": 53.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14056,7 +14110,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 48.8,
+    "age": 48.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14093,7 +14147,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 17.8,
+    "age": 17.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14122,7 +14176,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 52.8,
+    "age": 52.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14167,7 +14221,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 34.8,
+    "age": 34.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14212,7 +14266,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 34.8,
+    "age": 34.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14257,7 +14311,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 34.8,
+    "age": 34.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14305,7 +14359,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 53.8,
+    "age": 53.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14365,7 +14419,7 @@
      33.0
     ],
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14425,7 +14479,7 @@
      34.0
     ],
     "fresh": -8,
-    "age": 67.8,
+    "age": 67.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14470,7 +14524,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14518,7 +14572,7 @@
      29.0
     ],
     "fresh": -4,
-    "age": 40.8,
+    "age": 40.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14566,7 +14620,7 @@
      40.0
     ],
     "fresh": 3,
-    "age": 17.8,
+    "age": 17.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14610,7 +14664,7 @@
      59.0
     ],
     "fresh": -4,
-    "age": 41.8,
+    "age": 41.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14654,7 +14708,7 @@
      31.0
     ],
     "fresh": -8,
-    "age": 109.8,
+    "age": 109.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14711,7 +14765,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14755,7 +14809,7 @@
      28.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14812,7 +14866,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 25.8,
+    "age": 25.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14864,7 +14918,7 @@
      38.0
     ],
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14917,7 +14971,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -14961,7 +15015,7 @@
      50.0
     ],
     "fresh": 3,
-    "age": 18.8,
+    "age": 18.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15006,7 +15060,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 27.8,
+    "age": 27.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15021,6 +15075,43 @@
     ]
    },
    "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
+   "id": "wd:globalhr:01885604",
+   "title": "Industrial Engineering Co-Op (Summer/Fall 2027)",
+   "location": "US-IA-CORALVILLE-155 ~ 2855 Heartland Dr ~ HEARTLAND BLDG 155",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CORALVILLE-155--2855-Heartland-Dr--HEARTLAND-BLDG-155/Industrial-Engineering-Co-Op--Summer-Fall-2027-_01885604",
+   "posted": "2026-10-28",
+   "body": "Date Posted: 2026-10-28 Country: United States of America Location: US-IA-CORALVILLE-155 ~ 2855 Heartland Dr ~ HEARTLAND BLDG 155 Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. What You Will Do Support manufacturing processes, including equipment, floor layouts, work sequences, work instructions, procedures, and workflow. Conduct studies on cost control, productivity, cost reduction, inventory, and production record systems. Review products and processes for quality, safety, and producibility risks, and collaborate with design teams to incorporate changes that eliminate these risks. Design and 3D print fixtures and tooling to support process improvements. Independently resolve complex and challenging problems. Develop tactical plans to address day-to-day challenges. What You Will Learn Master the ability to assess current processes, identify inefficiencies, and implement enhancements to boost productivity and efficiency. Gain proficiency in methodologies for continuous improvement, focusing on waste reduction, efficiency enhancement, and driving overall process improvements. Develop strong communication skills to effectively collaborate with diverse teams and stakeholders across all organizational levels. Acquire the ability to adapt to changing environments and integrate industry trends and innovations to maintain competitiveness. Learn to lead teams, delegate responsibilities, and inspire team members to achieve collective objectives. Qualifications You Must Have Currently pursuing a Bachelor\u2019s or advanced degree in Industrial Engineering, Mechanical Engineering, or a similar field. and actively enrolled through the completion of the internship or co-op session. Qualifications We Prefer Strong background in Root Cause Analysis. Experience with CAD software. What We Offer Our values drive our actions, behaviors, and performance, with a vision for a safer, more connected world. At RTX, we value: Safety, Trust, Respect, Accountability, Collaboration, and Innovation. Learn More & Apply Now! Please consider the following role type definition as you apply for this role. Onsite: Employees who are working in Onsite roles will work primarily onsite. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate\u2019s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company\u2019s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans\u2019 Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms",
+   "company": "RTX",
+   "score": {
+    "total": 35,
+    "base": 32,
+    "fit": 19,
+    "loc": 0,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": 3,
+    "age": 12.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: fixture",
+      8
+     ],
+     [
+      "body: root cause",
+      7
+     ],
+     [
+      "body: inventor",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-28T19:53:28+00:00"
   },
   {
    "id": "wd:globalhr:01885605",
@@ -15039,7 +15130,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 3,
-    "age": 12.8,
+    "age": 12.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15079,7 +15170,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 82.8,
+    "age": 82.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15127,7 +15218,7 @@
      24.23
     ],
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15179,7 +15270,7 @@
      24.23
     ],
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15231,7 +15322,7 @@
      57.6
     ],
     "fresh": -8,
-    "age": 68.8,
+    "age": 68.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15283,7 +15374,7 @@
      29.0
     ],
     "fresh": -4,
-    "age": 46.8,
+    "age": 46.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15327,7 +15418,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 24.8,
+    "age": 24.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15375,7 +15466,7 @@
      40.0
     ],
     "fresh": 0,
-    "age": 24.8,
+    "age": 24.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15416,7 +15507,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15448,7 +15539,7 @@
      34.29
     ],
     "fresh": -4,
-    "age": 54.8,
+    "age": 54.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15492,7 +15583,7 @@
      48.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15544,7 +15635,7 @@
      50.0
     ],
     "fresh": 0,
-    "age": 25.8,
+    "age": 25.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15588,7 +15679,7 @@
      27.0
     ],
     "fresh": 0,
-    "age": 34.8,
+    "age": 34.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15637,7 +15728,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 49.8,
+    "age": 49.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15677,7 +15768,7 @@
      41.0
     ],
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15714,7 +15805,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 38.8,
+    "age": 38.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15755,7 +15846,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15803,7 +15894,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 60.8,
+    "age": 60.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15851,7 +15942,7 @@
      34.0
     ],
     "fresh": -4,
-    "age": 54.8,
+    "age": 54.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15900,7 +15991,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 54.8,
+    "age": 54.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -15944,7 +16035,7 @@
      27.69
     ],
     "fresh": -4,
-    "age": 48.8,
+    "age": 48.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16001,7 +16092,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16041,7 +16132,7 @@
      50.0
     ],
     "fresh": 0,
-    "age": 33.8,
+    "age": 33.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16086,7 +16177,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 47.8,
+    "age": 47.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16123,7 +16214,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 68.8,
+    "age": 68.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16164,7 +16255,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 56.8,
+    "age": 56.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16201,7 +16292,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 46.8,
+    "age": 46.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16249,7 +16340,7 @@
      28.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16309,7 +16400,7 @@
      20.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16369,7 +16460,7 @@
      60.0
     ],
     "fresh": -4,
-    "age": 46.8,
+    "age": 46.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16417,7 +16508,7 @@
      24.23
     ],
     "fresh": -8,
-    "age": 68.8,
+    "age": 68.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16473,7 +16564,7 @@
      48.0
     ],
     "fresh": -8,
-    "age": 63.8,
+    "age": 63.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16533,7 +16624,7 @@
      29.0
     ],
     "fresh": -8,
-    "age": 86.8,
+    "age": 86.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16577,7 +16668,7 @@
      38.0
     ],
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16629,7 +16720,7 @@
      43.0
     ],
     "fresh": 0,
-    "age": 34.8,
+    "age": 34.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16673,7 +16764,7 @@
      27.0
     ],
     "fresh": 0,
-    "age": 28.8,
+    "age": 28.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16726,7 +16817,7 @@
     "pay": 0,
     "rate": null,
     "fresh": 0,
-    "age": 26.8,
+    "age": 26.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16766,7 +16857,7 @@
      36.0
     ],
     "fresh": -8,
-    "age": 98.8,
+    "age": 98.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16815,7 +16906,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 38.8,
+    "age": 38.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16856,7 +16947,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 45.8,
+    "age": 45.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16908,7 +16999,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 105.8,
+    "age": 105.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16949,7 +17040,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 68.8,
+    "age": 68.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17005,7 +17096,7 @@
      50.82
     ],
     "fresh": -8,
-    "age": 68.8,
+    "age": 68.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17054,7 +17145,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 41.8,
+    "age": 41.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17087,7 +17178,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17120,7 +17211,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17153,7 +17244,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 41.8,
+    "age": 41.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17198,7 +17289,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17247,7 +17338,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17299,7 +17390,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 45.8,
+    "age": 45.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17347,7 +17438,7 @@
      40.0
     ],
     "fresh": -4,
-    "age": 45.8,
+    "age": 45.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17392,7 +17483,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 56.8,
+    "age": 56.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17429,7 +17520,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17466,7 +17557,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17506,7 +17597,7 @@
      46.51
     ],
     "fresh": -4,
-    "age": 39.8,
+    "age": 39.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17531,12 +17622,12 @@
    "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
-   "id": "gh:rocketlab:7990270003",
+   "id": "gh:rocketlab:7990272003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Tucson, AZ",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
+   "location": "Chantilly, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "company": "Rocket Lab",
    "score": {
     "total": 30,
@@ -17550,7 +17641,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 53.8,
+    "age": 53.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17587,12 +17678,12 @@
    "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
-   "id": "gh:rocketlab:7990272003",
+   "id": "gh:rocketlab:7990270003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Chantilly, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
+   "location": "Tucson, AZ",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "company": "Rocket Lab",
    "score": {
     "total": 30,
@@ -17606,7 +17697,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 53.8,
+    "age": 53.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17662,7 +17753,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 70.8,
+    "age": 70.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17707,7 +17798,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17751,7 +17842,7 @@
      25.0
     ],
     "fresh": -4,
-    "age": 42.8,
+    "age": 42.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17799,7 +17890,7 @@
      24.23
     ],
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17851,7 +17942,7 @@
      34.0
     ],
     "fresh": -8,
-    "age": 60.8,
+    "age": 60.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17911,7 +18002,7 @@
      29.0
     ],
     "fresh": -4,
-    "age": 47.8,
+    "age": 47.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17948,7 +18039,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 54.8,
+    "age": 54.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -17989,7 +18080,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 74.8,
+    "age": 74.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18030,7 +18121,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 47.8,
+    "age": 47.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18075,7 +18166,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 67.8,
+    "age": 67.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18128,7 +18219,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 46.8,
+    "age": 46.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18169,7 +18260,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 40.8,
+    "age": 40.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18214,7 +18305,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.8,
+    "age": 35.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18255,7 +18346,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 35.8,
+    "age": 35.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18299,7 +18390,7 @@
      60.0
     ],
     "fresh": -8,
-    "age": 81.8,
+    "age": 81.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18340,7 +18431,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 45.8,
+    "age": 45.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18381,7 +18472,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 42.8,
+    "age": 42.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18426,7 +18517,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 42.8,
+    "age": 42.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18471,7 +18562,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 59.8,
+    "age": 59.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18519,7 +18610,7 @@
      30.0
     ],
     "fresh": -8,
-    "age": 75.8,
+    "age": 75.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18564,7 +18655,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 56.8,
+    "age": 56.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18593,7 +18684,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 37.8,
+    "age": 37.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18633,7 +18724,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18689,7 +18780,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18742,7 +18833,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -4,
-    "age": 55.8,
+    "age": 55.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18783,7 +18874,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18820,7 +18911,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 95.8,
+    "age": 95.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18849,7 +18940,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 87.8,
+    "age": 87.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18878,7 +18969,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 66.8,
+    "age": 66.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18911,7 +19002,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -18955,7 +19046,7 @@
      37.0
     ],
     "fresh": -8,
-    "age": 70.8,
+    "age": 70.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19000,7 +19091,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19044,7 +19135,7 @@
      28.0
     ],
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19096,7 +19187,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19140,59 +19231,7 @@
      40.0
     ],
     "fresh": -8,
-    "age": 74.8,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: equipment",
-      7
-     ],
-     [
-      "body: design of experiments",
-      6
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "title: manufacturing",
-      3
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "pay $30/hr",
-      0
-     ]
-    ]
-   },
-   "first_seen": "2026-10-14T01:17:06+00:00"
-  },
-  {
-   "id": "wd:globalfoundries:JR-2604663",
-   "title": "US Advanced Manufacturing Equipment Engineering Intern, Junior (Summer 2027)",
-   "location": "USA - Vermont - Essex Junction",
-   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/US-Advanced-Manufacturing-Equipment-Engineering-Intern--Junior--Summer-2027-_JR-2604663",
-   "posted": "2026-08-27",
-   "body": "About GlobalFoundries GlobalFoundries (GF) is a leading manufacturer of essential semiconductors, enabling AI at scale from the cloud to the physical world. Through deep partnerships with customers, GF delivers differentiated, power\u2011efficient and high\u2011performance solutions for high\u2011growth markets. With global manufacturing operations across the U.S., Europe and Asia, GF is a trusted and holistic technology partner for customers around the world. GF\u2019s talented, global team remains focused every day on security, longevity and sustainability. For more information, visit www.gf.com. Internship Program Overview: Our Interns & Co-ops are our entry-level talent pipeline for GF across the globe. Our goal is to provide students with a meaningful work experience that will equip them with the skills to embark on a career in the fast-paced and growing semiconductor industry after graduation. As an intern at GF, you will experience one-on-one mentorship, work assignments that prioritize your growth and potential, professional development opportunities, and the chance to network with executives. Summary of Role: Our Fab 9 location in Essex Junction, VT is looking to hire Equipment Engineer Interns who are in pursuit of and have completed their second year in a 4-Year Bachelor\u2019s Degree in Mechanical Engineering, Electrical Engineering or other relevant discipline to sustain and run the fab floor with primary responsibility of resolving equipment and process issues. You will be given an intern project that will require you lead the project to completion and share your success through an end of year intern poster session. Essential Responsibilities include: Drive continuous improvement efforts in support of throughput improvement, cost reduction, and yield learning. Define and maintain equipment installation process qualification or installation roadmaps Define and maintain equipment installation roadmaps - Drive equipment planning, equipment selection and configuration with the area process engineers, including installation, start up and volume ramp of process equipment. Design, execute, and analyze experiments to screen and optimize equipment to meet technology (performance, yield, and reliability) and manufacturing (process stability, cost of ownership) targets. Must be mechanically inclined and able to lead hands on, tactical troubleshooting efforts to resolve long term performance issues; must be able to deconstruct and understand complex systems Collaborate with GLOBALFOUNDRIES integration and process engineering to support development of improved next generation technologies. Support technology transfer to other fabricators. Other Responsibilities: Perform all activities in a safe and responsible manner and support all Environmental, Health, Safety & Security requirements, and programs. Required Qualifications: Education \u2013 A junior at the time of application and actively pursuing a degree in Electrical Engineering, Mechanical Engineering, or related field through an accredited degree program during the time of internship. Must have at least an overall 3.0 GPA and be in good academic standing. Language Fluency - English (Written & Verbal) Travel - Up to 10% Ability to work at least 40 hours per week during the internship. Preferred Qualifications: Prior related internship or co-op experience Project management skills, i.e., the ability to innovate and execute on solutions that matter; the ability to navigate ambiguity. Strong written and verbal communication skills Strong planning & organizational skills Knowledge of Semiconductor Manufacturing Knowledge of Statistical Process Control (SPC) and Design of Experiments (DOE) Ability to work effectively and efficiently with diverse teams, customers, internal and external partners. #InternshipProgramUS Expected Salary Range: $20.00 - $40.00 per hour Expected Salary Range $0.00 - $0.00 The exact Salary will be determined based on qualifications, experience and location. If you need a reasonable accommodation for any part of the employment process, please contact us by email at usaccommodations@gf.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address. An offer with GlobalFoundries is conditioned upon the successful completion of pre-employment conditions, as applicable, and subject to applicable laws and regulations. GlobalFoundries is fully committed to equal opportunity in the workplace and believes that cultural diversity within the company enhances its business potential. GlobalFoundries goal of excellence in business necessitates the attraction and retention of highly qualified people. Artificial barriers and stereotypic biases detract from this objective and may be illegally discriminatory. All policies and processes which pertain to employees including recruitment, selection, training, utilization, promotion, compensation, benefits, extracurricular programs, and termination are created and implemented without regard to age, ethnicity, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, sexual orientation, gender identity or expression, veteran status, or any other characteristic or category specified by local, state or federal law",
-   "company": "GlobalFoundries",
-   "score": {
-    "total": 26,
-    "base": 34,
-    "fit": 23,
-    "loc": 0,
-    "traj": 11,
-    "pay": 0,
-    "rate": [
-     20.0,
-     40.0
-    ],
-    "fresh": -8,
-    "age": 74.8,
+    "age": 74.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19241,7 +19280,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 87.8,
+    "age": 87.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19270,47 +19309,6 @@
    "first_seen": "2026-10-14T01:17:06+00:00"
   },
   {
-   "id": "wd:vermeer:REQ-22137",
-   "title": "Quality Engineer Intern - Summer 2027",
-   "location": "Pella, Iowa, USA - Plant 3",
-   "url": "https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Plant-3/Quality-Engineer-Intern---Summer-2027_REQ-22137",
-   "posted": "2026-08-31",
-   "body": "Who We Are Vermeer equips customers doing important work around the world. We are global, driven by innovation and growing. The equipment we make manages natural resources, connects people and feeds and fuels communities. We live out a caring culture, we demonstrate agility, we keep a focus on customers and are stewards of our resources. These beliefs drive our culture, determine how we treat others and steer our business. Work Shift 1 - First Shift Job Summary Are you energized by solving problems and improving how things are made? As a Quality Engineer Intern at Vermeer, you\u2019ll support real-world projects that enhance production processes and drive operational excellence. This internship offers hands-on experience in monitoring, analyzing, problem solving, and improving product performance\u2014preparing you for a full-time engineering role upon graduation. What You\u2019ll Do 1. Review and analyze internal and external quality performance for whole goods, upstream production, plant quality, and/or supplier quality; communicate trends and findings to manufacturing leadership. 2. Support Root Cause and Corrective Action (RCCA) and problem-solving activities for assigned issues; help implement solutions to reduce quality issues and defects. 3. Assist in executing and auditing control plans and manufacturing processes for compliance and effectiveness; partner with manufacturing engineering to implement mistake-proofing and process improvements. 4. Collaborate with suppliers to problem-solve and verify quality improvements. 5. Participate in process capability studies and continuous improvement activities with process engineering, including Statistical Process Control (SPC) methods such as Process Capability Index (CPK) and control charts using statistical software such as Minitab (or similar). 6. Support critical Quality Management System (QMS) processes and participate in quality improvement projects and teams. What We\u2019re Looking For - High School diploma required. Current student pursuing a Bachelor\u2019s degree in Engineering. - Awareness of quality tools and techniques, such as Advanced Product Quality Planning (APQP), Core Tools, SPC methods, and CPK, with exposure to statistical software such as Minitab (or similar). - Awareness of lean manufacturing principles and using Lean Sigma/Six Sigma methodology to improve quality, including Define, Measure, Analyze, Improve, Control (DMAIC). - Experience with troubleshooting and root cause analysis; exposure to Failure Modes and Effects Analysis (FMEA) and Eight Disciplines (8D) problem solving preferred. - Ability to work in a team environment, operate assembly and measurement tools and devices, and read prints and Geometric Dimensioning and Tolerancing (GD&T). Travel - No travel is expected of this position. Work Location ONSITE: A team member\u2019s day-to-day work is best done on a Vermeer campus. If work content can be occasionally completed at an offsite location, discuss potential arrangements with your manager. Equal Opportunity Employer At Vermeer Corporation, we believe in the value of your unique identity, background, and experiences. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, age, marital status, genetic information, disability, sexual orientation, gender identity, veteran status or any other status protected by the law. Applicants requiring a reasonable accommodation due to a disability at any stage of the employment application process should contact Team Member Solutions at (641) 621-8767 or at hr@vermeer.com . Interested? We\u2019d love to get to know you.",
-   "company": "Vermeer",
-   "score": {
-    "total": 26,
-    "base": 34,
-    "fit": 23,
-    "loc": 0,
-    "traj": 11,
-    "pay": 0,
-    "rate": null,
-    "fresh": -8,
-    "age": 70.8,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: gd&t",
-      8
-     ],
-     [
-      "body: root cause",
-      7
-     ],
-     [
-      "body: fmea",
-      5
-     ],
-     [
-      "title: quality",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-14T01:17:06+00:00"
-  },
-  {
    "id": "or:egup:20279133",
    "title": "Mechanical/Thermal Engineering Intern (Summer 2027)",
    "location": "Pelzer, SC, United States",
@@ -19327,7 +19325,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 82.8,
+    "age": 82.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19368,7 +19366,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 82.8,
+    "age": 82.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19409,7 +19407,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 82.8,
+    "age": 82.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19453,7 +19451,7 @@
      50.0
     ],
     "fresh": -8,
-    "age": 74.8,
+    "age": 74.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19490,7 +19488,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19531,7 +19529,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 70.8,
+    "age": 70.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19572,7 +19570,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19605,7 +19603,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 69.8,
+    "age": 69.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19638,7 +19636,7 @@
     "pay": 0,
     "rate": null,
     "fresh": -8,
-    "age": 61.8,
+    "age": 61.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19678,7 +19676,7 @@
      35.0
     ],
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -19726,7 +19724,7 @@
      33.0
     ],
     "fresh": -8,
-    "age": 62.8,
+    "age": 62.9,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -20653,6 +20651,13 @@
    "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
    "location": "Nashua, New Hampshire, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131670BR",
+   "reason": "scored 19, below tier B"
+  },
+  {
+   "company": "BAE Systems",
+   "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
+   "location": "Nashua, New Hampshire, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/131674BR",
    "reason": "scored 19, below tier B"
   },
   {
@@ -23050,41 +23055,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Jabil",
-   "title": "Low voltage switchgear Electrical Engineering Intern",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Low-voltage-switchgear-Electrical-Engineering-Intern_J2470772",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Jabil",
-   "title": "Mechanical Engineering Intern",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Mechanical-Engineering-Intern_J2470824-1",
-   "reason": "scored 31, below tier B"
-  },
-  {
-   "company": "Jabil",
-   "title": "Production Planning Intern (Part-Time)",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Production-Planning-Intern--Part-Time-_J2468448",
-   "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Jabil",
-   "title": "Purchasing Intern (Part-Time)",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Purchasing-Intern--Part-Time-_J2468450",
-   "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Jabil",
-   "title": "Validation Engineer Intern",
-   "location": "Austin, TX",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Validation-Engineer-Intern_J2469310",
-   "reason": "scored 28, below tier B"
-  },
-  {
    "company": "Johnson Controls",
    "title": "Accounting & Finance Intern",
    "location": "Milwaukee-Wisconsin-United States of America",
@@ -23219,10 +23189,24 @@
   },
   {
    "company": "Lam Research",
+   "title": "Summer 2027 - Electrical Engineering Intern - BS/MS",
+   "location": "Tualatin, OR, US",
+   "url": "https://careers.lamresearch.com/careers/job/1099556276556",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Lam Research",
    "title": "Summer 2027 - Process Engineering Intern - BS",
    "location": "Fremont, CA, US",
    "url": "https://careers.lamresearch.com/careers/job/1099556046189",
    "reason": "scored 28, below tier B"
+  },
+  {
+   "company": "Lam Research",
+   "title": "Summer 2027 - Process Engineering Intern - MS/PhD",
+   "location": "Tualatin, OR, US",
+   "url": "https://careers.lamresearch.com/careers/job/1099556860224",
+   "reason": "scored 18, below tier B"
   },
   {
    "company": "Lam Research",
@@ -23265,6 +23249,13 @@
    "location": "6314 Remote/Teleworker US",
    "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Migration-Execution-Intern_R-00196159",
    "reason": "scored 2, below tier B"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "Aeronautical Engineer Intern",
+   "location": "Palmdale, CA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477452839",
+   "reason": "scored 12, below tier B"
   },
   {
    "company": "Lockheed Martin",
@@ -23555,6 +23546,13 @@
   },
   {
    "company": "Marvell",
+   "title": "Application Engineer Intern, MS - Summer 2027",
+   "location": "2 Locations",
+   "url": "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Application-Engineer-Intern--MS---Summer-2027_2604509-1",
+   "reason": "scored 15, below tier B"
+  },
+  {
+   "company": "Marvell",
    "title": "Architecture Intern, MS - Summer 2027",
    "location": "Burlington, VT",
    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Burlington-VT/Architecture-Intern--MS---Summer-2027_2604613-1",
@@ -23573,6 +23571,13 @@
    "location": "Santa Clara, CA; Irvine, CA; Austin, TX; Burlington, VT; Boise, ID; Hudson Valley, NY",
    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Digital-IC-Design-Intern--MS---Summer-2027_2604828-1",
    "reason": "scored 31, below tier B"
+  },
+  {
+   "company": "Marvell",
+   "title": "Functional Validation Intern, BS - Summer 2027",
+   "location": "3 Locations",
+   "url": "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Westborough-MA/Functional-Validation-Intern--BS---Summer-2027_2604514",
+   "reason": "scored 23, below tier B"
   },
   {
    "company": "Marvell",
@@ -24606,13 +24611,6 @@
   {
    "company": "RTX",
    "title": "Industrial Engineering Co-Op (Summer/Fall 2027)",
-   "location": "US-IA-CORALVILLE-155 ~ 2855 Heartland Dr ~ HEARTLAND BLDG 155",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CORALVILLE-155--2855-Heartland-Dr--HEARTLAND-BLDG-155/Industrial-Engineering-Co-Op--Summer-Fall-2027-_01885604",
-   "reason": "scored 13, below tier B"
-  },
-  {
-   "company": "RTX",
-   "title": "Industrial Engineering Co-Op (Summer/Fall 2027)",
    "location": "US-FL-MELBOURNE-311 ~ 1100 W Hibiscus Blvd ~ BLDG 311",
    "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-311--1100-W-Hibiscus-Blvd--BLDG-311/Industrial-Engineering-Co-Op--Summer-Fall-2027-_01872600",
    "reason": "scored 21, below tier B"
@@ -24700,13 +24698,6 @@
    "location": "US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC",
    "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Materials---Processes-and-Mechanical-Disciplines-Engineering-Intern--Summer-2027---Onsite-_01871669",
    "reason": "scored 31, below tier B"
-  },
-  {
-   "company": "RTX",
-   "title": "Mechanical Engineering Intern (Summer 2027)",
-   "location": "US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Mechanical-Engineering-Intern--Summer-2027-_01883293",
-   "reason": "scored 28, below tier B"
   },
   {
    "company": "RTX",
@@ -25075,8 +25066,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Albuquerque, NM",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
    "reason": "non-ME discipline"
   },
   {
@@ -25089,8 +25080,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "location": "Albuquerque, NM",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
    "reason": "non-ME discipline"
   },
   {
@@ -25098,13 +25089,6 @@
    "title": "Security Analyst Intern Summer 2027",
    "location": "Middle River, MD",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
@@ -25119,6 +25103,13 @@
    "title": "Supply Chain Intern Summer 2027",
    "location": "Long Beach, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
+   "title": "Supply Chain Intern Summer 2027",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
@@ -25897,27 +25888,6 @@
    "location": "USA Wilmington,  MA - HQ",
    "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Buyer_R8448",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
-   "reason": "scored 16, below tier B"
   },
   {
    "company": "Teledyne FLIR",
