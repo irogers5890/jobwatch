@@ -1,13 +1,18 @@
 {
- "generated": "2026-11-09T23:29:11+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42720804506",
- "scanned": 34713,
- "boards": 319,
+ "generated": "2026-11-09T23:49:12+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42723485213",
+ "scanned": 34749,
+ "boards": 320,
  "errors": [
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "IDEX",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
   },
   {
    "company": "NXP Semiconductors",
@@ -21,13 +26,13 @@
   }
  ],
  "dropped": {
-  "non-ME discipline": 783,
+  "non-ME discipline": 785,
   "degree-level blocker": 9,
-  "below threshold": 514,
+  "below threshold": 516,
   "no Summer/Fall 2027": 5432,
-  "no mechanical signal": 225,
+  "no mechanical signal": 226,
   "off-target season in title": 314,
-  "not a student req": 27043
+  "not a student req": 27074
  },
  "jobs": [
   {
@@ -11340,7 +11345,7 @@
   },
   {
    "id": "lv:zoox:0accbf9e-9b09-4733-b495-fb6dce13ba62",
-   "title": "Hardware Engineer Intern [Summer 2027]",
+   "title": "Hardware Engineer Intern, Vehicle Development [Summer 2027]",
    "location": "Foster City, CA",
    "url": "https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62",
    "posted": "2026-11-02",
@@ -20770,13 +20775,6 @@
   },
   {
    "company": "BAE Systems",
-   "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
-   "location": "Nashua, New Hampshire, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131674BR",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "BAE Systems",
    "title": "Industrial Engineering Intern III (Summer 2027) - Greenlawn, NY",
    "location": "Greenlawn, New York, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131950BR",
@@ -20876,16 +20874,16 @@
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
-   "reason": "scored 23, below tier B"
+   "location": "Fairborn, Ohio, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
+   "reason": "scored 20, below tier B"
   },
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Fairborn, Ohio, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
-   "reason": "scored 20, below tier B"
+   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
+   "reason": "scored 23, below tier B"
   },
   {
    "company": "BAE Systems",
@@ -24484,6 +24482,34 @@
    "location": "Nashville, Tennessee, United States",
    "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern--Distribution-and-Reverse-Logistics--Nashville--TN---Summer-2027_593028",
    "reason": "scored 13, below tier B"
+  },
+  {
+   "company": "Pivotal Aero",
+   "title": "Internship, Flight Test Engineer (Summer 2027)",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/pivotal/67927cb0-cf1a-4775-93be-61db3efe684b",
+   "reason": "scored 31, below tier B"
+  },
+  {
+   "company": "Pivotal Aero",
+   "title": "Internship, Maintenance, Repair & Overhaul Engineering (Summer 2027)",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/pivotal/23e45f4a-ab7f-4d45-9ec8-bae2ced5d583",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Pivotal Aero",
+   "title": "Internship, Mechanical Engineering (Summer 2027)",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/pivotal/b7f01112-1ca4-47c4-bd34-c291206bd506",
+   "reason": "scored 26, below tier B"
+  },
+  {
+   "company": "Pivotal Aero",
+   "title": "Manufacturing Engineering Internship (Summer 2027)",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/pivotal/9aeda482-373d-4916-82a6-180748708ac2",
+   "reason": "scored 30, below tier B"
   },
   {
    "company": "Polaris",
