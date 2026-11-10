@@ -1,17 +1,22 @@
 {
- "generated": "2026-11-10T07:09:07+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42773269609",
- "scanned": 34732,
+ "generated": "2026-11-10T07:29:11+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42775587325",
+ "scanned": 34645,
  "boards": 320,
  "errors": [
+  {
+   "company": "Baker Hughes",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
   },
   {
-   "company": "Jabil",
-   "board": "workday",
+   "company": "Microsoft",
+   "board": "eightfold",
    "error": "failed after 3 tries: HTTP 429"
   },
   {
@@ -26,13 +31,13 @@
   }
  ],
  "dropped": {
-  "non-ME discipline": 776,
+  "non-ME discipline": 778,
   "degree-level blocker": 9,
-  "below threshold": 507,
-  "no Summer/Fall 2027": 5404,
-  "no mechanical signal": 227,
-  "off-target season in title": 316,
-  "not a student req": 27102
+  "below threshold": 503,
+  "no Summer/Fall 2027": 5318,
+  "no mechanical signal": 226,
+  "off-target season in title": 315,
+  "not a student req": 27103
  },
  "jobs": [
   {
@@ -11147,6 +11152,47 @@
    "first_seen": "2026-11-03T22:34:03+00:00"
   },
   {
+   "id": "wd:micron:JR115377",
+   "title": "Intern - Process Integration, Advanced Packaging",
+   "location": "Boise, ID - Main Site",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---Process-Integration--Advanced-Packaging_JR115377",
+   "posted": "2026-11-02",
+   "body": "Our vision is to transform how the world uses information to enrich life for all . Micron Technology is a world leader in innovating memory and storage solutions that accelerate the transformation of information into intelligence, inspiring the world to learn, communicate and advance faster than ever. Micron\u2019s Wafer Level Packaging Technologies Team is at the forefront of developing advanced interconnect and packaging solutions that enable next-generation memory technologies. Based in Boise, Idaho, the team collaborates across engineering fields to define technology requirements, build program plans, and drive innovation in process integration. As an Advanced Package TD Process Integration Intern, you will work alongside experienced engineers to support the development of sophisticated interconnect technologies. This internship offers hands-on experience in problem-solving, experimental design, line monitoring, and data analysis, contributing directly to yield improvement and process optimization. Responsibilities Lead problem-solving activities using structured methodologies such as Kepner-Tregoe (KT) Define and implement Design of Experiments (DoE) for process development Communicate findings across local and global teams and present results to partners Support line monitoring through project management and yield improvement initiatives Develop new line monitoring methods and define critical metrics Conduct experimental work using Micron systems and document outcomes Analyze experimental results and provide clear, actionable recommendations Proficient in the use of AI tools, workflows and agents to maximize learning. Minimum Qualifications Currently pursuing a Bachelor's or Master's degree with an expected graduation no earlier than Fall 2027 Excellent data extraction, analysis, and reporting skills (e.g., JMP, system analytics) Strong collaboration and communication skills across multi-functional teams Ability to prioritize multiple complex tasks and adapt to changing responsibilities Initiative and flexibility to take on added responsibilities Tenacity to work under tight timelines and limited resources Preferred Qualifications Experience with semiconductor process integration or packaging technologies Familiarity with structured problem-solving and decision-making frameworks Exposure to experimental design and statistical analysis tools Interest in advanced packaging and interconnect development As a world leader in the semiconductor industry, Micron is dedicated to your personal wellbeing and professional growth. Micron benefits are designed to help you stay well, provide peace of mind and help you prepare for the future. We offer a choice of medical, dental and vision plans in all locations enabling team members to select the plans that best meet their family healthcare needs and budget. Micron also provides benefit programs that help protect your income if you are unable to work due to illness or injury, and paid family leave. Additionally, Micron benefits include a robust paid time-off program and paid holidays. For additional information regarding the Benefit programs available, please see the Benefits Guide posted on micron.com/careers/benefits . Micron is proud to be an equal opportunity workplace and is an affirmative action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, age, national origin, citizenship status, disability, protected veteran status, gender identity or any other factor protected by applicable federal, state, or local laws. To learn about your right to work click here. To learn more about Micron, please visit micron.com/careers For US Sites Only: To request assistance with the application process and/or for reasonable accommodations, please contact Micron\u2019s People Organization at hrsupport_na@micron.com or 1-800-336-8918 (select option #3) Micron Prohibits the use of child labor and complies with all applicable laws, rules, regulations, and other international and industry labor standards. Micron does not charge candidates any recruitment fees or unlawfully collect any other payment from candidates as consideration for their employment with Micron. AI alert : Candidates are encouraged to use AI tools to enhance their resume and/or application materials. However, all information provided must be accurate and reflect the candidate's true skills and experiences. Misuse of AI to fabricate or misrepresent qualifications will result in immediate disqualification. Fraud alert: Micron advises job seekers to be cautious of unsolicited job offers and to verify the authenticity of any communication claiming to be from Micron by checking the official Micron careers website in the About Micron Technology, Inc.",
+   "company": "Micron",
+   "score": {
+    "total": 43,
+    "base": 37,
+    "fit": 21,
+    "loc": 0,
+    "traj": 16,
+    "pay": 0,
+    "rate": null,
+    "fresh": 6,
+    "age": 8.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: integration",
+      9
+     ],
+     [
+      "body: design of experiments",
+      6
+     ],
+     [
+      "title: process",
+      3
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-03T02:29:18+00:00"
+  },
+  {
    "id": "wd:globalhr:01871284",
    "title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
    "location": "US-IA-CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108",
@@ -13315,6 +13361,51 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
+  },
+  {
+   "id": "wd:jabil:J2469350",
+   "title": "Mechanical System Architect Intern",
+   "location": "Austin, TX",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Mechanical-System-Architect-Intern_J2469350",
+   "posted": "2026-10-26",
+   "body": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vibrant and diverse communities around the globe. Summary of Program Jabil\u2019s Summer Internship Program was recognized as one of the Top 100 Internship Programs in the country for 2026 by WayUp. This is the result of a holistic and engaging experience that summer interns at Jabil experience. As a result, interns that are a part of this program for summer 2027 will get to engage with members of Jabil\u2019s leadership team and participate in events related to professional development, networking & socializing, and community engagement. In addition, interns will have the opportunity to work with each other in committees, be assigned a mentor, tour some of Jabil\u2019s facilities and much more! If this sounds like a program you want to be a part of and you want to work for a company that strives to make EVERYTHING BETTER and ANYTHING POSSIBLE, then apply today. What will you do? - System Architects at Jabil collaborate with customers, sales, and product planning to establish the technical direction for Jabil design teams in the Cloud and Compute markets. As a Mechanical System Architect Intern, you will be expected to: Complete a primary project that includes project management and solution development. Contribute to determining the technical direction for customer originated projects and Jabil's own cloud compute product offerings: Documenting product requirements Communicating the plan of record design and tradeoffs System layout and mechanical feasibility Collaborating with system architects in the mechanical, electrical, thermal, firmware, and software domains Train on detailed design requirements of CPUs, GPUs, Storage, Memory, FPGAs, board materials, regulators, power supplies etc. Hands-on assembly and disassembly of cloud computing products How will you get here? Requirements: Education: Junior or Senior class year engineering student pursuing a Bachelor\u2019s degree in Mechanical Engineering or a similar area Preferred Qualifications: Understanding of mechanical engineering design principles Proven academic project experience Effective communication, self-starter \u2013 Ability to drive work. Strong data analysis skills Knowledge, Skills, Abilities: Capability to research and explore unfamiliar technologies and concepts with an eye towards feasibility Familiarity with the Intel, AMD, Nvidia or ARM CPU/GPU architectures. Direct experience with at least some of the above is preferred. Familiarity with ME design tools, preferably PTC Creo and Windchill Knowledge of data center environmental and infrastructure paradigms Familiarity in the mechanical and electrical domains. Specifically, an understanding of basics nomenclature, concepts and tools used by your architectural teammates. BE AWARE OF FRAUD: When applying for a job at Jabil you will be contacted via correspondence through our official job portal with a jabil.com e-mail address; direct phone call from a member of the Jabil team; or direct e-mail with a jabil.com e-mail address. Jabil does not request payments for interviews or at any other point during the hiring process. Jabil will not ask for your personal identifying information such as a social security number, birth certificate, financial institution, driver\u2019s license number or passport information over the phone or via e-mail. If you believe you are a victim of identity theft, contact the Federal Bureau of Investigations internet crime hotline (www.ic3.gov), the Federal Trade Commission identity theft hotline (www.identitytheft.gov) and/or your local police department. Any scam job listings should be reported to whatever website it was posted in. Jabil, including its subsidiaries, is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, age, disability, genetic information, veteran status, or any other characteristic protected by law. Accessibility Accommodation If you are a qualified individual with a disability, you have the right to request a reasonable accommodation if you are unable or limited in your ability to use or access Jabil.com/Careers site as a result of your disability. You can request a reasonable accommodation by sending an e-mail to Always_Accessible@Jabil.com or calling 727-803-7988 with the nature of your request and contact information. Please do not direct any other general employment related questions to this e-mail or phone number. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to. #whereyoubelong #AWorldofPossibilities #EarlyCareer",
+   "company": "Jabil",
+   "score": {
+    "total": 39,
+    "base": 36,
+    "fit": 21,
+    "loc": 4,
+    "traj": 11,
+    "pay": 0,
+    "rate": null,
+    "fresh": 3,
+    "age": 15.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: mechanical",
+      7
+     ],
+     [
+      "body: regulator",
+      5
+     ],
+     [
+      "body: doe",
+      3
+     ],
+     [
+      "body: creo",
+      3
+     ],
+     [
+      "body: fea",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-26T21:42:53+00:00"
   },
   {
    "id": "wd:nvidia:JR2027561",
@@ -20702,17 +20793,24 @@
   },
   {
    "company": "BAE Systems",
-   "title": "Industrial Engineering Intern II, Summer 2027 - Austin, TX",
-   "location": "Austin, Texas, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131671BR",
+   "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
+   "location": "Nashua, New Hampshire, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/131670BR",
    "reason": "scored 19, below tier B"
   },
   {
    "company": "BAE Systems",
    "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
    "location": "Nashua, New Hampshire, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131670BR",
+   "url": "https://jobs.baesystems.com/us/en/job/131674BR",
    "reason": "scored 19, below tier B"
+  },
+  {
+   "company": "BAE Systems",
+   "title": "Industrial Engineering Intern III (Summer 2027) - Greenlawn, NY",
+   "location": "Greenlawn, New York, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/131950BR",
+   "reason": "scored 21, below tier B"
   },
   {
    "company": "BAE Systems",
@@ -20808,16 +20906,16 @@
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Fairborn, Ohio, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
-   "reason": "scored 20, below tier B"
+   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
+   "reason": "scored 23, below tier B"
   },
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
-   "reason": "scored 23, below tier B"
+   "location": "Fairborn, Ohio, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
+   "reason": "scored 20, below tier B"
   },
   {
    "company": "BAE Systems",
@@ -20923,76 +21021,6 @@
    "location": "",
    "url": "https://careers.bwxt.com/job/Mt-Vernon-Manufacturing-Engineer-Intern-%28Summer-2027%29-IN/1428820300/",
    "reason": "scored 26, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Engineering & Technology  Intern- Summer 2027 Opportunities",
-   "location": "US-OK-CLAREMORE-200 W STUART ROOSA DR",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-OK-CLAREMORE-200-W-STUART-ROOSA-DR/Intern---Engineering---Technology---Summer-2027-Opportunities_R168900",
-   "reason": "scored 22, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Engineering & Technology Intern- Summer 2027 Opportunities",
-   "location": "US-TX-MIDLAND-2101 MARKET STREET",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-TX-MIDLAND-2101-MARKET-STREET/Engineering---Technology-Intern--Summer-2027-Opportunities_R168911",
-   "reason": "scored 22, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineer Intern - Summer 2027 Opportunities",
-   "location": "GY-Demerara-Georgetown-Tract X Land of Canaan on the Eastern Bank of the Demerara Riv",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GY-Demerara-Georgetown-Tract-X-Land-of-Canaan-on-the-Eastern-Bank-of-the-Demerara-Riv/Field-Engineer-Intern---Summer-2027-Opportunities_R168905",
-   "reason": "scored 12, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineer Intern - Summer 2027 Opportunities",
-   "location": "US-CA-SHAFTER-3901 FANUCCHI WAY",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-CA-SHAFTER-3901-FANUCCHI-WAY/Field-Engineer-Intern---Summer-2027-Opportunities_R168901",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineering Intern- Summer 2027 Opportunities",
-   "location": "US-TX-HOUSTON-11150 EQUITY DRIVE",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-TX-HOUSTON-11150-EQUITY-DRIVE/Field-Engineering-Intern--Summer-2027-Opportunities_R169856",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineering Intern- Summer 2027 Opportunities",
-   "location": "US-PA-CANONSBURG-400 TECHNOLOGY DRIVE",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-PA-CANONSBURG-400-TECHNOLOGY-DRIVE/Field-Engineering-Intern--Summer-2027-Opportunities_R169855",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Field Engineering Intern- Summer 2027 Opportunities",
-   "location": "US-NV-MINDEN-1631 BENTLY PARKWAY SOUTH",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-NV-MINDEN-1631-BENTLY-PARKWAY-SOUTH/Field-Engineering-Intern--Summer-2027-Opportunities_R169854",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Intern - Field Engineer - Summer 2027 Opportunities",
-   "location": "CA-AB-CALGARY-6820 36 STREET SE",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/CA-AB-CALGARY-6820-36-STREET-SE/Intern---Field-Engineer---12-Month-2027-Opportunities_R168913-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Manufacturing  Intern - Summer 2027 Opportunities",
-   "location": "US-OK-CLAREMORE-2210 E L ANDERSON BLVD",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/US-OK-CLAREMORE-2210-E-L-ANDERSON-BLVD/Intern---Manufacturing---Summer-2027-Opportunities_R168909",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Baker Hughes",
-   "title": "Quality Intern - Summer 2027 Opportunities",
-   "location": "GY-Demerara-Georgetown-Tract X Land of Canaan on the Eastern Bank of the Demerara Riv",
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GY-Demerara-Georgetown-Tract-X-Land-of-Canaan-on-the-Eastern-Bank-of-the-Demerara-Riv/Quality-Intern---Summer-2027-Opportunities_R168916",
-   "reason": "scored 22, below tier B"
   },
   {
    "company": "Blue Origin",
@@ -23072,6 +23100,41 @@
    "location": "Sunnyvale, CA, us",
    "url": "https://jobs.smartrecruiters.com/intuitive/744000159218439",
    "reason": "non-ME discipline"
+  },
+  {
+   "company": "Jabil",
+   "title": "Low voltage switchgear Electrical Engineering Intern",
+   "location": "St. Petersburg/Tampa, FL",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Low-voltage-switchgear-Electrical-Engineering-Intern_J2470772",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Jabil",
+   "title": "Mechanical Engineering Intern",
+   "location": "St. Petersburg/Tampa, FL",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Mechanical-Engineering-Intern_J2470824-1",
+   "reason": "scored 31, below tier B"
+  },
+  {
+   "company": "Jabil",
+   "title": "Production Planning Intern (Part-Time)",
+   "location": "St. Petersburg/Tampa, FL",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Production-Planning-Intern--Part-Time-_J2468448",
+   "reason": "scored 14, below tier B"
+  },
+  {
+   "company": "Jabil",
+   "title": "Purchasing Intern (Part-Time)",
+   "location": "St. Petersburg/Tampa, FL",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Purchasing-Intern--Part-Time-_J2468450",
+   "reason": "scored 14, below tier B"
+  },
+  {
+   "company": "Jabil",
+   "title": "Validation Engineer Intern",
+   "location": "Austin, TX",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Validation-Engineer-Intern_J2469310",
+   "reason": "scored 28, below tier B"
   },
   {
    "company": "Johnson Controls",
