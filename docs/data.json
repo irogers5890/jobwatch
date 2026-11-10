@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-10T20:57:42+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42900300705",
- "scanned": 34727,
+ "generated": "2026-11-10T21:17:44+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42903603817",
+ "scanned": 34712,
  "boards": 320,
  "errors": [
   {
@@ -10,17 +10,7 @@
    "error": "HTTP 404 \u2014 check slug/tenant/site"
   },
   {
-   "company": "Insulet",
-   "board": "workday",
-   "error": "failed after 3 tries: HTTP 429"
-  },
-  {
-   "company": "Jabil",
-   "board": "workday",
-   "error": "failed after 3 tries: HTTP 429"
-  },
-  {
-   "company": "Microsoft",
+   "company": "Lockheed Martin",
    "board": "eightfold",
    "error": "failed after 3 tries: HTTP 429"
   },
@@ -28,21 +18,16 @@
    "company": "NXP Semiconductors",
    "board": "workday",
    "error": "HTTP 422 \u2014 check slug/tenant/site"
-  },
-  {
-   "company": "Tektronix",
-   "board": "eightfold",
-   "error": "HTTP 403 \u2014 check slug/tenant/site"
   }
  ],
  "dropped": {
-  "non-ME discipline": 783,
+  "non-ME discipline": 749,
   "degree-level blocker": 9,
-  "below threshold": 509,
-  "no Summer/Fall 2027": 5330,
-  "no mechanical signal": 228,
-  "off-target season in title": 310,
-  "not a student req": 27153
+  "below threshold": 488,
+  "no Summer/Fall 2027": 5359,
+  "no mechanical signal": 225,
+  "off-target season in title": 309,
+  "not a student req": 27168
  },
  "jobs": [
   {
@@ -6780,6 +6765,46 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
+  },
+  {
+   "id": "ef:microsoft.com:200060962",
+   "title": "Researcher Intern, CoreAI",
+   "location": "Redmond, WA, US; Mountain View, CA, US",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027387",
+   "posted": "2026-11-02",
+   "body": "Overview The Code|AI team leads applied research and data science for GitHub Copilot and VS Code, working on the future of AI for developers. We are a diverse, entrepreneurial, and multi-disciplinary group of scientists, researchers, and engineers with a passion for using AI to improve the productivity of millions of developers around the world. We have released AI for code advancements in Github Copilot, VS Code, Visual Studio and Copilot extensions in other IDEs. Our team focuses on post-training code specific models like code completion, code embedding models and agentic research for Copilot Coding Agent, Copilot CLI and Copilot Code Review. We embrace open source and continue to share our research and work with the developer and research communities to advance AI in Developer tools. We are seeking entrepreneurial and creative Applied Researcher Interns to lead groundbreaking research projects, taking these from research into product. You will collaborate with scientists, engineers, and designers across Microsoft Research, Microsoft product teams, and Github. You will have an opportunity to build and train state-of-the-art models, and opportunities to both apply and advance existing approaches of using LLMs for software engineering, from using RAG to evaluation. Most importantly, you will have an opportunity to work closely with several developer product teams to run experiments, evaluate, iterate, and improve your AI projects on a large scale. Microsoft\u2019s mission is to empower every person and every organization on the planet to achieve more. As employees, we come together with a growth mindset, innovate to empower others and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. This is for a Summer 2027 Internship. #Code|AI #CoreAI #EiP Responsibilities Contributes to projects on the future of AI for developers. Collaborates across disciplines with product teams across Microsoft and Github. Stays up to date with the research literature and product advances in AI for software engineering. Creates new datasets from both the world's public code and Microsoft's internal data. Builds and manages large-scale ML experiments and models. Embodies our Culture and Values Qualifications Required qualifications Currently enrolled in a Doctorate Degree program in a relevant field. Must be enrolled in a Doctorate Degree program in a relevant field for the role during the academic term immediately before the internship. Must have at least one additional quarter/semester of a Doctorate Degree program program in area relevant for the role remaining following the completion of the internship. Additional Qualifications: 1+ year(s) experience in Calculus, Probability and Statistics and/or Machine Learning. 1+ year(s) experience in one or more general purpose programming languages including: C/C++, Java, R or Python, and domain relevant libraries and frameworks (e.g., PyTorch). 1+ year(s) experience (classroom or work related) in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, etc. The base pay range for this internship is USD $5,690.00 - $11,210.00 per month. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $7,410.00 - $12,250.00 per month. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-intern-pay Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April) This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
+   "company": "Microsoft",
+   "score": {
+    "total": 53,
+    "base": 47,
+    "fit": 8,
+    "loc": 8,
+    "traj": 19,
+    "pay": 12,
+    "rate": [
+     32.89,
+     70.81
+    ],
+    "fresh": 6,
+    "age": 8.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "pay $52/hr",
+      12
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: computer vision",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-15T09:17:02+00:00"
   },
   {
    "id": "gh:muonspace:5256286007",
@@ -14143,6 +14168,51 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "wd:jabil:J2469350",
+   "title": "Mechanical System Architect Intern",
+   "location": "Austin, TX",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Mechanical-System-Architect-Intern_J2469350",
+   "posted": "2026-10-26",
+   "body": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vibrant and diverse communities around the globe. Summary of Program Jabil\u2019s Summer Internship Program was recognized as one of the Top 100 Internship Programs in the country for 2026 by WayUp. This is the result of a holistic and engaging experience that summer interns at Jabil experience. As a result, interns that are a part of this program for summer 2027 will get to engage with members of Jabil\u2019s leadership team and participate in events related to professional development, networking & socializing, and community engagement. In addition, interns will have the opportunity to work with each other in committees, be assigned a mentor, tour some of Jabil\u2019s facilities and much more! If this sounds like a program you want to be a part of and you want to work for a company that strives to make EVERYTHING BETTER and ANYTHING POSSIBLE, then apply today. What will you do? - System Architects at Jabil collaborate with customers, sales, and product planning to establish the technical direction for Jabil design teams in the Cloud and Compute markets. As a Mechanical System Architect Intern, you will be expected to: Complete a primary project that includes project management and solution development. Contribute to determining the technical direction for customer originated projects and Jabil's own cloud compute product offerings: Documenting product requirements Communicating the plan of record design and tradeoffs System layout and mechanical feasibility Collaborating with system architects in the mechanical, electrical, thermal, firmware, and software domains Train on detailed design requirements of CPUs, GPUs, Storage, Memory, FPGAs, board materials, regulators, power supplies etc. Hands-on assembly and disassembly of cloud computing products How will you get here? Requirements: Education: Junior or Senior class year engineering student pursuing a Bachelor\u2019s degree in Mechanical Engineering or a similar area Preferred Qualifications: Understanding of mechanical engineering design principles Proven academic project experience Effective communication, self-starter \u2013 Ability to drive work. Strong data analysis skills Knowledge, Skills, Abilities: Capability to research and explore unfamiliar technologies and concepts with an eye towards feasibility Familiarity with the Intel, AMD, Nvidia or ARM CPU/GPU architectures. Direct experience with at least some of the above is preferred. Familiarity with ME design tools, preferably PTC Creo and Windchill Knowledge of data center environmental and infrastructure paradigms Familiarity in the mechanical and electrical domains. Specifically, an understanding of basics nomenclature, concepts and tools used by your architectural teammates. BE AWARE OF FRAUD: When applying for a job at Jabil you will be contacted via correspondence through our official job portal with a jabil.com e-mail address; direct phone call from a member of the Jabil team; or direct e-mail with a jabil.com e-mail address. Jabil does not request payments for interviews or at any other point during the hiring process. Jabil will not ask for your personal identifying information such as a social security number, birth certificate, financial institution, driver\u2019s license number or passport information over the phone or via e-mail. If you believe you are a victim of identity theft, contact the Federal Bureau of Investigations internet crime hotline (www.ic3.gov), the Federal Trade Commission identity theft hotline (www.identitytheft.gov) and/or your local police department. Any scam job listings should be reported to whatever website it was posted in. Jabil, including its subsidiaries, is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, age, disability, genetic information, veteran status, or any other characteristic protected by law. Accessibility Accommodation If you are a qualified individual with a disability, you have the right to request a reasonable accommodation if you are unable or limited in your ability to use or access Jabil.com/Careers site as a result of your disability. You can request a reasonable accommodation by sending an e-mail to Always_Accessible@Jabil.com or calling 727-803-7988 with the nature of your request and contact information. Please do not direct any other general employment related questions to this e-mail or phone number. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to. #whereyoubelong #AWorldofPossibilities #EarlyCareer",
+   "company": "Jabil",
+   "score": {
+    "total": 39,
+    "base": 36,
+    "fit": 21,
+    "loc": 4,
+    "traj": 11,
+    "pay": 0,
+    "rate": null,
+    "fresh": 3,
+    "age": 15.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: mechanical",
+      7
+     ],
+     [
+      "body: regulator",
+      5
+     ],
+     [
+      "body: doe",
+      3
+     ],
+     [
+      "body: creo",
+      3
+     ],
+     [
+      "body: fea",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-26T21:42:53+00:00"
+  },
+  {
    "id": "wd:nvidia:JR2027561",
    "title": "Differentiable Simulation Research Intern - Summer 2027",
    "location": "US, CA, Santa Clara",
@@ -17346,66 +17416,6 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
-   "id": "wd:aero:R016466",
-   "title": "2027 Digital Systems Engineering Graduate Intern",
-   "location": "El Segundo, CA; Chantilly, VA",
-   "url": "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Digital-Systems-Engineering-Graduate-Intern_R016466",
-   "posted": "2026-09-07",
-   "body": "The Aerospace Corporation is the trusted partner to the nation\u2019s space programs, solving the hardest problems and providing unmatched technical expertise. As the operator of a federally funded research and development center (FFRDC), we are broadly engaged across all aspects of space\u2014 delivering innovative solutions that span satellite, launch, ground, and cyber systems for defense, civil and commercial customers. When you join our team, you\u2019ll be part of a special collection of problem solvers, thought leaders, and innovators. Join us and take your place in space. The Systems Engineering Division (SED) offers unparalleled expertise in systems engineering to the U.S. government and various public and private agencies, universities, nonprofit organizations, consortia, and commercial companies involved in the advanced development and application of space systems. From systems CONOPs and architecture development to system design and analysis, mission assurance, cost and schedule assessment, and economic market analysis, SED leverages a vast array of engineering and business disciplines across a diverse and dynamic portfolio of space programs and national challenges spanning the total space system lifecycle.\u201d The Digital Systems Engineering Department (DSED ), part of SED, leads the charge in advancing the application of digital system models, digital threads and digital twin capabilities throughout the systems engineering lifecycle. Our work in Digital Engineering (DE) and Model Based Systems Engineering (MBSE) encompasses research, prototyping, development, independent assessments, training, and guidance to help our customers realize complex space and defense systems . The selected candidate will be required to work full-time on-site at our facility in El Segundo, CA or Chantilly, VA. What You\u2019ll be Doing We are seeking a passionate and dedicated Graduate Summer Intern to join our team. This internship offers a hands-on opportunity to develop, simulate, and analyze digital system models for space, ground, and launch architectures with a focus on MBSE methods, tools, and modeling language standards. As part of the DSED team, you will contribute to innovative and challenging projects that shape the future of digital systems engineering. System Architecture and Design: Build, validate, and simulate digital system models representing complex space and defense system architectures and design solutions. System Analysis: Develop complex queries and AI applications that interrogate digital system models for specific information, answering stakeholder questions. Digital Thread Implementation: Assist with federating digital system models with other digital engineering models (mechanical, structural, electrical, software), yielding end-to-end digital thread models. Digital Twin Realization: Develop virtual twin system models that interact with the corresponding physical twin through live telemetry updates. What Corporate Skills You\u2019ll Bring Strong written and oral communication skills Must work well in a team environment Possess organizational, time management and project management skills Demonstrate flexibility and ability to adapt to changing organizational need Interpersonal skills to coordinate efforts and work with other internal and external organizations What You Need to be Successful Currently enrolled full-time in an accredited college/university program, pursuing an M.S. or Ph.D. in Aerospace Engineering, Electrical Engineering, Mechanical Engineering, Systems Engineering, or a related discipline OR BS degree completed by internship start date and enrolled in a graduate STEM degree program beginning Fall 2027 . Availability to work full-time for a minimum of 10 weeks outside of university term and ability to return to a ( Master's/Phd) degree program full-time after completion of the internship. Minimum GPA of 3.0. Foundational knowledge and some hands-on experience with simulation and analysis tools (e.g., Cameo Simulation Toolkit, MATLAB, Simulink, SimEvents, ModelCenter). A willingness to learn additional tools and languages is essential. Familiarity with descriptive modeling languages (e.g., UML, SysML v1/SysML v2, UAFML) and modeling tools (e.g., Cameo Systems Modeler, Sparx Enterprise Architect, or Rhapsody). Understanding of modeling methodologies such as OOSEM, MagicGrid, or SysMod is a plus. This position requires ability to obtain and maintain a security clearance, which is issued by the United States government. U.S. citizenship is required to obtain a security clearance. Transcripts required How You Can Stand Out It would be impressive if you have one or more of these: Minimum 3.3 GPA. Experience with scripting or programming languages such as python, groovy, Java, or C++. Experience with modeling languages and tools including one or more of the following: SysML, Cameo, Simulink, MATLAB, or similar. Knowledge of systems engineering lifecycle activities, including concept development, requirements definition, architecture, engineering design and analysis, and integration, verification and validation. Familiarity with Digital Engineering concepts (e.g., Digital Ecosystem, Digital Thread, and Digital Twin) and tools such as Syndeia, Teamcenter, Windchill, CREO, or Solidworks. OMG SysML or INCOSE ASEP certification. Strong, demonstrated personal initiative. Ability to work in a fast-paced environment, adapt quickly to changing priorities, and balance projects with conflicting time demands. Temporary housing assistance is not available. We offer a competitive compensation package where you\u2019ll be rewarded based on your performance and recognized for the value you bring to our business. The grade-based pay range for this job is listed below. Individual salaries within that range are determined through a wide variety of factors including but not limited to education, experience, knowledge and skills. (Min - Max) $32.00 - $48.00 Pay Basis: Hourly Leadership Competencies Our leadership philosophy is simple: every employee, regardless of level and role, can demonstrate leadership. At Aerospace, our commitment is our people. To cultivate our talent and ensure that we have a strong pipeline of future leaders, we want individuals who: Operate Strategically Lead Change Engage with Impact Foster Innovation Deliver Results Ways We Reward Our Employees During your interview process, our team will provide details of our industry-leading benefits. Benefits vary and are applicable based on Job Type. A few highlights include: Comprehensive health care and wellness plans Paid holidays, sick time, and vacation Standard and alternate work schedules, including telework options 401(k) Plan \u2014 Employees receive a total company-paid benefit of 8%, 10%, or 12% of eligible compensation based on years of service and matching contributions; employees are immediately eligible and vested in the plan upon hire Flexible spending accounts Variable pay program for exceptional contributions Relocation assistance Professional growth and development programs to help advance your career Education assistance programs An inclusive work environment built on teamwork, flexibility, and respect We are all unique, from various backgrounds and all walks of life, yet one thing bonds all of us to each other\u2014the belief that we can make a difference. This core belief empowers us to do our best work at The Aerospace Corporation. Equal Opportunity Commitment The Aerospace Corporation is an equal opportunity employer. All qualified applicants will receive consideration for employment and will not be discriminated against on the basis of race, age, sex (including pregnancy, childbirth, and related medical conditions), sexual orientation, gender, gender identity or expression, color, religion, genetic information, marital status, ancestry, national origin, protected veteran status, physical disability, medical condition, mental disability, or disability status and any other characteristic protected by state or federal law. If you\u2019re an individual with a disability or a disabled veteran who needs assistance using our online job search and application tools or need reasonable accommodation to complete the job application process, please contact us by phone at 310.336.5432 or by email at peoplemangmnt.mailbox@aero.org . You can also review Know Your Rights: Workplace Discrimination is Illegal .",
-   "company": "Aerospace Corporation",
-   "score": {
-    "total": 32,
-    "base": 40,
-    "fit": 17,
-    "loc": 4,
-    "traj": 13,
-    "pay": 6,
-    "rate": [
-     32.0,
-     48.0
-    ],
-    "fresh": -8,
-    "age": 64.9,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $40/hr",
-      6
-     ],
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "body: housing assistance",
-      5
-     ],
-     [
-      "body: solidworks",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "body: creo",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
    "id": "gh:astranis:4704601006",
    "title": "Mechanical Engineer Intern (Summer 2027)",
    "location": "San Francisco",
@@ -19984,50 +19994,6 @@
    "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
-   "id": "gh:generalmatter:5377104008",
-   "title": "Summer 2027 Internship - Mechanical Engineering (HVAC) ",
-   "location": "Los Angeles, CA",
-   "url": "https://job-boards.greenhouse.io/generalmatter/jobs/5377104008",
-   "posted": "2026-09-01",
-   "body": "About the company General Matter enriches uranium. We are designing, building, and operating the world\u2019s lowest-cost enrichment services, here in the US. In the process, we are restoring America\u2019s ability to produce nuclear fuel to power AI, advanced manufacturing and critical industries our country relies on to remain competitive. Fuel drives the cost of advanced reactor electricity production, and enrichment drives the cost of the fuel that advanced reactors consume. Reliable, low-cost enrichment is the catalyst for the nuclear Renaissance now under way. Our mission is to make nuclear not only the cleanest and safest source of baseload power, but also the most affordable. We believe abundant nuclear energy will lead to a post-scarcity society. We were incubated inside Founders Fund, like Anduril and Palantir before us, and are backed by over a dozen of the world's top venture capital firms. Our lean, world-class team of engineers and operators is applying a first-principles approach to solving the problem of nuclear fuel production. We are a mission-driven company with a culture of urgency, accountability, and transparency. Help us build a high-energy society by making the cleanest, safest form of baseload energy the most affordable. About This Role We\u2019re looking for a Mechanical Engineer (Intern) with a strong interest in HVAC and building mechanical systems to join our growing engineering team. You\u2019ll work alongside experienced engineers to design, model, and analyze air\u2011conditioning, ventilation, and hydronic systems for a wide range of commercial and industrial projects. This is a great opportunity for a motivated student who\u2019s passionate about energy efficiency, indoor environmental quality, and the integration of mechanical systems in the built environment. Responsibilities Assist in the design and analysis of HVAC systems using Revit, AutoCAD, and energy modeling tools. Support load calculations, equipment sizing, airflow, psychrometrics, and hydronic design layouts under senior engineer guidance. Learn to participate in system modeling and simulation using BIM workflows and performance tools such as IES. Observe and help coordinate with architectural, nuclear experts, structural, and electrical teams to ensure design integration and constructability. Help in preparing construction documents, specifications, and as-built documentation. Contribute to design automation efforts using visual programming (Dynamo, Grasshopper) or coding (Python, C#). Communicate technical concepts clearly and effectively to multidisciplinary teams. Basic Qualifications Currently pursuing a Bachelor\u2019s degree in Mechanical Engineering or a related field (Junior or Senior standing preferred). Completed coursework in HVAC design, heat transfer, thermodynamics, and fluid hydraulics/dynamics. Basic familiarity with BIM modeling software, such as Revit and AutoCAD. Interest in IES software or energy analysis. Interest and/or experience in AI tools for design, visual programming (Dynamo, Grasshopper), coding (Python, C#), and/or open-source projects. A collaborative mindset and a demonstrated interest in the built environment. Ability to communicate thoughts and technical ideas in an accessible, collaborative manner Bonus Qualifications Exposure to mechanical equipment selection, building automation (BMS), or commissioning processes. Familiarity with energy analysis or system simulation tools. Introduction to piping stress analysis and 3D modeling software (e.g., AutoPipe, Bentley OpenPlant, or Pipe3D). Additional Requirements Ability to work extended hours and weekends as necessary. Equal Opportunity Employer General Matter is an Equal Opportunity Employer; employment with General Matter is governed on the basis of merit, competence and qualifications and will not be influenced in any manner by race, color, religion, gender, national origin/ethnicity, veteran status, disability status, age, sexual orientation, gender identity, marital status, mental or physical disability or any other legally protected status. Compensation and Benefits The hourly pay range for this internship is $30\u2013$40 per hour, depending on the candidate\u2019s current standing in school (i.e. sophomore, senior). Interns will receive a monthly housing stipend, and are eligible for overtime pay. Please note that the stated hourly range is an estimate and may be adjusted based on market conditions, business needs, or other factors.",
-   "company": "General Matter",
-   "score": {
-    "total": 26,
-    "base": 34,
-    "fit": 16,
-    "loc": 4,
-    "traj": 11,
-    "pay": 3,
-    "rate": [
-     30.0,
-     40.0
-    ],
-    "fresh": -8,
-    "age": 70.9,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: mechanical",
-      7
-     ],
-     [
-      "body: housing stipend",
-      5
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "pay $35/hr",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-14T01:17:06+00:00"
-  },
-  {
    "id": "wd:globalfoundries:JR-2604643",
    "title": "US Advanced Manufacturing Equipment Engineering Intern, Sophomore (Summer 2027)",
    "location": "USA - Vermont - Essex Junction",
@@ -21483,20 +21449,6 @@
   },
   {
    "company": "BAE Systems",
-   "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
-   "location": "Nashua, New Hampshire, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131674BR",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "BAE Systems",
-   "title": "Industrial Engineering Intern III (Summer 2027) - Greenlawn, NY",
-   "location": "Greenlawn, New York, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131950BR",
-   "reason": "scored 21, below tier B"
-  },
-  {
-   "company": "BAE Systems",
    "title": "M&S Engineering Intern, Summer 2027",
    "location": "Rockville, Maryland, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131309BR",
@@ -22232,6 +22184,13 @@
   },
   {
    "company": "Corning",
+   "title": "Data Analytics Intern - Summer 2027",
+   "location": "",
+   "url": "https://corningjobs.corning.com/job/Painted-Post-Data-Analytics-Intern-Summer-2027-NY-14870/1426622100/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Corning",
    "title": "Employee Engagement Intern, Corporate Communications - Summer 2027",
    "location": "",
    "url": "https://corningjobs.corning.com/job/Corning-Employee-Engagement-Intern%2C-Corporate-Communications-Summer-2027-NY-14831/1447061000/",
@@ -22325,8 +22284,8 @@
    "company": "Danaher",
    "title": "Manufacturing Project Engineer Intern - Summer 2027",
    "location": "Logan, Utah, United States",
-   "url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Logan-Utah-United-States/Manufacturing-Project-Engineer-Intern---Summer-2027_R1315806",
-   "reason": "scored 31, below tier B"
+   "url": "https://danaher.wd1.myworkdayjobs.com/en-US/DanaherJobs/job/Logan-Utah-United-States/Manufacturing-Project-Engineer-Intern---Summer-2027_R1315806",
+   "reason": "scored 17, below tier B"
   },
   {
    "company": "DoorDash",
@@ -23981,6 +23940,48 @@
    "reason": "non-ME discipline"
   },
   {
+   "company": "Jabil",
+   "title": "AI Agent Developer Intern (Supply Chain IT - AI & Enablement)",
+   "location": "St. Petersburg/Tampa, FL",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/AI-Agent-Developer-Intern--Supply-Chain-IT---AI---Enablement-_J2469054",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Jabil",
+   "title": "Low voltage switchgear Electrical Engineering Intern",
+   "location": "St. Petersburg/Tampa, FL",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Low-voltage-switchgear-Electrical-Engineering-Intern_J2470772",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Jabil",
+   "title": "Mechanical Engineering Intern",
+   "location": "St. Petersburg/Tampa, FL",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Mechanical-Engineering-Intern_J2470824-1",
+   "reason": "scored 31, below tier B"
+  },
+  {
+   "company": "Jabil",
+   "title": "Production Planning Intern (Part-Time)",
+   "location": "St. Petersburg/Tampa, FL",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Production-Planning-Intern--Part-Time-_J2468448",
+   "reason": "scored 14, below tier B"
+  },
+  {
+   "company": "Jabil",
+   "title": "Purchasing Intern (Part-Time)",
+   "location": "St. Petersburg/Tampa, FL",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Purchasing-Intern--Part-Time-_J2468450",
+   "reason": "scored 14, below tier B"
+  },
+  {
+   "company": "Jabil",
+   "title": "Validation Engineer Intern",
+   "location": "Austin, TX",
+   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Validation-Engineer-Intern_J2469310",
+   "reason": "scored 28, below tier B"
+  },
+  {
    "company": "Johnson Controls",
    "title": "Accounting & Finance Intern",
    "location": "Milwaukee-Wisconsin-United States of America",
@@ -24115,20 +24116,6 @@
   },
   {
    "company": "Lam Research",
-   "title": "Summer 2027 - Electrical Engineering Intern - BS/MS",
-   "location": "Tualatin, OR, US",
-   "url": "https://careers.lamresearch.com/careers/job/1099556276556",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Lam Research",
-   "title": "Summer 2027 - Process Engineering Intern - MS/PhD",
-   "location": "Tualatin, OR, US",
-   "url": "https://careers.lamresearch.com/careers/job/1099556860224",
-   "reason": "scored 18, below tier B"
-  },
-  {
-   "company": "Lam Research",
    "title": "Summer 2027 - Process Simulation Engineering Intern - MS/PhD",
    "location": "Fremont, CA, US",
    "url": "https://careers.lamresearch.com/careers/job/1099556521831",
@@ -24168,251 +24155,6 @@
    "location": "6314 Remote/Teleworker US",
    "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Migration-Execution-Intern_R-00196159",
    "reason": "scored 2, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Aeronautical Engineer Intern",
-   "location": "Palmdale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477452839",
-   "reason": "scored 12, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Automation Test-INTERN",
-   "location": "Colorado Springs, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477761776",
-   "reason": "scored 20, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Chief Engineer Intern - Summer 2027",
-   "location": "Highlands Ranch, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477617079",
-   "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Cloud Infrastructure Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477758730",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "College Student - Technical - Intern",
-   "location": "Stratford, CT, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477457252",
-   "reason": "scored 10, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Cyber Engineer Intern - Summer 2027",
-   "location": "Colorado Springs, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477502700",
-   "reason": "scored 11, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Cyber Intelligence Intern - Summer 2027",
-   "location": "Colorado Springs, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477410466",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Dev Sec Ops Intern - Summer 2027",
-   "location": "Herndon, VA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477462963",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "DevSecOps Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477595000",
-   "reason": "scored 18, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "DevSecOps Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477564658",
-   "reason": "scored 26, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "DevSecOps Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477564707",
-   "reason": "scored 26, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "DevSecOps Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477564738",
-   "reason": "scored 26, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "DevSecOps Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477564655",
-   "reason": "scored 18, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "DevSecOps Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477594494",
-   "reason": "scored 18, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Engineering Intern",
-   "location": "Mt Laurel Township, NJ, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477240395",
-   "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Engineering Intern",
-   "location": "Mt Laurel Township, NJ, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477286906",
-   "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "IFG Armament Intern",
-   "location": "Fort Worth, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477188867",
-   "reason": "scored 7, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "IT Infrastructure Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477721195",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Mechanical Test Engineer-INTERN",
-   "location": "Cape Canaveral, FL, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635652",
-   "reason": "scored 29, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Mechanical Test Engineer-INTERN",
-   "location": "Cape Canaveral, FL, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635668",
-   "reason": "scored 29, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Procurement Representative - Intern",
-   "location": "Stratford, CT, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477730824",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "QMS Analyst Intern",
-   "location": "Moorestown, NJ, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477643170",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Quality Engineer Manufacturing Intern",
-   "location": "Camden, AR, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477460381",
-   "reason": "scored 29, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Software Engineer Intern - Summer 2027",
-   "location": "Sunnyvale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477427840",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Supply Chain Analyst (Value Engineering) - Intern",
-   "location": "Stratford, CT, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477599572",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Supply Chain Intern",
-   "location": "Stratford, CT, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477500693",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineer (Simulation and Training) - Intern",
-   "location": "Mt Laurel Township, NJ, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477596056",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineer - Intern",
-   "location": "Fort Worth, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996476768969",
-   "reason": "scored 17, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineer - Intern",
-   "location": "Fort Worth, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477156078",
-   "reason": "scored 17, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineer Intern",
-   "location": "Palmdale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477449180",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineer Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477472821",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineering - Intern",
-   "location": "Palmdale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477805850",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineering - Intern",
-   "location": "Palmdale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477806176",
-   "reason": "scored 15, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477456336",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineering Intern - Summer 2027",
-   "location": "Colorado Springs, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477461635",
-   "reason": "scored 16, below tier B"
   },
   {
    "company": "Loft Orbital",
@@ -24903,6 +24645,13 @@
    "location": "United States-Maryland-Elkridge",
    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Elkridge/XMLNAME-2027-Strategic-Growth-Intern---Elkridge-MD_R10259704",
    "reason": "no mechanical signal"
+  },
+  {
+   "company": "Northrop Grumman",
+   "title": "2027 Systems Engineer Intern - Dulles VA or McLean VA",
+   "location": "United States-Virginia-Dulles; United States-Virginia-McLean",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/XMLNAME-2027-Systems-Engineer-Intern---Dulles-VA-or-McLean-VA_R10259857",
+   "reason": "scored 22, below tier B"
   },
   {
    "company": "Northrop Grumman",
@@ -25978,13 +25727,6 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Toronto, CAN",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990043003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Electrical Engineering Intern Summer 2027",
    "location": "Pasadena, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
@@ -25994,6 +25736,13 @@
    "title": "Electrical Engineering Intern Summer 2027",
    "location": "Long Beach, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
+   "title": "Electrical Engineering Intern Summer 2027",
+   "location": "Toronto, CAN",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990043003",
    "reason": "non-ME discipline"
   },
   {
@@ -26027,16 +25776,16 @@
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Wallops Island, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
-   "reason": "scored 28, below tier B"
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
+   "reason": "scored 31, below tier B"
   },
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
-   "reason": "scored 31, below tier B"
+   "location": "Wallops Island, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
+   "reason": "scored 28, below tier B"
   },
   {
    "company": "Rocket Lab",
@@ -26062,8 +25811,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "location": "Albuquerque, NM",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
    "reason": "non-ME discipline"
   },
   {
@@ -26076,15 +25825,15 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Albuquerque, NM",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
    "reason": "non-ME discipline"
   },
   {
@@ -26097,15 +25846,15 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
@@ -26849,6 +26598,27 @@
    "location": "USA Wilmington,  MA - HQ",
    "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Buyer_R8448",
    "reason": "no mechanical signal"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
+   "reason": "scored 16, below tier B"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
+   "reason": "scored 16, below tier B"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
+   "reason": "scored 16, below tier B"
   },
   {
    "company": "Teledyne FLIR",
@@ -27773,13 +27543,6 @@
    "location": "South San Francisco, California, USA",
    "url": "https://www.zipline.com/open-roles/7857074003?gh_jid=7857074003",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Zipline",
-   "title": "Technical Program Manager Intern (Summer 2027)",
-   "location": "South San Francisco, California, USA",
-   "url": "https://www.zipline.com/open-roles/7904471003?gh_jid=7904471003",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Zipline",
