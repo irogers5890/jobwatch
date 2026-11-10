@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-10T14:40:21+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42836424339",
- "scanned": 34710,
+ "generated": "2026-11-10T15:00:23+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42839841522",
+ "scanned": 34752,
  "boards": 320,
  "errors": [
   {
@@ -10,8 +10,13 @@
    "error": "HTTP 404 \u2014 check slug/tenant/site"
   },
   {
-   "company": "Microsoft",
-   "board": "eightfold",
+   "company": "IDEX",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Jabil",
+   "board": "workday",
    "error": "failed after 3 tries: HTTP 429"
   },
   {
@@ -26,13 +31,13 @@
   }
  ],
  "dropped": {
-  "non-ME discipline": 783,
+  "non-ME discipline": 775,
   "degree-level blocker": 9,
-  "below threshold": 510,
-  "no Summer/Fall 2027": 5364,
-  "no mechanical signal": 228,
+  "below threshold": 506,
+  "no Summer/Fall 2027": 5416,
+  "no mechanical signal": 226,
   "off-target season in title": 315,
-  "not a student req": 27108
+  "not a student req": 27111
  },
  "jobs": [
   {
@@ -6365,6 +6370,46 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
+  },
+  {
+   "id": "ef:microsoft.com:200060962",
+   "title": "Researcher Intern, CoreAI",
+   "location": "Redmond, WA, US; Mountain View, CA, US",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027387",
+   "posted": "2026-11-02",
+   "body": "Overview The Code|AI team leads applied research and data science for GitHub Copilot and VS Code, working on the future of AI for developers. We are a diverse, entrepreneurial, and multi-disciplinary group of scientists, researchers, and engineers with a passion for using AI to improve the productivity of millions of developers around the world. We have released AI for code advancements in Github Copilot, VS Code, Visual Studio and Copilot extensions in other IDEs. Our team focuses on post-training code specific models like code completion, code embedding models and agentic research for Copilot Coding Agent, Copilot CLI and Copilot Code Review. We embrace open source and continue to share our research and work with the developer and research communities to advance AI in Developer tools. We are seeking entrepreneurial and creative Applied Researcher Interns to lead groundbreaking research projects, taking these from research into product. You will collaborate with scientists, engineers, and designers across Microsoft Research, Microsoft product teams, and Github. You will have an opportunity to build and train state-of-the-art models, and opportunities to both apply and advance existing approaches of using LLMs for software engineering, from using RAG to evaluation. Most importantly, you will have an opportunity to work closely with several developer product teams to run experiments, evaluate, iterate, and improve your AI projects on a large scale. Microsoft\u2019s mission is to empower every person and every organization on the planet to achieve more. As employees, we come together with a growth mindset, innovate to empower others and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. This is for a Summer 2027 Internship. #Code|AI #CoreAI #EiP Responsibilities Contributes to projects on the future of AI for developers. Collaborates across disciplines with product teams across Microsoft and Github. Stays up to date with the research literature and product advances in AI for software engineering. Creates new datasets from both the world's public code and Microsoft's internal data. Builds and manages large-scale ML experiments and models. Embodies our Culture and Values Qualifications Required qualifications Currently enrolled in a Doctorate Degree program in a relevant field. Must be enrolled in a Doctorate Degree program in a relevant field for the role during the academic term immediately before the internship. Must have at least one additional quarter/semester of a Doctorate Degree program program in area relevant for the role remaining following the completion of the internship. Additional Qualifications: 1+ year(s) experience in Calculus, Probability and Statistics and/or Machine Learning. 1+ year(s) experience in one or more general purpose programming languages including: C/C++, Java, R or Python, and domain relevant libraries and frameworks (e.g., PyTorch). 1+ year(s) experience (classroom or work related) in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, etc. The base pay range for this internship is USD $5,690.00 - $11,210.00 per month. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $7,410.00 - $12,250.00 per month. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-intern-pay Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April) This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
+   "company": "Microsoft",
+   "score": {
+    "total": 53,
+    "base": 47,
+    "fit": 8,
+    "loc": 8,
+    "traj": 19,
+    "pay": 12,
+    "rate": [
+     32.89,
+     70.81
+    ],
+    "fresh": 6,
+    "age": 8.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "pay $52/hr",
+      12
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: computer vision",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-15T09:17:02+00:00"
   },
   {
    "id": "gh:muonspace:5256286007",
@@ -13365,51 +13410,6 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
-   "id": "wd:jabil:J2469350",
-   "title": "Mechanical System Architect Intern",
-   "location": "Austin, TX",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Mechanical-System-Architect-Intern_J2469350",
-   "posted": "2026-10-26",
-   "body": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vibrant and diverse communities around the globe. Summary of Program Jabil\u2019s Summer Internship Program was recognized as one of the Top 100 Internship Programs in the country for 2026 by WayUp. This is the result of a holistic and engaging experience that summer interns at Jabil experience. As a result, interns that are a part of this program for summer 2027 will get to engage with members of Jabil\u2019s leadership team and participate in events related to professional development, networking & socializing, and community engagement. In addition, interns will have the opportunity to work with each other in committees, be assigned a mentor, tour some of Jabil\u2019s facilities and much more! If this sounds like a program you want to be a part of and you want to work for a company that strives to make EVERYTHING BETTER and ANYTHING POSSIBLE, then apply today. What will you do? - System Architects at Jabil collaborate with customers, sales, and product planning to establish the technical direction for Jabil design teams in the Cloud and Compute markets. As a Mechanical System Architect Intern, you will be expected to: Complete a primary project that includes project management and solution development. Contribute to determining the technical direction for customer originated projects and Jabil's own cloud compute product offerings: Documenting product requirements Communicating the plan of record design and tradeoffs System layout and mechanical feasibility Collaborating with system architects in the mechanical, electrical, thermal, firmware, and software domains Train on detailed design requirements of CPUs, GPUs, Storage, Memory, FPGAs, board materials, regulators, power supplies etc. Hands-on assembly and disassembly of cloud computing products How will you get here? Requirements: Education: Junior or Senior class year engineering student pursuing a Bachelor\u2019s degree in Mechanical Engineering or a similar area Preferred Qualifications: Understanding of mechanical engineering design principles Proven academic project experience Effective communication, self-starter \u2013 Ability to drive work. Strong data analysis skills Knowledge, Skills, Abilities: Capability to research and explore unfamiliar technologies and concepts with an eye towards feasibility Familiarity with the Intel, AMD, Nvidia or ARM CPU/GPU architectures. Direct experience with at least some of the above is preferred. Familiarity with ME design tools, preferably PTC Creo and Windchill Knowledge of data center environmental and infrastructure paradigms Familiarity in the mechanical and electrical domains. Specifically, an understanding of basics nomenclature, concepts and tools used by your architectural teammates. BE AWARE OF FRAUD: When applying for a job at Jabil you will be contacted via correspondence through our official job portal with a jabil.com e-mail address; direct phone call from a member of the Jabil team; or direct e-mail with a jabil.com e-mail address. Jabil does not request payments for interviews or at any other point during the hiring process. Jabil will not ask for your personal identifying information such as a social security number, birth certificate, financial institution, driver\u2019s license number or passport information over the phone or via e-mail. If you believe you are a victim of identity theft, contact the Federal Bureau of Investigations internet crime hotline (www.ic3.gov), the Federal Trade Commission identity theft hotline (www.identitytheft.gov) and/or your local police department. Any scam job listings should be reported to whatever website it was posted in. Jabil, including its subsidiaries, is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, age, disability, genetic information, veteran status, or any other characteristic protected by law. Accessibility Accommodation If you are a qualified individual with a disability, you have the right to request a reasonable accommodation if you are unable or limited in your ability to use or access Jabil.com/Careers site as a result of your disability. You can request a reasonable accommodation by sending an e-mail to Always_Accessible@Jabil.com or calling 727-803-7988 with the nature of your request and contact information. Please do not direct any other general employment related questions to this e-mail or phone number. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to. #whereyoubelong #AWorldofPossibilities #EarlyCareer",
-   "company": "Jabil",
-   "score": {
-    "total": 39,
-    "base": 36,
-    "fit": 21,
-    "loc": 4,
-    "traj": 11,
-    "pay": 0,
-    "rate": null,
-    "fresh": 3,
-    "age": 15.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: mechanical",
-      7
-     ],
-     [
-      "body: regulator",
-      5
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "body: creo",
-      3
-     ],
-     [
-      "body: fea",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-26T21:42:53+00:00"
-  },
-  {
    "id": "wd:nvidia:JR2027561",
    "title": "Differentiable Simulation Research Intern - Summer 2027",
    "location": "US, CA, Santa Clara",
@@ -16829,6 +16829,47 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "gh:formlabs:8212703",
+   "title": "Build Team Intern (Summer 2027)",
+   "location": "Somerville, MA",
+   "url": "https://careers.formlabs.com/job/8212703/apply/?gh_jid=8212703",
+   "posted": "2026-09-22",
+   "body": "Do you want to change how the world creates? At Formlabs, we\u2019re building the tools that make it possible for anyone to bring their ideas to life, from cutting-edge products to life-saving medical devices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we\u2019re helping everyone design, prototype, and manufacture faster than ever before. As an Build Team Intern, you will assist in prototyping, building, and testing systems that will go into future generations of our 3D printers. If you are passionate about building hardware through interdisciplinary hands-on work, join our team as a Build Team Intern . Internship Term: Summer 2027 (May/June - August) Commitment: Full-time Location: Onsite in Somerville, MA Application Requirements : A portfolio of your previous engineering work/projects is required The Job Assist in building and modifying prototypes of next generations 3D printers and accessory equipment Fabricate and/or machine simple mechanical parts Inspect parts via CMM, calipers, micrometers, multimeters Set up and perform engineering tests Create and present various reports, ensuring organized documentation is provided to engineers throughout any testing process Run test procedures on our SLA printers, ensuring to properly log the different HW configurations and document secondary observations i.e. surface quality of print You Are a hands-on DIYer or maker eager to work on state of the art printers Have some experience using a 3D printer Are able to manage a high level of detail with large data sets Can collaborate effectively with team members on diverse projects Can interpret technical issues from non-technical explanation Bonus skills: Familiar with CAD Prior building experience Intern Benefits & Perks: Flexible Out of Office Plan \u2013 take time when you need it Ample on-site parking & pre-tax commuter benefits Catered on-site lunches (3x per week), snacks, beverages, & treats Cohort-based social and professional development experience for interns Many opt-in culture events across our diverse community And of course\u2026 unlimited 3D prints We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. Even if you don't check every box, but see yourself contributing, please apply. Help us build an inclusive community that will change the face of 3D printing. Our Candidate AI Guidelines are available here . Please give them a read. Compensation: Interns at Formlabs are paid on a bi-weekly pay schedule. The pay range for this role will depend on your skills, qualifications, experience, location and expected impact on the organization. This is a salaried role, so you will always be paid based on the assumed 40 hours per week as a full-time intern. This position does not offer housing or relocation assistance. The weekly pay range for this role is: $1,250 \u2014 $1,625 USD",
+   "company": "Formlabs",
+   "score": {
+    "total": 32,
+    "base": 36,
+    "fit": 15,
+    "loc": 8,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 49.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: 3d printing",
+      4
+     ],
+     [
+      "body: prototype",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-10T15:00:23+00:00"
+  },
+  {
    "id": "sr:BoschGroup:744000155100809",
    "title": "Manufacturing Engineer Intern - Summer 2027",
    "location": "Lincolnshire, IL, us",
@@ -17758,12 +17799,12 @@
    "first_seen": "2026-10-20T10:12:40+00:00"
   },
   {
-   "id": "gh:rocketlab:7990270003",
+   "id": "gh:rocketlab:7990272003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Tucson, AZ",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
+   "location": "Chantilly, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "company": "Rocket Lab",
    "score": {
     "total": 30,
@@ -17814,12 +17855,12 @@
    "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
-   "id": "gh:rocketlab:7990272003",
+   "id": "gh:rocketlab:7990270003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Chantilly, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
+   "location": "Tucson, AZ",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "company": "Rocket Lab",
    "score": {
     "total": 30,
@@ -20809,6 +20850,20 @@
   },
   {
    "company": "BAE Systems",
+   "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
+   "location": "Nashua, New Hampshire, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/131674BR",
+   "reason": "scored 19, below tier B"
+  },
+  {
+   "company": "BAE Systems",
+   "title": "Industrial Engineering Intern III (Summer 2027) - Greenlawn, NY",
+   "location": "Greenlawn, New York, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/131950BR",
+   "reason": "scored 21, below tier B"
+  },
+  {
+   "company": "BAE Systems",
    "title": "M&S Engineering Intern, Summer 2027",
    "location": "Rockville, Maryland, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131309BR",
@@ -21247,6 +21302,13 @@
    "location": "US",
    "url": "https://bostonscientific.eightfold.ai/careers/job/563602813612631",
    "reason": "scored 29, below tier B"
+  },
+  {
+   "company": "Boston Scientific",
+   "title": "Technical Communications & Project Management  Intern",
+   "location": "Arden Hills, MN, US",
+   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813563529",
+   "reason": "scored 25, below tier B"
   },
   {
    "company": "CACI",
@@ -22007,9 +22069,9 @@
   {
    "company": "GE Vernova",
    "title": "GE Vernova Sourcing Intern - Spring/Summer 2027",
-   "location": "2 Locations",
-   "url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Atlanta/GE-Vernova-Sourcing-Intern---Spring-Summer-2027_R5054271-2",
-   "reason": "no mechanical signal"
+   "location": "Atlanta; Greenville",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Atlanta/GE-Vernova-Sourcing-Intern---Spring-Summer-2027_R5054271-2",
+   "reason": "scored 16, below tier B"
   },
   {
    "company": "GE Vernova",
@@ -22156,13 +22218,6 @@
    "title": "2027 Summer Intern - Digital Product: Product Management (MBA)",
    "location": "Warren, Michigan, United States of America; Austin, Texas, United States of America",
    "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Product-Management--MBA-_JR-202620538",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "General Motors",
-   "title": "2027 Summer Intern - Field Sales Operations Internship \u2013 District Manager, Parts & Service",
-   "location": "Warren, Michigan, United States of America; Alpharetta US-SSM Southeast Regional Office - Alpharetta US-SSM Southeast Regional Office; Westlake Village US-SSM Western Regional Office - Westlake Village US-SSM Western Regional Office; Coppell US-SSM South Central Regional Office - Coppell US-SSM South Central Regional Office; Danbury US-SSM Northeast Regional Office 2 - Danbury US-SSM Northeast Regional Office 2",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Field-Sales-Operations-Internship---District-Manager--Parts---Service_JR-202619666",
    "reason": "non-ME discipline"
   },
   {
@@ -23167,41 +23222,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Jabil",
-   "title": "Low voltage switchgear Electrical Engineering Intern",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Low-voltage-switchgear-Electrical-Engineering-Intern_J2470772",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Jabil",
-   "title": "Mechanical Engineering Intern",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Mechanical-Engineering-Intern_J2470824-1",
-   "reason": "scored 31, below tier B"
-  },
-  {
-   "company": "Jabil",
-   "title": "Production Planning Intern (Part-Time)",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Production-Planning-Intern--Part-Time-_J2468448",
-   "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Jabil",
-   "title": "Purchasing Intern (Part-Time)",
-   "location": "St. Petersburg/Tampa, FL",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Purchasing-Intern--Part-Time-_J2468450",
-   "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Jabil",
-   "title": "Validation Engineer Intern",
-   "location": "Austin, TX",
-   "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Validation-Engineer-Intern_J2469310",
-   "reason": "scored 28, below tier B"
-  },
-  {
    "company": "Johnson Controls",
    "title": "Accounting & Finance Intern",
    "location": "Milwaukee-Wisconsin-United States of America",
@@ -23399,13 +23419,6 @@
   },
   {
    "company": "Lockheed Martin",
-   "title": "Automation Test-INTERN",
-   "location": "Colorado Springs, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477761776",
-   "reason": "scored 20, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
    "title": "Cloud Infrastructure Intern - Summer 2027",
    "location": "King of Prussia, PA, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477758730",
@@ -23462,13 +23475,6 @@
   },
   {
    "company": "Lockheed Martin",
-   "title": "DevSecOps Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477564655",
-   "reason": "scored 26, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
    "title": "Engineering Intern",
    "location": "Mt Laurel Township, NJ, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477240395",
@@ -23480,13 +23486,6 @@
    "location": "Mt Laurel Township, NJ, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477286906",
    "reason": "scored 14, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "IFG Armament Intern",
-   "location": "Fort Worth, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477188867",
-   "reason": "scored 7, below tier B"
   },
   {
    "company": "Lockheed Martin",
@@ -23508,13 +23507,6 @@
    "location": "Cape Canaveral, FL, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635652",
    "reason": "scored 29, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Procurement Representative - Intern",
-   "location": "Stratford, CT, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477730824",
-   "reason": "no mechanical signal"
   },
   {
    "company": "Lockheed Martin",
@@ -23571,13 +23563,6 @@
    "location": "Fort Worth, TX, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477156078",
    "reason": "scored 17, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "Systems Engineer Intern",
-   "location": "Palmdale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477449180",
-   "reason": "scored 15, below tier B"
   },
   {
    "company": "Lockheed Martin",
@@ -25171,8 +25156,8 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Toronto, CAN",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990043003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
@@ -25185,8 +25170,8 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Toronto, CAN",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990043003",
    "reason": "non-ME discipline"
   },
   {
@@ -25199,15 +25184,15 @@
   {
    "company": "Rocket Lab",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Littleton, CO",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
+   "location": "Washington, DC",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
    "reason": "scored 14, below tier B"
   },
   {
    "company": "Rocket Lab",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Washington, DC",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
+   "location": "Littleton, CO",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
    "reason": "scored 14, below tier B"
   },
   {
@@ -25255,6 +25240,13 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
+   "title": "Security Analyst Intern Summer 2027",
    "location": "Long Beach, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
    "reason": "non-ME discipline"
@@ -25269,13 +25261,6 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
    "location": "Wallops Island, VA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
    "reason": "non-ME discipline"
@@ -25283,8 +25268,8 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
@@ -25297,8 +25282,8 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
    "reason": "non-ME discipline"
   },
   {
