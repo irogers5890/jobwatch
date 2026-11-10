@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-10T17:20:46+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42863960769",
- "scanned": 34710,
+ "generated": "2026-11-10T17:40:47+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42867376916",
+ "scanned": 34731,
  "boards": 320,
  "errors": [
   {
@@ -10,22 +10,32 @@
    "error": "HTTP 404 \u2014 check slug/tenant/site"
   },
   {
+   "company": "Insulet",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
    "company": "NXP Semiconductors",
    "board": "workday",
    "error": "HTTP 422 \u2014 check slug/tenant/site"
   },
   {
-   "company": "Qualcomm",
+   "company": "Tektronix",
    "board": "eightfold",
-   "error": "failed after 3 tries: HTTP 429"
+   "error": "HTTP 403 \u2014 check slug/tenant/site"
   }
  ],
  "dropped": {
-  "non-ME discipline": 778,
+  "non-ME discipline": 789,
   "degree-level blocker": 9,
-  "below threshold": 527,
-  "no Summer/Fall 2027": 5338,
-  "no mechanical signal": 225,
+  "below threshold": 522,
+  "no Summer/Fall 2027": 5334,
+  "no mechanical signal": 229,
   "off-target season in title": 315,
   "not a student req": 27127
  },
@@ -1570,6 +1580,63 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "gh:formlabs:8186619",
+   "title": "Hardware Reliability Intern (Summer 2027)",
+   "location": "Somerville, MA",
+   "url": "https://careers.formlabs.com/job/8186619/apply/?gh_jid=8186619",
+   "posted": "2026-09-08",
+   "body": "Do you want to change how the world creates? At Formlabs, we\u2019re building the tools that make it possible for anyone to bring their ideas to life, from cutting-edge products to life-saving medical devices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we\u2019re helping everyone design, prototype, and manufacture faster than ever before. We\u2019re a team of hands-on builders, engineers, and innovators reinventing how the world makes physical things. If you\u2019re ready to shape the future of fabrication, come build it with us. We\u2019re looking for a R&D Test Engineer who will play a key role in running tests and partner closely with the engineers to perform systemized tests on 3d printers and report your findings. The output of this work will determine future features and settings for our 3d printers. The Hardware Reliability Engineering team ensures that Formlabs products in development are reliable and ready to ship, as well as triaging reliability issues of current products already in the field. We work closely with design teams of all disciplines to find product flaws as fast as possible and then work on redesigns to make more robust systems. Are you a cross-functional engineer that is passionate about creating robust products? We want you as a Hardware Test Engineering Intern . Internship Term: Summer (May/June - August) Commitment: Full-time Location: Onsite in Somerville, MA Application Materials : A portfolio of your previous engineering work/projects is recommended. View our Portfolio FAQ ! The Job Develop, execute, and manage system, subsystem, and component level validation test plans to ensure products meet design and reliability requirements. Work with other teams to ensure a thorough system is completed. Perform hands-on and data-driven root cause analysis to triage field failures and electromechanical systems, utilizing common problem-solving methodologies and a \"physics of failure\" approach. Design, build, and implement automated testing equipment for subsystem characterization and reliability/environmental testing Collaborate with the design team throughout product development to perform risk assessments, manage continuous testing, and contribute to design reviews You Are well versed with complex electromechanical systems and are passionate about understanding what it takes to make them work reliably Have experience developing full system test plans and know how to execute them in fast-paced product development timelines Have experience with testing a wide range of sensors, actuators, and mechanical components Can prototype and run your own tests, from experimental setup to hardware and software implementation Bonus skills: Familiarity with Linux systems and scripting in various languages (Python preferred) Familiarity with HALT and HASS testing Intern Benefits & Perks: Flexible Out of Office Plan \u2013 take time when you need it Ample on-site parking & pre-tax commuter benefits Catered on-site lunches (3x per week), snacks, beverages, & treats Cohort-based social and professional development experience for interns Many opt-in culture events across our diverse community And of course\u2026 unlimited 3D prints We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. Even if you don't check every box, but see yourself contributing, please apply. Help us build an inclusive community that will change the face of 3D printing. Compensation: Interns at Formlabs are paid on a bi-weekly pay schedule. The pay range for this role will depend on your skills, qualifications, experience, location and expected impact on the organization. This is a salaried role, so you will always be paid based on the assumed 40 hours per week as a full-time intern. This position does not offer housing or relocation assistance. The weekly pay range for this role is: $1,575 \u2014 $1,950 USD",
+   "company": "Formlabs",
+   "score": {
+    "total": 73,
+    "base": 81,
+    "fit": 60,
+    "loc": 8,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": -8,
+    "age": 63.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: reliability",
+      9
+     ],
+     [
+      "title: hardware",
+      8
+     ],
+     [
+      "body: root cause",
+      7
+     ],
+     [
+      "body: test plan",
+      6
+     ],
+     [
+      "body: actuator",
+      6
+     ],
+     [
+      "body: electromechanical",
+      6
+     ],
+     [
+      "body: 3d printing",
+      4
+     ],
+     [
+      "body: prototype",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-10T17:40:47+00:00"
+  },
+  {
    "id": "gh:mill:4737767005",
    "title": "Product Design Engineering Intern, Summer 2027",
    "location": "San Bruno, California",
@@ -2582,6 +2649,63 @@
     ]
    },
    "first_seen": "2026-10-14T01:17:06+00:00"
+  },
+  {
+   "id": "ef:qualcomm.com:3095755",
+   "title": "Mechanical Engineering Internship \u2013 Summer 2027",
+   "location": "San Diego, CA, US; Austin, TX, US; Santa Clara, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720741704",
+   "posted": "2026-09-18",
+   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - HW General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview As a Qualcomm Mechanical Engineering Intern , you\u2019ll have the opportunity to push the boundaries of what exists and help establish the new standards for tomorrow. You will work as an equal contributor on a team of leading engineers to design, simulate, and test mechanical and thermal systems that support Qualcomm\u2019s advanced semiconductor technologies. Projects may span IC packaging, chip/package co-design, thermal modeling, signal and power integrity, and next-generation cooling solutions. This internship supports the Mechanical Engineering track. Based on your resume you will be aligned to projects within this track. Minimum Qualifications Currently enrolled in a bachelor\u2019s, master\u2019s, or Ph.D. degree program in mechanical engineering, materials science, or a related field Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) Expected graduation date of Nove mber 2027 or later 1+ years of academic experience with programming languages such as Python, Matlab Preferred Qualifications Candidates actively pursuing a degree with an anticipated graduation between Nove mber 2027 and June 2028. Familiarity with Cadence Sip, AutoCAD, and Solidworks Coursework in Solid Mechanics, Mechanics of Materials, and Finite Element Analysis (FEA) Knowledge of IC packaging structures, chip-package interaction, and electronic packaging processes Experience with thermal system design, modeling, and testing Understanding of heat transfer, mechanical design, and microelectronics Exposure to server product design, system impedance testing, fan performance measurement, and heatsink design methodology Experience with Computational Fluid Dynamics (CFD), wind tunnel, and/or airflow bench operation Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Internship opportunities may be available in the following locations, depending on team and project needs: Austin, Boulder, Boxborough, Bridgewater, Chandler, Irvine, New York City, Louisville, Raleigh, San Diego, Santa Clara, and Seattle. Application Process By applying here, you are expressing interest in one of our many 2027 Qualcomm Mechanical Engineering internships . It is important to note that this is not a job posting for a specific role. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Future Employment Considerations This internship aligns to a potential role that is not eligible for Qualcomm immigration sponsorship. Export Control Notice This role may require an export license for candidates with citizenship in certain countries (see current country list below \u2013 subject to change). Qualcomm, like other companies, is experiencing significant delays in the export license process. Please be advised that if an export license is required, you may not be able to start work with Qualcomm until the license is granted, which may impact your ability to participate in the internship. Countries requiring export: Armenia, Azerbaijan, Belarus, Burma (Myanmar), Cambodia, China, Cuba, Georgia, Hong Kong, Iran, Iraq, Kazakhstan, Kyrgyzstan, Laos, Libya, Macau, Moldova, Mongolia, Nicaragua, North Korea, Russia, Sudan, Syria, Tajikistan, Turkmenistan, Ukraine, Uzbekistan, Venezuela, Vietnam, and Yemen. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
+   "company": "Qualcomm",
+   "score": {
+    "total": 66,
+    "base": 70,
+    "fit": 45,
+    "loc": 8,
+    "traj": 17,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 53.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: mechanical",
+      7
+     ],
+     [
+      "body: product design",
+      6
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: finite element",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
    "id": "gh:rocketlab:7990365003",
@@ -3791,6 +3915,63 @@
    "first_seen": "2026-10-23T18:37:08+00:00"
   },
   {
+   "id": "gh:formlabs:8172394",
+   "title": "Hardware R&D Engineering Intern (Summer 2027)",
+   "location": "Somerville, MA",
+   "url": "https://careers.formlabs.com/job/8172394/apply/?gh_jid=8172394",
+   "posted": "2026-09-14",
+   "body": "Do you want to change how the world creates? At Formlabs, we\u2019re building the tools that make it possible for anyone to bring their ideas to life, from cutting-edge products to life-saving medical devices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we\u2019re helping everyone design, prototype, and manufacture faster than ever before. Our Platform Technology team is a mix of mechanical, systems, and software engineers. We develop and maintain the Formlabs printing process. Our team works closely with other engineering teams to research and develop next generation printers and materials. We use engineering, physics, and experimentation to turn ideas into beautiful and accurate parts. If you are a systems thinker who enjoys working in a multi-disciplinary environment, we want you as a R&D Print Process Engineering Intern . Watch more videos of Formlabs interns here ! Internship Term : Summer 2027 (May/June - August) Commitment : Full-time Location : Onsite in Somerville, MA Application Requirements : A portfolio of your previous engineering work/projects is required. The Job : Design, build, and innovate new 3D printing techniques - from developing new printer architectures to validating minute changes in galvo control Work across teams to help implement improvements to current products such as redesigning support structure algorithm based on experiment results Evaluate current printer performance for areas for improvement Design and execute experiments and use results to inform and develop improvements in software or hardware Tackle complex and open-ended problems across multiple engineering disciplines You: Are willing to question assumptions and back it up with data Are able to work autonomously to research Have experience with experiment design and data analysis Understand programming and scientific computing, ideally Python or Matlab Are familiar with mechanical design, mechatronics, CAD modeling, and hands-on prototyping Previous work on a consumer product Developed physics-based models of complex systems Intern Benefits & Perks: Flexible Out of Office Plan \u2013 take time when you need it Ample on-site parking & pre-tax commuter benefits Catered on-site lunches (3x per week), snacks, beverages, & treats Cohort-based social and professional development experience for interns Many opt-in culture events across our diverse community And of course\u2026 unlimited 3D prints We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. Even if you don't check every box, but see yourself contributing, please apply. Help us build an inclusive community that will change the face of 3D printing. Our Candidate AI Guidelines are available here . Please give them a read. Compensation: Interns at Formlabs are paid on a bi-weekly pay schedule. The pay range for this role will depend on your skills, qualifications, experience, location and expected impact on the organization. This is a salaried role, so you will always be paid based on the assumed 40 hours per week as a full-time intern. This position does not offer housing or relocation assistance. The weekly pay range for this role is: $1,575 \u2014 $1,950 USD",
+   "company": "Formlabs",
+   "score": {
+    "total": 62,
+    "base": 66,
+    "fit": 45,
+    "loc": 8,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 57.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: hardware",
+      8
+     ],
+     [
+      "title: r&d",
+      6
+     ],
+     [
+      "body: mechatronics",
+      6
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: 3d printing",
+      4
+     ],
+     [
+      "body: prototype",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-10T17:40:47+00:00"
+  },
+  {
    "id": "wd:nvidia:JR2028260",
    "title": "Research and Engineering Intern, Agentic Systems Intelligence \u2013 Summer 2027",
    "location": "US, CA, Santa Clara; US, TX, Austin; US, WA, Redmond",
@@ -4301,6 +4482,63 @@
     ]
    },
    "first_seen": "2026-10-28T07:28:30+00:00"
+  },
+  {
+   "id": "ef:qualcomm.com:3095752",
+   "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship \u2013 Summer 2027",
+   "location": "San Diego, CA, US; Austin, TX, US; Boxborough, MA, US; Tempe, AZ, US; Santa Clara, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720740649",
+   "posted": "2026-09-18",
+   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - HW General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview As a Qualcomm Hardware Engineering Intern, you\u2019ll have the opportunity to push the boundaries of what exists and help establish the new standards for tomorrow. You will leverage your electrical and/or computer engineering degree to work on one of the following Qualcomm multi-disciplinary teams: System (architecture, modeling, power, thermal, silicon profiling), Front-end Design (micro-architecture, modeling, RTL), Implementation (synthesis & timing constraints), Design-for-Test (DFT), Physical Design (place & route, CTS, timing closure), Pre-silicon Verification (DV), Emulation, Post-silicon Validation (VI), CAD, and GPU Design. This internship supports multiple technical tracks , including: GPU Engineering CPU Engineering Digital Design / DV SoC Systems Engineering Based on your resume you may be aligned to one or more of these tracks. Please clearly indicate your track interest(s) in your resume , as this is the only way to communicate preferences during the recruiting process. Minimum Qualifications Currently enrolled in a bachelor\u2019s, master\u2019s, or Ph.D. degree program in computer engineering, computer science, electrical engineering, or a related field Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) Expected graduation date of Nove mber 2027 or later 1+ years of academic experience with programming languages such as C, C++, Python, Perl, Verilog, SystemVerilog Preferred Qualifications Candidates actively pursuing a degree with an anticipated graduation between Nove mber 2027 and June 2028 Currently enrolled in a Master\u2019s or PhD degree program in computer engineering, electrical engineering, or a related field Track 1: GPU Engineering Engineering design and development in MSM SOC and chipset architecture ASIC implementation of image processing camera IP GPU pipeline validation (stimulus generators, checkers, monitors, drivers, models) Graphics power analysis & optimization (Vulkan) Familiarity with multimedia or communication technologies including audio/video codecs, camera, WLAN, LTE, and 5G Programming experience in C, Perl, Verilog, SystemVerilog, C++, Python Track 2: CPU Engineering Validation of CPU and SOC-level micro-architecture concepts Development of test and coverage plans, verification methodology, and scalable environments Execution of verification plans including regression, debug, and bring-up Familiarity with simulators, coverage tools, waveform viewers Programming experience in C, C++, Python Track 3: Digital Design / DV RTL development for modem physical and MAC layer processing Verification component development using SystemVerilog and UVM Modeling cellular modem datapaths for bit-exact correctness Knowledge of digital design, DSP, wireless communication, LTE, 5G, Wi-Fi Exposure to machine learning concepts as applied to digital signal processing or modem architecture is a plus Programming experience in C, Python, Perl, Verilog, SystemVerilog, C++, Matlab Track 4: SoC Systems Engineering Concepts in computer architecture (CPU, GPU, DSP, interconnects, MMUs, etc.) System-level performance modeling and simulation Power and thermal management strategies Post-silicon validation and characterization Embedded software design, driver development for Linux/Windows OS principles and HW/SW interaction Experience supporting or optimizing machine learning workloads on embedded systems or accelerators Understanding of power/performance tradeoffs and system-level architecture Programming experience in C/C++, Python; scripting and profiling tools Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Internship opportunities may be available in the following locations, depending on team and project needs : Austin, Boulder, Boxborough, Bridgewater, Chandler, Irvine, New York City, Louisville, Raleigh, San Diego, Santa Clara, and Seattle. Application Process By applying here, you are expressing interest in one of our many 2027 Qualcomm Hardware Engineering internships . It is important to note that this is not a job posting for a specific role. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Future Employment Considerations This internship aligns to a potential role that is not eligible for Qualcomm immigration sponsorship. Export Control Notice This role may require an export license for candidates with citizenship in certain countries (see current country list below \u2013 subject to change). Qualcomm, like other companies, is experiencing significant delays in the export license process. Please be advised that if an export license is required, you may not be able to start work with Qualcomm until the license is granted, which may impact your ability to participate in the internship. Countries requiring export : Armenia, Azerbaijan, Belarus, Burma (Myanmar), Cambodia, China, Cuba, Georgia, Hong Kong, Iran, Iraq, Kazakhstan, Kyrgyzstan, Laos, Libya, Macau, Moldova, Mongolia, Nicaragua, North Korea, Russia, Sudan, Syria, Tajikistan, Turkmenistan, Ukraine, Uzbekistan, Venezuela, Vietnam, and Yemen. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
+   "company": "Qualcomm",
+   "score": {
+    "total": 60,
+    "base": 64,
+    "fit": 39,
+    "loc": 8,
+    "traj": 17,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 53.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: hardware",
+      8
+     ],
+     [
+      "body: thermal management",
+      6
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
    "id": "gh:doordashusa:8313401",
@@ -4871,6 +5109,63 @@
     ]
    },
    "first_seen": "2026-11-06T19:06:01+00:00"
+  },
+  {
+   "id": "gh:formlabs:8199928",
+   "title": "Mechanical Engineering Intern (Summer 2027)",
+   "location": "Somerville, MA",
+   "url": "https://careers.formlabs.com/job/8199928/apply/?gh_jid=8199928",
+   "posted": "2026-09-22",
+   "body": "Do you want to change how the world creates? At Formlabs, we\u2019re building the tools that make it possible for anyone to bring their ideas to life, from cutting-edge products to life-saving medical devices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we\u2019re helping everyone design, prototype, and manufacture faster than ever before. We\u2019re a team of hands-on builders, engineers, and innovators reinventing how the world makes physical things. If you\u2019re ready to shape the future of fabrication, come build it with us. Your Impact: Designing 3D printers is a cross-discipline experience where each individual contributes a portion of the overall knowledge required to bring a product to market. It seems like a daunting task from the outside; however, it can be broken down into smaller pieces that, when combined, result in a sophisticated device that embodies a lot of science, engineering, and manufacturing know-how. If you are passionate about hands-on engineering and rapid prototyping and are ready to tackle intriguing challenges on a real world product, we want you on our team as a Mechanical Engineering Intern. Internship Term: Summer 2027 (May/June - August) Commitment: Full-time Location: Onsite in Somerville, MA Application Requirements: A portfolio of your previous engineering work/projects is required. View our Portfolio FAQ here! The Job: Design, assemble, test, and evaluate the performance of 3D printers. Participate in design reviews and help solve design, engineering, and manufacturing problems. Polish your time management and communication skills to increase your effectiveness as an engineer. Build prototype components and assemblies using our in-house facilities. Put your CAD skills to work designing parts and assemblies, creating engineering drawings and learning about the importance of documentation control. Assist with direct communications to our vendors and suppliers to help overcome production challenges. You: Have a desire to hone your skills and learn more about engineering design and the process of bringing products to market. Have worked with complex mechanical or electro-mechanical systems and want exposure to the inner workings of 3D printers. Have one-or-more of the following hands-on experiences: Lab research, member of a project team, prior internship or previous work experience Have an up to date resume and portfolio of your previous experience to highlight what you have learned and how you have applied that learning. Intern Benefits & Perks: Flexible Out of Office Plan \u2013 take time when you need it Salaried bi-weekly pay schedule Ample on-site parking & pre-tax commuter benefits Catered on-site lunches (3x per week), snacks, beverages, & treats Cohort-based social and professional development experience for interns Many opt-in culture events across our diverse community And of course\u2026 unlimited 3D prints We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. Even if you don't check every box, but see yourself contributing, please apply. Help us build an inclusive community that will change the face of 3D printing. Our Candidate AI Guidelines are available here . Please give them a read. Compensation: Interns at Formlabs are paid on a bi-weekly pay schedule. The pay range for this role will depend on your skills, qualifications, experience, location and expected impact on the organization. This is a salaried role, so you will always be paid based on the assumed 40 hours per week as a full-time intern. This position does not offer housing or relocation assistance. The weekly pay range for this role is: $1,575 \u2014 $1,950 USD",
+   "company": "Formlabs",
+   "score": {
+    "total": 57,
+    "base": 61,
+    "fit": 40,
+    "loc": 8,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 49.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: mechanical",
+      7
+     ],
+     [
+      "body: engineering drawings",
+      6
+     ],
+     [
+      "body: rapid prototyping",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: 3d printing",
+      4
+     ],
+     [
+      "body: prototype",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-10T17:40:47+00:00"
   },
   {
    "id": "gh:freeformfuturecorp:7963719003",
@@ -6306,46 +6601,6 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
-   "id": "ef:microsoft.com:200060962",
-   "title": "Researcher Intern, CoreAI",
-   "location": "Redmond, WA, US; Mountain View, CA, US",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027387",
-   "posted": "2026-11-02",
-   "body": "Overview The Code|AI team leads applied research and data science for GitHub Copilot and VS Code, working on the future of AI for developers. We are a diverse, entrepreneurial, and multi-disciplinary group of scientists, researchers, and engineers with a passion for using AI to improve the productivity of millions of developers around the world. We have released AI for code advancements in Github Copilot, VS Code, Visual Studio and Copilot extensions in other IDEs. Our team focuses on post-training code specific models like code completion, code embedding models and agentic research for Copilot Coding Agent, Copilot CLI and Copilot Code Review. We embrace open source and continue to share our research and work with the developer and research communities to advance AI in Developer tools. We are seeking entrepreneurial and creative Applied Researcher Interns to lead groundbreaking research projects, taking these from research into product. You will collaborate with scientists, engineers, and designers across Microsoft Research, Microsoft product teams, and Github. You will have an opportunity to build and train state-of-the-art models, and opportunities to both apply and advance existing approaches of using LLMs for software engineering, from using RAG to evaluation. Most importantly, you will have an opportunity to work closely with several developer product teams to run experiments, evaluate, iterate, and improve your AI projects on a large scale. Microsoft\u2019s mission is to empower every person and every organization on the planet to achieve more. As employees, we come together with a growth mindset, innovate to empower others and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. This is for a Summer 2027 Internship. #Code|AI #CoreAI #EiP Responsibilities Contributes to projects on the future of AI for developers. Collaborates across disciplines with product teams across Microsoft and Github. Stays up to date with the research literature and product advances in AI for software engineering. Creates new datasets from both the world's public code and Microsoft's internal data. Builds and manages large-scale ML experiments and models. Embodies our Culture and Values Qualifications Required qualifications Currently enrolled in a Doctorate Degree program in a relevant field. Must be enrolled in a Doctorate Degree program in a relevant field for the role during the academic term immediately before the internship. Must have at least one additional quarter/semester of a Doctorate Degree program program in area relevant for the role remaining following the completion of the internship. Additional Qualifications: 1+ year(s) experience in Calculus, Probability and Statistics and/or Machine Learning. 1+ year(s) experience in one or more general purpose programming languages including: C/C++, Java, R or Python, and domain relevant libraries and frameworks (e.g., PyTorch). 1+ year(s) experience (classroom or work related) in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, etc. The base pay range for this internship is USD $5,690.00 - $11,210.00 per month. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $7,410.00 - $12,250.00 per month. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-intern-pay Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April) This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
-   "company": "Microsoft",
-   "score": {
-    "total": 53,
-    "base": 47,
-    "fit": 8,
-    "loc": 8,
-    "traj": 19,
-    "pay": 12,
-    "rate": [
-     32.89,
-     70.81
-    ],
-    "fresh": 6,
-    "age": 8.7,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $52/hr",
-      12
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: computer vision",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-10-15T09:17:02+00:00"
   },
   {
    "id": "gh:muonspace:5256286007",
@@ -7890,6 +8145,58 @@
    "first_seen": "2026-10-14T01:17:06+00:00"
   },
   {
+   "id": "wd:globalfoundries:JR-2604642",
+   "title": "Metrology/CFM Equipment Engineering Intern (Summer 2027)",
+   "location": "USA - Vermont - Essex Junction",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Metrology-CFM-Equipment-Engineering-Intern--Summer-2027-_JR-2604642",
+   "posted": "2026-11-10",
+   "body": "About GlobalFoundries GlobalFoundries (GF) is a leading manufacturer of essential semiconductors, enabling AI at scale from the cloud to the physical world. Through deep partnerships with customers, GF delivers differentiated, power\u2011efficient and high\u2011performance solutions for high\u2011growth markets. With global manufacturing operations across the U.S., Europe and Asia, GF is a trusted and holistic technology partner for customers around the world. GF\u2019s talented, global team remains focused every day on security, longevity and sustainability. For more information, visit www.gf.com. Internship Program Overview: Our Interns & Co-ops are our entry-level talent pipeline for GF across the globe. Our goal is to provide students with a meaningful work experience that will equip them with the skills to embark on a career in the fast-paced and growing semiconductor industry after graduation. As an intern at GF, you will experience one-on-one mentorship, work assignments that prioritize your growth and potential, professional development opportunities, and the chance to network with executives. Summary of Role: Our Fab 9 location in Essex Junction, VT is looking to hire Equipment Engineer Interns who are in pursuit of and have completed their at least their first year in a 4-Year Bachelor\u2019s Degree in Mechanical Engineering, or other relevant discipline to sustain and run the fab floor with primary responsibility of resolving equipment and process issues. You will be given an intern project that will require you lead the project to completion and share your success through an end of year intern poster session. Essential Responsibilities include: Drive continuous improvement efforts in support of throughput improvement, cost reduction, and yield learning. Define and maintain equipment installation process qualification or installation roadmaps Define and maintain equipment installation roadmaps - Drive equipment planning, equipment selection and configuration with the area process engineers, including installation, start up and volume ramp of process equipment. Design, execute, and analyze experiments to screen and optimize equipment to meet technology (performance, yield, and reliability) and manufacturing (process stability, cost of ownership) targets. Must be mechanically inclined and able to lead hands on, tactical troubleshooting efforts to resolve long term performance issues; must be able to deconstruct and understand complex systems Collaborate with GLOBALFOUNDRIES integration and process engineering to support development of improved next generation technologies. Support technology transfer to other fabricators. Other Responsibilities: Perform all activities in a safe and responsible manner and support all Environmental, Health, Safety & Security requirements, and programs. Required Qualifications: Education \u2013 A current junior, actively pursuing a Technology related bachelor\u2019s degree: Electrical Engineering, Mechanical Engineering, or other relevant discipline or field. Fluent in English Language Fluency - English (Written & Verbal) Travel - Up to 10% Ability to work at least 40 hours per week during the internship. Preferred Qualifications: Prior related internship or co-op experience Project management skills, i.e., the ability to innovate and execute on solutions that matter; the ability to navigate ambiguity. Strong written and verbal communication skills Strong planning & organizational skills Knowledge of Semiconductor Manufacturing Knowledge of Statistical Process Control (SPC) and Design of Experiments (DOE) Ability to work effectively and efficiently with diverse teams, customers, internal and external partners. #InternshipProgramUS Expected Salary Range $20.00 - $40.00 Expected Salary Range $0.00 - $0.00 The exact Salary will be determined based on qualifications, experience and location. If you need a reasonable accommodation for any part of the employment process, please contact us by email at usaccommodations@gf.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address. An offer with GlobalFoundries is conditioned upon the successful completion of pre-employment conditions, as applicable, and subject to applicable laws and regulations. GlobalFoundries is fully committed to equal opportunity in the workplace and believes that cultural diversity within the company enhances its business potential. GlobalFoundries goal of excellence in business necessitates the attraction and retention of highly qualified people. Artificial barriers and stereotypic biases detract from this objective and may be illegally discriminatory. All policies and processes which pertain to employees including recruitment, selection, training, utilization, promotion, compensation, benefits, extracurricular programs, and termination are created and implemented without regard to age, ethnicity, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, sexual orientation, gender identity or expression, veteran status, or any other characteristic or category specified by local, state or federal law",
+   "company": "GlobalFoundries",
+   "score": {
+    "total": 49,
+    "base": 37,
+    "fit": 26,
+    "loc": 0,
+    "traj": 11,
+    "pay": 0,
+    "rate": [
+     20.0,
+     40.0
+    ],
+    "fresh": 12,
+    "age": 0.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: equipment",
+      7
+     ],
+     [
+      "title: metrology",
+      6
+     ],
+     [
+      "body: design of experiments",
+      6
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ],
+     [
+      "pay $30/hr",
+      0
+     ]
+    ]
+   },
+   "first_seen": "2026-11-10T17:40:47+00:00"
+  },
+  {
    "id": "wd:intel:JR0286830",
    "title": "Silicon Hardware Engineering - Intern, Graduate",
    "location": "US, Oregon, Hillsboro; US, California, Folsom; US, California, Santa Clara; US, Texas, Austin; US, Arizona, Phoenix",
@@ -8060,6 +8367,59 @@
     ]
    },
    "first_seen": "2026-11-02T17:24:16+00:00"
+  },
+  {
+   "id": "ef:qualcomm.com:3095747",
+   "title": "Automotive Engineering Internship \u2013 Summer 2027",
+   "location": "San Diego, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720740553",
+   "posted": "2026-09-18",
+   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - SW General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview As a Qualcomm Automotive Engineering Intern, you will help build best-in-class solutions and tools that enable state-of-the-art technologies for next-generation platforms for autonomous vehicles. You\u2019ll work in a dynamic environment as part of a multi-disciplinary team of researchers and software developers, collaborating with internal teams to advance automotive innovation. This internship supports the Automotive Engineering track . Based on your resume you will be aligned to projects within this track. Minimum Qualifications Currently enrolled in a bachelor\u2019s, master\u2019s, or Ph.D. degree program in computer engineering, computer science, electrical engineering, or a related field Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) Expected graduation date of Nove mber 2027 or later 1+ years of experience with programming languages such as C, C++, Python, etc. Preferred Qualifications Currently enrolled in a Master\u2019s or PhD degree program in computer engineering, computer science, electrical engineering, or a related field Candidates actively pursuing a degree with an anticipated graduation between Nove mber 2027 and June 2028 Experience in Positioning, Perception, or Planning in ADAS/Autonomy/AD Safety-critical software development process (Functional Safety), including ASPICE, ASIL, ISO26262, MISRA C++, AUTOSAR C++ ROS/ROS2, DDS, Adaptive AUTOSAR middleware and frameworks Robotics, Autonomous Driving, Lidar, Scene Segmentation, Object Detection Embedded software driver development in C / C++ / Assembly with OS & Multi-processor concepts Multi-Task Learning Networks (MTN) Sensor Fusion, Positioning, SLAM, Motion Planning SysML, Systems Engineering and Analysis Familiarity with MBSE / System Modeling System data-flows for MM & ML functions Model-based development, Safety Analysis, Semi-formal notation, DFMEA, FMEDA Experience or familiarity with tools such as SysML, UML, UML-RT, Magic Draw, IBM Rhapsody, Sparx Enterprise Architect (preferred) Programming in C/C++, C#, Python, JavaScript, Java, Shell Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Internship opportunities may be available in the following locations, depending on team and project needs : Austin, Boulder, Boxborough, Bridgewater, Chandler, Irvine, New York City, Louisville, Raleigh, San Diego, Santa Clara, and Seattle. Application Process By applying here, you are expressing interest in one of our many 2027 Qualcomm Automotive Engineering internships . It is important to note that this is not a job posting for a specific role. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Export Control Notice This role may require an export license for candidates with citizenship in certain countries (see current country list below \u2013 subject to change). Qualcomm, like other companies, is experiencing significant delays in the export license process. Please be advised that if an export license is required, you may not be able to start work with Qualcomm until the license is granted, which may impact your ability to participate in the internship. Countries requiring export : Armenia, Azerbaijan, Belarus, Burma (Myanmar), Cambodia, China, Cuba, Georgia, Hong Kong, Iran, Iraq, Kazakhstan, Kyrgyzstan, Laos, Libya, Macau, Moldova, Mongolia, Nicaragua, North Korea, Russia, Sudan, Syria, Tajikistan, Turkmenistan, Ukraine, Uzbekistan, Venezuela, Vietnam, and Yemen. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
+   "company": "Qualcomm",
+   "score": {
+    "total": 49,
+    "base": 53,
+    "fit": 31,
+    "loc": 5,
+    "traj": 17,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 53.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "body: dfm",
+      7
+     ],
+     [
+      "body: fmea",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
    "id": "gh:rendezvousrobotics:4408588009",
@@ -8663,6 +9023,59 @@
    "first_seen": "2026-11-03T22:34:03+00:00"
   },
   {
+   "id": "ef:qualcomm.com:3095750",
+   "title": "Wireless Systems Engineering Internship - Summer 2027",
+   "location": "San Diego, CA, US; Boxborough, MA, US; NJ,US; Santa Clara, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720740637",
+   "posted": "2026-09-18",
+   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - Systems General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview As a Qualcomm Wireless Systems Engineering Intern , you\u2019ll have the opportunity to push the boundaries of what exists and help establish the new standards for tomorrow. You will work as an equal contributor on a team of leading engineers to innovate on CDMA Application Specific Integrated Circuits (ASICs) and architect, analyze, and simulate cutting-edge, next-generation wireless networks. This internship supports the Wireless Systems Engineering track . Based on your resume you will be aligned to projects within this track. Minimum Qualifications Currently enrolled in a bachelor\u2019s, master\u2019s, or Ph.D. degree program in computer engineering, computer science, electrical engineering, or a related field Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) Expected graduation date of Nove mber 2027 or later 1+ years of academic experience with programming languages such as C, C++, Python Preferred Qualifications Currently enrolled in a Master\u2019s or PhD degree program in computer engineering, electrical engineering, or a related field Candidates actively pursuing a degree with an anticipated graduation between Nove mber 2027 and June 2028 Communication theory, stochastic processes, linear algebra, signal processing, information theory, channel coding, probability and random processes, applied mathematics, RF interfaces, and digital mitigation of RF distortion Bayesian inference or upper layer protocol design experience including 3GPP IMS, NAS, MAC/RLC/PDCP and RRC, IP, UDP, TCP, HTTP, routing Experience with wireless standards (LTE, WiFi, 5G, UMTS) Knowledge and/or experience in MIMO, OFDM, CDMA PHY/MAC layer systems design for 5G (sub-6 and mmWave), spectrum sharing, and next-generation WiFi Systems design for M2M, cellular V2X communication, and industrial IoT Knowledge of modem architecture, software engineering and simulation design, microprocessor architecture, embedded software, application layer protocols (TCP/IP, UDP, ICMP) Test automation framework design and development using Python Experience with cellular systems, voice/data, test equipment/tools, and systems performance analysis Good understanding of AI/ML concepts such as deep learning, reinforcement learning, on-device learning, transfer learning, ML frameworks (PyTorch, Keras), and wireless domain ML Ability to program effectively in C/C++, Python, and/or Matlab Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Internship opportunities may be available in the following locations, depending on team and project needs : Austin, Boulder, Boxborough, Bridgewater, Chandler, Irvine, New York City, Louisville, Raleigh, San Diego, Santa Clara, and Seattle. Application Process By applying here, you are expressing interest in one of our many 2027 Qualcomm Wireless Systems Engineering internships . It is important to note that this is not a job posting for a specific role. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Future Employment Considerations This internship aligns to a potential role that is not eligible for Qualcomm immigration sponsorship. Export Control Notice This role may require an export license for candidates with citizenship in certain countries (see current country list below \u2013 subject to change). Qualcomm, like other companies, is experiencing significant delays in the export license process. Please be advised that if an export license is required, you may not be able to start work with Qualcomm until the license is granted, which may impact your ability to participate in the internship. Countries requiring export : Armenia, Azerbaijan, Belarus, Burma (Myanmar), Cambodia, China, Cuba, Georgia, Hong Kong, Iran, Iraq, Kazakhstan, Kyrgyzstan, Laos, Libya, Macau, Moldova, Mongolia, Nicaragua, North Korea, Russia, Sudan, Syria, Tajikistan, Turkmenistan, Ukraine, Uzbekistan, Venezuela, Vietnam, and Yemen. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
+   "company": "Qualcomm",
+   "score": {
+    "total": 47,
+    "base": 51,
+    "fit": 26,
+    "loc": 8,
+    "traj": 17,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 53.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ],
+     [
+      "body: matlab",
+      2
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
+  },
+  {
    "id": "wd:stryker:R572599",
    "title": "Summer 2027 Internship - Mechanical Engineering - Arizona",
    "location": "Tempe, Arizona",
@@ -9101,6 +9514,116 @@
    "first_seen": "2026-10-29T17:35:30+00:00"
   },
   {
+   "id": "gh:formlabs:8201476",
+   "title": "Print Optimization Intern (Summer 2027)",
+   "location": "Somerville, MA",
+   "url": "https://careers.formlabs.com/job/8201476/apply/?gh_jid=8201476",
+   "posted": "2026-09-18",
+   "body": "Do you want to change how the world creates? At Formlabs, we\u2019re building the tools that make it possible for anyone to bring their ideas to life, from cutting-edge products to life-saving medical devices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we\u2019re helping everyone design, prototype, and manufacture faster than ever before. We\u2019re a team of hands-on builders, engineers, and innovators reinventing how the world makes physical things. If you\u2019re ready to shape the future of fabrication, come build it with us. Our print settings are what brings Formlabs\u2019 innovations in materials, hardware, software and print processes to life for our users. We are a collaborative, diverse team passionate about continuously improving the performance of our settings in order to deliver the best print performance and user experience in the industry. If you are enthusiastic about 3D printing, want hands-on experience with printers, and are interested in exploring the 3D printing industry, we want you as a Print Optimization Intern on the SLA Materials Team. Watch more videos of Formlabs interns here ! Internship Term: Summer 2027 (May/June - August) Commitment: Full-time Location: Onsite in Somerville, MA The job: Develop and test materials settings for peak performance (speed, surface quality, supports, etc) Evaluate current material setting performance to identify areas for improvement Design and execute experiments, using results to inform and develop improvements in software or hardware Learn and operate high accuracy measurement equipment to validate your projects You: Well-organized, good time management, and excellent attention to detail Able to manage multiple tasks simultaneously Communicate test results effectively and in a timely manner Experience with data analysis Experience with experimental design Experience working with protocols/SOPs Enthusiastic and interested in 3D printing Bonus Skills: Basic understanding programming and scientific computing, ideally Python and/or Matlab Familiar with mechanical design and CAD modeling (Solidworks/OpenScad/Onshape a plus) Intern Benefits & Perks: Flexible Out of Office Plan \u2013 take time when you need it Ample on-site parking & pre-tax commuter benefits Catered on-site lunches (3x per week), snacks, beverages, & treats Cohort-based social and professional development experience for interns Many opt-in culture events across our diverse community And of course\u2026 unlimited 3D prints We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. Even if you don't check every box, but see yourself contributing, please apply. Help us build an inclusive community that will change the face of 3D printing. Our Candidate AI Guidelines are available here . Please give them a read. Compensation: Interns at Formlabs are paid on a bi-weekly pay schedule. The pay range for this role will depend on your skills, qualifications, experience, location and expected impact on the organization. This is a salaried role, so you will always be paid based on the assumed 40 hours per week as a full-time intern. This position does not offer housing or relocation assistance. The weekly pay range for this role is: $1,425 \u2014 $1,750 USD",
+   "company": "Formlabs",
+   "score": {
+    "total": 46,
+    "base": 50,
+    "fit": 29,
+    "loc": 8,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 53.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "body: 3d printing",
+      4
+     ],
+     [
+      "body: prototype",
+      4
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "body: onshape",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ],
+     [
+      "body: matlab",
+      2
+     ]
+    ]
+   },
+   "first_seen": "2026-11-10T17:40:47+00:00"
+  },
+  {
+   "id": "gh:formlabs:8201420",
+   "title": "Print Process Intern (Summer 2027)",
+   "location": "Somerville, MA",
+   "url": "https://careers.formlabs.com/job/8201420/apply/?gh_jid=8201420",
+   "posted": "2026-09-14",
+   "body": "At Formlabs, we\u2019re building the tools that make it possible for anyone to bring their ideas to life. Internships at Formlabs give students the opportunity to create, build, solve, and discover in every area of our business. Come build your career and build the future of 3D printing. Internship perks include social events, networking opportunities, access to our fully-stocked kitchens and onsite lunches, and unlimited 3D printing! The Print Optimization Team takes on the challenge of optimizing the intersection of hardware, software, and materials to deliver industry leading print performance. We strive to make our products print parts as quickly, reliably, easily, accurately, and beautifully as possible. We are a collaborative team, with a diverse background, passionate about pushing the boundaries of print performance across our product lines. As an SLS Print Process Intern, you will be continuously using your problem solving skills to drive improved performance. We are customer focused, and the first step of tackling the problem is understanding what the performance boost we are trying to achieve, and how many customers will benefit. Will customers be able to print parts faster? More reliability? Will they be easier to post-process, or print more accurately? Internship Term: Summer 2027 (May/June - August) Commitment: Full-time Location: Onsite in Somerville, MA Application Requirements: Portfolio strongly encouraged The Job: Push the capabilities of our SLS 3D printing platforms Drive root cause analysis, considering mechanics, fluid dynamics, software, chemistry, optics, electronics, thermodynamics, and customer behavior Design efficient experiments that tease out underlying behavior in a complicated system of variables Tackle multi-disciplinary problems Develop and commercialize solutions that make a real and immediate impact on customer print performance You: Are hands-on and willing to cross discipline boundaries to solve a problem Comfortable working with CAD programs (ie SolidWorks) Basic computer programming (Python) Understand material properties and characterization Able to build DOE and custom tests Passionate about improving performance of 3D printers Intern Benefits & Perks: Flexible Out of Office Plan \u2013 take time when you need it Ample on-site parking & pre-tax commuter benefits Catered on-site lunches (3x per week), snacks, beverages, & treats Cohort-based social and professional development experience for interns Many opt-in culture events across our diverse community And of course\u2026 unlimited 3D prints Compensation: Interns at Formlabs are paid on a bi-weekly pay schedule. The pay range for this role will depend on your skills, qualifications, experience, location and expected impact on the organization. This is a salaried role, so you will always be paid based on the assumed 40 hours per week as a full-time intern. This position does not offer housing or relocation assistance. The weekly pay range for this role is: $1,300 \u2014 $1,650 USD",
+   "company": "Formlabs",
+   "score": {
+    "total": 46,
+    "base": 50,
+    "fit": 29,
+    "loc": 8,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 57.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "body: root cause",
+      7
+     ],
+     [
+      "body: 3d printing",
+      4
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "title: process",
+      3
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-10T17:40:47+00:00"
+  },
+  {
    "id": "wd:globalfoundries:JR-2604600",
    "title": "Advanced Manufacturing Engineering Intern, Process & Equipment (Summer 2027)",
    "location": "USA - New York - Malta",
@@ -9486,6 +10009,59 @@
      [
       "body: python",
       4
+     ],
+     [
+      "body: matlab",
+      2
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
+  },
+  {
+   "id": "ef:qualcomm.com:3095751",
+   "title": "Multimedia Engineering Internship \u2013 Summer 2027",
+   "location": "San Diego, CA, US; Santa Clara, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720740640",
+   "posted": "2026-09-18",
+   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - Systems General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview As a Qualcomm Multimedia Engineering Intern , you\u2019ll work on best-in-class technologies including camera, video encoding/decoding, audio, speech, GPU, modem, CPU, application processor, multimedia engines, and computer vision. These technologies are at the heart of billions of Snapdragon devices across the globe. The team is responsible for system-level architecture, analysis, budgeting, and optimization of multimedia use cases to achieve lowest power and best performance. We are looking for students with an educational background and/or experience in system-level architecture and HW/SW co-design. Your work will have the potential to shape the most power- and performance-efficient devices in the hands of millions of Snapdragon users. This internship supports the Multimedia Engineering track . Based on your resume you will be aligned to projects within this track. Minimum Qualifications Currently enrolled in a bachelor\u2019s, master\u2019s, or Ph.D. degree program in computer engineering, computer science, electrical engineering, or a related field Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) Expected graduation date of Nove mber 2027 or later 1+ years of academic experience with programming languages such as C, C++, Python Preferred Qualifications Currently enrolled in a Master\u2019s or PhD degree program in computer engineering, computer science, electrical engineering, or a related field Candidates actively pursuing a degree with an anticipated graduation between Nove mber 2027 and June 2028 Graphics: OpenCL, compilers, ray tracing, GPU, Vulkan/DX Computer Vision/XR: DNNs, motion, AR/XR, depth, linear algebra, perception Imaging: Image/video segmentation, 3D, pattern recognition, image/video processing Speech/Audio: Acoustics, TTS/text-to-speech, speech/audio signal processing and compression Video: Digital signal processing, compression Software Apps/Tools: Linear algebra, AR, perception, Oculus Air Experience with machine learning frameworks (TensorFlow, PyTorch), deep learning, neural networks Strong understanding of signal processing Ability to program effectively in C/C++, Python, and/or Matlab Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Internship opportunities may be available in the following locations, depending on team and project needs : Austin, Boulder, Boxborough, Bridgewater, Chandler, Irvine, New York City, Louisville, Raleigh, San Diego, Santa Clara, and Seattle. Application Process By applying here, you are expressing interest in one of our many 2027 Qualcomm Multimedia Engineering internships . It is important to note that this is not a job posting for a specific role. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Export Control Notice This role may require an export license for candidates with citizenship in certain countries (see current country list below \u2013 subject to change). Qualcomm, like other companies, is experiencing significant delays in the export license process. Please be advised that if an export license is required, you may not be able to start work with Qualcomm until the license is granted, which may impact your ability to participate in the internship. Countries requiring export : Armenia, Azerbaijan, Belarus, Burma (Myanmar), Cambodia, China, Cuba, Georgia, Hong Kong, Iran, Iraq, Kazakhstan, Kyrgyzstan, Laos, Libya, Macau, Moldova, Mongolia, Nicaragua, North Korea, Russia, Sudan, Syria, Tajikistan, Turkmenistan, Ukraine, Uzbekistan, Venezuela, Vietnam, and Yemen. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
+   "company": "Qualcomm",
+   "score": {
+    "total": 46,
+    "base": 50,
+    "fit": 25,
+    "loc": 8,
+    "traj": 17,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 53.7,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: computer vision",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
      ],
      [
       "body: matlab",
@@ -11808,6 +12384,55 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "ef:qualcomm.com:3095754",
+   "title": "RF/Analog Design/Mixed-Signal Engineering Internship \u2013 Summer 2027",
+   "location": "San Diego, CA, US; Tempe, AZ, US; Irvine, CA, US; Santa Clara, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720740912",
+   "posted": "2026-09-18",
+   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - HW General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview As a Qualcomm RF/Analog or Mixed-Signal Engineering Intern , you\u2019ll have the opportunity to push the boundaries of what exists and help establish the new standards for tomorrow. Project opportunities span 5G/6G mmWave, RF system design, transceiver performance analysis and optimization, RFIC/Analog IC design, PA architectures, RF front-end engineering, signal processing/integration, RF microwave design, power amplifiers, WLAN/Bluetooth LNAs, ADC/DAC, and more. This internship supports two technical tracks : RF/Analog Design Mixed-Signal Design Based on your resume you may be aligned to one or more of these tracks. Please clearly indicate your track interest(s) in your resume , as this is the only way to communicate preferences during the recruiting process. Minimum Qualifications Currently enrolled in a bachelor\u2019s, master\u2019s, or Ph.D. degree program in computer engineering, computer science, electrical engineering, or a related field Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) Expected graduation date of Nove mber 2027 or later Preferred Qualifications Currently enrolled in a Master\u2019s or PhD degree program in computer engineering, computer science, electrical engineering, or a related field Candidates actively pursuing a degree with an anticipated graduation between Nove mber 2027 and June 2028 Track 1: RF/Analog Design RF, microwave theory, antenna theory Analog IC design or RFIC design Electromagnetics, digital pre-distortion, RF matching networks S-parameters, linear systems, filter design Digital communication systems, noise figure, linearity (IP3), impedance matching Memory system design and analysis High-speed interface system design Printed circuit board design Electrical system analysis and modeling Signal and power integrity (SIPI) analysis Power delivery network (PDN) design/analysis Transmission lines, power amplifiers, transmitters, receivers, ACLR Layout experience and chip tape-out Programming experience in Perl, MATLAB, Cadence, HFSS Track 2: Mixed-Signal Design Mixed-signal IP and high-speed interface (ADC/DAC, PLL, sensor, SerDes, DDR) architecture definition, design, implementation, and SoC integration RTL coding, lint checks, CDC checks, DFT updates, formal equivalency checks, ECO implementation SERDES (PCIe, USB), memory (DDR, HBM), or 2D/3D die-to-die (D2D) interface system exploration and co-optimization Static timing analysis and optimization of high-speed critical paths and complex mixed-signal IPs Cadence design environment Low-power analog/digital design Programming experience in Perl, Verilog, Shell, Python, Tcl, SystemVerilog Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Internship opportunities may be available in the following locations, depending on team and project needs : Austin, Boulder, Boxborough, Bridgewater, Chandler, Irvine, New York City, Louisville, Raleigh, San Diego, Santa Clara, and Seattle. Application Process By applying here, you are expressing interest in one of our many 2027 Qualcomm RF/Analog/Mixed-Signal Engineering internships . It is important to note that this is not a job posting for a specific role. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Export Control Notice This role may require an export license for candidates with citizenship in certain countries (see current country list below \u2013 subject to change). Qualcomm, like other companies, is experiencing significant delays in the export license process. Please be advised that if an export license is required, you may not be able to start work with Qualcomm until the license is granted, which may impact your ability to participate in the internship. Countries requiring export : Armenia, Azerbaijan, Belarus, Burma (Myanmar), Cambodia, China, Cuba, Georgia, Hong Kong, Iran, Iraq, Kazakhstan, Kyrgyzstan, Laos, Libya, Macau, Moldova, Mongolia, Nicaragua, North Korea, Russia, Sudan, Syria, Tajikistan, Turkmenistan, Ukraine, Uzbekistan, Venezuela, Vietnam, and Yemen. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
+   "company": "Qualcomm",
+   "score": {
+    "total": 42,
+    "base": 46,
+    "fit": 21,
+    "loc": 8,
+    "traj": 17,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 53.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ],
+     [
+      "body: matlab",
+      2
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
+  },
+  {
    "id": "gh:rocketlab:7991448003",
    "title": "Mechanical Engineering Intern Summer 2027",
    "location": "Long Beach, CA",
@@ -12579,6 +13204,55 @@
    "first_seen": "2026-11-02T20:15:39+00:00"
   },
   {
+   "id": "gh:formlabs:8212692",
+   "title": "Materials Intern (Summer 2027)",
+   "location": "Somerville, MA",
+   "url": "https://careers.formlabs.com/job/8212692/apply/?gh_jid=8212692",
+   "posted": "2026-09-18",
+   "body": "Do you want to change how the world creates? At Formlabs, we\u2019re building the tools that make it possible for anyone to bring their ideas to life, from cutting-edge products to life-saving medical devices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we\u2019re helping everyone design, prototype, and manufacture faster than ever before. Internships at Formlabs give students the opportunity to create, build, solve, and discover in every area of our business. Come build your career and build the future of 3D printing. Internship perks include social events, networking opportunities, access to our fully-stocked kitchens and onsite lunches, and unlimited 3D printing! Materials development presents one of the greatest opportunities in 3D printing. As a Materials intern, you\u2019ll work side-by-side in the lab with the rest of our Materials team. You\u2019ll get an opportunity to constantly develop, formulate, and test materials that we\u2019ve never printed with before -- and every experiment plays a big role in how we solve new challenges in 3D printing. If you\u2019re ready for a hands-on role solving real problems for real products, we want you as a Materials Intern . Watch more videos of Formlabs interns here ! Internship Term: Summer 2027 (May/June - August) Commitment: Full-time Location: Onsite in Somerville, MA The Job: Work in our materials development lab on various materials challenges You: Passionate about material science or chemistry Comfortable working in a wet lab environment Have completed research or coursework with polymers Comfortable working with CAD programs (ie SolidWorks) Basic computer programming (Python) Background in organic chemistry or plastic engineering Intern Benefits & Perks: Flexible Out of Office Plan \u2013 take time when you need it Salaried bi-weekly pay schedule Ample on-site parking & pre-tax commuter benefits Catered on-site lunches (3x per week), snacks, beverages, & treats Cohort-based social and professional development experience for interns Many opt-in culture events across our diverse community And of course\u2026 unlimited 3D prints We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. Even if you don't check every box, but see yourself contributing, please apply. Help us build an inclusive community that will change the face of 3D printing. Our Candidate AI Guidelines are available here . Please give them a read. Compensation: Interns at Formlabs are paid on a bi-weekly pay schedule. The pay range for this role will depend on your skills, qualifications, experience, location and expected impact on the organization. This is a salaried role, so you will always be paid based on the assumed 40 hours per week as a full-time intern. This position does not offer housing or relocation assistance. The weekly pay range for this role is: $1,300 \u2014 $1,700 USD",
+   "company": "Formlabs",
+   "score": {
+    "total": 40,
+    "base": 44,
+    "fit": 23,
+    "loc": 8,
+    "traj": 13,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 53.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: 3d printing",
+      4
+     ],
+     [
+      "body: prototype",
+      4
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-10T17:40:47+00:00"
+  },
+  {
    "id": "wd:globalfoundries:JR-2604595",
    "title": "Advanced Manufacturing Engineering Intern, Process & Equipment (Summer 2027)",
    "location": "USA - New York - Malta",
@@ -12677,6 +13351,51 @@
      [
       "pay $19/hr",
       -6
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
+  },
+  {
+   "id": "ef:qualcomm.com:3095732",
+   "title": "Embedded Engineering Internship - Summer 2027",
+   "location": "San Diego, CA, US; Boxborough, MA, US; Santa Clara, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720737089",
+   "posted": "2026-09-21",
+   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - SW General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview As a Qualcomm Embedded Engineering Intern , you\u2019ll have the opportunity to push the boundaries of what exists and help establish the new standards for tomorrow. You will innovate as an equal contributor on teams of world-class engineers to develop, implement, and maintain software for the most complex wireless devices in the industry today. You will leverage your computer science or engineering degree to make an immediate impact on the software development life cycle of one of Qualcomm\u2019s numerous software technologies. This internship supports the Embedded Engineering track . Based on your resume you will be aligned to projects within this track. Minimum Qualifications Currently enrolled in a bachelor\u2019s or master\u2019s degree program in computer engineering, computer science, electrical engineering, or a related field. Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) . Expected graduation date of November 2027 or later . 1+ years of academic experience with programming languages such as C, C++, Python, etc. Preferred Qualifications Candidates actively pursuing a degree with an anticipated graduation between November 2027 and June 2028 Embedded programming in C/C++/Assembly & operating system knowledge Programming in resource-constrained environments (MIPS/Memory) Implementation of complex algorithms on an embedded processor Embedded microcontroller programming, experience developing device drivers Real-time embedded programming in C/C++/Assembly for general purpose and heterogeneous processors including GPUs and DSPs Communication systems, communication theory, digital signal processing (DSP, embedded firmware) Knowledge of wireless protocols such as 5G NR, LTE, and 802.11 Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Internship opportunities may be available in the following locations, depending on team and project needs : Austin, Boulder, Boxborough, Bridgewater, Chandler, Irvine, New York City, Louisville, Raleigh, San Diego, Santa Clara, and Seattle. Application Process By applying here, you are expressing interest in one of our many 2027 Qualcomm Embedded Engineering internships . It is important to note that this is not a job posting for a specific project. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Advancing candidates may be invited to complete a timed HackerRank challenge to evaluate their technical skill set. Future Employment Considerations This internship aligns to a potential role that is not eligible for Qualcomm immigration sponsorship. Export Control Notice This role may require an export license for candidates with citizenship in certain countries (see current country list below \u2013 subject to change). Qualcomm, like other companies, is experiencing significant delays in the export license process. Please be advised that if an export license is required, you may not be able to start work with Qualcomm until the license is granted, which may impact your ability to participate in the internship. Countries requiring export : Armenia, Azerbaijan, Belarus, Burma (Myanmar), Cambodia, China, Cuba, Georgia, Hong Kong, Iran, Iraq, Kazakhstan, Kyrgyzstan, Laos, Libya, Macau, Moldova, Mongolia, Nicaragua, North Korea, Russia, Sudan, Syria, Tajikistan, Turkmenistan, Ukraine, Uzbekistan, Venezuela, Vietnam, and Yemen. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
+   "company": "Qualcomm",
+   "score": {
+    "total": 40,
+    "base": 44,
+    "fit": 19,
+    "loc": 8,
+    "traj": 17,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 50.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
      ]
     ]
    },
@@ -13458,6 +14177,55 @@
     ]
    },
    "first_seen": "2026-10-30T01:52:47+00:00"
+  },
+  {
+   "id": "ef:qualcomm.com:3097141",
+   "title": "Modular Engineering Internship \u2013 Summer 2027",
+   "location": "Los Altos, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446721246663",
+   "posted": "2026-10-02",
+   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - SW General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! About Modular At Modular, a Qualcomm company, we\u2019re on a mission to revolutionize AI infrastructure by systematically rebuilding the AI software stack from the ground up. Our team, made up of industry leaders and experts, is building cutting-edge, modular infrastructure that simplifies AI development and deployment. By rethinking the complexities of AI systems, we\u2019re empowering everyone to unlock AI\u2019s full potential and tackle some of the world\u2019s most pressing challenges. If you\u2019re passionate about shaping the future of AI and creating tools that make a real difference in people\u2019s lives, we want you on our team. Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project-specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview As a Modular Engineering Intern , you will contribute to next-generation AI infrastructure and software technologies spanning the AI Inference stack. Depending on your background, interests, and project needs, you may work on AI/ML model bring up, AI Inference performance and optimization, compiler development, the Mojo programming language, GPU kernels and accelerator optimization, cloud and distributed systems, security, quality engineering, or software development tooling. You may help optimize AI models for inference workloads, develop high-performance software for GPUs and emerging accelerators, improve compiler and runtime technologies for MAX or Mojo, scale distributed AI systems, develop AI infrastructure and model-serving platforms, build automated performance and quality frameworks, or improve developer tooling and CI/CD systems. This internship supports the Modular Engineering track . Based on your resume, skills, and experience, you will be aligned to projects within this track. Projects may include: AI Inference & Model Serving AI Systems & Infrastructure GPU & Kernel Engineering Compilers, Runtimes & Programming Languages Distributed & Cloud Systems AI Performance & Optimization AI Quality, Evaluation & Reliability Platform & Developer Engineering Security Engineering Software Development & Full-Stack Engineering Developer Tools & Open-Source Technologies Minimum Qualifications Currently enrolled in a bachelor\u2019s, master\u2019s, or Ph.D. degree program in computer science, computer engineering, electrical engineering, software engineering, mathematics, artificial intelligence, or a related technical field. Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) . Expected graduation date of November 2027 or later . 1+ years of academic or project experience with programming languages such as Python, C, C++, Rust, Go, or related languages. Preferred Qualifications Candidates actively pursuing a degree with an anticipated graduation between November 2027 and June 2028 . Experience with machine learning, deep learning, generative AI, LLMs, transformer architectures, AI inference, or ML frameworks and ecosystems such as PyTorch, TensorFlow, or Hugging Face. Knowledge or experience with compiler design, compiler/runtime implementation, programming languages, library development, APIs, or frameworks such as MLIR, LLVM, GCC, TVM, or XLA. Experience with parallel computing, GPU programming, high-performance computing, CUDA, ROCm, or other accelerator programming models, including kernel optimization, computer architecture, memory systems, memory layouts, or data movement. Experience developing or optimizing AI/ML models and workloads, including model acceleration, quantization, profiling, benchmarking, inference optimization, performance analysis, or translating AI research and existing model implementations into production-ready code. Knowledge or experience with distributed systems, cloud infrastructure, large-scale AI infrastructure, model serving, Kubernetes, cloud-native technologies, multi-node or multi-cluster deployments, or scalable inference systems. Experience with systems programming or software development using Python, C/C++, Rust, Go, object-oriented languages, Python multiprocessing/asyncio, or related technologies. Experience with software engineering, application development, operating systems, APIs, software libraries, developer tooling, build systems, release automation, testing, CI/CD, or developer productivity tools. Familiarity with AI/ML evaluation, software quality, unit/integration testing, regression detection, performance testing, benchmarking, observability, reliability engineering, reproducibility, or failure analysis. Experience with profiling and performance-analysis tools such as NVIDIA Nsight Systems, Nsight Compute, PyTorch Profiler, Linux perf, Intel VTune, or similar technologies. Knowledge or interest in software security, AI security, secure development, data protection, access controls, developer security tooling, AI-assisted coding tools, or secure AI systems and workflows. Experience building web, full-stack, AI/ML, or systems applications, developer integrations, technical examples, or other developer-facing solutions. Experience contributing to open-source projects, GitHub communities, technical documentation/blogs, developer education, or developer-focused technical content. Familiarity with AI developer and agentic coding tools or related developer workflows. Strong debugging, analytical, problem-solving, communication, and collaboration skills, with demonstrated curiosity and the ability to learn and operate effectively in a fast-paced engineering environment. Research experience or publications in relevant AI/ML, systems, compiler, or engineering areas is a plus. Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Internship opportunities may be available in the following locations, depending on team and project needs : Austin, Boulder, Boxborough, Bridgewater, Chandler, Irvine, New York City, Louisville, Raleigh, San Diego, Santa Clara, and Seattle. Application Process By applying here, you are expressing interest in one of our many 2027 Qualcomm Modular Engineering internships . It is important to note that this is not a job posting for a specific project. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Export Control Notice This role may require an export license for candidates with citizenship in certain countries (see current country list below \u2013 subject to change). Qualcomm, like other companies, is experiencing significant delays in the export license process. Please be advised that if an export license is required, you may not be able to start work with Qualcomm until the license is granted, which may impact your ability to participate in the internship. Countries requiring export : Armenia, Azerbaijan, Belarus, Burma (Myanmar), Cambodia, China, Cuba, Georgia, Hong Kong, Iran, Iraq, Kazakhstan, Kyrgyzstan, Laos, Libya, Macau, Moldova, Mongolia, Nicaragua, North Korea, Russia, Sudan, Syria, Tajikistan, Turkmenistan, Ukraine, Uzbekistan, Venezuela, Vietnam, and Yemen. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
+   "company": "Qualcomm",
+   "score": {
+    "total": 39,
+    "base": 43,
+    "fit": 26,
+    "loc": 0,
+    "traj": 17,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 39.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: failure analysis",
+      7
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
    "id": "wd:globalhr:01876770",
@@ -14261,6 +15029,51 @@
     ]
    },
    "first_seen": "2026-10-23T04:35:31+00:00"
+  },
+  {
+   "id": "ef:qualcomm.com:3095745",
+   "title": "Qualcomm Government Technologies (QGOV) Engineering Internship \u2013 Summer 2027 (San Diego or Boulder) | US CITIZENSHIP REQUIRED",
+   "location": "San Diego, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720740540",
+   "posted": "2026-09-18",
+   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - SW General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview Qualcomm's Government Technologies (QGOV) division develops special products based on its wireless terrestrial and satellite communication technologies for the military, federal, local, and foreign governments. As a QGOV Engineering Intern, you will sit in either San Diego, CA or Boulder, CO and support government-sponsored research, development, integration, and testing of such systems, including adaptation and extension of commercial systems to novel applications and environments, as well as internal development efforts. You will work on a variety of projects crossing multiple disciplines from across the company to deliver timely results to customers. You will be responsible for working closely with other engineering disciplines to design, develop, automate, document, and execute tests. Excellent written and verbal communication skills are essential. Interns must be willing to travel occasionally and work well with others in a technical, global environment. This internship supports multiple technical tracks, including: Embedded Software Software in Test Based on your resume you may be aligned to one or more of these tracks. Please clearly indicate your interest(s) in your resume, as this is the only way to communicate preferences during the recruiting process. Minimum Qualifications Must be a U.S. citizen Currently enrolled in a bachelor\u2019s degree program in computer engineering, computer science, electrical engineering, or a related field Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) Expected graduation date of November 2027 or later 1+ years of experience with programming languages such as C, C++, Java, Python, etc. Preferred Qualifications Candidates actively pursuing a degree with an anticipated graduation between December 2027 and June 2028 Track 1: Embedded Software Experience with real-time embedded software development Experience with cellular systems, including devices and applications for voice and data, and associated test equipment and tools Understanding of communications systems including both physical and upper layers Familiarity with development tools such as Git and Gerrit Familiarity with debugging tools such as JTAG, IDEs, and gdb Experience with digital signal processing Experience with software vulnerability analysis and tools such as IDA Pro Track 2: Software in Test Test automation framework design and development using Python Test design, development, automation, execution, documentation, and debug Experience with cellular systems and associated test equipment and tools Understanding of communications systems including both physical and upper layers Experience evaluating wireless communications systems through drive tests, logging, and post analysis Familiarity with application layer protocols (TCP/IP, UDP, ICMP) and network/socket communications Experience with mobile platform operating systems including Linux, Android, and iOS Familiarity with Linux, Git, Jenkins, Testlink, and Docker Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Application Process By applying here, you are expressing interest in one of our many 2027 QGOV Engineering internships . It is important to note that this is not a job posting for a specific project. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Advancing candidates may be invited to complete a timed HackerRank challenge to evaluate their technical skill set. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
+   "company": "Qualcomm",
+   "score": {
+    "total": 37,
+    "base": 41,
+    "fit": 19,
+    "loc": 5,
+    "traj": 17,
+    "pay": 0,
+    "rate": null,
+    "fresh": -4,
+    "age": 53.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
    "id": "gh:rocketlab:7990350003",
@@ -20680,20 +21493,6 @@
   },
   {
    "company": "BAE Systems",
-   "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
-   "location": "Nashua, New Hampshire, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131674BR",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "BAE Systems",
-   "title": "Industrial Engineering Intern III (Summer 2027) - Greenlawn, NY",
-   "location": "Greenlawn, New York, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131950BR",
-   "reason": "scored 21, below tier B"
-  },
-  {
-   "company": "BAE Systems",
    "title": "M&S Engineering Intern, Summer 2027",
    "location": "Rockville, Maryland, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131309BR",
@@ -20786,16 +21585,16 @@
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
-   "reason": "scored 23, below tier B"
+   "location": "Fairborn, Ohio, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
+   "reason": "scored 20, below tier B"
   },
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Fairborn, Ohio, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
-   "reason": "scored 20, below tier B"
+   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
+   "reason": "scored 23, below tier B"
   },
   {
    "company": "BAE Systems",
@@ -21702,6 +22501,20 @@
   },
   {
    "company": "Entegris",
+   "title": "Filtration Portfolio Automation Intern",
+   "location": "Billerica, MA",
+   "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Filtration-Portfolio-Automation-Intern_REQ-15840",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Entegris",
+   "title": "Global Service Intern",
+   "location": "Billerica, MA",
+   "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Global-Service-Intern_REQ-15854",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Entegris",
    "title": "Internal Audit Intern",
    "location": "Billerica, MA",
    "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Internal-Audit-Intern_REQ-15845",
@@ -21775,6 +22588,13 @@
    "title": "Legal Intern",
    "location": "Houston, TX",
    "url": "https://job-boards.greenhouse.io/fervoenergy/jobs/4464038009",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Formlabs",
+   "title": "PhD Intern - Materials Science (Summer 2027)",
+   "location": "Somerville, MA",
+   "url": "https://careers.formlabs.com/job/8212694/apply/?gh_jid=8212694",
    "reason": "non-ME discipline"
   },
   {
@@ -21984,7 +22804,7 @@
    "company": "GE Vernova",
    "title": "GE Vernova WIND Internship - Summer 2027",
    "location": "Schenectady",
-   "url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Schenectady/GE-Vernova-WIND-Internship---Summer-2027_R5050567-2",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Schenectady/GE-Vernova-WIND-Internship---Summer-2027_R5050567-2",
    "reason": "no mechanical signal"
   },
   {
@@ -22283,6 +23103,13 @@
   },
   {
    "company": "GlobalFoundries",
+   "title": "Fab Systems Setup & Routing Intern (Summer 2027)",
+   "location": "USA - Vermont - Essex Junction",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Fab-Systems-Setup---Routing-Intern--Summer-2027-_JR-2604640",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "GlobalFoundries",
    "title": "Failure Analysis Engineering Intern (Summer 2027)",
    "location": "USA - New York - Malta",
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Failure-Analysis-Engineering-Intern--Summer-2027-_JR-2604574",
@@ -22420,6 +23247,13 @@
    "location": "USA - Vermont - Essex Junction",
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/SiGe-HBT-Device-Modelling-Intern--Summer-2027-_JR-2604271",
    "reason": "scored 17, below tier B"
+  },
+  {
+   "company": "GlobalFoundries",
+   "title": "Silicon Photonics Process Integration Engineering Intern (Summer 2027)",
+   "location": "USA - New York - Malta",
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Engineering-Intern--Summer-2027-_JR-2605134",
+   "reason": "non-ME discipline"
   },
   {
    "company": "GlobalFoundries",
@@ -23482,14 +24316,14 @@
    "company": "Lockheed Martin",
    "title": "Mechanical Test Engineer-INTERN",
    "location": "Cape Canaveral, FL, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635668",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635652",
    "reason": "scored 29, below tier B"
   },
   {
    "company": "Lockheed Martin",
    "title": "Mechanical Test Engineer-INTERN",
    "location": "Cape Canaveral, FL, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635652",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635668",
    "reason": "scored 29, below tier B"
   },
   {
@@ -24561,6 +25395,41 @@
    "title": "Sales Summer Internship 2027",
    "location": "STOCKHOLM GENERAL OFFICE; Stockholm",
    "url": "https://pg.wd5.myworkdayjobs.com/1000/job/STOCKHOLM-GENERAL-OFFICE/Sales-Summer-Internship-2027_R000159973",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Qualcomm",
+   "title": "Finance & Accounting Internship - Summer 2027",
+   "location": "San Diego, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446721159170",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Qualcomm",
+   "title": "Information Technology (IT) Internship \u2013 Summer 2027",
+   "location": "San Diego, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720741716",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Qualcomm",
+   "title": "Product Management Internship - Summer 2027",
+   "location": "San Diego, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720741706",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Qualcomm",
+   "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
+   "location": "San Diego, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720740636",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Qualcomm",
+   "title": "Software Engineering Internship - Summer 2027",
+   "location": "San Diego, CA, US; Austin, TX, US; Boxborough, MA, US; NJ,US; Tempe, AZ, US; Irvine, CA, US; Louisville, KY, US; New York, NY, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720740529",
    "reason": "non-ME discipline"
   },
   {
@@ -26020,27 +26889,6 @@
    "reason": "no mechanical signal"
   },
   {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
-   "reason": "scored 16, below tier B"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
-   "reason": "scored 16, below tier B"
-  },
-  {
    "company": "Teledyne FLIR",
    "title": "EADSIM MBSE Intern (Summer 2027)",
    "location": "US - Huntsville, AL",
@@ -26141,14 +26989,14 @@
   {
    "company": "Type One Energy",
    "title": "Summer Internship - Systems Engineer",
-   "location": "Madison, WI",
+   "location": "Knoxville, TN",
    "url": "https://ats.rippling.com/type-one-energy-group/jobs/7bc8e29f-a367-4f5a-9c8f-f9c5a737267b",
    "reason": "scored 22, below tier B"
   },
   {
    "company": "Type One Energy",
    "title": "Summer Internship - Systems Engineer",
-   "location": "Knoxville, TN",
+   "location": "Madison, WI",
    "url": "https://ats.rippling.com/type-one-energy-group/jobs/7bc8e29f-a367-4f5a-9c8f-f9c5a737267b",
    "reason": "scored 22, below tier B"
   },
