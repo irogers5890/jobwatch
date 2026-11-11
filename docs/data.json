@@ -1,13 +1,18 @@
 {
- "generated": "2026-11-10T23:37:59+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42924943099",
- "scanned": 34824,
+ "generated": "2026-11-10T23:58:00+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42925779630",
+ "scanned": 34758,
  "boards": 320,
  "errors": [
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429"
   },
   {
    "company": "NXP Semiconductors",
@@ -23,11 +28,11 @@
  "dropped": {
   "non-ME discipline": 786,
   "degree-level blocker": 8,
-  "below threshold": 511,
-  "no Summer/Fall 2027": 5416,
+  "below threshold": 510,
+  "no Summer/Fall 2027": 5345,
   "no mechanical signal": 227,
   "off-target season in title": 310,
-  "not a student req": 27161
+  "not a student req": 27167
  },
  "jobs": [
   {
@@ -4936,6 +4941,66 @@
    "first_seen": "2026-11-03T02:29:18+00:00"
   },
   {
+   "id": "wd:philips:592938",
+   "title": "Intern \u2013Systems Engineering, Oral Healthcare \u2013 Bothell, WA \u2013 Summer 2027",
+   "location": "Bothell, Washington, United States",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/Intern--Systems-Engineering--Oral-Healthcare---Bothell--WA---Summer-2027_592938",
+   "posted": "2026-11-10",
+   "body": "Job Title Intern \u2013Systems Engineering, Oral Healthcare \u2013 Bothell, WA \u2013 Summer 2027 Job Description Intern \u2013Systems Engineering, Oral Healthcare \u2013 Bothell, WA \u2013 Summer 2027 Are you interested in an internship contributing to continuous innovation in the oral healthcare industry? Philips seeks an intern for Oral Healthcare Systems Engineering. We advocate for our customers across the entire ecosystem of products, services, and digital experiences. We welcome individuals who are currently pursuing an undergraduate (BS) or graduate (MS) degree to participate in a 3 month paid internship at our site in Bothell, WA. Your role This individual will contribute to the design and development of our next generation power toothbrush, interdental flossers, and/or whitening products. This includes requirement management, prototype testing, and test method development. You will have the opportunity to partner with a cross-functional team while learning about the full product development lifecycle, design controls, and risk management. Including: requirement management, concept generation and optimization, creation and validation of test methods, Product verification, Statistical data analysis, technical risk management, product reliability You\u2019re the right fit if: Actively pursuing a bachelor\u2019s or master\u2019s degree in a relevant engineering field (e.g., mechanical, biomedical, electrical, or related STEM area) Awareness of and interest in product design concepts and methodologies Strong analytical and problem-solving skills Excellent communication and collaboration abilities Strong interest in learning You must be able to successfully perform the following minimum Physical, Cognitive and Environmental job requirements with or without accommodation for this position. In addition, the following qualifications are a plus: experience with statistical tools (e.g. Design of Experiments, Gauge R&R, Monte Carlo), experience with programming languages, such as Python, MATLAB, LabVIEW, familiarity and interest in oral healthcare If you\u2019re interested in this role and have many, but not all, of the experiences needed, we encourage you to apply. You may still be the right candidate for this or other opportunities at Philips. Learn more about our commitment to diversity and inclusion here . How we work together We believe that we are better together than apart. For our office-based teams, this means working in-person at least 3 days per week. Onsite roles require full-time presence in the company\u2019s facilities. Field roles are most effectively done outside of the company\u2019s main facilities, generally at the customers\u2019 or suppliers\u2019 locations. This is an office role. About Philips We are a health technology company. We built our entire company around the belief that every human matters, and we won't stop until everybody everywhere has access to the quality healthcare that we all deserve. Do the work of your life to help improve the lives of others. Learn more about our business . Discover our rich and exciting history. Learn more about our purpose. Learn more about our culture. Philips Transparency Details The hourly pay range for this position is $29.00 to $32.00, plus overtime eligible. The actual base pay offered may vary within the posted ranges depending on multiple factors including job-related knowledge/skills, experience, business needs, geographical location, and internal equity. Details about our benefits can be found here . At Philips, it is not typical for an individual to be hired at or near the top end of the range for their role and compensation decisions are dependent upon the facts and circumstances of each case. Additional Information US work authorization is a precondition of employment. The company will not consider candidates who require sponsorship for a work-authorized visa, now or in the future. Company relocation benefits will not be provided for this position. For this position, you must reside in or within commuting distance to Bothell, WA. This requisition is expected to stay active for 45 days but may close earlier if a successful candidate is selected or business necessity dictates. Interested candidates are encouraged to apply as soon as possible to ensure consideration. Philips is an Equal Employment and Opportunity Employer including Disability/Vets and maintains a drug-free workplace.",
+   "company": "Philips",
+   "score": {
+    "total": 58,
+    "base": 46,
+    "fit": 35,
+    "loc": 0,
+    "traj": 11,
+    "pay": 0,
+    "rate": [
+     29.0,
+     32.0
+    ],
+    "fresh": 12,
+    "age": 1.0,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: design of experiments",
+      6
+     ],
+     [
+      "body: product design",
+      6
+     ],
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "body: prototype",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: matlab",
+      2
+     ]
+    ]
+   },
+   "first_seen": "2026-11-10T23:58:00+00:00"
+  },
+  {
    "id": "wd:globalhr:01884905",
    "title": "Manufacturing Engineering Intern (Summer 2027)",
    "location": "US-OH-TROY-101 ~ 101 Waco St ~ WACO",
@@ -6768,46 +6833,6 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
-   "id": "ef:microsoft.com:200060962",
-   "title": "Researcher Intern, CoreAI",
-   "location": "Redmond, WA, US; Mountain View, CA, US",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027387",
-   "posted": "2026-11-02",
-   "body": "Overview The Code|AI team leads applied research and data science for GitHub Copilot and VS Code, working on the future of AI for developers. We are a diverse, entrepreneurial, and multi-disciplinary group of scientists, researchers, and engineers with a passion for using AI to improve the productivity of millions of developers around the world. We have released AI for code advancements in Github Copilot, VS Code, Visual Studio and Copilot extensions in other IDEs. Our team focuses on post-training code specific models like code completion, code embedding models and agentic research for Copilot Coding Agent, Copilot CLI and Copilot Code Review. We embrace open source and continue to share our research and work with the developer and research communities to advance AI in Developer tools. We are seeking entrepreneurial and creative Applied Researcher Interns to lead groundbreaking research projects, taking these from research into product. You will collaborate with scientists, engineers, and designers across Microsoft Research, Microsoft product teams, and Github. You will have an opportunity to build and train state-of-the-art models, and opportunities to both apply and advance existing approaches of using LLMs for software engineering, from using RAG to evaluation. Most importantly, you will have an opportunity to work closely with several developer product teams to run experiments, evaluate, iterate, and improve your AI projects on a large scale. Microsoft\u2019s mission is to empower every person and every organization on the planet to achieve more. As employees, we come together with a growth mindset, innovate to empower others and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. This is for a Summer 2027 Internship. #Code|AI #CoreAI #EiP Responsibilities Contributes to projects on the future of AI for developers. Collaborates across disciplines with product teams across Microsoft and Github. Stays up to date with the research literature and product advances in AI for software engineering. Creates new datasets from both the world's public code and Microsoft's internal data. Builds and manages large-scale ML experiments and models. Embodies our Culture and Values Qualifications Required qualifications Currently enrolled in a Doctorate Degree program in a relevant field. Must be enrolled in a Doctorate Degree program in a relevant field for the role during the academic term immediately before the internship. Must have at least one additional quarter/semester of a Doctorate Degree program program in area relevant for the role remaining following the completion of the internship. Additional Qualifications: 1+ year(s) experience in Calculus, Probability and Statistics and/or Machine Learning. 1+ year(s) experience in one or more general purpose programming languages including: C/C++, Java, R or Python, and domain relevant libraries and frameworks (e.g., PyTorch). 1+ year(s) experience (classroom or work related) in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, etc. The base pay range for this internship is USD $5,690.00 - $11,210.00 per month. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $7,410.00 - $12,250.00 per month. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-intern-pay Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April) This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
-   "company": "Microsoft",
-   "score": {
-    "total": 53,
-    "base": 47,
-    "fit": 8,
-    "loc": 8,
-    "traj": 19,
-    "pay": 12,
-    "rate": [
-     32.89,
-     70.81
-    ],
-    "fresh": 6,
-    "age": 9.0,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $52/hr",
-      12
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: computer vision",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-10-15T09:17:02+00:00"
   },
   {
    "id": "gh:muonspace:5256286007",
@@ -21428,20 +21453,6 @@
   },
   {
    "company": "BAE Systems",
-   "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
-   "location": "Nashua, New Hampshire, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131674BR",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "BAE Systems",
-   "title": "Industrial Engineering Intern III (Summer 2027) - Greenlawn, NY",
-   "location": "Greenlawn, New York, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131950BR",
-   "reason": "scored 21, below tier B"
-  },
-  {
-   "company": "BAE Systems",
    "title": "M&S Engineering Intern, Summer 2027",
    "location": "Rockville, Maryland, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131309BR",
@@ -21534,16 +21545,16 @@
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
-   "reason": "scored 23, below tier B"
+   "location": "Fairborn, Ohio, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
+   "reason": "scored 20, below tier B"
   },
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Fairborn, Ohio, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
-   "reason": "scored 20, below tier B"
+   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
+   "reason": "scored 23, below tier B"
   },
   {
    "company": "BAE Systems",
@@ -24371,6 +24382,13 @@
    "title": "Systems Engineer Intern - Summer 2027",
    "location": "King of Prussia, PA, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477472821",
+   "reason": "scored 15, below tier B"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "Systems Engineering - Intern",
+   "location": "Palmdale, CA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477806176",
    "reason": "scored 15, below tier B"
   },
   {
