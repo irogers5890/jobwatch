@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-11T13:45:26+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43031987747",
- "scanned": 34792,
+ "generated": "2026-11-11T14:05:29+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43035108518",
+ "scanned": 34711,
  "boards": 320,
  "errors": [
   {
@@ -10,24 +10,24 @@
    "error": "HTTP 404 \u2014 check slug/tenant/site"
   },
   {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429"
+  },
+  {
    "company": "NXP Semiconductors",
    "board": "workday",
    "error": "HTTP 422 \u2014 check slug/tenant/site"
-  },
-  {
-   "company": "Tektronix",
-   "board": "eightfold",
-   "error": "HTTP 403 \u2014 check slug/tenant/site"
   }
  ],
  "dropped": {
-  "non-ME discipline": 771,
+  "non-ME discipline": 768,
   "degree-level blocker": 8,
-  "below threshold": 501,
-  "no Summer/Fall 2027": 5392,
+  "below threshold": 504,
+  "no Summer/Fall 2027": 5322,
   "no mechanical signal": 227,
   "off-target season in title": 309,
-  "not a student req": 27185
+  "not a student req": 27178
  },
  "jobs": [
   {
@@ -6460,46 +6460,6 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
-   "id": "ef:microsoft.com:200060962",
-   "title": "Researcher Intern, CoreAI",
-   "location": "Redmond, WA, US; Mountain View, CA, US",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557027387",
-   "posted": "2026-11-02",
-   "body": "Overview The Code|AI team leads applied research and data science for GitHub Copilot and VS Code, working on the future of AI for developers. We are a diverse, entrepreneurial, and multi-disciplinary group of scientists, researchers, and engineers with a passion for using AI to improve the productivity of millions of developers around the world. We have released AI for code advancements in Github Copilot, VS Code, Visual Studio and Copilot extensions in other IDEs. Our team focuses on post-training code specific models like code completion, code embedding models and agentic research for Copilot Coding Agent, Copilot CLI and Copilot Code Review. We embrace open source and continue to share our research and work with the developer and research communities to advance AI in Developer tools. We are seeking entrepreneurial and creative Applied Researcher Interns to lead groundbreaking research projects, taking these from research into product. You will collaborate with scientists, engineers, and designers across Microsoft Research, Microsoft product teams, and Github. You will have an opportunity to build and train state-of-the-art models, and opportunities to both apply and advance existing approaches of using LLMs for software engineering, from using RAG to evaluation. Most importantly, you will have an opportunity to work closely with several developer product teams to run experiments, evaluate, iterate, and improve your AI projects on a large scale. Microsoft\u2019s mission is to empower every person and every organization on the planet to achieve more. As employees, we come together with a growth mindset, innovate to empower others and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. This is for a Summer 2027 Internship. #Code|AI #CoreAI #EiP Responsibilities Contributes to projects on the future of AI for developers. Collaborates across disciplines with product teams across Microsoft and Github. Stays up to date with the research literature and product advances in AI for software engineering. Creates new datasets from both the world's public code and Microsoft's internal data. Builds and manages large-scale ML experiments and models. Embodies our Culture and Values Qualifications Required qualifications Currently enrolled in a Doctorate Degree program in a relevant field. Must be enrolled in a Doctorate Degree program in a relevant field for the role during the academic term immediately before the internship. Must have at least one additional quarter/semester of a Doctorate Degree program program in area relevant for the role remaining following the completion of the internship. Additional Qualifications: 1+ year(s) experience in Calculus, Probability and Statistics and/or Machine Learning. 1+ year(s) experience in one or more general purpose programming languages including: C/C++, Java, R or Python, and domain relevant libraries and frameworks (e.g., PyTorch). 1+ year(s) experience (classroom or work related) in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, etc. The base pay range for this internship is USD $5,690.00 - $11,210.00 per month. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $7,410.00 - $12,250.00 per month. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-intern-pay Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April) This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
-   "company": "Microsoft",
-   "score": {
-    "total": 53,
-    "base": 47,
-    "fit": 8,
-    "loc": 8,
-    "traj": 19,
-    "pay": 12,
-    "rate": [
-     32.89,
-     70.81
-    ],
-    "fresh": 6,
-    "age": 9.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $52/hr",
-      12
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: computer vision",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-10-15T09:17:02+00:00"
   },
   {
    "id": "gh:muonspace:5256286007",
@@ -13777,66 +13737,6 @@
    "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
-   "id": "jb:careers.amd.com:90379",
-   "title": "Summer 2027 Long Term Hardware Design Verification Engineering Intern/Co-Op",
-   "location": "MARKHAM, Canada",
-   "url": "https://careers.amd.com/careers-home/jobs/90379",
-   "posted": "2026-09-01",
-   "body": "ADVANCE YOUR CAREER. ADVANCE THE WORLD. At AMD, we believe technology can change lives for the better. It can heal us, entertain us, and make us more connected, productive, and understanding of the world around us. And we\u2019re looking for talent who feel the same: people who want to leave the planet better than they found it, those who don\u2019t shy away from humanity\u2019s challenges but are determined to help solve them. AMD is powering the next generation of supercomputing, high-performance computing, cloud, and AI. Whether you\u2019re designing next-gen processors, enabling AI breakthroughs, or creating go-to-market plans, every role at AMD contributes to something bigger \u2014 technology that moves the world forward. As an AMD intern, you\u2019ll be placed at the epicenter of the AI ecosystem, working alongside experts and industry pioneers. You\u2019ll do important work, learn new skills, expand your network, and gain real-world experience on projects that impact millions of end-users worldwide. Whether you\u2019re an undergrad or a PhD student, your contributions matter\u2014and your experience here will be a launchpad for what comes next. JOB DETAILS: Location: Markham, Ontario, Canada Onsite/Hybrid: This role requires the student to work full time 37.5 hrs a week, in a onsite work structure throughout the duration of the co-op/intern term. Duration: 12 Months: May 03, 2027 to April 21, 2028 16 Months: May 03, 2027 to August 18, 2028 WHAT YOU WILL BE DOING: We are seeking a highly motivated Hardware Design Verification Engineering intern/co-op to join our team and support the testing and verification of AMD\u2019s high-end Machine Intelligence products. In this role you will participate in one or more of (but not limited to) the below assignments \u2013 Collaborate with senior engineers and/or designers to build and complete performance verification test plan, simulation test cases and models Write scripts related to tracking and managing resources using Perl/Python We will assign tasks related to test regression flows written in Perl/Python/MySQL/PHP to support our project development You will review new tools, processes and options to improve simulation performance, team efficiency and reduction of duplications Support debugging, improving simulation test cases/models and Verilog/system Verilog coding Build test platforms and perform system level testing Production validation tasks, testing the integrated hardware and software functionalities to ensure problem-free production WHO WE ARE LOOKING FOR: Currently enrolled in a Canada based University into a Bachelor's degree program majoring in Electrical engineering, Computer science, Computer engineering or a related field. If you have experience with any of the following technical skills (or related areas) and are enthusiastic about this role, we strongly encourage you to apply \u2013 Programming languages and scripts such as C++ /Python /C /Perl /Shell / UVM Verilog and System Verilog Good understanding of the digital systems and computer organization Building a PC from individual components, installing OS/drivers, basic network configuration, graphic cards CPU/APU System level hardware and software design Development and debugging in Linux / Unix / Windows environments Fundamentals of logic design (FSM, gates, registers, flops, timing, HDL) An understanding of analog and digital transistor device behavior Note: By submitting your application, you are indicating your interest in AMD intern positions. We are recruiting for multiple positions, and if your experience aligns with any of our intern opportunities, a recruiter will contact you. Candidates must hold a valid work authorization to be considered for this role. Benefits offered are described: AMD benefits at a glance. AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants\u2019 needs under the respective laws throughout all stages of the recruitment and selection process. AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD\u2019s \u201cResponsible AI Policy\u201d is available here. This posting is for an existing vacancy. As an AMD intern, you\u2019ll be placed at the epicenter of the AI ecosystem, working alongside experts and industry pioneers. You\u2019ll do important work, learn new skills, expand your network, and gain real-world experience on projects that impact millions of end-users worldwide. Whether you\u2019re an undergrad or a PhD student, your contributions matter\u2014and your experience here will be a launchpad for what comes next. JOB DETAILS: Location: Markham, Ontario, Canada Onsite/Hybrid: This role requires the student to work full time 37.5 hrs a week, in a onsite work structure throughout the duration of the co-op/intern term. Duration: 12 Months: May 03, 2027 to April 21, 2028 16 Months: May 03, 2027 to August 18, 2028 WHAT YOU WILL BE DOING: We are seeking a highly motivated Hardware Design Verification Engineering intern/co-op to join our team and support the testing and verification of AMD\u2019s high-end Machine Intelligence products. In this role you will participate in one or more of (but not limited to) the below assignments \u2013 Collaborate with senior engineers and/or designers to build and complete performance verification test plan, simulation test cases and models Write scripts related to tracking and managing resources using Perl/Python We will assign tasks related to test regression flows written in Perl/Python/MySQL/PHP to support our project development You will review new tools, processes and options to improve simulation performance, team efficiency and reduction of duplications Support debugging, improving simulation test cases/models and Verilog/system Verilog coding Build test platforms and perform system level testing Production validation tasks, testing the integrated hardware and software functionalities to ensure problem-free production WHO WE ARE LOOKING FOR: Currently enrolled in a Canada based University into a Bachelor's degree program majoring in Electrical engineering, Computer science, Computer engineering or a related field. If you have experience with any of the following technical skills (or related areas) and are enthusiastic about this role, we strongly encourage you to apply \u2013 Programming languages and scripts such as C++ /Python /C /Perl /Shell / UVM Verilog and System Verilog Good understanding of the digital systems and computer organization Building a PC from individual components, installing OS/drivers, basic network configuration, graphic cards CPU/APU System level hardware and software design Development and debugging in Linux / Unix / Windows environments Fundamentals of logic design (FSM, gates, registers, flops, timing, HDL) An understanding of analog and digital transistor device behavior Note: By submitting your application, you are indicating your interest in AMD intern positions. We are recruiting for multiple positions, and if your experience aligns with any of our intern opportunities, a recruiter will contact you. Candidates must hold a valid work authorization to be considered for this role. Benefits offered are described: AMD benefits at a glance. AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants\u2019 needs under the respective laws throughout all stages of the recruitment and selection process. AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD\u2019s \u201cResponsible AI Policy\u201d is available here. This posting is for an existing vacancy. Pay: CAD $0.00/Yr. CAD $0.00/Yr. CAD $51,000.00/Yr. CAD $70,000.00/Yr.",
-   "company": "AMD",
-   "score": {
-    "total": 39,
-    "base": 47,
-    "fit": 36,
-    "loc": 0,
-    "traj": 17,
-    "pay": -6,
-    "rate": [
-     17.65,
-     24.23
-    ],
-    "fresh": -8,
-    "age": 71.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: hardware",
-      8
-     ],
-     [
-      "title: verification",
-      7
-     ],
-     [
-      "body: test plan",
-      6
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "pay $21/hr",
-      -6
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
    "id": "wd:amat:R2627698",
    "title": "Summer 2027 Supplier Engineer Intern- Bachelor's (Chandler, AZ)",
    "location": "Chandler,AZ; Tempe,AZ; Phoenix,AZ",
@@ -15953,110 +15853,6 @@
     ]
    },
    "first_seen": "2026-10-19T21:39:01+00:00"
-  },
-  {
-   "id": "jb:careers.amd.com:90367",
-   "title": "Summer 2027 Long Term Hardware Design Engineering Intern/Co-Op",
-   "location": "MARKHAM, Canada",
-   "url": "https://careers.amd.com/careers-home/jobs/90367",
-   "posted": "2026-09-01",
-   "body": "ADVANCE YOUR CAREER. ADVANCE THE WORLD. At AMD, we believe technology can change lives for the better. It can heal us, entertain us, and make us more connected, productive, and understanding of the world around us. And we\u2019re looking for talent who feel the same: people who want to leave the planet better than they found it, those who don\u2019t shy away from humanity\u2019s challenges but are determined to help solve them. AMD is powering the next generation of supercomputing, high-performance computing, cloud, and AI. Whether you\u2019re designing next-gen processors, enabling AI breakthroughs, or creating go-to-market plans, every role at AMD contributes to something bigger \u2014 technology that moves the world forward. As an AMD intern, you\u2019ll be placed at the epicenter of the AI ecosystem, working alongside experts and industry pioneers. You\u2019ll do important work, learn new skills, expand your network, and gain real-world experience on projects that impact millions of end-users worldwide. Whether you\u2019re an undergrad or a PhD student, your contributions matter\u2014and your experience here will be a launchpad for what comes next. JOB DETAILS: Location: Markham, Ontario, Canada Onsite/Hybrid: This role requires the student to work full time 37.5 hrs a week, in a onsite work structure throughout the duration of the co-op/intern term. Duration: 12 Months: May 03, 2027 to April 21, 2028 16 Months: May 03, 2027 to August 18, 2028 WHAT YOU WILL BE DOING: We are seeking a highly motivated Hardware Design engineering intern/co-op to join our team and work towards design, built, and delivery of AMD\u2019s high-end Machine Intelligence products. In this role you will participate in one or more of (but not limited to) the below assignments \u2013 Collaborate with Design Engineers and mentors on the physical design verification and physical implementation for some of our ASICs Participate in RTL design in Verilog Synthesis with timing driven placement and design for power (DFP) Floorplanning, Power distribution, Clock distribution, Block/Chip Place & Route, EM/IR analysis, Timing closure, Static Timing Analysis Some other tasks that we may assign you will include analysis of logical equivalent check (LEC), RTL clocking analysis, static power analysis, and design for test (DFT) WHO WE ARE LOOKING FOR: You are currently enrolled in a Canada based University in a bachelor's degree program majoring in Electrical engineering or Computer engineering or a related field. If you have knowledge / experience with any of the following technical skills (or related areas) and are enthusiastic about this role, we strongly encourage you to apply \u2013 o Semiconductor device physics knowledge. o Digital /Logic circuits and VLSI o Verilog or VHDL hardware description languages proficiency o Scripting languages (e.g. Perl, TCL), Shell / UNIX scripting, C/C++. o ASIC design o Linux/Unix environment o Physical design (PD) process o Chip level design/integration activities and DFT Note: By submitting your application, you are indicating your interest in AMD intern positions. We are recruiting for multiple positions, and if your experience aligns with any of our intern opportunities, a recruiter will contact you Candidates must hold a valid work authorization to be considered for this role. Benefits offered are described: AMD benefits at a glance. AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants\u2019 needs under the respective laws throughout all stages of the recruitment and selection process. AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD\u2019s \u201cResponsible AI Policy\u201d is available here. This posting is for an existing vacancy. As an AMD intern, you\u2019ll be placed at the epicenter of the AI ecosystem, working alongside experts and industry pioneers. You\u2019ll do important work, learn new skills, expand your network, and gain real-world experience on projects that impact millions of end-users worldwide. Whether you\u2019re an undergrad or a PhD student, your contributions matter\u2014and your experience here will be a launchpad for what comes next. JOB DETAILS: Location: Markham, Ontario, Canada Onsite/Hybrid: This role requires the student to work full time 37.5 hrs a week, in a onsite work structure throughout the duration of the co-op/intern term. Duration: 12 Months: May 03, 2027 to April 21, 2028 16 Months: May 03, 2027 to August 18, 2028 WHAT YOU WILL BE DOING: We are seeking a highly motivated Hardware Design engineering intern/co-op to join our team and work towards design, built, and delivery of AMD\u2019s high-end Machine Intelligence products. In this role you will participate in one or more of (but not limited to) the below assignments \u2013 Collaborate with Design Engineers and mentors on the physical design verification and physical implementation for some of our ASICs Participate in RTL design in Verilog Synthesis with timing driven placement and design for power (DFP) Floorplanning, Power distribution, Clock distribution, Block/Chip Place & Route, EM/IR analysis, Timing closure, Static Timing Analysis Some other tasks that we may assign you will include analysis of logical equivalent check (LEC), RTL clocking analysis, static power analysis, and design for test (DFT) WHO WE ARE LOOKING FOR: You are currently enrolled in a Canada based University in a bachelor's degree program majoring in Electrical engineering or Computer engineering or a related field. If you have knowledge / experience with any of the following technical skills (or related areas) and are enthusiastic about this role, we strongly encourage you to apply \u2013 o Semiconductor device physics knowledge. o Digital /Logic circuits and VLSI o Verilog or VHDL hardware description languages proficiency o Scripting languages (e.g. Perl, TCL), Shell / UNIX scripting, C/C++. o ASIC design o Linux/Unix environment o Physical design (PD) process o Chip level design/integration activities and DFT Note: By submitting your application, you are indicating your interest in AMD intern positions. We are recruiting for multiple positions, and if your experience aligns with any of our intern opportunities, a recruiter will contact you Candidates must hold a valid work authorization to be considered for this role. Benefits offered are described: AMD benefits at a glance. AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants\u2019 needs under the respective laws throughout all stages of the recruitment and selection process. AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD\u2019s \u201cResponsible AI Policy\u201d is available here. This posting is for an existing vacancy. Pay: CAD $0.00/Yr. CAD $0.00/Yr. CAD $51,000.00/Yr. CAD $70,000.00/Yr.",
-   "company": "AMD",
-   "score": {
-    "total": 34,
-    "base": 42,
-    "fit": 31,
-    "loc": 0,
-    "traj": 17,
-    "pay": -6,
-    "rate": [
-     17.65,
-     24.23
-    ],
-    "fresh": -8,
-    "age": 71.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: design engineer",
-      12
-     ],
-     [
-      "title: hardware",
-      8
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "pay $21/hr",
-      -6
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
-   "id": "jb:careers.amd.com:90372",
-   "title": "Summer 2027 Long Term Hardware Design Engineering Intern/Co-Op",
-   "location": "VANCOUVER, Canada",
-   "url": "https://careers.amd.com/careers-home/jobs/90372",
-   "posted": "2026-09-01",
-   "body": "ADVANCE YOUR CAREER. ADVANCE THE WORLD. At AMD, we believe technology can change lives for the better. It can heal us, entertain us, and make us more connected, productive, and understanding of the world around us. And we\u2019re looking for talent who feel the same: people who want to leave the planet better than they found it, those who don\u2019t shy away from humanity\u2019s challenges but are determined to help solve them. AMD is powering the next generation of supercomputing, high-performance computing, cloud, and AI. Whether you\u2019re designing next-gen processors, enabling AI breakthroughs, or creating go-to-market plans, every role at AMD contributes to something bigger \u2014 technology that moves the world forward. As an AMD intern, you\u2019ll be placed at the epicenter of the AI ecosystem, working alongside experts and industry pioneers. You\u2019ll do important work, learn new skills, expand your network, and gain real-world experience on projects that impact millions of end-users worldwide. Whether you\u2019re an undergrad or a PhD student, your contributions matter\u2014and your experience here will be a launchpad for what comes next. JOB DETAILS: Location: Vancouver, British Columbia, Canada Onsite/Hybrid: This role requires the student to work full time 37.5 hrs a week, in a onsite work structure throughout the duration of the co-op/intern term. Duration: 12 Months: May 03, 2027 to April 21, 2028 16 Months: May 03, 2027 to August 18, 2028 WHAT YOU WILL BE DOING: We are seeking a highly motivated Hardware Design engineering intern/co-op to join our team and work towards design, built, and delivery of AMD\u2019s high-end Machine Intelligence products. In this role you will participate in one or more of (but not limited to) the below assignments \u2013 Collaborate with Design Engineers and mentors on the physical design verification and physical implementation for some of our ASICs Participate in RTL design in Verilog Synthesis with timing driven placement and design for power (DFP) Floor planning, Power distribution, Clock distribution, Block/Chip Place & Route, EM/IR analysis, Timing closure, Static Timing Analysis Some other tasks that we may assign you will include analysis of logical equivalent check (LEC), RTL clocking analysis, static power analysis, and design for test (DFT) WHO WE ARE LOOKING FOR: You are currently enrolled in a Canada based University in a bachelor's degree program majoring in Electrical engineering or Computer engineering or a related field. If you have knowledge / experience with any of the following technical skills (or related areas) and are enthusiastic about this role, we strongly encourage you to apply \u2013 o Semiconductor device physics knowledge. o Digital /Logic circuits and VLSI o Verilog or VHDL hardware description languages proficiency o Scripting languages (e.g. Perl, TCL), Shell / UNIX scripting, C/C++. o ASIC design o Linux/Unix environment o Physical design (PD) process o Chip level design/integration activities and DFT Note: By submitting your application, you are indicating your interest in AMD intern positions. We are recruiting for multiple positions, and if your experience aligns with any of our intern opportunities, a recruiter will contact you Candidates must hold a valid work authorization to be considered for this role. Benefits offered are described: AMD benefits at a glance. AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants\u2019 needs under the respective laws throughout all stages of the recruitment and selection process. AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD\u2019s \u201cResponsible AI Policy\u201d is available here. This posting is for an existing vacancy. As an AMD intern, you\u2019ll be placed at the epicenter of the AI ecosystem, working alongside experts and industry pioneers. You\u2019ll do important work, learn new skills, expand your network, and gain real-world experience on projects that impact millions of end-users worldwide. Whether you\u2019re an undergrad or a PhD student, your contributions matter\u2014and your experience here will be a launchpad for what comes next. JOB DETAILS: Location: Vancouver, British Columbia, Canada Onsite/Hybrid: This role requires the student to work full time 37.5 hrs a week, in a onsite work structure throughout the duration of the co-op/intern term. Duration: 12 Months: May 03, 2027 to April 21, 2028 16 Months: May 03, 2027 to August 18, 2028 WHAT YOU WILL BE DOING: We are seeking a highly motivated Hardware Design engineering intern/co-op to join our team and work towards design, built, and delivery of AMD\u2019s high-end Machine Intelligence products. In this role you will participate in one or more of (but not limited to) the below assignments \u2013 Collaborate with Design Engineers and mentors on the physical design verification and physical implementation for some of our ASICs Participate in RTL design in Verilog Synthesis with timing driven placement and design for power (DFP) Floor planning, Power distribution, Clock distribution, Block/Chip Place & Route, EM/IR analysis, Timing closure, Static Timing Analysis Some other tasks that we may assign you will include analysis of logical equivalent check (LEC), RTL clocking analysis, static power analysis, and design for test (DFT) WHO WE ARE LOOKING FOR: You are currently enrolled in a Canada based University in a bachelor's degree program majoring in Electrical engineering or Computer engineering or a related field. If you have knowledge / experience with any of the following technical skills (or related areas) and are enthusiastic about this role, we strongly encourage you to apply \u2013 o Semiconductor device physics knowledge. o Digital /Logic circuits and VLSI o Verilog or VHDL hardware description languages proficiency o Scripting languages (e.g. Perl, TCL), Shell / UNIX scripting, C/C++. o ASIC design o Linux/Unix environment o Physical design (PD) process o Chip level design/integration activities and DFT Note: By submitting your application, you are indicating your interest in AMD intern positions. We are recruiting for multiple positions, and if your experience aligns with any of our intern opportunities, a recruiter will contact you Candidates must hold a valid work authorization to be considered for this role. Benefits offered are described: AMD benefits at a glance. AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants\u2019 needs under the respective laws throughout all stages of the recruitment and selection process. AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD\u2019s \u201cResponsible AI Policy\u201d is available here. This posting is for an existing vacancy. Pay: CAD $0.00/Yr. CAD $0.00/Yr. CAD $51,000.00/Yr. CAD $70,000.00/Yr.",
-   "company": "AMD",
-   "score": {
-    "total": 34,
-    "base": 42,
-    "fit": 31,
-    "loc": 0,
-    "traj": 17,
-    "pay": -6,
-    "rate": [
-     17.65,
-     24.23
-    ],
-    "fresh": -8,
-    "age": 71.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: design engineer",
-      12
-     ],
-     [
-      "title: hardware",
-      8
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "pay $21/hr",
-      -6
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
    "id": "gh:astranis:4704820006",
@@ -20335,41 +20131,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "AMD",
-   "title": "Summer 2027 Long Term Machine Learning/Artificial Intelligence Intern/Co-Op",
-   "location": "MARKHAM, Canada",
-   "url": "https://careers.amd.com/careers-home/jobs/90383",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "AMD",
-   "title": "Summer 2027 Long Term Product Management Intern/Co-Op",
-   "location": "CALGARY, Canada",
-   "url": "https://careers.amd.com/careers-home/jobs/90411",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "AMD",
-   "title": "Summer 2027 Long Term Program Management Intern/Co-Op",
-   "location": "MARKHAM, Canada",
-   "url": "https://careers.amd.com/careers-home/jobs/90414",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "AMD",
-   "title": "Summer 2027 Long Term Software Engineering Intern/Co-op",
-   "location": "MARKHAM, Canada",
-   "url": "https://careers.amd.com/careers-home/jobs/90425",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "AMD",
-   "title": "Summer 2027 Long Term Software Test Engineering Intern/Co-Op",
-   "location": "MARKHAM, Canada",
-   "url": "https://careers.amd.com/careers-home/jobs/90429",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Abbott",
    "title": "Abbott Nutrition Consumer Sales Internship Summer 2027",
    "location": "United States - Ohio - Columbus; United States - Ohio - Cincinnati; United States - Minnesota - Minneapolis; United States - Minnesota - Rogers",
@@ -21971,6 +21732,13 @@
    "location": "Sumter, SC, US",
    "url": "https://eaton.eightfold.ai/careers/job/687239185228",
    "reason": "scored 26, below tier B"
+  },
+  {
+   "company": "Eaton",
+   "title": "Manufacturing Engineer Internship (Summer 2027)",
+   "location": "Calverton, MD, US",
+   "url": "https://eaton.eightfold.ai/careers/job/687240115170",
+   "reason": "scored 24, below tier B"
   },
   {
    "company": "Emerson",
@@ -23824,13 +23592,6 @@
    "company": "Lockheed Martin",
    "title": "DevSecOps Engineering Intern - Summer 2027",
    "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477564738",
-   "reason": "scored 26, below tier B"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "DevSecOps Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477595000",
    "reason": "scored 18, below tier B"
   },
@@ -23866,14 +23627,14 @@
    "company": "Lockheed Martin",
    "title": "Mechanical Test Engineer-INTERN",
    "location": "Cape Canaveral, FL, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635668",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635652",
    "reason": "scored 29, below tier B"
   },
   {
    "company": "Lockheed Martin",
    "title": "Mechanical Test Engineer-INTERN",
    "location": "Cape Canaveral, FL, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635652",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477635668",
    "reason": "scored 29, below tier B"
   },
   {
@@ -26402,6 +26163,27 @@
    "location": "USA Wilmington,  MA - HQ",
    "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Buyer_R8448",
    "reason": "no mechanical signal"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
+   "reason": "scored 16, below tier B"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
+   "reason": "scored 16, below tier B"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
+   "reason": "scored 16, below tier B"
   },
   {
    "company": "Teledyne FLIR",
