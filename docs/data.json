@@ -1,13 +1,18 @@
 {
- "generated": "2026-11-11T03:06:09+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42950308335",
- "scanned": 34760,
+ "generated": "2026-11-11T03:24:55+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/42952586774",
+ "scanned": 34731,
  "boards": 320,
  "errors": [
   {
    "company": "Carbon",
    "board": "greenhouse",
    "error": "HTTP 404 \u2014 check slug/tenant/site"
+  },
+  {
+   "company": "Insulet",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 429"
   },
   {
    "company": "Microsoft",
@@ -26,13 +31,13 @@
   }
  ],
  "dropped": {
-  "non-ME discipline": 781,
+  "non-ME discipline": 780,
   "degree-level blocker": 8,
-  "below threshold": 511,
-  "no Summer/Fall 2027": 5341,
+  "below threshold": 510,
+  "no Summer/Fall 2027": 5312,
   "no mechanical signal": 227,
   "off-target season in title": 309,
-  "not a student req": 27180
+  "not a student req": 27182
  },
  "jobs": [
   {
@@ -21328,13 +21333,6 @@
   },
   {
    "company": "BAE Systems",
-   "title": "Industrial Engineering Intern II, Summer 2027 - Austin, TX",
-   "location": "Austin, Texas, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/131671BR",
-   "reason": "scored 19, below tier B"
-  },
-  {
-   "company": "BAE Systems",
    "title": "Industrial Engineering Intern II, Summer 2027 - Nashua, NH",
    "location": "Nashua, New Hampshire, United States",
    "url": "https://jobs.baesystems.com/us/en/job/131670BR",
@@ -21448,16 +21446,16 @@
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Fairborn, Ohio, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
-   "reason": "scored 20, below tier B"
+   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
+   "reason": "scored 23, below tier B"
   },
   {
    "company": "BAE Systems",
    "title": "Space Systems - Mission Engineering Intern, Summer 2027",
-   "location": "Broomfield, Colorado, United States; Westminster, Colorado, United States; Boulder, Colorado, United States",
-   "url": "https://jobs.baesystems.com/us/en/job/132328BR",
-   "reason": "scored 23, below tier B"
+   "location": "Fairborn, Ohio, United States",
+   "url": "https://jobs.baesystems.com/us/en/job/132138BR",
+   "reason": "scored 20, below tier B"
   },
   {
    "company": "BAE Systems",
@@ -25879,6 +25877,13 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
+   "location": "Toronto, CAN",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990043003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
+   "title": "Electrical Engineering Intern Summer 2027",
    "location": "Pasadena, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
@@ -25888,13 +25893,6 @@
    "title": "Electrical Engineering Intern Summer 2027",
    "location": "Long Beach, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Toronto, CAN",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990043003",
    "reason": "non-ME discipline"
   },
   {
@@ -25928,16 +25926,16 @@
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Wallops Island, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
-   "reason": "scored 28, below tier B"
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
+   "reason": "scored 31, below tier B"
   },
   {
    "company": "Rocket Lab",
    "title": "Manufacturing Engineering Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7988835003",
-   "reason": "scored 31, below tier B"
+   "location": "Wallops Island, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996623003",
+   "reason": "scored 28, below tier B"
   },
   {
    "company": "Rocket Lab",
@@ -25963,22 +25961,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
    "location": "Middle River, MD",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
-   "location": "Wallops Island, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
    "reason": "non-ME discipline"
   },
   {
@@ -25990,9 +25974,23 @@
   },
   {
    "company": "Rocket Lab",
+   "title": "Security Analyst Intern Summer 2027",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
+   "title": "Security Analyst Intern Summer 2027",
+   "location": "Wallops Island, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
@@ -26005,8 +26003,8 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
