@@ -194,18 +194,44 @@ your career. Run `resolve.py` again and it probes only the new names.
 
 ## Ranking
 
-Four gates run before anything is scored: student req, Summer/Fall 2027 only,
-mechanical discipline, no PhD/MBA requirement. Then three weighted components:
+Four gates run before anything is scored:
+
+- **Student req.** The title says intern, internship, co-op, student or
+  undergraduate.
+- **Summer or Fall 2027.** Accepted however it is written: "Summer 2027",
+  "2027 Summer Intern", "Summer '27", "Summer/Fall 2027", "FY27 Intern",
+  "(May - Aug 2027)", "(June - Dec 2027)", "2027 Internship - ...". Spring and
+  winter terms, January-to-summer ranges, and 2025/2026/2028 terms are dropped.
+  A posting that names no term or year at all is kept if it went up after
+  2026-07-01, marked **term not stated** on the dashboard and docked 3 points.
+- **Mechanical discipline.** Titles naming another discipline (software,
+  electrical, RF, ASIC/FPGA/VLSI, silicon, design verification, finance, civil,
+  quant trading, ...) are dropped unless the title also says mechanical or
+  mechatronics, so "Hardware Engineering Intern (Mechanical & Electrical)" stays.
+  The posting also needs a mechanical word in its title or body.
+- **No PhD/MBA requirement.**
+
+Then the weighted components:
 
 | Component | Cap | What it measures |
 |---|---|---|
 | fit | 60 | title and body keywords from the resume and portfolio: test stands and fixtures, mechanisms and actuators, GD&T and tolerance stacks, P&IDs and leak testing, DFM/DFA, machine vision and hardware-software integration. Product design, mechanical design and hardware engineering titles weigh most because they lead to the best-paid full-time offers; quality and sustaining titles still count, at lower weight. Return or full-time offer language +10. Technician, inspector, operator and assembler titles are penalised, as are unpaid or for-credit roles |
 | pay | +15 / -6 | the undergrad pay the posting states, as USD per hour (annual / 2080, monthly / 173, CAD/EUR/GBP converted): +15 at $55/hr and up, +12 at $48, +9 at $42, +6 at $37, +3 at $33, 0 at $29, -3 at $25, -6 below. No stated pay scores 0; company-wide scales wider than 2.2x (Qualcomm's "$17 - $98") count as unstated |
-| location | 8 | Boston area and the Bay Area / Seattle tech hubs highest, NYC next, LA, San Diego and Austin after, remote negative |
+| location | 8 | Boston area and the Bay Area / Seattle tech hubs highest, NYC next, LA, San Diego and Austin after, remote -6, outside the US -8 (Canada -5). The best listed location wins, so "Boston; Bangalore" scores as Boston |
 | trajectory | 20 | per company, from `companies.txt`: expected pay (intern rate and the full-time offer it leads to) first, then scale and career path. Big tech and semiconductor equipment at the top, industrial fluid-component makers at 9 |
 | freshness | +12 / -8 | age of the posting: +12 within 2 days, +9 within 5, +6 within 10, +3 within 3 weeks, 0 to 5 weeks, -4 to 60 days, -8 after |
 
-Tier A at 50, tier B at 32. Tiers use fit + pay + location + trajectory, so an
+Penalties that misfire on boilerplate are matched narrowly: "unpaid intern",
+"academic credit only", and "volunteer" only in the title (equal-opportunity text
+mentions protected volunteer status). Postings that reach the dashboard only
+through the internship feed have no description, so they get 14 fit points in
+place of body keywords (the typical body score is about 19) and are marked
+"description not fetched". A company scanned under two names ("KLA" and "KLA
+Corporation", "Shield AI (ashby)") uses the main entry's trajectory, and the same
+posting found twice is shown once.
+
+Tier A at 50, tier B at 32, everything below is tier C. Tier C is kept, not
+dropped: the dashboard's **C** chip (off by default) shows those weaker matches. Tiers use fit + pay + location + trajectory, so an
 older strong fit is never hidden. Freshness is added on top for ranking, so a
 good fit posted this week sorts above an equally good one that has been up for
 two months and is likely saturated. The steps live under `freshness` in

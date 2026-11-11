@@ -653,12 +653,11 @@
   "verified": true
  },
  "Carbon": {
-  "board": "greenhouse",
-  "note": "Carbon, Inc. (3D printing); Bay Area mfg/mech roles",
-  "postings": 12,
-  "slug": "carbon",
-  "trajectory": 11,
-  "verified": true
+  "board": null,
+  "rejected": [
+   "greenhouse/carbon: 404 as of 2026-11-11; carbon3d.com/careers forwards to that empty board"
+  ],
+  "trajectory": 11
  },
  "Carrier": {
   "board": "workday",
@@ -1899,13 +1898,11 @@
   "verified": true
  },
  "NXP Semiconductors": {
-  "board": "workday",
-  "host": "wd3",
-  "site": "careers",
-  "source": "simplify",
-  "tenant": "nxp",
-  "trajectory": 11,
-  "verified": true
+  "board": null,
+  "rejected": [
+   "workday/nxp/careers: Workday returns 422/500 on every host as of 2026-11-11; discover.py re-adds it once the site answers"
+  ],
+  "trajectory": 11
  },
  "Nel Hydrogen": {
   "board": null,

@@ -19,18 +19,62 @@ OUT      = os.path.join(REPO, "docs", "data.json")
 WORKERS  = 8
 FAIL_FRACTION = 0.25   # --ci exits 1 when more than this share of boards error
 
-SEASON_OK  = re.compile(r"(summer\s*(?:/|&|and|-|,|\s)?\s*fall\s*2027|summer\s*2027|fall\s*2027)", re.I)
-SEASON_BAD = re.compile(r"(spring\s*2027|winter\s*2027|summer\s*2026|fall\s*2026|spring\s*2026|"
-                        r"winter\s*2026|summer\s*2028|2025)", re.I)
-STUDENT    = re.compile(r"\b(intern|internship|co[-\s]?op)\b", re.I)
+# Seasons. Postings say it every way: "Summer 2027", "2027 Summer Intern", "Summer '27",
+# "Summer/Fall 2027", "FY27 Intern" (Qualcomm), "(May - Aug 2027)", "(June - Dec 2027)",
+# "2027 Internship - ...", or nothing at all.
+_Y   = r"(?:20)?27"
+_MON = r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?"
+SEASON_OK = re.compile(
+    rf"\b(?:summer|fall|autumn)\b[\s/&,+-]*(?:and\s+|or\s+)?(?:(?:summer|fall|autumn)\b[\s/&,+-]*)?['’]?{_Y}\b"
+    rf"|\b2027\b[\s/&,:–-]*(?:summer|fall|autumn)\b"
+    rf"|\bFY\s?-?27\b"
+    rf"|\b(?:may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s*(?:{_Y}\s*)?(?:-|–|to|through)\s*{_MON}\s*,?\s*2027", re.I)
+# ranges that start in Jan-Mar are spring co-ops even when they run into summer
+SEASON_SPRING_RANGE = re.compile(rf"\b(?:jan|feb|mar)[a-z]*\.?\s*(?:-|–|to|through)\s*{_MON}\s*,?\s*2027", re.I)
+SEASON_BAD = re.compile(
+    r"\b(?:spring|winter)\b[\s/&,+-]*['’]?(?:20)?27\b|\b2027\b[\s/&,:–-]*(?:spring|winter)\b"
+    r"|\b(?:summer|fall|autumn|spring|winter)\b[\s/&,+-]*['’]?(?:20)?(?:25|26|28)\b"
+    r"|\b20(?:25|26|28)\b[\s/&,:–-]*(?:summer|fall|autumn|spring|winter|intern|co-?op)", re.I)
+SEASON_ANY_YEAR = re.compile(r"\b20(?:2[5-9])\b|\bFY\s?-?2\d\b|['’]2[5-9]\b")
+# undated postings are assumed to be for 2027 only if they went up in this recruiting cycle
+SEASON_CYCLE_START = "2026-07-01"
+STUDENT = re.compile(r"\b(intern|interns|internship|co[-\s]?op|student|undergrad|undergraduate)\b", re.I)
+ME_WORD = re.compile(r"mechanic|mechatron", re.I)
+
+
+def season(title, body):
+    """"ok" when the posting states a Summer/Fall 2027 term, "bad" when it states some
+    other term, "unstated" when it names no term or year at all."""
+    blob = f"{title} {body}"
+    for text in (title, blob):
+        if SEASON_SPRING_RANGE.search(text) and not re.search(r"summer|fall|autumn", text, re.I):
+            return "bad"
+        if SEASON_OK.search(text):
+            return "ok"
+        if text is title:
+            if SEASON_BAD.search(title) or re.search(r"\b(?:jan|feb|mar)[a-z]*\.?\s+2027\b", title, re.I):
+                return "bad"                                 # "January 2027 Co-op" is spring
+            if re.search(r"\b2027\b", title) and not re.search(r"spring|winter", title, re.I):
+                return "ok"                                  # "2027 Internship - Hardware"
+    if re.search(r"\b2027\b", body):
+        return "ok"
+    if SEASON_BAD.search(body) or SEASON_ANY_YEAR.search(blob):
+        return "bad"
+    return "unstated"
 
 
 def gate(j, r):
     t, b = j["title"], j["body"]; tl, blob = t.lower(), f"{t} {b}"
     if not STUDENT.search(t):                                   return "not a student req"
-    if SEASON_BAD.search(t) and not SEASON_OK.search(t):        return "off-target season in title"
-    if not SEASON_OK.search(blob):                              return "no Summer/Fall 2027"
-    if any(x in tl for x in r["exclude_title"]):                return "non-ME discipline"
+    j["season"] = season(t, b)
+    if j["season"] == "bad":
+        return "off-target season in title" if SEASON_BAD.search(t) or SEASON_SPRING_RANGE.search(t) \
+            else "no Summer/Fall 2027"
+    if j["season"] == "unstated" and j.get("posted") and j["posted"] < SEASON_CYCLE_START:
+        return "no Summer/Fall 2027"
+    # "Hardware Engineering Intern (Mechanical & Electrical)" is still a mechanical role
+    if any(x in tl for x in r["exclude_title"]) and not ME_WORD.search(t):
+                                                                return "non-ME discipline"
     if not any(x in tl for x in r["me_title_any"]) and \
        not any(x in b.lower() for x in r["me_body_any"]):       return "no mechanical signal"
     if any(x in blob.lower() for x in r["hard_blockers"]):      return "degree-level blocker"
@@ -170,11 +214,18 @@ def score(j, traj, r, fresh=(0, None, "")):
     for rx, p in r.get("title_penalty_patterns", {}).items():  # grad-only reqs, not "Undergraduate"
         m = re.search(rx, tl)
         if m: fit += p; why.append([f"title: {m.group(0)}", p])
+    if j.get("listing_only"):          # feed posting: title only, credit a typical body score
+        fit += r.get("listing_body_credit", 0); why.append(["description not fetched", r.get("listing_body_credit", 0)])
     fit = max(0, min(fit, r["caps"]["fit"]))
-    loc = r["location_default"]
-    for kw, p in r["location_weights"].items():
-        if kw in ll: loc = max(loc, p) if p > 0 else min(loc, p)
+    # a posting open in Boston and Bangalore scores as Boston: the best listed
+    # location wins, penalties apply only when no listed location is a plus
+    hits = [p for kw, p in r["location_weights"].items() if kw in ll]
+    pos = [p for p in hits if p > 0]
+    loc = max(pos) if pos else min(hits) if hits else r["location_default"]
     loc = max(-10, min(loc, r["caps"]["location"]))
+    if j.get("season") == "unstated":
+        p = r.get("season_unstated", -3)
+        fit += p; why.append(["season not stated", p])
     rate = pay_rate(j["body"])
     pay = min(pay_points(rate, r), r["caps"].get("pay", 99))
     if rate: why.append([f"pay ${(rate[0] + rate[1]) / 2:.0f}/hr", pay])
@@ -205,6 +256,17 @@ def run(dry=False, explain=False, only=None, skip=None, quiet=False):
         n, _, t = line.strip().partition("|")
         if n and not n.startswith("#") and t.strip().isdigit():
             traj_of[n.strip()] = int(t)
+
+    def traj_for(co, default):
+        """Trajectory for a company; a second entry for the same company ("KLA
+        Corporation", "KLA (workday)", "Shield AI (ashby)") takes the main one's."""
+        base = re.sub(r"\s*\([^)]*\)\s*$", "", co).strip()
+        short = re.sub(r"[,\s]+(?:corporation|corp\.?|inc\.?|incorporated|company|co\.?|llc|ltd\.?|"
+                       r"technologies|group|holdings)$", "", base, flags=re.I).strip()
+        found = [traj_of[x] for x in dict.fromkeys((co, base, short)) if x in traj_of]
+        if co not in traj_of or co != base or base != short:
+            found = [traj_of[x] for x in (base, short) if x in traj_of and x != co] or found
+        return max(found) if found else default
     now_dt   = datetime.now(timezone.utc)
     now      = now_dt.isoformat(timespec="seconds")
 
@@ -247,6 +309,7 @@ def run(dry=False, explain=False, only=None, skip=None, quiet=False):
         bfirst = board_first.setdefault(name, now)
         scanned += len(jobs)
         for j in jobs:
+            j["posted"] = posted_date(j.get("posted"), now_dt)
             why_drop = gate(j, rules)
             if why_drop:
                 dropped[why_drop] = dropped.get(why_drop, 0) + 1
@@ -257,9 +320,8 @@ def run(dry=False, explain=False, only=None, skip=None, quiet=False):
                                    "location": j["location"], "url": j["url"], "reason": why_drop})
                 continue
             first = seen.get(j["id"], {}).get("first_seen", now)
-            j["posted"] = posted_date(j.get("posted"), now_dt)
             co = j.get("company") or name           # the listings board carries many companies
-            s = score(j, traj_of.get(co, v.get("trajectory", 10) if co == name else 10), rules,
+            s = score(j, traj_for(co, v.get("trajectory", 10) if co == name else 10), rules,
                       freshness(j["posted"], first, now_dt, rules, bfirst))
             if s["tier"] == "C" and not rules.get("keep_tier_c"):
                 dropped["below threshold"] = dropped.get("below threshold", 0) + 1
@@ -269,6 +331,15 @@ def run(dry=False, explain=False, only=None, skip=None, quiet=False):
             seen[j["id"]] = {"first_seen": first, "last_seen": now}
             live.append({**j, "company": co, "score": s, "first_seen": first})
 
+    # one company scanned under two names ("KLA" and "KLA Corporation", a second
+    # Workday site) lists the same req twice; keep the better-scored copy
+    def _k(x):
+        n = lambda v: re.sub(r"[^a-z0-9]", "", (v or "").lower())
+        return (n(x["company"].split()[0]), n(x["title"]), n(x["location"])[:40])
+    best = {}
+    for x in sorted(live, key=lambda x: -x["score"]["total"]):
+        best.setdefault(_k(x), x)
+    live = list(best.values())
     live.sort(key=lambda x: -x["score"]["total"])
     run_url = (f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}"
                f"/actions/runs/{os.environ['GITHUB_RUN_ID']}") if os.environ.get("GITHUB_RUN_ID") else ""

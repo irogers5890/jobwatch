@@ -28,8 +28,9 @@ def _req(url, data=None, headers=None):
     if data is not None:
         h["Content-Type"] = "application/json"
     h.update(headers or {})
-    last = None
-    for i in range(RETRIES):
+    last, waits = None, 0
+    i = 0
+    while i < RETRIES:
         try:
             r = urllib.request.Request(url, data=data, headers=h)
             with urllib.request.urlopen(r, timeout=TIMEOUT) as resp:
@@ -38,11 +39,13 @@ def _req(url, data=None, headers=None):
             if e.code in (400, 401, 403, 404, 422):
                 raise RuntimeError(f"HTTP {e.code} — check slug/tenant/site") from None
             last = f"HTTP {e.code}"
-            if e.code == 429:                      # Eightfold rate-limits; back off properly
-                time.sleep(min(float(e.headers.get("Retry-After") or 0) or 6 * (i + 1), 30))
+            if e.code == 429 and waits < 6:        # Eightfold rate-limits; wait it out
+                waits += 1                         # (up to ~2.5 min) without using a retry
+                time.sleep(min(float(e.headers.get("Retry-After") or 0) or 8 * waits, 45))
                 continue
         except Exception as e:
             last = str(e)
+        i += 1
         time.sleep(0.8)
     raise RuntimeError(f"failed after {RETRIES} tries: {last}")
 
@@ -181,7 +184,7 @@ def pinpoint(c):
 # "Interns", ...) and searchText is only a fallback when no such facet exists.
 WD_STUDENT = re.compile(r"intern|co-?op|student|universit|univ\b|campus|trainee|"
                         r"praktik|werkstudent|stagiaire|placement", re.I)
-WD_TITLE   = re.compile(r"\b(intern|interns|internship|co[-\s]?op)\b", re.I)
+WD_TITLE   = re.compile(r"\b(intern|interns|internship|co[-\s]?op|student|undergrad|undergraduate)\b", re.I)
 WD_PAGE, WD_MAX_PAGES = 20, 40
 
 
@@ -297,7 +300,7 @@ def eightfold(c):
             start += 10
             if not page or start >= (d.get("count") or 0):
                 break
-            time.sleep(0.25)
+            time.sleep(1.0)                        # Microsoft and Lockheed rate-limit faster paging
 
     def detail(p):
         info = {}
@@ -314,7 +317,10 @@ def eightfold(c):
             "posted": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(ts)) if ts else "",
             "body": clean(info.get("jobDescription", "")),
         }
-    return _pool(detail, list(found.values()), 3)
+    def paced(p):
+        time.sleep(0.5)
+        return detail(p)
+    return _pool(paced, list(found.values()), 1)
 
 
 def oracle(c):
@@ -604,6 +610,7 @@ def listings(c):
             terms = ", ".join(x.get("terms") or [])
             out.append({
                 "id": f"ls:{x.get('id')}",
+                "listing_only": True,
                 "company": name,
                 "title": x.get("title", ""),
                 "location": "; ".join(x.get("locations") or []),

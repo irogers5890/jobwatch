@@ -107,6 +107,7 @@ details{margin-top:22px;color:var(--mut);font-size:12.5px}
     </select>
     <button class="chip" id="fA" aria-pressed="true">A</button>
     <button class="chip" id="fB" aria-pressed="true">B</button>
+    <button class="chip" id="fC" aria-pressed="false" title="weaker matches: relevant, but low fit, pay or company score">C</button>
   </div>
 
   <div id="list"></div>
@@ -254,7 +255,8 @@ function cardFor(j){
       fit ${s.fit} / pay ${s.pay>0?'+':''}${s.pay??0} / loc ${s.loc} / trajectory ${s.traj}
       <span class="fr ${fr>0?'up':fr<0?'down':''}" title="freshness points in the ranking">freshness ${fr>0?'+':''}${fr}</span></div>
     <div class="dates">${posted!==null?`Posted <b>${fmtDay(j.posted)}</b> (${ago(posted)})`:'Posting date not given by the board'}
-      ${found!==null?` · first picked up by jobwatch <b>${fmtDay(j.first_seen)}</b> (${ago(found)})`:''}</div>
+      ${found!==null?` · first picked up by jobwatch <b>${fmtDay(j.first_seen)}</b> (${ago(found)})`:''}
+      ${j.season==="unstated"?' · <span title="The posting names no term or year; it went up this recruiting cycle, so it is probably Summer 2027. Check before applying.">term not stated</span>':''}</div>
     <div class="why">${s.why.map(w=>`<span class="w">${esc(w[0])} ${w[1]>0?'+':''}${w[1]}</span>`).join("")}</div>
     <div class="act">
       ${btn('applied','Applied')}${btn('saved','Save for later')}${btn('dismissed','Not relevant')}
@@ -270,6 +272,7 @@ function render(){
   const q=$("#q").value.toLowerCase().trim();
   const showA=$("#fA").getAttribute("aria-pressed")==="true";
   const showB=$("#fB").getAttribute("aria-pressed")==="true";
+  const showC=$("#fC").getAttribute("aria-pressed")==="true";
   const sort=$("#sort").value, maxAge=Number($("#age").value||0);
   try{ localStorage.setItem(PREF,JSON.stringify({sort, age:$("#age").value})); }catch(e){}
 
@@ -293,6 +296,7 @@ function render(){
     if(VIEW!=="open"  && s!==VIEW) return false;
     if(j.score.tier==="A" && !showA) return false;
     if(j.score.tier==="B" && !showB) return false;
+    if(j.score.tier==="C" && !showC) return false;
     if(maxAge){ const a=ageOf(j); if(a===null) return false;
       if(maxAge>0 ? a>maxAge : a<=-maxAge) return false; }
     if(!q) return true;
@@ -319,7 +323,7 @@ $("#tabs").addEventListener("click",e=>{
 try{ const p=JSON.parse(localStorage.getItem(PREF)||"{}");
   if(p.sort) $("#sort").value=p.sort; if(p.age!==undefined) $("#age").value=p.age; }catch(e){}
 ["q","sort","age"].forEach(id=>$("#"+id).addEventListener("input",render));
-["fA","fB"].forEach(id=>$("#"+id).addEventListener("click",e=>{
+["fA","fB","fC"].forEach(id=>$("#"+id).addEventListener("click",e=>{
   const el=e.currentTarget, v=el.getAttribute("aria-pressed")==="true";
   el.setAttribute("aria-pressed",String(!v)); render();
 }));
