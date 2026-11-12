@@ -68,11 +68,14 @@ def us_location(loc):
 
 
 def abroad_only(loc, r):
-    """True when every listed location is outside the US. Each part of a multi-location
-    string ("Boston, MA; Toronto, ON") is judged alone; a part that names no country
-    ("Waltham Office (POST)") counts as possibly US."""
+    """True when no listed location is in the US and at least one is abroad. Any US
+    part keeps the posting ("Boston, MA; Toronto, ON")."""
     parts = [p_.strip() for p_ in re.split(r";|\||\bor\b|\n| / ", loc) if p_.strip()]
-    return bool(parts) and all((_non_us(p_, r) or CA_PROVINCE.search(p_)) and not us_location(p_) for p_ in parts)
+    if any(us_location(p_) for p_ in parts):
+        return False
+    # "Bolton, United Kingdom; Stevenage": a part naming no country is in the same country
+    # as the parts that do; a string naming no country at all ("Waltham Office") stays
+    return any(_non_us(p_, r) or CA_PROVINCE.search(p_) for p_ in parts)
 
 
 def season(title, body):
@@ -333,7 +336,8 @@ def score(j, traj, r, fresh=(0, None, ""), company_rate=None):
     return {"total": base + pts, "base": base, "fit": fit, "loc": loc, "traj": traj,
             "pay": pay, "rate": rate, "rate_src": rate_src if rate else None,
             "fresh": pts, "age": age, "age_basis": basis,
-            "tier": "A" if base >= r["tier_a"] else "B" if base >= r["tier_b"] else "C",
+            "tier": "A" if base >= r["tier_a"] else "B" if base >= r["tier_b"] else
+                    "B" if any(k in tl for k in r.get("core_titles", [])) else "C",
             "why": why[:8]}
 
 

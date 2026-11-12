@@ -238,8 +238,15 @@ place of body keywords (the typical body score is about 19) and are marked
 Corporation", "Shield AI (ashby)") uses the main entry's trajectory, and the same
 posting found twice is shown once.
 
-Tier A at 50, tier B at 32, everything below is tier C. Tier C is kept, not
-dropped: the dashboard's **C** chip (off by default) shows those weaker matches. Tiers use fit + pay + location + trajectory, so an
+Tier A at 50, tier B at 32, everything below is tier C. A title that names a core
+mechanical role (mechanical, manufacturing / design / test / quality / process
+engineering, product design, reliability, structures, propulsion, thermal, fluid,
+hardware or systems engineering, a plain "Engineering Intern", ...) is never left in
+tier C: it is lifted to B, so a relevant role at a good company with a generic
+description still shows by default; its score still sets the order. Tier C is kept,
+not dropped: the dashboard's **C** chip (off by default) shows the rest. Titles that
+are not engineering at all (purchasing, outreach, analytics, UX, customer success,
+admin, technician, SkillBridge, ...) are filtered out. Tiers use fit + pay + location + trajectory, so an
 older strong fit is never hidden. Freshness is added on top for ranking, so a
 good fit posted this week sorts above an equally good one that has been up for
 two months and is likely saturated. The steps live under `freshness` in
