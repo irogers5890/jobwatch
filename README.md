@@ -399,6 +399,15 @@ Edit `blocks.json`:
 Weight is how strongly it competes when triggered. Write it the way you would
 say it out loud.
 
+## Application agent
+
+A separate worker in a private repository (`jobapply`) reads this repo's
+`docs/data.json`, applies to qualifying postings under a standing policy, and keeps
+its applicant profile, resumes, sessions and records on a private server. Nothing
+personal is stored here. `docs/agent.html` (linked at the bottom of the dashboard) is
+an empty shell that talks to that worker with an address and token kept only in your
+browser.
+
 ## Honest limits
 
 - About 50 companies have no feed this scanner reads. Each `"board": null` entry

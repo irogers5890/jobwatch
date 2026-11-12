@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<title>jobwatch agent</title>
+<style>
+:root{--bg:#fbfbfa;--panel:#fff;--ink:#1b1d1f;--mut:#6b7280;--line:#e6e7e9;--a:#0f7b4f;--b:#2563a8;--warn:#b4553e;--accent:#16232F}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141517;--panel:#1c1e21;--ink:#e8e9ea;--mut:#9aa0a6;--line:#2c2f33;--a:#49c08a;--b:#6aa9e9;--warn:#d2795f;--accent:#dfe3e8}}
+:root[data-theme="dark"]{--bg:#141517;--panel:#1c1e21;--ink:#e8e9ea;--mut:#9aa0a6;--line:#2c2f33;--a:#49c08a;--b:#6aa9e9;--warn:#d2795f;--accent:#dfe3e8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:22px 16px 80px}
+h1{font-size:19px;margin:0}.meta{color:var(--mut);font-size:12.5px;margin-top:4px}
+a{color:inherit}
+.tabs{display:flex;gap:6px;margin:14px 0 12px;flex-wrap:wrap}
+.tab,button{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer;color:var(--mut)}
+.tab[aria-selected="true"]{border-color:var(--accent);color:var(--ink);font-weight:650}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:9px}
+.st{font-size:11.5px;font-weight:700;border:1px solid;border-radius:6px;padding:1px 6px}
+.SUBMITTED{color:var(--a)}.BLOCKED,.FAILED,.UNCERTAIN{color:var(--warn)}.READY{color:var(--b)}.NEEDS_REVIEW,.MANUAL{color:var(--mut)}
+.sub{color:var(--mut);font-size:12.5px;margin-top:4px}.act{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
+.empty{color:var(--mut);padding:40px 0;text-align:center}.err{color:var(--warn);font-size:13px}
+</style></head>
+<body><div class="wrap">
+<h1>Application agent</h1>
+<div class="meta" id="meta">Reads your private JARVIS worker. Nothing on this page comes from the public repo.
+ <a href="./">Back to jobwatch</a></div>
+<div class="tabs" id="tabs"></div>
+<div id="list"></div>
+<p><button id="cfg">Connect to worker</button> <button id="pause"></button> <span class="err" id="err"></span></p>
+</div>
+<script>
+// The worker URL and token live only in this browser's localStorage.
+const K="jobwatch.agent.v1"; let C={}; try{C=JSON.parse(localStorage.getItem(K)||"{}")}catch(e){}
+const keep=()=>{try{localStorage.setItem(K,JSON.stringify(C))}catch(e){}};
+const $=s=>document.querySelector(s), esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const TABS=[["attention","Needs you","NEEDS_REVIEW,BLOCKED,UNCERTAIN,MANUAL"],["ready","Ready","READY"],
+  ["submitted","Submitted","SUBMITTED"],["failed","Failed","FAILED"],["skipped","Skipped","SKIPPED"]];
+let VIEW="attention", STATUS=null;
+async function api(path,opt={}){
+  const r=await fetch(C.url.replace(/\/$/,"")+path,{...opt,headers:{"Authorization":"Bearer "+C.token,
+    "X-Jarvis-Token":C.token,"Content-Type":"application/json"}});
+  if(!r.ok) throw new Error(r.status===401?"token rejected":"worker answered "+r.status);
+  return r.json();
+}
+const when=t=>t?new Date(t*1000).toLocaleString([], {month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}):"";
+async function act(id,a){ try{ await api(`/api/apps/${id}/${a}`,{method:"POST",body:"{}"}); load(); }catch(e){ $("#err").textContent=e.message; } }
+window.act=act;
+function card(r){
+  const b=[];
+  if(["READY","NEEDS_REVIEW","BLOCKED","MANUAL","SKIPPED"].includes(r.state)) b.push(["approve","Approve"]);
+  if(["FAILED","BLOCKED","NEEDS_REVIEW","MANUAL"].includes(r.state)) b.push(["retry","Retry"]);
+  if(["UNCERTAIN","BLOCKED","MANUAL","NEEDS_REVIEW"].includes(r.state)) b.push(["mark_submitted","It went through"]);
+  if(r.state==="UNCERTAIN") b.push(["mark_not_submitted","It did not go through"]);
+  if(!["SUBMITTED","SUBMITTING","UNCERTAIN","SKIPPED"].includes(r.state)) b.push(["skip","Skip"]);
+  const q=(r.open_questions||[]).map(x=>`<div class="sub">? ${esc(x.label)}</div>`).join("");
+  return `<div class="card"><span class="st ${r.state}">${r.state}</span> <b>${esc(r.company)}</b>: ${esc(r.title)}
+   <div class="sub">${esc(r.reason||"")}</div>${q}
+   <div class="sub">${esc(r.ats)} · score ${r.score??""} · ${r.submitted_at?"submitted "+when(r.submitted_at):"updated "+when(r.updated_at)}
+   · <a href="${esc(r.url)}" target="_blank" rel="noreferrer">application</a>
+   ${r.confirmation?` · confirmation: ${esc(r.confirmation).slice(0,120)}`:""}</div>
+   <div class="act">${b.map(([a,l])=>`<button onclick="act(${r.id},'${a}')">${l}</button>`).join("")}
+   <a class="sub" href="${esc(C.url.replace(/\/$/,""))}/app/${r.id}" target="_blank" rel="noreferrer">evidence</a></div></div>`;
+}
+async function load(){
+  $("#err").textContent="";
+  $("#cfg").textContent=C.url?"Disconnect":"Connect to worker";
+  if(!C.url){ $("#list").innerHTML='<div class="empty">Not connected. The worker runs on your private server; '+
+    'connect with its HTTPS address and access token.</div>'; $("#pause").style.display="none"; return; }
+  try{
+    STATUS=await api("/api/status");
+    const c=STATUS.counts||{};
+    $("#tabs").innerHTML=TABS.map(([k,l,s])=>`<button class="tab" aria-selected="${k===VIEW}" data-v="${k}">${l} (${s.split(",").reduce((n,x)=>n+(c[x]||0),0)})</button>`).join("");
+    document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{VIEW=t.dataset.v;load();});
+    $("#meta").textContent=`worker ${STATUS.ok?"alive":"not responding"}${STATUS.paused?" · PAUSED":""} · last jobwatch ingest ${when(STATUS.last_ingest&&STATUS.last_ingest.ts)}`;
+    $("#pause").style.display=""; $("#pause").textContent=STATUS.paused?"Resume automation":"Pause automation";
+    const rows=await api("/api/apps?state="+TABS.find(t=>t[0]===VIEW)[2]+"&limit=200");
+    $("#list").innerHTML=rows.length?rows.map(card).join(""):'<div class="empty">Nothing here.</div>';
+  }catch(e){ $("#err").textContent="Could not reach the worker: "+e.message; }
+}
+$("#cfg").onclick=()=>{
+  if(C.url){ if(confirm("Forget the worker address and token in this browser?")){C={};keep();load();} return; }
+  const url=prompt("Worker HTTPS address (for example https://jarvis.example.net)"); if(!url) return;
+  const token=prompt("Access token (JARVIS_UI_TOKEN). Stored only in this browser."); if(!token) return;
+  C={url:url.trim(),token:token.trim()}; keep(); load();
+};
+$("#pause").onclick=async()=>{ try{ await api(STATUS&&STATUS.paused?"/api/resume":"/api/pause",{method:"POST",body:"{}"}); load(); }catch(e){ $("#err").textContent=e.message; } };
+load();
+</script></body></html>
