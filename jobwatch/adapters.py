@@ -231,11 +231,11 @@ def workday(c):
         first = _req(api, data=json.dumps({"appliedFacets": {}, "limit": 1, "offset": 0,
                                            "searchText": ""}).encode())
         facets = _wd_facets(first.get("facets"))
-        if facets:
-            # values inside one facet OR together, separate facets AND, so query each
-            queries = [({k: v}, "") for k, v in facets.items()]
-        else:
-            queries = [({}, q) for q in (c.get("q") or "intern,co-op").split(",")]
+        # values inside one facet OR together, separate facets AND, so query each. Tenants
+        # tag students inconsistently (Boeing marks 1 of its US interns), so the plain
+        # keyword search always runs as well and the title filter does the rest.
+        queries = [({k: v}, "") for k, v in facets.items()] + \
+                  [({}, q) for q in (c.get("q") or "intern,co-op").split(",")]
         for fac, q in queries:
             for j in _wd_list(api, fac, q.strip()):
                 path = j.get("externalPath")
@@ -251,6 +251,9 @@ def workday(c):
             pass
         locs = [info.get("location") or j.get("locationsText", "")] + \
                list(info.get("additionalLocations") or [])
+        country = ((info.get("country") or {}).get("descriptor") or "").strip()
+        if country and locs[0] and country.lower() not in locs[0].lower():
+            locs[0] = f"{locs[0]}, {country}"          # "Manching" -> "Manching, Germany"
         req = info.get("jobReqId") or path.rsplit("/", 1)[-1]
         return {
             "id": f"wd:{tenant}:{req}",

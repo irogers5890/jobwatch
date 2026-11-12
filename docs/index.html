@@ -57,6 +57,7 @@ h1{font-size:19px;margin:0}
 .fr{font-size:11px;border-radius:6px;padding:1px 6px;border:1px solid var(--line);color:var(--mut)}
 .fr.up{color:var(--a);border-color:var(--a)} .fr.down{color:var(--warn);border-color:var(--warn)}
 .pay{font-weight:650;color:var(--ink)}
+.pay.est{font-weight:500;color:var(--mut);border-bottom:1px dotted var(--mut)}
 .act{margin-top:10px;display:flex;gap:7px;flex-wrap:wrap;align-items:center}
 .act button{font:inherit;font-size:12.5px;padding:5px 10px;border-radius:7px;
   border:1px solid var(--line);background:transparent;color:var(--mut);cursor:pointer}
@@ -217,7 +218,8 @@ const fmtDay=iso=>{ const d=new Date(iso.length===10?iso+"T12:00:00Z":iso);
 const ago=d=>d===null?"":d<1?"today":d<2?"1 day ago":`${Math.floor(d)} days ago`;
 const PREF="jobwatch.view.v1";
 const fmtPay=v=>v>=100?Math.round(v):(Math.round(v*2)/2).toString().replace(/\.0$/,"");
-const midPay=j=>j.score.rate?(j.score.rate[0]+j.score.rate[1])/2:-1;
+// "highest stated pay" sorts on stated rates only; estimates sort after them
+const midPay=j=>j.score.rate&&(!j.score.rate_src||j.score.rate_src==="stated")?(j.score.rate[0]+j.score.rate[1])/2:-1;
 
 function setStatus(id,v){
   const cur=st(id), now=Date.now(), n=(S[id]||{}).n;
@@ -251,7 +253,10 @@ function cardFor(j){
       ${isNew&&!status?'<span class="new">NEW</span>':''}
     </div>
     <div class="sub">${esc(j.location||"location n/a")} ·
-      ${s.rate?`<span class="pay">$${fmtPay(s.rate[0])}${s.rate[1]>s.rate[0]?`–${fmtPay(s.rate[1])}`:''}/hr</span> · `:'pay not stated · '}
+      ${s.rate?(!s.rate_src||s.rate_src==="stated"
+        ?`<span class="pay">$${fmtPay(s.rate[0])}${s.rate[1]>s.rate[0]?`–${fmtPay(s.rate[1])}`:''}/hr</span> · `
+        :`<span class="pay est" title="${s.rate_src==="company"?"Not in this posting; the median of this company's stated ranges in the same scan":"Not stated anywhere at this company; a typical rate for its trajectory, worth at most +6"}">~$${fmtPay((s.rate[0]+s.rate[1])/2)}/hr est.</span> · `)
+        :'pay not stated · '}
       fit ${s.fit} / pay ${s.pay>0?'+':''}${s.pay??0} / loc ${s.loc} / trajectory ${s.traj}
       <span class="fr ${fr>0?'up':fr<0?'down':''}" title="freshness points in the ranking">freshness ${fr>0?'+':''}${fr}</span></div>
     <div class="dates">${posted!==null?`Posted <b>${fmtDay(j.posted)}</b> (${ago(posted)})`:'Posting date not given by the board'}

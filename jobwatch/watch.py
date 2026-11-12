@@ -40,6 +40,39 @@ SEASON_ANY_YEAR = re.compile(r"\b20(?:2[5-9])\b|\bFY\s?-?2\d\b|['’]2[5-9]\b")
 SEASON_CYCLE_START = "2026-07-01"
 STUDENT = re.compile(r"\b(intern|interns|internship|co[-\s]?op|student|undergrad|undergraduate)\b", re.I)
 ME_WORD = re.compile(r"mechanic|mechatron", re.I)
+# grad-only reqs: a grad degree in the title with no BS/undergrad alongside it, or a body that
+# requires grad enrollment and never mentions a bachelor's or undergraduates
+GRAD_TITLE = re.compile(r"(?<!under)\bgraduate\b|\bmasters?\b|master['’]s|\bm\.s\.|\bms\b|\bph\.?\s?d\b|doctoral|\bmba\b", re.I)
+UG_TITLE   = re.compile(r"undergrad|bachelor|\bb\.?s\.?\b|\bbs\b", re.I)
+GRAD_REQ   = re.compile(r"(?:pursuing|enrolled in|candidate for|currently in|student in)[^.]{0,60}?"
+                        r"(?:master['’]?s|m\.s\.|ph\.?\s?d|doctoral|graduate degree|advanced degree|graduate program)", re.I)
+UG_ANY     = re.compile(r"bachelor|undergrad|\bb\.s\.|\bbs\b|\bb\.?s\.?\s?/|four[- ]year degree", re.I)
+# a US location in any of the usual shapes: "Boston, MA", "US-CA-Santa Clara", "USA",
+# "United States", or a state name
+US_LOC = re.compile(
+    r"\bU\.?S\.?A?\b|\bUS-|"
+    r",\s*(?:AL|AK|AZ|AR|CA|CO|CT|DE|DC|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|"
+    r"OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\b")
+US_LOC_NAMES = re.compile(
+    r"united states|\b(?:alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|hawaii|idaho|"
+    r"illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|michigan|minnesota|mississippi|"
+    r"missouri|montana|nebraska|nevada|new hampshire|new jersey|new mexico|new york|north carolina|north dakota|ohio|"
+    r"oklahoma|oregon|pennsylvania|rhode island|south carolina|south dakota|tennessee|texas|utah|vermont|virginia|"
+    r"washington|wisconsin|wyoming)\b", re.I)
+# "Toronto, ON, CA": a Canadian province code makes the trailing CA the country, not California
+CA_PROVINCE = re.compile(r",\s*(?:ON|QC|BC|AB|MB|NS|NB|SK|NL|PE|PEI)\b")
+
+
+def us_location(loc):
+    return not CA_PROVINCE.search(loc) and bool(US_LOC.search(loc) or US_LOC_NAMES.search(loc))
+
+
+def abroad_only(loc, r):
+    """True when every listed location is outside the US. Each part of a multi-location
+    string ("Boston, MA; Toronto, ON") is judged alone; a part that names no country
+    ("Waltham Office (POST)") counts as possibly US."""
+    parts = [p_.strip() for p_ in re.split(r";|\||\bor\b|\n| / ", loc) if p_.strip()]
+    return bool(parts) and all((_non_us(p_, r) or CA_PROVINCE.search(p_)) and not us_location(p_) for p_ in parts)
 
 
 def season(title, body):
@@ -63,6 +96,20 @@ def season(title, body):
     return "unstated"
 
 
+_NON_US_RX = {}
+
+
+def _non_us(loc, r):
+    """Whole-word match against non_us_locations ("india" must not hit Indianapolis)."""
+    key = id(r)
+    if key not in _NON_US_RX:
+        words = sorted(r.get("non_us_locations", []), key=len, reverse=True)
+        _NON_US_RX[key] = re.compile(r"(?<![a-z])(?:" + "|".join(re.escape(w.strip()) for w in words) + r")(?![a-z])", re.I) \
+            if words else None
+    rx = _NON_US_RX[key]
+    return bool(rx and rx.search(loc))
+
+
 def gate(j, r):
     t, b = j["title"], j["body"]; tl, blob = t.lower(), f"{t} {b}"
     if not STUDENT.search(t):                                   return "not a student req"
@@ -72,6 +119,11 @@ def gate(j, r):
             else "no Summer/Fall 2027"
     if j["season"] == "unstated" and j.get("posted") and j["posted"] < SEASON_CYCLE_START:
         return "no Summer/Fall 2027"
+    if GRAD_TITLE.search(t) and not UG_TITLE.search(t):        return "master's/PhD only"
+    if GRAD_REQ.search(b) and not UG_ANY.search(blob):          return "master's/PhD only"
+    loc = j.get("location") or ""
+    if loc and abroad_only(loc, r):
+        return "outside the US"
     # "Hardware Engineering Intern (Mechanical & Electrical)" is still a mechanical role
     if any(x in tl for x in r["exclude_title"]) and not ME_WORD.search(t):
                                                                 return "non-ME discipline"
@@ -134,35 +186,57 @@ def freshness(posted, first_seen, now, r, board_first=""):
     return min(pts, r["caps"].get("freshness", pts)), round(age, 1), basis
 
 
-# pay: "$35 - $44 per hour", "$28 — $40 USD The salary range", "$85,000.00 - $122,200.00 / year"
-_NUM = r"\$\s?(\d[\d,]*(?:\.\d+)?)\s?([kK])?"
-PAY_RE = re.compile(_NUM + r"(?:\s?(?:-|–|—|to)\s?(?:USD\s?)?" + _NUM + r")?", re.I)
+# pay: "$35 - $44 per hour", "$28 — $40 USD The salary range", "$85,000.00 - $122,200.00 / year",
+# "MIN $ 32.03 - MAX $ 51.43", "Expected Base Pay Range (USD) 33 - 66, $ per hour",
+# "The weekly pay range for this role is: $1,300 — $1,650 USD"
+_NUM = r"\$\s?(\d[\d,]*(?:\.\d+)?)(?:\s?([kK])(?![A-Za-z]))?"     # "$200K", not "$51.43 Keysight"
+PAY_RE = re.compile(_NUM + r"(?:\s?(?:-|–|—|to)\s?(?:max(?:imum)?\s*:?\s*)?(?:USD\s?)?" + _NUM + r")?", re.I)
+# ranges written without a dollar sign, introduced by a pay phrase or "(USD)"
+PAY_RE_BARE = re.compile(r"(?:\(USD\)|\bUSD\b|pay range|pay rate|hourly rate|hourly range|wage range)"
+                         r"[^0-9$]{0,25}(\d{2,3}(?:\.\d+)?)\s*(?:-|–|—|to)\s*(\d{2,3}(?:\.\d+)?)\b", re.I)
 PAY_UNIT = [(re.compile(r"per hour|/\s?h(?:ou)?r|an hour|hourly|\bhr\b", re.I), 1.0),
             (re.compile(r"per week|/\s?w(?:ee)?k|weekly", re.I), 1 / 40),
             (re.compile(r"per month|/\s?mo(?:nth)?\b|monthly", re.I), 1 / 173),
             (re.compile(r"per year|/\s?y(?:ea)?r|annual|a year|salary of|\bbase salary", re.I), 1 / 2080)]
-PAY_CTX = re.compile(r"pay|salary|compensation|wage|rate|usd|range", re.I)
+PAY_CTX = re.compile(r"pay|salary|compensation|wage|rate|usd|range|\bmin\b|\bmax\b", re.I)
 PAY_GRAD = re.compile(r"master|ph\.?d|doctoral|\bgrad(?:uate)?\b(?! from)", re.I)
 PAY_UG = re.compile(r"undergrad|bachelor|\bbs\b|b\.s\.", re.I)
 FX = [(re.compile(r"\bCAD\b|C\$"), 0.72), (re.compile(r"€|\bEUR\b"), 1.08), (re.compile(r"£|\bGBP\b"), 1.27)]
+PAY_MAX_SPREAD = 3.0     # "$18 - $48/hr" is usable; "$17.00 - $98.00 broad, minimum to maximum" is not
+
+
+def _pay_matches(text):
+    """(start, end, [values], unit multiplier or None) for every number or range."""
+    for m in PAY_RE.finditer(text):
+        vals = [float(v.replace(",", "")) * (1000 if k else 1)
+                for v, k in ((m.group(1), m.group(2)), (m.group(3), m.group(4))) if v]
+        yield m.start(), m.end(), vals
+    for m in PAY_RE_BARE.finditer(text):
+        yield m.start(1), m.end(), [float(m.group(1)), float(m.group(2))]
 
 
 def pay_rate(text):
     """(low, high) USD/hour from the pay ranges a posting states, or None.
     Benefit amounts ($850 commute credit) are skipped by requiring a unit or a
     pay word next to the number. When undergrad and grad rates are both listed,
-    the undergrad ones are used."""
-    ug, other = [], []
-    for m in PAY_RE.finditer(text or ""):
-        after, before = text[m.end():m.end() + 45], text[max(0, m.start() - 60):m.start()]
-        vals = [float(v.replace(",", "")) * (1000 if k else 1)
-                for v, k in ((m.group(1), m.group(2)), (m.group(3), m.group(4))) if v]
+    the undergrad ones are used; when every range carries a grad label (Northrop:
+    "Undergraduate (includes students ... Master's program): $18.50 to $33.50"),
+    the lowest range is taken as the undergrad one."""
+    text = text or ""
+    ug, other, grad = [], [], []
+    for start, end, vals in _pay_matches(text):
+        after, before = text[end:end + 45], text[max(0, start - 60):start]
         mult = next((f for rx, f in PAY_UNIT if rx.search(after)), None)
+        if mult is None:                                   # "weekly pay range ...: $1,300"
+            mult = next((f for rx, f in PAY_UNIT if rx.search(before[-45:])), None)
         if mult is None:
             if not PAY_CTX.search(after + before):
                 continue
             mult = 1 / 2080 if min(vals) >= 20000 else 1.0     # bare range: infer from size
         fx = next((f for rx, f in FX if rx.search(after + before[-10:])), 1.0)
+        if len(vals) == 1 and re.search(r"(?:begin|begins|start|starts|starting)\s+at|starting\s+(?:from|rate)|"
+                                        r"minimum of|as low as|from\s*$", before[-30:], re.I):
+            vals = [vals[0], vals[0] * 1.5]        # "Pay rates ... begin at $24/hour and increase"
         hr = [v * mult * fx for v in vals]
         if not all(15 <= h <= 200 for h in hr):
             continue
@@ -178,13 +252,11 @@ def pay_rate(text):
         if own:
             tail = a[own.end():own.end() + 14]
             kind = "ug" if PAY_UG.match(tail) else "grad" if PAY_GRAD.match(tail) else kind
-        if kind == "ug":
-            ug.extend(hr)
-        elif kind is None:
-            other.extend(hr)
-    vals = ug or other
-    if not vals or max(vals) > 2.2 * min(vals):
-        return None          # "$17.00 - $98.00 broad, minimum to maximum" says nothing about this role
+        (ug if kind == "ug" else other if kind is None else grad).append(hr)
+    ranges = ug or other or ([min(grad, key=min)] if grad else [])
+    vals = [v for r_ in ranges for v in r_]
+    if not vals or max(vals) > PAY_MAX_SPREAD * min(vals):
+        return None
     return (round(min(vals), 2), round(max(vals), 2))
 
 
@@ -200,7 +272,21 @@ def pay_points(rate, r):
     return p.get("below", 0)
 
 
-def score(j, traj, r, fresh=(0, None, "")):
+def pay_estimate(company_rate, traj, r):
+    """(low, high, source) for a posting that states no pay: the company's own
+    stated rates from this scan first, else a typical rate for its trajectory."""
+    if company_rate:
+        return (*company_rate, "company")
+    table = (r.get("pay") or {}).get("estimate_by_trajectory") or {}
+    keys = sorted((int(k) for k in table), reverse=True)
+    for k in keys:
+        if traj >= k:
+            v = table[str(k)]
+            return (v, v, "trajectory")
+    return None
+
+
+def score(j, traj, r, fresh=(0, None, ""), company_rate=None):
     tl, bl, ll = j["title"].lower(), j["body"].lower(), j["location"].lower()
     fit, why = 0, []
     for kw, p in r["title_weights"].items():
@@ -226,9 +312,18 @@ def score(j, traj, r, fresh=(0, None, "")):
     if j.get("season") == "unstated":
         p = r.get("season_unstated", -3)
         fit += p; why.append(["season not stated", p])
-    rate = pay_rate(j["body"])
+    rate, rate_src = pay_rate(j["body"]), "stated"
+    if not rate:
+        # no pay in the posting: estimate rather than score it as unpaid-looking 0
+        est = pay_estimate(company_rate, traj, r)
+        if est:
+            rate, rate_src = (est[0], est[1]), est[2]
     pay = min(pay_points(rate, r), r["caps"].get("pay", 99))
-    if rate: why.append([f"pay ${(rate[0] + rate[1]) / 2:.0f}/hr", pay])
+    if rate_src == "trajectory":                  # a guess never earns the top pay points
+        pay = min(pay, (r.get("pay") or {}).get("estimate_cap", 6))
+    if rate:
+        label = "pay" if rate_src == "stated" else "est. pay"
+        why.append([f"{label} ${(rate[0] + rate[1]) / 2:.0f}/hr", pay])
     traj = min(traj, r["caps"]["trajectory"])
     base = fit + loc + traj + pay
     pts, age, basis = fresh
@@ -236,7 +331,7 @@ def score(j, traj, r, fresh=(0, None, "")):
     # tier comes from base so an aging strong fit stays visible; the ranking
     # total adds freshness so a new good fit sorts above an older, saturated one
     return {"total": base + pts, "base": base, "fit": fit, "loc": loc, "traj": traj,
-            "pay": pay, "rate": rate,
+            "pay": pay, "rate": rate, "rate_src": rate_src if rate else None,
             "fresh": pts, "age": age, "age_basis": basis,
             "tier": "A" if base >= r["tier_a"] else "B" if base >= r["tier_b"] else "C",
             "why": why[:8]}
@@ -302,6 +397,18 @@ def run(dry=False, explain=False, only=None, skip=None, quiet=False):
                 print(f"[{k:>3}/{len(todo)}] {name:<30} {v['board']:<16} {msg}", flush=True)
             results.append(r)
 
+    # each company's stated pay, so its postings that state none can borrow it
+    import statistics
+    stated = {}
+    for name, v, jobs, err, _ in results:
+        for j in jobs or []:
+            if STUDENT.search(j["title"]):
+                rt = pay_rate(j["body"])
+                if rt:
+                    stated.setdefault(j.get("company") or name, []).append(rt)
+    company_rate = {c: (round(statistics.median(x[0] for x in rs), 2), round(statistics.median(x[1] for x in rs), 2))
+                    for c, rs in stated.items()}
+
     for name, v, jobs, err, _ in results:
         if err:
             errors.append({"company": name, "board": v["board"], "error": err})
@@ -322,7 +429,7 @@ def run(dry=False, explain=False, only=None, skip=None, quiet=False):
             first = seen.get(j["id"], {}).get("first_seen", now)
             co = j.get("company") or name           # the listings board carries many companies
             s = score(j, traj_for(co, v.get("trajectory", 10) if co == name else 10), rules,
-                      freshness(j["posted"], first, now_dt, rules, bfirst))
+                      freshness(j["posted"], first, now_dt, rules, bfirst), company_rate.get(co))
             if s["tier"] == "C" and not rules.get("keep_tier_c"):
                 dropped["below threshold"] = dropped.get("below threshold", 0) + 1
                 review.append({"company": co, "title": j["title"], "location": j["location"],
