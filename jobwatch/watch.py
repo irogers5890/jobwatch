@@ -44,9 +44,26 @@ ME_WORD = re.compile(r"mechanic|mechatron", re.I)
 # requires grad enrollment and never mentions a bachelor's or undergraduates
 GRAD_TITLE = re.compile(r"(?<!under)\bgraduate\b|\bmasters?\b|master['’]s|\bm\.s\.|\bms\b|\bph\.?\s?d\b|doctoral|\bmba\b", re.I)
 UG_TITLE   = re.compile(r"undergrad|bachelor|\bb\.?s\.?\b|\bbs\b", re.I)
-GRAD_REQ   = re.compile(r"(?:pursuing|enrolled in|candidate for|currently in|student in)[^.]{0,60}?"
-                        r"(?:master['’]?s|m\.s\.|ph\.?\s?d|doctoral|graduate degree|advanced degree|graduate program)", re.I)
-UG_ANY     = re.compile(r"bachelor|undergrad|\bb\.s\.|\bbs\b|\bb\.?s\.?\s?/|four[- ]year degree", re.I)
+# a requirement sentence that asks for grad enrollment ("Pursuit of an advanced degree (MS or
+# PhD)", "Current enrollment in a full-time Master's or PhD program"), as opposed to "Masters and
+# PhD students are also eligible" or a pay line "based on pursuit of a Ph.D"
+GRAD_REQ   = re.compile(r"(?:must be|required|requirements?|qualifications?|current(?:ly)? enrolled|current enrollment|"
+                        r"pursuit of|pursuing|enrolled in|candidate for)[^.;•\n]{0,60}?"
+                        r"(?:master['’]?s?\b|\bm\.?s\.?\b|ph\.?\s?d|doctoral|advanced degree|graduate (?:degree|program|student))", re.I)
+GRAD_HINT  = re.compile(r"fellow doctoral candidates|we are looking for graduate students|"
+                        r"open (?:only )?to (?:master['’]?s|ph\.?d)|for (?:master['’]?s|ph\.?d) students", re.I)
+GRAD_OK    = re.compile(r"\balso\b|eligible|considered|additional|bachelor|undergrad|\bb\.?s\.?\b|\bbs\b|"
+                        r"per hour|hourly|\$|\bpay\b|compensation|preferred|a plus", re.I)
+UG_ANY     = re.compile(r"(?:pursuing|enrolled in|working toward|candidate for|current)[^.;\n]{0,50}"
+                        r"(?:bachelor|undergraduate|b\.s\.|\bbs\b)|undergraduate students|sophomores?|juniors?\b|rising senior", re.I)
+# titles in software, data, AI/ML, autonomy, research science and IT; a mechanical word in the
+# title keeps it ("Mechanical Engineer, Autonomy Hardware"); "AI&T" (assembly, integration
+# and test) is not AI
+SOFT_TITLE = re.compile(r"software|firmware|embedded|\bdata\b|\bai\b(?!\s*&)|machine learning|deep learning|"
+                        r"computer vision|\bcv\b|autonomy|algorithm|front.?end|back.?end|full.?stack|developer|devops|"
+                        r"\bcloud\b|quantum|reinforcement|\bagents?\b|digitali[sz]ation|digital product|test automation|"
+                        r"\bml\b|\bllm|perception|research intern|research scientist|applied scientist|\bit\b|"
+                        r"information technology|cyber|aiops|\bweb\b|\bui\b|\bux\b|app(?:lication)? development", re.I)
 # a US location in any of the usual shapes: "Boston, MA", "US-CA-Santa Clara", "USA",
 # "United States", or a state name
 US_LOC = re.compile(
@@ -99,6 +116,16 @@ def season(title, body):
     return "unstated"
 
 
+def _sentences_with(rx, text):
+    """The sentence around each match of rx (split on . ; • and newlines)."""
+    out = []
+    for m in rx.finditer(text or ""):
+        a = max(text.rfind(c, 0, m.start()) for c in ".;•\n") + 1
+        ends = [i for i in (text.find(c, m.end()) for c in ".;•\n") if i >= 0]
+        out.append(text[a:min(ends) if ends else len(text)])
+    return out
+
+
 _NON_US_RX = {}
 
 
@@ -123,7 +150,10 @@ def gate(j, r):
     if j["season"] == "unstated" and j.get("posted") and j["posted"] < SEASON_CYCLE_START:
         return "no Summer/Fall 2027"
     if GRAD_TITLE.search(t) and not UG_TITLE.search(t):        return "master's/PhD only"
-    if GRAD_REQ.search(b) and not UG_ANY.search(blob):          return "master's/PhD only"
+    if not UG_ANY.search(blob) and (GRAD_HINT.search(b) or any(
+            not GRAD_OK.search(sent) for sent in _sentences_with(GRAD_REQ, b))):
+                                                                return "master's/PhD only"
+    if SOFT_TITLE.search(t) and not ME_WORD.search(t):         return "software / data / AI role"
     loc = j.get("location") or ""
     if loc and abroad_only(loc, r):
         return "outside the US"
@@ -336,7 +366,8 @@ def score(j, traj, r, fresh=(0, None, ""), company_rate=None):
     return {"total": base + pts, "base": base, "fit": fit, "loc": loc, "traj": traj,
             "pay": pay, "rate": rate, "rate_src": rate_src if rate else None,
             "fresh": pts, "age": age, "age_basis": basis,
-            "tier": "A" if base >= r["tier_a"] else "B" if base >= r["tier_b"] else
+            "tier": "A" if base >= r["tier_a"] and fit >= r.get("tier_a_min_fit", 0) else
+                    "B" if base >= r["tier_b"] else
                     "B" if any(k in tl for k in r.get("core_titles", [])) else "C",
             "why": why[:8]}
 

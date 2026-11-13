@@ -211,8 +211,16 @@ Four gates run before anything is scored:
   The posting also needs a mechanical word in its title or body.
 - **Open to undergraduates.** Dropped when the title names only a graduate degree
   (MS, PhD, Graduate, master's, MBA) with no BS/undergrad alongside it
-  ("Bachelor's/Master's" stays), or when the description requires graduate
-  enrollment and never mentions a bachelor's or undergraduates.
+  ("Bachelor's/Master's" stays), or when a requirement sentence asks for graduate
+  enrollment ("Pursuit of an advanced degree (MS or PhD)", "Current enrollment in
+  a full-time Master's or PhD program", Microsoft's "fellow doctoral candidates")
+  and the posting never says undergraduates are eligible. "Masters and PhD
+  students are also eligible" and pay lines by degree do not count.
+- **Not a software / data / AI role.** Titles in software, firmware, embedded,
+  data, AI/ML, computer vision, autonomy, algorithms, research science, web/UI,
+  IT and similar are dropped unless the title also says mechanical
+  ("Mechanical Engineer, Autonomy Hardware" stays). "AI&T" (assembly,
+  integration and test) is not read as AI.
 - **In the US.** Dropped when every listed location is abroad, Canada included,
   since a work permit would not come through in time. Each location in a
   multi-location posting is judged on its own, so "Boston, MA; Toronto, ON" stays,
@@ -224,7 +232,7 @@ Then the weighted components:
 | Component | Cap | What it measures |
 |---|---|---|
 | fit | 60 | title and body keywords from the resume and portfolio: test stands and fixtures, mechanisms and actuators, GD&T and tolerance stacks, P&IDs and leak testing, DFM/DFA, machine vision and hardware-software integration. Product design, mechanical design and hardware engineering titles weigh most because they lead to the best-paid full-time offers; quality and sustaining titles still count, at lower weight. Return or full-time offer language +10. Technician, inspector, operator and assembler titles are penalised, as are unpaid or for-credit roles |
-| pay | +15 / -6 | the undergrad pay the posting states, as USD per hour (annual / 2080, monthly / 173, weekly / 40, CAD/EUR/GBP converted): +15 at $55/hr and up, +12 at $48, +9 at $42, +6 at $37, +3 at $33, 0 at $29, -3 at $25, -6 below. Read from "$35 - $44 per hour", "MIN $ 32.03 - MAX $ 51.43", "Pay Range (USD) 33 - 66, $ per hour", "weekly pay range: $1,300 — $1,650", and "rates begin at $24/hour" (taken as $24-36). Ranges up to 3x wide are used; company-wide scales wider than that ("$17 - $98") count as unstated. **No pay in the posting** borrows the median of the same company's stated ranges from the same scan, and failing that a typical rate for the company's trajectory ($52/hr at 20 down to $28/hr), whose points are capped at +6. Estimates show as "~$40/hr est." on the card |
+| pay | +8 / -4 | the undergrad pay the posting states, as USD per hour (annual / 2080, monthly / 173, weekly / 40, CAD/EUR/GBP converted): +8 at $55/hr and up, +6 at $48, +4 at $42, +2 at $37, +1 at $33, 0 at $29, -2 at $25, -4 below. Pay orders comparable roles; it is kept small so a high-paying weak fit cannot jump a strong one. Read from "$35 - $44 per hour", "MIN $ 32.03 - MAX $ 51.43", "Pay Range (USD) 33 - 66, $ per hour", "weekly pay range: $1,300 — $1,650", and "rates begin at $24/hour" (taken as $24-36). Ranges up to 3x wide are used; company-wide scales wider than that ("$17 - $98") count as unstated. **No pay in the posting** borrows the median of the same company's stated ranges from the same scan, and failing that a typical rate for the company's trajectory ($52/hr at 20 down to $28/hr), whose points are capped at +2. Estimates show as "~$40/hr est." on the card |
 | location | 8 | Boston area and the Bay Area / Seattle tech hubs highest, NYC next, LA, San Diego and Austin after, remote -6; postings only abroad are filtered out (see the gates). The best listed location wins, so "Boston; Bangalore" scores as Boston |
 | trajectory | 20 | per company, from `companies.txt`: expected pay (intern rate and the full-time offer it leads to) first, then scale and career path. Big tech and semiconductor equipment at the top, industrial fluid-component makers at 9 |
 | freshness | +12 / -8 | age of the posting: +12 within 2 days, +9 within 5, +6 within 10, +3 within 3 weeks, 0 to 5 weeks, -4 to 60 days, -8 after |
@@ -238,7 +246,8 @@ place of body keywords (the typical body score is about 19) and are marked
 Corporation", "Shield AI (ashby)") uses the main entry's trajectory, and the same
 posting found twice is shown once.
 
-Tier A at 50, tier B at 32, everything below is tier C. A title that names a core
+Tier A at 50 and a fit of at least 30 (company weight and pay alone cannot make
+an A), tier B at 32, everything below is tier C. A title that names a core
 mechanical role (mechanical, manufacturing / design / test / quality / process
 engineering, product design, reliability, structures, propulsion, thermal, fluid,
 hardware or systems engineering, a plain "Engineering Intern", ...) is never left in
