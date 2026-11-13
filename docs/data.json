@@ -1,9 +1,19 @@
 {
- "generated": "2026-11-13T20:24:48+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43501298698",
- "scanned": 33962,
+ "generated": "2026-11-13T20:44:53+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43504364924",
+ "scanned": 33949,
  "boards": 320,
  "errors": [
+  {
+   "company": "Abiomed",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 502"
+  },
+  {
+   "company": "Ciena",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out"
+  },
   {
    "company": "General Motors",
    "board": "workday",
@@ -12,12 +22,12 @@
   {
    "company": "Johnson Controls",
    "board": "workday",
-   "error": "failed after 3 tries: The read operation timed out"
+   "error": "failed after 3 tries: HTTP 502"
   },
   {
    "company": "Johnson and Johnson",
    "board": "workday",
-   "error": "failed after 3 tries: The read operation timed out"
+   "error": "failed after 3 tries: HTTP 502"
   },
   {
    "company": "NVIDIA",
@@ -26,13 +36,13 @@
   }
  ],
  "dropped": {
-  "software / data / AI role": 1078,
-  "non-ME discipline": 1227,
-  "master's/PhD only": 644,
-  "no mechanical signal": 342,
-  "off-target season in title": 458,
-  "not a student req": 26404,
-  "outside the US": 1477,
+  "software / data / AI role": 1075,
+  "non-ME discipline": 1229,
+  "master's/PhD only": 647,
+  "no mechanical signal": 343,
+  "off-target season in title": 448,
+  "not a student req": 26403,
+  "outside the US": 1474,
   "no Summer/Fall 2027": 825
  },
  "jobs": [
@@ -781,6 +791,68 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "sr:RenesasElectronics:744000161442639",
+   "title": "Mechanical Engineering Intern",
+   "location": "Varna, bg",
+   "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000161442639",
+   "posted": "2026-11-13",
+   "body": "We are looking for a motivated and detail-oriented Mechanical Engineering Intern to join our engineering team. This internship offers hands-on experience in mechanical design, rapid prototyping, and product development. The successful candidate will work closely with experienced engineers and gain practical exposure to modern manufacturing technologies, laboratory equipment, and engineering processes. Key Responsibilities Support the daily activities of the mechanical engineering laboratory. Create and prepare CAD models for additive manufacturing and CNC machining processes. Assist in the fabrication, assembly, and testing of prototypes and mechanical systems. Perform measurements, collect data, and document test results. Maintain laboratory equipment, tools, and consumables in an organized and operational condition. Develop and update 3D models, technical drawings, and engineering documentation. Follow established engineering practices, laboratory procedures, and safety regulations. Contribute to continuous improvement initiatives related to product design, prototyping, and testing activities. Currently pursuing, or recently completed, a degree in Mechanical Engineering, Mechatronics, Industrial Design, Manufacturing Technologies, or a related technical discipline. Strong interest in mechanical design, product development, and engineering innovation. Basic understanding of mechanical systems, materials, and manufacturing processes. Ability to read and interpret technical drawings, engineering documentation, and 3D models. Experience with CAD tools such as SolidWorks, Onshape, or similar software is considered an advantage. Interest in rapid prototyping technologies, including 3D printing and CNC machining. Willingness to work with laboratory equipment, hand tools, measuring instruments, and manufacturing machinery. Strong attention to detail and commitment to quality and safety standards. Good organizational and time-management skills. Ability to collaborate effectively in a multidisciplinary team environment. Good command of English, with the ability to understand technical documentation and communicate effectively. What We Offer Practical experience in a professional engineering environment. Exposure to modern product development methodologies and manufacturing technologies. Mentorship from experienced engineers. Opportunity to develop technical, analytical, and problem-solving skills. Participation in real-world engineering projects and prototype development. Renesas is an embedded semiconductor solution provider driven by its Purpose, To Make Our Lives Easier . With a global team of over 21,000 engineers and problem solvers in more than 30 countries, we offer the opportunity to work on world\u2011leading technology for Automotive, Industrial, Infrastructure, and IoT, shaping a safer, healthier, greener, and smarter future. At Renesas, TAGIE is our culture, grounded in being Transparent, Agile, Global, Innovative, and Entrepreneurial. It shapes how we work, grow and deliver on our purpose together. This collaborative spirit and mindset drive our semiconductor technology to transform industries and impact millions of lives. We believe in rewarding our employees with a competitive benefits package alongside their salary. More information will be provided during the hiring process. Are you ready to join our team and shape the future with us? Renesas Electronics is an equal opportunity and affirmative action employer, committed to supporting diversity and fostering a work environment free of discrimination on the basis of sex, race, religion, national origin, gender, gender identity, gender expression, age, sexual orientation, military status, veteran status, or any other basis protected by law. For more information, please read our Diversity & Inclusion Statement .",
+   "season": "unstated",
+   "company": "Renesas Electronics",
+   "score": {
+    "total": 84,
+    "base": 72,
+    "fit": 57,
+    "loc": 0,
+    "traj": 11,
+    "pay": 4,
+    "rate": [
+     39.38,
+     44.62
+    ],
+    "rate_src": "company",
+    "fresh": 12,
+    "age": 0.9,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: mechanical",
+      12
+     ],
+     [
+      "body: mechatronics",
+      6
+     ],
+     [
+      "body: product design",
+      6
+     ],
+     [
+      "body: rapid prototyping",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: mechanical engineering intern",
+      4
+     ],
+     [
+      "body: machining",
+      4
+     ],
+     [
+      "body: 3d printing",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-13T09:04:03+00:00"
+  },
+  {
    "id": "wd:asml:J-00355587",
    "title": "Internship - Mechanical Engineering Research",
    "location": "San Diego, CA, USA, United States of America",
@@ -1151,68 +1223,6 @@
     ]
    },
    "first_seen": "2026-11-09T22:09:00+00:00"
-  },
-  {
-   "id": "sr:RenesasElectronics:744000161442639",
-   "title": "Mechanical Engineering Intern",
-   "location": "Varna, bg",
-   "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000161442639",
-   "posted": "2026-11-13",
-   "body": "We are looking for a motivated and detail-oriented Mechanical Engineering Intern to join our engineering team. This internship offers hands-on experience in mechanical design, rapid prototyping, and product development. The successful candidate will work closely with experienced engineers and gain practical exposure to modern manufacturing technologies, laboratory equipment, and engineering processes. Key Responsibilities Support the daily activities of the mechanical engineering laboratory. Create and prepare CAD models for additive manufacturing and CNC machining processes. Assist in the fabrication, assembly, and testing of prototypes and mechanical systems. Perform measurements, collect data, and document test results. Maintain laboratory equipment, tools, and consumables in an organized and operational condition. Develop and update 3D models, technical drawings, and engineering documentation. Follow established engineering practices, laboratory procedures, and safety regulations. Contribute to continuous improvement initiatives related to product design, prototyping, and testing activities. Currently pursuing, or recently completed, a degree in Mechanical Engineering, Mechatronics, Industrial Design, Manufacturing Technologies, or a related technical discipline. Strong interest in mechanical design, product development, and engineering innovation. Basic understanding of mechanical systems, materials, and manufacturing processes. Ability to read and interpret technical drawings, engineering documentation, and 3D models. Experience with CAD tools such as SolidWorks, Onshape, or similar software is considered an advantage. Interest in rapid prototyping technologies, including 3D printing and CNC machining. Willingness to work with laboratory equipment, hand tools, measuring instruments, and manufacturing machinery. Strong attention to detail and commitment to quality and safety standards. Good organizational and time-management skills. Ability to collaborate effectively in a multidisciplinary team environment. Good command of English, with the ability to understand technical documentation and communicate effectively. What We Offer Practical experience in a professional engineering environment. Exposure to modern product development methodologies and manufacturing technologies. Mentorship from experienced engineers. Opportunity to develop technical, analytical, and problem-solving skills. Participation in real-world engineering projects and prototype development. Renesas is an embedded semiconductor solution provider driven by its Purpose, To Make Our Lives Easier . With a global team of over 21,000 engineers and problem solvers in more than 30 countries, we offer the opportunity to work on world\u2011leading technology for Automotive, Industrial, Infrastructure, and IoT, shaping a safer, healthier, greener, and smarter future. At Renesas, TAGIE is our culture, grounded in being Transparent, Agile, Global, Innovative, and Entrepreneurial. It shapes how we work, grow and deliver on our purpose together. This collaborative spirit and mindset drive our semiconductor technology to transform industries and impact millions of lives. We believe in rewarding our employees with a competitive benefits package alongside their salary. More information will be provided during the hiring process. Are you ready to join our team and shape the future with us? Renesas Electronics is an equal opportunity and affirmative action employer, committed to supporting diversity and fostering a work environment free of discrimination on the basis of sex, race, religion, national origin, gender, gender identity, gender expression, age, sexual orientation, military status, veteran status, or any other basis protected by law. For more information, please read our Diversity & Inclusion Statement .",
-   "season": "unstated",
-   "company": "Renesas Electronics",
-   "score": {
-    "total": 82,
-    "base": 70,
-    "fit": 57,
-    "loc": 0,
-    "traj": 11,
-    "pay": 2,
-    "rate": [
-     41.5,
-     41.5
-    ],
-    "rate_src": "company",
-    "fresh": 12,
-    "age": 0.9,
-    "age_basis": "posted",
-    "tier": "A",
-    "why": [
-     [
-      "title: mechanical",
-      12
-     ],
-     [
-      "body: mechatronics",
-      6
-     ],
-     [
-      "body: product design",
-      6
-     ],
-     [
-      "body: rapid prototyping",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "title: mechanical engineering intern",
-      4
-     ],
-     [
-      "body: machining",
-      4
-     ],
-     [
-      "body: 3d printing",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-13T09:04:03+00:00"
   },
   {
    "id": "gh:formlabs:8186604",
@@ -16782,56 +16792,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "wd:jj:R-097289",
-   "title": "Innovation Excellence Co-op",
-   "location": "Danvers, Massachusetts, United States of America",
-   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Innovation-Excellence-Co-op_R-097289",
-   "posted": "2026-11-09",
-   "body": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at jnj.com As guided by Our Credo, Johnson & Johnson is responsible to our employees who work with us throughout the world. We provide an inclusive work environment where each person is considered as an individual. At Johnson & Johnson, we respect the diversity and dignity of our employees and recognize their merit. Job Function: Career Programs Job Sub Function: Non-LDP Intern/Co-Op Job Category: Career Program All Job Posting Locations: Danvers, Massachusetts, United States of America Job Description: Johnson & Johnson is currently seeking an Engineering Co-op to join our Innovation Excellence Team for Spring 2027 located in Danvers, MA. At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at https://www.jnj.com/ . Program Dates: January 11 \u2013 June 25, 2027 Position Summary The innovation excellence engineering co-op provides foundational support in the development, testing, and lifecycle management of Impella Pumps, Accessories, and related technologies. This role offers an opportunity to learn and contribute to product design, validation, and continuous improvement while gaining valuable experience in a regulated MedTech environment. Key Responsibilities Design & Development Assist in executing basic design, testing, and validation activities under supervision. Support documentation and reporting of test results, issues, and product data. Contribute to minor design improvements and design for manufacturability initiatives. Product Lifecycle & Sustaining Engineering Help in troubleshooting product issues, field feedback, and escalation investigations. Support activities related to product updates, validation, and compliance documentation. Cross-Functional Collaboration Work closely with senior engineers, R&D, manufacturing, and quality teams to support project tasks. Assist in gathering and organizing technical data and documents needed for projects and audits. Support technical reviews and updates on product features. Minimum Requirements Junior, Senior, or Grad student pursuing a degree in mechanical, biomedical engineering or directly related discipline. Eagerness to learn and develop technical skills in a regulated product environment. Good communication, teamwork, and problem-solving skills. Ability to follow directions, support multiple tasks, and work collaboratively in a fast-paced setting. Permanently authorized to work in the U.S., must not require sponsorship of an employment visa (e.g., H-1B or green card) at the time of application or in the future. Students currently on CPT, OPT, or STEM OPT usually requires future sponsorship for long term employment and do not meet the requirements for this program unless eligible for an alternative long-term status that does not require company sponsorship. Johnson & Johnson is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, protected veteran status or other characteristics protected by federal, state or local law. We actively seek qualified candidates who are protected veterans and individuals with disabilities as defined under VEVRAA and Section 503 of the Rehabilitation Act. Johnson & Johnson is committed to providing an interview process that is inclusive of our applicants\u2019 needs. If you are an individual with a disability and would like to request an accommodation, external applicants please contact us via https://www.jnj.com/contact-us/careers . Internal employees contact AskGS to be directed to your accommodation resource. #LI-Onsite Required Skills: Preferred Skills: The anticipated base pay range for this position is : $23.50/hr to $52.50/hr Additional Description for Pay Transparency: The expected pay range for this position is between $23.50 per hour and $52.50 per hour but will be based on candidate's program year, discipline, degree and/or experience. Co-Ops/Interns are eligible to participate in Company sponsored employee medical benefits in accordance with the terms of the plan. Co-Ops and Interns are eligible for the following sick time benefits: up to 40 hours per calendar year; for employees who reside in the State of Washington, up to 56 hours per calendar year. Co-Ops and Interns are eligible to participate in the Company\u2019s consolidated retirement plan (pension). For additional general information on Company benefits, please go to: https://www.careers.jnj.com/employee-benefits This job posting is anticipated to close on 6/25/2027. The Company may however extend this time-period, in which case the posting will remain available on https://www.careers.jnj.com to accept additional applications.",
-   "season": "ok",
-   "company": "Abiomed",
-   "score": {
-    "total": 47,
-    "base": 38,
-    "fit": 17,
-    "loc": 6,
-    "traj": 13,
-    "pay": 2,
-    "rate": [
-     23.5,
-     52.5
-    ],
-    "rate_src": "stated",
-    "fresh": 9,
-    "age": 4.9,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: product design",
-      6
-     ],
-     [
-      "body: pump",
-      5
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "body: fea",
-      3
-     ],
-     [
-      "pay $38/hr",
-      2
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "gh:astranis:4705640006",
    "title": "Propulsion Test Intern (Summer 2027)",
    "location": "San Francisco",
@@ -25741,6 +25701,60 @@
    "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
+   "id": "sr:RenesasElectronics:744000155551520",
+   "title": "Intern, Product Engineering",
+   "location": "Lviv, ua",
+   "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000155551520",
+   "posted": "2026-10-14",
+   "body": "As part of our Internship program, we are offering a fixed-term Product Engineering Intern position for students, with the possibility of a full-time job offer based on internship results. Product Engineer ensures manufactured integrated circuits meet all necessary requirements before they reach the customer. You will be involved in a variety of cross-functional tasks to ramp up and sustain mass production of Mixed-signal and Power integrated circuits for industrial and automotive markets. The role: Analyze production and test data, identify yield losses and/or potentials Communication with cross-functional teams to resolve production issues Take part in yield enhancement and Failure Analysis activities Support hold lot disposition based on technical assessment of test data Support product qualification (HTOL, bHAST, ESD, LU etc.) and electrical parameter assessment (Characterization) Learn applicable standards and internal quality procedures Contribute to automation and data analysis improvements All critical activities are performed under mentor supervision during the initial stage BSc degree or student (3rd year or higher) in Electrical Engineering or related disciplines Basic knowledge of analog and digital electronics Basic programming skills (Python, C#, VBA, R or similar) Basic knowledge of Statistical Data Analysis techniques Basic knowledge of IC manufacturing flow Intermediate English, both written and spoken Fixed-Term Contract - duration approx. 6 months. Paid internship Dedicated mentor from the Product Engineering team Real tasks on production and NPI projects for industrial and automotive customers 14 calendar days paid vacation Flexible working hours Potential opportunity for a permanent position based on internship performance Renesas is an embedded semiconductor solution provider driven by its Purpose, To Make Our Lives Easier . With a global team of over 21,000 engineers and problem solvers in more than 30 countries, we offer the opportunity to work on world\u2011leading technology for Automotive, Industrial, Infrastructure, and IoT, shaping a safer, healthier, greener, and smarter future. At Renesas, TAGIE is our culture, grounded in being Transparent, Agile, Global, Innovative, and Entrepreneurial. It shapes how we work, grow and deliver on our purpose together. This collaborative spirit and mindset drive our semiconductor technology to transform industries and impact millions of lives. We believe in rewarding our employees with a competitive benefits package alongside their salary. More information will be provided during the hiring process. Are you ready to join our team and shape the future with us? Renesas Electronics is an equal opportunity and affirmative action employer, committed to supporting diversity and fostering a work environment free of discrimination on the basis of sex, race, religion, national origin, gender, gender identity, gender expression, age, sexual orientation, military status, veteran status, or any other basis protected by law. For more information, please read our Diversity & Inclusion Statement .",
+   "season": "unstated",
+   "company": "Renesas Electronics",
+   "score": {
+    "total": 39,
+    "base": 39,
+    "fit": 24,
+    "loc": 0,
+    "traj": 11,
+    "pay": 4,
+    "rate": [
+     39.38,
+     44.62
+    ],
+    "rate_src": "company",
+    "fresh": 0,
+    "age": 30.9,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: product engineer",
+      10
+     ],
+     [
+      "body: failure analysis",
+      7
+     ],
+     [
+      "body: npi",
+      6
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "est. pay $42/hr",
+      4
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "ab:revel:6ca4dca8-a43e-41da-acc3-e6b4d8f9b3c1",
    "title": "Internship: Forward Deployed Engineer, Test",
    "location": "Los Angeles",
@@ -28050,60 +28064,6 @@
     ]
    },
    "first_seen": "2026-11-12T14:10:57+00:00"
-  },
-  {
-   "id": "sr:RenesasElectronics:744000155551520",
-   "title": "Intern, Product Engineering",
-   "location": "Lviv, ua",
-   "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000155551520",
-   "posted": "2026-10-14",
-   "body": "As part of our Internship program, we are offering a fixed-term Product Engineering Intern position for students, with the possibility of a full-time job offer based on internship results. Product Engineer ensures manufactured integrated circuits meet all necessary requirements before they reach the customer. You will be involved in a variety of cross-functional tasks to ramp up and sustain mass production of Mixed-signal and Power integrated circuits for industrial and automotive markets. The role: Analyze production and test data, identify yield losses and/or potentials Communication with cross-functional teams to resolve production issues Take part in yield enhancement and Failure Analysis activities Support hold lot disposition based on technical assessment of test data Support product qualification (HTOL, bHAST, ESD, LU etc.) and electrical parameter assessment (Characterization) Learn applicable standards and internal quality procedures Contribute to automation and data analysis improvements All critical activities are performed under mentor supervision during the initial stage BSc degree or student (3rd year or higher) in Electrical Engineering or related disciplines Basic knowledge of analog and digital electronics Basic programming skills (Python, C#, VBA, R or similar) Basic knowledge of Statistical Data Analysis techniques Basic knowledge of IC manufacturing flow Intermediate English, both written and spoken Fixed-Term Contract - duration approx. 6 months. Paid internship Dedicated mentor from the Product Engineering team Real tasks on production and NPI projects for industrial and automotive customers 14 calendar days paid vacation Flexible working hours Potential opportunity for a permanent position based on internship performance Renesas is an embedded semiconductor solution provider driven by its Purpose, To Make Our Lives Easier . With a global team of over 21,000 engineers and problem solvers in more than 30 countries, we offer the opportunity to work on world\u2011leading technology for Automotive, Industrial, Infrastructure, and IoT, shaping a safer, healthier, greener, and smarter future. At Renesas, TAGIE is our culture, grounded in being Transparent, Agile, Global, Innovative, and Entrepreneurial. It shapes how we work, grow and deliver on our purpose together. This collaborative spirit and mindset drive our semiconductor technology to transform industries and impact millions of lives. We believe in rewarding our employees with a competitive benefits package alongside their salary. More information will be provided during the hiring process. Are you ready to join our team and shape the future with us? Renesas Electronics is an equal opportunity and affirmative action employer, committed to supporting diversity and fostering a work environment free of discrimination on the basis of sex, race, religion, national origin, gender, gender identity, gender expression, age, sexual orientation, military status, veteran status, or any other basis protected by law. For more information, please read our Diversity & Inclusion Statement .",
-   "season": "unstated",
-   "company": "Renesas Electronics",
-   "score": {
-    "total": 37,
-    "base": 37,
-    "fit": 24,
-    "loc": 0,
-    "traj": 11,
-    "pay": 2,
-    "rate": [
-     41.5,
-     41.5
-    ],
-    "rate_src": "company",
-    "fresh": 0,
-    "age": 30.9,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: product engineer",
-      10
-     ],
-     [
-      "body: failure analysis",
-      7
-     ],
-     [
-      "body: npi",
-      6
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "est. pay $42/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "gh:rocketlab:7986748003",
@@ -30703,6 +30663,52 @@
     ]
    },
    "first_seen": "2026-10-22T17:39:05+00:00"
+  },
+  {
+   "id": "sr:RenesasElectronics:744000161487990",
+   "title": "Digital Verification Engineer Intern",
+   "location": "Kallithea, Athens, gr",
+   "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000161487990",
+   "posted": "2026-11-13",
+   "body": "We are looking for a motivated Digital Verification Engineer Intern to join our hardware development team. You will work on the UVM verification of a Bluetooth 3-Wire UART hardware block , gaining hands-on experience with industry-standard verification methodologies and collaborating closely with experienced hardware engineers. Responsibilities Develop and execute a UVM block-level verification environment for a hardware block implementing the Bluetooth 3-Wire UART protocol . Work closely with the hardware designer to understand the design specification and verification requirements. Prepare and maintain the Verification Plan . Implement verification components, tests, sequences, scoreboards, and coverage models. Measure, analyze, and report functional and code coverage. Debug verification failures and support the designer in identifying and resolving design issues. Document verification activities and present results to the project team. Currently pursuing a BSc in Computer Science, Computer Engineering, Electrical Engineering, or a related field . Good understanding of digital design and verification fundamentals. Basic knowledge of SystemVerilog and object-oriented programming concepts. Strong analytical and problem-solving skills. Good written and spoken English . Ability to work effectively in a team environment. Preferred Familiarity with Universal Verification Methodology (UVM) . Knowledge of serial communication protocols such as UART interfaces. Exposure to simulation and verification tools used in ASIC/SoC development. Understanding of coverage-driven verification concepts. Renesas is an embedded semiconductor solution provider driven by its Purpose, To Make Our Lives Easier . With a global team of over 21,000 engineers and problem solvers in more than 30 countries, we offer the opportunity to work on world\u2011leading technology for Automotive, Industrial, Infrastructure, and IoT, shaping a safer, healthier, greener, and smarter future. At Renesas, TAGIE is our culture, grounded in being Transparent, Agile, Global, Innovative, and Entrepreneurial. It shapes how we work, grow and deliver on our purpose together. This collaborative spirit and mindset drive our semiconductor technology to transform industries and impact millions of lives. We believe in rewarding our employees with a competitive benefits package alongside their salary. More information will be provided during the hiring process. Are you ready to join our team and shape the future with us? Renesas Electronics is an equal opportunity and affirmative action employer, committed to supporting diversity and fostering a work environment free of discrimination on the basis of sex, race, religion, national origin, gender, gender identity, gender expression, age, sexual orientation, military status, veteran status, or any other basis protected by law. For more information, please read our Diversity & Inclusion Statement .",
+   "season": "unstated",
+   "company": "Renesas Electronics",
+   "score": {
+    "total": 35,
+    "base": 23,
+    "fit": 8,
+    "loc": 0,
+    "traj": 11,
+    "pay": 4,
+    "rate": [
+     39.38,
+     44.62
+    ],
+    "rate_src": "company",
+    "fresh": 12,
+    "age": 0.9,
+    "age_basis": "posted",
+    "tier": "C",
+    "why": [
+     [
+      "title: verification",
+      7
+     ],
+     [
+      "body: verification",
+      4
+     ],
+     [
+      "est. pay $42/hr",
+      4
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-13T14:01:52+00:00"
   },
   {
    "id": "wd:stryker:R572940",
@@ -33851,52 +33857,6 @@
     ]
    },
    "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "sr:RenesasElectronics:744000161487990",
-   "title": "Digital Verification Engineer Intern",
-   "location": "Kallithea, Athens, gr",
-   "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000161487990",
-   "posted": "2026-11-13",
-   "body": "We are looking for a motivated Digital Verification Engineer Intern to join our hardware development team. You will work on the UVM verification of a Bluetooth 3-Wire UART hardware block , gaining hands-on experience with industry-standard verification methodologies and collaborating closely with experienced hardware engineers. Responsibilities Develop and execute a UVM block-level verification environment for a hardware block implementing the Bluetooth 3-Wire UART protocol . Work closely with the hardware designer to understand the design specification and verification requirements. Prepare and maintain the Verification Plan . Implement verification components, tests, sequences, scoreboards, and coverage models. Measure, analyze, and report functional and code coverage. Debug verification failures and support the designer in identifying and resolving design issues. Document verification activities and present results to the project team. Currently pursuing a BSc in Computer Science, Computer Engineering, Electrical Engineering, or a related field . Good understanding of digital design and verification fundamentals. Basic knowledge of SystemVerilog and object-oriented programming concepts. Strong analytical and problem-solving skills. Good written and spoken English . Ability to work effectively in a team environment. Preferred Familiarity with Universal Verification Methodology (UVM) . Knowledge of serial communication protocols such as UART interfaces. Exposure to simulation and verification tools used in ASIC/SoC development. Understanding of coverage-driven verification concepts. Renesas is an embedded semiconductor solution provider driven by its Purpose, To Make Our Lives Easier . With a global team of over 21,000 engineers and problem solvers in more than 30 countries, we offer the opportunity to work on world\u2011leading technology for Automotive, Industrial, Infrastructure, and IoT, shaping a safer, healthier, greener, and smarter future. At Renesas, TAGIE is our culture, grounded in being Transparent, Agile, Global, Innovative, and Entrepreneurial. It shapes how we work, grow and deliver on our purpose together. This collaborative spirit and mindset drive our semiconductor technology to transform industries and impact millions of lives. We believe in rewarding our employees with a competitive benefits package alongside their salary. More information will be provided during the hiring process. Are you ready to join our team and shape the future with us? Renesas Electronics is an equal opportunity and affirmative action employer, committed to supporting diversity and fostering a work environment free of discrimination on the basis of sex, race, religion, national origin, gender, gender identity, gender expression, age, sexual orientation, military status, veteran status, or any other basis protected by law. For more information, please read our Diversity & Inclusion Statement .",
-   "season": "unstated",
-   "company": "Renesas Electronics",
-   "score": {
-    "total": 33,
-    "base": 21,
-    "fit": 8,
-    "loc": 0,
-    "traj": 11,
-    "pay": 2,
-    "rate": [
-     41.5,
-     41.5
-    ],
-    "rate_src": "company",
-    "fresh": 12,
-    "age": 0.9,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "title: verification",
-      7
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "est. pay $42/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-13T14:01:52+00:00"
   },
   {
    "id": "or:egup:20279306",
@@ -45849,56 +45809,6 @@
      [
       "est. pay $31/hr",
       0
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:qualcomm.com:3097413",
-   "title": "Intern - Snapdragon Computer Technical Enablement Intern - Mexico",
-   "location": "M\u00e9xico D.F., CDMX, MX",
-   "url": "https://careers.qualcomm.com/careers/job/446721363918",
-   "posted": "2026-10-01",
-   "body": "Company: Qualcomm Intl Inc., Mexico Branch Office Job Area: Interns Group, Interns Group > Interim Intern Qualcomm Overview: Qualcomm is a company of inventors that unlocked 5G ushering in an age of rapid acceleration in connectivity and new possibilities that will transform industries, create jobs, and enrich lives. But this is just the beginning. It takes inventive minds with diverse skills, backgrounds, and cultures to transform 5Gs potential into world-changing technologies and products. This is the Invention Age - and this is where you come in. General Summary: Role Overview We are looking for an intern to become the technical point of contact within the Hispanic Latin America Snapdragon Compute team. Working closely with the regional technical team, the intern will build a strong understanding of Snapdragon-powered PCs and help translate that knowledge into practical guidance for promoters, sales representatives, and channel partners. This is a learning role with increasing responsibility. The intern will support common technical questions and partner activities while working with Qualcomm specialists on issues that require deeper investigation or an official technical response. Key Responsibilities Build technical knowledge: Participate in regular sessions with the regional technical team to learn about Snapdragon PC platforms, Windows on Arm, AI experiences, application compatibility, and new products. Connect technical and commercial teams: Capture recurring questions from promoters, sales representatives, and channels; work with technical specialists to obtain accurate answers; and communicate those answers in a clear, useful format. Support partners: Serve as an accessible first point of contact for common product and demonstration questions, keeping track of open items and escalating complex cases. Develop useful resources: Help create and maintain FAQs, troubleshooting guides, product comparisons, talking points, and short technical content based on the questions partners actually ask. Enable product experiences: Prepare and maintain demo devices, validate key experiences, and support technical demonstrations when needed. Share knowledge: Contribute to webinars and training sessions for promoters, sales teams, and channels, initially alongside experienced team members and taking on presentation sections as expertise develops. What Success Looks Like Partners receive clear and consistent answers to common technical questions. Recurring issues reach the right specialists and are followed through. The team has current, practical resources it can reuse across Hispam, and the intern steadily develops the knowledge and confidence to explain Snapdragon PC technology. Basic Qualifications Currently pursuing a degree in Computer Engineering, Computer Science, Information Systems, Electronics, Mechatronics, or a related field. Strong curiosity about PCs, processors, Windows, AI, and how technology works in real-world use. Ability to investigate a question, learn from specialists, and explain the answer clearly to a nontechnical audience. Strong communication, organization, and follow-up skills. Working proficiency in English and Spanish. No prior professional experience required. Preferred Qualifications Familiarity with PC hardware, Windows configuration, or software troubleshooting. Interest in Windows on Arm and AI Pcs. Experience explaining or demonstrating technology through academic or personal projects. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail myhr.support@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. To all Staffing and Recruiting Agencies: Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. If you would like more information about this role, please contact Qualcomm Careers .",
-   "season": "unstated",
-   "company": "Qualcomm",
-   "score": {
-    "total": 25,
-    "base": 29,
-    "fit": 10,
-    "loc": 0,
-    "traj": 17,
-    "pay": 2,
-    "rate": [
-     26.25,
-     49.69
-    ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 43.9,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "body: mechatronics",
-      6
-     ],
-     [
-      "body: inventor",
-      4
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "est. pay $38/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
      ]
     ]
    },
@@ -69685,6 +69595,13 @@
   },
   {
    "company": "Anduril",
+   "title": "2027 Brand Marketing Intern",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261731007?gh_jid=5261731007",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Anduril",
    "title": "2027 Business Operations Engineer Intern",
    "location": "Ashville, Ohio, United States; Costa Mesa, California, United States",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5271672007?gh_jid=5271672007",
@@ -71284,13 +71201,6 @@
    "title": "Sales Account Manager Intern, Electrical Engineering & Business (Summer 2027)",
    "location": "USA - Texas - Austin, United States of America; USA - California - Santa Clara",
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Sales-Account-Manager-Intern--Electrical-Engineering---Business--Summer-2027-_JR-2604219",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "GlobalFoundries",
-   "title": "Silicon Photonics Process Integration Intern (Summer 2027)",
-   "location": "USA - New York - Malta, United States of America",
-   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Intern--Summer-2027-_JR-2604267",
    "reason": "non-ME discipline"
   },
   {
@@ -73576,6 +73486,13 @@
    "reason": "non-ME discipline"
   },
   {
+   "company": "Renesas Electronics",
+   "title": "PMIC Analog Intern",
+   "location": "San Jose, CALIFORNIA, us",
+   "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000161574999",
+   "reason": "non-ME discipline"
+  },
+  {
    "company": "Robert Bosch Venture Capital",
    "title": "Extracurricular Internship: Product Management (f/m/div) ",
    "location": "Aveiro, pt",
@@ -73879,15 +73796,15 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
@@ -73914,13 +73831,6 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Albuquerque, NM",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
    "location": "Wallops Island, VA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
    "reason": "non-ME discipline"
@@ -73928,15 +73838,22 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
+   "location": "Albuquerque, NM",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
+   "title": "Security Analyst Intern Summer 2027",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
    "reason": "non-ME discipline"
   },
   {
@@ -73949,15 +73866,15 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
    "reason": "non-ME discipline"
   },
   {
@@ -74631,6 +74548,13 @@
    "location": "King Of Prussia, Pennsylvania, United States of America",
    "url": "https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/King-Of-Prussia-Pennsylvania/Intern-Controls-Technician--King-of-Prussia--PA_JR-16956-1",
    "reason": "non-ME discipline"
+  },
+  {
+   "company": "Trane Technologies",
+   "title": "Logistics Intern",
+   "location": "Davidson, North Carolina, United States of America",
+   "url": "https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Davidson-North-Carolina/Logistics-Intern_JR-19889",
+   "reason": "no mechanical signal"
   },
   {
    "company": "Trane Technologies",
