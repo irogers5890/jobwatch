@@ -30,7 +30,7 @@ SEASON_OK = re.compile(
     rf"|\bFY\s?-?27\b"
     rf"|\b(?:may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s*(?:{_Y}\s*)?(?:-|–|to|through)\s*{_MON}\s*,?\s*2027", re.I)
 # ranges that start in Jan-Mar are spring co-ops even when they run into summer
-SEASON_SPRING_RANGE = re.compile(rf"\b(?:jan|feb|mar)[a-z]*\.?\s*(?:-|–|to|through)\s*{_MON}\s*,?\s*2027", re.I)
+SEASON_SPRING_RANGE = re.compile(rf"\b(?:jan|feb|mar)[a-z]*\.?\s*(?:-|–|to|through)\s*{_MON}\s*\)?\s*,?\s*2027", re.I)
 SEASON_BAD = re.compile(
     r"\b(?:spring|winter)\b[\s/&,+-]*['’]?(?:20)?27\b|\b2027\b[\s/&,:–-]*(?:spring|winter)\b"
     r"|\b(?:summer|fall|autumn|spring|winter)\b[\s/&,+-]*['’]?(?:20)?(?:25|26|28)\b"
