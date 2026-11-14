@@ -379,6 +379,12 @@ def run(dry=False, explain=False, only=None, skip=None, quiet=False):
     resolved = json.load(open(RESOLVED))
     rules    = json.load(open(SCORING))
     seen     = json.load(open(STATE)) if os.path.exists(STATE) else {}
+    # last published matches, so a board that errors this run (a Workday or SAP outage)
+    # keeps showing its postings instead of dropping out of the dashboard
+    try:
+        prev_jobs = json.load(open(OUT)).get("jobs", [])
+    except (OSError, ValueError):
+        prev_jobs = []
     board_first = seen.setdefault("_boards", {})     # company -> first scan time
     # companies.txt is where trajectory is edited; resolved.json keeps a copy from probe time
     traj_of = {}
@@ -446,7 +452,10 @@ def run(dry=False, explain=False, only=None, skip=None, quiet=False):
 
     for name, v, jobs, err, _ in results:
         if err:
-            errors.append({"company": name, "board": v["board"], "error": err})
+            kept = [{**pj, "stale": True} for pj in prev_jobs
+                    if pj.get("src", pj.get("company")) == name]
+            live.extend(kept)
+            errors.append({"company": name, "board": v["board"], "error": err, "kept": len(kept)})
             continue
         bfirst = board_first.setdefault(name, now)
         scanned += len(jobs)
@@ -471,7 +480,7 @@ def run(dry=False, explain=False, only=None, skip=None, quiet=False):
                                "url": j["url"], "reason": f"scored {s['base']}, below tier B"})
                 continue
             seen[j["id"]] = {"first_seen": first, "last_seen": now}
-            live.append({**j, "company": co, "score": s, "first_seen": first})
+            live.append({**j, "company": co, "src": name, "score": s, "first_seen": first})
 
     # one company scanned under two names ("KLA" and "KLA Corporation", a second
     # Workday site) lists the same req twice; keep the better-scored copy
@@ -517,9 +526,15 @@ def report_ci(payload):
             if errs:
                 f.write("| company | board | error |\n|---|---|---|\n")
                 f.writelines(f"| {e['company']} | {e['board']} | {e['error']} |\n" for e in errs)
-    if payload["scanned"] == 0 or len(errs) > n * FAIL_FRACTION:
-        print(f"::error::{len(errs)}/{n} boards failed, treating the scan as broken")
+    # only an empty scan is a failure: when a provider is down (Workday returned 521 for
+    # every tenant on 2026-11-14) the rest of the scan is still worth publishing, and the
+    # failed boards keep their last postings
+    if payload["scanned"] == 0:
+        print("::error::no postings fetched from any board, treating the scan as broken")
         sys.exit(1)
+    if len(errs) > n * FAIL_FRACTION:
+        print(f"::warning title=provider outage?::{len(errs)}/{n} boards failed; "
+              "their last good postings were kept")
 
 
 if __name__ == "__main__":

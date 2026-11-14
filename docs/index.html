@@ -378,7 +378,7 @@ loadData().then(d=>{
   if(hrs!==null && hrs>2)
     warn.push(`<b>Stale:</b> last scan was ${Math.round(hrs)} hours ago. Scheduled runs are not firing or are failing — check the Actions tab.`);
   if(d.errors&&d.errors.length){
-    warn.push(`<b>${d.errors.length} of ${d.boards} boards failed</b> on the last scan, so their postings are missing: `+
+    warn.push(`<b>${d.errors.length} of ${d.boards} boards failed</b> on the last scan; their postings below are from their last good scan: `+
       d.errors.map(e=>`${esc(e.company)} <span class="w">${esc(e.board)}</span> ${esc(e.error)}`).join(" · "));
     $("#errbox").innerHTML=`<summary>${d.errors.length} board error(s)</summary>`+
       d.errors.map(e=>`<div class="err">${esc(e.company)} (${esc(e.board)}): ${esc(e.error)}</div>`).join("");
