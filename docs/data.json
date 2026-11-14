@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-14T04:46:41+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43558289973",
- "scanned": 30184,
+ "generated": "2026-11-14T05:06:34+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43559892752",
+ "scanned": 30091,
  "boards": 321,
  "errors": [
   {
@@ -443,6 +443,12 @@
    "kept": 28
   },
   {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 3
+  },
+  {
    "company": "Moog",
    "board": "workday",
    "error": "failed after 3 tries: HTTP 521",
@@ -575,6 +581,12 @@
    "kept": 28
   },
   {
+   "company": "Tektronix",
+   "board": "eightfold",
+   "error": "HTTP 403 \u2014 check slug/tenant/site",
+   "kept": 0
+  },
+  {
    "company": "Teledyne FLIR",
    "board": "workday",
    "error": "failed after 3 tries: HTTP 521",
@@ -672,13 +684,13 @@
   }
  ],
  "dropped": {
-  "not a student req": 26384,
-  "non-ME discipline": 624,
-  "software / data / AI role": 596,
-  "outside the US": 658,
-  "master's/PhD only": 319,
-  "no Summer/Fall 2027": 420,
-  "no mechanical signal": 156,
+  "not a student req": 26380,
+  "non-ME discipline": 609,
+  "software / data / AI role": 576,
+  "outside the US": 654,
+  "master's/PhD only": 284,
+  "no Summer/Fall 2027": 412,
+  "no mechanical signal": 152,
   "off-target season in title": 290
  },
  "jobs": [
@@ -17061,7 +17073,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "ab:regent:6d1fc228-f66c-4780-b358-7be3f6f64ed9",
@@ -18288,7 +18301,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-15T09:17:02+00:00"
+   "first_seen": "2026-10-15T09:17:02+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3090676",
@@ -23350,62 +23364,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:qualcomm.com:3095745",
-   "title": "Qualcomm Government Technologies (QGOV) Engineering Internship \u2013 Summer 2027 (San Diego or Boulder) | US CITIZENSHIP REQUIRED",
-   "location": "San Diego, CA, US",
-   "url": "https://careers.qualcomm.com/careers/job/446720740540",
-   "posted": "2026-09-18",
-   "body": "Company: Qualcomm Technologies, Inc. Job Area: Interns Group, Interns Group > Interim Engineering Intern - SW General Summary: About Qualcomm Qualcomm relentlessly innovates transforming businesses, enriching lives and fortifying societies. Our solutions are pivotal in crafting a smarter, interconnected world. Building on our nearly 40-year history of era-defining technology breakthroughs, we deliver leading-edge AI, high performance, lower-power computing, and unrivaled connectivity. We\u2019re proud to be the partner of choice to many of the world\u2019s largest enterprises. Together with our ecosystem partners, we enable next-generation digital transformation. At Qualcomm, we are engineering human progress. Join Us in Shaping the Future At Qualcomm, we're committed to engineering human progress by delivering intelligent computing everywhere. We're passionate about harnessing the power of technology to transform industries and improve lives. Our early career programs offer limitless opportunities for growth, mentorship, and meaningful work. By joining our team, you'll be part of a community that's pushing the boundaries of what's possible in AI, computing, and connectivity. With a global footprint spanning over 30 countries, you'll have the chance to collaborate with diverse talent and contribute to projects that are shaping the future of technology. Our early career programs are designed to attract inventive minds, offering a platform to contribute to our long-term innovation pipeline. You'll be part of a community that values collaboration, creativity, and continuous learning. Our programs provide real-world experience, technical skills, and professional development opportunities, empowering you to make a meaningful impact and achieve your career goals. Join us for our U.S. 2027 summer intern class ! Maximize Your Opportunities: Our internship hiring model routes candidates from this application into multiple project specific roles. Your \"Profile Visibility\" choice will guide how we manage your data across our systems. To be considered for the full breadth of internship opportunities, select the option to use your profile data for \"Any Roles Globally\". If you choose to limit your data to \"Only The Role I'm Applying For\", it will restrict the opportunity for you to be considered across matching internship opportunities. You can update your profile visibility preferences at any time through the Candidate Home Portal. Steps: Log Into Your Eightfold Candidate Home Account Hover Over The \"Profile\" Dropdown Open Settings Edit \"Profile Visibility\" Role Overview Qualcomm's Government Technologies (QGOV) division develops special products based on its wireless terrestrial and satellite communication technologies for the military, federal, local, and foreign governments. As a QGOV Engineering Intern, you will sit in either San Diego, CA or Boulder, CO and support government-sponsored research, development, integration, and testing of such systems, including adaptation and extension of commercial systems to novel applications and environments, as well as internal development efforts. You will work on a variety of projects crossing multiple disciplines from across the company to deliver timely results to customers. You will be responsible for working closely with other engineering disciplines to design, develop, automate, document, and execute tests. Excellent written and verbal communication skills are essential. Interns must be willing to travel occasionally and work well with others in a technical, global environment. This internship supports multiple technical tracks, including: Embedded Software Software in Test Based on your resume you may be aligned to one or more of these tracks. Please clearly indicate your interest(s) in your resume, as this is the only way to communicate preferences during the recruiting process. Minimum Qualifications Must be a U.S. citizen Currently enrolled in a bachelor\u2019s degree program in computer engineering, computer science, electrical engineering, or a related field Must be available for 11\u201314 weeks during Summer 2027 (May\u2013September) Expected graduation date of November 2027 or later 1+ years of experience with programming languages such as C, C++, Java, Python, etc. Preferred Qualifications Candidates actively pursuing a degree with an anticipated graduation between December 2027 and June 2028 Track 1: Embedded Software Experience with real-time embedded software development Experience with cellular systems, including devices and applications for voice and data, and associated test equipment and tools Understanding of communications systems including both physical and upper layers Familiarity with development tools such as Git and Gerrit Familiarity with debugging tools such as JTAG, IDEs, and gdb Experience with digital signal processing Experience with software vulnerability analysis and tools such as IDA Pro Track 2: Software in Test Test automation framework design and development using Python Test design, development, automation, execution, documentation, and debug Experience with cellular systems and associated test equipment and tools Understanding of communications systems including both physical and upper layers Experience evaluating wireless communications systems through drive tests, logging, and post analysis Familiarity with application layer protocols (TCP/IP, UDP, ICMP) and network/socket communications Experience with mobile platform operating systems including Linux, Android, and iOS Familiarity with Linux, Git, Jenkins, Testlink, and Docker Qualcomm\u2019s Internship Program Our interns join world-class teams to help define and build what is next for mobility and the world. You\u2019ll be paired with a mentor with visibility to your project and team, receive support from your manager, and have access to the entire Qualcomm employee community to ensure your success. To round out your summer internship, we host professional development workshops, social events, cross-functional speaker sessions, and an executive speaker series. In addition to competitive hourly pay and accrued vacation time, you will receive relocation coverage and furnished housing accommodations for the duration of your internship. Application Process By applying here, you are expressing interest in one of our many 2027 QGOV Engineering internships . It is important to note that this is not a job posting for a specific project. We will review resumes on an ongoing basis, and a recruiter may reach out to you. Advancing candidates may be invited to complete a timed HackerRank challenge to evaluate their technical skill set. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). To all Staffing and Recruiting Agencies : Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. EEO Employer: Qualcomm is an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or any other protected classification. Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. Pay range and Other Compensation & Benefits : $17.00 - $98.00 The above pay scale reflects the broad, minimum to maximum, pay scale for this job code for the location for which it has been posted. Even more importantly, please note that salary is only one component of total compensation at Qualcomm. We also offer a competitive annual discretionary bonus program and opportunity for annual RSU grants (employees on sales-incentive plans are not eligible for our annual bonus). In addition, our highly competitive benefits package is designed to support your success at work, at home, and at play. Your recruiter will be happy to discuss all that Qualcomm has to offer \u2013 and you can review more details about our US benefits at this link . If you would like more information about this role, please contact Qualcomm Careers .",
-   "season": "ok",
-   "company": "Qualcomm",
-   "src": "Qualcomm",
-   "score": {
-    "total": 39,
-    "base": 43,
-    "fit": 19,
-    "loc": 5,
-    "traj": 17,
-    "pay": 2,
-    "rate": [
-     26.25,
-     49.69
-    ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 57.2,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "title: engineering internship",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "est. pay $38/hr",
-      2
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:RenesasElectronics:744000155551520",
@@ -35841,6 +35801,49 @@
     ]
    },
    "first_seen": "2026-11-12T18:08:57+00:00"
+  },
+  {
+   "id": "ef:qualcomm.com:3095745",
+   "title": "Qualcomm Government Technologies (QGOV) Engineering Internship \u2013 Summer 2027 (San Diego or Boulder) | US CITIZENSHIP REQUIRED",
+   "location": "San Diego, CA, US",
+   "url": "https://careers.qualcomm.com/careers/job/446720740540",
+   "posted": "2026-09-18",
+   "body": "",
+   "season": "ok",
+   "company": "Qualcomm",
+   "src": "Qualcomm",
+   "score": {
+    "total": 28,
+    "base": 32,
+    "fit": 8,
+    "loc": 5,
+    "traj": 17,
+    "pay": 2,
+    "rate": [
+     26.25,
+     49.69
+    ],
+    "rate_src": "company",
+    "fresh": -4,
+    "age": 57.2,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "est. pay $38/hr",
+      2
+     ]
+    ]
+   },
+   "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
    "id": "sr:BoschGroup:744000148253129",
@@ -57888,62 +57891,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Engineer - Erada Internship",
-   "location": "Doha, Doha Municipality, QA",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556942219",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Solutions: Internship Opportunities",
-   "location": "S\u00e3o Paulo, SP, BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556983239",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Muon Space",
    "title": "Electrical Engineering Intern (Summer 2027)",
    "location": "San Jose, CA",
@@ -58095,13 +58042,6 @@
    "title": "Intern - Purchasing Intern - (Sao Paolo)",
    "location": "S\u00e3o Paulo, SP, BR",
    "url": "https://careers.qualcomm.com/careers/job/446715938373",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "Product Management Internship - Summer 2027",
-   "location": "San Diego, CA, US",
-   "url": "https://careers.qualcomm.com/careers/job/446720741706",
    "reason": "non-ME discipline"
   },
   {
@@ -58761,13 +58701,6 @@
    "location": "USA Wilmington,  MA - HQ, United States of America",
    "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Robot-Manipulation_R8278",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Texas Instruments",
