@@ -1,18 +1,25 @@
 {
- "generated": "2026-11-16T16:19:23+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43904501618",
- "scanned": 34194,
+ "generated": "2026-11-16T16:36:11+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43909279635",
+ "scanned": 34097,
  "boards": 323,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 2
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1219,
-  "software / data / AI role": 1150,
-  "no mechanical signal": 352,
-  "off-target season in title": 472,
-  "not a student req": 26320,
-  "outside the US": 1551,
-  "master's/PhD only": 779,
-  "no Summer/Fall 2027": 826
+  "non-ME discipline": 1204,
+  "software / data / AI role": 1128,
+  "no mechanical signal": 347,
+  "off-target season in title": 471,
+  "not a student req": 26315,
+  "outside the US": 1550,
+  "master's/PhD only": 744,
+  "no Summer/Fall 2027": 817
  },
  "jobs": [
   {
@@ -8804,69 +8811,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "sr:intuitive:744000160747319",
-   "title": "Robotics and Controls Engineering Intern",
-   "location": "Sunnyvale, CA, us",
-   "url": "https://jobs.smartrecruiters.com/intuitive/744000160747319",
-   "posted": "2026-11-10",
-   "body": "It started with a simple idea: what if surgery could be less invasive and recovery less painful? Nearly 30 years later, that question still fuels everything we do at Intuitive . As a global leader in robotic-assisted surgery and minimally invasive care , our technologies\u2014like the da Vinci surgical system and Ion \u2014have transformed how care is delivered for millions of patients worldwide. We\u2019re a team of engineers, clinicians, and innovators united by one purpose: to make surgery smarter, safer, and more human. Every day, our work helps care teams perform with greater precision and patients recover faster, improving outcomes around the world. The problems we solve demand creativity, rigor, and collaboration. The work is challenging, but deeply meaningful\u2014because every improvement we make has the potential to change a life. If you\u2019re ready to contribute to something bigger than yourself and help transform the future of healthcare , you\u2019ll find your purpose here. Primary Function of Position We are seeking a robotics and controls engineering intern to join the Future Forward development team working on a next generation medical robot. The focus of the internship will be on the development and testing of algorithms for controlling novel prototypes of robotic systems and instruments. The robotic and controls team works on the core interface of hardware and software, striving to improve patient outcomes through advanced robotic approaches. Essential Job Duties Contribute to the analysis of complex medical electro-mechanical devices and servo control systems Design and implement scripts for testing and calibration of new mechanical designs and evaluation of algorithmic approaches Contribute to the development of real-time control algorithms Write reports and presentations detailing test results and the pros and cons of competing design approaches Required Skills and Experience University Hiring Program Eligibility Requirements: University Enrollment: Must be currently enrolled in and returning to an accredited degree-seeking academic program after the internship. Internship Work Period: Must be available to work full-time (approximately 40 hours per week) during a 10-12 week period starting May or June. Specific start dates are shared during the recruiting process. Required Education and Training Current enrollment in a Controls, Robotics, Mechanical Engineering, Electrical Engineering, Mechatronics, Computer Science or similar degree-seeking program at the Doctorate level. Master\u2019s level students would also be considered based on specific relevant experience. Strong foundational knowledge in motion control algorithms, familiarity with flexible systems and non-conventional actuation schemes Knowledge of software principles, practices and techniques including testability, maintainability and scalability. Demonstrated experience in software development; proficiency in Matlab and C/C++ preferred. Ability to communicate effectively (written, oral) with the team Ability to work well in a team environment Due to the nature of our business and the role, please note that Intuitive and/or your customer(s) may require that you show current proof of vaccination against certain diseases including COVID-19. Details can vary by role. Intuitive is an Equal Opportunity Employer. We provide equal employment opportunities to all qualified applicants and employees, and prohibit discrimination and harassment of any type, without regard to race, sex, pregnancy, sexual orientation, gender identity, national origin, color, age, religion, protected veteran or disability status, genetic information or any other status protected under federal, state, or local applicable laws. Mandatory Notices U.S. Export Controls Disclaimer: In accordance with the U.S. Export Administration Regulations (15 CFR \u00a7743.13(b)), some roles at Intuitive Surgical may be subject to U.S. export controls for prospective employees who are nationals from countries currently on embargo or sanctions status. Certain information you provide as part of the application will be used for purposes of determining whether Intuitive Surgical will need to (i) obtain an export license from the U.S. Government on your behalf (note: the government\u2019s licensing process can take 3 to 6+ months) or (ii) implement a Technology Control Plan (\u201cTCP\u201d) (note: typically adds 2 weeks to the hiring process). For any Intuitive role subject to export controls, final offers are contingent upon obtaining an approved export license and/or an executed TCP prior to the prospective employee\u2019s start date, which may or may not be flexible, and within a timeframe that does not unreasonably impede the hiring need. If applicable, candidates will be notified and instructed on any requirements for these purposes. We will consider for employment qualified applicants with arrest and conviction records in accordance with fair chance laws. Accommodation & Accessibility Notice: Intuitive is committed to providing reasonable accommodations to qualified individuals with disabilities. If you require assistance or an accommodation during any part of the application or interview process, please contact People Services at HRHelpNow@intusurg.com. We provide market-competitive compensation packages, inclusive of base pay (paid at an hourly rate), benefits, and a housing allowance. It would not be typical for someone to be hired at the top end of range for the role, as actual pay will be determined based on several factors, including relevant skills and experience for this internship, degree-seeking academic program (PhD, Master\u2019s, Bachelor\u2019s, etc), year in school, and location. The hourly rate is prorated against the intern program salaries listed and total program compensation will be based on internship duration.",
-   "season": "unstated",
-   "company": "Intuitive Surgical",
-   "src": "Intuitive Surgical",
-   "score": {
-    "total": 59,
-    "base": 53,
-    "fit": 25,
-    "loc": 8,
-    "traj": 18,
-    "pay": 2,
-    "rate": [
-     48,
-     48
-    ],
-    "rate_src": "trajectory",
-    "fresh": 6,
-    "age": 6.7,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: robotics",
-      9
-     ],
-     [
-      "body: mechatronics",
-      6
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: prototype",
-      4
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "body: matlab",
-      2
-     ],
-     [
-      "est. pay $48/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "gh:lightmatter:5473869008",
    "title": "Hardware Test Engineering, Intern (Summer 2027)",
    "location": "Mountain View, CA",
@@ -10982,69 +10926,6 @@
     ]
    },
    "first_seen": "2026-10-13T20:39:35+00:00"
-  },
-  {
-   "id": "sf:corningjobs.corning.com:1443998200",
-   "title": "Product Development Intern - Summer 2027",
-   "location": "",
-   "url": "https://corningjobs.corning.com/job/Keller-Product-Development-Intern-Summer-2027-TX-76248/1443998200/",
-   "posted": "2026-10-27",
-   "body": "> Requisition Number: 79040 The company built on breakthroughs. \u200b Join us.\u200b Corning is one of the world\u2019s leading innovators in glass, ceramic, and materials science. From the depths of the ocean to the farthest reaches of space, our technologies push the boundaries of what\u2019s possible. \u200b How do we do this? With our people. They break through limitations and expectations \u2013 not once in a career, but every day. They help move our company, and the world, forward. \u200b \u200b At Corning, there are endless possibilities for making an impact. You can help connect the unconnected, drive the future of automobiles, transform at-home entertainment, and ensure the delivery of lifesaving medicines. And so much more.\u200b \u200b Come break through with us. Scope of Position Support technology development in the telecommunications field by using engineering principles to design, build, & evaluate prototype products. Likely areas of focus will be fiber optic housing and cabinets that protect connection points. Technologies employed include: plastic injection molding, sheet metal fabrication, rapid prototyping, & optical design. Actively engage with cross-functional project teams to solve problems efficiently and effectively with the objective of meeting project requirements. Program Perks Competitive salaries Housing assistance Travel reimbursement Intern Activities Social and networking events Opportunities to volunteer Community involvement Responsibilities 2D & 3D CAD Design of new components and assemblies. Prototyping & evaluation of new components and assemblies. Coordinate, plan, and lead experiments in support of assigned projects. Draw on engineering principles from within the candidate\u2019s field of study to analyze experiment results, using statistical tools as appropriate. Actively engage within the project team and across project boundaries as needed to achieve objectives. Willingness to share ideas with the team is important, as is willingness to take direction and feedback from team members and technical experts. Manage priorities and timeline to achieve objectives in allotted time. Prepare oral and written reports to summarize test results and key conclusions for technical audiences including Development, Engineering, and Operations. Requirements Enrolled in BS or MS program in engineering discipline such as mechanical or industrial. Course work completed to include first and second year engineering studies. CAD Design Software Creativity in approach to solutions, experimental design, and results analysis. Ability to work with hands to build prototype products, test systems, etc. Excellent verbal and written communication skills; ability to effectively present information Results-oriented. Computer literate in MS Office programs (Word, Excel, PowerPoint). Must be available for 10 weeks during Summer 2027 (May-August 2027) with a graduation date of December 2027 or later Be interested in working for Corning, Inc after graduation, if presented with a full-time job opportunity. Be willing to work at the posted job location Desired Skills Experience using Creo CAD software. \"Hands-on\u201d laboratory experience using lathe, mill, and assorted hand tools Relevant work/class experience. GPA of 3.0 or above This position does not support immigration sponsorship. \u200bThe range for this position is $1,635.00 - $3,185.00 biweekly. Starting pay for the successful applicant is prescribed based on geographic location, nature of position, and year in school. A job that shapes a life. We prohibit discrimination on the basis of race, color, gender, age, religion, national origin, sexual orientation, gender identity or expression, disability, veteran status or any other legally protected status. Corning is committed to providing equal employment opportunities and considers requests for reasonable accommodations in accordance with applicable laws. Individuals with disabilities or sincerely held religious beliefs may request reasonable accommodations to participate in the application or interview process, perform essential job functions, or access other benefits and privileges of employment. To submit a request for reasonable accommodation related to disability or religion, please contact us at accommodations@corning.com . <span",
-   "season": "ok",
-   "company": "Corning",
-   "src": "Corning",
-   "score": {
-    "total": 54,
-    "base": 51,
-    "fit": 31,
-    "loc": 0,
-    "traj": 12,
-    "pay": 8,
-    "rate": [
-     40.88,
-     79.62
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 20.7,
-    "age_basis": "posted",
-    "tier": "A",
-    "why": [
-     [
-      "pay $60/hr",
-      8
-     ],
-     [
-      "body: injection molding",
-      6
-     ],
-     [
-      "body: sheet metal",
-      5
-     ],
-     [
-      "body: rapid prototyping",
-      5
-     ],
-     [
-      "body: housing assistance",
-      5
-     ],
-     [
-      "body: prototype",
-      4
-     ],
-     [
-      "body: doe",
-      3
-     ],
-     [
-      "body: creo",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-27T18:19:03+00:00"
   },
   {
    "id": "wd:draper:JR003093",
@@ -16122,6 +16003,69 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "wd:flowserve:R-21052",
+   "title": "Project Engineer Co-op",
+   "location": "Rancho Dominguez, California US, United States of America",
+   "url": "https://flowserve.wd1.myworkdayjobs.com/applied/job/Rancho-Dominguez-California-US/Project-Engineer-Co-op_R-21052",
+   "posted": "2026-11-16",
+   "body": "Job Description Flowserve is a global manufacturer of pumps, valves, seals, and aftermarket services, delivering comprehensive flow control solutions that support essential industries such as energy, clean water, and pharmaceuticals. If you're looking for a culture built on ingenuity, innovation, and excellence, Flowserve offers the opportunity to put your experience in motion. Whether you're an individual contributor or a people leader, you'll find meaningful opportunities for professional growth, competitive rewards, and a workplace grounded in our core values: People, Safety, Integrity, Ownership and Ingenuity. At Flowserve, we're inspired by what we can achieve together\u2014creating extraordinary flow control solutions that strengthen today's world while building tomorrow. Role Summary The Project Engineering Co-op is a full-time, multi-semester program based in Rancho Dominguez, California, supporting Flowserve\u2019s pump repair and aftermarket engineering. In this hands-on role, you will contribute to projects that improve repair processes, documentation, data visibility, and operational efficiency. The ideal candidate is eager to learn, comfortable asking questions, interested in process improvement, and willing to work in both office and field environments. This position offers meaningful experience in engineering, manufacturing, operations, and customer-focused support. Potential Responsibilities Support project engineering activities for pump repair and aftermarket work, including reviewing part numbers, engineering drawings, pump components, and technical requirements. Develop clear, accurate technical scopes of work for repair and service projects. Prepare customer documentation packages for completed repair jobs, including certifications, technical information, inspection records, and other required shipment documentation. Collaborate closely with design engineers to clarify technical details, evaluate repair requirements, and prepare project documentation. Assist with shop-floor engineering projects focused on improving repair processes, productivity, safety, quality, and workflow. Collaborate with shop-floor personnel, technicians, engineers, and managers to gather information, clarify requirements, and support project execution. Learn about Flowserve pumps, rotating equipment, repair practices, quality requirements, and customer expectations. Perform other duties as assigned. Required Qualifications Actively pursuing a degree in Mechanical Engineering, Manufacturing Engineering, or Materials Science and in good academic standing. Proficient with Microsoft Office applications. Strong written and verbal communication skills. Basic mechanical aptitude and willingness to work in a hands-on, fast-paced repair-shop environment. Strong problem-solving, analytical, teamwork, and interpersonal skills. Preferred Qualifications Experience with SolidWorks or another 3D CAD platform. Previous experience in manufacturing, machining, welding, maintenance, automotive repair, industrial repair, or another technical environment. Familiarity with pumps, rotating equipment, mechanical systems, repair operations, or aftermarket service. Specific assignments and work environments may vary by host team. Placement is based on business needs, candidate qualifications, interests, and alignment with available co-op opportunities. The pay range for this role is $17.47 - $26.20 per hour.",
+   "season": "unstated",
+   "company": "Flowserve",
+   "src": "Flowserve",
+   "score": {
+    "total": 48,
+    "base": 36,
+    "fit": 31,
+    "loc": 0,
+    "traj": 9,
+    "pay": -4,
+    "rate": [
+     17.47,
+     26.2
+    ],
+    "rate_src": "stated",
+    "fresh": 12,
+    "age": 0.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: valve",
+      7
+     ],
+     [
+      "body: engineering drawings",
+      6
+     ],
+     [
+      "body: pump",
+      5
+     ],
+     [
+      "body: seal",
+      5
+     ],
+     [
+      "body: machining",
+      4
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "body: drawings",
+      3
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-16T16:36:11+00:00"
+  },
+  {
    "id": "gh:formlabs:8201476",
    "title": "Print Optimization Intern (Summer 2027)",
    "location": "Somerville, MA",
@@ -18861,7 +18805,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "ab:regent:2b47c43c-79ad-499f-8570-61f9107ff32c",
@@ -19530,8 +19475,8 @@
     "traj": 9,
     "pay": -4,
     "rate": [
-     21.23,
-     25.6
+     17.47,
+     26.2
     ],
     "rate_src": "company",
     "fresh": 6,
@@ -20159,53 +20104,6 @@
     ]
    },
    "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "wd:micron:JR108468",
-   "title": "Intern - DRAM Design Engineer",
-   "location": "Boise, ID - Main Site, United States of America",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---DRAM-Design-Engineer_JR108468",
-   "posted": "2026-11-04",
-   "body": "Our vision is to transform how the world uses information to enrich life for all . Micron Technology is a world leader in innovating memory and storage solutions that accelerate the transformation of information into intelligence, inspiring the world to learn, communicate and advance faster than ever. At Micron, the DRAM Design organization develops industry-leading memory solutions that span technology development, advanced circuit design, product engineering, system validation, and manufacturing enablement. Teams collaborate globally to deliver innovative memory products that meet demanding requirements for performance, quality, reliability, and time-to-market. As an Intern DRAM Design Engineer, you will contribute to the design, analysis, verification, and optimization of digital, analog, and mixed-signal circuits used in next-generation memory products. You will work closely with design, verification, product engineering, test, process integration, assembly, and marketing teams to support new product development and manufacturability initiatives. This role also provides opportunities to apply Artificial Intelligence and AI Assisted methodologies to improve design workflows, automation, and design quality. Responsibilities Play a key role in the development of new memory products through circuit build, layout, optimization, and validation of Memory, Logic, and Analog circuits. Support physical design activities including parasitic modeling, floor-planning, placement, routing, reticle experiments, tape-out revisions, and design verification using industry-standard simulation tools. Collaborate with global design, verification, product engineering, test, process integration, assembly, and marketing teams to improve manufacturability, quality, and product performance. Proactively engage with CAD, modeling, standards, and verification teams to improve design methodologies and overall design quality. Develop AI Assisted software tools and leverage Artificial Intelligence to enhance design methodologies, workflow automation, engineering productivity, and design quality. Minimum Qualifications Currently pursuing a Bachelor's or Master's degree in Electrical Engineering or Computer Engineering. Must be continuing academic studies through at least Fall 2027 and not graduate before Fall 2027. Coursework, academic projects, or research experience in digital design, analog design, semiconductor devices, VLSI, computer architecture, or related areas. Strong problem-solving, analytical, and communication skills with the ability to work effectively both independently and within team environments. Experience preparing and presenting technical findings through reports, presentations, or project evaluations. Preferred Qualifications Experience with circuit simulation, verification, modeling, or industry-standard EDA tools. Understanding of semiconductor manufacturing, memory architecture, DRAM design concepts, or integrated circuit development. Familiarity with physical design concepts including floor-planning, placement, routing, parasitic extraction, or layout optimization. Experience Applying AI, Using AI, or Leveraging Artificial Intelligence to improve engineering workflows, automation, software development, or technical analysis. Exposure to AI Assisted tools, Generative AI, Agentic AI, LLMs, or AI-Enabled software solutions for engineering productivity and design optimization. As a world leader in the semiconductor industry, Micron is dedicated to your personal wellbeing and professional growth. Micron benefits are designed to help you stay well, provide peace of mind and help you prepare for the future. We offer a choice of medical, dental and vision plans in all locations enabling team members to select the plans that best meet their family healthcare needs and budget. Micron also provides benefit programs that help protect your income if you are unable to work due to illness or injury, and paid family leave. Additionally, Micron benefits include a robust paid time-off program and paid holidays. For additional information regarding the Benefit programs available, please see the Benefits Guide posted on micron.com/careers/benefits . Micron is proud to be an equal opportunity workplace and is an affirmative action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, age, national origin, citizenship status, disability, protected veteran status, gender identity or any other factor protected by applicable federal, state, or local laws. To learn about your right to work click here. To learn more about Micron, please visit micron.com/careers For US Sites Only: To request assistance with the application process and/or for reasonable accommodations, please contact Micron\u2019s People Organization at hrsupport_na@micron.com or 1-800-336-8918 (select option #3) Micron Prohibits the use of child labor and complies with all applicable laws, rules, regulations, and other international and industry labor standards. Micron does not charge candidates any recruitment fees or unlawfully collect any other payment from candidates as consideration for their employment with Micron. AI alert : Candidates are encouraged to use AI tools to enhance their resume and/or application materials. However, all information provided must be accurate and reflect the candidate's true skills and experiences. Misuse of AI to fabricate or misrepresent qualifications will result in immediate disqualification. Fraud alert: Micron advises job seekers to be cautious of unsolicited job offers and to verify the authenticity of any communication claiming to be from Micron by checking the official Micron careers website in the About Micron Technology, Inc.",
-   "season": "ok",
-   "company": "Micron",
-   "src": "Micron",
-   "score": {
-    "total": 44,
-    "base": 41,
-    "fit": 19,
-    "loc": 0,
-    "traj": 16,
-    "pay": 6,
-    "rate": [
-     46.51,
-     50.24
-    ],
-    "rate_src": "company",
-    "fresh": 3,
-    "age": 12.7,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: design engineer",
-      12
-     ],
-     [
-      "est. pay $48/hr",
-      6
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "body: doe",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-13T20:39:35+00:00"
   },
   {
    "id": "wd:ngc:R10260526",
@@ -21844,8 +21742,8 @@
     "traj": 9,
     "pay": -4,
     "rate": [
-     21.23,
-     25.6
+     17.47,
+     26.2
     ],
     "rate_src": "company",
     "fresh": 9,
@@ -21882,7 +21780,7 @@
       -3
      ],
      [
-      "est. pay $23/hr",
+      "est. pay $22/hr",
       -4
      ]
     ]
@@ -26277,7 +26175,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3095745",
@@ -43410,57 +43309,6 @@
    "first_seen": "2026-10-14T01:17:06+00:00"
   },
   {
-   "id": "wd:motorolasolutions:R68894",
-   "title": "Systems Integration Engineering Intern (Summer 2027)",
-   "location": "Greater Chicago Area, United States of America",
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Greater-Chicago-Area/Systems-Integration-Engineering-Intern--Summer-2027-_R68894",
-   "posted": "2026-09-24",
-   "body": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We\u2019re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration that\u2019s critical for safer communities, safer schools, safer hospitals, safer businesses, and ultimately, safer nations. Connect with a career that matters, and help us build a safer future. Department Overview About Motorola Solutions At Motorola Solutions, our mission is simple: Solving for safer. We build and connect technologies that help protect people, property, and places across the globe. Our solutions foster the collaboration critical for safer communities, schools, hospitals, and businesses. Connect with a career that matters, and help us build a safer future. The Team: Systems Integration (Elgin, IL) Our Supply Chain organization is a fast-paced, dynamic environment delivering world-class communications solutions. You will be joining the Systems Integration team at the Elgin Experience Center\u2014the critical bridge where customer needs and technological solutions converge. Here, our engineering team: - Stages systems with technology innovations which give Motorola Solutions a competitive edge in quality, speed, and delivery. - Hosts hundreds of customers annually to finalize and test designs for mission-critical emergency call-handling solutions. - Partners with field teams to deploy infrastructure that directly supports first responders and private enterprises. Job Description The Role As an Engineering Intern, you will work in a people-first culture focused on expanding human potential. You will collaborate with cross-functional teams to build, integrate, and stage complex infrastructure ecosystems. We look for innovative thinkers who are driven, accountable, and passionate about solving hands-on technical problems. Key Responsibilities Infrastructure Deployment: Execute the system staging process to build, image, deploy, and maintain robust infrastructure footprints. Virtualization & OS: Provision and support VMware vSphere and Red Hat KVM virtualization environments; construct and manage unified Microsoft Windows Server architectures, Active Directory, and Linux operating systems. Network & Security: Build, connect, and troubleshoot Cisco networking equipment (switches and routers); deploy enterprise Fortinet firewall solutions to optimize defense, traffic separation, and information flows. Communications Tech: Integrate analog, digital, and SIP-based audio processing technologies to support real-time critical communication feeds. Root-Cause Analysis: Analyze system behaviors and isolate performance anomalies across multi-vendor hardware, software, virtualization, and networking stacks. Project Ownership: Complete a dedicated summer continuous-improvement project, owning all aspects from ideation to execution and presenting your findings to leadership . Preferred Skills AI & Tech Fluency: Familiarity with generative AI tools for coding efficiency, data analysis, or process automation. Data-Driven Mindset: Experience with data analysis and statistical concepts to identify trends, interpret data, and drive continuous improvements. Communication & Collaboration: Strong ability to explain complex technical issues or methodologies clearly to cross-functional, non-technical stakeholders. Structured Problem-Solving: Ability to approach technical challenges logically, prioritize tasks effectively, and drive results in a team setting. The Intern Experience: What We Offer Leadership Exposure: Participate in senior leadership meetings, gaining direct insights on career growth and networking within a global organization. Mentorship: Work 1:1 with experienced staff engineers who are invested in your technical development. Real-World Impact: Build the actual systems that keep first responders and communities safe. Career Pathways: Gain experience that positions you for future full-time engineering opportunities within Motorola Solutions. This position is located on-site in Elgin, Illinois. Basic Requirements Working towards a Bachelor's degree in Electrical Engineering, Computer Engineering, Computer Science, IT Networking, or a related discipline. Must have an expected graduation date between 12/2028 and 6/2030. Legal authorization to work in the U.S. indefinitely is required. Employer work permit sponsorship is not available for this position. Travel Requirements None Relocation Provided None Position Type Intern EEO Statement Motorola Solutions is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion or belief, sex, sexual orientation, gender identity, national origin, disability, veteran status or any other legally-protected characteristic. We are proud of our people-first and community-focused culture, empowering every Motorolan to be their most authentic self and to do their best work to deliver on the promise of a safer world. If you\u2019d like to join our team but feel that you don\u2019t quite meet all of the preferred skills, we\u2019d still love to hear why you think you\u2019d be a great addition to our team. We\u2019re committed to providing an inclusive and accessible recruiting experience for candidates with disabilities, or other physical or mental health conditions. To request an accommodation, please complete this Reasonable Accommodations Form so we can assist you.",
-   "season": "ok",
-   "company": "Motorola",
-   "src": "Motorola",
-   "score": {
-    "total": 27,
-    "base": 31,
-    "fit": 22,
-    "loc": 0,
-    "traj": 13,
-    "pay": -4,
-    "rate": [
-     20.7,
-     24.1
-    ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 53.7,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: integration",
-      9
-     ],
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "est. pay $22/hr",
-      -4
-     ]
-    ]
-   },
-   "first_seen": "2026-10-14T01:17:06+00:00"
-  },
-  {
    "id": "wd:globalhr:01874945",
    "title": "Industrial Engineering Co-op (Summer/Fall 2027)",
    "location": "US-IA-CEDAR RAPIDS-121 ~ 350 Collins Rd NE ~ BLDG 121, United States of America",
@@ -43771,12 +43619,12 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "gh:rocketlab:7990270003",
+   "id": "gh:rocketlab:7990272003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Tucson, AZ",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
+   "location": "Chantilly, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -43830,12 +43678,12 @@
    "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
-   "id": "gh:rocketlab:7990272003",
+   "id": "gh:rocketlab:7990270003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Chantilly, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
+   "location": "Tucson, AZ",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -46241,8 +46089,8 @@
     "traj": 9,
     "pay": -4,
     "rate": [
-     21.23,
-     25.6
+     17.47,
+     26.2
     ],
     "rate_src": "company",
     "fresh": 3,
@@ -46271,7 +46119,7 @@
       -3
      ],
      [
-      "est. pay $23/hr",
+      "est. pay $22/hr",
       -4
      ]
     ]
@@ -47503,8 +47351,8 @@
     "traj": 9,
     "pay": -4,
     "rate": [
-     21.23,
-     25.6
+     17.47,
+     26.2
     ],
     "rate_src": "company",
     "fresh": 9,
@@ -47529,7 +47377,7 @@
       -3
      ],
      [
-      "est. pay $23/hr",
+      "est. pay $22/hr",
       -4
      ]
     ]
@@ -74254,9 +74102,9 @@
   },
   {
    "company": "Intuitive Surgical",
-   "title": "Electrical Engineering Intern",
+   "title": "Clinical Research Engineering Intern",
    "location": "Sunnyvale, CA, us",
-   "url": "https://jobs.smartrecruiters.com/intuitive/744000160746789",
+   "url": "https://jobs.smartrecruiters.com/intuitive/744000161861679",
    "reason": "non-ME discipline"
   },
   {
@@ -75079,62 +74927,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Engineer - Erada Internship",
-   "location": "Doha, Doha Municipality, QA",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556942219",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Solutions: Internship Opportunities",
-   "location": "S\u00e3o Paulo, SP, BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556983239",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Moog",
    "title": "AOS Intern, Facilities",
    "location": "Buffalo, NY, United States of America",
@@ -75294,13 +75086,6 @@
    "location": "US, CA, Santa Clara, United States of America",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Financial-Analyst-Intern--Hardware-FP-A---Summer-2027_JR2029523-1",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "NVIDIA",
-   "title": "Go-to-Market Strategy Intern",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/France-Courbevoie/Go-to-Market-Strategy-Intern_JR2029657",
-   "reason": "no mechanical signal"
   },
   {
    "company": "NVIDIA",
@@ -76320,15 +76105,15 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
   },
   {
@@ -76350,13 +76135,6 @@
    "title": "People & Culture Intern Summer 2027",
    "location": "Long Beach, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990245003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
-   "location": "Albuquerque, NM",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
    "reason": "non-ME discipline"
   },
   {
@@ -76411,8 +76189,8 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
@@ -77288,13 +77066,6 @@
    "title": "Sales Operations Intern (Summer 2027)",
    "location": "Westerville, OH, United States",
    "url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279432",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Vertiv",
-   "title": "Support Sales Intern - (Summer 2027)",
-   "location": "Westerville, OH, United States",
-   "url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278669",
    "reason": "non-ME discipline"
   },
   {
