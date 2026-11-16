@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-16T13:29:41+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43876258924",
- "scanned": 34142,
+ "generated": "2026-11-16T13:49:44+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43879522488",
+ "scanned": 33968,
  "boards": 323,
  "errors": [
   {
-   "company": "Westinghouse",
-   "board": "successfactors",
-   "error": "failed after 3 tries: <urlopen error [Errno 104] Connection reset by peer>",
-   "kept": 25
+   "company": "Zoox",
+   "board": "lever",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 8
   }
  ],
  "dropped": {
-  "non-ME discipline": 1206,
-  "master's/PhD only": 771,
-  "software / data / AI role": 1147,
-  "no mechanical signal": 339,
+  "non-ME discipline": 1224,
+  "master's/PhD only": 775,
+  "software / data / AI role": 1133,
+  "no mechanical signal": 352,
   "off-target season in title": 470,
-  "not a student req": 26338,
+  "not a student req": 26126,
   "outside the US": 1547,
   "no Summer/Fall 2027": 831
  },
@@ -7572,7 +7572,7 @@
     "traj": 11,
     "pay": 8,
     "rate": [
-     55.49,
+     54.92,
      59.54
     ],
     "rate_src": "company",
@@ -7586,7 +7586,7 @@
       9
      ],
      [
-      "est. pay $58/hr",
+      "est. pay $57/hr",
       8
      ],
      [
@@ -11850,7 +11850,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-06T00:06:20+00:00"
+   "first_seen": "2026-11-06T00:06:20+00:00",
+   "stale": true
   },
   {
    "id": "wd:entegris:REQ-15834",
@@ -12886,7 +12887,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-06T00:06:20+00:00"
+   "first_seen": "2026-11-06T00:06:20+00:00",
+   "stale": true
   },
   {
    "id": "wd:avav:9253",
@@ -13131,6 +13133,69 @@
     ]
    },
    "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
+   "id": "wd:curtisswright:JR14250",
+   "title": "Design Engineering Intern",
+   "location": "US-NY-East Farmingdale (TR), United States of America",
+   "url": "https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-NY-East-Farmingdale-TR/Design-Engineering-Intern_JR14250",
+   "posted": "2026-11-16",
+   "body": "Design Engineer Intern We are looking for a Design Engineering Intern to join our Target Rock team in the Design Engineering Department! The intern is needed now (Fall Internship) We can work around your school schedule. Location: East Farmingdale, NY. Hourly pay: $20-$25 an hour Please note that the pay range information provided is a general guideline only, reflecting a position based in New York. Criteria such as the candidate\u2019s qualifications and relevant experience, the scope of the specific position, as well as market and business considerations will be evaluated when extending an offer. Your Challenge Develop and apply design engineering skills alongside Design Engineers through the following methods: Design and develop fixtures, tooling, and production hardware as needed to support Target Rock's operations departments. Generate 3D models of parts and assemblies in CAD. Create technical 2D detail and assembly drawings with appropriate tolerancing methods. Work alongside Design Engineers to support design and development projects to achieve on-time completion of milestones. Assist in the maintenance and revisions of existing Target Rock products and drawings through Engineering Change Notices (ECNs). I-deas to NX CAD file migration: Design Engineering is currently in the process of migrating files from an older CAD program that is no longer supported, to the current NX program. What You Bring Must be a US citizen Actively pursuing Four (4) year Bachelor of Science degree in Engineering, preferably Mechanical or Nuclear Knowledge of computer programs such as Microsoft Office Suite, Mathcad Founded in 1951 to meet the special severe service valve requirements of the United States Nuclear Navy, Target Rock is today the premier supplier of highly engineered, valves and related products to both the U.S. Navy nuclear fleet and the global nuclear power generation industry. The first Target Rock valves were installed on the U.S.S. Nautilus, the U.S. Navy's first nuclear powered submarine. To learn more, please visit us at Curtiss-Wright EMS - Target Rock (cw-ems.com) No unsolicited agency submittals please. Agency partners must be invited to participate in a search by our Talent Acquisition Team and have signed terms in place prior to any submittal. Resumes submitted directly to any Curtiss-Wright employee or affiliate will not qualify for fee payment, and therefore become the property of Curtiss-Wright. Compliance Statement This position may require exposure to export-controlled information and subject to additional security screening. In the event information provided during the security screening reveals ineligibility to access export-controlled information, any offer of employment may be reconsidered or withdrawn. Curtiss-Wright is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, ethnicity, color, sexual orientation, gender identity, physical or mental disability, age, ancestry, legally protected medical condition, family care status, marital status, religion, veteran status, national origin, or any other legally protected status. If you require accommodation during the recruitment process, please contact Talent Acquisition. For US Applicants: EEO is The Law \u2013 click here for more information. If you require accommodation due to a disability at any time during the recruitment and/or assessment process, please contact Talent Acquisition and we will make all reasonable efforts to accommodate your request.",
+   "season": "unstated",
+   "company": "Curtiss-Wright",
+   "src": "Curtiss-Wright",
+   "score": {
+    "total": 52,
+    "base": 40,
+    "fit": 33,
+    "loc": 0,
+    "traj": 11,
+    "pay": -4,
+    "rate": [
+     20.0,
+     25.0
+    ],
+    "rate_src": "stated",
+    "fresh": 12,
+    "age": 0.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: design engineer",
+      12
+     ],
+     [
+      "body: fixture",
+      8
+     ],
+     [
+      "body: valve",
+      7
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: drawings",
+      3
+     ],
+     [
+      "body: nx",
+      2
+     ],
+     [
+      "season not stated",
+      -3
+     ],
+     [
+      "pay $22/hr",
+      -4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-16T13:49:44+00:00"
   },
   {
    "id": "wd:graco:R0023509",
@@ -17292,7 +17357,7 @@
     "traj": 11,
     "pay": 8,
     "rate": [
-     55.49,
+     54.92,
      59.54
     ],
     "rate_src": "company",
@@ -17306,7 +17371,7 @@
       12
      ],
      [
-      "est. pay $58/hr",
+      "est. pay $57/hr",
       8
      ],
      [
@@ -20025,7 +20090,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 11.5,
+    "age": 11.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -20059,8 +20124,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "lv:zoox:2e4e91c3-f127-4c5b-9291-b93b8a340a2f",
@@ -20107,7 +20171,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-14T02:38:36+00:00"
+   "first_seen": "2026-11-14T02:38:36+00:00",
+   "stale": true
   },
   {
    "id": "wd:asml:J-00354056",
@@ -21656,7 +21721,7 @@
     "traj": 11,
     "pay": 8,
     "rate": [
-     55.49,
+     54.92,
      59.54
     ],
     "rate_src": "company",
@@ -21666,7 +21731,7 @@
     "tier": "B",
     "why": [
      [
-      "est. pay $58/hr",
+      "est. pay $57/hr",
       8
      ],
      [
@@ -21711,7 +21776,7 @@
     "traj": 11,
     "pay": 8,
     "rate": [
-     55.49,
+     54.92,
      59.54
     ],
     "rate_src": "company",
@@ -21721,7 +21786,7 @@
     "tier": "B",
     "why": [
      [
-      "est. pay $58/hr",
+      "est. pay $57/hr",
       8
      ],
      [
@@ -22498,7 +22563,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-06T00:06:20+00:00"
+   "first_seen": "2026-11-06T00:06:20+00:00",
+   "stale": true
   },
   {
    "id": "gh:andurilindustries:5255593007",
@@ -23816,7 +23882,7 @@
     ],
     "rate_src": "stated",
     "fresh": 9,
-    "age": 2.5,
+    "age": 2.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -23838,8 +23904,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:amat:R2627698",
@@ -25465,7 +25530,7 @@
     "traj": 11,
     "pay": 8,
     "rate": [
-     55.49,
+     54.92,
      59.54
     ],
     "rate_src": "company",
@@ -25475,7 +25540,7 @@
     "tier": "C",
     "why": [
      [
-      "est. pay $58/hr",
+      "est. pay $57/hr",
       8
      ],
      [
@@ -26989,6 +27054,53 @@
    "first_seen": "2026-11-13T18:20:09+00:00"
   },
   {
+   "id": "wd:generalmotors:JR-202623880",
+   "title": "2027 Manufacturing Intern - University of Buffalo",
+   "location": "Lockport, New York, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Lockport-New-York-United-States-of-America/XMLNAME-2027-Manufacturing-Intern---University-of-Buffalo_JR-202623880-1",
+   "posted": "2026-11-16",
+   "body": "Job Description GM DOES NOT PROVIDE IMMIGRATION-RELATED SPONSORSHIP FOR THIS ROLE. DO NOT APPLY FOR THIS ROLE IF YOU WILL NEED GM IMMIGRATION SPONSORSHIP NOW OR IN THE FUTURE. THIS INCLUDES DIRECT COMPANY SPONSORSHIP, ENTRY OF GM AS THE IMMIGRATION EMPLOYER OF RECORD ON A GOVERNMENT FORM, AND ANY WORK AUTHORIZATION REQUIRING A WRITTEN SUBMISSION OR OTHER IMMIGRATION SUPPORT FROM THE COMPANY (e.g., H1-B, OPT, STEM OPT, CPT, TN, J-1, etc.) Work Arrangement: Onsite: This role is categorized as onsite. This means the successful candidate is expected to report to an assigned facility on a full-time basis. Each successful candidate will be offered an onsite role at a specific location. Candidate location preferences are considered but cannot be guaranteed. Students will be employed through the University of Buffalo at General Motors. The internship opportunity at General Motors is through a partnership with the University of Buffalo. Lockport Operations is looking for these types of roles for Summer 2027 : Controls Engineering Intern, Mechanical Engineering Intern and Industrial Engineering Intern. Please see all job descriptions below. Manufacturing Controls Engineering Intern The Team: Our plants are the groundwork for GM and a hotbed of innovation. We need controls engineer interns to assist maintenance personnel in operation and maintenance of specialist equipment. As a controls engineer intern you would be accountable for controls engineering and electrical support for engine programs. These tasks would teach you electrical root causing analysis and problem solving as well as leadership skills to provide technical support and direction to support personnel/skilled trades within the organization. Quality and safety are extremely meaningful to us, so enforcing safe work practices is the highest priority and implement objectives for ergonomics, health/safety and housekeeping, which means that you would have to investigate system and equipment problems and provide technical input in problem resolution. What You\u2019ll Do: Leads electrical projects including new, operations improvements, and periodic repair and replacement Participates in functional area plant meetings and related activities to represent engineering and to assist in reaching the plant's performance goals Develops cost estimates, investment forecasts, business cases, appropriation requests and plans for minor project activity Utilizes statistical methods for continuous improvement on plant systems Develops and monitors planning timetables and projects schedules Coordinates and communicates the development of changes to improve conditions for the assembly process Programming of manufacturing technology Analyzes product, process and technology to figure out the best methods of manufacture Assists in the design and building of tools and equipment or recommends improvements to existing processes Required Qualifications: Pursuit of a Bachelor\u2019s degree in one of the following areas: Electrical Engineering/Electrical Engineering Technology, Controls Engineering, Computer Engineering, or Computer Science Must be graduating between August 2027 and June 2029 Able to work full-time, 40 hours per week Must be willing to work in a plant environment Specific physical requirements of the position include the ability to: Walk and stand for prolonged periods of time. Read standardized work instructions, operate machines and tools, and perform quality inspections. Promptly detect and respond to safety instructions, alarms, and signals. Wear personal protective equipment, for example: safety glasses, gloves, hats, ear plugs, and safety shoes. Work in a loud manufacturing environment that is not climate controlled (conditions can be hot or cold). Frequently and repetitively bend, twist, kneel, crouch and reach to perform work. Lift or carry materials weighing up to 15 pounds and periodically carry or lift materials weighing up to 40 lbs. Occasionally sit, climb (including ladders and lifts) and drive vehicles and equipment. What Will Give You a Competitive Edge (Preferred Qualifications): Demonstrated leadership in field of study, extracurricular activities or service organizations Able to work independently and with a team Outstanding interpersonal and relationship management skills with the ability to effectively collaborate with varying levels of the organization as needed Oral and written communication skills with the ability to distill complex subjects to a wider audience Emerging partnership and teamwork skills and ability to learn from and share knowledge with co-workers in a fast-paced environment High level of integrity, ability to deal with ambiguity, takes initiative/self-directed Evidence of strong character with integrity, honesty, accountability and trust 2027 Manufacturing Mechanical Engineer Intern The Team: At General Motors we strive for a culture of excellence. We act with integrity. We are driven by ingenuity and innovation. We have the courage to do and say what's difficult. Each of us takes accountability for results, drives for continued efficiencies and has the tenacity to win. We are seeking Manufacturing Mechanical Engineer Interns to do hands-on work that could add directly to the bottom line of our culture and our company. You will have many responsibilities and accountabilities, like mechanical support for programs. You will learn how to lead mechanical projects for several different areas of the plant including operations improvements and new and replacement programs. This is a hands-on position in which you may work with periodic repairs and to provide technical support and direction to support personnel/skilled trades. What You\u2019ll Do: Mechanical root cause analysis and problem solving Analyze product, process and technology to figure out the best methods of manufacture Assist in the design and building of tools and equipment or recommends improvements to existing processes Assist maintenance personnel in operation and maintenance of specialized equipment Troubleshoot special maintenance and equipment problem Coordinate machinery upgrade projects Specific physical requirements of the position include the ability to: Walk and stand for prolonged periods of time. Read standardized work instructions, operate machines and tools, and perform quality inspections. Promptly detect and respond to safety instructions, alarms, and signals. Wear personal protective equipment, for example: safety glasses, gloves, hats, ear plugs, and safety shoes. Work in a loud manufacturing environment that is not climate controlled (conditions can be hot or cold). Frequently and repetitively bend, twist, kneel, crouch and reach to perform work. Lift or carry materials weighing up to 15 pounds and periodically carry or lift materials weighing up to 40 lbs. Occasionally sit, climb (including ladders and lifts) and drive vehicles and equipment. Required Qualifications: Pursuit of a Bachelor\u2019s degree in one of the following areas: Mechanical Engineering/Mechanical Engineering Technology Must be graduating between August 2027 and June 2029 Able to work full-time, 40 hours per week Must be willing to work in a plant environment What Will Give You a Competitive Edge (Preferred Qualifications): Outstanding interpersonal and relationship management skills with the ability to effectively collaborate with varying levels of the organization Excellent written and verbal communication skills with the ability to distill complex subjects to a wider audience Evidence of strong character with integrity, honesty, accountability and trust Consistently demonstrates innovative thinking that is customer-centric Excellent project management skills and the proven ability to manage multiple projects at any given 2027 Summer Intern \u2013 Manufacturing Industrial Engineer The Team: At General Motors we strive for a culture of excellence. We act with integrity. We are driven by ingenuity and innovation. We have the courage to do and say what's difficult. Each of us takes accountability for results, drives for continued efficiencies and has the tenacity to win. What You\u2019ll Do: We are seeking Industrial Engineer interns to do hands-on work that would potentially add directly to the bottom line of our culture and our company. You would be responsible for analyzing the efficiency of manufacturing operations and changes related to personnel, material, machines and facilities. Work involves leadership ability, critical thinking and communication skills. Makes decisions with mentorship from supervisors. Responsibilities: Confirms or recommends changes to layouts, labor control and/or material control Frequent contact with others outside the work group Assists in developing accurate methods and optimum operation layout Makes operation descriptions and performs the vital calculations to complete studies and change routines or other systems of labor and material control Specific physical requirements of the position include the ability to: Walk and stand for prolonged periods of time. Read standardized work instructions, operate machines and tools, and perform quality inspections. Promptly detect and respond to safety instructions, alarms, and signals. Wear personal protective equipment, for example: safety glasses, gloves, hats, ear plugs, and safety shoes. Work in a loud manufacturing environment that is not climate controlled (conditions can be hot or cold). Frequently and repetitively bend, twist, kneel, crouch and reach to perform work. Lift or carry materials weighing up to 15 pounds and periodically carry or lift materials weighing up to 40 lbs. Occasionally sit, climb (including ladders and lifts) and drive vehicles and equipment. Required Qualifications: Pursuit of a Bachelor\u2019s degree in one of the following areas: Industrial Engineering Must be graduating between August 2027 and June 2029 Able to work full-time, 40 hours per week Must be willing to work in a plant environment What Will Give You a Competitive Edge (Preferred Qualifications): Outstanding interpersonal and relationship management skills with the ability to effectively collaborate with varying levels of the organization Excellent written and verbal communication skills with the ability to distill complex subjects to a wider audience Evidence of strong character with integrity, honesty, accountability and trust Consistently demonstrates innovative thinking that is customer-centric Excellent project management skills and the proven ability to manage multiple projects at any given Start dates for this internship role are in May - June 2027. Compensation: The salary for this role is $23/hour through the University of Buffalo. About GM Our vision is a world with Zero Crashes, Zero Emissions and Zero Congestion and we embrace the responsibility to lead the change that will make our world better, safer and more equitable for all. Why Join Us We believe we all must make a choice every day \u2013 individually and collectively \u2013 to drive meaningful change through our words, our deeds and our culture. Every day, we want every employee to feel they belong to one General Motors team. Benefits Overview From day one, we're looking out for your well-being\u2013at work and at home\u2013so you can focus on realizing your ambitions. Learn how GM supports a rewarding career that rewards you personally by visiting Total Rewards resources . Non-Discrimination and Equal Employment Opportunities (U.S.) General Motors is committed to being a workplace that is not only free of unlawful discrimination, but one that genuinely fosters inclusion and belonging. We strongly believe that providing an inclusive workplace creates an environment in which our employees can thrive and develop better products for our customers. All employment decisions are made on a non-discriminatory basis without regard to sex, race, color, national origin, citizenship status, religion, age, disability, pregnancy or maternity status, sexual orientation, gender identity, status as a veteran or protected veteran, or any other similarly protected status in accordance with federal, state and local laws. We encourage interested candidates to review the key responsibilities and qualifications for each role and apply for any positions that match their skills and capabilities. Applicants in the recruitment process may be required, where applicable, to successfully complete a role-related assessment(s) and/or a pre-employment screening prior to beginning employment. To learn more, visit How we Hire . Accommodations General Motors offers opportunities to all job seekers including individuals with disabilities. If you need a reasonable accommodation to assist with your job search or application for employment, email us or call us at 1-800-865-7580. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.",
+   "season": "ok",
+   "company": "General Motors",
+   "src": "General Motors",
+   "score": {
+    "total": 38,
+    "base": 26,
+    "fit": 13,
+    "loc": 6,
+    "traj": 11,
+    "pay": -4,
+    "rate": [
+     23.0,
+     23.0
+    ],
+    "rate_src": "stated",
+    "fresh": 12,
+    "age": 0.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: root cause",
+      7
+     ],
+     [
+      "title: manufacturing",
+      3
+     ],
+     [
+      "body: doe",
+      3
+     ],
+     [
+      "pay $23/hr",
+      -4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-16T13:49:44+00:00"
+  },
+  {
    "id": "wd:generalmotors:JR-202621454",
    "title": "Summer 2027 Intern - Computational Design Intern",
    "location": "Warren, Michigan, United States of America",
@@ -27006,7 +27118,7 @@
     "traj": 11,
     "pay": 8,
     "rate": [
-     55.49,
+     54.92,
      59.54
     ],
     "rate_src": "company",
@@ -27016,7 +27128,7 @@
     "tier": "B",
     "why": [
      [
-      "est. pay $58/hr",
+      "est. pay $57/hr",
       8
      ],
      [
@@ -27985,7 +28097,7 @@
     "traj": 11,
     "pay": 8,
     "rate": [
-     55.49,
+     54.92,
      59.54
     ],
     "rate_src": "company",
@@ -27995,7 +28107,7 @@
     "tier": "B",
     "why": [
      [
-      "est. pay $58/hr",
+      "est. pay $57/hr",
       8
      ],
      [
@@ -28563,7 +28675,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 11.5,
+    "age": 11.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -28585,8 +28697,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "lv:zoox:442845d1-33b0-4801-a553-7fd9b806e46f",
@@ -28629,7 +28740,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-13T01:45:38+00:00"
+   "first_seen": "2026-11-13T01:45:38+00:00",
+   "stale": true
   },
   {
    "id": "gh:astranis:4718206006",
@@ -35653,7 +35765,7 @@
     "traj": 11,
     "pay": 8,
     "rate": [
-     55.49,
+     54.92,
      59.54
     ],
     "rate_src": "company",
@@ -35663,7 +35775,7 @@
     "tier": "B",
     "why": [
      [
-      "est. pay $58/hr",
+      "est. pay $57/hr",
       8
      ],
      [
@@ -38799,7 +38911,7 @@
     ],
     "rate_src": "stated",
     "fresh": 6,
-    "age": 9.5,
+    "age": 9.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -38817,8 +38929,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "ab:Antares:9335fe9a-a994-4209-bd97-9a6070f4e94f",
@@ -39992,7 +40103,7 @@
     ],
     "rate_src": "stated",
     "fresh": 0,
-    "age": 24.5,
+    "age": 24.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -40014,8 +40125,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.agcocorp.com:1433210800",
@@ -40654,7 +40764,7 @@
     "traj": 11,
     "pay": 8,
     "rate": [
-     55.49,
+     54.92,
      59.54
     ],
     "rate_src": "company",
@@ -40664,7 +40774,7 @@
     "tier": "B",
     "why": [
      [
-      "est. pay $58/hr",
+      "est. pay $57/hr",
       8
      ],
      [
@@ -41873,7 +41983,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-14T03:18:39+00:00"
+   "first_seen": "2026-11-14T03:18:39+00:00",
+   "stale": true
   },
   {
    "id": "lv:zoox:fbc2a7a6-b916-4f3f-b825-a4b3d5d60852",
@@ -41912,7 +42023,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ph:jobs.baesystems.com:129369BR",
@@ -43641,7 +43753,7 @@
     ],
     "rate_src": "stated",
     "fresh": 9,
-    "age": 4.5,
+    "age": 4.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -43663,8 +43775,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1438473000",
@@ -43689,7 +43800,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 10.5,
+    "age": 10.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -43715,8 +43826,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:elkay:REQ-020092",
@@ -47914,7 +48024,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 11.5,
+    "age": 11.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -47928,8 +48038,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1425166700",
@@ -47954,7 +48063,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 19.5,
+    "age": 19.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -47968,8 +48077,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1438867900",
@@ -47994,7 +48102,7 @@
     ],
     "rate_src": "stated",
     "fresh": 6,
-    "age": 9.5,
+    "age": 9.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -48008,8 +48116,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:asml:J-00351298",
@@ -49889,7 +49996,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 13.5,
+    "age": 13.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -49911,8 +50018,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.agcocorp.com:1431781800",
@@ -52293,49 +52399,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "ef:lockheedmartin.com:21381",
-   "title": "Systems Engineering Intern - Summer 2027",
-   "location": "Colorado Springs, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477461635",
-   "posted": "2026-11-02",
-   "body": "Standard Job Description Performs assignments in technical/engineering organizations (e.g. Systems Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Basic Qualifications Pursuing a degree in Systems Engineering, or a related field Must be a U.S. Citizen Desired Skills Experience with DOORS Experience performing Systems Engineering activities (in projects or coursework) Experience with requirements decomposition activities Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "ok",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 21,
-    "base": 18,
-    "fit": 9,
-    "loc": 0,
-    "traj": 13,
-    "pay": -4,
-    "rate": [
-     20.14,
-     28.15
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 14.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "pay $24/hr",
-      -4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "ef:lockheedmartin.com:23015",
    "title": "Chief Engineer Intern - Summer 2027",
    "location": "Highlands Ranch, CO, US",
@@ -53133,50 +53196,6 @@
     ]
    },
    "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "sf:careers.westinghousenuclear.com:1435814400",
-   "title": "Summer Intern - Layout Engineering",
-   "location": "",
-   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Layout-Engineering-NC/1435814400/",
-   "posted": "2026-10-30",
-   "body": "> Are you interested in being part of an innovative team that supports Westinghouse's mission to provide clean energy solutions? At Westinghouse, we recognize that our employees are our most valuable asset and we seek to identify, attract and recruit the most qualified talent while recognizing and encouraging the value of diversity in the global workplace. About the role: As a Layout Engineering intern, you will report to the Layout and Design Integration Engineering Manager and be located at our Cranberry facility. This is a paid full-time hybrid position for the summer, May - August 2027. Key Responsibilities: Help perform physical arrangement of the nuclear island structures, equipment, piping, commodities, and supports using 3D design software Perform hazards evaluations with 3D plant models and analysis software Read and interpret engineering drawings and criteria documents Work with customers, vendors and our teams to obtain information to support work activities Plan and schedule to meet requirements Solve technical engineering problems Participate in design reviews and present technical designs and analysis results to team members Qualifications: Pursuing a bachelor's degree in mechanical, architectural, or other engineering Completed Sophomore year of college We are committed to transparency and equity in all of our people practices. The hourly rate for this position, which is dependent upon experience, qualifications and skills, is estimated to be $25.40 to $29.00 per hour. #LI-Hybrid, #LI-Internship Why Westinghouse? Westinghouse Electric Company is the global nuclear energy industry's first choice for safe, clean, and efficient energy solutions. We enable our delivery of this vision by living our value system: Safety and Quality Integrity and Trust Customer Focus and Innovation Speed and Passion to Win Teamwork and Accountability While our Global Headquarters are located in Cranberry Township, PA, we have over 11,000 employees working at locations in 19 different countries. You can learn more by visiting http://www.westinghousenuclear.com . Westinghouse is an Equal Opportunity Employer including Veterans and Individuals with Disabilities Get connected with Westinghouse on social media: Twitter | Facebook | LinkedIn | YouTube .buttontext5c4e121c34b95c34 a{ border: 1px solid transparent; } .buttontext5c4e121c34b95c34 a:focus{ border: 1px dashed #25346a !important; outline: none !important; } Employment opportunities may require access to information which is subject to the export control regulations of the United States. Hiring decisions for such positions are required by law to be made in compliance with these regulations. Applicants for employment opportunities in other countries must be able to meet the comparable export control requirements of that country and of the United States. <span",
-   "season": "ok",
-   "company": "Westinghouse",
-   "src": "Westinghouse",
-   "score": {
-    "total": 21,
-    "base": 18,
-    "fit": 9,
-    "loc": 0,
-    "traj": 11,
-    "pay": -2,
-    "rate": [
-     25.4,
-     29.0
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 17.5,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "body: engineering drawings",
-      6
-     ],
-     [
-      "body: drawings",
-      3
-     ],
-     [
-      "pay $27/hr",
-      -2
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
   },
   {
    "id": "wd:ag:JR10441369",
@@ -54254,7 +54273,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 19.5,
+    "age": 19.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -54272,8 +54291,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:nvent:R23541",
@@ -56096,7 +56114,7 @@
     ],
     "rate_src": "stated",
     "fresh": 0,
-    "age": 28.5,
+    "age": 28.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -56122,8 +56140,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:ag:JR10436880",
@@ -58481,46 +58498,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "sf:careers.westinghousenuclear.com:1436157600",
-   "title": "Summer Intern - Setpoint and Control Systems",
-   "location": "",
-   "url": "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Setpoint-and-Control-Systems-OR/1436157600/",
-   "posted": "2026-10-31",
-   "body": "> Are you interested in being part of an innovative team that supports Westinghouse's mission to provide clean energy solutions? At Westinghouse, we recognize that our employees are our most valuable asset and we seek to identify, attract and recruit the most qualified talent while recognizing and encouraging the value of diversity in the global workplace. About the role: As a Setpoints and Control Systems Engineering intern, you will collaborate with experienced engineers and subject matter experts across a variety of nuclear subsystems. You will report to the Setpoint and Control Systems Manager and be located at our Warrendale and Cranberry facilities. This is a paid full-time hybrid position for the summer, May - August 2027. Key Responsibilities: You will support functional design of AP1000 digital control systems and legacy analog protection systems Maintain NSSS Control System Functional Requirements and Diagrams Maintain plant NSSS Design Transients for component qualification Analyze operational transients to test I&C logic and settings Analyze low\u2011temperature over\u2011pressurization scenarios and develop/maintain LTOPS configurations to ensure adequate protection Perform calculations to ensure reactor protection systems meet safety limits considering instrumentation and process uncertainties You will determine setpoints that govern daily plant operations Other responsibilities assigned by the Setpoint and Control Systems Manager Qualifications: Pursuing a bachelor's degree in mechanical, electrical or nuclear engineering Completed Sophomore year of college Coursework in statistics, data analysis, fluid mechanics, dynamic systems, and thermodynamics Coursework in Pressurized Water Reactor (PWR) design and operation We are committed to transparency and equity in all of our people practices. The hourly rate for this position, which is dependent upon experience, qualifications and skills, is estimated to be $25.40 to $29.00 per hour. #LI-Hybrid, #LI-Internship Why Westinghouse? Westinghouse Electric Company is the global nuclear energy industry's first choice for safe, clean, and efficient energy solutions. We enable our delivery of this vision by living our value system: Safety and Quality Integrity and Trust Customer Focus and Innovation Speed and Passion to Win Teamwork and Accountability While our Global Headquarters are located in Cranberry Township, PA, we have over 11,000 employees working at locations in 19 different countries. You can learn more by visiting http://www.westinghousenuclear.com . Westinghouse is an Equal Opportunity Employer including Veterans and Individuals with Disabilities Get connected with Westinghouse on social media: Twitter | Facebook | LinkedIn | YouTube This is a hybrid remote/in-office role. .buttontext5c4e121c34b95c34 a{ border: 1px solid transparent; } .buttontext5c4e121c34b95c34 a:focus{ border: 1px dashed #25346a !important; outline: none !important; } Employment opportunities may require access to information which is subject to the export control regulations of the United States. Hiring decisions for such positions are required by law to be made in compliance with these regulations. Applicants for employment opportunities in other countries must be able to meet the comparable export control requirements of that country and of the United States. <span",
-   "season": "ok",
-   "company": "Westinghouse",
-   "src": "Westinghouse",
-   "score": {
-    "total": 17,
-    "base": 14,
-    "fit": 5,
-    "loc": 0,
-    "traj": 11,
-    "pay": -2,
-    "rate": [
-     25.4,
-     29.0
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 16.5,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "pay $27/hr",
-      -2
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
-  },
-  {
    "id": "wd:xenergy:R101284",
    "title": "Nuclear Engineering Internship - Summer 2027",
    "location": "Rockville, MD, United States of America",
@@ -59579,7 +59556,7 @@
     ],
     "rate_src": "stated",
     "fresh": 6,
-    "age": 6.5,
+    "age": 6.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -59597,8 +59574,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:nvent:R23532",
@@ -60613,7 +60589,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 10.5,
+    "age": 10.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -60627,52 +60603,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
-  },
-  {
-   "id": "sf:careers.westinghousenuclear.com:1442817700",
-   "title": "Summer Intern - Safety Analysis",
-   "location": "",
-   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Safety-Analysis-NC/1442817700/",
-   "posted": "2026-10-22",
-   "body": "> Are you interested in being part of an innovative team that supports Westinghouse's mission to provide clean energy solutions? At Westinghouse, we recognize that our employees are our most valuable asset and we seek to identify, attract and recruit the most qualified talent while recognizing and encouraging the value of diversity in the global workplace. About the role: As a Safety Analysis Intern, you will report to the Safety Analysis Manager and be located at our Cranberry, PA facility. This is a paid full-time hybrid position for the summer, May - August 2027. Key Responsibilities: Use software packages such as Python, Mathcad, Matlab, ANSYS or equivalent Perform modeling and analysis of advanced reactor designs and develop technical documentation and presentations related to these calculations and analyses Work with other internal departments on similar engineering level to obtain information necessary to perform work assignments Plan and schedule work to meet assignment requirements Evaluate standards, techniques, procedures and criteria for development of engineering design documents including calculations and specifications Qualifications: Pursuing a bachelor's degree in mechanical, nuclear, or chemical engineering required Completed Sophomore year of college Interest and skills related to thermal hydraulics and heat transfer We are committed to transparency and equity in all of our people practices. The hourly rate for this position, which is dependent upon experience, qualifications and skills, is estimated to be $25.40 to $29.00 per hour. #LI-Hybrid, #LI-Internship Why Westinghouse? Westinghouse Electric Company is the global nuclear energy industry's first choice for safe, clean, and efficient energy solutions. We enable our delivery of this vision by living our value system: Safety and Quality Integrity and Trust Customer Focus and Innovation Speed and Passion to Win Teamwork and Accountability While our Global Headquarters are located in Cranberry Township, PA, we have over 11,000 employees working at locations in 19 different countries. You can learn more by visiting http://www.westinghousenuclear.com . Westinghouse is an Equal Opportunity Employer including Veterans and Individuals with Disabilities Get connected with Westinghouse on social media: Twitter | Facebook | LinkedIn | YouTube .buttontext5c4e121c34b95c34 a{ border: 1px solid transparent; } .buttontext5c4e121c34b95c34 a:focus{ border: 1px dashed #25346a !important; outline: none !important; } Employment opportunities may require access to information which is subject to the export control regulations of the United States. Hiring decisions for such positions are required by law to be made in compliance with these regulations. Applicants for employment opportunities in other countries must be able to meet the comparable export control requirements of that country and of the United States. <span",
-   "season": "ok",
-   "company": "Westinghouse",
-   "src": "Westinghouse",
-   "score": {
-    "total": 15,
-    "base": 15,
-    "fit": 6,
-    "loc": 0,
-    "traj": 11,
-    "pay": -2,
-    "rate": [
-     25.4,
-     29.0
-    ],
-    "rate_src": "stated",
-    "fresh": 0,
-    "age": 25.5,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: matlab",
-      2
-     ],
-     [
-      "pay $27/hr",
-      -2
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1448988100",
@@ -60697,7 +60628,7 @@
     ],
     "rate_src": "stated",
     "fresh": 6,
-    "age": 7.5,
+    "age": 7.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -60715,8 +60646,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1281048300",
@@ -60741,7 +60671,7 @@
     ],
     "rate_src": "company",
     "fresh": 6,
-    "age": 5.5,
+    "age": 5.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -60759,8 +60689,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1438865700",
@@ -60785,7 +60714,7 @@
     ],
     "rate_src": "stated",
     "fresh": 6,
-    "age": 9.5,
+    "age": 9.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -60795,8 +60724,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:avav:9263",
@@ -64499,7 +64427,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:elkay:REQ-020074",
@@ -66244,7 +66173,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 13.5,
+    "age": 13.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -66258,8 +66187,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1447425200",
@@ -66284,7 +66212,7 @@
     ],
     "rate_src": "stated",
     "fresh": 3,
-    "age": 13.5,
+    "age": 13.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -66298,8 +66226,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1386471500",
@@ -66324,7 +66251,7 @@
     ],
     "rate_src": "company",
     "fresh": 0,
-    "age": 27.5,
+    "age": 27.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -66342,8 +66269,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1407551400",
@@ -66368,7 +66294,7 @@
     ],
     "rate_src": "company",
     "fresh": 3,
-    "age": 13.5,
+    "age": 13.6,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -66382,8 +66308,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:avav:9197",
@@ -77046,6 +76971,153 @@
    "reason": "no mechanical signal"
   },
   {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Chemical Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Chemical-Engineering-NC/1423243900/",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Chemical Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Rock-Hill-Summer-Intern-Chemical-Engineering-SC-29730/1425170000/",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Control System Platforms & Standards",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Control-System-Platforms-&amp;-Standards-OR/1438866400/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Customer Solutions Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Customer-Solutions-Engineering-OR/1438393400/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Delivery Stream Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Delivery-Stream-Engineering-NC/1436990700/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Electrical Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Rock-Hill-Summer-Intern-Electrical-Engineering-SC-29730/1438867400/",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Energy Systems Delivery Stream",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Energy-Systems-Delivery-Stream-NC/1433666900/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Environment & Sustainability",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Environment-&amp;-Sustainability-NC/1426861000/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Environment Health & Safety",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Environment-Health-&amp;-Safety-NC/1443756900/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Instrumentation and Controls Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Hopkins-Summer-Intern-Instrumentation-and-Controls-Engineering-SC-29061/1442814300/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Invoice Support Specialist",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Madison-Summer-Intern-Invoice-Support-Specialist-PA-15663/1429688500/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Licensing Engineer",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Hopkins-Summer-Intern-Licensing-Engineer-SC-29061/1438848000/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Nuclear Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Nuclear-Engineering-NC/1422584800/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Nuclear Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Rock-Hill-Summer-Intern-Nuclear-Engineering-SC-29730/1425158800/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Nuclear Safety Engineer",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Burr-Ridge-Summer-Intern-Nuclear-Safety-Engineer-IL-60527/1435083300/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Reactor Core Thermal Hydraulic Design",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Reactor-Core-Thermal-Hydraulic-Design-NC/1444646300/",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Technical Supply Chain & Procurement",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Rock-Hill-Summer-Intern-Technical-Supply-Chain-&amp;-Procurement-SC-29730/1425161100/",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Technical Supply Chain & Procurement",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Technical-Supply-Chain-&amp;-Procurement-NC/1422592700/",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern - Transient Analysis",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Transient-Analysis-NC/1429709700/",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern -Electrical Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Rock-Hill-Summer-Intern-Electrical-Engineering-SC-29730/1425168400/",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Westinghouse",
+   "title": "Summer Intern -Electrical Engineering",
+   "location": "",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Electrical-Engineering-NC/1422604000/",
+   "reason": "non-ME discipline"
+  },
+  {
    "company": "X-energy",
    "title": "Civil Engineering Internship - Summer 2027",
    "location": "Rockville, MD, United States of America",
@@ -77156,20 +77228,6 @@
    "location": "South San Francisco, California, USA",
    "url": "https://www.zipline.com/open-roles/7992001003?gh_jid=7992001003",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Zoox",
-   "title": "Program Manager Intern [Summer 2027]",
-   "location": "Foster City, CA",
-   "url": "https://jobs.lever.co/zoox/affbfa7d-30c5-4639-aa56-2ba138200bd8",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Zoox",
-   "title": "Safety Reporting Intern [Summer 2027]",
-   "location": "Foster City, CA",
-   "url": "https://jobs.lever.co/zoox/614f35d6-a415-4f44-be38-cb38877df1db",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Zurn Elkay Water Solutions",
