@@ -1,18 +1,25 @@
 {
- "generated": "2026-11-16T04:04:16+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43801809595",
- "scanned": 34260,
+ "generated": "2026-11-16T04:24:19+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43803883389",
+ "scanned": 34173,
  "boards": 323,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 3
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1237,
-  "master's/PhD only": 775,
-  "software / data / AI role": 1150,
-  "no mechanical signal": 355,
+  "non-ME discipline": 1223,
+  "master's/PhD only": 740,
+  "software / data / AI role": 1129,
+  "no mechanical signal": 351,
   "off-target season in title": 468,
   "not a student req": 26371,
-  "outside the US": 1537,
-  "no Summer/Fall 2027": 840
+  "outside the US": 1533,
+  "no Summer/Fall 2027": 832
  },
  "jobs": [
   {
@@ -17614,6 +17621,61 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "wd:globalhr:01889105",
+   "title": "Systems Engineering Intern (Summer 2027) - Onsite",
+   "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105, United States of America",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Systems-Engineering-Intern--Summer-2027----Onsite_01889105",
+   "posted": "2026-11-15",
+   "body": "Date Posted: 2026-11-15 Country: United States of America Location: US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: The company will offer immigration sponsorship for this position, if needed.\u200b The company will not seek an export authorization for this role. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. What You Will Do: Work with other engineers on projects where you will have the opportunity to support the following types of systems work: Update systems level requirements/design documents Define and update input/output data for the system Support system level verification activities Enhance and/or create tools that aid systems engineering tasks Investigate and help develop new and emerging avionics technologies What You Will Learn: How to create and deliver various types of presentations Basic to advanced scripting and coding capabilities How to create more effective documentation Working in a collaborative team environment Qualifications You Must Have: Requires a High School Diploma or equivalent and student must be pursuing a Bachelor\u2019s or advanced degree in Aerospace Engineering, Computer Engineering, or a STEM major and actively enrolled through the completion of the internship/co-op session. Ability to work onsite during the internship. Qualifications We Prefer: A passion for avionics A pilot's license Basic experience with Python or other scripting language Demonstrates good communication skills Self-starter who works well independently What We Offer Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX we value: Trust, Respect, Accountability, Collaboration, and Innovation. Relocation Eligibility Learn More & Apply Now Please ensure the role type defined below is appropriate for your needs before applying to this role. This position is classified as: Onsite: Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. Candidates will learn more about role type and current site status throughout the recruiting process. For onsite and hybrid roles, commuting to and from the assigned site is the employee\u2019s personal responsibility. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate\u2019s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company\u2019s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans\u2019 Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms",
+   "season": "ok",
+   "company": "RTX",
+   "src": "RTX",
+   "score": {
+    "total": 47,
+    "base": 35,
+    "fit": 21,
+    "loc": 0,
+    "traj": 13,
+    "pay": 1,
+    "rate": [
+     36,
+     36
+    ],
+    "rate_src": "trajectory",
+    "fresh": 12,
+    "age": 1.2,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "est. pay $36/hr",
+      1
+     ]
+    ]
+   },
+   "first_seen": "2026-11-16T04:24:19+00:00"
+  },
+  {
    "id": "wd:globalhr:01882062",
    "title": "Quality Engineering Intern (Summer 2027)",
    "location": "US-CO-COLORADO SPRINGS-793 ~ 1225 Aeroplaza Dr ~ AEROPLAZA, United States of America",
@@ -18476,7 +18538,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "ab:regent:2b47c43c-79ad-499f-8570-61f9107ff32c",
@@ -19812,7 +19875,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-15T09:17:02+00:00"
+   "first_seen": "2026-10-15T09:17:02+00:00",
+   "stale": true
   },
   {
    "id": "wd:ngc:R10260526",
@@ -21110,6 +21174,57 @@
     ]
    },
    "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
+   "id": "wd:globalhr:01873971",
+   "title": "Systems Engineering - Summer Intern 2027 - Onsite",
+   "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105, United States of America",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Systems-Engineering---Summer-Intern-2027---Onsite_01873971",
+   "posted": "2026-11-15",
+   "body": "Date Posted: 2026-11-15 Country: United States of America Location: US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: Must be authorized to work in the U.S. without the company\u2019s immigration sponsorship now or in the future. The company will not offer immigration sponsorship for this position.\u200b The company will not seek an export authorization for this role. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. What You Will Do: Work with other engineers on projects where you will have the opportunity to support the following types of systems work: Update systems level requirements/design documents Define and update input/output data for the system Support system level verification activities Enhance and/or create tools that aid systems engineering tasks Investigate and help develop new and emerging avionics technologies What You Will Learn: How to create and deliver various types of presentations Basic to advanced scripting and coding capabilities How to create more effective documentation Working in a collaborative team environment Qualifications You Must Have: Requires a High School Diploma or equivalent and student must be pursuing a Bachelor\u2019s or advanced degree in Aerospace Engineering, Computer Engineering, or a STEM major and actively enrolled through the completion of the internship/co-op session. Ability to work onsite during the internship. Qualifications We Prefer: A passion for avionics A pilot's license Basic experience with Python or other scripting language Demonstrates good communication skills Self-starter who works well independently What We Offer Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX we value: Trust, Respect, Accountability, Collaboration, and Innovation. Relocation Eligibility Learn More & Apply Now Please ensure the role type defined below is appropriate for your needs before applying to this role. This position is classified as: Onsite: Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. Candidates will learn more about role type and current site status throughout the recruiting process. For onsite and hybrid roles, commuting to and from the assigned site is the employee\u2019s personal responsibility. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate\u2019s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company\u2019s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans\u2019 Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms",
+   "season": "ok",
+   "company": "RTX",
+   "src": "RTX",
+   "score": {
+    "total": 43,
+    "base": 31,
+    "fit": 17,
+    "loc": 0,
+    "traj": 13,
+    "pay": 1,
+    "rate": [
+     36,
+     36
+    ],
+    "rate_src": "trajectory",
+    "fresh": 12,
+    "age": 1.2,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "est. pay $36/hr",
+      1
+     ]
+    ]
+   },
+   "first_seen": "2026-11-16T04:24:19+00:00"
   },
   {
    "id": "gh:andurilindustries:5278662007",
@@ -25951,7 +26066,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3095745",
@@ -75062,62 +75178,6 @@
    "title": "Intern \u2013 Procurement Cost Analyst",
    "location": "Boise, ID - North Office, United States of America",
    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---North-Office/Intern---Procurement-Cost-Analyst_JR112690",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Engineer - Erada Internship",
-   "location": "Doha, Doha Municipality, QA",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556942219",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Solutions: Internship Opportunities",
-   "location": "S\u00e3o Paulo, SP, BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556983239",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
    "reason": "non-ME discipline"
   },
   {
