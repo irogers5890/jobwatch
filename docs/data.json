@@ -1,18 +1,25 @@
 {
- "generated": "2026-11-16T06:38:31+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43818130624",
- "scanned": 34244,
+ "generated": "2026-11-16T06:58:37+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/43820473276",
+ "scanned": 34162,
  "boards": 323,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 3
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1233,
-  "master's/PhD only": 774,
-  "software / data / AI role": 1146,
-  "no mechanical signal": 353,
+  "non-ME discipline": 1219,
+  "master's/PhD only": 739,
+  "software / data / AI role": 1129,
+  "no mechanical signal": 350,
   "off-target season in title": 468,
-  "not a student req": 26351,
-  "outside the US": 1558,
-  "no Summer/Fall 2027": 836
+  "not a student req": 26345,
+  "outside the US": 1562,
+  "no Summer/Fall 2027": 829
  },
  "jobs": [
   {
@@ -18531,7 +18538,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "ab:regent:2b47c43c-79ad-499f-8570-61f9107ff32c",
@@ -19867,7 +19875,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-15T09:17:02+00:00"
+   "first_seen": "2026-10-15T09:17:02+00:00",
+   "stale": true
   },
   {
    "id": "wd:ngc:R10260526",
@@ -23192,6 +23201,57 @@
    "first_seen": "2026-10-14T01:17:06+00:00"
   },
   {
+   "id": "wd:idexcorp:R-09908",
+   "title": "Design Engineering Co-Op",
+   "location": "Cedar Falls, Iowa, United States of America",
+   "url": "https://idexcorp.wd5.myworkdayjobs.com/IDEX_Careers/job/Cedar-Falls-Iowa/Design-Engineering-Co-Op_R-09908",
+   "posted": "2026-11-16",
+   "body": "If you\u2019re looking for a special place to build or grow your career, you\u2019ve found it. Whether you\u2019re an experienced professional, a recent college graduate or somewhere in between, IDEX is a place where you can apply your existing skills and learn new ones in an environment where you can make an impact. With interesting opportunities in engineering, marketing, sales, supply chain, operations, HR, finance, and more across more than 40 diverse businesses around the globe, chances are, we have something special for you. Certain positions with IDEX Corporation and its business units require access to controlled goods and technologies subject to the International Traffic in Arms Regulations or the Export Administration Regulations. Applicants for these positions may need to be \"U.S. Persons,\" as defined in these regulations. Generally, a \"U.S. Person\" is a U.S. citizen, U.S. national, lawful permanent resident, or an individual who has been granted refugee or asylum status. This position will be full-time from January 2027 - December 2027. PRIMARY FUNCTION: The Engineering team at Viking Pump Inc., a Unit of IDEX Corporation, is seeking a student co-op to work within our Engineering Department in Cedar Falls, Iowa. Student will participate in design projects to support Growth and Innovation and Global Distribution business segments. PRIMARY DUTIES AND RESPONSIBILITIES: Participate on cross-functional project teams. Support New Product Development, Value Engineering, & Derivative Product projects Create and Update models and drawings in SolidWorks Maintain part numbers and Bills of Material in ERP system Other engineering projects as assigned. EDUCATION AND/OR EXPERIENCE REQUIREMENTS: Pursuing a Bachelor\u2019s degree in Mechanical Engineering, Industrial Engineering, Manufacturing Engineering Technology, Aerospace Engineering or Industrial Technology Minimum GPA of 3.0 in Major. OTHER SPECIAL REQUIREMENTS: Ability to manage multiple priorities in a fast paced environment. Demonstrated ability to work in a team environment. Strong written and verbal communication skills. COMPUTER SKILLS: Proficient with Microsoft Office products including, but not limited to, Word, Excel, PowerPoint and Outlook. CAD training w/SolidWorks experience a plus. WORK ENVIRONMENT REQUIREMENT: Ability to move within office and manufacturing complex, write by hand and keyboard, and perform general office functions. Visual acuity needed for close detail work and computer use. General manufacturing, warehouse and office environment. Are you ready to join a different kind of company where our people, our culture, and our commitments are centered around providing trusted solutions that improve lives around the world? IDEX is an Equal Opportunity Employer . IDEX gives consideration for employment to qualified applicants without regard to race, color, religion, creed, genetic information, sex, sexual orientation, gender identity or expression, marital status, age, national origin, disability, protected veteran status, or any other consideration or protected category made unlawful by federal, state or local laws. Attention Applicants: If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, please let us know. Likewise, if you are limited in the ability to access or use this online application process and need an alternative method for applying, we will determine an alternate way for you to apply. Please contact our Talent Acquisition Team at lfcareers@idexcorp.com for assistance with an accommodation. These contact tools may be used only by individuals with a disability for accommodation requests. Do not inquire as to the status of an application.",
+   "season": "ok",
+   "company": "IDEX",
+   "src": "IDEX",
+   "score": {
+    "total": 41,
+    "base": 29,
+    "fit": 24,
+    "loc": 0,
+    "traj": 9,
+    "pay": -4,
+    "rate": [
+     15.62,
+     23.41
+    ],
+    "rate_src": "company",
+    "fresh": 12,
+    "age": 0.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: design engineer",
+      12
+     ],
+     [
+      "body: pump",
+      5
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "body: drawings",
+      3
+     ],
+     [
+      "est. pay $20/hr",
+      -4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-16T06:58:37+00:00"
+  },
+  {
    "id": "pp:impulsespace:578974",
    "title": "Avionics Mechanical Engineering Intern (Summer 2027)",
    "location": "Redondo Beach, California",
@@ -25998,7 +26058,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3095745",
@@ -32060,53 +32121,6 @@
     ]
    },
    "first_seen": "2026-11-15T00:02:57+00:00"
-  },
-  {
-   "id": "wd:globalhr:01888581",
-   "title": "Manufacturing Engineering Intern (Summer 2027)",
-   "location": "US-AZ-TUCSON-801 A20 ~ 1151 E Hermans Rd ~ BLDG A20 (External Site), United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-801-A20--1151-E-Hermans-Rd--BLDG-A20-External-Site/Manufacturing-Engineering-Intern--Summer-2027-_01888581",
-   "posted": "2026-11-12",
-   "body": "Date Posted: 2026-11-12 Country: United States of America Location: US-AZ-TUCSON-801 A20 ~ 1151 E Hermans Rd ~ BLDG A20 (External Site) Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: Active and transferable U.S. government issued security clearance is required prior to start date.\u200b U.S. citizenship is required, as only U.S. citizens are eligible for a security clearance\u200b Security Clearance Type: DoD Clearance: Secret Security Clearance Status: Ability to obtain INTERIM U.S. government issued security clearance is required prior to start date Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. Raytheon's internship program is designed to empower growth by exploring the dynamic nature of the defense industry throughout Raytheon Operations, Supply Chain & Quality (OSCQ). Throughout the summer, you will be able to expand your knowledge of OSCQ while also gaining unprecedented exposure to leadership along the way. Interns will work along side Manufacturing engineers who are responsible for the interpretation and translation of design requirements into manufacturing processes. They apply production methods expertise to generate processes and provide feedback to the design community. They support factory operations to ensure process and design requirements are satisfied, and drive continuous improvements to reduce cost, defects, and cycle time. What You Will Do Utilize Raytheon systems and tools to support Manufacturing processes Support production operations and the Manufacturing discipline Support Manufacturing objectives for cost, quality, schedule and safety Support improvement and optimization initiatives within the Manufacturing discipline Qualifications You Must Have Must be pursuing Bachelor\u2019s or Advanced degree in Manufacturing, Mechanical, Aerospace, Industrial Engineering or related Science, Technology, Engineering or Mathematics (STEM) major, and actively enrolled through the completion of the internship/co-op session. Must have a minimum of 60 hours of credit by the start of the internship / co-op session. Experience with Microsoft Office tools The ability to obtain and maintain a U.S. government issued security clearance is required. U.S. citizenship is required, as only U.S. citizens are eligible for a security clearance. *Experience may be obtained through on\u2011the\u2011job experience, research, coursework, or projects. Qualifications We Prefer Prior internship experience Experience/Education with manufacturing testing processes Experience/Education with technical writing and interpretation of technical documentation 3.0 cumulative GPA What We Offer Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX we value: Trust, Respect, Accountability, Collaboration, and Innovation. Learn More & Apply Now Please consider the following as you apply for this role Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. This position is not eligible for relocation assistance. This position involves direct support of manufacturing activities and requires spending time in and around factory areas. Clearance Information: This position requires security clearance. DCSA Consolidated Adjudication Services (DCSA CAS), an agency of the Department of Defense, handles and adjudicates the security clearance process. More information about Security Clearances can be found on the US Department of State government website here: https://www.state.gov/m/ds/clearances/c10978.htm As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate\u2019s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company\u2019s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans\u2019 Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms",
-   "season": "ok",
-   "company": "RTX",
-   "src": "RTX",
-   "score": {
-    "total": 34,
-    "base": 25,
-    "fit": 11,
-    "loc": 0,
-    "traj": 13,
-    "pay": 1,
-    "rate": [
-     36,
-     36
-    ],
-    "rate_src": "trajectory",
-    "fresh": 9,
-    "age": 4.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "title: manufacturing",
-      3
-     ],
-     [
-      "est. pay $36/hr",
-      1
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T14:10:57+00:00"
   },
   {
    "id": "wd:globalhr:01879705",
@@ -59058,53 +59072,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "ef:lamresearch.com:203234",
-   "title": "Quality Engineering Intern 1",
-   "location": "Lancaster, VIC, AU",
-   "url": "https://careers.lamresearch.com/careers/job/1099555572956",
-   "posted": "2026-09-01",
-   "body": "The group you\u2019ll be a part of Quality Department The impact you\u2019ll make Joining our Quality team is an exciting opportunity to contribute, maintaining and improving world-class standards. You will play a key role in supporting quality initiatives, analyzing process performance, and driving continuous improvement across manufacturing and business operations. Your work will help ensure compliance, enhance customer satisfaction, and strengthen our commitment to excellence. What you\u2019ll do Partner with Quality Engineers to perform product audits. Support Quality Engineers to compile and report quality performance. Perform data analysis to identify trends and opportunities to improve the Quality performance. Partner with Quality Engineers to drive quality improvement programs/efforts. Communicating regularly with manager to track project status and identify potential issues. Assist Quality Engineers in Quality investigation. Who we\u2019re looking for Degree course in science/engineering or equivalent. Excellent analytical & problem-solving skills. Strong communication and interpersonal skills, written and verbal. Ability to work in a cleanroom environment, wearing personal protective safety equipment and cleanroom suit. Proficient in Microsoft Office mainly Excel, Words and Power Points. Working knowledge of AI tools. Min 6 months Internship period. Preferred qualifications Power BI, Microsoft Power Apps Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
-   "season": "unstated",
-   "company": "Lam Research",
-   "src": "Lam Research",
-   "score": {
-    "total": 16,
-    "base": 24,
-    "fit": 4,
-    "loc": 0,
-    "traj": 18,
-    "pay": 2,
-    "rate": [
-     29.75,
-     48.25
-    ],
-    "rate_src": "company",
-    "fresh": -8,
-    "age": 76.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "title: quality",
-      3
-     ],
-     [
-      "est. pay $39/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "or:iadugs:509",
    "title": "Intern Hardware Engineer",
    "location": "Blumenau, SC, Brazil; Brazil",
@@ -74949,55 +74916,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Engineer - Erada Internship",
-   "location": "Doha, Doha Municipality, QA",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556942219",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Solutions: Internship Opportunities",
-   "location": "S\u00e3o Paulo, SP, BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556983239",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Moog",
    "title": "AOS Intern, Facilities",
    "location": "Buffalo, NY, United States of America",
@@ -76204,6 +76122,13 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
+   "title": "Security Analyst Intern Summer 2027",
    "location": "Wallops Island, VA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
    "reason": "non-ME discipline"
@@ -76217,16 +76142,16 @@
   },
   {
    "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
+   "title": "Supply Chain Intern",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984786003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
-   "title": "Supply Chain Intern",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984786003",
+   "title": "Supply Chain Intern Summer 2027",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
@@ -76241,13 +76166,6 @@
    "title": "Supply Chain Intern Summer 2027",
    "location": "Long Beach, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Supply Chain Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
@@ -76653,7 +76571,7 @@
    "company": "Tektronix",
    "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
    "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
    "reason": "non-ME discipline"
   },
   {
@@ -76667,7 +76585,7 @@
    "company": "Tektronix",
    "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
    "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
    "reason": "non-ME discipline"
   },
   {
