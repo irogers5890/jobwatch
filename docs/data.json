@@ -1,18 +1,25 @@
 {
- "generated": "2026-11-17T04:05:08+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44014654202",
- "scanned": 34392,
+ "generated": "2026-11-17T04:25:12+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44017027613",
+ "scanned": 34300,
  "boards": 324,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 2
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1224,
-  "software / data / AI role": 1156,
-  "no mechanical signal": 350,
-  "off-target season in title": 491,
+  "non-ME discipline": 1208,
+  "software / data / AI role": 1136,
+  "no mechanical signal": 347,
+  "off-target season in title": 489,
   "not a student req": 26500,
-  "outside the US": 1542,
-  "master's/PhD only": 788,
-  "no Summer/Fall 2027": 803
+  "outside the US": 1535,
+  "master's/PhD only": 753,
+  "no Summer/Fall 2027": 795
  },
  "jobs": [
   {
@@ -22443,7 +22450,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "wd:ngc:R10251088",
@@ -26588,6 +26596,57 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "sf:corningjobs.corning.com:1425737000",
+   "title": "Melting/Forming Process Engineering Intern - Summer 2027",
+   "location": "",
+   "url": "https://corningjobs.corning.com/job/Harrodsburg-MeltingForming-Process-Engineering-Intern-Summer-2027-KY-40330/1425737000/",
+   "posted": "2026-10-30",
+   "body": "> Requisition Number: 77507 The company built on breakthroughs. \u200b Join us.\u200b Corning is one of the world\u2019s leading innovators in glass, ceramic, and materials science. From the depths of the ocean to the farthest reaches of space, our technologies push the boundaries of what\u2019s possible. \u200b How do we do this? With our people. They break through limitations and expectations \u2013 not once in a career, but every day. They help move our company, and the world, forward. \u200b \u200bAt Corning, there are endless possibilities for making an impact. You can help connect the unconnected, drive the future of automobiles, transform at-home entertainment, and ensure the delivery of lifesaving medicines. And so much more.\u200b Come break through with us. Corning\u2019s businesses are ever-evolving to best serve our customers, industries, and consumers. Today, we accelerate and transform life sciences, mobile consumer electronics, optical communications, display, automotive, and solar markets. We are changing the world with: Trusted products that accelerate drug discovery, development, and delivery to save lives Damage-resistant cover glass to enhance the devices that keep us connected Optical fiber, wireless technologies, and connectivity solutions to carry information and ideas at the speed of light Precision glass for advanced displays to deliver richer experiences Auto glass and ceramics to drive cleaner, safer, and smarter transportation Solar polysilicon, wafers, and innovative photovoltaic modules, enabling low-cost solar energy solutions Role Purpose The Melting Process Engineering Intern will have the opportunity to learn and manage the melting and delivery system processes for production lines. This role focuses on process control, discipline, and continuous improvement while providing technical expertise to address manufacturing challenges. The position requires a combination of data-driven problem-solving, collaboration across departments, and a commitment to safety and operational excellence. Key Responsibilities Process Management and Improvement: Oversee melting and delivery system processes for production lines Maintain process control and recommend process improvement initiatives Problem-Solving and Analysis: Solve process issues through data analysis, experimentation, and collaboration with subject matter experts Build an understanding of key process steps using engineering principles Recommend and implement improvements to equipment and processes Technical Expertise: Maintain systems to monitor equipment and process performance Lead and support PEx (Process Excellence) projects, such as cost reduction, process optimization, and technology migration Documentation and Training: Develop and update engineering and operations documentation, as needed, to maintain ISO compliance Provide training for the operations workforce regarding process or equipment changes Collaboration and Safety: Collaborate with other teams and departments to meet or exceed manufacturing goals Actively engage in plant safety initiatives to ensure a safe working environment Work Schedule Standard schedule: Monday-Friday, 8:00 AM-5:00 PM Experiences/Education - Required Pursuing BS or MS in Engineering (Chemical, Mechanical, or Electrical preferred) Required Skills Strong scientific and engineering skills for fundamental understanding, including broad knowledge of engineering principles (Thermodynamics, Fluid Mechanics, Heat Transfer, Material Science) Ability to learn new technologies and processes quickly Proficiency in data analysis and interpreting results Experience with experimental design and applying engineering principles Strong multitasking and prioritization skills in a fast-paced environment Results-oriented with a focus on problem-solving and performance improvement Desired Skills Advanced knowledge of Microsoft applications (Word, Excel, PowerPoint, Power BI) Basic statistical knowledge Understanding of manufacturing systems/operations Familiarity with Lean Manufacturing techniques AI fluency Soft Skills High personal drive, initiative, and commitment to excellence Strong organizational, planning, and time management skills Effective relationship-building and teamwork skills across functions Positive attitude, flexibility, and a strong work ethic Excellent communication and presentation skills This position does not support immigration sponsorship. \u200bThe range for this position is $1,635.00 - $3,185.00 biweekly. Starting pay for the successful applicant is prescribed based on geographic location, nature of position, and year in school. A job that shapes a life. We prohibit discrimination on the basis of race, color, gender, age, religion, national origin, sexual orientation, gender identity or expression, disability, veteran status or any other legally protected status. Corning is committed to providing equal employment opportunities and considers requests for reasonable accommodations in accordance with applicable laws. Individuals with disabilities or sincerely held religious beliefs may request reasonable accommodations to participate in the application or interview process, perform essential job functions, or access other benefits and privileges of employment. To submit a request for reasonable accommodation related to disability or religion, please contact us at accommodations@corning.com . <span",
+   "season": "ok",
+   "company": "Corning",
+   "src": "Corning",
+   "score": {
+    "total": 39,
+    "base": 36,
+    "fit": 16,
+    "loc": 0,
+    "traj": 12,
+    "pay": 8,
+    "rate": [
+     40.88,
+     79.62
+    ],
+    "rate_src": "stated",
+    "fresh": 3,
+    "age": 18.2,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "pay $60/hr",
+      8
+     ],
+     [
+      "body: consumer electronics",
+      6
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: process",
+      3
+     ],
+     [
+      "body: doe",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-10-29T17:35:30+00:00"
+  },
+  {
    "id": "wd:flowserve:R-21737",
    "title": "Engineering Co-op",
    "location": "Kalamazoo, Michigan US, United States of America",
@@ -26959,7 +27018,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:fa-evmr-saasfaprod1:41123",
@@ -44332,12 +44392,12 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "gh:rocketlab:7990270003",
+   "id": "gh:rocketlab:7990272003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Tucson, AZ",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
+   "location": "Chantilly, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -44391,12 +44451,12 @@
    "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
-   "id": "gh:rocketlab:7990272003",
+   "id": "gh:rocketlab:7990270003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Chantilly, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
+   "location": "Tucson, AZ",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -47753,12 +47813,12 @@
    "first_seen": "2026-11-16T17:56:24+00:00"
   },
   {
-   "id": "sf:careers.agcocorp.com:1425058000",
+   "id": "sf:careers.agcocorp.com:1425054400",
    "title": "Engineering Internship Program - Summer 2027",
    "location": "",
-   "url": "https://careers.agcocorp.com/job/Jackson-Engineering-Internship-Program-Summer-2027-MN/1425058000/",
+   "url": "https://careers.agcocorp.com/job/Hesston-Engineering-Internship-Program-Summer-2027-KS-67062/1425054400/",
    "posted": "2026-10-28",
-   "body": "> Not everyone can claim to feed the world, but it is part of our every day. Behind everything we do for our farmers, there is one AGCO team making it happen. We are proud to put our curiosity to work, building a better and more sustainable world. Join our extraordinary team today! Internship Program: The AGCO Engineering Internship Program includes opportunities across several engineering disciplines, including Manufacturing/Quality Engineering, Test/Validation Engineering, and Design Engineering. Interns will be matched to projects based on their interests, skills, educational background, and business needs. Projects may include designing new components, supporting manufacturing improvements, validating machine performance through testing, analyzing engineering data, and collaborating with engineers to solve real-world agricultural equipment challenges. This onsite Summer 2027 internship is based in Jackson, MN . Your Impact: Take ownership of an engineering project and present your results at the conclusion of the internship. Collaborate with engineers, project teams, and business partners to solve real engineering challenges. Gain hands-on experience in one of several engineering disciplines, including: Manufacturing/Quality Engineering : support production processes, efficiency improvements, and problem-solving on the shop floor. Test/Validation Engineering : assist with product testing, data collection, analysis, and validation activities. Design Engineering : support product development through CAD modeling, design reviews, and engineering analysis. Apply engineering principles to research, problem-solving, and continuous improvements initiatives. Contribute ideas while learning from experienced engineering professionals. Your Experience and Qualifications: Currently pursuing a Bachelor's degree in Mechanical Engineering, Manufacturing Engineering, Agricultural Engineering, or a related engineering/technology field and expected to continue enrollment after the Summer 2027 internship. Strong problem-solving skills and a willingness to learn in a hands-on engineering environment. Ability to manage multiple tasks, stay organized, and meet deadlines. Professional mindset and effective communication skills. Familiarity with CAD or 3D modeling software such as Creo, SolidWorks, CATIA, or similar tools. Your Compensation \u200bThis internship will pay within the range of $22-26/hour, based on experience. Please note that this posting is used to identify candidates for multiple Engineering Internship opportunities in Jackson, MN at AGCO. Based on your background, interests, and business needs, you may be considered for Manufacturing/Quality Engineering, Test/Validation Engineering, or Design Engineering internship projects. We value inclusion and recognize the innovation a diverse workforce delivers to our farmers. Through our recruitment efforts, we are committed to building a team that includes a variety of experiences, backgrounds, cultures and perspectives. Join our extraordinary team today and apply now! AGCO is proud to be an Equal Opportunity Employer. We maintain a drug-free workplace and perform pre-employment substance abuse testing. .outershell div.searchwell {background-color: #AE132A;} #outershell .search-submit input.btn.keywordsearch-button[type=submit]:hover {color: #AE132A !important;} .videocomponent99cb7bd1c3973a85 a{ border: 1px solid transparent; } .videocomponent99cb7bd1c3973a85 a:focus{ border: 1px dashed #ae132a !important; outline: none !important; } window.youtubevideos = window.youtubevideos || []; window.youtubevideos.push({'src':'//www.youtube-nocookie.com/embed/3gDfektdCkQ?rel=0&autoplay=0', 'alttext':'','component':'youtube99cb7bd1c3973a853gDfektdCkQ'}) <span",
+   "body": "> Not everyone can claim to feed the world, but it is part of our every day. Behind everything we do for our farmers, there is one AGCO team making it happen. We are proud to put our curiosity to work, building a better and more sustainable world. Join our extraordinary team today! Internship Program: The AGCO Engineering Internship Program includes opportunities across several engineering disciplines, including Manufacturing/Quality Engineering, Test/Validation Engineering, and Design Engineering. Interns will be matched to projects based on their interests, skills, educational background, and business needs. Projects may include designing new components, supporting manufacturing improvements, validating machine performance through testing, analyzing engineering data, and collaborating with engineers to solve real-world agricultural equipment challenges. This onsite Summer 2027 internship is based in Hesston, Kansas . Your Impact: Take ownership of an engineering project and present your results at the conclusion of the internship. Collaborate with engineers, project teams, and business partners to solve real engineering challenges. Gain hands-on experience in one of several engineering disciplines, including: Manufacturing/Quality Engineering : support production processes, efficiency improvements, and problem-solving on the shop floor. Test/Validation Engineering : assist with product testing, data collection, analysis, and validation activities. Design Engineering : support product development through CAD modeling, design reviews, and engineering analysis. Apply engineering principles to research, problem-solving, and continuous improvements initiatives. Contribute ideas while learning from experienced engineering professionals. Your Experience and Qualifications: Currently pursuing a Bachelor's degree in Mechanical Engineering, Manufacturing Engineering, Agricultural Engineering, or a related engineering field and expected to continue enrollment after the Summer 2027 internship. Strong problem-solving skills and a willingness to learn in a hands-on engineering environment. Ability to manage multiple tasks, stay organized, and meet deadlines. Professional mindset and effective communication skills. Familiarity with CAD or 3D modeling software such as Creo, SolidWorks, CATIA, or similar tools. Please note that this posting is used to identify candidates for multiple Engineering Internship opportunities in Hesston, Kansas at AGCO. Based on your background, interests, and business needs, you may be considered for Manufacturing/Quality Engineering, Test/Validation Engineering, or Design Engineering internship projects. We value inclusion and recognize the innovation a diverse workforce delivers to our farmers. Through our recruitment efforts, we are committed to building a team that includes a variety of experiences, backgrounds, cultures and perspectives. Join our extraordinary team today and apply now! AGCO is proud to be an Equal Opportunity Employer. We maintain a drug-free workplace and perform pre-employment substance abuse testing. .outershell div.searchwell {background-color: #AE132A;} #outershell .search-submit input.btn.keywordsearch-button[type=submit]:hover {color: #AE132A !important;} .videocomponent99cb7bd1c3973a85 a{ border: 1px solid transparent; } .videocomponent99cb7bd1c3973a85 a:focus{ border: 1px dashed #ae132a !important; outline: none !important; } window.youtubevideos = window.youtubevideos || []; window.youtubevideos.push({'src':'//www.youtube-nocookie.com/embed/3gDfektdCkQ?rel=0&autoplay=0', 'alttext':'','component':'youtube99cb7bd1c3973a853gDfektdCkQ'}) <span",
    "season": "ok",
    "company": "AGCO",
    "src": "AGCO",
@@ -47771,9 +47831,9 @@
     "pay": -4,
     "rate": [
      22.0,
-     22.0
+     24.0
     ],
-    "rate_src": "stated",
+    "rate_src": "company",
     "fresh": 3,
     "age": 20.2,
     "age_basis": "posted",
@@ -47796,7 +47856,7 @@
       3
      ],
      [
-      "pay $22/hr",
+      "est. pay $23/hr",
       -4
      ]
     ]
@@ -75626,55 +75686,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Engineer - Erada Internship",
-   "location": "Doha, Doha Municipality, QA",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556942219",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Moog",
    "title": "AOS Intern, Facilities",
    "location": "Buffalo, NY, United States of America",
@@ -76250,13 +76261,6 @@
   },
   {
    "company": "Qualcomm",
-   "title": "Enterprise Business Development Intern (Mexico City)",
-   "location": "M\u00e9xico D.F., CDMX, MX",
-   "url": "https://careers.qualcomm.com/careers/job/446721241959",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
    "title": "FY27 Intern - Business Development/Sales intern - Colombia Remote",
    "location": "CO; Remote",
    "url": "https://careers.qualcomm.com/careers/job/446719378698",
@@ -76281,13 +76285,6 @@
    "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship \u2013 Summer 2027",
    "location": "San Diego, CA, US; Austin, TX, US; Boxborough, MA, US; Tempe, AZ, US; Santa Clara, CA, US",
    "url": "https://careers.qualcomm.com/careers/job/446720740649",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "Intern - Marketing Operations - Sao Paulo",
-   "location": "S\u00e3o Paulo, SP, BR",
-   "url": "https://careers.qualcomm.com/careers/job/446720395154",
    "reason": "non-ME discipline"
   },
   {
@@ -76860,15 +76857,15 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
@@ -76895,8 +76892,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Albuquerque, NM",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
    "reason": "non-ME discipline"
   },
   {
@@ -76909,8 +76906,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "location": "Albuquerque, NM",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
    "reason": "non-ME discipline"
   },
   {
