@@ -1,97 +1,43 @@
 {
- "generated": "2026-11-17T11:40:47+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44076151560",
- "scanned": 33533,
+ "generated": "2026-11-17T12:00:50+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44079133981",
+ "scanned": 34301,
  "boards": 324,
  "errors": [
   {
-   "company": "Bright Machines",
-   "board": "lever",
-   "error": "failed after 3 tries: HTTP 502",
-   "kept": 0
+   "company": "Endress Hauser",
+   "board": "successfactors",
+   "error": "failed after 3 tries: HTTP 503",
+   "kept": 1
   },
   {
-   "company": "CesiumAstro",
-   "board": "lever",
-   "error": "failed after 3 tries: HTTP 504",
-   "kept": 7
-  },
-  {
-   "company": "Commonwealth Fusion",
-   "board": "lever",
-   "error": "failed after 3 tries: The read operation timed out",
-   "kept": 12
-  },
-  {
-   "company": "Dexterity",
-   "board": "lever",
-   "error": "failed after 3 tries: HTTP 504",
-   "kept": 0
-  },
-  {
-   "company": "Hermeus",
-   "board": "lever",
-   "error": "failed after 3 tries: HTTP 500",
-   "kept": 12
-  },
-  {
-   "company": "Loft Orbital",
-   "board": "lever",
-   "error": "failed after 3 tries: HTTP 504",
-   "kept": 3
-  },
-  {
-   "company": "Machina Labs",
-   "board": "lever",
-   "error": "failed after 3 tries: HTTP 504",
-   "kept": 0
-  },
-  {
-   "company": "Pickle Robot",
-   "board": "lever",
+   "company": "Festo",
+   "board": "successfactors",
    "error": "failed after 3 tries: HTTP 503",
    "kept": 0
   },
   {
-   "company": "Pivotal Aero",
-   "board": "lever",
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 1
+  },
+  {
+   "company": "Tecan",
+   "board": "successfactors",
    "error": "failed after 3 tries: HTTP 503",
-   "kept": 3
-  },
-  {
-   "company": "Shield AI",
-   "board": "lever",
-   "error": "failed after 3 tries: The read operation timed out",
    "kept": 0
-  },
-  {
-   "company": "Simbe Robotics",
-   "board": "lever",
-   "error": "failed after 3 tries: The read operation timed out",
-   "kept": 1
-  },
-  {
-   "company": "Upscale AI",
-   "board": "lever",
-   "error": "failed after 3 tries: HTTP 504",
-   "kept": 0
-  },
-  {
-   "company": "Venus Aerospace",
-   "board": "lever",
-   "error": "failed after 3 tries: HTTP 504",
-   "kept": 1
   }
  ],
  "dropped": {
-  "non-ME discipline": 1208,
-  "software / data / AI role": 1134,
-  "no mechanical signal": 351,
-  "off-target season in title": 486,
-  "not a student req": 25758,
-  "outside the US": 1519,
-  "master's/PhD only": 790,
-  "no Summer/Fall 2027": 798
+  "non-ME discipline": 1209,
+  "software / data / AI role": 1128,
+  "no mechanical signal": 348,
+  "off-target season in title": 492,
+  "not a student req": 26534,
+  "outside the US": 1517,
+  "master's/PhD only": 756,
+  "no Summer/Fall 2027": 791
  },
  "jobs": [
   {
@@ -2948,7 +2894,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 34.4,
+    "age": 34.5,
     "age_basis": "posted",
     "tier": "A",
     "why": [
@@ -2986,8 +2932,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-24T08:59:29+00:00",
-   "stale": true
+   "first_seen": "2026-10-24T08:59:29+00:00"
   },
   {
    "id": "wd:symbotic:R8101",
@@ -16645,7 +16590,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 6,
-    "age": 8.4,
+    "age": 8.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16675,8 +16620,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-09T14:38:45+00:00",
-   "stale": true
+   "first_seen": "2026-11-09T14:38:45+00:00"
   },
   {
    "id": "lv:cfsenergy:41725c72-2242-4ae4-815a-21064d7d7d05",
@@ -16701,7 +16645,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 3,
-    "age": 18.4,
+    "age": 18.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -16723,8 +16667,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-30T19:57:54+00:00",
-   "stale": true
+   "first_seen": "2026-10-30T19:57:54+00:00"
   },
   {
    "id": "sf:corningjobs.corning.com:1443027200",
@@ -22340,7 +22283,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "wd:ngc:R10251088",
@@ -25156,7 +25100,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 3,
-    "age": 18.4,
+    "age": 18.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -25174,8 +25118,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:corningjobs.corning.com:1448781100",
@@ -27436,7 +27379,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 62.4,
+    "age": 62.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -27466,8 +27409,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T23:28:52+00:00",
-   "stale": true
+   "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
    "id": "wd:draper:JR002973",
@@ -29398,7 +29340,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 6,
-    "age": 8.4,
+    "age": 8.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -29412,8 +29354,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "lv:pivotal:b7f01112-1ca4-47c4-bd34-c291206bd506",
@@ -29438,7 +29379,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 6,
-    "age": 8.4,
+    "age": 8.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -29452,8 +29393,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "gh:rocketlab:7986748003",
@@ -29910,7 +29850,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 3,
-    "age": 14.4,
+    "age": 14.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -29928,8 +29868,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:entegris:REQ-15856",
@@ -30370,7 +30309,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 6,
-    "age": 8.4,
+    "age": 8.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -30392,8 +30331,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:globalhr:01885605",
@@ -32221,7 +32159,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 62.4,
+    "age": 62.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -32251,8 +32189,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T23:28:52+00:00",
-   "stale": true
+   "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
    "id": "wd:entegris:REQ-15884",
@@ -32375,7 +32312,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -4,
-    "age": 55.4,
+    "age": 55.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -32397,8 +32334,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-19T17:25:43+00:00",
-   "stale": true
+   "first_seen": "2026-10-19T17:25:43+00:00"
   },
   {
    "id": "wd:hpe:1214085",
@@ -33970,7 +33906,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 3,
-    "age": 18.4,
+    "age": 18.5,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -33988,8 +33924,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:cranecompany:JR102780",
@@ -38443,7 +38378,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 21.4,
+    "age": 21.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -38461,8 +38396,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:corningjobs.corning.com:1446509400",
@@ -38828,7 +38762,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 76.4,
+    "age": 76.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -38854,8 +38788,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "ls:28325b34-233e-4a6c-82ea-dc18075fc6ff",
@@ -40025,7 +39958,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 82.4,
+    "age": 82.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -40051,8 +39984,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T02:04:57+00:00",
-   "stale": true
+   "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
    "id": "wd:entegris:REQ-15879",
@@ -40179,7 +40111,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 78.4,
+    "age": 78.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -40201,8 +40133,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "ls:e3a4b15d-f907-428a-a1a5-ec42e9818070",
@@ -41122,7 +41053,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -4,
-    "age": 53.4,
+    "age": 53.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -41148,8 +41079,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T02:04:57+00:00",
-   "stale": true
+   "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
    "id": "lv:cfsenergy:faa295da-2f67-41af-88aa-516f118e38e3",
@@ -41174,7 +41104,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 3,
-    "age": 18.4,
+    "age": 18.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -41188,8 +41118,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:curtisswright:JR13756",
@@ -41763,7 +41692,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 77.4,
+    "age": 77.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -41785,8 +41714,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T23:28:52+00:00",
-   "stale": true
+   "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
    "id": "sf:jobs.l3harris.com:1428445600",
@@ -42811,7 +42739,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 21.4,
+    "age": 21.5,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -42825,8 +42753,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:cranecompany:JR102570",
@@ -43672,7 +43599,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 3,
-    "age": 18.4,
+    "age": 18.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -43694,8 +43621,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:motorolasolutions:R68894",
@@ -44059,12 +43985,12 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "gh:rocketlab:7990270003",
+   "id": "gh:rocketlab:7990272003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Tucson, AZ",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
+   "location": "Chantilly, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -44118,12 +44044,12 @@
    "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
-   "id": "gh:rocketlab:7990272003",
+   "id": "gh:rocketlab:7990270003",
    "title": "Systems Engineering Intern Summer 2027",
-   "location": "Chantilly, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990272003",
+   "location": "Tucson, AZ",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990270003",
    "posted": "2026-09-17",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Chantilly, Virginia, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Systems Engineering Intern based at Rocket Lab\u2019s site in Tuscon, Arizona, you will have the opportunity to support subsystem/system development testing and verification. This Systems Engineering team helps develop and execute to the technical baseline across all programs. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate degree program in an engineering, physics or math discipline and have at least one semester of school remaining post internship GPA of 3.0 or above 3+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above 6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable) Familiarity with optics Solidworks experience Cameo experience JAMA experience Proficient with Microsoft Office (Excel) ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Rate: $25.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -44885,7 +44811,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 33.4,
+    "age": 33.5,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -44899,8 +44825,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sf:corningjobs.corning.com:1442628100",
@@ -46363,7 +46288,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 33.4,
+    "age": 33.5,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -46377,8 +46302,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "lv:cfsenergy:79cd53ba-b864-4bcb-8421-60cf58f7df54",
@@ -46403,7 +46327,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 22.4,
+    "age": 22.5,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -46417,8 +46341,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "lv:cfsenergy:1be023ee-0351-4d09-acca-f56180d06463",
@@ -46443,7 +46366,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 33.4,
+    "age": 33.5,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -46457,8 +46380,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "lv:cfsenergy:32987ab7-59ed-4364-a012-91cbece8877a",
@@ -46483,7 +46405,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 21.4,
+    "age": 21.5,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -46497,8 +46419,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:cranecompany:JR102758",
@@ -46688,7 +46609,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 70.4,
+    "age": 70.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -46706,8 +46627,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T23:28:52+00:00",
-   "stale": true
+   "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
    "id": "sf:jobs.l3harris.com:1449574500",
@@ -49528,7 +49448,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 21.4,
+    "age": 21.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -49542,8 +49462,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "lv:loftorbital:be396d08-738d-4f3d-bea4-cbbdc88c3db9",
@@ -49568,7 +49487,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": 0,
-    "age": 21.4,
+    "age": 21.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -49582,8 +49501,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "or:fa-euwp-saasfaprod1:395579",
@@ -50853,7 +50771,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 117.4,
+    "age": 117.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -50871,8 +50789,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T02:04:57+00:00",
-   "stale": true
+   "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
    "id": "gh:kairospower:6123830004",
@@ -53984,7 +53901,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 62.4,
+    "age": 62.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -54010,8 +53927,7 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T02:04:57+00:00",
-   "stale": true
+   "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
    "id": "wd:entegris:REQ-15868",
@@ -58351,7 +58267,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -4,
-    "age": 48.4,
+    "age": 48.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -58365,8 +58281,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "or:fa-exty-saasfaprod1:119676",
@@ -59321,7 +59236,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 76.4,
+    "age": 76.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -59343,8 +59258,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "lv:hermeus:5f6a6e79-9836-4c33-b40b-a2bb6c27bd06",
@@ -59369,7 +59283,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 76.4,
+    "age": 76.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -59387,8 +59301,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "ef:lamresearch.com:203234",
@@ -61526,7 +61439,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 75.4,
+    "age": 75.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -61544,8 +61457,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:hitachi:R0143858",
@@ -62039,7 +61951,7 @@
     ],
     "rate_src": "stated",
     "fresh": 6,
-    "age": 8.4,
+    "age": 8.5,
     "age_basis": "posted",
     "tier": "C",
     "why": [
@@ -62049,8 +61961,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "sr:WesternDigital:744000145431699",
@@ -62454,7 +62365,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 76.4,
+    "age": 76.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -62468,8 +62379,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:jabil:J2468448",
@@ -65169,7 +65079,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 62.4,
+    "age": 62.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -65183,8 +65093,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "or:hdjq:26010989",
@@ -66272,7 +66181,7 @@
     ],
     "rate_src": "trajectory",
     "fresh": -8,
-    "age": 70.4,
+    "age": 70.5,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -66286,8 +66195,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "ph:careers.mitre.org:R117376",
@@ -67632,7 +67540,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ebi:REQ107706",
@@ -72806,6 +72715,27 @@
    "reason": "non-ME discipline"
   },
   {
+   "company": "CesiumAstro",
+   "title": "Summer 2027 - Flight Dynamics Internship",
+   "location": "Huntsville, AL",
+   "url": "https://jobs.lever.co/CesiumAstro/385a6217-7931-4bb4-861a-1e5651e3a998",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Commonwealth Fusion",
+   "title": "Intern - EHS Engineer - Spring or Summer 2027",
+   "location": "Devens, MA",
+   "url": "https://jobs.lever.co/cfsenergy/3e88978c-ff6e-461a-997a-2a7a6ffb3fea",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Commonwealth Fusion",
+   "title": "Intern - I&C and Network Engineer - Spring or Summer 2027",
+   "location": "Devens, MA",
+   "url": "https://jobs.lever.co/cfsenergy/cbf90690-2518-4c81-ace4-530e3b158545",
+   "reason": "non-ME discipline"
+  },
+  {
    "company": "Corning",
    "title": "A&D Market Intelligence Intern, Advanced Optics - Summer 2027",
    "location": "",
@@ -73175,27 +73105,6 @@
    "location": "Austin, TX, United States",
    "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010168",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Endress Hauser",
-   "title": "High School Internship - Eastern Controls",
-   "location": "",
-   "url": "https://careers.endress.com/USA/job/Newtown-Square%2C-PA-High-School-Internship-Eastern-Controls-PA-19073/1457739633/",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Endress Hauser",
-   "title": "Internship Controlling",
-   "location": "",
-   "url": "https://careers.endress.com/Belgium/job/Brussel-Bruxelles-Internship-Controlling-1140/756233301/",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Endress Hauser",
-   "title": "Working student SAP BTP - Communication & Community management (f/m/d)",
-   "location": "",
-   "url": "https://careers.endress.com/Germany/job/Freiburg-Working-student-SAP-BTP-Communication-&amp;-Community-management-%28fmd%29-79100/1445923233/",
-   "reason": "no mechanical signal"
   },
   {
    "company": "Ensign-Bickford Aerospace and Defense Company",
@@ -75011,6 +74920,13 @@
    "reason": "non-ME discipline"
   },
   {
+   "company": "Loft Orbital",
+   "title": "Summer 2027 Internship \u2013 Satellite Programs",
+   "location": "Golden, CO",
+   "url": "https://jobs.lever.co/loftorbital/d49feb08-351a-4f03-84ba-948c8df633ab",
+   "reason": "no mechanical signal"
+  },
+  {
    "company": "Magna International",
    "title": "Custom Compliance Student",
    "location": "Troy, Michigan, US, United States of America",
@@ -75218,55 +75134,6 @@
    "title": "Intern \u2013 Procurement Cost Analyst",
    "location": "Boise, ID - North Office, United States of America",
    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---North-Office/Intern---Procurement-Cost-Analyst_JR112690",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Engineer - Erada Internship",
-   "location": "Doha, Doha Municipality, QA",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556942219",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
    "reason": "non-ME discipline"
   },
   {
@@ -75744,6 +75611,13 @@
    "location": "Cambridge (US), Massachusetts, United States, United States of America",
    "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Intern---Marketing-Operations---Cambridge--MA---Summer-2027_593642",
    "reason": "non-ME discipline"
+  },
+  {
+   "company": "Pivotal Aero",
+   "title": "Internship, Maintenance, Repair & Overhaul Engineering (Summer 2027)",
+   "location": "Palo Alto, CA",
+   "url": "https://jobs.lever.co/pivotal/23e45f4a-ab7f-4d45-9ec8-bae2ced5d583",
+   "reason": "no mechanical signal"
   },
   {
    "company": "Polaris",
@@ -76490,8 +76364,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Wallops Island, VA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
    "reason": "non-ME discipline"
   },
   {
@@ -76504,15 +76378,15 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
+   "location": "Wallops Island, VA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986961003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
    "reason": "non-ME discipline"
   },
   {
