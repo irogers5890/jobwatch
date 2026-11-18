@@ -1,25 +1,18 @@
 {
- "generated": "2026-11-18T13:15:14+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44311808640",
- "scanned": 34373,
+ "generated": "2026-11-18T13:35:17+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44315198390",
+ "scanned": 34441,
  "boards": 326,
- "errors": [
-  {
-   "company": "Microsoft",
-   "board": "eightfold",
-   "error": "failed after 3 tries: HTTP 429",
-   "kept": 1
-  }
- ],
+ "errors": [],
  "dropped": {
-  "non-ME discipline": 1211,
-  "software / data / AI role": 1138,
-  "no mechanical signal": 347,
+  "non-ME discipline": 1221,
+  "software / data / AI role": 1150,
+  "no mechanical signal": 350,
   "off-target season in title": 490,
-  "not a student req": 26572,
-  "outside the US": 1525,
-  "master's/PhD only": 767,
-  "no Summer/Fall 2027": 793
+  "not a student req": 26571,
+  "outside the US": 1527,
+  "master's/PhD only": 801,
+  "no Summer/Fall 2027": 800
  },
  "jobs": [
   {
@@ -22231,7 +22224,7 @@
     ],
     "rate_src": "stated",
     "fresh": 6,
-    "age": 6.5,
+    "age": 6.6,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -22253,8 +22246,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T19:09:05+00:00"
   },
   {
    "id": "ab:astro-mechanica:746a6647-a07d-41ef-91e4-0dfe3a10800b",
@@ -54854,6 +54846,53 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "ef:lockheedmartin.com:26059",
+   "title": "aerospace engineering intern",
+   "location": "Littleton, CO, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477909687",
+   "posted": "2026-11-12",
+   "body": "Standard Job Description Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Basic Qualifications Actively enrolled in a Electrical Engineering, Aerospace Engineering, Math or other related degree program from an accredited college/university. Knowledge in Aerospace Engineering, RF Engineering or Mechanical Engineering Knowledge in CAD ModelingKnowledge in Programming Desired Skills RF or Mechanical Design Engineering Experience Experience in CAD Modeling Experience in Programming including Matlab, C, C++ Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "unstated",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 20,
+    "base": 14,
+    "fit": 3,
+    "loc": 0,
+    "traj": 13,
+    "pay": -2,
+    "rate": [
+     22.66,
+     31.67
+    ],
+    "rate_src": "stated",
+    "fresh": 6,
+    "age": 6.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: matlab",
+      2
+     ],
+     [
+      "pay $27/hr",
+      -2
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T17:08:47+00:00"
+  },
+  {
    "id": "ef:lockheedmartin.com:20139",
    "title": "Project Engineer Intern",
    "location": "Littleton, CO, US",
@@ -62760,49 +62799,6 @@
      [
       "est. pay $36/hr",
       1
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:bostonscientific.com:636056",
-   "title": "Demand Planning Intern | Costa Rica",
-   "location": "Escazu, San Jos\u00e9 Province, CR",
-   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744221",
-   "posted": "2026-10-21",
-   "body": "Additional Locations: N/A Diversity - Innovation - Caring - Global Collaboration - Winning Spirit - High Performance At Boston Scientific, we\u2019ll give you the opportunity to harness all that\u2019s within you by working in teams of diverse and high-performing employees, tackling some of the most important health industry challenges. With access to the latest tools, information and training, we\u2019ll help you in advancing your skills and career. Here, you\u2019ll be supported in progressing \u2013 whatever your ambitions. Position Summary We are looking for a motivated and talented intern to join our Demand Planning team at Boston Scientific. This internship offers the opportunity to gain hands-on experience in supply chain and demand planning within a dynamic and innovative healthcare devices company. The selected candidate will actively contribute to real business challenges from day one, supporting inventory optimization, data analysis, reporting, and cross-functional collaboration. This role is ideal for a student with strong analytical and communication skills, eager to learn, and ready to contribute to impactful projects in a global organization. Responsibilities Face real-life situations in a dynamic healthcare devices company. Work on real business tasks from Day 1 (e.g., spare parts planning). Contribute to the preparation and production of proposals and reports using Word, Excel, PowerPoint, and other tools. Take responsibility for Inventory Management: seek opportunities to optimize stock levels, reduce excess, and maintain a healthy balance. Interact and collaborate with cross-functional areas, regional teams, global planners, global support centers, and internal customers. Conduct oneself as a full-time member of the Supply Chain area by adhering to Boston Scientific\u2019s rules and regulations, maintaining professionalism, and respecting confidentiality and compliance policies. Develop knowledge about assigned responsibilities, business processes, and operational issues, as well as Boston Scientific\u2019s management practices and company-specific challenges. Required Qualifications Currently enrolled as an advanced university student in Industrial Engineering, Business Administration, or a related field. Intermediate to upper-intermediate English proficiency (B2 or higher). Advanced Microsoft Excel proficiency and proficiency in Microsoft Office. Strong analytical and numerical skills, with the ability to work with data, reports, and statistics. Strong communication, teamwork, organizational, and problem-solving skills. Interest in demand planning, inventory management, and supply chain operations. Basic knowledge of artificial intelligence tools, such as ChatGPT or similar technologies. Preferred Qualifications Knowledge of Microsoft Power BI, dashboards, or other data visualization tools. General understanding of demand planning, inventory optimization, or supply chain processes. Interest in process improvement, emerging technologies, and continuous professional development. Requisition ID: 636056 Boston Scientific transforms lives through innovative medical technologies that improve the health of patients around the world. As a global medical technology leader for more than 45 years, we advance science for life by providing a broad range of high-performance solutions that address unmet patient needs and reduce the cost of healthcare. Our portfolio of devices and therapies helps physicians diagnose and treat complex cardiovascular, respiratory, digestive, oncological, neurological and urological diseases and conditions. Learn more at www.bostonscientific.com and follow us on LinkedIn .",
-   "season": "unstated",
-   "company": "Boston Scientific",
-   "src": "Boston Scientific",
-   "score": {
-    "total": 13,
-    "base": 13,
-    "fit": 1,
-    "loc": 0,
-    "traj": 14,
-    "pay": -2,
-    "rate": [
-     20.85,
-     35.45
-    ],
-    "rate_src": "company",
-    "fresh": 0,
-    "age": 28.6,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "body: inventor",
-      4
-     ],
-     [
-      "est. pay $28/hr",
-      -2
      ],
      [
       "season not stated",
@@ -74956,13 +74952,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Lam Research",
-   "title": "Summer 2027 - Electrical Engineering Intern - BS/MS",
-   "location": "Tualatin, OR, US",
-   "url": "https://careers.lamresearch.com/careers/job/1099556276556",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Legrand",
    "title": "Product Management Intern",
    "location": "Syracuse, NY, United States",
@@ -75443,6 +75432,48 @@
    "title": "Intern \u2013 Procurement Cost Analyst",
    "location": "Boise, ID - North Office, United States of America",
    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---North-Office/Intern---Procurement-Cost-Analyst_JR112690",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Applied Sciences INTERN",
+   "location": "IN",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Construction Project Management INTERN",
+   "location": "Santiago de Quer\u00e9taro, Qro., MX",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Construction Project Management INTERN",
+   "location": "SP,BR",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Solution Area Specialists: Student Worker Opportunities",
+   "location": "Z\u00fcrich, ZH, CH",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Solution Engineer - Erada Internship",
+   "location": "Doha, Doha Municipality, QA",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556942219",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
+   "location": "Cairo, Cairo Governorate, EG",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
    "reason": "non-ME discipline"
   },
   {
