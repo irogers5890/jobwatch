@@ -1,16 +1,29 @@
 {
- "generated": "2026-11-19T07:26:02+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44479560816",
- "scanned": 34593,
+ "generated": "2026-11-19T07:46:04+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44482127985",
+ "scanned": 34533,
  "boards": 326,
- "errors": [],
+ "errors": [
+  {
+   "company": "BWX Technologies",
+   "board": "successfactors",
+   "error": "failed after 3 tries: <urlopen error [Errno 104] Connection reset by peer>",
+   "kept": 3
+  },
+  {
+   "company": "Emerson",
+   "board": "oracle",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 10
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1229,
-  "software / data / AI role": 1166,
-  "no mechanical signal": 352,
-  "off-target season in title": 488,
-  "not a student req": 26679,
-  "outside the US": 1534,
+  "non-ME discipline": 1213,
+  "software / data / AI role": 1158,
+  "no mechanical signal": 345,
+  "off-target season in title": 484,
+  "not a student req": 26678,
+  "outside the US": 1525,
   "master's/PhD only": 811,
   "no Summer/Fall 2027": 798
  },
@@ -7970,7 +7983,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T16:48:44+00:00"
+   "first_seen": "2026-11-12T16:48:44+00:00",
+   "stale": true
   },
   {
    "id": "wd:entegris:REQ-15882",
@@ -15141,7 +15155,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ab:fab2:96e96a9c-8419-4a67-ba4a-4b28e87b3f16",
@@ -31083,7 +31098,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T13:15:14+00:00"
+   "first_seen": "2026-11-18T13:15:14+00:00",
+   "stale": true
   },
   {
    "id": "wd:cranecompany:JR102567",
@@ -40305,7 +40321,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T19:32:46+00:00"
+   "first_seen": "2026-11-18T19:32:46+00:00",
+   "stale": true
   },
   {
    "id": "wd:graco:R0023573",
@@ -45711,7 +45728,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:bakerhughes:R168916",
@@ -46315,57 +46333,6 @@
      [
       "est. pay $31/hr",
       0
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:lamresearch.com:203786",
-   "title": "Engineering Intern 1",
-   "location": "SG",
-   "url": "https://careers.lamresearch.com/careers/job/1099555996333",
-   "posted": "2026-10-01",
-   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Explainability and Interpretability for probabilistic / Bayesian surrogate models and Bayesian Optimization (BO). The internship will focus on Bayesian surrogate model interpretability and explainable Bayesian Optimization techniques over controlled synthetic functions and real semiconductor data. What you\u2019ll do Explore the Explainable AI literature and come up with relevant methods suitable for interpreting Bayesian surrogate models Develop methods to interpret modeled correlations among model outputs and compare learned relationships with known synthetic function / real data properties Create post-hoc explanations for the recommended solution selected via BO, clarifying the model evidence and optimization logic that led to the selected recipe Implement reproducible experiments on synthetic test functions / real data, performing surrogate modeling, BO and explanation pipelines in Python Investigate interpretable representations of correlation, latent structure, and information sharing across outputs Develop local post-hoc explanation methods for BO recommended solutions such as feature/parameter attribution, counterfactual analysis, sensitivity analysis, or decomposition of predictive and acquisition quantities Define fidelity, stability, consistency, and usability criteria; validate explanations using known synthetic function properties or real data Create clear visualizations and concise technical documentation suitable for Data Scientists and process-development stakeholders Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, explainable AI, and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred Knowledge on correlation analysis, feature attribution / importance, sensitivity analysis, predictive model explanations, and BO decision explanations Experience with synthetic benchmark functions, causal reasoning, spatial data, or structured outputs is advantageous Self-driven, collaborative, and able to communicate technical results clearly. Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
-   "season": "unstated",
-   "company": "Lam Research",
-   "src": "Lam Research",
-   "score": {
-    "total": 26,
-    "base": 30,
-    "fit": 8,
-    "loc": 0,
-    "traj": 18,
-    "pay": 4,
-    "rate": [
-     32.75,
-     52.88
-    ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 49.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "est. pay $43/hr",
-      4
-     ],
-     [
-      "body: fea",
-      3
      ],
      [
       "season not stated",
@@ -49382,6 +49349,57 @@
      [
       "pay $36/hr",
       1
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
+   "id": "ef:lamresearch.com:203786",
+   "title": "Engineering Intern 1",
+   "location": "SG",
+   "url": "https://careers.lamresearch.com/careers/job/1099555996333",
+   "posted": "2026-10-01",
+   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Explainability and Interpretability for probabilistic / Bayesian surrogate models and Bayesian Optimization (BO). The internship will focus on Bayesian surrogate model interpretability and explainable Bayesian Optimization techniques over controlled synthetic functions and real semiconductor data. What you\u2019ll do Explore the Explainable AI literature and come up with relevant methods suitable for interpreting Bayesian surrogate models Develop methods to interpret modeled correlations among model outputs and compare learned relationships with known synthetic function / real data properties Create post-hoc explanations for the recommended solution selected via BO, clarifying the model evidence and optimization logic that led to the selected recipe Implement reproducible experiments on synthetic test functions / real data, performing surrogate modeling, BO and explanation pipelines in Python Investigate interpretable representations of correlation, latent structure, and information sharing across outputs Develop local post-hoc explanation methods for BO recommended solutions such as feature/parameter attribution, counterfactual analysis, sensitivity analysis, or decomposition of predictive and acquisition quantities Define fidelity, stability, consistency, and usability criteria; validate explanations using known synthetic function properties or real data Create clear visualizations and concise technical documentation suitable for Data Scientists and process-development stakeholders Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, explainable AI, and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred Knowledge on correlation analysis, feature attribution / importance, sensitivity analysis, predictive model explanations, and BO decision explanations Experience with synthetic benchmark functions, causal reasoning, spatial data, or structured outputs is advantageous Self-driven, collaborative, and able to communicate technical results clearly. Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
+   "season": "unstated",
+   "company": "Lam Research",
+   "src": "Lam Research",
+   "score": {
+    "total": 24,
+    "base": 28,
+    "fit": 8,
+    "loc": 0,
+    "traj": 18,
+    "pay": 2,
+    "rate": [
+     29.75,
+     48.25
+    ],
+    "rate_src": "company",
+    "fresh": -4,
+    "age": 49.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: fea",
+      3
+     ],
+     [
+      "est. pay $39/hr",
+      2
      ],
      [
       "season not stated",
@@ -55336,45 +55354,6 @@
    "first_seen": "2026-11-18T12:55:14+00:00"
   },
   {
-   "id": "ef:lockheedmartin.com:25309",
-   "title": "MF Field Engineering Intern",
-   "location": "Uniondale, NY, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477848712",
-   "posted": "2026-11-09",
-   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Intern candidate will perform assignments in technical/engineering organizations (e.g., Systems Engineering, Test Engineering, Hardware Electronics Engineering, Software Engineering, Cybersecurity Engineering, Facilities/Lab Engineering, Field Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. This role will support the systems engineering functions for the Navy Fleet Ballistic Missile program. The candidate will work under direct supervision of the Mitchel Field, NY field engineering manager and in-plant staff supporting the fleet SSBN SWS Navigation subsystem operational life-cycle maintenance. The candidate will coordinate with engineering staff, fleet support engineering project managers, fleet support program management, and forward site field engineers on daily maintenance schedule reporting, refit submarine tasks, advanced support inboard and outboard maintenance, problem investigation, and troubleshooting tasks. The candidate will support the Navigation subsystem by coordinating frequent communications/meetings with the customer and leadership under. Basic Qualifications Pursuing an Engineering degree in one of the following disciplines Software, Computer, Electrical, Mechanical, Aerospace, Energy, Industrial, and Systems Engineering from an accredited college Proficiency in Microsoft Office applications Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access. Desired Skills Academic or Professional experience with hardware and electrical components Self-starter, adept to taking initiative, and working well on a team Excellent written and verbal communication skills Will be a Rising Junior heading into Summer of 2027 Pay Information Full-Time Salary Range: $25.18 - $35.19 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "ok",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 20,
-    "base": 17,
-    "fit": 4,
-    "loc": 0,
-    "traj": 13,
-    "pay": 0,
-    "rate": [
-     25.18,
-     35.19
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 10.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "pay $30/hr",
-      0
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "ef:lockheedmartin.com:26059",
    "title": "aerospace engineering intern",
    "location": "Littleton, CO, US",
@@ -55420,6 +55399,45 @@
     ]
    },
    "first_seen": "2026-11-12T17:08:47+00:00"
+  },
+  {
+   "id": "ef:lockheedmartin.com:25309",
+   "title": "MF Field Engineering Intern",
+   "location": "Uniondale, NY, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477848712",
+   "posted": "2026-11-09",
+   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Intern candidate will perform assignments in technical/engineering organizations (e.g., Systems Engineering, Test Engineering, Hardware Electronics Engineering, Software Engineering, Cybersecurity Engineering, Facilities/Lab Engineering, Field Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. This role will support the systems engineering functions for the Navy Fleet Ballistic Missile program. The candidate will work under direct supervision of the Mitchel Field, NY field engineering manager and in-plant staff supporting the fleet SSBN SWS Navigation subsystem operational life-cycle maintenance. The candidate will coordinate with engineering staff, fleet support engineering project managers, fleet support program management, and forward site field engineers on daily maintenance schedule reporting, refit submarine tasks, advanced support inboard and outboard maintenance, problem investigation, and troubleshooting tasks. The candidate will support the Navigation subsystem by coordinating frequent communications/meetings with the customer and leadership under. Basic Qualifications Pursuing an Engineering degree in one of the following disciplines Software, Computer, Electrical, Mechanical, Aerospace, Energy, Industrial, and Systems Engineering from an accredited college Proficiency in Microsoft Office applications Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access. Desired Skills Academic or Professional experience with hardware and electrical components Self-starter, adept to taking initiative, and working well on a team Excellent written and verbal communication skills Will be a Rising Junior heading into Summer of 2027 Pay Information Full-Time Salary Range: $25.18 - $35.19 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "ok",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 20,
+    "base": 17,
+    "fit": 4,
+    "loc": 0,
+    "traj": 13,
+    "pay": 0,
+    "rate": [
+     25.18,
+     35.19
+    ],
+    "rate_src": "stated",
+    "fresh": 3,
+    "age": 10.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "pay $30/hr",
+      0
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "or:fa-euwp-saasfaprod1:395579",
@@ -56733,45 +56751,6 @@
    "first_seen": "2026-11-16T18:36:25+00:00"
   },
   {
-   "id": "ef:lockheedmartin.com:20878",
-   "title": "Systems Engineer Intern",
-   "location": "Palmdale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477449180",
-   "posted": "2026-11-05",
-   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin Aeronautics is seeking a Summer 2027 Systems Engineer Intern. In this role, you will be responsible for eliciting and documenting requirements. Manage changes and compliance assessments of these requirements. Support the architecture of systems. Support the preliminary and detail designs. Verify and validate system requirements. Manage risk. The successful candidate will have expereince and/or knowledge of System Design, engineering development and excellent written and oral communication. Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access. Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Basic Qualifications Pursuing a Bachelors degree in Engineering (ABET accredited program), Computer Science or Physics Excellent verbal and written communication skills Must be a US Citizen; this position requires a government security clearance Desired Skills Understanding of aircraft design Experience with Microsoft office and a programming language Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "ok",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 19,
-    "base": 16,
-    "fit": 5,
-    "loc": 0,
-    "traj": 13,
-    "pay": -2,
-    "rate": [
-     22.66,
-     31.67
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 14.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "pay $27/hr",
-      -2
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "ef:lockheedmartin.com:25035",
    "title": "Systems Engineering - Intern",
    "location": "Palmdale, CA, US",
@@ -56795,6 +56774,45 @@
     "rate_src": "stated",
     "fresh": 3,
     "age": 13.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "pay $27/hr",
+      -2
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
+   "id": "ef:lockheedmartin.com:20878",
+   "title": "Systems Engineer Intern",
+   "location": "Palmdale, CA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477449180",
+   "posted": "2026-11-05",
+   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin Aeronautics is seeking a Summer 2027 Systems Engineer Intern. In this role, you will be responsible for eliciting and documenting requirements. Manage changes and compliance assessments of these requirements. Support the architecture of systems. Support the preliminary and detail designs. Verify and validate system requirements. Manage risk. The successful candidate will have expereince and/or knowledge of System Design, engineering development and excellent written and oral communication. Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access. Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Basic Qualifications Pursuing a Bachelors degree in Engineering (ABET accredited program), Computer Science or Physics Excellent verbal and written communication skills Must be a US Citizen; this position requires a government security clearance Desired Skills Understanding of aircraft design Experience with Microsoft office and a programming language Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "ok",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 19,
+    "base": 16,
+    "fit": 5,
+    "loc": 0,
+    "traj": 13,
+    "pay": -2,
+    "rate": [
+     22.66,
+     31.67
+    ],
+    "rate_src": "stated",
+    "fresh": 3,
+    "age": 14.3,
     "age_basis": "posted",
     "tier": "B",
     "why": [
@@ -57940,7 +57958,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:hdjq:26010800",
@@ -57987,7 +58006,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:gevernova:R5054427",
@@ -58223,53 +58243,6 @@
      [
       "est. pay $31/hr",
       0
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:lamresearch.com:203234",
-   "title": "Quality Engineering Intern 1",
-   "location": "Lancaster, VIC, AU",
-   "url": "https://careers.lamresearch.com/careers/job/1099555572956",
-   "posted": "2026-09-01",
-   "body": "The group you\u2019ll be a part of Quality Department The impact you\u2019ll make Joining our Quality team is an exciting opportunity to contribute, maintaining and improving world-class standards. You will play a key role in supporting quality initiatives, analyzing process performance, and driving continuous improvement across manufacturing and business operations. Your work will help ensure compliance, enhance customer satisfaction, and strengthen our commitment to excellence. What you\u2019ll do Partner with Quality Engineers to perform product audits. Support Quality Engineers to compile and report quality performance. Perform data analysis to identify trends and opportunities to improve the Quality performance. Partner with Quality Engineers to drive quality improvement programs/efforts. Communicating regularly with manager to track project status and identify potential issues. Assist Quality Engineers in Quality investigation. Who we\u2019re looking for Degree course in science/engineering or equivalent. Excellent analytical & problem-solving skills. Strong communication and interpersonal skills, written and verbal. Ability to work in a cleanroom environment, wearing personal protective safety equipment and cleanroom suit. Proficient in Microsoft Office mainly Excel, Words and Power Points. Working knowledge of AI tools. Min 6 months Internship period. Preferred qualifications Power BI, Microsoft Power Apps Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
-   "season": "unstated",
-   "company": "Lam Research",
-   "src": "Lam Research",
-   "score": {
-    "total": 18,
-    "base": 26,
-    "fit": 4,
-    "loc": 0,
-    "traj": 18,
-    "pay": 4,
-    "rate": [
-     32.75,
-     52.88
-    ],
-    "rate_src": "company",
-    "fresh": -8,
-    "age": 79.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "est. pay $43/hr",
-      4
-     ],
-     [
-      "title: quality",
-      3
      ],
      [
       "season not stated",
@@ -60613,6 +60586,53 @@
      [
       "est. pay $36/hr",
       1
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
+   "id": "ef:lamresearch.com:203234",
+   "title": "Quality Engineering Intern 1",
+   "location": "Lancaster, VIC, AU",
+   "url": "https://careers.lamresearch.com/careers/job/1099555572956",
+   "posted": "2026-09-01",
+   "body": "The group you\u2019ll be a part of Quality Department The impact you\u2019ll make Joining our Quality team is an exciting opportunity to contribute, maintaining and improving world-class standards. You will play a key role in supporting quality initiatives, analyzing process performance, and driving continuous improvement across manufacturing and business operations. Your work will help ensure compliance, enhance customer satisfaction, and strengthen our commitment to excellence. What you\u2019ll do Partner with Quality Engineers to perform product audits. Support Quality Engineers to compile and report quality performance. Perform data analysis to identify trends and opportunities to improve the Quality performance. Partner with Quality Engineers to drive quality improvement programs/efforts. Communicating regularly with manager to track project status and identify potential issues. Assist Quality Engineers in Quality investigation. Who we\u2019re looking for Degree course in science/engineering or equivalent. Excellent analytical & problem-solving skills. Strong communication and interpersonal skills, written and verbal. Ability to work in a cleanroom environment, wearing personal protective safety equipment and cleanroom suit. Proficient in Microsoft Office mainly Excel, Words and Power Points. Working knowledge of AI tools. Min 6 months Internship period. Preferred qualifications Power BI, Microsoft Power Apps Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
+   "season": "unstated",
+   "company": "Lam Research",
+   "src": "Lam Research",
+   "score": {
+    "total": 16,
+    "base": 24,
+    "fit": 4,
+    "loc": 0,
+    "traj": 18,
+    "pay": 2,
+    "rate": [
+     29.75,
+     48.25
+    ],
+    "rate_src": "company",
+    "fresh": -8,
+    "age": 79.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: quality",
+      3
+     ],
+     [
+      "est. pay $39/hr",
+      2
+     ],
+     [
+      "season not stated",
+      -3
      ]
     ]
    },
@@ -66044,7 +66064,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:graco:R0023183",
@@ -67678,7 +67699,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:hitachi:R0144276",
@@ -68163,7 +68185,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:hdjq:26010043",
@@ -68202,7 +68225,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ebi:REQ107706",
@@ -68886,7 +68910,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:hdjq:26009263",
@@ -68929,7 +68954,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:entegris:REQ-14502",
@@ -71462,45 +71488,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "sr:BoschGroup:744000151793360",
-   "title": "Logistics Dispatch Intern",
-   "location": "\u0160imanovci, Vojvodina, rs",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151793360",
-   "posted": "2026-09-25",
-   "body": "Do you want beneficial technologies being shaped by your ideas? Whether in the areas of mobility solutions, consumer goods, industrial technology or energy and building technology \u2013 with us, you will have the chance to improve quality of life all across the globe. Welcome to Bosch! At our Pecinci location we are manufacturing and developing wiper systems and wiper blades. By providing a wide product range since decades for our customers and clear view, no matter what weather we create smart solutions to bring safety and comfort to peoples lives. We are looking forward to your application! Monitors orders on a daily basis and organizes timely deliveries Responsible for free of charge deliveries Informs the recipient in a timely manner about the quantity of delivery Responsible for customs clearance of exported goods that have been shipped Creates documentation for delivery related to special needs (e.g. customs regulations, taxes...). Prepares documentation for delivery in relation to the client's requirements Continuously monitors deviations in the customs clearance and transport process and proposes measures to prevent them Basic knowledge of logistics processes Fluency in English language MS office package SAP knowledge would be considered as an advantage Good analytical skills and problem solving ability The help of a mentor that will guide you through your own projects Close cooperation with experienced maintenance engineers in the international environment Opportunity to learn about Maintenance, TPM, SAP PM and digitalization Opportunity to develop skills in data analysis, reporting and digital tools Being part of a great engineering team will challenge you personally and professionally; Paid full-time internship with flexible working hours, so you can be on track with faculty activities; Access to the latest tools and technology from the market; Free lunch at the canteen and organized transportation; If you believe this internship is made for you, please send your CV in English using Apply button. It will be a pleasure to meet you. Only shortlisted candidates will be contacted.",
-   "season": "unstated",
-   "company": "Robert Bosch Venture Capital",
-   "src": "Robert Bosch Venture Capital",
-   "score": {
-    "total": 0,
-    "base": 4,
-    "fit": -3,
-    "loc": 0,
-    "traj": 11,
-    "pay": -4,
-    "rate": [
-     20.0,
-     27.0
-    ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 55.3,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "season not stated",
-      -3
-     ],
-     [
-      "est. pay $24/hr",
-      -4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "sr:BoschGroup:744000151301569",
    "title": "Maintenance & TPM Support Intern ",
    "location": "\u0160imanovci, Vojvodina, rs",
@@ -73041,55 +73028,6 @@
    "reason": "no mechanical signal"
   },
   {
-   "company": "BWX Technologies",
-   "title": "(DOD Skillbridge) Quality Intern",
-   "location": "",
-   "url": "https://careers.bwxt.com/job/Euclid-%28DOD-Skillbridge%29-Quality-Intern-OH/1382660800/",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "BWX Technologies",
-   "title": "Intern - Analytical Services (Year Round)",
-   "location": "",
-   "url": "https://careers.bwxt.com/job/Erwin-Intern-Analytical-Services-%28Year-Round%29-TN/1434278200/",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "BWX Technologies",
-   "title": "Intern - Applications Development",
-   "location": "",
-   "url": "https://careers.bwxt.com/job/Lynchburg-Intern-Applications-Development-VA-24501/1449049000/",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "BWX Technologies",
-   "title": "Intern - Supply Management - Mt. Vernon, IN (Summer 2027)",
-   "location": "",
-   "url": "https://careers.bwxt.com/job/Mt-Vernon-Intern-Supply-Management-Mt_-Vernon%2C-IN-%28Summer-2027%29-IN/1425676300/",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "BWX Technologies",
-   "title": "Intern - Supply Management, OH (Summer 2027)",
-   "location": "",
-   "url": "https://careers.bwxt.com/job/Euclid-Intern-Supply-Management%2C-OH-%28Summer-2027%29-OH/1425670100/",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "BWX Technologies",
-   "title": "Intern, Electrical Engineer",
-   "location": "",
-   "url": "https://careers.bwxt.com/job/Barberton-Intern%2C-Electrical-Engineer-OH/1451051300/",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "BWX Technologies",
-   "title": "Intern, Welding Engineer",
-   "location": "",
-   "url": "https://careers.bwxt.com/job/Barberton-Intern%2C-Welding-Engineer-OH/1427430700/",
-   "reason": "no mechanical signal"
-  },
-  {
    "company": "Badger Meter",
    "title": "HR Generalist Intern",
    "location": "US - WI - Milwaukee HQ, United States of America",
@@ -73718,48 +73656,6 @@
    "location": "PA,US; Raleigh, NC, US; Houston, TX, US; Glendale Heights, IL, US; Littleton, CO, US; Chandler, AZ, US; Burien, WA, US; Wilsonville, OR, US; MD,US; Mountainside, NJ, US; Pleasanton, CA, US; Smyrna, GA, US; Boothwyn, PA, US; San Diego, CA, US; Franklin, MA, US; Austin, TX, US; IN,US; Salt Lake City, UT, US; San Antonio, TX, US; Lathrup Village, MI, US; City of Industry, CA, US; El Paso, TX, US; Parma Heights, OH, US; Warrendale, PA, US; Fenton, MO, US; Nashville, TN, US; Manassas, VA, US; Morrisville, NC, US; Albuquerque, NM, US; Las Vegas, NV, US; South Milwaukee, WI, US; Baton Rouge, LA, US; Grapevine, TX, US; Lafayette, CO, US; Sandston, VA, US; Appleton, WI, US; Kennewick, WA, US; Corpus Christi, TX, US; Audubon Park, KY, US; Pelham, AL, US; Lubbock, TX, US; Bend, OR, US; Chanhassen, MN, US; Honolulu, HI, US; Northmoor, MO, US",
    "url": "https://eaton.eightfold.ai/careers/job/687238083412",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Emerson",
-   "title": "Customer Experience Intern",
-   "location": "Austin, TX, United States",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009442",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Emerson",
-   "title": "Environmental Health & Safety Summer Intern",
-   "location": "Mansfield, MA, United States",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012074",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Emerson",
-   "title": "Environmental, Health, and Safety Intern",
-   "location": "Reno, NV, United States",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013501",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Emerson",
-   "title": "Field Device Management Sales Enablement Intern",
-   "location": "Austin, TX, United States; Knoxville, TN, United States",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010058",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Emerson",
-   "title": "Sales and Operations Planning Intern",
-   "location": "Austin, TX, United States",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010170",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Emerson",
-   "title": "Technical Marketing and Business Management Intern",
-   "location": "Austin, TX, United States",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010168",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Endress Hauser",
@@ -75352,6 +75248,13 @@
   },
   {
    "company": "Lam Research",
+   "title": "Summer 2027 - Electrical Engineering Intern - BS",
+   "location": "Fremont, CA, US",
+   "url": "https://careers.lamresearch.com/careers/job/1099555447630",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Lam Research",
    "title": "Summer 2027 - Electrical Engineering Intern - BS/MS",
    "location": "Tualatin, OR, US",
    "url": "https://careers.lamresearch.com/careers/job/1099556276556",
@@ -75416,13 +75319,6 @@
   {
    "company": "Lockheed Martin",
    "title": "College Student - Technical - Intern",
-   "location": "Lufkin, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477565809",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "College Student - Technical - Intern",
    "location": "Littleton, CO, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477746280",
    "reason": "no mechanical signal"
@@ -75432,6 +75328,13 @@
    "title": "College Student - Technical - Intern",
    "location": "Ocala, FL, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477593489",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "College Student - Technical - Intern",
+   "location": "Lufkin, TX, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477565809",
    "reason": "no mechanical signal"
   },
   {
@@ -75508,13 +75411,6 @@
    "company": "Lockheed Martin",
    "title": "College Student - Technical - Summer Intern",
    "location": "Littleton, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477499366",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "College Student - Technical - Summer Intern",
-   "location": "Littleton, CO, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477529570",
    "reason": "no mechanical signal"
   },
@@ -75523,6 +75419,13 @@
    "title": "College Student - Technical - Summer Intern",
    "location": "Sunnyvale, CA, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477530265",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "College Student - Technical - Summer Intern",
+   "location": "Littleton, CO, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477499366",
    "reason": "no mechanical signal"
   },
   {
