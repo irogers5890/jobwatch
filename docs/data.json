@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-20T14:02:54+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44749704862",
- "scanned": 34444,
+ "generated": "2026-11-20T14:22:57+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44752878716",
+ "scanned": 34449,
  "boards": 327,
  "errors": [
   {
@@ -9,27 +9,15 @@
    "board": "eightfold",
    "error": "failed after 3 tries: HTTP 429",
    "kept": 1
-  },
-  {
-   "company": "Nokia",
-   "board": "oracle",
-   "error": "failed after 3 tries: The read operation timed out",
-   "kept": 4
-  },
-  {
-   "company": "Revvity",
-   "board": "workday",
-   "error": "failed after 3 tries: The read operation timed out",
-   "kept": 0
   }
  ],
  "dropped": {
-  "non-ME discipline": 1213,
-  "software / data / AI role": 1144,
-  "no mechanical signal": 343,
-  "off-target season in title": 481,
-  "not a student req": 26684,
-  "outside the US": 1532,
+  "non-ME discipline": 1198,
+  "software / data / AI role": 1145,
+  "no mechanical signal": 344,
+  "off-target season in title": 480,
+  "not a student req": 26687,
+  "outside the US": 1543,
   "master's/PhD only": 760,
   "no Summer/Fall 2027": 790,
   "degree-level blocker": 4
@@ -1230,8 +1218,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T20:06:53+00:00",
-   "stale": true
+   "first_seen": "2026-11-16T20:06:53+00:00"
   },
   {
    "id": "wd:asml:J-00356215",
@@ -10231,7 +10218,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -17433,6 +17420,61 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "sf:jobs.l3harris.com:1452542100",
+   "title": "Intern, Mechanical Engineer",
+   "location": "Amityville, NY, US, 11701",
+   "url": "https://jobs.l3harris.com/job/Amityville-Intern%2C-Mechanical-Engineer-NY-11701/1452542100/",
+   "posted": "2026-11-20",
+   "body": "> Job Title: Intern, Mechanical Engineering Job Code: 46266 Job Location: Amityville, NY Job Schedule: 9/80: Employees work 9 out of every 14 days \u2013 totaling 80 hours worked, and have every other Friday off Job Description: Provide mechanical engineering support for both new product development activities as well as factory support of existing products Work directly with mechanical designers on CAD models and part documentation Generate and/or process engineering change orders (ECO\u2019s) as required Qualifications: Must be pursuing a bachelor's degree, a master's degree, or a PhD in Mechanical Engineering, Aerospace Engineering, Engineering Mechanics, Materials Science Engineering or related field at an accredited university. Preferred Skills: CAD or analysis (FEA) tools exposure, and/or experience in mechanical design or analysis of electronic systems, structures and mechanisms Pay Transparency: In compliance with pay transparency requirements, the salary range for this role in California, Connecticut, Massachusetts, New Jersey, Washington, and the Greater D.C. area, Denver, or NYC areas is $25.50/hr - $48/hr. This is not a guarantee of compensation or salary, as final offer amount may vary based on factors including but not limited to experience and geographic location. L3Harris also offers a variety of benefits, including relocation stipend, 401(k), EAP, and company-paid holidays. The specific programs and options available to an employee may vary depending on date of hire, schedule type, and the applicability of collective bargaining agreements. <span",
+   "season": "unstated",
+   "company": "L3Harris Technologies",
+   "src": "L3Harris Technologies",
+   "score": {
+    "total": 47,
+    "base": 35,
+    "fit": 23,
+    "loc": 0,
+    "traj": 11,
+    "pay": 1,
+    "rate": [
+     25.5,
+     48.0
+    ],
+    "rate_src": "stated",
+    "fresh": 12,
+    "age": 0.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: mechanical",
+      12
+     ],
+     [
+      "body: mechanism",
+      7
+     ],
+     [
+      "body: relocation",
+      4
+     ],
+     [
+      "body: fea",
+      3
+     ],
+     [
+      "pay $37/hr",
+      1
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-20T14:22:57+00:00"
+  },
+  {
    "id": "wd:marvell:2604975",
    "title": "Hardware Engineer Intern, BS - Summer 2027",
    "location": "Santa Clara, CA, United States of America",
@@ -18728,8 +18770,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T19:50:35+00:00",
-   "stale": true
+   "first_seen": "2026-11-16T19:50:35+00:00"
   },
   {
    "id": "or:fa-evmr-saasfaprod1:41999",
@@ -18780,8 +18821,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T20:47:04+00:00",
-   "stale": true
+   "first_seen": "2026-11-16T20:47:04+00:00"
   },
   {
    "id": "ab:regent:6d1fc228-f66c-4780-b358-7be3f6f64ed9",
@@ -25979,8 +26019,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:globalhr:01888337",
@@ -29061,7 +29100,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -29124,7 +29163,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -30958,7 +30997,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -34387,7 +34426,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -38748,7 +38787,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -38772,57 +38811,6 @@
      [
       "season not stated",
       -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:lockheedmartin.com:22584",
-   "title": "DevSecOps Engineering Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477564658",
-   "posted": "2026-11-09",
-   "body": "Standard Job Description Space is a critical domain, connecting our technologies, our security and our humanity. While others view space as a destination, we see it as a realm of possibilities, where we can do more \u2014 we can innovate, invest, inspire and integrate our capabilities to transform the future. At Lockheed Martin Space, we aim to harness the full potential of space to cultivate innovation, reduce costs, and push the boundaries of what technology can achieve. We\u2019re creating future-ready solutions, focusing on resiliency and urgency through our 21st Century Security\u00ae vision. We\u2019re erasing boundaries and forming partnerships across industries and around the world. We\u2019re advancing spacecraft and the workforce to fuel the next generation. And we\u2019re reimagining how space can connect us, ensuring security and prosperity.Join us in shaping a new era in space and find a career that's built for you. \u2022 Generating and simulating operational level plans to explore the art of the possible, how we could defend the ultimate high ground in a future space war \u2022 Dynamically optimizing both terrestrial and space-based sensors to provide comprehensive space domain awareness \u2022 Strategically optimizing the placement and maneuvering of constellations of satellites to satisfy multiple, evolving priorities Our team leverages industry standard open-source software solutions such as GitLab, Kubernetes, and Helm. Our automation-first and \u201ceverything as code\u201d mindset allows our software engineers to focus their time and efforts on what is most important - building cutting edge functionality for our end users. The information below reflects the standard job description for this position: Performs tech planning, design, devel, integ, v&v for total syst life cycle. Analyses performed at all levels of syst product incl. concept, design, fabrication, test, instl, operation, maintenance & disposal, incorp design methods & stds for Cyber Security, SW & HW infrastructure. Designs, devels, docs, tests & debugs SW that contains logical & math solutions to business/mission problems/questions in computer language. Ensures the logical & syst conversion of customer/product reqs into total syst solutions that ack tech, sched, cost constraints & align to SW & HW deployment pipelines & factories. Performs func & timeline analysis, detail trade & reqs allocation & interface defs studies to translate customer reqs into HW & SW feature defs & acceptance criteria. Applies stds, processes, procedures & tools throughout the devel life cycle. Applies HW & SW knowledge, cyber security stds in business/mission apps, & feedback from users to develop SW. Corrects program errors, prepares operating instructions, compiles doc of program devel & analyzes syst capabilities to resolve program problems, output/input data acq, programming tech & controls. Ensures SW stds are met. Validates incorp of features & use cases into implemented designs Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Basic Qualifications Pursuing a degree in Computer Science, Information Technology, Computer Engineering, or related field Experience working with Linux(Red Hat Enterprise Linux preferred) Ability to communicate verbally and in writing at a professional level Must be a US Citizen; Must be able to obtain and maintain a Top Secret/SCI security clearance Desired Skills Experience with application containerization (Kubernetes, Helm, Docker, Containerd) in a cloud environment (AWS, Azure, OpenStack, OpenShift) Experience with Infrastructure as Code (IaC), Ansible, Terraform, or Packer Development experience with any of the following programming languages: Java or Python Experience working in SAFe Agile development environment, using tools such as JIRA and Confluence Experience with CI/CD - Deployment pipelines, automated build, and configuration tools (Gitlab, ArgoCD) Demonstrated ability to establish strong team relationships and deliver exceptional results Strong critical thinking and problem-solving skills Ability to communicate effectively and work in a collaborative environment Ability to work effectively in a fast-paced and rapidly changing environment Strong time management skills that enable on-time project delivery Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "ok",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 30,
-    "base": 27,
-    "fit": 16,
-    "loc": 0,
-    "traj": 13,
-    "pay": -2,
-    "rate": [
-     22.66,
-     31.67
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 11.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: conversion",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: fea",
-      3
-     ],
-     [
-      "pay $27/hr",
-      -2
      ]
     ]
    },
@@ -38972,6 +38960,57 @@
     ]
    },
    "first_seen": "2026-11-16T16:56:24+00:00"
+  },
+  {
+   "id": "ef:lockheedmartin.com:22586",
+   "title": "DevSecOps Engineering Intern - Summer 2027",
+   "location": "King of Prussia, PA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477564738",
+   "posted": "2026-11-09",
+   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin Space is seeking a DevSecOps Engineering Intern who excited to contribute to the team in the following ways: \u2022 Generating and simulating operational level plans to explore the art of the possible, how we could defend the ultimate high ground in a future space war \u2022 Dynamically optimizing both terrestrial and space-based sensors to provide comprehensive space domain awareness \u2022 Strategically optimizing the placement and maneuvering of constellations of satellites to satisfy multiple, evolving priorities Our team leverages industry standard open-source software solutions such as GitLab, Kubernetes, and Helm. Our automation-first and \u201ceverything as code\u201d mindset allows our software engineers to focus their time and efforts on what is most important - building cutting edge functionality for our end users. The information below reflects the standard job description for this position: Performs tech planning, design, devel, integ, v&v for total syst life cycle. Analyses performed at all levels of syst product incl. concept, design, fabrication, test, instl, operation, maintenance & disposal, incorp design methods & stds for Cyber Security, SW & HW infrastructure. Designs, devels, docs, tests & debugs SW that contains logical & math solutions to business/mission problems/questions in computer language. Ensures the logical & syst conversion of customer/product reqs into total syst solutions that ack tech, sched, cost constraints & align to SW & HW deployment pipelines & factories. Performs func & timeline analysis, detail trade & reqs allocation & interface defs studies to translate customer reqs into HW & SW feature defs & acceptance criteria. Applies stds, processes, procedures & tools throughout the devel life cycle. Applies HW & SW knowledge, cyber security stds in business/mission apps, & feedback from users to develop SW. Corrects program errors, prepares operating instructions, compiles doc of program devel & analyzes syst capabilities to resolve program problems, output/input data acq, programming tech & controls. Ensures SW stds are met. Validates incorp of features & use cases into implemented designs Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Basic Qualifications Pursuing a degree in Computer Science, Information Technology, Computer Engineering, or related field Experience working with Linux(Red Hat Enterprise Linux preferred) Ability to communicate verbally and in writing at a professional level Must be a US Citizen; Must be able to obtain and maintain a Top Secret/SCI security clearance Desired Skills Experience with application containerization (Kubernetes, Helm, Docker, Containerd) in a cloud environment (AWS, Azure, OpenStack, OpenShift) Experience with Infrastructure as Code (IaC), Ansible, Terraform, or Packer Development experience with any of the following programming languages: Java or Python Experience working in SAFe Agile development environment, using tools such as JIRA and Confluence Experience with CI/CD - Deployment pipelines, automated build, and configuration tools (Gitlab, ArgoCD) Demonstrated ability to establish strong team relationships and deliver exceptional results Strong critical thinking and problem-solving skills Ability to communicate effectively and work in a collaborative environment Ability to work effectively in a fast-paced and rapidly changing environment Strong time management skills that enable on-time project delivery Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "ok",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 30,
+    "base": 27,
+    "fit": 16,
+    "loc": 0,
+    "traj": 13,
+    "pay": -2,
+    "rate": [
+     22.66,
+     31.67
+    ],
+    "rate_src": "stated",
+    "fresh": 3,
+    "age": 11.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: conversion",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: fea",
+      3
+     ],
+     [
+      "pay $27/hr",
+      -2
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:micron:JR114110",
@@ -40015,7 +40054,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -44976,7 +45015,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -50654,7 +50693,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -50701,7 +50740,7 @@
     "traj": 11,
     "pay": 0,
     "rate": [
-     24.75,
+     25.0,
      36.5
     ],
     "rate_src": "company",
@@ -50725,57 +50764,6 @@
      [
       "season not stated",
       -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:lockheedmartin.com:17420",
-   "title": "Systems Engineering Intern",
-   "location": "Hill AFB, UT, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477186919",
-   "posted": "2026-11-10",
-   "body": "Standard Job Description Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. This systems engineering intern will support the Air Force Intercontinental Ballistic Missile (ICBM) program by assisting senior engineers in the analysis and verification of system\u2011level solutions. This role offers a hands\u2011on introduction to complex weapons\u2011system development, providing exposure to parts of the systems engineering lifecycle. Basic Qualifications Currently enrolled in a Bachelor\u2019s program in an engineering related discipline. Strong written and verbal communication skills. Ability to analyze information, identify issues, and propose logical solutions. Willingness to ask questions and seek guidance when needed. Desired Skills Systems engineering experience Intercontinental Ballistic Missile (ICBM) experience Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "unstated",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 22,
-    "base": 19,
-    "fit": 10,
-    "loc": 0,
-    "traj": 13,
-    "pay": -4,
-    "rate": [
-     20.14,
-     28.15
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 10.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "season not stated",
-      -3
-     ],
-     [
-      "pay $24/hr",
-      -4
      ]
     ]
    },
@@ -50818,6 +50806,57 @@
      ],
      [
       "body: python",
+      4
+     ],
+     [
+      "season not stated",
+      -3
+     ],
+     [
+      "pay $24/hr",
+      -4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
+   "id": "ef:lockheedmartin.com:17420",
+   "title": "Systems Engineering Intern",
+   "location": "Hill AFB, UT, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477186919",
+   "posted": "2026-11-10",
+   "body": "Standard Job Description Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. This systems engineering intern will support the Air Force Intercontinental Ballistic Missile (ICBM) program by assisting senior engineers in the analysis and verification of system\u2011level solutions. This role offers a hands\u2011on introduction to complex weapons\u2011system development, providing exposure to parts of the systems engineering lifecycle. Basic Qualifications Currently enrolled in a Bachelor\u2019s program in an engineering related discipline. Strong written and verbal communication skills. Ability to analyze information, identify issues, and propose logical solutions. Willingness to ask questions and seek guidance when needed. Desired Skills Systems engineering experience Intercontinental Ballistic Missile (ICBM) experience Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "unstated",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 22,
+    "base": 19,
+    "fit": 10,
+    "loc": 0,
+    "traj": 13,
+    "pay": -4,
+    "rate": [
+     20.14,
+     28.15
+    ],
+    "rate_src": "stated",
+    "fresh": 3,
+    "age": 10.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: verification",
       4
      ],
      [
@@ -56792,6 +56831,45 @@
    "first_seen": "2026-11-18T02:18:17+00:00"
   },
   {
+   "id": "ef:lockheedmartin.com:23015",
+   "title": "Chief Engineer Intern - Summer 2027",
+   "location": "Highlands Ranch, CO, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477617079",
+   "posted": "2026-11-10",
+   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Join our Lockheed Martin team where you will support the Orion team on the contract that will return humans to the surface of moon and establish a permanent human presence at the moon as a stepping stone to Mars through the Artemis III thru VIII missions. Lockheed Martin Space is seeking a Chief Engineer Engineering Intern for the Summer of 2027. In this role, you will: \u2022 Develop/analyze/verify subsystem and package/box level requirements \u2022 Support design trade studies to optimize the design for performance and producibility \u2022 Define and document key internal and external interfaces. Perform related compability analyses \u2022 Coordinate with customer and other contractors to develop key test artifacts including test requirements, plans, objectives and to support the development of test procedures\u2022 Participate in activities with domain experts across subsystems, SEIT, and special disciplines \u2022 Participate in subsystem level technical reviews including TIMs, SRRs, PDRs, etc. Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Basic Qualifications Actively enrolled in Bachelor's degree in Mechanical, Systems, or Electrical Engineering or related discipline from an accredited college Experience with analyzing and resolving technical problems or projects Experience with Confluence or a similar collaborative workspace, relational databases, computer aided design software Microsoft Office Must be a US citizen Desired Skills Experience with working on the Orion program/spacecraft Proficient in complex problem solving requiring multidisciplinary thinking Experience with Python, mechanical and mass properties and stress analysis Excellent communication skills, strong social skills, and ability to build consensus among peers while building solid relationships with team members, customers, and leadership. Ability to work in a collaborative and team-based environment Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "ok",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 18,
+    "base": 15,
+    "fit": 4,
+    "loc": 0,
+    "traj": 13,
+    "pay": -2,
+    "rate": [
+     22.66,
+     31.67
+    ],
+    "rate_src": "stated",
+    "fresh": 3,
+    "age": 10.6,
+    "age_basis": "posted",
+    "tier": "C",
+    "why": [
+     [
+      "body: python",
+      4
+     ],
+     [
+      "pay $27/hr",
+      -2
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "ef:lockheedmartin.com:26937",
    "title": "Quality Engineer - College Student Internship",
    "location": "Fort Worth, TX, US",
@@ -58470,49 +58548,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "wd:tranetechnologies:JR-15288",
-   "title": "2027 Energy Engineering Intern",
-   "location": "Nashville, Tennessee, United States of America",
-   "url": "https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Nashville-Tennessee/XMLNAME-2027-Energy-Engineering-Intern_JR-15288-1",
-   "posted": "2026-10-19",
-   "body": "Be a part of our mission! As a world leader in creating comfortable, sustainable, and efficient climate solutions for buildings, homes and transportation, it's our responsibility to put the planet first. For us at Trane Technologies , and through our businesses including Trane\u00ae and Thermo King , sustainability is not just how we do business\u2014it is our business. Do you dare to look at the world's challenges and see impactful possibilities? Do you want to contribute to making a better future? If the answer is yes, we invite you to consider joining us in boldly challenging what's possible for a sustainable world. Learn about our benefits designed for you to Thrive at work and at home. We boldly go. Where is the work: On-Site (5 days) What\u2019s in it for you: Be a part of our mission! As a world leader in creating comfortable, sustainable, and efficient environments, it\u2019s our responsibility to put the planet first. For us at Trane Technologies, sustainability is not just how we do business\u2014it is our business. Do you dare to look at the world's challenges and see impactful possibilities? Do you want to contribute to making a better future? If the answer is yes, we invite you to consider joining us in boldly challenging what\u2019s possible for a sustainable world. This is an exciting opportunity to make a difference in building efficiency and sustainability through our Equipment, Service or Controls / Building Automation offerings. Trane Technologies, the global leader in innovative climate solutions, hands on summer internship allows participants to explore a career in Energy Engineering through the following: A 12-week Summer internship program that will challenge and develop your technical, business, leadership, and communication skills. Gain insight into an Energy Engineering Career with Trane Technologies, focusing on solutions that provide our customers with the most energy-efficient buildings. Work on a variety of engineering aspects, including energy analysis projects, completion of field energy audits, client interviews, completion of estimates, and development of energy conversation measures, and project management. This internship will provide you with the experience to pursue a career in Energy Engineering and creates the opportunity to join our industry leading Graduate Training Program (GTP) after graduation. What you will do: Our internship program provides you with the opportunity to learn more about us while you collaborate with peers across North America. As an Energy Engineer Intern, you may experience and assist in: Partnering with Account Managers and Energy Engineers to diagnose energy opportunities with customer\u2019s facilities and provide small energy projects that solve customer issues/opportunities. Providing technical analysis/review for energy projects; providing project risk assessment. Shadowing and performing building \u201cwalk-throughs\u201d and identifying energy conservation measures (architectural, mechanical, electrical, etc.) in commercial, institutional, and industrial facilities. Collaborating on the development of existing reporting capabilities from a software standpoint and a usability perspective and investigate new technologies. Prescribing best methods for measurement and verification of system performance during the acquisition phase. Analyzing data outputs for trends and/or any deviations that need further investigating. Assisting with opportunity technical qualification including Preliminary Audits, Benchmarking, Site Surveys, and Interviews. Collecting, analyzing, and developing benchmark summary reports to illustrate the pertinent details of building and/or system performance. What you will bring: Actively enrolled in a bachelor\u2019s or master\u2019s degree in Engineering, (preferred disciplines: Energy, Mechanical or Electrical) throughout the entire duration of the summer internship. Candidates must have completed at least their sophomore or 2nd year before the start of the summer internship to be eligible for internship positions. Be a U.S. citizen or have the legal right to work in the U.S. without requiring sponsorship now or in the future. This posting is for multiple opportunities. Some positions may be remote while others may require a hybrid or onsite assignment at one of our facilities across North America. Possess a valid driver\u2019s license for a minimum of 12 months, ability to provide proof of insurance, and have no major or frequent traffic violations including, but not limited to: DUI in the previous 3 years Hit & Run, License Suspension, Reckless / Careless Driving or multiple smaller infractions or preventable collisions in the previous 3 years. This role has been designated by the Company as Safety Sensitive. Annual Base Salary Range or Hourly Base Pay Range: $22.50 - $31.00 Compensation Type: Hourly Incentive Eligible: No Sales Commission Eligible: No Disclaimer : We strive to provide competitive compensation for this position, tailored to a variety of factors. The actual compensation will depend on elements such as seniority, merit, geographic location, education, experience, travel requirements, and union designation. Our compensation range is generally based on the national average for the country. Additionally, benefits may vary depending on the region, business alignment, union involvement, and employee status. Thrive at work and at home: Benefits kick in on DAY ONE for you and your family, including health insurance and holistic wellness programs that include generous incentives \u2013 WE DARE TO CARE! Family building benefits include fertility coverage and adoption/surrogacy assistance. Paid time off includes up to 15 vacation days, paid holidays, sick leave, and additional options to support volunteer and parental leave. 401K match up, educational and training opportunities through company programs along with tuition assistance and student debt support. Disclaimer: Benefit offerings may vary by site as well as Collective Bargaining Agreements and local/state regulations Safety Sensitive Role: No The company designates certain roles as Safety Sensitive. Safety Sensitive roles may require that you pass additional drug screening. We offer competitive compensation and comprehensive benefits and programs. We are an equal opportunity employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, pregnancy, age, marital status, disability, status as a protected veteran, or any legally protected status.",
-   "season": "ok",
-   "company": "Trane Technologies",
-   "src": "Trane Technologies",
-   "score": {
-    "total": 17,
-    "base": 17,
-    "fit": 8,
-    "loc": 0,
-    "traj": 11,
-    "pay": -2,
-    "rate": [
-     22.5,
-     31.0
-    ],
-    "rate_src": "stated",
-    "fresh": 0,
-    "age": 32.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: verification",
-      4
-     ],
-     [
-      "pay $27/hr",
-      -2
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "or:egup:20279284",
    "title": "Product Material Compliance Engineering Intern (Summer 2027)",
    "location": "Westerville, OH, United States",
@@ -59070,6 +59105,45 @@
     ]
    },
    "first_seen": "2026-11-12T15:51:14+00:00"
+  },
+  {
+   "id": "ef:lockheedmartin.com:21097",
+   "title": "Aeronautical Engineer Intern",
+   "location": "Palmdale, CA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477452839",
+   "posted": "2026-11-09",
+   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Proficient in AI prompting as it applies to this position and practice. Lockheed Martin Aeronautics is seeking a Summer 2027 Intern Aeronautical Engineer. In this role, you will perform wind tunnel operations activities and apply basic aeronautical principles. The successful candidate will have experience and/or knowledge of aerodynamics and thermodynamics principles. Must be a US Citizen. Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Basic Qualifications Pursuing a Bachelor's degree in Aerospace or Mechanical Engineering. Must be a US citizen. Basic understanding of aerodynamic first principles. Desired Skills Proficiency with MATLAB/Simulink Experience with CATIA or equivalent solid modeling software A basic familiarity with instrumentation and data collection Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "ok",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 16,
+    "base": 13,
+    "fit": 2,
+    "loc": 0,
+    "traj": 13,
+    "pay": -2,
+    "rate": [
+     22.66,
+     31.67
+    ],
+    "rate_src": "stated",
+    "fresh": 3,
+    "age": 11.6,
+    "age_basis": "posted",
+    "tier": "C",
+    "why": [
+     [
+      "body: matlab",
+      2
+     ],
+     [
+      "pay $27/hr",
+      -2
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "ef:lockheedmartin.com:25164",
@@ -73341,6 +73415,13 @@
    "title": "Project Engineering - Intern",
    "location": "King of Prussia, PA, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477643189",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "Project Engineering - Intern",
+   "location": "King of Prussia, PA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477642213",
    "reason": "no mechanical signal"
   },
   {
