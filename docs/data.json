@@ -1,25 +1,253 @@
 {
- "generated": "2026-11-21T06:36:12+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44876313029",
- "scanned": 34830,
+ "generated": "2026-11-21T06:56:15+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/44877862652",
+ "scanned": 33110,
  "boards": 329,
  "errors": [
   {
-   "company": "Nordson",
+   "company": "General Motors",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 15
+  },
+  {
+   "company": "HP Inc.",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 3
+  },
+  {
+   "company": "HP Inc. (workday)",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 0
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 17
+  },
+  {
+   "company": "IDEX",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 0
+  },
+  {
+   "company": "Instron",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 0
+  },
+  {
+   "company": "Insulet",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 0
+  },
+  {
+   "company": "Johnson Controls",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 2
+  },
+  {
+   "company": "NVIDIA",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 502",
+   "kept": 1
+  },
+  {
+   "company": "Oshkosh",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 502",
+   "kept": 34
+  },
+  {
+   "company": "Philips",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 2
+  },
+  {
+   "company": "Plug Power",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 502",
+   "kept": 0
+  },
+  {
+   "company": "Polaris",
+   "board": "workday",
+   "error": "failed after 3 tries: Expecting value: line 1 column 1 (char 0)",
+   "kept": 2
+  },
+  {
+   "company": "Procter and Gamble",
    "board": "workday",
    "error": "failed after 3 tries: HTTP 500",
-   "kept": 4
+   "kept": 11
+  },
+  {
+   "company": "RTX",
+   "board": "workday",
+   "error": "failed after 3 tries: Expecting value: line 1 column 1 (char 0)",
+   "kept": 63
+  },
+  {
+   "company": "Renishaw",
+   "board": "workday",
+   "error": "failed after 3 tries: Expecting value: line 1 column 1 (char 0)",
+   "kept": 0
+  },
+  {
+   "company": "ResMed",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 502",
+   "kept": 0
+  },
+  {
+   "company": "Rockwell Automation",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 7
+  },
+  {
+   "company": "Sierra Nevada Corporation",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 6
+  },
+  {
+   "company": "Sierra Space",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 7
+  },
+  {
+   "company": "Sonos",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 0
+  },
+  {
+   "company": "Spectrum Control",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 1
+  },
+  {
+   "company": "Stanley Black and Decker",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 11
+  },
+  {
+   "company": "Stryker",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 1
+  },
+  {
+   "company": "Teledyne FLIR",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 2
+  },
+  {
+   "company": "Thales",
+   "board": "workday",
+   "error": "failed after 3 tries: Expecting value: line 1 column 1 (char 0)",
+   "kept": 0
+  },
+  {
+   "company": "The Toro Company",
+   "board": "workday",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 19
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 9
+  },
+  {
+   "company": "Tokyo Electron",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 0
+  },
+  {
+   "company": "Trimble",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 3
+  },
+  {
+   "company": "Vermeer",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 5
+  },
+  {
+   "company": "Victaulic",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 1
+  },
+  {
+   "company": "Watts Water Technologies",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 10
+  },
+  {
+   "company": "Woodward",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 0
+  },
+  {
+   "company": "X-energy",
+   "board": "workday",
+   "error": "failed after 3 tries: Expecting value: line 1 column 1 (char 0)",
+   "kept": 8
+  },
+  {
+   "company": "Xylem",
+   "board": "workday",
+   "error": "failed after 3 tries: Expecting value: line 1 column 1 (char 0)",
+   "kept": 0
+  },
+  {
+   "company": "Zurn Elkay Water Solutions",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 7
+  },
+  {
+   "company": "iRhythm Technologies",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 0
+  },
+  {
+   "company": "nVent",
+   "board": "workday",
+   "error": "failed after 3 tries: HTTP 500",
+   "kept": 5
   }
  ],
  "dropped": {
-  "non-ME discipline": 1202,
-  "software / data / AI role": 1167,
-  "no mechanical signal": 361,
-  "off-target season in title": 480,
+  "non-ME discipline": 988,
+  "software / data / AI role": 854,
+  "no mechanical signal": 290,
+  "off-target season in title": 410,
   "not a student req": 26893,
-  "master's/PhD only": 834,
-  "outside the US": 1543,
-  "no Summer/Fall 2027": 818,
+  "master's/PhD only": 629,
+  "outside the US": 1095,
+  "no Summer/Fall 2027": 682,
   "degree-level blocker": 4
  },
  "jobs": [
@@ -525,7 +753,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-19T21:51:09+00:00"
+   "first_seen": "2026-11-19T21:51:09+00:00",
+   "stale": true
   },
   {
    "id": "ab:rivianvw.tech:e05c3bd0-caf9-45c0-98e4-c8944eaf5ac7",
@@ -3234,7 +3463,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3095755",
@@ -3797,7 +4027,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:sharkninjaoperatingllc:4713857006",
@@ -4490,7 +4721,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:inversionspace:4744390005",
@@ -4679,7 +4911,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-17T14:41:11+00:00"
+   "first_seen": "2026-11-17T14:41:11+00:00",
+   "stale": true
   },
   {
    "id": "gh:peakenergy:5272567007",
@@ -4927,7 +5160,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-17T19:18:16+00:00"
+   "first_seen": "2026-11-17T19:18:16+00:00",
+   "stale": true
   },
   {
    "id": "pp:impulsespace:569338",
@@ -5368,7 +5602,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:rocketlab:7990365003",
@@ -5557,7 +5792,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-19T17:30:39+00:00"
+   "first_seen": "2026-11-19T17:30:39+00:00",
+   "stale": true
   },
   {
    "id": "gh:formlabs:8199928",
@@ -5809,7 +6045,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T22:33:01+00:00"
+   "first_seen": "2026-11-18T22:33:01+00:00",
+   "stale": true
   },
   {
    "id": "ab:f7d8749a-72d6-407c-bf98-292ea630c73a:463966b6-fd51-47ef-b9b1-cb53c47cc275",
@@ -6439,7 +6676,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:avav:9038",
@@ -7163,7 +7401,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:vardaspace:8010167003",
@@ -8041,7 +8280,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:pg:R000157841",
@@ -8104,7 +8344,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20279251",
@@ -8726,7 +8967,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T04:18:27+00:00"
+   "first_seen": "2026-11-18T04:18:27+00:00",
+   "stale": true
   },
   {
    "id": "wd:asml:J-00357005",
@@ -9698,7 +9940,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:ibwujb:10491",
@@ -10379,7 +10622,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:avav:9104",
@@ -11107,7 +11351,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01877708",
@@ -11166,7 +11411,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "gh:rendezvousrobotics:4408601009",
@@ -11835,7 +12081,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T21:29:24+00:00"
+   "first_seen": "2026-11-12T21:29:24+00:00",
+   "stale": true
   },
   {
    "id": "gh:rocketlab:8007202003",
@@ -13074,7 +13321,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-19T20:10:58+00:00"
+   "first_seen": "2026-11-19T20:10:58+00:00",
+   "stale": true
   },
   {
    "id": "wd:kla:2642439",
@@ -13562,7 +13810,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ab:bedrock-robotics:949feb1b-c60f-43c5-94de-7dd9cd70ba4a",
@@ -13739,7 +13988,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:graco:R0023550",
@@ -13861,7 +14111,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:micron:JR117336",
@@ -14042,7 +14293,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-28T19:53:28+00:00"
+   "first_seen": "2026-10-28T19:53:28+00:00",
+   "stale": true
   },
   {
    "id": "or:ibwujb:10680",
@@ -14802,7 +15054,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:vermeer:REQ-22139",
@@ -14865,7 +15118,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-14T01:17:06+00:00"
+   "first_seen": "2026-10-14T01:17:06+00:00",
+   "stale": true
   },
   {
    "id": "wd:avav:9253",
@@ -16302,7 +16556,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ls:04543f6c-1d02-4612-b3ae-e9955fc11ad9",
@@ -16602,7 +16857,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ab:skydio:6e76d5fa-981e-4986-955b-602aa6ddcb1b",
@@ -16952,7 +17208,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ls:26e816da-9dba-4778-81d4-c9a9d4b0fb1d",
@@ -17287,7 +17544,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3095747",
@@ -17413,7 +17671,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T18:36:25+00:00"
+   "first_seen": "2026-11-16T18:36:25+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01887898",
@@ -17476,7 +17735,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T18:36:25+00:00"
+   "first_seen": "2026-11-16T18:36:25+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000161820109",
@@ -17598,7 +17858,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T18:49:03+00:00"
+   "first_seen": "2026-11-12T18:49:03+00:00",
+   "stale": true
   },
   {
    "id": "gh:vardaspace:8010172003",
@@ -17724,7 +17985,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:asml:J-00357416",
@@ -18648,7 +18910,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T17:56:24+00:00"
+   "first_seen": "2026-11-16T17:56:24+00:00",
+   "stale": true
   },
   {
    "id": "ab:skydio:8f4f62b0-a2ea-498d-b78f-6f661b724a3c",
@@ -18829,7 +19092,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "wd:asml:J-00355220",
@@ -20527,7 +20791,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T23:13:02+00:00"
+   "first_seen": "2026-11-18T23:13:02+00:00",
+   "stale": true
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1427822300",
@@ -21400,7 +21665,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T18:16:25+00:00"
+   "first_seen": "2026-11-16T18:16:25+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01887902",
@@ -21459,7 +21725,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T18:16:25+00:00"
+   "first_seen": "2026-11-16T18:16:25+00:00",
+   "stale": true
   },
   {
    "id": "ab:reliable-robotics:6112c488-7072-4ce3-8c0f-645faa0e7cf9",
@@ -21954,7 +22221,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:hpiq:6230959004",
@@ -22525,7 +22793,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:onto:R-5723",
@@ -23366,7 +23635,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T18:52:36+00:00"
+   "first_seen": "2026-11-18T18:52:36+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01873642",
@@ -23413,7 +23683,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T16:15:41+00:00"
+   "first_seen": "2026-11-18T16:15:41+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01889105",
@@ -23468,7 +23739,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T04:24:19+00:00"
+   "first_seen": "2026-11-16T04:24:19+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01871284",
@@ -23523,7 +23795,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-04T17:56:18+00:00"
+   "first_seen": "2026-11-04T17:56:18+00:00",
+   "stale": true
   },
   {
    "id": "gh:rocketlab:7990138003",
@@ -23700,7 +23973,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20279601",
@@ -24823,7 +25097,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T14:51:04+00:00"
+   "first_seen": "2026-11-12T14:51:04+00:00",
+   "stale": true
   },
   {
    "id": "jb:jobs.keysight.com:55112",
@@ -24988,7 +25263,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T19:52:43+00:00"
+   "first_seen": "2026-11-18T19:52:43+00:00",
+   "stale": true
   },
   {
    "id": "or:ibwujb:11292",
@@ -25679,7 +25955,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalfoundries:JR-2604595",
@@ -26194,7 +26471,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T14:31:00+00:00"
+   "first_seen": "2026-11-12T14:31:00+00:00",
+   "stale": true
   },
   {
    "id": "wd:sbdinc:REQ-1000052666",
@@ -26249,7 +26527,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:sbdinc:REQ-1000052665",
@@ -26304,7 +26583,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:stratolaunch:5467824008",
@@ -26666,7 +26946,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:elkay:REQ-020096",
@@ -26721,7 +27002,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:amat:R2626710",
@@ -27342,7 +27624,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T23:28:52+00:00"
+   "first_seen": "2026-10-13T23:28:52+00:00",
+   "stale": true
   },
   {
    "id": "wd:hp:3166958",
@@ -27405,7 +27688,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ls:98c93e4d-d69f-43ac-9025-baa14882beb2",
@@ -27940,7 +28224,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-17T16:41:27+00:00"
+   "first_seen": "2026-11-17T16:41:27+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01879869",
@@ -27995,7 +28280,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-26T21:42:53+00:00"
+   "first_seen": "2026-10-26T21:42:53+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000162651399",
@@ -28847,7 +29133,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:kla:2642999",
@@ -29177,8 +29464,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:globalhr:01873971",
@@ -29229,7 +29515,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T04:24:19+00:00"
+   "first_seen": "2026-11-16T04:24:19+00:00",
+   "stale": true
   },
   {
    "id": "gh:rocketlab:7986748003",
@@ -30006,7 +30293,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:hp:3167904",
@@ -30061,7 +30349,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "jb:jobs.keysight.com:54325",
@@ -30544,7 +30833,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-22T06:35:54+00:00"
+   "first_seen": "2026-10-22T06:35:54+00:00",
+   "stale": true
   },
   {
    "id": "ef:ralliant.com:11168",
@@ -30654,7 +30944,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sf:careers.bwxt.com:1452449200",
@@ -31019,7 +31310,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sf:jobs.l3harris.com:1421661000",
@@ -31400,7 +31692,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:ibwujb:11168",
@@ -31608,7 +31901,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T23:13:02+00:00"
+   "first_seen": "2026-11-18T23:13:02+00:00",
+   "stale": true
   },
   {
    "id": "wd:sierraspace:R26566",
@@ -31655,7 +31949,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T23:13:02+00:00"
+   "first_seen": "2026-11-18T23:13:02+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20279257",
@@ -32447,7 +32742,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:hitachi:R0144979",
@@ -33102,7 +33398,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-20T16:43:15+00:00"
+   "first_seen": "2026-11-20T16:43:15+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01873117",
@@ -33157,7 +33454,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "gh:rocketlab:7984600003",
@@ -33275,7 +33573,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T22:29:24+00:00"
+   "first_seen": "2026-11-12T22:29:24+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17581",
@@ -33338,7 +33637,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:thermofisher:R-01366624",
@@ -33397,7 +33697,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:tranetechnologies:JR-10172",
@@ -33566,7 +33867,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T04:13:50+00:00"
+   "first_seen": "2026-11-12T04:13:50+00:00",
+   "stale": true
   },
   {
    "id": "sr:WesternDigital:744000149106240",
@@ -34421,7 +34723,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-14T01:17:06+00:00"
+   "first_seen": "2026-10-14T01:17:06+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01875840",
@@ -34460,7 +34763,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T17:16:34+00:00"
+   "first_seen": "2026-11-16T17:16:34+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01886102",
@@ -34523,7 +34827,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01885605",
@@ -34570,7 +34875,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-28T19:53:28+00:00"
+   "first_seen": "2026-10-28T19:53:28+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01881739",
@@ -34625,7 +34931,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000162250009",
@@ -34951,7 +35258,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:avav:8537",
@@ -35410,7 +35718,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T13:49:44+00:00"
+   "first_seen": "2026-11-16T13:49:44+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalfoundries:JR-2604644",
@@ -35947,7 +36256,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01868917",
@@ -36002,7 +36312,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T23:28:52+00:00"
+   "first_seen": "2026-10-13T23:28:52+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000153856764",
@@ -36112,7 +36423,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17845",
@@ -36167,7 +36479,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:thermofisher:R-01366623",
@@ -36218,7 +36531,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20279302",
@@ -36610,7 +36924,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:graco:R0023592",
@@ -37210,7 +37525,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T19:52:43+00:00"
+   "first_seen": "2026-11-18T19:52:43+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01889626",
@@ -37253,7 +37569,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T15:55:37+00:00"
+   "first_seen": "2026-11-18T15:55:37+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01873973",
@@ -37304,7 +37621,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000158491032",
@@ -37449,7 +37767,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T15:55:37+00:00"
+   "first_seen": "2026-11-18T15:55:37+00:00",
+   "stale": true
   },
   {
    "id": "wd:stryker:R572628",
@@ -37500,7 +37819,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17050",
@@ -37555,7 +37875,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17101",
@@ -37614,7 +37935,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:thermofisher:R-01367368",
@@ -37661,7 +37983,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-13T19:00:13+00:00"
+   "first_seen": "2026-11-13T19:00:13+00:00",
+   "stale": true
   },
   {
    "id": "gh:vast:4711400006",
@@ -37763,7 +38086,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "gh:flyzipline:7903889003",
@@ -38558,7 +38882,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "lv:hermeus:60b5d40a-1065-4bd2-8c72-6b2fb69d4761",
@@ -38656,7 +38981,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T02:33:38+00:00"
+   "first_seen": "2026-11-12T02:33:38+00:00",
+   "stale": true
   },
   {
    "id": "ls:28325b34-233e-4a6c-82ea-dc18075fc6ff",
@@ -39257,7 +39583,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ab:skydio:3eb06d6e-b6f0-4814-a80a-f1c43075873b",
@@ -39351,7 +39678,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:sbdinc:REQ-1000052836",
@@ -39398,7 +39726,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T04:13:50+00:00"
+   "first_seen": "2026-11-12T04:13:50+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20279286",
@@ -40328,7 +40657,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01868438",
@@ -40383,7 +40713,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:stratolaunch:5467828008",
@@ -40595,7 +40926,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:bloomenergy:JR-25368",
@@ -40893,7 +41225,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalfoundries:JR-2604666",
@@ -41485,8 +41818,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:oshkoshcorporation:R51334",
@@ -41545,7 +41877,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:pacificfusion:4505730009",
@@ -41690,7 +42023,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01886463",
@@ -41737,7 +42071,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01886462",
@@ -41784,7 +42119,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01886455",
@@ -41831,7 +42167,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01871552",
@@ -41882,7 +42219,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T23:28:52+00:00"
+   "first_seen": "2026-10-13T23:28:52+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000148253129",
@@ -42035,7 +42373,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:sierraspace:R26562",
@@ -42078,7 +42417,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T23:13:02+00:00"
+   "first_seen": "2026-11-18T23:13:02+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17153",
@@ -42133,7 +42473,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:ursamajor:4754182005",
@@ -42227,7 +42568,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ph:jobs.baesystems.com:131949BR",
@@ -43250,7 +43592,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ls:220a78f8-7573-4c62-aa11-60c358390930",
@@ -43627,7 +43970,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000159548369",
@@ -44173,7 +44517,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-14T01:17:06+00:00"
+   "first_seen": "2026-10-14T01:17:06+00:00",
+   "stale": true
   },
   {
    "id": "or:hctz:2506292",
@@ -45085,7 +45430,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:icfcjb:121424",
@@ -45485,7 +45831,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:pg:R000159711",
@@ -45532,7 +45879,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T23:28:52+00:00"
+   "first_seen": "2026-10-13T23:28:52+00:00",
+   "stale": true
   },
   {
    "id": "ab:regent:1197920e-95f8-42e9-b4a6-1c40ec7137bd",
@@ -45846,7 +46194,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-19T22:09:05+00:00"
+   "first_seen": "2026-11-19T22:09:05+00:00",
+   "stale": true
   },
   {
    "id": "wd:sierraspace:R26569",
@@ -45885,7 +46234,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-18T23:13:02+00:00"
+   "first_seen": "2026-11-18T23:13:02+00:00",
+   "stale": true
   },
   {
    "id": "wd:sierraspace:R26585",
@@ -45924,7 +46274,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-19T22:09:05+00:00"
+   "first_seen": "2026-11-19T22:09:05+00:00",
+   "stale": true
   },
   {
    "id": "sr:Solidigm:744000147613839",
@@ -47220,7 +47571,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "lv:pivotal:9aeda482-373d-4916-82a6-180748708ac2",
@@ -47565,7 +47917,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "wd:xenergy:R101358",
@@ -47620,7 +47973,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "lv:zoox:9fdd6600-099c-45e3-beab-f0ec7dbc296a",
@@ -48415,7 +48769,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T23:28:52+00:00"
+   "first_seen": "2026-10-13T23:28:52+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01874945",
@@ -48458,7 +48813,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01879983",
@@ -48501,7 +48857,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:rocketlab:7988835003",
@@ -48654,7 +49011,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "rp:type-one-energy-group:f2197e39-1718-433f-8272-ab94ecfa02e6",
@@ -49981,7 +50339,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01879966",
@@ -50028,7 +50387,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01879934",
@@ -50075,7 +50435,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01874003",
@@ -50122,7 +50483,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01870331",
@@ -50169,7 +50531,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01871508",
@@ -50216,7 +50579,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01869258",
@@ -50263,7 +50627,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01872686",
@@ -50318,7 +50683,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000162677751",
@@ -50608,7 +50974,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-14T01:17:06+00:00"
+   "first_seen": "2026-10-14T01:17:06+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20278671",
@@ -51583,7 +51950,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:pg:R000160920",
@@ -51622,7 +51990,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01878549",
@@ -51669,7 +52038,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01873686",
@@ -51720,7 +52090,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01872240",
@@ -51771,7 +52142,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000159329649",
@@ -51951,7 +52323,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sf:careers.agcocorp.com:1425058000",
@@ -53420,7 +53793,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:pg:R000160922",
@@ -53459,7 +53833,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:pg:R000157745",
@@ -53506,7 +53881,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000161018189",
@@ -55006,7 +55382,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-15T01:38:24+00:00"
+   "first_seen": "2026-11-15T01:38:24+00:00",
+   "stale": true
   },
   {
    "id": "ab:saronic:fc6124a1-85a2-4c3f-82f5-4534ae443411",
@@ -55092,7 +55469,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17059",
@@ -55147,7 +55525,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:tranetechnologies:JR-15416",
@@ -55718,7 +56097,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalfoundries:JR-2604238",
@@ -55878,7 +56258,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:hpe:1213403",
@@ -55925,7 +56306,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:hpe:1214127",
@@ -55968,7 +56350,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:hitachi:R0142887",
@@ -56286,7 +56669,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R49491",
@@ -56345,7 +56729,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:pg:R000157808",
@@ -56388,7 +56773,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01872651",
@@ -56435,7 +56821,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01872672",
@@ -56482,7 +56869,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01872668",
@@ -56529,7 +56917,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000162077116",
@@ -56697,7 +57086,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:stokespacetechnologies:6175828004",
@@ -57817,7 +58207,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01878041",
@@ -57876,7 +58267,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01864777",
@@ -57927,7 +58319,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000162572110",
@@ -58158,7 +58551,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:sbdinc:REQ-1000052705",
@@ -58205,7 +58599,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:sbdinc:REQ-1000052823",
@@ -58252,7 +58647,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:tranetechnologies:JR-8542",
@@ -58342,7 +58738,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1452384000",
@@ -59276,8 +59673,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:oshkoshcorporation:R49622",
@@ -59320,7 +59716,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R51145",
@@ -59367,7 +59764,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01887651",
@@ -59402,7 +59800,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01887663",
@@ -59437,7 +59836,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000160125134",
@@ -59582,7 +59982,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20279284",
@@ -59758,7 +60159,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sf:careers.agcocorp.com:1431781800",
@@ -60042,53 +60444,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "ef:lamresearch.com:203234",
-   "title": "Quality Engineering Intern 1",
-   "location": "Lancaster, VIC, AU",
-   "url": "https://careers.lamresearch.com/careers/job/1099555572956",
-   "posted": "2026-09-01",
-   "body": "The group you\u2019ll be a part of Quality Department The impact you\u2019ll make Joining our Quality team is an exciting opportunity to contribute, maintaining and improving world-class standards. You will play a key role in supporting quality initiatives, analyzing process performance, and driving continuous improvement across manufacturing and business operations. Your work will help ensure compliance, enhance customer satisfaction, and strengthen our commitment to excellence. What you\u2019ll do Partner with Quality Engineers to perform product audits. Support Quality Engineers to compile and report quality performance. Perform data analysis to identify trends and opportunities to improve the Quality performance. Partner with Quality Engineers to drive quality improvement programs/efforts. Communicating regularly with manager to track project status and identify potential issues. Assist Quality Engineers in Quality investigation. Who we\u2019re looking for Degree course in science/engineering or equivalent. Excellent analytical & problem-solving skills. Strong communication and interpersonal skills, written and verbal. Ability to work in a cleanroom environment, wearing personal protective safety equipment and cleanroom suit. Proficient in Microsoft Office mainly Excel, Words and Power Points. Working knowledge of AI tools. Min 6 months Internship period. Preferred qualifications Power BI, Microsoft Power Apps Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
-   "season": "unstated",
-   "company": "Lam Research",
-   "src": "Lam Research",
-   "score": {
-    "total": 16,
-    "base": 24,
-    "fit": 4,
-    "loc": 0,
-    "traj": 18,
-    "pay": 2,
-    "rate": [
-     29.75,
-     48.25
-    ],
-    "rate_src": "company",
-    "fresh": -8,
-    "age": 81.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "title: quality",
-      3
-     ],
-     [
-      "est. pay $39/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "or:iadugs:509",
    "title": "Intern Hardware Engineer",
    "location": "Blumenau, SC, Brazil; Brazil",
@@ -60352,7 +60707,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R49782",
@@ -60395,7 +60751,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R49815",
@@ -60438,7 +60795,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R49830",
@@ -60485,7 +60843,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:pg:R000161774",
@@ -60528,7 +60887,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000162502960",
@@ -60661,7 +61021,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T19:50:35+00:00"
+   "first_seen": "2026-11-16T19:50:35+00:00",
+   "stale": true
   },
   {
    "id": "wd:snc:R0031370",
@@ -60704,7 +61065,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:sbdinc:REQ-1000052306",
@@ -60747,7 +61109,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17320",
@@ -60790,7 +61153,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:nvent:R23532",
@@ -60837,7 +61201,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:nvent:R23541",
@@ -60884,7 +61249,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:avav:8618",
@@ -61119,7 +61485,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:icfcjb:121418",
@@ -61499,7 +61866,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17449",
@@ -61542,7 +61910,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:tranetechnologies:JR-18650",
@@ -62187,7 +62556,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000159348179",
@@ -62277,7 +62647,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:thermofisher:R-01366625",
@@ -62320,7 +62691,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:tranetechnologies:JR-8957",
@@ -62914,7 +63286,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000156335389",
@@ -63000,7 +63373,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:symbotic:R8374",
@@ -63133,7 +63507,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17231",
@@ -63180,7 +63555,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:thermofisher:R-01366588",
@@ -63227,7 +63603,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20279142",
@@ -63313,7 +63690,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1439182900",
@@ -63399,7 +63777,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:borgwarner:R2026-3431",
@@ -63868,7 +64247,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R49781",
@@ -63911,7 +64291,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:pg:R000157659",
@@ -63954,7 +64335,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000155976242",
@@ -64654,7 +65036,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R49914",
@@ -64701,7 +65084,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:polaris:R30718",
@@ -64748,7 +65132,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3097525",
@@ -64916,7 +65301,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:thermofisher:R-01366629",
@@ -64963,7 +65349,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:thermofisher:R-01366628",
@@ -65010,7 +65397,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "gh:ursamajor:4746887005",
@@ -65131,7 +65519,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:wattswater:10017515",
@@ -65178,7 +65567,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:WesternDigital:744000141175090",
@@ -65272,7 +65662,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:elkay:REQ-020072",
@@ -65315,7 +65706,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:elkay:REQ-020075",
@@ -65358,7 +65750,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:borgwarner:R2026-4042",
@@ -65573,7 +65966,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:hpe:1213641",
@@ -65612,7 +66006,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:icfcjb:120537",
@@ -66023,7 +66418,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000160791919",
@@ -66183,7 +66579,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "jb:careers.spiritaero.com:17513",
@@ -66347,7 +66744,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:AveryDennison:744000153738779",
@@ -66593,7 +66991,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000159895019",
@@ -66949,7 +67348,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sf:careers.westinghousenuclear.com:1447267500",
@@ -67457,7 +67857,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R49702",
@@ -67504,7 +67905,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R49743",
@@ -67547,7 +67949,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:thermofisher:R-01366580",
@@ -67590,7 +67993,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:wabtec:3743990014652807",
@@ -68247,7 +68651,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000158032538",
@@ -68372,7 +68777,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:elkay:REQ-020175",
@@ -68419,7 +68825,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:hdjq:26009955",
@@ -68845,7 +69252,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R51239",
@@ -68888,7 +69296,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R51238",
@@ -68931,7 +69340,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000149868802",
@@ -69052,7 +69462,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17610",
@@ -69091,7 +69502,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20279289",
@@ -69212,7 +69624,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:AveryDennison:744000144153141",
@@ -69341,7 +69754,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:sbdinc:REQ-1000052850",
@@ -69376,7 +69790,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17379",
@@ -69415,7 +69830,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:vermeer:REQ-22140",
@@ -69454,7 +69870,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:xenergy:R101322",
@@ -69489,7 +69906,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:xenergy:R101364",
@@ -69524,7 +69942,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:caci:330557",
@@ -69770,8 +70189,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "gh:peakenergy:5226291007",
@@ -69978,7 +70396,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:borgwarner:R2026-3555",
@@ -70064,7 +70483,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:hitachi:R0142889",
@@ -70271,7 +70691,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:oshkoshcorporation:R49826",
@@ -70310,7 +70731,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:polaris:R31550",
@@ -70353,7 +70775,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:abbott:31160729",
@@ -70685,7 +71108,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:tranetechnologies:JR-15936",
@@ -70970,7 +71394,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ef:eaton.com:73091",
@@ -71091,7 +71516,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000151301569",
@@ -71501,7 +71927,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:ttc:JR17214",
@@ -71536,7 +71963,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:wattswater:10017356",
@@ -71571,7 +71999,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000148967459",
@@ -73562,69 +73991,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "General Motors",
-   "title": "2027 Summer Intern - Automotive Technician",
-   "location": "Milford, Michigan, United States of America",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Milford-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Automotive-Technician_JR-202624129",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "General Motors",
-   "title": "2027 Summer Intern - Clay Sculpting",
-   "location": "Warren, Michigan, United States of America; Pasadena, California, United States of America",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Clay-Sculpting_JR-202619287",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "General Motors",
-   "title": "2027 Summer Intern - Creative Design (Interior/Exterior)",
-   "location": "Warren, Michigan, United States of America; Pasadena, California, United States of America",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Creative-Design--Interior-Exterior-_JR-202619314",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "General Motors",
-   "title": "2027 Summer Intern - Field Sales Operations Internship \u2013 District Manager, Parts & Service",
-   "location": "Warren, Michigan, United States of America; Alpharetta US-SSM Southeast Regional Office - Alpharetta US-SSM Southeast Regional Office; Westlake Village US-SSM Western Regional Office - Westlake Village US-SSM Western Regional Office; Coppell US-SSM South Central Regional Office - Coppell US-SSM South Central Regional Office; Danbury US-SSM Northeast Regional Office 2 - Danbury US-SSM Northeast Regional Office 2",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Field-Sales-Operations-Internship---District-Manager--Parts---Service_JR-202619666",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "General Motors",
-   "title": "2027 Summer Intern - GM OneOps Deploy Engineer",
-   "location": "Warren, Michigan, United States of America",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---GM-OneOps-Deploy-Engineer_JR-202621896",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "General Motors",
-   "title": "2027 Summer Intern - Global Workplace Safety",
-   "location": "Warren, Michigan, United States of America",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Global-Workplace-Safety_JR-202619201",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "General Motors",
-   "title": "2027 Summer Intern - Systems/Calibration Engineer, ADAS Drive",
-   "location": "Milford, Michigan, United States of America",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Milford-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Systems-Calibration-Engineer--ADAS-Drive_JR-202621623",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "General Motors",
-   "title": "2027 Summer Intern \u2013 AI & Hardware Analytics, ADPT",
-   "location": "Warren, Michigan, United States of America; Milford, Michigan, United States of America",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---AI---Hardware-Analytics--ADPT_JR-202621756",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "General Motors",
-   "title": "Summer 2027 Intern - Industrial Design",
-   "location": "Warren, Michigan, United States of America",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Summer-2027-Intern---Industrial-Design_JR-202621626",
-   "reason": "no mechanical signal"
-  },
-  {
    "company": "GlobalFoundries",
    "title": "Commercial Agreements Legal Intern (2027 Summer)",
    "location": "USA - Vermont - Essex Junction, United States of America",
@@ -73877,48 +74243,6 @@
    "reason": "no mechanical signal"
   },
   {
-   "company": "HP Inc.",
-   "title": "Enterprise Operations Business Internship",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Business-Internship_3166959-2",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "HP Inc.",
-   "title": "Strategy Intern",
-   "location": "Palo Alto, California, United States of America",
-   "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Palo-Alto-California-United-States-of-America/Strategy-Intern_UNI4672-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "HP Inc.",
-   "title": "Strategy Intern",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Strategy-Intern_UNI4673-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "HP Inc. (workday)",
-   "title": "Enterprise Operations Business Internship",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Business-Internship_3166959-1",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "HP Inc. (workday)",
-   "title": "Strategy Intern",
-   "location": "Palo Alto, California, United States of America",
-   "url": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Palo-Alto-California-United-States-of-America/Strategy-Intern_UNI4672",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "HP Inc. (workday)",
-   "title": "Strategy Intern",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Spring-Texas-United-States-of-America/Strategy-Intern_UNI4673",
-   "reason": "no mechanical signal"
-  },
-  {
    "company": "HPR (Hyannis Port Research)",
    "title": "FPGA Engineering Intern - Summer 2027",
    "location": "Needham, MA",
@@ -73938,153 +74262,6 @@
    "location": "Everett, WA",
    "url": "https://jobs.ashbyhq.com/helion/fdf8229e-34e4-45f2-b97e-57d056f46a31",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "ASIC Engineer Intern",
-   "location": "Sunnyvale, California, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/ASIC-Engineer-Intern_1216555",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Account Operations Management Intern",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Account-Operations-Management-Intern_1213059",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Account Operations Management Intern.",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Account-Operations-Management-Intern_1213072",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Electrical Engineer Intern",
-   "location": "Chippewa Falls, Wisconsin, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Electrical-Engineer-Intern_1213420",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Electrical Engineering Intern",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Mechanical-Engineer-Intern_1213393",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Electrical Hardware Engineering Intern",
-   "location": "Chippewa Falls, Wisconsin, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Electrical-Hardware-Engineering-Intern_1213409",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Electrical Hardware Engineering Intern",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213421",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "GMC Brand & Corporate Marketing Intern",
-   "location": "San Jose, California, United States of America; Houston, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/GMC-Brand---Corporate-Marketing-Intern_1213635",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "GMC Field & Partner Marketing Intern",
-   "location": "San Jose, California, United States of America; Houston, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California/GMC-Field---Partner-Marketing-Intern_1213638",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "GMC Finance & Operations Intern",
-   "location": "San Jose, California, United States of America; Houston, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/GMC-Finance---Operations-Intern_1213363",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "GMC Global Communications Intern",
-   "location": "San Jose, California, United States of America; Houston, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/GMC-Global-Communications-Intern_1213637",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "GMC Product & Solutions Marketing Intern",
-   "location": "San Jose, California, United States of America; Houston, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/GMC-Product---Solutions-Marketing-Intern_1213372",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Go-to-Market - Project Manager Intern",
-   "location": "Spring, Texas, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Go-to-Market---Project-Manager-Intern_1216628",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Infrastructure Deployment Automation Intern",
-   "location": "Bloomington, Minnesota, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bloomington-Minnesota-United-States-of-America/Infrastructure-Deployment-Automation-Intern_1213406",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Network Engineering Intern",
-   "location": "San Juan, Puerto Rico, Puerto Rico",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Juan-Puerto-Rico-Puerto-Rico/Network-Engineering-Intern_1218251",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Pre-Silicon Diagnostics Intern",
-   "location": "Ft. Collins, Colorado, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Pre-Silicon-Diagnostics-Intern_1213394",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Process & Operations Transformation Intern",
-   "location": "Spring, Texas, United States of America; Berkeley Heights, New Jersey, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Process---Operations-Transformation-Intern_1218731",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Procurement operation analyst - Internship",
-   "location": "Aguadilla, Puerto Rico, Puerto Rico",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Aguadilla-Puerto-Rico-Puerto-Rico/Procurement-operation-analyst---Internship_1213035",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Technology Consulting Intern",
-   "location": "Ariana, Ariana, Tunisia",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ariana-Ariana-Tunisia/Technology-Consulting-Intern_1216281",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "VLSI Design Verification Intern",
-   "location": "Ft. Collins, Colorado, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/VLSI-Design-Verification-Intern_1213399",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Hewlett Packard Enterprise",
-   "title": "Wireless Hardware Engineering Intern",
-   "location": "San Jose, California, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/Wireless-Hardware-Engineering-Intern_1218701",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Hexcel",
@@ -74374,13 +74551,6 @@
    "reason": "no mechanical signal"
   },
   {
-   "company": "IDEX",
-   "title": "Sourcing Intern",
-   "location": "Rutherford, New Jersey, United States of America",
-   "url": "https://idexcorp.wd5.myworkdayjobs.com/IDEX_Careers/job/Rutherford-New-Jersey/Sourcing-Intern_R-10388",
-   "reason": "no mechanical signal"
-  },
-  {
    "company": "IMC Trading",
    "title": "Research Analyst Intern - Summer 2027",
    "location": "Chicago, United States",
@@ -74490,69 +74660,6 @@
    "title": "Purchasing Intern (Part-Time)",
    "location": "St. Petersburg/Tampa, FL, United States of America",
    "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Purchasing-Intern--Part-Time-_J2468450",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Accounting & Finance Intern",
-   "location": "Milwaukee-Wisconsin-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Milwaukee-Wisconsin-United-States-of-America/Accounting---Finance-Intern_WD30278457",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "BEST Sales Intern - HVAC",
-   "location": "Irving-Texas-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Irving-Texas-United-States-of-America/BEST-Sales-Intern---HVAC_WD30285364",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "BEST Sales Intern - HVAC",
-   "location": "Irving-Texas-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Irving-Texas-United-States-of-America/BEST-Sales-Intern---HVAC_WD30285253",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "BEST Sales Intern - HVAC",
-   "location": "Irving-Texas-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Irving-Texas-United-States-of-America/BEST-Sales-Intern---HVAC_WD30285251",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Best Sales Intern - Fire Systems",
-   "location": "Rocky Hill-Connecticut-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Rocky-Hill-Connecticut-United-States-of-America/Best-Sales-Intern---Fire-Systems_WD30285034",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Controls Tech Intern",
-   "location": "Columbia-South Carolina-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Columbia-South-Carolina-United-States-of-America/Controls-Tech-Intern_WD30283265-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Legal Intern",
-   "location": "Milwaukee-Wisconsin-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Milwaukee-Wisconsin-United-States-of-America/Legal-Intern_WD30283959",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Supply Chain & Operations Intern",
-   "location": "Lubbock-Texas-United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Lubbock-Texas-United-States-of-America/Supply-Chain-Intern_WD30278671",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Supply Chain Intern",
-   "location": "Airside Center of Excellence, United States of America",
-   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Airside-Center-of-Excellence/Supply-Chain-Intern_WD30278669",
    "reason": "non-ME discipline"
   },
   {
@@ -75592,38 +75699,31 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "NVIDIA",
-   "title": "Cost Accountant Intern, Global Operations and Manufacturing - Summer 2027",
-   "location": "US, CA, Santa Clara, United States of America",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Cost-Accountant-Intern--Global-Operations-and-Manufacturing---Summer-2027_JR2028934-1",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "NVIDIA",
-   "title": "Financial Analyst Intern, Hardware FP&A - Summer 2027",
-   "location": "US, CA, Santa Clara, United States of America",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Financial-Analyst-Intern--Hardware-FP-A---Summer-2027_JR2029523-1",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "NVIDIA",
-   "title": "Math Libraries Intern, cuEST - Summer 2027",
-   "location": "US, CA, Santa Clara, United States of America",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Math-Libraries-Intern--cuEST---Summer-2027_JR2028449",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "NVIDIA",
-   "title": "Product Marketing Intern, DGX Products - Summer 2027",
-   "location": "US, CA, Santa Clara, United States of America",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Marketing-Intern--DGX-Products---Summer-2027_JR2029456-1",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Neuralink",
    "title": "Histopathology Intern",
    "location": "Austin, Texas, United States",
    "url": "https://boards.greenhouse.io/neuralink/jobs/8020751003?gh_jid=8020751003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Nordson",
+   "title": "Human Resources Intern",
+   "location": "USA - South Carolina - Clinton, United States of America",
+   "url": "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---South-Carolina---Clinton/Human-Resources-Intern_REQ53358",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Nordson",
+   "title": "Marketing Intern",
+   "location": "USA - South Carolina - Clinton, United States of America",
+   "url": "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---South-Carolina---Clinton/Marketing-Intern_REQ53356",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Nordson",
+   "title": "Supply Chain Intern",
+   "location": "USA - South Carolina - Clinton, United States of America",
+   "url": "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---South-Carolina---Clinton/Supply-Chain-Intern_REQ53357",
    "reason": "non-ME discipline"
   },
   {
@@ -75646,195 +75746,6 @@
    "location": "Torrance, CA",
    "url": "https://jobs.ashbyhq.com/northwoodspace/7bfa4ec0-7d5a-475b-aa2b-0cd0741e1549",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Accounting Intern (Summer 2027)",
-   "location": "Roy, Utah, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Roy-Utah-United-States/Accounting-Intern--Summer-2027-_R49803",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Aftermarket Supply Chain Intern - Summer 2027",
-   "location": "Hagerstown, Maryland, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Hagerstown-Maryland-United-States/Aftermarket-Supply-Chain-Intern_R49668",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Design Intern - Electrical (Year Round)",
-   "location": "Appleton, Wisconsin, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Appleton-Wisconsin-United-States/Design-Intern---Electrical--Year-Round-_R49969",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Digital Technology Intern",
-   "location": "Spartanburg, South Carolina, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Spartanburg-South-Carolina-United-States/Digital-Technology-Intern_R51072",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Engineer Intern - Electrical (Summer 2027)",
-   "location": "Garner, Iowa, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Garner-Iowa-United-States/Engineer-Intern---Electrical--Summer-2027-_R49814",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Engineer Intern - Electrical (Summer 2027)",
-   "location": "Neenah, Wisconsin, United States, United States of America; Oshkosh, Wisconsin, United States",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Neenah-Wisconsin-United-States/Engineer-Intern---Electrical--Summer-2027-_R49735",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Environmental Intern",
-   "location": "McConnellsburg, Pennsylvania, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/McConnellsburg-Pennsylvania-United-States/Environmental-Intern_R49621",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Finance & Accounting Intern",
-   "location": "Oshkosh, Wisconsin, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Finance---Accounting-Intern_R50271",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Finance & Accounting Intern (Summer 2027)",
-   "location": "Appleton, Wisconsin, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Appleton-Wisconsin-United-States/Finance---Accounting-Intern--Summer-2027-_R50186",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Human Resources Intern",
-   "location": "Spartanburg, South Carolina, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Spartanburg-South-Carolina-United-States/Human-Resources-Intern_R51198",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "International Finance Intern (Year Round)",
-   "location": "Oshkosh, Wisconsin, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/International-Finance-Intern--Year-Round-_R51139",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "MRO Supply Chain Intern - Summer 2027",
-   "location": "Hagerstown, Maryland, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Hagerstown-Maryland-United-States/MRO-Supply-Chain-Intern---Summer-2027_R49938",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Marketing & Communications Intern (Year Round)",
-   "location": "Oshkosh, Wisconsin, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Marketing---Communications-Intern--Year-Round-_R50066",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Materials Intern",
-   "location": "Bedford, Pennsylvania, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Bedford-Pennsylvania-United-States/Materials-Intern_R49701",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Occupational Safety Intern (Summer 2027)",
-   "location": "Dodge Center, Minnesota, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Dodge-Center-Minnesota-United-States/Occupational-Safety-Intern--Summer-2027-_R49795-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Operations Management Intern (Summer 2027)",
-   "location": "Murfreesboro, Tennessee, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Murfreesboro-Tennessee-United-States/Operations-Management-Intern_R49882",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Operations Supervisor Intern",
-   "location": "Oshkosh, Wisconsin, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Operations-Supervisor-Intern_R50090",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Pricing Analyst Intern (Summer 2027)",
-   "location": "Orlando, Florida, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Orlando-Florida-United-States/Pricing-Analyst-Intern--Summer-2027-_R49825",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Pricing Analyst Intern (Summer 2027)",
-   "location": "Roy, Utah, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Roy-Utah-United-States/Pricing-Analyst-Intern--Summer-2027-_R49838",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Product Management Intern",
-   "location": "Hagerstown, Maryland, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Hagerstown-Maryland-United-States/Product-Management-Intern_R49414",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Product Management Intern (Summer 2027)",
-   "location": "Appleton, Wisconsin, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Appleton-Wisconsin-United-States/Product-Management-Intern--Summer-2027-_R49746",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Product Safety Training Intern",
-   "location": "McConnellsburg, Pennsylvania, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/McConnellsburg-Pennsylvania-United-States/Training-Intern_R49494",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Purchasing Intern (Summer 2027)",
-   "location": "Murfreesboro, Tennessee, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Murfreesboro-Tennessee-United-States/Purchasing-Intern--Summer-2026-_R50357",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Purchasing Intern (Summer 2027)",
-   "location": "Dodge Center, Minnesota, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Dodge-Center-Minnesota-United-States/Purchasing-Intern--Summer-2027-_R49797",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Simplification Intern",
-   "location": "Oshkosh, Wisconsin, United States, United States of America; Warren, Michigan, United States",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Simplification-Intern_R50672",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Strategic Sourcing Intern (Summer 2027)",
-   "location": "Dodge Center, Minnesota, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Dodge-Center-Minnesota-United-States/Strategic-Sourcing-Intern--Summer-2027-_R49800",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Oshkosh",
-   "title": "Welder - Technical Student - Tuition Reimbursement Program",
-   "location": "McConnellsburg, Pennsylvania, United States, United States of America",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/McConnellsburg-Pennsylvania-United-States/Welder---Technical-Student---Tuition-Reimbursement-Program_R51097",
-   "reason": "no mechanical signal"
   },
   {
    "company": "PA Consulting",
@@ -75879,129 +75790,10 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Philips",
-   "title": "Intern \u2013 Electrical Engineer \u2013 San Diego, CA \u2013 Summer 2027",
-   "location": "San Diego, California, United States, United States of America",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/San-Diego-California-United-States/Intern---Electrical-Engineer---San-Diego--CA---Summer-2027_594811",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Philips",
-   "title": "Intern \u2013\u00a0Marketing Operations - Cambridge, MA \u2013 Summer 2027",
-   "location": "Cambridge (US), Massachusetts, United States, United States of America",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Intern---Marketing-Operations---Cambridge--MA---Summer-2027_593642",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Pivotal Aero",
    "title": "Internship, Maintenance, Repair & Overhaul Engineering (Summer 2027)",
    "location": "Palo Alto, CA",
    "url": "https://jobs.lever.co/pivotal/23e45f4a-ab7f-4d45-9ec8-bae2ced5d583",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Polaris",
-   "title": "Digital Animation Intern",
-   "location": "Medina, MN, USA, United States of America",
-   "url": "https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Medina-MN-USA/Digital-Animation-Intern_R31552",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Polaris",
-   "title": "Intern, Production",
-   "location": "Roseau, MN, USA, United States of America",
-   "url": "https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Roseau-MN-USA/Intern--Production_R26215",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Polaris",
-   "title": "Operations Intern - Summer 2027",
-   "location": "Bass Creek Corporate Office, United States of America; Medina, MN, USA; Huntsville, AL, USA; Fernley, NV, USA; Wyoming, MN, USA; Wilmington, OH, USA; Battle Ground, WA, USA; Vermillion, SD, USA; Roseau, MN, USA",
-   "url": "https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Bass-Creek-Corporate-Office/Operations-Intern---Summer-2027_R30514",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Polaris",
-   "title": "Transportation Industrial Design Intern",
-   "location": "Medina, MN, USA, United States of America",
-   "url": "https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Medina-MN-USA/Transportation-Industrial-Design-Intern_R31551",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "Analytics & Insights Internship",
-   "location": "CINCINNATI GENERAL OFFICES, United States of America",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Analytics---Insights-Internship_R000157696",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "Brand Manager (2027 Undergrad and Master's - Non MBA)",
-   "location": "CINCINNATI GENERAL OFFICES, United States of America",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Brand-Manager--2027-Undergrad-and-Master-s---Non-MBA-_R000157482",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "Electrical Co-Op",
-   "location": "MEHOOPANY PLANT, United States of America",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/MEHOOPANY-PLANT/Electrical-Co-Op_R000162325",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "Finance & Accounting Intern - Latin America Internship Program",
-   "location": "PANAMA BUSINESS CENTER",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/PANAMA-BUSINESS-CENTER/Finance---Accounting-Intern---Latin-America-Internship-Program_R000156612",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "Marketing Winter Internship Summit",
-   "location": "Casablanca, Morocco",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/Casablanca/Marketing-Winter-Internship-Summit_R000158531",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "P&G Chemicals Sales Internship - Summer 2027",
-   "location": "IVORYDALE INNOVATION CENTER, United States of America",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/IVORYDALE-INNOVATION-CENTER/P-G-Chemicals-Sales-Internship---Summer-2027_R000161056",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "Spring Design Co-op \u2014 Beauty House",
-   "location": "CINCINNATI GENERAL OFFICES, United States of America",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Design-Co-op-Spring-2027_R000156511",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "Summer Internship 2027: Brand Management",
-   "location": "ISTANBUL GENERAL OFFICE, T\u00fcrkiye",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/ISTANBUL-GENERAL-OFFICE/Summer-Internship-2027--Brand-Management_R000160877",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "Supply Chain Internship",
-   "location": "CINCINNATI GENERAL OFFICES, United States of America; NEMC NORTH EAST MIX CENTER; Morris IL; Jackson; Moreno Valley; MINNEAPOLIS SALES OFFICE",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Supply-Chain-Internship_R000157051",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "Supply Chain Manager Winter Internship Summit",
-   "location": "Casablanca, Morocco",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/Casablanca/Supply-Chain-Manager-Winter-Internship-Summit_R000158520",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Procter and Gamble",
-   "title": "\u00abSHARP START\u00bb Internship in P&G Gillette",
-   "location": "Saint-Petersburg, Russian Federation",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/Saint-Petersburg/XMLNAME--SHARP-START--Internship-in-P-G-Gillette_R000161190",
    "reason": "no mechanical signal"
   },
   {
@@ -76143,118 +75935,6 @@
    "location": "North Kingstown, Rhode Island, USA",
    "url": "https://jobs.ashbyhq.com/REGENT/8c76e568-34ce-49d0-ade8-fcc6bdf656cf",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "RTX",
-   "title": "2027 Summer/Fall Co-op - Secure Systems (Onsite)",
-   "location": "US-IA-CEDAR RAPIDS-137 ~ 855 35Th St NE ~ BLDG 137, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/XMLNAME-2027-Summer-Fall-Co-op---Secure-Systems--Onsite-_01877633",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "RTX",
-   "title": "Component Electrical Test Engineer Intern (Summer 2027)(Onsite)",
-   "location": "US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Component-Electrical-Test-Engineer-Intern--Summer-2027--Onsite-_01885779",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Configuration Management Intern (Summer 2027)",
-   "location": "US-MA-ANDOVER-AN0 ~ 366 Lowell St ~ BLDG AN0, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN0--366-Lowell-St--BLDG-AN0/Configuration-Management-Intern--Summer-2027-_01888076",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "RTX",
-   "title": "Electrical Engineering Intern (Summer 2027)",
-   "location": "US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Electrical-Engineering-Intern--Summer-2027-_01883292",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Environmental Health & Safety / Facilities Engineering Co-Op (Summer/Fall 2027)",
-   "location": "US-IA-MANCHESTER-185 ~ 901 S 10th St ~ S 10TH, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-MANCHESTER-185--901-S-10th-St--S-10TH/Environmental-Health---Safety---Facilities-Engineering-Co-Op--Summer-Fall-2027-_01883110",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "FPGA Engineering Intern (Summer 2027)(Onsite)",
-   "location": "US-TX-MCKINNEY-513WD ~ 2501 W University Dr ~ WING D BLDG, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/FPGA-Engineering-Intern--Summer-2027--Onsite-_01880037",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Facilities Maintenance Co-Op (Summer/Fall 2027)",
-   "location": "US-FL-MELBOURNE-307 ~ 1100 W Hibiscus Blvd ~ BLDG 307, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-307--1100-W-Hibiscus-Blvd--BLDG-307/Facilities-Maintenance-Co-Op--Summer-Fall-2027-_01885767",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Flight Controls Systems Intern (Summer 2027) - Onsite",
-   "location": "US-IA-CEDAR RAPIDS-193 ~ 1120 Collins Rd NE ~ BLDG193, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Controls-Systems-Intern--Summer-2027----Onsite_01871125",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "RTX",
-   "title": "Manufacturing Electrical Engineer Co-op (Spring/Summer 2027)",
-   "location": "US-FL-MELBOURNE-308 ~ 1100 W Hibiscus Blvd ~ BLDG 308, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-308--1100-W-Hibiscus-Blvd--BLDG-308/Manufacturing-Electrical-Engineer-Co-op--Spring-Summer-2027-_01883878",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Manufacturing Electrical Engineering Co-Op (Spring/Summer 2027)",
-   "location": "US-IA-MANCHESTER-185 ~ 901 S 10th St ~ S 10TH, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-MANCHESTER-185--901-S-10th-St--S-10TH/Manufacturing-Electrical-Engineering-Co-Op--Spring-Summer-2027-_01888519",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Manufacturing Electrical Engineering Co-Op (Spring/Summer 2027)",
-   "location": "US-IA-CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Manufacturing-Electrical-Engineering-Co-Op--Spring-Summer-2027-_01870653",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Manufacturing Electrical Engineering Co-Op (Summer/Fall 2027)",
-   "location": "US-IA-MANCHESTER-185 ~ 901 S 10th St ~ S 10TH, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-MANCHESTER-185--901-S-10th-St--S-10TH/Manufacturing-Electrical-Engineering-Co-Op--Summer-Fall-2027-_01883114",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Manufacturing Electrical Engineering Co-Op (Summer/Fall 2027)",
-   "location": "US-IA-CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Manufacturing-Electrical-Engineering-Co-Op--Summer-Fall-2027-_01870641",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Power Electrical Engineer Intern (Summer 2027) - Onsite",
-   "location": "US-AL-HUNTSVILLE-315 ~ 315 Bob Heath Dr ~ BOB HEATH, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AL-HUNTSVILLE-315--315-Bob-Heath-Dr--BOB-HEATH/Power-Electrical-Engineer-Intern--Summer-2027----Onsite_01880823",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "RF/Microwave Engineering Intern (Summer 2027)",
-   "location": "US-MA-ANDOVER-AR1 ~ 358 Lowell St ~ AR1 DUKES BLDG, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR1--358-Lowell-St--AR1-DUKES-BLDG/RF-Microwave-Engineering-Intern--Summer-2027-_01875478",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "RTX",
-   "title": "Summer 2027 RF Systems Engineer Intern - Onsite",
-   "location": "US-IN-FT WAYNE-150A ~ 1010 Production Rd ~ BLDG 150A, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Summer-2027-RF-Systems-Engineer-Intern---Onsite_01880963",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Ralliant",
@@ -76754,76 +76434,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Rockwell Automation",
-   "title": "Intern, Capabilities and Innovation (LCS)",
-   "location": "Mayfield Heights, Ohio, United States, United States of America; Milwaukee, Wisconsin, United States",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Capabilities-and-Innovation--LCS-_R26-5066-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Intern, Commercial Operations (LCS)",
-   "location": "Chelmsford, Massachusetts, United States, United States of America; Mayfield Heights, Ohio, United States",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Chelmsford-Massachusetts-United-States/Intern--Commercial-Operations--LCS-_R26-5067-2",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Intern, Continuous Improvement (LCS)",
-   "location": "Mayfield Heights, Ohio, United States, United States of America; Milwaukee, Wisconsin, United States",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Continuous-Improvement--LCS-_R26-5028-2",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Intern, Customer Response Engineering",
-   "location": "Mayfield Heights, Ohio, United States, United States of America",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Customer-Response-Engineering_R26-7270-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Intern, Field Service (LCS)",
-   "location": "St Louis, Missouri, United States, United States of America; Dallas, Texas, United States; Tampa, Florida, United States; United States of America Dallas (Forest Lane); US-TX-Dallas-Field Service Office; Parsippany, New Jersey, United States",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/St-Louis-Missouri-United-States/Intern--Field-Service--LCS-_R26-5034-2",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Intern, Integrated Supply Chain and Manufacturing",
-   "location": "United States of America Milwaukee (South 2nd Street); Middleton, Wisconsin, United States; Twinsburg, Ohio, United States; Ladysmith, Wisconsin, United States; Mequon, Wisconsin, United States; Richland Center, Wisconsin, United States; Mayfield Heights, Ohio, United States",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/United-States-of-America-Milwaukee-South-2nd-Street/Intern--Integrated-Supply-Chain-and-Manufacturing_R26-5380-2",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Intern, Market Access Strategy (LCS)",
-   "location": "Milwaukee, Wisconsin, United States, United States of America",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Intern--Market-Access-Strategy--LCS-_R26-5069-2",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Intern, Market Intelligence (LCS)",
-   "location": "Milwaukee, Wisconsin, United States, United States of America",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Intern--Market-Intelligence--LCS-_R26-5032-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Intern, Marketing Engineer",
-   "location": "Milwaukee, Wisconsin, United States, United States of America",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Marketing-Engineer_R26-7211",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Intern, Remote Support (LCS)",
-   "location": "",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Intern--Remote-Support--LCS-_R26-5025-2",
-   "reason": "no mechanical signal"
-  },
-  {
    "company": "Saab",
    "title": "Co-Op, Contracts Summer 2027",
    "location": "East Syracuse, NY (Collamer), United States of America",
@@ -76971,97 +76581,6 @@
    "reason": "no mechanical signal"
   },
   {
-   "company": "Sierra Nevada Corporation",
-   "title": "Electrical Engineering Intern (Summer 2027)",
-   "location": "Plano, TX, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Plano-TX/Electrical-Engineering-Intern--Summer-2027-_R0030740",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Environmental Intern",
-   "location": "Sparks, NV, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Sparks-NV/Environmental-Intern_R0031107",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Health Safety and Environment Intern - Summer 2027 (For SNC Summer 2026 Interns Only)",
-   "location": "Colorado Springs, CO, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Colorado-Springs-CO/Health-Safety-and-Environment-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031092",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Human Resource Intern",
-   "location": "Sparks, NV, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Sparks-NV/Human-Resource-Intern_R0031202",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Human Resource Intern (Summer 2027)",
-   "location": "Lone Tree, CO, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/Human-Resource-Intern--Summer-2027-_R0031253-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "International Trade Compliance Intern (Summer 2027)",
-   "location": "Lone Tree, CO, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/International-Trade-Compliance-Intern--Summer-2027-_R0031252",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Network Engineer Intern (Summer 2027)",
-   "location": "Hagerstown, MD, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Network-Engineer-Intern--Summer-2027-_R0031232",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Organizational Change Management (OCM) Intern",
-   "location": "Sparks, NV, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Sparks-NV/Organizational-Change-Management--OCM--Intern_R0031104",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Project Coordinator Intern (Summer 2027)",
-   "location": "Sparks, NV, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Sparks-NV/Project-Coordinator-Intern--Summer-2027-_R0030774",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Project Coordinator Intern (Summer 2027)",
-   "location": "Hagerstown, MD, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Project-Coordinator-Intern--Summer-2027-_R0030775",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Project Coordinator Intern (Summer 2027)",
-   "location": "Plano, TX, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Plano-TX/Project-Coordinator-Intern--Summer-2027-_R0030782",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Sierra Nevada Corporation",
-   "title": "Structural Engineering Intern - Summer 2027",
-   "location": "Lone Tree, CO, United States of America",
-   "url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/Structural-Engineering-Intern---Summer-2027_R0031160-1",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Sierra Space",
-   "title": "2027 Summer Internship - Electrical Engineering",
-   "location": "Centennial, CO, United States of America; Louisville, CO (Taylor) - CO_CL1; Durham, NC; Madison, WI; Broomfield, CO",
-   "url": "https://sierraspace.wd1.myworkdayjobs.com/Sierra_Space_External_Career_Site/job/Centennial-CO/XMLNAME-2027-Summer-Internship---Electrical-Engineering_R26563-1",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Skyband Systems",
    "title": "Summer 2027 Internship: Electrical Engineering ",
    "location": "Kirkland",
@@ -77111,20 +76630,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Stanley Black and Decker",
-   "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Towson, MD, United States, United States of America",
-   "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Electrical-Engineering-Intern-Summer-2027_REQ-1000052018",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Stanley Black and Decker",
-   "title": "Packaging Science Engineering Intern, Graphics/Graphic Design - Summer 2027",
-   "location": "Towson, MD, United States, United States of America",
-   "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Packaging-Science-Engineering-Intern--Graphics-Graphic-Design---Summer-2027_REQ-1000052821",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Stratolaunch",
    "title": "Manufacturing (Electrical) Engineering Intern Summer 2027",
    "location": "Mojave, California, United States",
@@ -77146,20 +76651,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Stryker",
-   "title": "Summer 2027 Intern - Industrial Design, User Experience - Michigan",
-   "location": "Portage, Michigan, United States of America",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Product-Interaction-Design-Intern---Portage--MI_R572833",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Stryker",
-   "title": "Summer 2027 Internship - Statistical Programming - California",
-   "location": "Irvine, California, United States of America",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769",
-   "reason": "no mechanical signal"
-  },
-  {
    "company": "Symbotic",
    "title": "Co-Op- Finance",
    "location": "USA Wilmington,  MA - HQ, United States of America",
@@ -77172,13 +76663,6 @@
    "location": "USA Wilmington,  MA - HQ, United States of America",
    "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Robot-Manipulation_R8278",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Electrical Design Engineer Intern (Summer 2027)",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133916646700",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Tektronix",
@@ -77200,13 +76684,6 @@
    "location": "Beaverton, OR, US",
    "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Teledyne FLIR",
-   "title": "EADSIM MBSE Intern (Summer 2027)",
-   "location": "US - Huntsville, AL, United States of America",
-   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/EADSIM-MBSE-Intern--Summer-2027-_REQ36670-1",
-   "reason": "no mechanical signal"
   },
   {
    "company": "Texas Instruments",
@@ -77293,97 +76770,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "The Toro Company",
-   "title": "CRM Business Analyst Intern - The Toro Company",
-   "location": "Bloomington, MN, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/CRM-Business-Analyst-Intern---The-Toro-Company_JR17386",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "EHS Intern - BOSS Snowplow",
-   "location": "Iron Mountain, MI, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Iron-Mountain-MI/EHS-Intern---BOSS-Snowplow_JR17203",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "Electrical Systems Engineering Intern - The Toro Company",
-   "location": "Bloomington, MN, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Electrical-Systems-Engineering-Intern---The-Toro-Company_JR17164",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "Electronics Technician Intern - The Toro Company",
-   "location": "Bloomington, MN, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Electronics-Technician-Intern---The-Toro-Company_JR17552",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "Finance Intern - The Toro Company",
-   "location": "Bloomington, MN, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Finance-Intern---The-Toro-Company_JR17543",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "Financial Planning and Analysis Intern - The Toro Company",
-   "location": "Bloomington, MN, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Financial-Planning-and-Analysis-Intern---The-Toro-Company_JR17173",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "Marketing Intern, Mass Retail - The Toro Company",
-   "location": "Bloomington, MN, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Marketing-Intern--Mass-Retail---The-Toro-Company_JR17701",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "Marketing Performance Analytics Intern - The Toro Company",
-   "location": "Bloomington, MN, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Marketing-Performance-Analytics-Intern---The-Toro-Company_JR17186",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "RLC Financial Planning and Analysis Intern - The Toro Company",
-   "location": "Bloomington, MN, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/RLC-Financial-Planning-and-Analysis-Intern---The-Toro-Company_JR17138",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "Test Technician Intern - Exmark",
-   "location": "Beatrice, NE, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Beatrice-NE/Test-Technician-Intern---Exmark_JR17051",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "The Toro Company",
-   "title": "\u200bInternational Digital Marketing Intern - The Toro Company",
-   "location": "Bloomington, MN, United States of America",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/XMLNAME--International-Digital-Marketing-Intern---The-Toro-Company_JR17503",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Thermo Fisher Scientific",
-   "title": "Field Sales & Services Intern",
-   "location": "Remote, Massachusetts, USA, United States of America",
-   "url": "https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Remote-Massachusetts-USA/Field-Sales---Services-Intern_R-01367380",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Thermo Fisher Scientific",
-   "title": "Supply Chain Co-op",
-   "location": "Marietta, Ohio, USA, United States of America",
-   "url": "https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Marietta-Ohio-USA/Supply-Chain-Co-op_R-01366630",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Trane Technologies",
    "title": "Accounting Internship",
    "location": "La Crosse, Wisconsin, United States of America",
@@ -77431,34 +76817,6 @@
    "location": "Grand Rapids, Michigan, United States of America; Pueblo, Colorado",
    "url": "https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Grand-Rapids-Michigan/Product-Management-Engineering-Co-op_JR-10435",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Trimble",
-   "title": "IS Help Desk Intern",
-   "location": "US - CO, Westminster, United States of America",
-   "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/IS-Help-Desk-Intern_R58179",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Trimble",
-   "title": "Learning Solutions Intern",
-   "location": "US - CO, Westminster, United States of America; US - OR, Lake Oswego",
-   "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Learning-Solutions-Intern_R58191",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Trimble",
-   "title": "Telecom Intern",
-   "location": "US - CO, Westminster, United States of America",
-   "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Telecom-Intern_R58202-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Trimble",
-   "title": "Video Production Intern",
-   "location": "US - OH, Dayton, United States of America",
-   "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---OH-Dayton/Video-Production-Intern_R58174",
-   "reason": "no mechanical signal"
   },
   {
    "company": "Type One Energy",
@@ -77536,27 +76894,6 @@
    "location": "US - Remote",
    "url": "https://careers.veeco.com/job/Finance-Intern/1449877200/",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Vermeer",
-   "title": "Electrical Engineer Internship Summer 2027",
-   "location": "Pella, Iowa, USA - Corporate Office, United States of America",
-   "url": "https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/Electrical-Engineer-Internship-Summer-2027_REQ-22166",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Vermeer",
-   "title": "Safety Intern",
-   "location": "Pella, Iowa, USA - Eco Center, United States of America",
-   "url": "https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Eco-Center/Safety-Intern_REQ-22177",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Vermeer",
-   "title": "Training and Development Specialist Intern - Summer 2027",
-   "location": "Pella, Iowa, USA - Corporate Office, United States of America",
-   "url": "https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/Training-and-Development-Specialist-Intern---Summer-2027_REQ-22156",
-   "reason": "no mechanical signal"
   },
   {
    "company": "Vertiv",
@@ -77650,13 +76987,6 @@
    "reason": "no mechanical signal"
   },
   {
-   "company": "Victaulic",
-   "title": "2027 Summer Internship \u2013 Occupational Safety (EH&S)",
-   "location": "Easton, Pennsylvania, United States of America; Justin, Texas; Leland, North Carolina",
-   "url": "https://victaulic.wd1.myworkdayjobs.com/victaulic_careers/job/Easton-Pennsylvania/XMLNAME-2027-Summer-Internship---Occupational-Safety--EH-S-_R0005985",
-   "reason": "no mechanical signal"
-  },
-  {
    "company": "Wabtec",
    "title": "Corporate Communications Intern",
    "location": "Pittsburgh, PA, us",
@@ -77697,69 +77027,6 @@
    "location": "Erie, PA, us",
    "url": "https://jobs.smartrecruiters.com/wabtec/3743990014653896",
    "reason": "non-ME discipline"
-  },
-  {
-   "company": "Watts Water Technologies",
-   "title": "Amazon & E-Commerce Marketplace Intern, Summer 2027",
-   "location": "North Andover, MA, United States of America",
-   "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/North-Andover-MA/Amazon---E-Commerce-Marketplace-Intern--Summer-2027_10017535",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Watts Water Technologies",
-   "title": "End User & Infrastructure Support Intern, Summer 2027",
-   "location": "Andover, MA Federal Street, United States of America",
-   "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/Andover-MA-Federal-Street/IT-Network-Intern--Summer-2027_10017567",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Watts Water Technologies",
-   "title": "Financial Analyst Intern, Summer 2027",
-   "location": "North Andover, MA, United States of America",
-   "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/North-Andover-MA/Financial-Analyst-Intern--Summer-2027_10017565",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Watts Water Technologies",
-   "title": "HRIS Intern, Summer 2027",
-   "location": "Boston, MA, United States of America; St Pauls, NC; Blauvelt, NY; Fort Worth, TX",
-   "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/Boston-MA/Total-Rewards-and-HRIS--Intern-2027_10017569",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Watts Water Technologies",
-   "title": "Internal Audit Intern, Summer 2027",
-   "location": "North Andover, MA, United States of America",
-   "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/North-Andover-MA/Internal-Audit-Intern--Summer-2027_10017949",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Watts Water Technologies",
-   "title": "Research & Development Intern, Summer 2027",
-   "location": "Fort Myers, FL, United States of America",
-   "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/Fort-Myers-FL/Research---Development-Intern--Summer-2027_10017501",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Watts Water Technologies",
-   "title": "Strategic Marketing Intern - Benchmarking, Summer 2027",
-   "location": "North Andover, MA, United States of America",
-   "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/North-Andover-MA/Strategic-Marketing-Intern---Benchmarking--Summer-2027_10017534",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Watts Water Technologies",
-   "title": "Supply Chain & Logistics Intern, Summer 2027",
-   "location": "Fort Myers, FL, United States of America",
-   "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/Fort-Myers-FL/Supply-Chain---Logistics-Intern--Summer-2027_10017619",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Watts Water Technologies",
-   "title": "Video Production Intern, Summer 2027",
-   "location": "North Andover, MA, United States of America",
-   "url": "https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/North-Andover-MA/Video-Production-Intern--Summer-2027_10017537",
-   "reason": "no mechanical signal"
   },
   {
    "company": "Westinghouse",
@@ -77916,20 +77183,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "X-energy",
-   "title": "Civil Engineering Internship - Summer 2027",
-   "location": "Rockville, MD, United States of America",
-   "url": "https://xenergy.wd5.myworkdayjobs.com/X-energyUS/job/Rockville-MD/Civil-Engineering-Internship---Summer-2027_R101321",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "X-energy",
-   "title": "Project Management Intern",
-   "location": "Oak Ridge, TN, United States of America",
-   "url": "https://xenergy.wd5.myworkdayjobs.com/X-energyUS/job/Oak-Ridge-TN/Project-Management-Intern_R101306-1",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Zebra Technologies",
    "title": "2027 Summer Internship (US) - Industry Message Strategy",
    "location": "Lincolnshire, Illinois, United States of America",
@@ -78011,76 +77264,6 @@
    "title": "Safety Reporting Intern [Summer 2027]",
    "location": "Foster City, CA",
    "url": "https://jobs.lever.co/zoox/614f35d6-a415-4f44-be38-cb38877df1db",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Zurn Elkay Water Solutions",
-   "title": "Continuous Improvement Intern (Summer 2027)",
-   "location": "Lumberton, NC, United States of America",
-   "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Lumberton-NC/Continuous-Improvement-Intern--Summer-2027-_REQ-020172",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Zurn Elkay Water Solutions",
-   "title": "Continuous Improvement Intern (Summer 2027)",
-   "location": "Freeport, IL, United States of America",
-   "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Freeport-IL/Continuous-Improvement-Intern--Summer-2027-_REQ-020171",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Zurn Elkay Water Solutions",
-   "title": "Electrical & Electronics Engineering Intern (Summer 2027)",
-   "location": "Downers Grove, IL, United States of America",
-   "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Downers-Grove-IL/Electrical---Electronics-Engineering-Intern--Summer-2027-_REQ-020097",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Zurn Elkay Water Solutions",
-   "title": "Enterprise Application Intern (Summer 2027)",
-   "location": "Downers Grove, IL, United States of America",
-   "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Downers-Grove-IL/Enterprise-Application-Intern--Summer-2027-_REQ-020181",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Zurn Elkay Water Solutions",
-   "title": "Logistics Intern (Summer 2027)",
-   "location": "Milwaukee, WI, United States of America",
-   "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/Logistics-Intern--Summer-2027-_REQ-020102",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Zurn Elkay Water Solutions",
-   "title": "Operations & Supply Chain Intern (Summer 2027)",
-   "location": "Norcross, GA, United States of America",
-   "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Norcross-GA/Intern-Operations-Supply-Chain_REQ-020129",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Zurn Elkay Water Solutions",
-   "title": "Project Management Intern (Summer 2027)",
-   "location": "Downers Grove, IL, United States of America",
-   "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Downers-Grove-IL/CY27-Intern---Project-Management-Intern_REQ-020094",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "nVent",
-   "title": "Electrical/Controls Engineering Co-Op (June - December 2027)",
-   "location": "Anoka, MN, US, United States of America",
-   "url": "https://nvent.wd5.myworkdayjobs.com/nVent/job/Anoka-MN-US/Electrical-Controls-Engineering-Co-Op_R23626",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "nVent",
-   "title": "Environmental, Health, and Safety (EHS) Internship  (June - August 2027)",
-   "location": "Anoka, MN, US, United States of America; Blaine, MN, US",
-   "url": "https://nvent.wd5.myworkdayjobs.com/nVent/job/Anoka-MN-US/Environmental--Health--and-Safety--EHS--Internship---June---August-2027-_R23710",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "nVent",
-   "title": "Supply Chain Intern (June - August 2027)",
-   "location": "Solon, OH, US, United States of America",
-   "url": "https://nvent.wd5.myworkdayjobs.com/nVent/job/Solon-OH-US/Supply-Chain-Intern--June---August-2027-_R23542",
    "reason": "non-ME discipline"
   },
   {
