@@ -1,18 +1,25 @@
 {
- "generated": "2026-11-23T07:02:45+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45128266065",
- "scanned": 34896,
+ "generated": "2026-11-23T07:22:48+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45130636099",
+ "scanned": 34663,
  "boards": 331,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 1
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1196,
-  "software / data / AI role": 1171,
-  "no mechanical signal": 356,
-  "off-target season in title": 476,
-  "not a student req": 27001,
-  "master's/PhD only": 832,
-  "outside the US": 1532,
-  "no Summer/Fall 2027": 810,
+  "non-ME discipline": 1167,
+  "software / data / AI role": 1134,
+  "no mechanical signal": 353,
+  "off-target season in title": 469,
+  "not a student req": 27000,
+  "master's/PhD only": 767,
+  "outside the US": 1455,
+  "no Summer/Fall 2027": 801,
   "degree-level blocker": 4
  },
  "jobs": [
@@ -24008,7 +24015,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01887901",
@@ -39144,10 +39152,10 @@
    "first_seen": "2026-11-17T19:58:20+00:00"
   },
   {
-   "id": "ef:lockheedmartin.com:27458",
+   "id": "ef:lockheedmartin.com:25882",
    "title": "Test Engineer Intern",
    "location": "Littleton, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996478038620",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477892880",
    "posted": "2026-11-19",
    "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. This is for an intern role on the Conventional Prompt Strike (CPS) program Test and Evaluation (T&E) team. Projects and tasking may include test product development, test execution support, test data analysis, or project management. This role is full time on site at our Deer Creek Facility in Littleton CO. Some travel may be required. Basic Qualifications Pursuing a Bachelor's degree in Aerospace, Mechanical and Software engineering or closely related discipline Proficient with Microsoft Office Suite including Excel and Powerpoint Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access Desired Skills Leadership experience in school projects or clubs STEM-based extra curricular participation Hands-on experience in a laboratory development and/or test environment Maintaining a GPA of 3.0 or better on a 4.0 scale Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
    "season": "unstated",
@@ -39184,7 +39192,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-19T21:51:09+00:00"
+   "first_seen": "2026-11-19T21:31:17+00:00"
   },
   {
    "id": "wd:micron:JR116168",
@@ -43987,6 +43995,57 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "ef:lamresearch.com:203786",
+   "title": "Engineering Intern 1",
+   "location": "SG",
+   "url": "https://careers.lamresearch.com/careers/job/1099555996333",
+   "posted": "2026-10-01",
+   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Explainability and Interpretability for probabilistic / Bayesian surrogate models and Bayesian Optimization (BO). The internship will focus on Bayesian surrogate model interpretability and explainable Bayesian Optimization techniques over controlled synthetic functions and real semiconductor data. What you\u2019ll do Explore the Explainable AI literature and come up with relevant methods suitable for interpreting Bayesian surrogate models Develop methods to interpret modeled correlations among model outputs and compare learned relationships with known synthetic function / real data properties Create post-hoc explanations for the recommended solution selected via BO, clarifying the model evidence and optimization logic that led to the selected recipe Implement reproducible experiments on synthetic test functions / real data, performing surrogate modeling, BO and explanation pipelines in Python Investigate interpretable representations of correlation, latent structure, and information sharing across outputs Develop local post-hoc explanation methods for BO recommended solutions such as feature/parameter attribution, counterfactual analysis, sensitivity analysis, or decomposition of predictive and acquisition quantities Define fidelity, stability, consistency, and usability criteria; validate explanations using known synthetic function properties or real data Create clear visualizations and concise technical documentation suitable for Data Scientists and process-development stakeholders Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, explainable AI, and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred Knowledge on correlation analysis, feature attribution / importance, sensitivity analysis, predictive model explanations, and BO decision explanations Experience with synthetic benchmark functions, causal reasoning, spatial data, or structured outputs is advantageous Self-driven, collaborative, and able to communicate technical results clearly. Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
+   "season": "unstated",
+   "company": "Lam Research",
+   "src": "Lam Research",
+   "score": {
+    "total": 26,
+    "base": 30,
+    "fit": 8,
+    "loc": 0,
+    "traj": 18,
+    "pay": 4,
+    "rate": [
+     32.75,
+     52.88
+    ],
+    "rate_src": "company",
+    "fresh": -4,
+    "age": 53.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "est. pay $43/hr",
+      4
+     ],
+     [
+      "body: fea",
+      3
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "ef:lockheedmartin.com:18660",
    "title": "Systems Engineer - Intern",
    "location": "Orlando, FL, US",
@@ -46567,57 +46626,6 @@
      [
       "pay $30/hr",
       0
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:lamresearch.com:203786",
-   "title": "Engineering Intern 1",
-   "location": "SG",
-   "url": "https://careers.lamresearch.com/careers/job/1099555996333",
-   "posted": "2026-10-01",
-   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Explainability and Interpretability for probabilistic / Bayesian surrogate models and Bayesian Optimization (BO). The internship will focus on Bayesian surrogate model interpretability and explainable Bayesian Optimization techniques over controlled synthetic functions and real semiconductor data. What you\u2019ll do Explore the Explainable AI literature and come up with relevant methods suitable for interpreting Bayesian surrogate models Develop methods to interpret modeled correlations among model outputs and compare learned relationships with known synthetic function / real data properties Create post-hoc explanations for the recommended solution selected via BO, clarifying the model evidence and optimization logic that led to the selected recipe Implement reproducible experiments on synthetic test functions / real data, performing surrogate modeling, BO and explanation pipelines in Python Investigate interpretable representations of correlation, latent structure, and information sharing across outputs Develop local post-hoc explanation methods for BO recommended solutions such as feature/parameter attribution, counterfactual analysis, sensitivity analysis, or decomposition of predictive and acquisition quantities Define fidelity, stability, consistency, and usability criteria; validate explanations using known synthetic function properties or real data Create clear visualizations and concise technical documentation suitable for Data Scientists and process-development stakeholders Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, explainable AI, and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred Knowledge on correlation analysis, feature attribution / importance, sensitivity analysis, predictive model explanations, and BO decision explanations Experience with synthetic benchmark functions, causal reasoning, spatial data, or structured outputs is advantageous Self-driven, collaborative, and able to communicate technical results clearly. Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
-   "season": "unstated",
-   "company": "Lam Research",
-   "src": "Lam Research",
-   "score": {
-    "total": 24,
-    "base": 28,
-    "fit": 8,
-    "loc": 0,
-    "traj": 18,
-    "pay": 2,
-    "rate": [
-     29.75,
-     48.25
-    ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 53.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: fea",
-      3
-     ],
-     [
-      "est. pay $39/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
      ]
     ]
    },
@@ -51937,92 +51945,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "or:ibqbjb:155574",
-   "title": "Mechanical Engineering - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155574",
-   "posted": "2026-08-25",
-   "body": "Honeywell Technologies: Build What Matters At Honeywell Technologies, you can work on technology that helps make the world safer, smarter, and more efficient. We are a global automation company focused on helping customers run critical operations safely, reliably, and efficiently, with about $17B in 2025 sales, 54,000 employees, roughly 600 sites, and headquarters in Charlotte, NC. Work on practical innovation. Honeywell Technologies is moving from automation toward autonomy by combining AI, controls, connected data, and domain expertise to help assets work harder, people work smarter, and processes run more efficiently. Grow with purpose. At Honeywell Technologies, you can grow your career and network by contributing to the company\u2019s success. Join a customer obsessed culture built on respect, collaboration, diverse perspectives, continuous learning, individual well-being, and celebrating achievement. Be part of a culture that values people. Our people are at the heart of what we do, with an emphasis on impact, representing Honeywell with pride, bringing diverse perspectives, and solving problems with curiosity and resilience. Shape the future by making what matters better. ABOUT THE ROLE: As a Mechanical Engineering Intern here at Honeywell Technologies, you will have the opportunity to gain hands-on experience and contribute to cutting-edge projects in the field of mechanical engineering. You will work closely with our team of experienced engineers and professionals, learning from their expertise and applying your knowledge to real-world challenges. This internship will provide you with valuable insights into the industry and help you develop essential skills for your future career in mechanical engineering. In this role, you will have the opportunity to: Assist in the design and development of mechanical systems, components, and assemblies Conduct research and analysis to support engineering projects Collaborate with cross-functional teams to solve technical problems and optimize designs Participate in testing and validation activities Gain exposure to industry-standard tools and software Location: This position is available in multiple locations across the United States. The exact worksite location will be selected based on business requirements and the candidate\u2019s relevant experience and qualifications. The hourly base range for this position is $24.00/hr - $45.00/hr. Please note that this salary information serves as a general guideline. Honeywell considers various factors when extending an offer, including but not limited to the scope and responsibilities of the position, the candidate's work experience, education and training, key skills, as well as market and business considerations. MINIMUM QUALIFICATIONS: Currently pursuing a bachelor's degree (or higher) from an accredited college or university in Mechanical Engineering or similar field. Must graduate December 2027 or later Must continue enrollment in degree program upon completion of the internship Validated academic excellence (3.0 GPA and higher) Due to compliance with U.S. export control laws and regulations, candidate must be a U.S. Person, which is defined as, a U.S. citizen, a U.S. permanent resident, or have protected status in the U.S. under asylum or refugee status Honeywell Technologies is currently unable to consider applicants who would require current or future sponsorship for employment authorization for this position. Candidates must be authorized to legally work in the United States without current or future sponsorship requirements. WE VALUE: Previous internship or project experience in mechanical engineering Knowledge of industry standards and best practices Familiarity with product testing and validation processes Understanding of materials and manufacturing processes Interning at Honeywell Technologies provides hands-on experience with cutting-edge technologies, professional development, and mentorship within a global organization. Interns will receive relocation benefits and short-term housing if they are 50 miles or more from their assigned work location (excluding Puerto Rico and Canada). The application period for the intern position is estimated to be through the end of March 2027; however, this may be shortened or extended depending on business needs and the availability of qualified candidates. #HoneywellURNAM",
-   "season": "ok",
-   "company": "Honeywell",
-   "src": "Honeywell",
-   "score": {
-    "total": 21,
-    "base": 29,
-    "fit": 16,
-    "loc": 0,
-    "traj": 12,
-    "pay": 1,
-    "rate": [
-     24.0,
-     45.0
-    ],
-    "rate_src": "stated",
-    "fresh": -8,
-    "age": 90.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: mechanical",
-      12
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "pay $34/hr",
-      1
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "or:ibqbjb:155576",
-   "title": "Mechanical Engineering - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155576",
-   "posted": "2026-08-25",
-   "body": "Honeywell Technologies: Build What Matters At Honeywell Technologies, you can work on technology that helps make the world safer, smarter, and more efficient. We are a global automation company focused on helping customers run critical operations safely, reliably, and efficiently, with about $17B in 2025 sales, 54,000 employees, roughly 600 sites, and headquarters in Charlotte, NC. Work on practical innovation. Honeywell Technologies is moving from automation toward autonomy by combining AI, controls, connected data, and domain expertise to help assets work harder, people work smarter, and processes run more efficiently. Grow with purpose. At Honeywell Technologies, you can grow your career and network by contributing to the company\u2019s success. Join a customer obsessed culture built on respect, collaboration, diverse perspectives, continuous learning, individual well-being, and celebrating achievement. Be part of a culture that values people. Our people are at the heart of what we do, with an emphasis on impact, representing Honeywell with pride, bringing diverse perspectives, and solving problems with curiosity and resilience. Shape the future by making what matters better. ABOUT THE ROLE: As a Mechanical Engineering Intern here at Honeywell Technologies, you will have the opportunity to gain hands-on experience and contribute to cutting-edge projects in the field of mechanical engineering. You will work closely with our team of experienced engineers and professionals, learning from their expertise and applying your knowledge to real-world challenges. This internship will provide you with valuable insights into the industry and help you develop essential skills for your future career in mechanical engineering. In this role, you will have the opportunity to: Assist in the design and development of mechanical systems, components, and assemblies Conduct research and analysis to support engineering projects Collaborate with cross-functional teams to solve technical problems and optimize designs Participate in testing and validation activities Gain exposure to industry-standard tools and software Location: This position is available in multiple locations across the United States. The exact worksite location will be selected based on business requirements and the candidate\u2019s relevant experience and qualifications. The hourly base range for this position is $24.00/hr - $45.00/hr. Please note that this salary information serves as a general guideline. Honeywell considers various factors when extending an offer, including but not limited to the scope and responsibilities of the position, the candidate's work experience, education and training, key skills, as well as market and business considerations. MINIMUM QUALIFICATIONS: Currently pursuing a bachelor's degree (or higher) from an accredited college or university in Mechanical Engineering or similar field. Must graduate December 2027 or later Must continue enrollment in degree program upon completion of the internship Validated academic excellence (3.0 GPA and higher) Honeywell Technologies is currently unable to consider applicants who would require current or future sponsorship for employment authorization for this position. Candidates must be authorized to legally work in the United States without current or future sponsorship requirements. WE VALUE: Previous internship or project experience in mechanical engineering Knowledge of industry standards and best practices Familiarity with product testing and validation processes Understanding of materials and manufacturing processes Interning at Honeywell Technologies provides hands-on experience with cutting-edge technologies, professional development, and mentorship within a global organization. Interns will receive relocation benefits and short-term housing if they are 50 miles or more from their assigned work location (excluding Puerto Rico and Canada). The application period for the intern position is estimated to be through the end of March 2027; however, this may be shortened or extended depending on business needs and the availability of qualified candidates. #HoneywellURNAM",
-   "season": "ok",
-   "company": "Honeywell",
-   "src": "Honeywell",
-   "score": {
-    "total": 21,
-    "base": 29,
-    "fit": 16,
-    "loc": 0,
-    "traj": 12,
-    "pay": 1,
-    "rate": [
-     24.0,
-     45.0
-    ],
-    "rate_src": "stated",
-    "fresh": -8,
-    "age": 90.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: mechanical",
-      12
-     ],
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "pay $34/hr",
-      1
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "or:icfcjb:119894",
    "title": "R&D Intern - Summer 2027 (U.S. Person Required)",
    "location": "United States",
@@ -56458,6 +56380,53 @@
    "first_seen": "2026-11-20T21:40:55+00:00"
   },
   {
+   "id": "ef:lamresearch.com:203234",
+   "title": "Quality Engineering Intern 1",
+   "location": "Lancaster, VIC, AU",
+   "url": "https://careers.lamresearch.com/careers/job/1099555572956",
+   "posted": "2026-09-01",
+   "body": "The group you\u2019ll be a part of Quality Department The impact you\u2019ll make Joining our Quality team is an exciting opportunity to contribute, maintaining and improving world-class standards. You will play a key role in supporting quality initiatives, analyzing process performance, and driving continuous improvement across manufacturing and business operations. Your work will help ensure compliance, enhance customer satisfaction, and strengthen our commitment to excellence. What you\u2019ll do Partner with Quality Engineers to perform product audits. Support Quality Engineers to compile and report quality performance. Perform data analysis to identify trends and opportunities to improve the Quality performance. Partner with Quality Engineers to drive quality improvement programs/efforts. Communicating regularly with manager to track project status and identify potential issues. Assist Quality Engineers in Quality investigation. Who we\u2019re looking for Degree course in science/engineering or equivalent. Excellent analytical & problem-solving skills. Strong communication and interpersonal skills, written and verbal. Ability to work in a cleanroom environment, wearing personal protective safety equipment and cleanroom suit. Proficient in Microsoft Office mainly Excel, Words and Power Points. Working knowledge of AI tools. Min 6 months Internship period. Preferred qualifications Power BI, Microsoft Power Apps Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
+   "season": "unstated",
+   "company": "Lam Research",
+   "src": "Lam Research",
+   "score": {
+    "total": 18,
+    "base": 26,
+    "fit": 4,
+    "loc": 0,
+    "traj": 18,
+    "pay": 4,
+    "rate": [
+     32.75,
+     52.88
+    ],
+    "rate_src": "company",
+    "fresh": -8,
+    "age": 83.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "est. pay $43/hr",
+      4
+     ],
+     [
+      "title: quality",
+      3
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "sr:LLNL:3743990016087626",
    "title": "Extreme Light, Matter, and Fusion Undergraduate Intern - Summer 2027",
    "location": "Livermore, CA, us",
@@ -59060,53 +59029,6 @@
      [
       "est. pay $36/hr",
       1
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:lamresearch.com:203234",
-   "title": "Quality Engineering Intern 1",
-   "location": "Lancaster, VIC, AU",
-   "url": "https://careers.lamresearch.com/careers/job/1099555572956",
-   "posted": "2026-09-01",
-   "body": "The group you\u2019ll be a part of Quality Department The impact you\u2019ll make Joining our Quality team is an exciting opportunity to contribute, maintaining and improving world-class standards. You will play a key role in supporting quality initiatives, analyzing process performance, and driving continuous improvement across manufacturing and business operations. Your work will help ensure compliance, enhance customer satisfaction, and strengthen our commitment to excellence. What you\u2019ll do Partner with Quality Engineers to perform product audits. Support Quality Engineers to compile and report quality performance. Perform data analysis to identify trends and opportunities to improve the Quality performance. Partner with Quality Engineers to drive quality improvement programs/efforts. Communicating regularly with manager to track project status and identify potential issues. Assist Quality Engineers in Quality investigation. Who we\u2019re looking for Degree course in science/engineering or equivalent. Excellent analytical & problem-solving skills. Strong communication and interpersonal skills, written and verbal. Ability to work in a cleanroom environment, wearing personal protective safety equipment and cleanroom suit. Proficient in Microsoft Office mainly Excel, Words and Power Points. Working knowledge of AI tools. Min 6 months Internship period. Preferred qualifications Power BI, Microsoft Power Apps Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
-   "season": "unstated",
-   "company": "Lam Research",
-   "src": "Lam Research",
-   "score": {
-    "total": 16,
-    "base": 24,
-    "fit": 4,
-    "loc": 0,
-    "traj": 18,
-    "pay": 2,
-    "rate": [
-     29.75,
-     48.25
-    ],
-    "rate_src": "company",
-    "fresh": -8,
-    "age": 83.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "title: quality",
-      3
-     ],
-     [
-      "est. pay $39/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
      ]
     ]
    },
@@ -62899,92 +62821,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "or:ibqbjb:155583",
-   "title": "Manufacturing & Industrial Engineering - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155583",
-   "posted": "2026-08-25",
-   "body": "Honeywell Technologies: Build What Matters At Honeywell Technologies, you can work on technology that helps make the world safer, smarter, and more efficient. We are a global automation company focused on helping customers run critical operations safely, reliably, and efficiently, with about $17B in 2025 sales, 54,000 employees, roughly 600 sites, and headquarters in Charlotte, NC. Work on practical innovation. Honeywell Technologies is moving from automation toward autonomy by combining AI, controls, connected data, and domain expertise to help assets work harder, people work smarter, and processes run more efficiently. Grow with purpose. At Honeywell Technologies, you can grow your career and network by contributing to the company\u2019s success. Join a customer obsessed culture built on respect, collaboration, diverse perspectives, continuous learning, individual well-being, and celebrating achievement. Be part of a culture that values people. Our people are at the heart of what we do, with an emphasis on impact, representing Honeywell with pride, bringing diverse perspectives, and solving problems with curiosity and resilience. Shape the future by making what matters better. ABOUT THE ROLE: As a Manufacturing/Industrial Engineering Intern here at Honeywell Technologies, you will have the opportunity to gain hands-on experience and contribute to various projects within our manufacturing and industrial engineering teams. You will work closely with experienced professionals and learn about optimizing manufacturing operations, improving process efficiency, and driving operational excellence. This internship will give you valuable insights into manufacturing and industrial engineering and help you develop essential skills for your future career. In this role, you will have the opportunity to: Assist in process improvement projects to enhance manufacturing efficiency and reduce waste Support the implementation of lean principles and continuous improvement methodologies Collaborate with cross-functional teams to optimize production processes and ensure product quality Gain exposure to various manufacturing technologies and equipment - Participate in data analysis and problem-solving activities Contribute to the development and maintenance of manufacturing documentation and standard operating procedures Location: This position is available in multiple locations across the United States. The exact worksite location will be selected based on business requirements and the candidate\u2019s relevant experience and qualifications. The hourly base range for this position is $24.00/hr - $45.00/hr. Please note that this salary information serves as a general guideline. Honeywell considers various factors when extending an offer, including but not limited to the scope and responsibilities of the position, the candidate's work experience, education and training, key skills, as well as market and business considerations. MINIMUM QUALIFICATIONS: Currently pursuing a bachelor's degree (or higher) from an accredited college or university in Manufacturing, Mechanical, Industrial, or similar field. Must graduate December 2027 or later Must continue enrollment in degree program upon completion of the internship Validated academic excellence (3.0 GPA and higher) Due to compliance with U.S. export control laws and regulations, candidate must be a U.S. citizen, U.S. permanent resident, or have asylum or refugee status in the U.S. Honeywell Technologies is currently unable to consider applicants who would require current or future sponsorship for employment authorization for this position. Candidates must be authorized to legally work in the United States without current or future sponsorship requirements. WE VALUE: Eagerness to learn and contribute to a dynamic team environment Industrial design talent Knowledge of lean principles and continuous improvement methodologies Eagerness to get involved in hands-on work Lean Manufacturing/Six Sigma experience is a plus Ability to easily and effectively balance many priorities and results-oriented demands Good interpersonal skills verbal and written Interning at Honeywell Technologies provides hands-on experience with cutting-edge technologies, professional development, and mentorship within a global organization. Interns will receive relocation benefits and short-term housing if they are 50 miles or more from their assigned work location (excluding Puerto Rico and Canada). The application period for the intern position is estimated to be through the end of March 2027; however, this may be shortened or extended depending on business needs and the availability of qualified candidates. #HoneywellURNAM",
-   "season": "ok",
-   "company": "Honeywell",
-   "src": "Honeywell",
-   "score": {
-    "total": 12,
-    "base": 20,
-    "fit": 7,
-    "loc": 0,
-    "traj": 12,
-    "pay": 1,
-    "rate": [
-     24.0,
-     45.0
-    ],
-    "rate_src": "stated",
-    "fresh": -8,
-    "age": 90.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "title: manufacturing",
-      3
-     ],
-     [
-      "pay $34/hr",
-      1
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "or:ibqbjb:155584",
-   "title": "Manufacturing & Industrial Engineering - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155584",
-   "posted": "2026-08-25",
-   "body": "Honeywell Technologies: Build What Matters At Honeywell Technologies, you can work on technology that helps make the world safer, smarter, and more efficient. We are a global automation company focused on helping customers run critical operations safely, reliably, and efficiently, with about $17B in 2025 sales, 54,000 employees, roughly 600 sites, and headquarters in Charlotte, NC. Work on practical innovation. Honeywell Technologies is moving from automation toward autonomy by combining AI, controls, connected data, and domain expertise to help assets work harder, people work smarter, and processes run more efficiently. Grow with purpose. At Honeywell Technologies, you can grow your career and network by contributing to the company\u2019s success. Join a customer obsessed culture built on respect, collaboration, diverse perspectives, continuous learning, individual well-being, and celebrating achievement. Be part of a culture that values people. Our people are at the heart of what we do, with an emphasis on impact, representing Honeywell with pride, bringing diverse perspectives, and solving problems with curiosity and resilience. Shape the future by making what matters better. ABOUT THE ROLE: As a Manufacturing/Industrial Engineering Intern here at Honeywell Technologies, you will have the opportunity to gain hands-on experience and contribute to various projects within our manufacturing and industrial engineering teams. You will work closely with experienced professionals and learn about optimizing manufacturing operations, improving process efficiency, and driving operational excellence. This internship will give you valuable insights into manufacturing and industrial engineering and help you develop essential skills for your future career. In this role, you will have the opportunity to: Assist in process improvement projects to enhance manufacturing efficiency and reduce waste Support the implementation of lean principles and continuous improvement methodologies Collaborate with cross-functional teams to optimize production processes and ensure product quality Gain exposure to various manufacturing technologies and equipment - Participate in data analysis and problem-solving activities Contribute to the development and maintenance of manufacturing documentation and standard operating procedures Location: This position is available in multiple locations across the United States. The exact worksite location will be selected based on business requirements and the candidate\u2019s relevant experience and qualifications. The hourly base range for this position is $24.00/hr - $45.00/hr . Please note that this salary information serves as a general guideline. Honeywell considers various factors when extending an offer, including but not limited to the scope and responsibilities of the position, the candidate's work experience, education and training, key skills, as well as market and business considerations. MINIMUM QUALIFICATIONS: Currently pursuing a bachelor's degree (or higher) from an accredited college or university in Manufacturing, Mechanical, Industrial, or similar field. Must graduate December 2027 or later Must continue enrollment in degree program upon completion of the internship Validated academic excellence (3.0 GPA and higher) Honeywell Technologies is currently unable to consider applicants who would require current or future sponsorship for employment authorization for this position. Candidates must be authorized to legally work in the United States without current or future sponsorship requirements. WE VALUE: Eagerness to learn and contribute to a dynamic team environment Industrial design talent Knowledge of lean principles and continuous improvement methodologies Eagerness to get involved in hands-on work Lean Manufacturing/Six Sigma experience is a plus Ability to easily and effectively balance many priorities and results-oriented demands Good interpersonal skills verbal and written Interning at Honeywell Technologies provides hands-on experience with cutting-edge technologies, professional development, and mentorship within a global organization. Interns will receive relocation benefits and short-term housing if they are 50 miles or more from their assigned work location (excluding Puerto Rico and Canada). The application period for the intern position is estimated to be through the end of March 2027; however, this may be shortened or extended depending on business needs and the availability of qualified candidates. #HoneywellURNAM",
-   "season": "ok",
-   "company": "Honeywell",
-   "src": "Honeywell",
-   "score": {
-    "total": 12,
-    "base": 20,
-    "fit": 7,
-    "loc": 0,
-    "traj": 12,
-    "pay": 1,
-    "rate": [
-     24.0,
-     45.0
-    ],
-    "rate_src": "stated",
-    "fresh": -8,
-    "age": 90.3,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "title: manufacturing",
-      3
-     ],
-     [
-      "pay $34/hr",
-      1
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "sr:LLNL:3743990016166026",
    "title": "Computing Undergraduate Student Intern: HPC Cluster Engineer Academy Internship Program",
    "location": "Livermore, CA, us",
@@ -66474,45 +66310,6 @@
      [
       "est. pay $19/hr",
       -4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "or:ibqbjb:155594",
-   "title": "Offering Management \u2013 Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155594",
-   "posted": "2026-08-27",
-   "body": "Honeywell Technologies: Build What Matters At Honeywell Technologies, you can work on technology that helps make the world safer, smarter, and more efficient. We are a global automation company focused on helping customers run critical operations safely, reliably, and efficiently, with about $17B in 2025 sales, 54,000 employees, roughly 600 sites, and headquarters in Charlotte, NC. Work on practical innovation. Honeywell Technologies is moving from automation toward autonomy by combining AI, controls, connected data, and domain expertise to help assets work harder, people work smarter, and processes run more efficiently. Grow with purpose. At Honeywell Technologies, you can grow your career and network by contributing to the company\u2019s success. Join a customer obsessed culture built on respect, collaboration, diverse perspectives, continuous learning, individual well-being, and celebrating achievement. Be part of a culture that values people. Our people are at the heart of what we do, with an emphasis on impact, representing Honeywell with pride, bringing diverse perspectives, and solving problems with curiosity and resilience. Shape the future by making what matters better. ABOUT THE ROLE: As an Offering Management Intern here at Honeywell Technologies, you will have the opportunity to engage in meaningful projects that contribute to our offering strategies and business growth. This internship will provide you with valuable insights into the offering management process while working alongside experienced professionals in a dynamic environment. In this role, you will impact Honeywell Technologies' success by assisting in the development and execution of strategies that enhance our product offerings and meet customer needs in high-growth markets. Key Responsibilities: Support the analysis of market trends, customer feedback, and competitive landscape to identify opportunities for new offerings. Assist in the development of product positioning, pricing strategies, and go-to-market plans. Collaborate with cross-functional teams to launch new offerings and monitor their performance. Location: This position is available in multiple locations across the United States. The exact worksite location will be selected based on business requirements and the candidate\u2019s relevant experience and qualifications. The hourly base range for this position is $20.00/hr - $41.50/hr . Please note that this salary information serves as a general guideline. Honeywell considers various factors when extending an offer, including but not limited to the scope and responsibilities of the position, the candidate's work experience, education and training, key skills, as well as market and business considerations. MINIMUM QUALIFICATIONS: Currently pursuing a bachelor\u2019s degree (or higher) from an accredited college or university in Business Management, Engineering, or similar field Must graduate December 2027 or later Must continue enrollment in degree program upon completion of the internship Validated academic excellence (3.0 GPA and higher) Honeywell Technologies is currently unable to consider applicants who would require current or future sponsorship for employment authorization for this position. Candidates must be authorized to legally work in the United States without current or future sponsorship requirements. WE VALUE: Previous internship experience in a similar role. Excellent communication and teamwork skills. Relevant experience in offering management, product management, or related fields. Strong analytical skills and the ability to interpret data effectively. Familiarity with market research methodologies. Strong Microsoft Office Suite, especially Excel and PowerPoint. Interning at Honeywell Technologies provides hands-on experience with cutting-edge technologies, professional development, and mentorship within a global organization. Interns will receive relocation benefits and short-term housing if they are 50 miles or more from their assigned work location (excluding Puerto Rico and Canada). The application period for the intern position is estimated to be through the end of March 2027; however, this may be shortened or extended depending on business needs and the availability of qualified candidates. #HoneywellURNAM",
-   "season": "ok",
-   "company": "Honeywell",
-   "src": "Honeywell",
-   "score": {
-    "total": 8,
-    "base": 16,
-    "fit": 4,
-    "loc": 0,
-    "traj": 12,
-    "pay": 0,
-    "rate": [
-     20.0,
-     41.5
-    ],
-    "rate_src": "stated",
-    "fresh": -8,
-    "age": 88.3,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "body: relocation",
-      4
-     ],
-     [
-      "pay $31/hr",
-      0
      ]
     ]
    },
@@ -73474,111 +73271,6 @@
    "reason": "no mechanical signal"
   },
   {
-   "company": "Honeywell",
-   "title": "Building Automation Supply Chain Development Program (URDP) - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155506",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Business Management \u2013 Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155593",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Chemical Engineering - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155524",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Chemical Engineering - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155526",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Chemistry Lab Process Engineering Intern - Bachelor's",
-   "location": "Shreveport, LA, United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161021",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Electrical Engineering - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155540",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Electrical Engineering - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155537",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Field Service Technician- Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/156496",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Future Finance Leaders Program - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/157973",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Future Finance Leaders Program - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155510",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Marketing - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155591",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Materials Engineering/Materials Science - Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155541",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Materials Engineering/Materials Science - Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155543",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Supply Chain \u2013 Summer 2027 Intern",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155585",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Honeywell",
-   "title": "Supply Chain \u2013 Summer 2027 Intern (US Person Required)",
-   "location": "United States",
-   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155586",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Honeywell Aerospace",
    "title": "Electrical Engineering - Summer 2027 Intern",
    "location": "United States",
@@ -74147,13 +73839,6 @@
   },
   {
    "company": "Lam Research",
-   "title": "Summer 2027 - Electrical Engineering Intern - BS",
-   "location": "Fremont, CA, US",
-   "url": "https://careers.lamresearch.com/careers/job/1099555447630",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Lam Research",
    "title": "Summer 2027 - Electrical Engineering Intern - BS/MS",
    "location": "Tualatin, OR, US",
    "url": "https://careers.lamresearch.com/careers/job/1099556276556",
@@ -74260,15 +73945,15 @@
   {
    "company": "Lightmatter",
    "title": "Analog Engineering Intern - Summer 2027",
-   "location": "Boston, MA; Mountain View, CA",
-   "url": "https://boards.greenhouse.io/lightmatter/jobs/5475081008?gh_jid=5475081008",
+   "location": "Mountain View, CA",
+   "url": "https://boards.greenhouse.io/lightmatter/jobs/5473774008?gh_jid=5473774008",
    "reason": "non-ME discipline"
   },
   {
    "company": "Lightmatter",
    "title": "Analog Engineering Intern - Summer 2027",
-   "location": "Mountain View, CA",
-   "url": "https://boards.greenhouse.io/lightmatter/jobs/5473774008?gh_jid=5473774008",
+   "location": "Boston, MA; Mountain View, CA",
+   "url": "https://boards.greenhouse.io/lightmatter/jobs/5475081008?gh_jid=5475081008",
    "reason": "non-ME discipline"
   },
   {
@@ -74296,13 +73981,6 @@
    "company": "Lockheed Martin",
    "title": "College Student - Technical - N3",
    "location": "Manassas, VA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477362690",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Lockheed Martin",
-   "title": "College Student - Technical - N3",
-   "location": "Manassas, VA, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477503175",
    "reason": "no mechanical signal"
   },
@@ -74311,6 +73989,13 @@
    "title": "College Student - Technical - N3",
    "location": "Grand Prairie, TX, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477570588",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Lockheed Martin",
+   "title": "College Student - Technical - N3",
+   "location": "Manassas, VA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477362690",
    "reason": "no mechanical signal"
   },
   {
@@ -74731,55 +74416,6 @@
    "title": "Intern \u2013 Procurement Cost Analyst",
    "location": "Boise, ID - North Office, United States of America",
    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---North-Office/Intern---Procurement-Cost-Analyst_JR112690",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Engineer - Erada Internship",
-   "location": "Doha, Doha Municipality, QA",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556942219",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
    "reason": "non-ME discipline"
   },
   {
@@ -76052,6 +75688,13 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
+   "title": "Security Analyst Intern Summer 2027",
    "location": "Albuquerque, NM",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
    "reason": "non-ME discipline"
@@ -76065,13 +75708,6 @@
   },
   {
    "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
    "title": "Supply Chain Intern",
    "location": "Long Beach, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984786003",
@@ -76080,8 +75716,8 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
@@ -76094,8 +75730,8 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
    "reason": "non-ME discipline"
   },
   {
