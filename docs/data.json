@@ -1,17 +1,24 @@
 {
- "generated": "2026-11-24T18:50:07+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45463740437",
- "scanned": 34729,
+ "generated": "2026-11-24T19:10:08+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45467306930",
+ "scanned": 34659,
  "boards": 331,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 2
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1184,
-  "no mechanical signal": 366,
-  "software / data / AI role": 1153,
-  "not a student req": 26937,
-  "master's/PhD only": 812,
-  "outside the US": 1504,
-  "no Summer/Fall 2027": 799,
+  "non-ME discipline": 1175,
+  "no mechanical signal": 363,
+  "software / data / AI role": 1143,
+  "not a student req": 26948,
+  "master's/PhD only": 765,
+  "outside the US": 1501,
+  "no Summer/Fall 2027": 793,
   "off-target season in title": 466,
   "degree-level blocker": 4
  },
@@ -5994,6 +6001,69 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "wd:flir:REQ37514",
+   "title": "Mechanical Engineering Intern - CW",
+   "location": "US - Wilsonville, OR, United States of America",
+   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Wilsonville-OR/Mechanical-Engineering-Intern---CW_REQ37514",
+   "posted": "2026-10-22",
+   "body": "Be visionary Teledyne Technologies Incorporated provides enabling technologies for industrial growth markets that require advanced technology and high reliability. These markets include aerospace and defense, factory automation, air and water quality environmental monitoring, electronics design and development, oceanographic research, deepwater oil and gas exploration and production, medical imaging and pharmaceutical research. \u200b We are looking for individuals who thrive on making an impact and want the excitement of being on a team that wins. Job Description Teledyne FLIR seeks a Mechanical Engineering Intern to support the mechanical engineering department in the development of a new gimbal product. This position would be a part-time role and would be flexible to work around student\u2019s schedules with a target of 15-20 hrs per week. Interns will work in a dynamic, diverse, and collaborative team solving problems and acquiring hands-on experience in a wide range of areas including product design, manufacturing, environmental testing, and 2D drafting. Throughout the program, participants will gain exposure to many fundamental disciplines of mechanical engineering: stress and strain, hot and cold thermal solutions, electronics and opto-mechanical packaging. Potential tasks for a Mechanical Engineering Intern include but are not limited to: DVT Test creation, execution and documentation Prototype part inventory management Assembly documentation creation and fixture design Procurement tracking and coordination Must be able to begin working part-time in the fall term. English speaking is required due to the collaborative nature of the internship program. Ideal Candidate Profile: Junior/Senior in 4-year BS degree program for Mechanical Engineering, Aerospace Engineering or similar engineering degree. Experience designing and building products Design for 3D printing and experience optimizing parts for 3D printing. Strong verbal and written communicator. Highly recommended: Expert user in MS Excel and familiarity with Solidworks. Preferred : Experience with 3D CAD (Solidworks preferred) and MS Office Applicants must be either a U.S. citizen, U.S. national, legal permanent resident, asylee, refugee or must be eligible to apply for and obtain the appropriate export control license from the U.S. Departments of State or Commerce. Teledyne and all of our employees are committed to conducting business with the highest ethical standards. We require all employees to comply with all applicable laws, regulations, rules and regulatory orders. Our reputation for honesty, integrity and high ethics is as important to us as our reputation for making innovative sensing solutions. Teledyne is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age, or any other characteristic or non-merit based factor made unlawful by federal, state, or local laws. \u200b",
+   "season": "unstated",
+   "company": "Teledyne FLIR",
+   "src": "Teledyne FLIR",
+   "score": {
+    "total": 65,
+    "base": 65,
+    "fit": 52,
+    "loc": 0,
+    "traj": 12,
+    "pay": 1,
+    "rate": [
+     36,
+     36
+    ],
+    "rate_src": "trajectory",
+    "fresh": 0,
+    "age": 33.8,
+    "age_basis": "posted",
+    "tier": "A",
+    "why": [
+     [
+      "title: mechanical",
+      12
+     ],
+     [
+      "body: fixture",
+      8
+     ],
+     [
+      "body: product design",
+      6
+     ],
+     [
+      "body: regulator",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: mechanical engineering intern",
+      4
+     ],
+     [
+      "body: 3d printing",
+      4
+     ],
+     [
+      "body: prototype",
+      4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "wd:avav:9038",
    "title": "Mechanical Engineering Intern",
    "location": "Petaluma, CA, United States of America",
@@ -7063,69 +7133,6 @@
     ]
    },
    "first_seen": "2026-10-28T07:28:30+00:00"
-  },
-  {
-   "id": "wd:flir:REQ37514",
-   "title": "Mechanical Engineering Intern - CW",
-   "location": "US - Wilsonville, OR, United States of America",
-   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Wilsonville-OR/Mechanical-Engineering-Intern---CW_REQ37514",
-   "posted": "2026-10-22",
-   "body": "Be visionary Teledyne Technologies Incorporated provides enabling technologies for industrial growth markets that require advanced technology and high reliability. These markets include aerospace and defense, factory automation, air and water quality environmental monitoring, electronics design and development, oceanographic research, deepwater oil and gas exploration and production, medical imaging and pharmaceutical research. \u200b We are looking for individuals who thrive on making an impact and want the excitement of being on a team that wins. Job Description Teledyne FLIR seeks a Mechanical Engineering Intern to support the mechanical engineering department in the development of a new gimbal product. This position would be a part-time role and would be flexible to work around student\u2019s schedules with a target of 15-20 hrs per week. Interns will work in a dynamic, diverse, and collaborative team solving problems and acquiring hands-on experience in a wide range of areas including product design, manufacturing, environmental testing, and 2D drafting. Throughout the program, participants will gain exposure to many fundamental disciplines of mechanical engineering: stress and strain, hot and cold thermal solutions, electronics and opto-mechanical packaging. Potential tasks for a Mechanical Engineering Intern include but are not limited to: DVT Test creation, execution and documentation Prototype part inventory management Assembly documentation creation and fixture design Procurement tracking and coordination Must be able to begin working part-time in the fall term. English speaking is required due to the collaborative nature of the internship program. Ideal Candidate Profile: Junior/Senior in 4-year BS degree program for Mechanical Engineering, Aerospace Engineering or similar engineering degree. Experience designing and building products Design for 3D printing and experience optimizing parts for 3D printing. Strong verbal and written communicator. Highly recommended: Expert user in MS Excel and familiarity with Solidworks. Preferred : Experience with 3D CAD (Solidworks preferred) and MS Office Applicants must be either a U.S. citizen, U.S. national, legal permanent resident, asylee, refugee or must be eligible to apply for and obtain the appropriate export control license from the U.S. Departments of State or Commerce. Teledyne and all of our employees are committed to conducting business with the highest ethical standards. We require all employees to comply with all applicable laws, regulations, rules and regulatory orders. Our reputation for honesty, integrity and high ethics is as important to us as our reputation for making innovative sensing solutions. Teledyne is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age, or any other characteristic or non-merit based factor made unlawful by federal, state, or local laws. \u200b",
-   "season": "unstated",
-   "company": "Teledyne FLIR",
-   "src": "Teledyne FLIR",
-   "score": {
-    "total": 62,
-    "base": 62,
-    "fit": 52,
-    "loc": 0,
-    "traj": 12,
-    "pay": -2,
-    "rate": [
-     24.33,
-     32.45
-    ],
-    "rate_src": "company",
-    "fresh": 0,
-    "age": 33.8,
-    "age_basis": "posted",
-    "tier": "A",
-    "why": [
-     [
-      "title: mechanical",
-      12
-     ],
-     [
-      "body: fixture",
-      8
-     ],
-     [
-      "body: product design",
-      6
-     ],
-     [
-      "body: regulator",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "title: mechanical engineering intern",
-      4
-     ],
-     [
-      "body: 3d printing",
-      4
-     ],
-     [
-      "body: prototype",
-      4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:avav:9247",
@@ -10828,132 +10835,6 @@
    "first_seen": "2026-11-16T22:07:06+00:00"
   },
   {
-   "id": "wd:flir:REQ34028",
-   "title": "Engineering Intern - Summer",
-   "location": "US - North Falmouth, MA, United States of America",
-   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---North-Falmouth-MA/Engineering-Intern---Summer_REQ34028-1",
-   "posted": "2026-11-23",
-   "body": "Be visionary Teledyne Technologies Incorporated provides enabling technologies for industrial growth markets that require advanced technology and high reliability. These markets include aerospace and defense, factory automation, air and water quality environmental monitoring, electronics design and development, oceanographic research, deepwater oil and gas exploration and production, medical imaging and pharmaceutical research. \u200b We are looking for individuals who thrive on making an impact and want the excitement of being on a team that wins. Job Description Job Description Summary: The Engineer Intern actively participates in innovative projects and gains valuable hands-on experience within their field of study. Performs engineering assignments with clear and specified objectives using established plans and specifications. 40 hours per week Must have access to local housing on or near Cape Cod Compensation based on college level, start and stop dates flexible Interns will be assigned, but not limited, to a department without Teledyne Marine Systems based on their background. Departments include: Benthos \u2013 Accoustic Modems Webb Research \u2013 Gliders and Floats TapTone \u2013 Package Inspection Technology, including machine vision manufacturing \u2013 All Product Lines. Projects will be determined by the manager depending on skill level and duration of employment. Most projects will include working closely with Teledyne engineers to support both existing products as well as new product development. Interns will also be exposed to Teledyne\u2019s Knowledge based Product Development process. You will learn about how we are focusing on early testing, how to eliminate knowledge gaps before we stipulate specifications and start the formal design process. Education/Experience Actively pursuing BS or MS in Mechanical, Software or Electrical Engineering degree or Computer Scient from an accredited university. Junior standing or higher. Preference for GPA 3.0 and above. Strong computer skills including MS Office applications and discipline related tools such as Altium, SolidWorks or other AutoCAD program preferred. Strong verbal and written communication skills. Ability to perform assigned tasks and complete work on schedule with minimal supervision. Experience by related discipline, with mechanical and electromechanical assemblies, working knowledge of C/C++, embedded systems space, Python on Windows and/or Linux preferred. Due to type of work at the facility and certain access restrictions, successful applicants must be a \u201cUS Person\u201d (US Citizens, US Nationals, lawful permanent resident, asylees or refugees). Salary Range: $50,600.00-$67,500.000 The anticipated salary range listed for this role is only an estimate. Actual compensation for successful candidates is carefully determined based on several factors including, but not limited to, location, local regulations (such as minimum wage), education/training, work experience, key skills, and type of position. Teledyne and all of our employees are committed to conducting business with the highest ethical standards. We require all employees to comply with all applicable laws, regulations, rules and regulatory orders. Our reputation for honesty, integrity and high ethics is as important to us as our reputation for making innovative sensing solutions. Teledyne is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age, or any other characteristic or non-merit based factor made unlawful by federal, state, or local laws. \u200b",
-   "season": "unstated",
-   "company": "Teledyne FLIR",
-   "src": "Teledyne FLIR",
-   "score": {
-    "total": 55,
-    "base": 43,
-    "fit": 27,
-    "loc": 6,
-    "traj": 12,
-    "pay": -2,
-    "rate": [
-     24.33,
-     32.45
-    ],
-    "rate_src": "stated",
-    "fresh": 12,
-    "age": 1.8,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: machine vision",
-      7
-     ],
-     [
-      "body: electromechanical",
-      6
-     ],
-     [
-      "body: regulator",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: solidworks",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "pay $28/hr",
-      -2
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-23T20:38:44+00:00"
-  },
-  {
-   "id": "wd:flir:REQ34030",
-   "title": "Engineering Intern - Fall",
-   "location": "US - North Falmouth, MA, United States of America",
-   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---North-Falmouth-MA/Engineering-Intern---Fall_REQ34030",
-   "posted": "2026-11-23",
-   "body": "Be visionary Teledyne Technologies Incorporated provides enabling technologies for industrial growth markets that require advanced technology and high reliability. These markets include aerospace and defense, factory automation, air and water quality environmental monitoring, electronics design and development, oceanographic research, deepwater oil and gas exploration and production, medical imaging and pharmaceutical research. \u200b We are looking for individuals who thrive on making an impact and want the excitement of being on a team that wins. Job Description The Engineer Intern actively participates in innovative projects and gains valuable hands-on experience within their field of study. Performs engineering assignments with clear and specified objectives using established plans and specifications. 40 hours per week Must have access to local housing on or near Cape Cod Compensation based on college level, start and stop dates flexible Interns will be assigned, but not limited, to a department without Teledyne Marine Systems based on their background. Departments include: Benthos \u2013 Accoustic Modems Webb Research \u2013 Gliders and Floats TapTone \u2013 Package Inspection Technology, including machine vision manufacturing \u2013 All Product Lines. Projects will be determined by the manager depending on skill level and duration of employment. Most projects will include working closely with Teledyne engineers to support both existing products as well as new product development. Interns will also be exposed to Teledyne\u2019s Knowledge based Product Development process. You will learn about how we are focusing on early testing, how to eliminate knowledge gaps before we stipulate specifications and start the formal design process. Education/Experience Actively pursuing BS or MS in Mechanical, Software or Electrical Engineering degree or Computer Scient from an accredited university. Junior standing or higher. Preference for GPA 3.0 and above. Strong computer skills including MS Office applications and discipline related tools such as Altium, SolidWorks or other AutoCAD program preferred. Strong verbal and written communication skills. Ability to perform assigned tasks and complete work on schedule with minimal supervision. Experience by related discipline, with mechanical and electromechanical assemblies, working knowledge of C/C++, embedded systems space, Python on Windows and/or Linux preferred. Due to type of work at the facility and certain access restrictions, successful applicants must be a \u201cUS Person\u201d (US Citizens, US Nationals, lawful permanent resident, asylees or refugees). Salary Range: $50,600.00-$67,500.000 The anticipated salary range listed for this role is only an estimate. Actual compensation for successful candidates is carefully determined based on several factors including, but not limited to, location, local regulations (such as minimum wage), education/training, work experience, key skills, and type of position. Teledyne and all of our employees are committed to conducting business with the highest ethical standards. We require all employees to comply with all applicable laws, regulations, rules and regulatory orders. Our reputation for honesty, integrity and high ethics is as important to us as our reputation for making innovative sensing solutions. Teledyne is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age, or any other characteristic or non-merit based factor made unlawful by federal, state, or local laws. \u200b",
-   "season": "unstated",
-   "company": "Teledyne FLIR",
-   "src": "Teledyne FLIR",
-   "score": {
-    "total": 55,
-    "base": 43,
-    "fit": 27,
-    "loc": 6,
-    "traj": 12,
-    "pay": -2,
-    "rate": [
-     24.33,
-     32.45
-    ],
-    "rate_src": "stated",
-    "fresh": 12,
-    "age": 1.8,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: machine vision",
-      7
-     ],
-     [
-      "body: electromechanical",
-      6
-     ],
-     [
-      "body: regulator",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: solidworks",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "pay $28/hr",
-      -2
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-23T20:58:51+00:00"
-  },
-  {
    "id": "gh:vardaspace:8010170003",
    "title": "Vehicle Integration & Test Internship - Summer 2027",
    "location": "El Segundo, California, United States",
@@ -11852,7 +11733,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-15T09:17:02+00:00"
+   "first_seen": "2026-10-15T09:17:02+00:00",
+   "stale": true
   },
   {
    "id": "ab:regent:1eec51d3-41c8-445f-817a-65c732a573a2",
@@ -24049,57 +23931,6 @@
    "first_seen": "2026-11-13T08:23:51+00:00"
   },
   {
-   "id": "sf:corningjobs.corning.com:1448781100",
-   "title": "R&D Glass Melting Process - Summer Intern 2027",
-   "location": "",
-   "url": "https://corningjobs.corning.com/job/Corning-R&amp;D-Glass-Melting-Process-Summer-Intern-2027-NY-14831/1448781100/",
-   "posted": "2026-11-07",
-   "body": "> Requisition Number: 79533 The company built on breakthroughs. \u200b Join us.\u200b Corning is one of the world\u2019s leading innovators in glass, ceramic, and materials science. From the depths of the ocean to the farthest reaches of space, our technologies push the boundaries of what\u2019s possible. \u200b How do we do this? With our people. They break through limitations and expectations \u2013 not once in a career, but every day. They help move our company, and the world, forward. \u200b \u200b At Corning, there are endless possibilities for making an impact. You can help connect the unconnected, drive the future of automobiles, transform at-home entertainment, and ensure the delivery of lifesaving medicines. And so much more.\u200b \u200b Come break through with us. Scope of Position How do glass melting conditions influence optical performance? Explore that connection in a hands-on summer internship alongside Corning\u2019s glass melting scientists and engineers. Your work will support glass development for emerging businesses, consumer mobile electronic devices, and display applications. Program Benefits Competitive salaries Housing assistance Travel reimbursement Intern Activities Social and networking events Volunteer opportunities Community Involvement Key Responsibilities Plan and run laboratory glass melting experiments, with a possible opportunity to support pilot-scale trials Investigate the sources of inclusions\u2014unwanted gaseous or solid defects within glass\u2014and how they and other process factors affect product attributes, such as optical transmission Analyze experimental and glass characterization data to connect melting conditions with glass quality Document methods, results, and findings so the team can build on your experiments Present your findings to the capability group and the broader scientific community through a Sullivan Park poster session before the internship ends Requirements Currently enrolled in a bachelor's degree program with rising junior or senior standing at the start of the internship Pursuing a degree in Materials Science, Glass Science, Ceramic Engineering, Chemical Engineering, Mechanical Engineering, or another physics- or chemistry-based science or engineering discipline Must be available for 10 weeks during Summer 2027 (May-August 2027) with a graduation date of December 2027 or later Be interested in working for Corning, Inc after graduation, if presented with a full-time job opportunity. Be willing to work at the posted job location Skills You Will Build Hands-on glass melting experience and practice in experimental design, root-cause investigation, data interpretation, and scientific communication Experience collaborating with glass melting scientists and technicians to meet project milestones This position does not support immigration sponsorship. \u200bThe range for this position is $1,635.00 - $3,185.00 biweekly. Starting pay for the successful applicant is prescribed based on geographic location, nature of position, and year in school. A job that shapes a life. We prohibit discrimination on the basis of race, color, gender, age, religion, national origin, sexual orientation, gender identity or expression, disability, veteran status or any other legally protected status. Corning is committed to providing equal employment opportunities and considers requests for reasonable accommodations in accordance with applicable laws. Individuals with disabilities or sincerely held religious beliefs may request reasonable accommodations to participate in the application or interview process, perform essential job functions, or access other benefits and privileges of employment. To submit a request for reasonable accommodation related to disability or religion, please contact us at accommodations@corning.com . <span",
-   "season": "ok",
-   "company": "Corning",
-   "src": "Corning",
-   "score": {
-    "total": 40,
-    "base": 37,
-    "fit": 17,
-    "loc": 0,
-    "traj": 12,
-    "pay": 8,
-    "rate": [
-     40.88,
-     79.62
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 17.8,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $60/hr",
-      8
-     ],
-     [
-      "title: r&d",
-      6
-     ],
-     [
-      "body: housing assistance",
-      5
-     ],
-     [
-      "title: process",
-      3
-     ],
-     [
-      "body: doe",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "wd:draper:JR003094",
    "title": "Optics-Physics Sensor Engineering Intern (Summer 2027)",
    "location": "Cambridge, MA, United States of America",
@@ -24529,7 +24360,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "wd:ngc:R10261915",
@@ -25457,6 +25289,53 @@
     ]
    },
    "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
+   "id": "wd:kla:2643372",
+   "title": "Service Support Intern",
+   "location": "Phoenix, AZ, United States of America",
+   "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Phoenix-AZ/Service-Support-Intern_2643372-1",
+   "posted": "2026-11-24",
+   "body": "To make electronics, you need chips, wafers, transistors, reticles, and... To make these, you must see, test and manufacture them at scale\u2014faster and better than ever before. That's where KLA comes in. Whether you're early in your career or an experienced professional, you'll solve complex challenges, work alongside brilliant minds and help shape the future of technology. Group/Division The KLA Services team consists of Service Sales, Marketing, Spares Supply Chain Management, Field Operations, Engineering, Product Training, Digital Solutions and Analytics, and Technical Product Support. Our services organization maximizes the value of our customers' KLA assets \u2013 with highly trained service and product support engineers providing installation services and 24/7 technical support and parts delivery through our extensive supply chain network. What You'll Do In this role, you will play a key part in advancing business priorities by delivering high-impact work across your area of expertise. Seeking the motivated, the curious, the optimistic. The Intern in this role will champion a program to inventory, serialize, and catalogue specialized equipment used to support service operations. The objective is to streamline Tooling Operations. The job function comes with limited access to KLA Semiconductor Process Control (Semi-PC) and Chemical Analysis (ECI) equipment. The Intern will have the ability to shadow KLA Service Engineers in the KLA office and at the primary customer facility, during daily service operations. Candidates for this position have a working understanding of Microsoft Suite, and know how to communicate effectively across multiple channels and platforms (MS Teams, e-mail, text, video-conference, and in person). Time management and organizational skills are a must. Knowledge of / Experience with 6-Sigma process is a plus. Minimum Qualifications Enrolled in Engineering or Technical Engineering program at 2 or 4yr college (Optical, Electrical, Mechanical, IT/Computer Science) Requires less than 1 year of related experience About KLA We provide advanced inspection tools, metrology systems, process solutions, and computational analytics that make electronics possible, tackling complex challenges. From electron and photon optics to machine learning and data analytics, we seek perfection at the most fundamental level of matter in the universe. If you want to make electronics that push industries forward and make the world a better place, join us. Total Rewards Base Pay Range: $0.00 - $0.00 Per Hour Primary Location: USA-AZ-Phoenix-KLA KLA\u2019s total rewards package for employees may also include participation in performance incentive programs and eligibility for additional benefits including but not limited to: medical, dental, vision, life, and other voluntary benefits, 401(K) including company matching, employee stock purchase program (ESPP), student debt assistance, tuition reimbursement program, development and career growth opportunities and programs, financial planning benefits, wellness benefits including an employee assistance program (EAP), paid time off and paid company holidays, and family care and bonding leave. Interns are eligible for some of the benefits listed. Our pay ranges are determined by role, level, and location. The range displayed reflects the pay for this position in the primary location identified in this posting. Actual pay depends on several factors, including state minimum pay wage rates, location, job-related skills, experience, and relevant education level or training. We are committed to complying with all applicable federal and state minimum wage requirements where applicable. If applicable, your recruiter can share more about the specific pay range for your preferred location during the hiring process. Use of AI Statement At KLA, our interviews seek to understand your individual skills, problem-solving approach and authentic thinking. To ensure a fair and consistent evaluation, the use of AI, recording tools or other technologies to generate, suggest or provide responses during interviews\u2014whether virtual or in person\u2014is not permitted unless explicitly approved in advance as part of a reasonable accommodation or invited by the interviewer. Use of these tools may interfere with our ability to evaluate your individual qualifications and affect your candidacy. KLA is committed to advancing innovation through responsible AI, and we value candidates who share this mindset. Equal Opportunity Statement KLA is proud to be an Equal Opportunity Employer. We will ensure that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us at talent.acquisition@kla.com or at +1-408-352-2808 to request accommodation. For additional information, view the US Know Your Rights poster on the U.S. Equal Employment Opportunity Commission website.",
+   "season": "unstated",
+   "company": "KLA",
+   "src": "KLA",
+   "score": {
+    "total": 39,
+    "base": 27,
+    "fit": 5,
+    "loc": 0,
+    "traj": 18,
+    "pay": 4,
+    "rate": [
+     35.0,
+     49.0
+    ],
+    "rate_src": "company",
+    "fresh": 12,
+    "age": 0.8,
+    "age_basis": "posted",
+    "tier": "C",
+    "why": [
+     [
+      "body: inventor",
+      4
+     ],
+     [
+      "body: metrology",
+      4
+     ],
+     [
+      "est. pay $42/hr",
+      4
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-24T19:10:08+00:00"
   },
   {
    "id": "sf:jobs.l3harris.com:1452619300",
@@ -34357,6 +34236,49 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "sf:corningjobs.corning.com:1448781100",
+   "title": "R&D Glass Melting Process - Summer Intern 2027",
+   "location": "",
+   "url": "https://corningjobs.corning.com/job/Corning-R&amp;D-Glass-Melting-Process-Summer-Intern-2027-NY-14831/1448781100/",
+   "posted": "",
+   "body": "",
+   "season": "ok",
+   "company": "Corning",
+   "src": "Corning",
+   "score": {
+    "total": 32,
+    "base": 29,
+    "fit": 9,
+    "loc": 0,
+    "traj": 12,
+    "pay": 8,
+    "rate": [
+     40.88,
+     79.62
+    ],
+    "rate_src": "company",
+    "fresh": 3,
+    "age": 12.8,
+    "age_basis": "found",
+    "tier": "C",
+    "why": [
+     [
+      "est. pay $60/hr",
+      8
+     ],
+     [
+      "title: r&d",
+      6
+     ],
+     [
+      "title: process",
+      3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "wd:entegris:REQ-15867",
    "title": "Quality Engineering Intern",
    "location": "Colorado Springs, CO, United States of America",
@@ -35426,6 +35348,61 @@
     ]
    },
    "first_seen": "2026-11-18T23:13:02+00:00"
+  },
+  {
+   "id": "wd:flir:REQ37414",
+   "title": "Manufacturing Engineering Intern",
+   "location": "US - Miamisburg, OH, United States of America",
+   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Miamisburg-OH/Manufacturing-Engineering-Intern_REQ37414",
+   "posted": "2026-10-27",
+   "body": "Be visionary Teledyne Technologies Incorporated provides enabling technologies for industrial growth markets that require advanced technology and high reliability. These markets include aerospace and defense, factory automation, air and water quality environmental monitoring, electronics design and development, oceanographic research, deepwater oil and gas exploration and production, medical imaging and pharmaceutical research. \u200b We are looking for individuals who thrive on making an impact and want the excitement of being on a team that wins. Job Description We are currently seeking an energetic Manufacturing Engineering Intern to join our Engineering team at our Miamisburg site. We are currently targeting students for the Spring 2027 semester. What You\u2019ll Do: Primary responsibilities will include but not be limited to: Becoming familiar with and utilizing engineering design and drafting standards Assisting in producing detail design calculations, spreadsheets, reports, drawings, and sketches for various projects Assisting in developing conceptual process engineering designs and studies as necessary to determine the simplest, most efficient approach to solving engineering problems Assisting engineers and technicians in accomplishing tasks to support manufacturing and project goals in terms of safety, cost, schedule, and quality Generally responsible for performing routine engineering tasks of less complex assignments using theoretical knowledge and practical design methods. This work will be performed under direct supervision. What You Need Currently enrolled college student pursuing a Bachelor of Science degree in Industrial, Mechanical or Electrical Engineering at an accredited university is required. Current class standing of sophomore or above (30 credits). Cumulative GPA of 3.0 or above. Must be able to work on-site in Miamisburg, OH. Prior coop experience is a plus. Demonstrated leadership skills within campus life and extracurricular activities. Proficient in the use of Microsoft Word, Excel, PowerPoint, and Outlook. Good communication skills, both verbal and written. Familiarity with manufacturing engineering principles (cycle time analysis, process instructions, layout calculations, Kaizen, and lean practices) is beneficial for this position. Working knowledge of CAD software, either AutoCAD or SolidWorks (or both) is beneficial for this position. Please note that due to the requirements from the Department of Energy, U.S. CITIZENSHIP IS REQUIRED. What we offer Competitive pay and benefits Paid sick time for temporary employees Professional development and training opportunities Employee wellness programs and assistance resources A collaborative environment working on mission-critical technology What happens next Apply online through Teledyne\u2019s careers page. If your qualifications align, our team will contact you for interviews and guide you through the process. Teledyne is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status. Employment is contingent on background checks and compliance with applicable regulations. #qioptiq Teledyne and all of our employees are committed to conducting business with the highest ethical standards. We require all employees to comply with all applicable laws, regulations, rules and regulatory orders. Our reputation for honesty, integrity and high ethics is as important to us as our reputation for making innovative sensing solutions. Teledyne is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age, or any other characteristic or non-merit based factor made unlawful by federal, state, or local laws. \u200b",
+   "season": "ok",
+   "company": "Teledyne FLIR",
+   "src": "Teledyne FLIR",
+   "score": {
+    "total": 32,
+    "base": 32,
+    "fit": 19,
+    "loc": 0,
+    "traj": 12,
+    "pay": 1,
+    "rate": [
+     36,
+     36
+    ],
+    "rate_src": "trajectory",
+    "fresh": 0,
+    "age": 28.8,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: regulator",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: solidworks",
+      4
+     ],
+     [
+      "title: manufacturing",
+      3
+     ],
+     [
+      "body: drawings",
+      3
+     ],
+     [
+      "est. pay $36/hr",
+      1
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:ttc:JR17845",
@@ -38173,6 +38150,61 @@
    "first_seen": "2026-10-13T23:28:52+00:00"
   },
   {
+   "id": "ef:qualcomm.com:3096415",
+   "title": "EDT - FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+   "location": "Cork, CO, IE",
+   "url": "https://careers.qualcomm.com/careers/job/446721045034",
+   "posted": "2026-09-23",
+   "body": "Company: QT Technologies Ireland Limited Job Area: Interns Group, Interns Group > Interim Intern General Summary: About The Role The SnapDragon Engineering team in Cork, Ireland is seeking interns across our Digital, Analog and Embedded Software Design & Verification teams. The Cork site is home to a range of digital, analog and embedded Software teams working on cutting edge IP for the latest Snapdragon chipsets. The team work on IPs related to encryption, power control, graphics, contextual awareness, debug, processing, analog sensing, high-speed connectivity, validation and embedded Software. Each team is working with the latest toolsets and flows on bleeding edge FinFET silicon nodes in 5nm and below. Team members work directly with architecture, software, measurement and SoC teams in Ireland and other global Qualcomm locations. Successful candidates will have the opportunity to experience how leading-edge ASICs and SoCs in advanced CMOS processes for multi-function mobile platforms are developed and will develop a wide array of skills relevant to a future career in this exciting industry. Minimum Qualifications Relevant skills include experience with one or more of the following: Enrolled in a bachelor or master\u2019s degree in Electrical Engineering or Computer Engineering. Strong Interpersonal, communications and teamwork skills required Design, Coding and Scripting: Verilog or VHDL, C/C++, Python, Tcl/Perl/shell-scripting Verification Methodology using System Verilog/OVM/UVM Project work with FPGAs Knowledge of Low Power Design Knowledge of Analog Integrated Circuits Knowledge of wireless/wired communications and protocols, graphics/video multi-media, ARM processors or security algorithms Excellent computer skills (Including, but not limited to: Windows, Office, Visio) Dedication to successful and thorough completion of assigned tasks. Preferred Qualifications Enrolled in a bachelor or master\u2019s degree in Electrical Engineering or Computer Engineering. Coursework in the following areas: Circuits and Electronics, Signals and systems, Microelectronic Devices and Circuits, Semiconductor Devices, Feedback systems, Digital Integrated Circuits, Digital Signal Processing, Low power VLSI, Semiconductor Physics, Software Programming. Prior Work experience not required Please note: You must have completed your second year of a Bachelor\u2019s degree and ideally be in your second year of a Master's Degree Internships will commence from as early as January 2027 *References to a particular number of years experience are for indicative purposes only. Applications from candidates with equivalent experience will be considered, provided that the candidate can demonstrate an ability to fulfill the principal duties of the role and possesses the required competencies. Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail disability-accomodations@qualcomm.com or call Qualcomm's toll-free number found here . Upon request, Qualcomm will provide reasonable accommodations to support individuals with disabilities to be able participate in the hiring process. Qualcomm is also committed to making our workplace accessible for individuals with disabilities. (Keep in mind that this email address is used to provide reasonable accommodations for individuals with disabilities. We will not respond here to requests for updates on applications or resume inquiries). Qualcomm expects its employees to abide by all applicable policies and procedures, including but not limited to security and other requirements regarding protection of Company confidential information and other confidential and/or proprietary information, to the extent those requirements are permissible under applicable law. To all Staffing and Recruiting Agencies: Our Careers Site is only for individuals seeking a job at Qualcomm. Staffing and recruiting agencies and individuals being represented by an agency are not authorized to use this site or to submit profiles, applications or resumes, and any such submissions will be considered unsolicited. Qualcomm does not accept unsolicited resumes or applications from agencies. Please do not forward resumes to our jobs alias, Qualcomm employees or any other company location. Qualcomm is not responsible for any fees related to unsolicited resumes/applications. If you would like more information about this role, please contact Qualcomm Careers .",
+   "season": "ok",
+   "company": "Qualcomm",
+   "src": "Qualcomm",
+   "score": {
+    "total": 30,
+    "base": 38,
+    "fit": 19,
+    "loc": 0,
+    "traj": 17,
+    "pay": 2,
+    "rate": [
+     26.25,
+     49.69
+    ],
+    "rate_src": "company",
+    "fresh": -8,
+    "age": 62.8,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: engineering internship",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: verification",
+      4
+     ],
+     [
+      "body: doe",
+      3
+     ],
+     [
+      "est. pay $38/hr",
+      2
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "wd:globalhr:01888022",
    "title": "F135 EDSI SRI/IEG Summer Intern 2027 - Onsite",
    "location": "US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC, United States of America",
@@ -39717,61 +39749,6 @@
      [
       "pay $36/hr",
       1
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "wd:flir:REQ37414",
-   "title": "Manufacturing Engineering Intern",
-   "location": "US - Miamisburg, OH, United States of America",
-   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Miamisburg-OH/Manufacturing-Engineering-Intern_REQ37414",
-   "posted": "2026-10-27",
-   "body": "Be visionary Teledyne Technologies Incorporated provides enabling technologies for industrial growth markets that require advanced technology and high reliability. These markets include aerospace and defense, factory automation, air and water quality environmental monitoring, electronics design and development, oceanographic research, deepwater oil and gas exploration and production, medical imaging and pharmaceutical research. \u200b We are looking for individuals who thrive on making an impact and want the excitement of being on a team that wins. Job Description We are currently seeking an energetic Manufacturing Engineering Intern to join our Engineering team at our Miamisburg site. We are currently targeting students for the Spring 2027 semester. What You\u2019ll Do: Primary responsibilities will include but not be limited to: Becoming familiar with and utilizing engineering design and drafting standards Assisting in producing detail design calculations, spreadsheets, reports, drawings, and sketches for various projects Assisting in developing conceptual process engineering designs and studies as necessary to determine the simplest, most efficient approach to solving engineering problems Assisting engineers and technicians in accomplishing tasks to support manufacturing and project goals in terms of safety, cost, schedule, and quality Generally responsible for performing routine engineering tasks of less complex assignments using theoretical knowledge and practical design methods. This work will be performed under direct supervision. What You Need Currently enrolled college student pursuing a Bachelor of Science degree in Industrial, Mechanical or Electrical Engineering at an accredited university is required. Current class standing of sophomore or above (30 credits). Cumulative GPA of 3.0 or above. Must be able to work on-site in Miamisburg, OH. Prior coop experience is a plus. Demonstrated leadership skills within campus life and extracurricular activities. Proficient in the use of Microsoft Word, Excel, PowerPoint, and Outlook. Good communication skills, both verbal and written. Familiarity with manufacturing engineering principles (cycle time analysis, process instructions, layout calculations, Kaizen, and lean practices) is beneficial for this position. Working knowledge of CAD software, either AutoCAD or SolidWorks (or both) is beneficial for this position. Please note that due to the requirements from the Department of Energy, U.S. CITIZENSHIP IS REQUIRED. What we offer Competitive pay and benefits Paid sick time for temporary employees Professional development and training opportunities Employee wellness programs and assistance resources A collaborative environment working on mission-critical technology What happens next Apply online through Teledyne\u2019s careers page. If your qualifications align, our team will contact you for interviews and guide you through the process. Teledyne is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status. Employment is contingent on background checks and compliance with applicable regulations. #qioptiq Teledyne and all of our employees are committed to conducting business with the highest ethical standards. We require all employees to comply with all applicable laws, regulations, rules and regulatory orders. Our reputation for honesty, integrity and high ethics is as important to us as our reputation for making innovative sensing solutions. Teledyne is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age, or any other characteristic or non-merit based factor made unlawful by federal, state, or local laws. \u200b",
-   "season": "ok",
-   "company": "Teledyne FLIR",
-   "src": "Teledyne FLIR",
-   "score": {
-    "total": 29,
-    "base": 29,
-    "fit": 19,
-    "loc": 0,
-    "traj": 12,
-    "pay": -2,
-    "rate": [
-     24.33,
-     32.45
-    ],
-    "rate_src": "company",
-    "fresh": 0,
-    "age": 28.8,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: regulator",
-      5
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: solidworks",
-      4
-     ],
-     [
-      "title: manufacturing",
-      3
-     ],
-     [
-      "body: drawings",
-      3
-     ],
-     [
-      "est. pay $28/hr",
-      -2
      ]
     ]
    },
@@ -58001,41 +57978,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "wd:globalhr:01888251",
-   "title": "Lean & Continuous Improvement Industrial Engineering Co-Op (Summer/Fall 2027)",
-   "location": "US-NC-WILSON-4200 ~ 4200 Airport Dr ~ BLDG 4200, United States of America",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NC-WILSON-4200--4200-Airport-Dr--BLDG-4200/Lean---Continuous-Improvement-Industrial-Engineering-Co-Op--Summer-Fall-2027-_01888251",
-   "posted": "2026-11-14",
-   "body": "Date Posted: 2026-11-14 Country: United States of America Location: US-NC-WILSON-4200 ~ 4200 Airport Dr ~ BLDG 4200 Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. We are currently seeking a motivated and enthusiastic Co-op to join our Core Continuous Improvement Team for the Summer/Fall term (May \u2013 December). Apply and join our team today. What You Will Do Support process improvement projects focused on enhancing productivity. Collect, analyze, and interpret operational data to identify opportunities for optimization. Conduct time studies, workflow analyses, and capacity planning initiatives. Assist in the implementation of lean manufacturing and continuous improvement initiatives. Develop Lean training materials to support organizational learning. Support internal Lean training efforts and facilitate Kaizen events. What You Will Learn The application of industrial engineering principles in a real-world production environment. Process optimization techniques and tools such as 5S, Kaizen, and value stream mapping. Networking opportunities through exposure to cross-functional team members and organizational leaders. Professional development in communication, teamwork, and leadership within a corporate setting. Qualifications You Must Have Currently pursuing a Bachelor\u2019s or advanced degree in Industrial Engineering or a related STEM field and remain enrolled in the program for the duration of the co-op. Experience with Microsoft Office applications, including Excel, PowerPoint, and Word. Qualifications We Prefer Coursework or project experience in lean manufacturing or Six Sigma methodologies. Experience with data analysis tools such as Minitab, SQL, or Power BI. Experience with AutoCAD or equivalent software. What We Offer Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX, we value Safety, Trust, Respect, Accountability, Collaboration and Innovation. Learn More & Apply Now Please ensure the role type defined below is appropriate for your needs before applying to this role. This position is classified as: Onsite: Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate\u2019s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company\u2019s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans\u2019 Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms",
-   "season": "ok",
-   "company": "RTX",
-   "src": "RTX",
-   "score": {
-    "total": 17,
-    "base": 14,
-    "fit": 0,
-    "loc": 0,
-    "traj": 13,
-    "pay": 1,
-    "rate": [
-     36,
-     36
-    ],
-    "rate_src": "trajectory",
-    "fresh": 3,
-    "age": 10.8,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "est. pay $36/hr",
-      1
-     ]
-    ]
-   },
-   "first_seen": "2026-11-15T01:38:24+00:00"
-  },
-  {
    "id": "wd:globalhr:01887651",
    "title": "Industrial Engineer Co-op (Spring/Summer 2027)",
    "location": "US-NC-WILSON-4200 ~ 4200 Airport Dr ~ BLDG 4200, United States of America",
@@ -70322,6 +70264,13 @@
   },
   {
    "company": "ASML",
+   "title": "Internship - Optical and Metrology Engineering",
+   "location": "San Diego, CA, USA, United States of America",
+   "url": "https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Diego-CA-USA/Internship---Optical-and-Metrology-Engineering_J-00358248",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "ASML",
    "title": "Internship \u2013 Community and Employee Engagement",
    "location": "Chandler, AZ, USA, United States of America",
    "url": "https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/Chandler-AZ-USA/Internship---Community-and-Employee-Engagement_J-00355581",
@@ -71116,13 +71065,6 @@
    "title": "HRIS Intern (May 2027 start)",
    "location": "Auburn Hills - Michigan - USA, United States of America",
    "url": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/HRIS-Intern_R2026-4024-1",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Boston Scientific",
-   "title": "Customer Care Representative Intern- Tamheer",
-   "location": "Riyadh, Riyadh Province, SA",
-   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813430931",
    "reason": "no mechanical signal"
   },
   {
@@ -73982,55 +73924,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Product Management Student Worker",
-   "location": "BG, RS",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557070415",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Moog",
    "title": "Associate of Occupational Studies/Science Intern, Facilities",
    "location": "Buffalo, NY, United States of America",
@@ -75293,15 +75186,15 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
@@ -75342,13 +75235,6 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Supply Chain Intern Summer 2027",
    "location": "Silver Spring, MD",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
@@ -75358,6 +75244,13 @@
    "title": "Supply Chain Intern Summer 2027",
    "location": "Long Beach, CA",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984568003",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Rocket Lab",
+   "title": "Supply Chain Intern Summer 2027",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
