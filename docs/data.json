@@ -1,17 +1,24 @@
 {
- "generated": "2026-11-24T15:09:42+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45422219787",
- "scanned": 34798,
+ "generated": "2026-11-24T15:29:48+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45426125623",
+ "scanned": 34710,
  "boards": 331,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 2
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1191,
-  "no mechanical signal": 366,
-  "software / data / AI role": 1159,
-  "not a student req": 26975,
-  "master's/PhD only": 816,
-  "outside the US": 1501,
-  "no Summer/Fall 2027": 805,
+  "non-ME discipline": 1179,
+  "no mechanical signal": 364,
+  "software / data / AI role": 1141,
+  "not a student req": 26974,
+  "master's/PhD only": 765,
+  "outside the US": 1500,
+  "no Summer/Fall 2027": 801,
   "off-target season in title": 470,
   "degree-level blocker": 4
  },
@@ -8848,6 +8855,69 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "or:iadugs:1978",
+   "title": "Certification Engineering Intern",
+   "location": "Canonsburg, PA, United States",
+   "url": "https://iadugs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1978",
+   "posted": "2026-11-24",
+   "body": "At a Glance Legrand has an exciting opportunity for a Certification Engineering Intern to join the Power & Thermal Management division in Canonsburg, PA . The Certification Engineering Intern will support product safety and EMC certification, regulatory compliance, engineering testing, and technical documentation for Starline electrical products. Working under the guidance of the Engineering Manager and experienced certification and test engineers, the intern will gain practical experience with product standards, third-party certification agencies, laboratory testing, and the documentation required to support new product development and product maintenance. This opportunity begins in Summer 2027. What Will You Do? Assist with product certification projects for electrical power distribution equipment, including busway, busduct, tap-off units, and related accessories Gain hands-on experience in electromagnetic compatibility (EMC) and environmental compliance activities Review product designs, drawings, bills of materials, labels, and technical documentation for alignment with applicable certification requirements Help prepare certification test plans, sample configurations, test requests, checklists, and supporting documentation for internal and third-party laboratories Participate in laboratory activities such as temperature-rise, dielectric, mechanical, ingress protection, emissions, immunity, and short-circuit test preparation and documentation Collect, organize, analyze, and summarize test data using Microsoft Excel and approved engineering tools Assist with the investigation and documentation of test observations, nonconformities, design changes, and corrective actions Support communication and document coordination with third-party certification bodies and test laboratories Maintain certification files, reports, drawings, product markings, critical component records, and project trackers in accordance with document-control practices Collaborate with design engineering, test engineering, manufacturing, quality, product management, and external partners to support certification milestones Participate in design reviews, risk assessments, project status meetings, and continuous-improvement activities Prepare concise technical summaries, presentations, meeting notes, and action-item updates Follow laboratory safety requirements and applicable personal protective equipment (PPE) practices Perform other duties as assigned by management Education Currently pursuing a Bachelor\u2019s degree in Electrical Engineering, Electrical Engineering Technology, or a related engineering discipline from an accredited institution Completion of sophomore year or higher preferred Minimum GPA of 3.0 preferred Skills / Knowledge / Abilities Interest in product safety, regulatory compliance, electrical testing, and engineering standards Basic understanding of electrical circuits, power systems, and engineering drawings Ability to read and interpret technical requirements with guidance Strong attention to detail and commitment to accurate technical documentation Strong organizational, time-management, written communication, and presentation skills Ability to work collaboratively in laboratory, office, and manufacturing environments Proficiency in Microsoft Office Suite, particularly Word, Excel, PowerPoint, and Outlook Exposure to CAD, data-acquisition systems, project-management tools, or laboratory test equipment is beneficial but not required Learning Opportunities Practical exposure to North American and international product certification processes Experience supporting third-party testing and certification documentation Hands-on understanding of electrical product testing and laboratory operations Cross-functional collaboration throughout the product-development lifecycle Mentoring from experienced certification, test, and design engineers Work Environment & Physical Requirements Typical office and laboratory environments with standard lighting, temperature, and equipment Occasional exposure to manufacturing and test areas requiring personal protective equipment (PPE), including safety glasses, safety footwear, or hearing protection Ability to stand, walk, sit for extended periods, and communicate effectively Ability to lift and carry up to 25 pounds",
+   "season": "ok",
+   "company": "Legrand",
+   "src": "Legrand",
+   "score": {
+    "total": 58,
+    "base": 46,
+    "fit": 36,
+    "loc": 0,
+    "traj": 10,
+    "pay": 0,
+    "rate": [
+     32,
+     32
+    ],
+    "rate_src": "trajectory",
+    "fresh": 12,
+    "age": 0.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: test plan",
+      6
+     ],
+     [
+      "body: engineering drawings",
+      6
+     ],
+     [
+      "body: thermal management",
+      6
+     ],
+     [
+      "body: product design",
+      6
+     ],
+     [
+      "body: regulator",
+      5
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: drawings",
+      3
+     ],
+     [
+      "est. pay $32/hr",
+      0
+     ]
+    ]
+   },
+   "first_seen": "2026-11-24T15:29:48+00:00"
+  },
+  {
    "id": "or:ibwujb:10491",
    "title": "Hardware Verification Engineer Co-op (Summer 2027)",
    "location": "Solon, OH, United States",
@@ -11777,7 +11847,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-15T09:17:02+00:00"
+   "first_seen": "2026-10-15T09:17:02+00:00",
+   "stale": true
   },
   {
    "id": "ab:regent:1eec51d3-41c8-445f-817a-65c732a573a2",
@@ -18950,6 +19021,53 @@
    "first_seen": "2026-10-13T02:04:57+00:00"
   },
   {
+   "id": "wd:asml:J-00357869",
+   "title": "Internship - Sustaining Operations & Digital Solutions Specialist",
+   "location": "Chandler, AZ, USA, United States of America",
+   "url": "https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/Chandler-AZ-USA/Internship---Sustaining-Operations---Digital-Solutions-Specialist_J-00357869",
+   "posted": "2026-11-24",
+   "body": "Sustaining Operations & Digital Solutions Specialist ASML US brings together the most creative minds in science and technology to develop lithography machines that are key to producing faster, cheaper, more energy-efficient microchips. We design, develop, integrate, market and service these advanced machines, which enable our customers - the world\u2019s leading chipmakers - to reduce the size and increase the functionality of their microchips, which in turn leads to smaller, more powerful consumer electronics. Our headquarters are in Veldhoven, the Netherlands, and we have 18 office locations around the United States including main offices in Chandler, Arizona, San Jose and San Diego, California, Wilton, Connecticut, and Hillsboro, Oregon. The Customer Support (CS) organization is responsible for the installation, qualification, repair and maintenance of the ASML systems at customer sites and the necessary transfer of know-how to the customer. Local site Customer Support branches perform these tasks for the customer within the specific region. This position will be based in Chandler, AZ. This position requires access to controlled technology, as defined in the Export Administration Regulations (15 C.F.R. \u00a7 730, et seq.). Qualified candidates must be legally authorized to access such controlled technology prior to beginning work. Business demands may require ASML to proceed with candidates who are immediately eligible to access controlled technology. Position Summary The Sustaining Operations & Digital Solutions Specialist will drive the integration and standardization of sustaining Ways of Working (WoW) into a seamless, efficient, and scalable operational workflow. This role will combine sustaining operational knowledge with digital solution development to reduce manual effort, improve visibility, and establish consistent execution across the sustaining organization. Key Responsibilities Sustaining WoW Integration: Integrate existing sustaining processes, tools, and Ways of Working into a cohesive end-to-end workflow that improves execution, ownership, and visibility. Digital Solution Development: Design and implement application-based solutions using tools such as Microsoft Power Apps, Power Automate, SharePoint, and Power BI to automate manual activities and improve operational efficiency. Process Automation: Identify repetitive or labor-intensive activities and develop solutions that reduce administrative workload, duplicate data entry, manual reporting, and handoffs. Standardization: Drive common processes, workflows, data structures, and reporting standards across the sustaining organization to reduce local variation and create a consistent operating model. Operational Efficiency: Evaluate existing workflows to identify bottlenecks, unnecessary process steps, and opportunities for simplification or automation. Data & Workflow Integration: Create solutions that connect operational data, task management, escalation tracking, ownership, and reporting into a more unified workflow. Continuous Improvement: Partner with sustaining teams and technical stakeholders to gather feedback, identify improvement opportunities, and continuously enhance digital tools and Ways of Working. Adoption & Sustainability: Develop documentation, standard work, and user guidance to ensure new solutions are effectively adopted and can be maintained by the sustaining organization. Key Outcomes The role will focus on: Reduced manual administrative effort Increased workflow automation Improved sustaining team efficiency Standardized Ways of Working across teams Improved visibility of tasks, ownership, status, and escalations Consistent operational reporting and data management Scalable digital solutions that support future sustaining needs Education and experience Minimum 60 hours completed towards a Bachelor\u2019s degree in an Engineering field and an expected graduation date of December 2027 or May 2028. Preferred Majors: Physics, Electrical Engineering, Electronics, Micro-electronics, Mechanical Engineering, Material Science Engineering, Chemical Engineering or IC manufacturing. Knowledgeable in MS Office applications - Excel, OneNote, Teams, PowerPoint. Skills Working at the cutting edge of tech, you\u2019ll always have new challenges and new problems to solve \u2013 and working together is the only way to do that. You won\u2019t work in a silo. Instead, you\u2019ll be part of a creative, dynamic work environment where you\u2019ll collaborate with supportive colleagues. There is always space for creative and unique points of view. You\u2019ll have the flexibility and trust to choose how best to tackle tasks and solve problems. To thrive in this job, you\u2019ll need the following skills: Ability to work with AI tools (copilot) Can observe and respond to people and situations and interact with others encountered in the course of work. Can learn and apply new information or skills. Must be able to read and interpret data, information, and documents. Strong customer focus and commitment to customer satisfaction through prioritization, quality, efficiency and professionalism. Ability to complete assignments with attention to detail and high degree of accuracy. Proven ability to perform effectively in a demanding environment with changing workloads and deadlines. Result driven-demonstrate ownership and accountability. Identifies bottlenecks and drives improvements. Work independently or as part of a team and follow through on assignments with minimal supervision. Demonstrate open, clear, concise and professional communication. Ability to establish and maintain cooperative working relationships with manager, co-workers and customer. Work according to a strict set of procedures within the provided timelines. Other Information Legal/export license control. Routinely required to sit; walk; talk; hear; use hands to keyboard, finger, handle, and feel; stoop, kneel, crouch, twist, reach, and stretch. Occasionally required to move around the campus. Work is conducted at a customer site requires familiarization with customer rules and policies regarding worksite behavior and safety. Occasionally lift and/or move up to 50 pounds in weight unaided. Expect to spend 20% of the time inside the clean room working around electromechanical equipment. The in fab environment generally is moderate in temperature and noise level. Specific vision abilities required by this job include close vision, color vision, peripheral vision, depth perception, and ability to adjust focus. Will require domestic travel as part of program closeout and presentation. Inclusion and diversity ASML is an Equal Opportunity Employer that values and respects the importance of a diverse and inclusive workforce. It is the policy of the company to recruit, hire, train and promote persons in all job titles without regard to race, color, religion, sex, age, national origin, veteran status, disability, sexual orientation, or gender identity. We recognize that inclusion and diversity is a driving force in the success of our company. Need to know more about applying for a job at ASML? Read our frequently asked questions .",
+   "season": "ok",
+   "company": "ASML",
+   "src": "ASML",
+   "score": {
+    "total": 44,
+    "base": 32,
+    "fit": 14,
+    "loc": 0,
+    "traj": 17,
+    "pay": 1,
+    "rate": [
+     18.0,
+     48.0
+    ],
+    "rate_src": "company",
+    "fresh": 12,
+    "age": 0.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: electromechanical",
+      6
+     ],
+     [
+      "body: consumer electronics",
+      6
+     ],
+     [
+      "title: sustaining",
+      2
+     ],
+     [
+      "est. pay $33/hr",
+      1
+     ]
+    ]
+   },
+   "first_seen": "2026-11-24T15:29:48+00:00"
+  },
+  {
    "id": "wd:draper:JR003002",
    "title": "Microsystems Integration Intern",
    "location": "Cambridge, MA, United States of America",
@@ -24308,6 +24426,61 @@
    "first_seen": "2026-10-20T19:24:41+00:00"
   },
   {
+   "id": "or:iadugs:1903",
+   "title": "Manufacturing Engineering Intern",
+   "location": "Canonsburg, PA, United States",
+   "url": "https://iadugs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1903",
+   "posted": "2026-11-24",
+   "body": "Legrand has an exciting opportunity for a Manufacturing Engineering Intern to join the Power & Thermal Management division in Canonsburg, PA . We\u2019re looking for a motivated manufacturing engineering intern to help drive process improvements within a fast-paced manufacturing environment. The Manufacturing Engineering Intern will be a part of the Manufacturing Engineering team and participate in the daily improvement of operations. This internship offers hands-on experience in workflow optimization, waste reduction, fixture and machine design, and Industry 4.0 projects, while supporting core Lean activities and collaborating with Operations, Production, EHS, and Quality. What Will You Do? Analyze current workflows to identify non\u2013value-added activities and recommend improvements. Assist with Lean and 5S initiatives, including organizing workstations, labeling, and visual management. Support improvement projects aimed at streamlining material flow and reducing waste. Assist with fixture design, prototyping, and vendor discussions to source and implement solutions. Collect and analyze data to measure process efficiency and present findings to leadership. Collaborate with cross-functional teams to implement standardized work practices and improve OEE. Participate in continuous improvement meetings and share progress on assigned projects. Participate in Daily Performance Meetings and Rapid Problem Solving. Prepare reports and dashboards summarizing improvement initiatives and key performance metrics. Create and report out on the internship experience during end-of-summer intern presentations. Perform other duties as required. Education: Currently pursuing a Bachelor\u2019s degree in Electrical Engineering, Mechanical Engineering, Industrial Systems Engineering, Industrial & Manufacturing Engineering or related discipline. Completion of one or more semesters of related coursework. Skills/Knowledge/Abilities: Strong analytical and problem-solving skills. Comfortable working in a manufacturing environment. Familiarity with Lean principles and 5S methodology. Proficiency in Microsoft Office applications (Word, Excel, PowerPoint). Excellent communication skills and collaboration skills. Ability to manage multiple tasks in a fast-paced environment. Curiosity and eagerness to learn and contribute. Willingness to wear required PPE (Personal Protective Equipment). Personal Qualities/Behaviors: The performance of this position may occasionally require exposure to manufacturing areas that require the use of personal protective equipment such as safety glasses and mandatory hearing protection. Regularly required to stand, walk, and communicate with others. Ability to sit for extended periods of time. Ability to lift up to and carry 25 pounds.",
+   "season": "unstated",
+   "company": "Legrand",
+   "src": "Legrand",
+   "score": {
+    "total": 40,
+    "base": 28,
+    "fit": 18,
+    "loc": 0,
+    "traj": 10,
+    "pay": 0,
+    "rate": [
+     32,
+     32
+    ],
+    "rate_src": "trajectory",
+    "fresh": 12,
+    "age": 0.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: fixture",
+      8
+     ],
+     [
+      "body: thermal management",
+      6
+     ],
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "title: manufacturing",
+      3
+     ],
+     [
+      "est. pay $32/hr",
+      0
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-24T15:29:48+00:00"
+  },
+  {
    "id": "or:iadugs:1799",
    "title": "Mechanical Engineering Intern",
    "location": "West Hartford, CT, United States",
@@ -24474,7 +24647,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "wd:ngc:R10261915",
@@ -58798,6 +58972,49 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "ef:bostonscientific.com:636057",
+   "title": "Capital Equipment Intern | Costa Rica",
+   "location": "Escazu, San Jos\u00e9 Province, CR",
+   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744226",
+   "posted": "2026-10-21",
+   "body": "Additional Locations: N/A Diversity - Innovation - Caring - Global Collaboration - Winning Spirit - High Performance At Boston Scientific, we\u2019ll give you the opportunity to harness all that\u2019s within you by working in teams of diverse and high-performing employees, tackling some of the most important health industry challenges. With access to the latest tools, information and training, we\u2019ll help you in advancing your skills and career. Here, you\u2019ll be supported in progressing \u2013 whatever your ambitions. About the Role: We are looking for a proactive and organized individual to support the operational and technical management of our third-party services (3PS). Key responsibilities include: Monitoring the performance of the 3PS provider, ensuring compliance with the preventive maintenance schedule. Requesting and controlling spare parts needed for corrective and preventive maintenance. Preparing monthly reports on 3PS management. Ensuring compliance with the tool calibration process. Ensuring the validity and updating of equipment contracts with clients. Managing the GSMS platform: opening and closing cases, work orders, and generating reports. Required qualifications: Advanced proficiency in Microsoft Office, especially Excel. Excellent verbal and written communication skills. Ability to multitask. Teamwork skills and effective communication with different areas of the company. Applicants must be enrolled in a degree program in Electromedicine Engineering or Biomedical Engineering. Preferred qualifications: Intermediate English (A2 level). Ease of mobility within the Greater Metropolitan Area (San Jos\u00e9). Requisition ID: 636057 Boston Scientific transforms lives through innovative medical technologies that improve the health of patients around the world. As a global medical technology leader for more than 45 years, we advance science for life by providing a broad range of high-performance solutions that address unmet patient needs and reduce the cost of healthcare. Our portfolio of devices and therapies helps physicians diagnose and treat complex cardiovascular, respiratory, digestive, oncological, neurological and urological diseases and conditions. Learn more at www.bostonscientific.com and follow us on LinkedIn .",
+   "season": "unstated",
+   "company": "Boston Scientific",
+   "src": "Boston Scientific",
+   "score": {
+    "total": 16,
+    "base": 16,
+    "fit": 4,
+    "loc": 0,
+    "traj": 14,
+    "pay": -2,
+    "rate": [
+     21.15,
+     35.45
+    ],
+    "rate_src": "company",
+    "fresh": 0,
+    "age": 34.6,
+    "age_basis": "posted",
+    "tier": "C",
+    "why": [
+     [
+      "title: equipment",
+      7
+     ],
+     [
+      "est. pay $28/hr",
+      -2
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "wd:dyson:JR39384",
    "title": "2027 Internship Intake",
    "location": "",
@@ -74352,55 +74569,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Product Management Student Worker",
-   "location": "BG, RS",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557070415",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Moog",
    "title": "Associate of Occupational Studies/Science Intern, Facilities",
    "location": "Buffalo, NY, United States of America",
@@ -75677,8 +75845,8 @@
   {
    "company": "Rocket Lab",
    "title": "Security Analyst Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986956003",
+   "location": "Albuquerque, NM",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
    "reason": "non-ME discipline"
   },
   {
@@ -75686,13 +75854,6 @@
    "title": "Security Analyst Intern Summer 2027",
    "location": "Middle River, MD",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986963003",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Rocket Lab",
-   "title": "Security Analyst Intern Summer 2027",
-   "location": "Albuquerque, NM",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986874003",
    "reason": "non-ME discipline"
   },
   {
