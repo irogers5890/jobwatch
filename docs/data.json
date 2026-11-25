@@ -1,17 +1,24 @@
 {
- "generated": "2026-11-25T12:04:21+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45610243281",
- "scanned": 34694,
+ "generated": "2026-11-25T12:24:25+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45613419002",
+ "scanned": 34600,
  "boards": 331,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 2
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1193,
-  "no mechanical signal": 362,
-  "software / data / AI role": 1155,
-  "not a student req": 26918,
-  "master's/PhD only": 823,
-  "outside the US": 1496,
-  "no Summer/Fall 2027": 792,
+  "non-ME discipline": 1182,
+  "no mechanical signal": 360,
+  "software / data / AI role": 1139,
+  "not a student req": 26917,
+  "master's/PhD only": 769,
+  "outside the US": 1494,
+  "no Summer/Fall 2027": 787,
   "off-target season in title": 461,
   "degree-level blocker": 4
  },
@@ -13776,7 +13783,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-15T09:17:02+00:00"
+   "first_seen": "2026-10-15T09:17:02+00:00",
+   "stale": true
   },
   {
    "id": "ab:reliable-robotics:0cd44e07-169f-4664-bf31-cded94b93deb",
@@ -24112,7 +24120,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01887901",
@@ -24690,61 +24699,6 @@
     ]
    },
    "first_seen": "2026-11-24T22:47:00+00:00"
-  },
-  {
-   "id": "sf:corningjobs.corning.com:1409564900",
-   "title": "Process Engineering Intern",
-   "location": "",
-   "url": "https://corningjobs.corning.com/job/Reynosa-Process-Engineering-Intern-TAM-88730/1409564900/",
-   "posted": "2026-11-09",
-   "body": "> Prop\u00f3sito del Puesto: Corning est\u00e1 buscando un Practicante de Ingenier\u00eda Mecatronica altamente motivado para unirse a nuestro equipo y participar en la mejora de procesos t\u00e9cnicos y operativos. Este puesto ofrece la oportunidad de aprender, colaborar con equipos multidisciplinarios y liderar proyectos que generan impacto directo en la eficiencia de nuestras operaciones. Responsabilidades Principales: Seguimiento y an\u00e1lisis de m\u00e9tricas de planta como Ikazen Conexi\u00f3n de equipos, an\u00e1lisis de datos y generaci\u00f3n de reportes. Ejecuci\u00f3n y documentaci\u00f3n de procesos t\u00e9cnicos. Realizaci\u00f3n de experimentos, an\u00e1lisis de datos y documentaci\u00f3n de resultados. Dise\u00f1o, ejecuci\u00f3n, documentaci\u00f3n y gesti\u00f3n de cambios en proyectos de mejora. Requisitos de Educaci\u00f3n: Estudiante en los \u00faltimos semestres de una licenciatura en Ingenier\u00eda Industrial, Ingenier\u00eda Mecatr\u00f3nica, Ingenier\u00eda Mec\u00e1nica o IT Habilidades Requeridas: Conocimientos b\u00e1sicos de PLC, lecturas e interpretaci\u00f3n de diagramas el\u00e9ctricos y neum\u00e1ticos. Conocimientos de scripting (Python), SQL y SCADA. Dise\u00f1o de fixtures y habilidades b\u00e1sicas de dise\u00f1o. Conocimiento estad\u00edstico b\u00e1sico y generaci\u00f3n de reportes. Idiomas: Ingl\u00e9s <span",
-   "season": "unstated",
-   "company": "Corning",
-   "src": "Corning",
-   "score": {
-    "total": 39,
-    "base": 36,
-    "fit": 16,
-    "loc": 0,
-    "traj": 12,
-    "pay": 8,
-    "rate": [
-     40.88,
-     79.62
-    ],
-    "rate_src": "company",
-    "fresh": 3,
-    "age": 16.5,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: fixture",
-      8
-     ],
-     [
-      "est. pay $60/hr",
-      8
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "title: process",
-      3
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "gh:fervoenergy:4512537009",
@@ -29002,57 +28956,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "sf:corningjobs.corning.com:1425737000",
-   "title": "Melting/Forming Process Engineering Intern - Summer 2027",
-   "location": "",
-   "url": "https://corningjobs.corning.com/job/Harrodsburg-MeltingForming-Process-Engineering-Intern-Summer-2027-KY-40330/1425737000/",
-   "posted": "2026-10-30",
-   "body": "> Requisition Number: 77507 The company built on breakthroughs. \u200b Join us.\u200b Corning is one of the world\u2019s leading innovators in glass, ceramic, and materials science. From the depths of the ocean to the farthest reaches of space, our technologies push the boundaries of what\u2019s possible. \u200b How do we do this? With our people. They break through limitations and expectations \u2013 not once in a career, but every day. They help move our company, and the world, forward. \u200b \u200bAt Corning, there are endless possibilities for making an impact. You can help connect the unconnected, drive the future of automobiles, transform at-home entertainment, and ensure the delivery of lifesaving medicines. And so much more.\u200b Come break through with us. Corning\u2019s businesses are ever-evolving to best serve our customers, industries, and consumers. Today, we accelerate and transform life sciences, mobile consumer electronics, optical communications, display, automotive, and solar markets. We are changing the world with: Trusted products that accelerate drug discovery, development, and delivery to save lives Damage-resistant cover glass to enhance the devices that keep us connected Optical fiber, wireless technologies, and connectivity solutions to carry information and ideas at the speed of light Precision glass for advanced displays to deliver richer experiences Auto glass and ceramics to drive cleaner, safer, and smarter transportation Solar polysilicon, wafers, and innovative photovoltaic modules, enabling low-cost solar energy solutions Role Purpose The Melting Process Engineering Intern will have the opportunity to learn and manage the melting and delivery system processes for production lines. This role focuses on process control, discipline, and continuous improvement while providing technical expertise to address manufacturing challenges. The position requires a combination of data-driven problem-solving, collaboration across departments, and a commitment to safety and operational excellence. Key Responsibilities Process Management and Improvement: Oversee melting and delivery system processes for production lines Maintain process control and recommend process improvement initiatives Problem-Solving and Analysis: Solve process issues through data analysis, experimentation, and collaboration with subject matter experts Build an understanding of key process steps using engineering principles Recommend and implement improvements to equipment and processes Technical Expertise: Maintain systems to monitor equipment and process performance Lead and support PEx (Process Excellence) projects, such as cost reduction, process optimization, and technology migration Documentation and Training: Develop and update engineering and operations documentation, as needed, to maintain ISO compliance Provide training for the operations workforce regarding process or equipment changes Collaboration and Safety: Collaborate with other teams and departments to meet or exceed manufacturing goals Actively engage in plant safety initiatives to ensure a safe working environment Work Schedule Standard schedule: Monday-Friday, 8:00 AM-5:00 PM Experiences/Education - Required Pursuing BS or MS in Engineering (Chemical, Mechanical, or Electrical preferred) Required Skills Strong scientific and engineering skills for fundamental understanding, including broad knowledge of engineering principles (Thermodynamics, Fluid Mechanics, Heat Transfer, Material Science) Ability to learn new technologies and processes quickly Proficiency in data analysis and interpreting results Experience with experimental design and applying engineering principles Strong multitasking and prioritization skills in a fast-paced environment Results-oriented with a focus on problem-solving and performance improvement Desired Skills Advanced knowledge of Microsoft applications (Word, Excel, PowerPoint, Power BI) Basic statistical knowledge Understanding of manufacturing systems/operations Familiarity with Lean Manufacturing techniques AI fluency Soft Skills High personal drive, initiative, and commitment to excellence Strong organizational, planning, and time management skills Effective relationship-building and teamwork skills across functions Positive attitude, flexibility, and a strong work ethic Excellent communication and presentation skills This position does not support immigration sponsorship. \u200bThe range for this position is $1,635.00 - $3,185.00 biweekly. Starting pay for the successful applicant is prescribed based on geographic location, nature of position, and year in school. A job that shapes a life. We prohibit discrimination on the basis of race, color, gender, age, religion, national origin, sexual orientation, gender identity or expression, disability, veteran status or any other legally protected status. Corning is committed to providing equal employment opportunities and considers requests for reasonable accommodations in accordance with applicable laws. Individuals with disabilities or sincerely held religious beliefs may request reasonable accommodations to participate in the application or interview process, perform essential job functions, or access other benefits and privileges of employment. To submit a request for reasonable accommodation related to disability or religion, please contact us at accommodations@corning.com . <span",
-   "season": "ok",
-   "company": "Corning",
-   "src": "Corning",
-   "score": {
-    "total": 36,
-    "base": 36,
-    "fit": 16,
-    "loc": 0,
-    "traj": 12,
-    "pay": 8,
-    "rate": [
-     40.88,
-     79.62
-    ],
-    "rate_src": "stated",
-    "fresh": 0,
-    "age": 26.5,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "pay $60/hr",
-      8
-     ],
-     [
-      "body: consumer electronics",
-      6
-     ],
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "title: process",
-      3
-     ],
-     [
-      "body: doe",
-      3
-     ]
-    ]
-   },
-   "first_seen": "2026-10-29T17:35:30+00:00"
-  },
-  {
    "id": "wd:flowserve:R-21737",
    "title": "Engineering Co-op",
    "location": "Kalamazoo, Michigan US, United States of America",
@@ -32144,6 +32047,61 @@
     ]
    },
    "first_seen": "2026-11-16T04:24:19+00:00"
+  },
+  {
+   "id": "sr:BoschGroup:744000163673129",
+   "title": "Mandatory Internship Development of Manufacturing Processes for MEMS Environmental Sensors",
+   "location": "Reutlingen, BW, de",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163673129",
+   "posted": "2026-11-25",
+   "body": "At Bosch, we shape the future by inventing high-quality technologies and services that spark enthusiasm and enrich people\u2019s lives. Our promise to our associates is rock-solid: we grow together, we enjoy our work, and we inspire each other. Join in and feel the difference. The Robert Bosch GmbH is looking forward to your application! During your internship, you will gain deep insights into the development of manufacturing processes to produce microelectromechanical systems (MEMS) of the next generation. You will work in an international development team, experience MEMS development firsthand and gain an overview of the latest technologies. In addition, you will be actively involved in the preparation and implementation of experiments and concept studies and support wafer processes in the cleanroom. Education: studies in the field of Microsystems Engineering, Electrical Engineering, Physics, Chemistry or comparable Experience and Knowledge: knowledge of semiconductor and MEMS manufacturing processes; experience in data analysis and evaluation; confident use of MS Office; experience with Python and Cleanroom Personality and Working Practice: you excel at managing structured tasks with flexibility, communicating proactively, and consistently bringing fresh, committed ideas to the table Work Routine: your on-site presence is required Languages: fluent in English and good in German Start: according to prior agreement Duration: 6 months (confirmation of mandatory internship required) Requirement for this internship is the enrollment at university. Please attach your CV, transcript of records, enrollment certificate, examination regulations and if indicated a valid work and residence permit. As a global company, we are legally required to comply with applicable EU and U.S. (re-)export control and sanctions regulations. This means that for certain, particularly sensitive positions, we may only hire individuals who have undergone an additional legal screening. This position is one such sensitive role. We will therefore ask you for additional information required for this screening as the application process continues. You can find information about the processing of your data in our Privacy Notice for the application process. Diversity and inclusion are not just trends for us but are firmly anchored in our corporate culture. Therefore, we welcome all applications, regardless of gender, age, disability, religion, ethnic origin or sexual identity. Need further information about the job? Apurva Roy (Functional Department) +49 173 2501576 Work #LikeABosch starts here: Apply now!",
+   "season": "unstated",
+   "company": "Robert Bosch Venture Capital",
+   "src": "Robert Bosch Venture Capital",
+   "score": {
+    "total": 34,
+    "base": 22,
+    "fit": 13,
+    "loc": 0,
+    "traj": 11,
+    "pay": -2,
+    "rate": [
+     24.0,
+     27.0
+    ],
+    "rate_src": "company",
+    "fresh": 12,
+    "age": 0.5,
+    "age_basis": "posted",
+    "tier": "C",
+    "why": [
+     [
+      "body: electromechanical",
+      6
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "title: manufacturing",
+      3
+     ],
+     [
+      "title: process",
+      3
+     ],
+     [
+      "est. pay $26/hr",
+      -2
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-25T12:24:25+00:00"
   },
   {
    "id": "gh:rocketlab:7984600003",
@@ -73598,55 +73556,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Product Management Student Worker",
-   "location": "BG, RS",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557070415",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Moog",
    "title": "Associate of Occupational Studies/Science Intern, Facilities",
    "location": "Buffalo, NY, United States of America",
@@ -74246,6 +74155,13 @@
    "title": "Enterprise Business Development Intern (Mexico City)",
    "location": "M\u00e9xico D.F., CDMX, MX",
    "url": "https://careers.qualcomm.com/careers/job/446721241959",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Qualcomm",
+   "title": "FY27 Intern - Business Development/Sales intern - Colombia Remote",
+   "location": "CO; Remote",
+   "url": "https://careers.qualcomm.com/careers/job/446719378698",
    "reason": "non-ME discipline"
   },
   {
