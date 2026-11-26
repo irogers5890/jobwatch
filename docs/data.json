@@ -1,24 +1,24 @@
 {
- "generated": "2026-11-26T06:44:11+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45770233453",
- "scanned": 34758,
+ "generated": "2026-11-26T07:04:12+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45772576368",
+ "scanned": 34679,
  "boards": 331,
  "errors": [
   {
-   "company": "Dell Technologies",
-   "board": "oracle",
-   "error": "failed after 3 tries: HTTP 502",
-   "kept": 1
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 2
   }
  ],
  "dropped": {
-  "non-ME discipline": 1199,
-  "no mechanical signal": 365,
-  "software / data / AI role": 1148,
-  "not a student req": 27011,
-  "outside the US": 1503,
-  "master's/PhD only": 806,
-  "no Summer/Fall 2027": 785,
+  "non-ME discipline": 1187,
+  "no mechanical signal": 363,
+  "software / data / AI role": 1137,
+  "not a student req": 27007,
+  "outside the US": 1509,
+  "master's/PhD only": 753,
+  "no Summer/Fall 2027": 784,
   "off-target season in title": 455,
   "degree-level blocker": 4
  },
@@ -13964,7 +13964,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-15T09:17:02+00:00"
+   "first_seen": "2026-10-15T09:17:02+00:00",
+   "stale": true
   },
   {
    "id": "ab:reliable-robotics:0cd44e07-169f-4664-bf31-cded94b93deb",
@@ -23888,7 +23889,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "or:fa-evmr-saasfaprod1:41935",
@@ -46362,8 +46364,8 @@
     "traj": 18,
     "pay": 2,
     "rate": [
-     30.88,
-     47.62
+     32.0,
+     47.0
     ],
     "rate_src": "company",
     "fresh": -4,
@@ -46384,7 +46386,7 @@
       3
      ],
      [
-      "est. pay $39/hr",
+      "est. pay $40/hr",
       2
      ],
      [
@@ -57901,8 +57903,8 @@
     "traj": 18,
     "pay": 2,
     "rate": [
-     30.88,
-     47.62
+     32.0,
+     47.0
     ],
     "rate_src": "company",
     "fresh": -8,
@@ -57919,7 +57921,7 @@
       3
      ],
      [
-      "est. pay $39/hr",
+      "est. pay $40/hr",
       2
      ],
      [
@@ -61549,49 +61551,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "ef:bostonscientific.com:636057",
-   "title": "Capital Equipment Intern | Costa Rica",
-   "location": "Escazu, San Jos\u00e9 Province, CR",
-   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744226",
-   "posted": "2026-10-21",
-   "body": "Additional Locations: N/A Diversity - Innovation - Caring - Global Collaboration - Winning Spirit - High Performance At Boston Scientific, we\u2019ll give you the opportunity to harness all that\u2019s within you by working in teams of diverse and high-performing employees, tackling some of the most important health industry challenges. With access to the latest tools, information and training, we\u2019ll help you in advancing your skills and career. Here, you\u2019ll be supported in progressing \u2013 whatever your ambitions. About the Role: We are looking for a proactive and organized individual to support the operational and technical management of our third-party services (3PS). Key responsibilities include: Monitoring the performance of the 3PS provider, ensuring compliance with the preventive maintenance schedule. Requesting and controlling spare parts needed for corrective and preventive maintenance. Preparing monthly reports on 3PS management. Ensuring compliance with the tool calibration process. Ensuring the validity and updating of equipment contracts with clients. Managing the GSMS platform: opening and closing cases, work orders, and generating reports. Required qualifications: Advanced proficiency in Microsoft Office, especially Excel. Excellent verbal and written communication skills. Ability to multitask. Teamwork skills and effective communication with different areas of the company. Applicants must be enrolled in a degree program in Electromedicine Engineering or Biomedical Engineering. Preferred qualifications: Intermediate English (A2 level). Ease of mobility within the Greater Metropolitan Area (San Jos\u00e9). Requisition ID: 636057 Boston Scientific transforms lives through innovative medical technologies that improve the health of patients around the world. As a global medical technology leader for more than 45 years, we advance science for life by providing a broad range of high-performance solutions that address unmet patient needs and reduce the cost of healthcare. Our portfolio of devices and therapies helps physicians diagnose and treat complex cardiovascular, respiratory, digestive, oncological, neurological and urological diseases and conditions. Learn more at www.bostonscientific.com and follow us on LinkedIn .",
-   "season": "unstated",
-   "company": "Boston Scientific",
-   "src": "Boston Scientific",
-   "score": {
-    "total": 12,
-    "base": 16,
-    "fit": 4,
-    "loc": 0,
-    "traj": 14,
-    "pay": -2,
-    "rate": [
-     20.85,
-     35.45
-    ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 36.3,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "title: equipment",
-      7
-     ],
-     [
-      "est. pay $28/hr",
-      -2
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
    "id": "wd:danaher:R1317746",
    "title": "Continuous Improvement Engineering Intern summer 2027",
    "location": "Logan, Utah, United States, United States of America",
@@ -61971,12 +61930,12 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "gh:rocketlab:8001401003",
+   "id": "gh:rocketlab:7992754003",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Littleton, CO",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
+   "location": "Washington, DC",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
    "posted": "2026-10-02",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a state and local Government Operations Intern based at Rocket Lab\u2019s site in Littleton, Colorado you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of state and local government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range CO: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs The expected salary range for the position is displayed in accordance with the Colorado Equal Pay for Equal Work Act. Final agreed upon compensation is based upon individual qualifications and experience. Base salary is only one part of Rocket Lab\u2019s compensation package for this role. You may be eligible for company stock, or cash incentives, and can purchase discounted stock through Rocket Lab\u2019s Employee Stock Purchase Program. Employee benefits also include medical, dental, and vision insurance coverage; 401(k) retirement plan options; paid vacation , holidays , and sick leave ; paid parental leave; and other discounts and perks. Base Pay Range (CO Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Federal Government Operations Intern based at Rocket Lab\u2019s site in Washington, D.C., you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of federal government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range D.C: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs Level and base salary will be determined on a case-by-case basis and may vary based on the following considerations: job-related knowledge and skills, education, and experience. Base salary is just one component of our total rewards package at Rocket Lab. Employees may also receive company equity and access to a robust benefits package including: top tier medical PPO & a 100% company-sponsored medical HSA plan option, dental and vision coverage, 3 weeks paid vacation and 5 days sick leave per year, 11 paid holidays per year, flexible spending and dependent care savings accounts, paid parental leave, disability insurance, life insurance, and access to a 401(k) retirement plan with company match. Other perks include: discounted employee stock purchase program, and other discounts. Eligibility for benefits may vary based on employment status, please check with your recruiter for a comprehensive list of the benefits available for this role. Benefit programs are subject to change at the company\u2019s discretion. Base Pay Range (D.C. Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -62014,12 +61973,12 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "gh:rocketlab:7992754003",
+   "id": "gh:rocketlab:8001401003",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Washington, DC",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
+   "location": "Littleton, CO",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
    "posted": "2026-10-02",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Federal Government Operations Intern based at Rocket Lab\u2019s site in Washington, D.C., you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of federal government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range D.C: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs Level and base salary will be determined on a case-by-case basis and may vary based on the following considerations: job-related knowledge and skills, education, and experience. Base salary is just one component of our total rewards package at Rocket Lab. Employees may also receive company equity and access to a robust benefits package including: top tier medical PPO & a 100% company-sponsored medical HSA plan option, dental and vision coverage, 3 weeks paid vacation and 5 days sick leave per year, 11 paid holidays per year, flexible spending and dependent care savings accounts, paid parental leave, disability insurance, life insurance, and access to a 401(k) retirement plan with company match. Other perks include: discounted employee stock purchase program, and other discounts. Eligibility for benefits may vary based on employment status, please check with your recruiter for a comprehensive list of the benefits available for this role. Benefit programs are subject to change at the company\u2019s discretion. Base Pay Range (D.C. Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a state and local Government Operations Intern based at Rocket Lab\u2019s site in Littleton, Colorado you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of state and local government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range CO: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs The expected salary range for the position is displayed in accordance with the Colorado Equal Pay for Equal Work Act. Final agreed upon compensation is based upon individual qualifications and experience. Base salary is only one part of Rocket Lab\u2019s compensation package for this role. You may be eligible for company stock, or cash incentives, and can purchase discounted stock through Rocket Lab\u2019s Employee Stock Purchase Program. Employee benefits also include medical, dental, and vision insurance coverage; 401(k) retirement plan options; paid vacation , holidays , and sick leave ; paid parental leave; and other discounts and perks. Base Pay Range (CO Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -62566,8 +62525,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00",
-   "stale": true
+   "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
    "id": "wd:hitachi:R0144978",
@@ -73272,55 +73230,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Product Management Student Worker",
-   "location": "BG, RS",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557070415",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Moog",
    "title": "Associate of Occupational Studies/Science Intern, Facilities",
    "location": "Buffalo, NY, United States of America",
@@ -74596,9 +74505,9 @@
   },
   {
    "company": "Robert Bosch Venture Capital",
-   "title": "\u3010BTC\u3011Internship: Bosch Training Center Japan",
-   "location": "Bosch Corporation_Internship, Kanagawa, jp",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161994699",
+   "title": "\u3010BTC\u3011Internship: Bosch Training Center East Asia",
+   "location": "Yokohama, Kanagawa, jp",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163813869",
    "reason": "no mechanical signal"
   },
   {
@@ -74618,15 +74527,15 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
@@ -74674,15 +74583,15 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
