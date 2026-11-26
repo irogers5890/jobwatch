@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-26T07:24:17+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45775031381",
- "scanned": 34765,
+ "generated": "2026-11-26T07:44:19+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45777529959",
+ "scanned": 34759,
  "boards": 331,
  "errors": [],
  "dropped": {
-  "non-ME discipline": 1196,
-  "no mechanical signal": 365,
-  "software / data / AI role": 1149,
-  "not a student req": 27007,
-  "outside the US": 1511,
+  "non-ME discipline": 1197,
+  "no mechanical signal": 364,
+  "software / data / AI role": 1148,
+  "not a student req": 27005,
+  "outside the US": 1505,
   "master's/PhD only": 808,
   "no Summer/Fall 2027": 791,
   "off-target season in title": 454,
@@ -46338,6 +46338,57 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "ef:lamresearch.com:203786",
+   "title": "Engineering Intern 1",
+   "location": "SG",
+   "url": "https://careers.lamresearch.com/careers/job/1099555996333",
+   "posted": "2026-10-01",
+   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Explainability and Interpretability for probabilistic / Bayesian surrogate models and Bayesian Optimization (BO). The internship will focus on Bayesian surrogate model interpretability and explainable Bayesian Optimization techniques over controlled synthetic functions and real semiconductor data. What you\u2019ll do Explore the Explainable AI literature and come up with relevant methods suitable for interpreting Bayesian surrogate models Develop methods to interpret modeled correlations among model outputs and compare learned relationships with known synthetic function / real data properties Create post-hoc explanations for the recommended solution selected via BO, clarifying the model evidence and optimization logic that led to the selected recipe Implement reproducible experiments on synthetic test functions / real data, performing surrogate modeling, BO and explanation pipelines in Python Investigate interpretable representations of correlation, latent structure, and information sharing across outputs Develop local post-hoc explanation methods for BO recommended solutions such as feature/parameter attribution, counterfactual analysis, sensitivity analysis, or decomposition of predictive and acquisition quantities Define fidelity, stability, consistency, and usability criteria; validate explanations using known synthetic function properties or real data Create clear visualizations and concise technical documentation suitable for Data Scientists and process-development stakeholders Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, explainable AI, and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred Knowledge on correlation analysis, feature attribution / importance, sensitivity analysis, predictive model explanations, and BO decision explanations Experience with synthetic benchmark functions, causal reasoning, spatial data, or structured outputs is advantageous Self-driven, collaborative, and able to communicate technical results clearly. Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
+   "season": "unstated",
+   "company": "Lam Research",
+   "src": "Lam Research",
+   "score": {
+    "total": 24,
+    "base": 28,
+    "fit": 8,
+    "loc": 0,
+    "traj": 18,
+    "pay": 2,
+    "rate": [
+     30.88,
+     47.62
+    ],
+    "rate_src": "company",
+    "fresh": -4,
+    "age": 56.3,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: fea",
+      3
+     ],
+     [
+      "est. pay $39/hr",
+      2
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "ef:lockheedmartin.com:17201",
    "title": "Materials & Processes (M&P) Engineer - Intern",
    "location": "Marietta, GA, US",
@@ -51472,43 +51523,39 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "ef:lamresearch.com:203785",
-   "title": "Engineering Intern 1",
-   "location": "SG",
-   "url": "https://careers.lamresearch.com/careers/job/1099555996314",
-   "posted": "2026-10-01",
-   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Machine Learning (ML) models, with a focus on Bayesian surrogate / ML modeling and Bayesian Optimization (BO). The internship will focus on designing controlled synthetic test functions with tunable, domain-informed properties of the input-output response space, and on conducting comprehensive experiments to study modeling and optimization behavior. This benchmark study will provide a repeatable laboratory for developing surrogate models, evaluating optimization behavior, and comparing approaches in a generalized technical setting. What you\u2019ll do Design configurable synthetic test functions that generate input-output relationships with controlled properties, including dimensionality, smoothness, noise, non-stationarity, structural correlation, and domain similarity. Use the designed test functions to evaluate Bayesian surrogate modeling enhancements including customized GP kernel design. Explore data representation/dimensionality reduction/latent space transformation approaches. Characterize BO-loop behavior across defined family of synthetic functions to identify performance regimes, failure modes, and gaps based on observed benchmark experiments. Implement reusable synthetic test function components, experiment configurations, and evaluation of modeling and optimization pipelines in Python. Develop and benchmark Gaussian Process (GP) based surrogate models using appropriate predictive and uncertainty quantification metrics. Run controlled BO studies across synthetic function classes (families); analyze convergence, robustness, sample efficiency, and sensitivity to modeling and acquisition-function choices. Document test assumptions, benchmark results, and recommendations for model and optimization to address framework enhancements. Collaborate with technical stakeholders to integrate validated components in code workflow and demonstrate the results into existing BO workflows. Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, experimental design and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred. Ability to design controlled computational experiments, define meaningful metrics, and draw evidence-based conclusions Experience with synthetic benchmark functions, spatial data, structured outputs, and data transformation techniques is advantageous Self-driven, collaborative and able to communicate technical results clearly Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
+   "id": "ef:lockheedmartin.com:26806",
+   "title": "Systems Engineer Intern",
+   "location": "Littleton, CO, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477987166",
+   "posted": "2026-11-17",
+   "body": "Standard Job Description Space is a critical domain, connecting our technologies, our security and our humanity. While others view space as a destination, we see it as a realm of possibilities, where we can do more \u2014 we can innovate, invest, inspire and integrate our capabilities to transform the future. Lockheed Martin Space is seeking a Summer Intern to be a part of the Artemis and Orion teams taking astronauts to the Moon and beyond. As an Intern on the Orion program, you will provide direct support to active test operations, help drive troubleshooting and discrepency resolution, and be support hardware/software configuration and test readiness in the Orion Integrated Test Laboratory in support of Artemis III and future missions. T he Orion Integrated Test Laboratory (ITL) is a Dynamic High-Fidelity Test Environment that executes testing from Low-Level Component checkouts all the way to full Artemis Mission Simulations with Mission Control and Artemis Crew in the loop. Come join a dedicated team supporting humanity's next steps towards a Lunar Landing and beyond. Performs assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Typically considered a Senior. Basic Qualifications Working towards a B.S. in Engineering or related degree from an accredited college/university Internship hardware and software troubleshooting experience US Citizen required to perform the task Desired Skills Knowledge of the Orion spacecraft Understanding of automated test scripts and configuration management Capable of working in a fast-paced environment with evolving requirements and dynamic schedules Works effecively independently and as part of a team Pay Information Full-Time Salary Range: $30.16 - $34.84 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
    "season": "unstated",
-   "company": "Lam Research",
-   "src": "Lam Research",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
    "score": {
     "total": 21,
-    "base": 25,
-    "fit": 5,
+    "base": 15,
+    "fit": 2,
     "loc": 0,
-    "traj": 18,
-    "pay": 2,
+    "traj": 13,
+    "pay": 0,
     "rate": [
-     30.88,
-     47.62
+     30.16,
+     34.84
     ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 56.3,
+    "rate_src": "stated",
+    "fresh": 6,
+    "age": 9.3,
     "age_basis": "posted",
     "tier": "B",
     "why": [
      [
-      "title: engineering intern",
-      4
+      "title: systems",
+      5
      ],
      [
-      "body: python",
-      4
-     ],
-     [
-      "est. pay $39/hr",
-      2
+      "pay $32/hr",
+      0
      ],
      [
       "season not stated",
@@ -51516,7 +51563,7 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-17T17:01:31+00:00"
   },
   {
    "id": "wd:oshkoshcorporation:R49598",
@@ -61495,6 +61542,49 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "ef:bostonscientific.com:636057",
+   "title": "Capital Equipment Intern | Costa Rica",
+   "location": "Escazu, San Jos\u00e9 Province, CR",
+   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744226",
+   "posted": "2026-10-21",
+   "body": "Additional Locations: N/A Diversity - Innovation - Caring - Global Collaboration - Winning Spirit - High Performance At Boston Scientific, we\u2019ll give you the opportunity to harness all that\u2019s within you by working in teams of diverse and high-performing employees, tackling some of the most important health industry challenges. With access to the latest tools, information and training, we\u2019ll help you in advancing your skills and career. Here, you\u2019ll be supported in progressing \u2013 whatever your ambitions. About the Role: We are looking for a proactive and organized individual to support the operational and technical management of our third-party services (3PS). Key responsibilities include: Monitoring the performance of the 3PS provider, ensuring compliance with the preventive maintenance schedule. Requesting and controlling spare parts needed for corrective and preventive maintenance. Preparing monthly reports on 3PS management. Ensuring compliance with the tool calibration process. Ensuring the validity and updating of equipment contracts with clients. Managing the GSMS platform: opening and closing cases, work orders, and generating reports. Required qualifications: Advanced proficiency in Microsoft Office, especially Excel. Excellent verbal and written communication skills. Ability to multitask. Teamwork skills and effective communication with different areas of the company. Applicants must be enrolled in a degree program in Electromedicine Engineering or Biomedical Engineering. Preferred qualifications: Intermediate English (A2 level). Ease of mobility within the Greater Metropolitan Area (San Jos\u00e9). Requisition ID: 636057 Boston Scientific transforms lives through innovative medical technologies that improve the health of patients around the world. As a global medical technology leader for more than 45 years, we advance science for life by providing a broad range of high-performance solutions that address unmet patient needs and reduce the cost of healthcare. Our portfolio of devices and therapies helps physicians diagnose and treat complex cardiovascular, respiratory, digestive, oncological, neurological and urological diseases and conditions. Learn more at www.bostonscientific.com and follow us on LinkedIn .",
+   "season": "unstated",
+   "company": "Boston Scientific",
+   "src": "Boston Scientific",
+   "score": {
+    "total": 12,
+    "base": 16,
+    "fit": 4,
+    "loc": 0,
+    "traj": 14,
+    "pay": -2,
+    "rate": [
+     20.85,
+     35.45
+    ],
+    "rate_src": "company",
+    "fresh": -4,
+    "age": 36.3,
+    "age_basis": "posted",
+    "tier": "C",
+    "why": [
+     [
+      "title: equipment",
+      7
+     ],
+     [
+      "est. pay $28/hr",
+      -2
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "wd:danaher:R1317746",
    "title": "Continuous Improvement Engineering Intern summer 2027",
    "location": "Logan, Utah, United States, United States of America",
@@ -61874,12 +61964,12 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "gh:rocketlab:7992754003",
+   "id": "gh:rocketlab:8001401003",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Washington, DC",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
+   "location": "Littleton, CO",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
    "posted": "2026-10-02",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Federal Government Operations Intern based at Rocket Lab\u2019s site in Washington, D.C., you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of federal government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range D.C: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs Level and base salary will be determined on a case-by-case basis and may vary based on the following considerations: job-related knowledge and skills, education, and experience. Base salary is just one component of our total rewards package at Rocket Lab. Employees may also receive company equity and access to a robust benefits package including: top tier medical PPO & a 100% company-sponsored medical HSA plan option, dental and vision coverage, 3 weeks paid vacation and 5 days sick leave per year, 11 paid holidays per year, flexible spending and dependent care savings accounts, paid parental leave, disability insurance, life insurance, and access to a 401(k) retirement plan with company match. Other perks include: discounted employee stock purchase program, and other discounts. Eligibility for benefits may vary based on employment status, please check with your recruiter for a comprehensive list of the benefits available for this role. Benefit programs are subject to change at the company\u2019s discretion. Base Pay Range (D.C. Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a state and local Government Operations Intern based at Rocket Lab\u2019s site in Littleton, Colorado you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of state and local government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range CO: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs The expected salary range for the position is displayed in accordance with the Colorado Equal Pay for Equal Work Act. Final agreed upon compensation is based upon individual qualifications and experience. Base salary is only one part of Rocket Lab\u2019s compensation package for this role. You may be eligible for company stock, or cash incentives, and can purchase discounted stock through Rocket Lab\u2019s Employee Stock Purchase Program. Employee benefits also include medical, dental, and vision insurance coverage; 401(k) retirement plan options; paid vacation , holidays , and sick leave ; paid parental leave; and other discounts and perks. Base Pay Range (CO Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -61917,12 +62007,12 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "gh:rocketlab:8001401003",
+   "id": "gh:rocketlab:7992754003",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Littleton, CO",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
+   "location": "Washington, DC",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
    "posted": "2026-10-02",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a state and local Government Operations Intern based at Rocket Lab\u2019s site in Littleton, Colorado you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of state and local government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range CO: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs The expected salary range for the position is displayed in accordance with the Colorado Equal Pay for Equal Work Act. Final agreed upon compensation is based upon individual qualifications and experience. Base salary is only one part of Rocket Lab\u2019s compensation package for this role. You may be eligible for company stock, or cash incentives, and can purchase discounted stock through Rocket Lab\u2019s Employee Stock Purchase Program. Employee benefits also include medical, dental, and vision insurance coverage; 401(k) retirement plan options; paid vacation , holidays , and sick leave ; paid parental leave; and other discounts and perks. Base Pay Range (CO Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Federal Government Operations Intern based at Rocket Lab\u2019s site in Washington, D.C., you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of federal government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range D.C: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs Level and base salary will be determined on a case-by-case basis and may vary based on the following considerations: job-related knowledge and skills, education, and experience. Base salary is just one component of our total rewards package at Rocket Lab. Employees may also receive company equity and access to a robust benefits package including: top tier medical PPO & a 100% company-sponsored medical HSA plan option, dental and vision coverage, 3 weeks paid vacation and 5 days sick leave per year, 11 paid holidays per year, flexible spending and dependent care savings accounts, paid parental leave, disability insurance, life insurance, and access to a 401(k) retirement plan with company match. Other perks include: discounted employee stock purchase program, and other discounts. Eligibility for benefits may vary based on employment status, please check with your recruiter for a comprehensive list of the benefits available for this role. Benefit programs are subject to change at the company\u2019s discretion. Base Pay Range (D.C. Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -72750,14 +72840,14 @@
    "company": "Lockheed Martin",
    "title": "College Student - Technical - Summer Intern",
    "location": "Littleton, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477771203",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477771270",
    "reason": "no mechanical signal"
   },
   {
    "company": "Lockheed Martin",
    "title": "College Student - Technical - Summer Intern",
    "location": "Littleton, CO, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477771270",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477771203",
    "reason": "no mechanical signal"
   },
   {
@@ -73854,13 +73944,6 @@
   },
   {
    "company": "Qualcomm",
-   "title": "FY27 Intern - Engineering Systems - 6 Months, Nuremberg",
-   "location": "Nord, BY, DE",
-   "url": "https://careers.qualcomm.com/careers/job/446722246976",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Qualcomm",
    "title": "FY27 Intern - Government Affairs Intern \u2013 Middle East & Africa (MEA) - 6 months, Riyadh",
    "location": "Riyadh, Riyadh Province, SA",
    "url": "https://careers.qualcomm.com/careers/job/446722113331",
@@ -73885,6 +73968,13 @@
    "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship \u2013 Summer 2027",
    "location": "San Diego, CA, US; Austin, TX, US; Boxborough, MA, US; Tempe, AZ, US; Santa Clara, CA, US",
    "url": "https://careers.qualcomm.com/careers/job/446720740649",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Qualcomm",
+   "title": "Intern - Marketing Operations - Sao Paulo",
+   "location": "S\u00e3o Paulo, SP, BR",
+   "url": "https://careers.qualcomm.com/careers/job/446720395154",
    "reason": "non-ME discipline"
   },
   {
@@ -74513,15 +74603,15 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
   },
   {
@@ -74569,15 +74659,15 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
@@ -74997,6 +75087,13 @@
    "company": "Tektronix",
    "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
    "location": "Beaverton, OR, US",
+   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Tektronix",
+   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
+   "location": "Beaverton, OR, US",
    "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
    "reason": "non-ME discipline"
   },
@@ -75005,13 +75102,6 @@
    "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
    "location": "Beaverton, OR, US",
    "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
    "reason": "non-ME discipline"
   },
   {
