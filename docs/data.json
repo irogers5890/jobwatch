@@ -1,17 +1,17 @@
 {
- "generated": "2026-11-26T19:20:06+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45882840604",
- "scanned": 34887,
+ "generated": "2026-11-26T19:40:14+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45885324012",
+ "scanned": 34896,
  "boards": 333,
  "errors": [],
  "dropped": {
   "non-ME discipline": 1204,
   "no mechanical signal": 364,
-  "software / data / AI role": 1164,
+  "software / data / AI role": 1166,
   "not a student req": 27102,
-  "outside the US": 1517,
-  "master's/PhD only": 809,
-  "no Summer/Fall 2027": 790,
+  "outside the US": 1519,
+  "master's/PhD only": 811,
+  "no Summer/Fall 2027": 791,
   "off-target season in title": 451,
   "degree-level blocker": 4
  },
@@ -46596,6 +46596,57 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "ef:lamresearch.com:203786",
+   "title": "Engineering Intern 1",
+   "location": "SG",
+   "url": "https://careers.lamresearch.com/careers/job/1099555996333",
+   "posted": "2026-10-01",
+   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Explainability and Interpretability for probabilistic / Bayesian surrogate models and Bayesian Optimization (BO). The internship will focus on Bayesian surrogate model interpretability and explainable Bayesian Optimization techniques over controlled synthetic functions and real semiconductor data. What you\u2019ll do Explore the Explainable AI literature and come up with relevant methods suitable for interpreting Bayesian surrogate models Develop methods to interpret modeled correlations among model outputs and compare learned relationships with known synthetic function / real data properties Create post-hoc explanations for the recommended solution selected via BO, clarifying the model evidence and optimization logic that led to the selected recipe Implement reproducible experiments on synthetic test functions / real data, performing surrogate modeling, BO and explanation pipelines in Python Investigate interpretable representations of correlation, latent structure, and information sharing across outputs Develop local post-hoc explanation methods for BO recommended solutions such as feature/parameter attribution, counterfactual analysis, sensitivity analysis, or decomposition of predictive and acquisition quantities Define fidelity, stability, consistency, and usability criteria; validate explanations using known synthetic function properties or real data Create clear visualizations and concise technical documentation suitable for Data Scientists and process-development stakeholders Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, explainable AI, and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred Knowledge on correlation analysis, feature attribution / importance, sensitivity analysis, predictive model explanations, and BO decision explanations Experience with synthetic benchmark functions, causal reasoning, spatial data, or structured outputs is advantageous Self-driven, collaborative, and able to communicate technical results clearly. Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
+   "season": "unstated",
+   "company": "Lam Research",
+   "src": "Lam Research",
+   "score": {
+    "total": 24,
+    "base": 28,
+    "fit": 8,
+    "loc": 0,
+    "traj": 18,
+    "pay": 2,
+    "rate": [
+     30.88,
+     47.62
+    ],
+    "rate_src": "company",
+    "fresh": -4,
+    "age": 56.8,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: fea",
+      3
+     ],
+     [
+      "est. pay $39/hr",
+      2
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "ef:lockheedmartin.com:26481",
    "title": "Systems Engineer (Modeling &Simulation) - Intern",
    "location": "Owego, NY, US",
@@ -51665,53 +51716,6 @@
      [
       "pay $30/hr",
       0
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:lamresearch.com:203785",
-   "title": "Engineering Intern 1",
-   "location": "SG",
-   "url": "https://careers.lamresearch.com/careers/job/1099555996314",
-   "posted": "2026-10-01",
-   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Machine Learning (ML) models, with a focus on Bayesian surrogate / ML modeling and Bayesian Optimization (BO). The internship will focus on designing controlled synthetic test functions with tunable, domain-informed properties of the input-output response space, and on conducting comprehensive experiments to study modeling and optimization behavior. This benchmark study will provide a repeatable laboratory for developing surrogate models, evaluating optimization behavior, and comparing approaches in a generalized technical setting. What you\u2019ll do Design configurable synthetic test functions that generate input-output relationships with controlled properties, including dimensionality, smoothness, noise, non-stationarity, structural correlation, and domain similarity. Use the designed test functions to evaluate Bayesian surrogate modeling enhancements including customized GP kernel design. Explore data representation/dimensionality reduction/latent space transformation approaches. Characterize BO-loop behavior across defined family of synthetic functions to identify performance regimes, failure modes, and gaps based on observed benchmark experiments. Implement reusable synthetic test function components, experiment configurations, and evaluation of modeling and optimization pipelines in Python. Develop and benchmark Gaussian Process (GP) based surrogate models using appropriate predictive and uncertainty quantification metrics. Run controlled BO studies across synthetic function classes (families); analyze convergence, robustness, sample efficiency, and sensitivity to modeling and acquisition-function choices. Document test assumptions, benchmark results, and recommendations for model and optimization to address framework enhancements. Collaborate with technical stakeholders to integrate validated components in code workflow and demonstrate the results into existing BO workflows. Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, experimental design and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred. Ability to design controlled computational experiments, define meaningful metrics, and draw evidence-based conclusions Experience with synthetic benchmark functions, spatial data, structured outputs, and data transformation techniques is advantageous Self-driven, collaborative and able to communicate technical results clearly Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
-   "season": "unstated",
-   "company": "Lam Research",
-   "src": "Lam Research",
-   "score": {
-    "total": 21,
-    "base": 25,
-    "fit": 5,
-    "loc": 0,
-    "traj": 18,
-    "pay": 2,
-    "rate": [
-     30.88,
-     47.62
-    ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 56.8,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "est. pay $39/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
      ]
     ]
    },
@@ -64550,6 +64554,49 @@
      [
       "pay $27/hr",
       -2
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
+   "id": "ef:bostonscientific.com:636056",
+   "title": "Demand Planning Intern | Costa Rica",
+   "location": "Escazu, San Jos\u00e9 Province, CR",
+   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744221",
+   "posted": "2026-10-21",
+   "body": "Additional Locations: N/A Diversity - Innovation - Caring - Global Collaboration - Winning Spirit - High Performance At Boston Scientific, we\u2019ll give you the opportunity to harness all that\u2019s within you by working in teams of diverse and high-performing employees, tackling some of the most important health industry challenges. With access to the latest tools, information and training, we\u2019ll help you in advancing your skills and career. Here, you\u2019ll be supported in progressing \u2013 whatever your ambitions. Position Summary We are looking for a motivated and talented intern to join our Demand Planning team at Boston Scientific. This internship offers the opportunity to gain hands-on experience in supply chain and demand planning within a dynamic and innovative healthcare devices company. The selected candidate will actively contribute to real business challenges from day one, supporting inventory optimization, data analysis, reporting, and cross-functional collaboration. This role is ideal for a student with strong analytical and communication skills, eager to learn, and ready to contribute to impactful projects in a global organization. Responsibilities Face real-life situations in a dynamic healthcare devices company. Work on real business tasks from Day 1 (e.g., spare parts planning). Contribute to the preparation and production of proposals and reports using Word, Excel, PowerPoint, and other tools. Take responsibility for Inventory Management: seek opportunities to optimize stock levels, reduce excess, and maintain a healthy balance. Interact and collaborate with cross-functional areas, regional teams, global planners, global support centers, and internal customers. Conduct oneself as a full-time member of the Supply Chain area by adhering to Boston Scientific\u2019s rules and regulations, maintaining professionalism, and respecting confidentiality and compliance policies. Develop knowledge about assigned responsibilities, business processes, and operational issues, as well as Boston Scientific\u2019s management practices and company-specific challenges. Required Qualifications Currently enrolled as an advanced university student in Industrial Engineering, Business Administration, or a related field. Intermediate to upper-intermediate English proficiency (B2 or higher). Advanced Microsoft Excel proficiency and proficiency in Microsoft Office. Strong analytical and numerical skills, with the ability to work with data, reports, and statistics. Strong communication, teamwork, organizational, and problem-solving skills. Interest in demand planning, inventory management, and supply chain operations. Basic knowledge of artificial intelligence tools, such as ChatGPT or similar technologies. Preferred Qualifications Knowledge of Microsoft Power BI, dashboards, or other data visualization tools. General understanding of demand planning, inventory optimization, or supply chain processes. Interest in process improvement, emerging technologies, and continuous professional development. Requisition ID: 636056 Boston Scientific transforms lives through innovative medical technologies that improve the health of patients around the world. As a global medical technology leader for more than 45 years, we advance science for life by providing a broad range of high-performance solutions that address unmet patient needs and reduce the cost of healthcare. Our portfolio of devices and therapies helps physicians diagnose and treat complex cardiovascular, respiratory, digestive, oncological, neurological and urological diseases and conditions. Learn more at www.bostonscientific.com and follow us on LinkedIn .",
+   "season": "unstated",
+   "company": "Boston Scientific",
+   "src": "Boston Scientific",
+   "score": {
+    "total": 9,
+    "base": 13,
+    "fit": 1,
+    "loc": 0,
+    "traj": 14,
+    "pay": -2,
+    "rate": [
+     20.85,
+     35.45
+    ],
+    "rate_src": "company",
+    "fresh": -4,
+    "age": 36.8,
+    "age_basis": "posted",
+    "tier": "C",
+    "why": [
+     [
+      "body: inventor",
+      4
+     ],
+     [
+      "est. pay $28/hr",
+      -2
+     ],
+     [
+      "season not stated",
+      -3
      ]
     ]
    },
