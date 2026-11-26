@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-26T13:25:00+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45828906039",
- "scanned": 34684,
+ "generated": "2026-11-26T13:45:02+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45832153464",
+ "scanned": 34688,
  "boards": 331,
  "errors": [
   {
@@ -15,9 +15,9 @@
   "non-ME discipline": 1184,
   "no mechanical signal": 360,
   "software / data / AI role": 1145,
-  "not a student req": 27008,
+  "not a student req": 27010,
   "outside the US": 1514,
-  "master's/PhD only": 753,
+  "master's/PhD only": 754,
   "no Summer/Fall 2027": 784,
   "off-target season in title": 455,
   "degree-level blocker": 4
@@ -46378,6 +46378,57 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
+   "id": "ef:lamresearch.com:203786",
+   "title": "Engineering Intern 1",
+   "location": "SG",
+   "url": "https://careers.lamresearch.com/careers/job/1099555996333",
+   "posted": "2026-10-01",
+   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Explainability and Interpretability for probabilistic / Bayesian surrogate models and Bayesian Optimization (BO). The internship will focus on Bayesian surrogate model interpretability and explainable Bayesian Optimization techniques over controlled synthetic functions and real semiconductor data. What you\u2019ll do Explore the Explainable AI literature and come up with relevant methods suitable for interpreting Bayesian surrogate models Develop methods to interpret modeled correlations among model outputs and compare learned relationships with known synthetic function / real data properties Create post-hoc explanations for the recommended solution selected via BO, clarifying the model evidence and optimization logic that led to the selected recipe Implement reproducible experiments on synthetic test functions / real data, performing surrogate modeling, BO and explanation pipelines in Python Investigate interpretable representations of correlation, latent structure, and information sharing across outputs Develop local post-hoc explanation methods for BO recommended solutions such as feature/parameter attribution, counterfactual analysis, sensitivity analysis, or decomposition of predictive and acquisition quantities Define fidelity, stability, consistency, and usability criteria; validate explanations using known synthetic function properties or real data Create clear visualizations and concise technical documentation suitable for Data Scientists and process-development stakeholders Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, explainable AI, and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred Knowledge on correlation analysis, feature attribution / importance, sensitivity analysis, predictive model explanations, and BO decision explanations Experience with synthetic benchmark functions, causal reasoning, spatial data, or structured outputs is advantageous Self-driven, collaborative, and able to communicate technical results clearly. Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
+   "season": "unstated",
+   "company": "Lam Research",
+   "src": "Lam Research",
+   "score": {
+    "total": 24,
+    "base": 28,
+    "fit": 8,
+    "loc": 0,
+    "traj": 18,
+    "pay": 2,
+    "rate": [
+     30.88,
+     47.62
+    ],
+    "rate_src": "company",
+    "fresh": -4,
+    "age": 56.6,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: fea",
+      3
+     ],
+     [
+      "est. pay $39/hr",
+      2
+     ],
+     [
+      "season not stated",
+      -3
+     ]
+    ]
+   },
+   "first_seen": "2026-11-12T00:33:22+00:00"
+  },
+  {
    "id": "ef:lockheedmartin.com:17201",
    "title": "Materials & Processes (M&P) Engineer - Intern",
    "location": "Marietta, GA, US",
@@ -51447,53 +51498,6 @@
      [
       "pay $30/hr",
       0
-     ]
-    ]
-   },
-   "first_seen": "2026-11-12T00:33:22+00:00"
-  },
-  {
-   "id": "ef:lamresearch.com:203785",
-   "title": "Engineering Intern 1",
-   "location": "SG",
-   "url": "https://careers.lamresearch.com/careers/job/1099555996314",
-   "posted": "2026-10-01",
-   "body": "The group you\u2019ll be a part of The Office of the CTO is where innovation takes center stage. We inspire our global technical community to take on grand challenges, understand emerging trends, identify the critical inflections, and drive our sustainability, Environment, Social, and Governance (ESG) practices that will define the next generation of semiconductors and continued impact. The impact you\u2019ll make We are looking for an internship candidate who wishes to strengthen their skills in Machine Learning (ML) models, with a focus on Bayesian surrogate / ML modeling and Bayesian Optimization (BO). The internship will focus on designing controlled synthetic test functions with tunable, domain-informed properties of the input-output response space, and on conducting comprehensive experiments to study modeling and optimization behavior. This benchmark study will provide a repeatable laboratory for developing surrogate models, evaluating optimization behavior, and comparing approaches in a generalized technical setting. What you\u2019ll do Design configurable synthetic test functions that generate input-output relationships with controlled properties, including dimensionality, smoothness, noise, non-stationarity, structural correlation, and domain similarity. Use the designed test functions to evaluate Bayesian surrogate modeling enhancements including customized GP kernel design. Explore data representation/dimensionality reduction/latent space transformation approaches. Characterize BO-loop behavior across defined family of synthetic functions to identify performance regimes, failure modes, and gaps based on observed benchmark experiments. Implement reusable synthetic test function components, experiment configurations, and evaluation of modeling and optimization pipelines in Python. Develop and benchmark Gaussian Process (GP) based surrogate models using appropriate predictive and uncertainty quantification metrics. Run controlled BO studies across synthetic function classes (families); analyze convergence, robustness, sample efficiency, and sensitivity to modeling and acquisition-function choices. Document test assumptions, benchmark results, and recommendations for model and optimization to address framework enhancements. Collaborate with technical stakeholders to integrate validated components in code workflow and demonstrate the results into existing BO workflows. Who we\u2019re looking for Master or PhD students with strong interest and foundation in statistical machine learning, probabilistic modeling, experimental design and Bayesian Optimization Strong knowledge on Gaussian Processes, kernel methods, uncertainty quantification, and Bayesian Optimization Strong Python programming and debugging skills; experience with PyTorch, GPyTorch, BoTorch, NumPy, Pandas, and visualization libraries is preferred. Ability to design controlled computational experiments, define meaningful metrics, and draw evidence-based conclusions Experience with synthetic benchmark functions, spatial data, structured outputs, and data transformation techniques is advantageous Self-driven, collaborative and able to communicate technical results clearly Semiconductor or process / hardware knowledge is NOT required Preferred qualifications Our commitment We believe it is important for every person to feel valued, included, and empowered to achieve their full potential. By bringing unique individuals and viewpoints together, we achieve extraordinary results. Lam Research (\"Lam\" or the \"Company\") is an equal opportunity employer. Lam is committed to and reaffirms support of equal opportunity in employment and non-discrimination in employment policies, practices and procedures on the basis of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth and related medical conditions), gender, gender identity, gender expression, age, sexual orientation, or military and veteran status or any other category protected by applicable federal, state, or local laws. It is the Company's intention to comply with all applicable laws and regulations. Company policy prohibits unlawful discrimination against applicants or employees. Lam offers a variety of work location models based on the needs of each role. Our hybrid roles combine the benefits of on-site collaboration with colleagues and the flexibility to work remotely and fall into two categories \u2013 On-site Flex and Virtual Flex. \u2018On-site Flex\u2019 you\u2019ll work 3+ days per week on-site at a Lam or customer/supplier location, with the opportunity to work remotely for the balance of the week. \u2018Virtual Flex\u2019 you\u2019ll work 1-2 days per week on-site at a Lam or customer/supplier location, and remotely the rest of the time.",
-   "season": "unstated",
-   "company": "Lam Research",
-   "src": "Lam Research",
-   "score": {
-    "total": 21,
-    "base": 25,
-    "fit": 5,
-    "loc": 0,
-    "traj": 18,
-    "pay": 2,
-    "rate": [
-     30.88,
-     47.62
-    ],
-    "rate_src": "company",
-    "fresh": -4,
-    "age": 56.6,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "est. pay $39/hr",
-      2
-     ],
-     [
-      "season not stated",
-      -3
      ]
     ]
    },
@@ -70429,6 +70433,13 @@
   },
   {
    "company": "Corning",
+   "title": "Environmental Health & Safety Intern - Summer 2027",
+   "location": "",
+   "url": "https://corningjobs.corning.com/job/Newton-Environmental-Health-&amp;-Safety-Intern-Summer-2027-NC-28658/1452790100/",
+   "reason": "non-ME discipline"
+  },
+  {
+   "company": "Corning",
    "title": "Environmental Health and Safety Intern - Summer 2027",
    "location": "",
    "url": "https://corningjobs.corning.com/job/Winston-Salem-Environmental-Health-and-Safety-Intern-Summer-2027-NC-27107/1452796900/",
@@ -72704,13 +72715,6 @@
   },
   {
    "company": "Lockheed Martin",
-   "title": "Contracts Intern - Non-Technical",
-   "location": "Titusville, FL, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477969486",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Lockheed Martin",
    "title": "DevSecOps Intern - Summer 2027",
    "location": "Colorado Springs, CO, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996477674824",
@@ -72741,14 +72745,14 @@
    "company": "Lockheed Martin",
    "title": "Electrical Engineering Intern",
    "location": "Grand Prairie, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996476821521",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996476821506",
    "reason": "non-ME discipline"
   },
   {
    "company": "Lockheed Martin",
    "title": "Electrical Engineering Intern",
    "location": "Grand Prairie, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996476821506",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996476821521",
    "reason": "non-ME discipline"
   },
   {
@@ -74072,6 +74076,13 @@
    "title": "Internship @ Technical Functions Department",
    "location": "Tienen, be",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159799549",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Robert Bosch Venture Capital",
+   "title": "Internship Global Portfolio and Strategy \u2013 Outdoor Garden ",
+   "location": "Leinfelden-Echterdingen, BW, de",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163876010",
    "reason": "no mechanical signal"
   },
   {
