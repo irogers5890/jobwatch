@@ -1,18 +1,37 @@
 {
- "generated": "2026-11-26T15:59:47+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45854477566",
- "scanned": 34781,
+ "generated": "2026-11-26T16:19:44+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/45857703062",
+ "scanned": 34564,
  "boards": 331,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 2
+  },
+  {
+   "company": "Qualcomm",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 503",
+   "kept": 10
+  },
+  {
+   "company": "Tektronix",
+   "board": "eightfold",
+   "error": "failed after 3 tries: The read operation timed out",
+   "kept": 4
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1202,
-  "no mechanical signal": 363,
-  "software / data / AI role": 1158,
-  "not a student req": 27009,
-  "outside the US": 1513,
-  "master's/PhD only": 807,
-  "no Summer/Fall 2027": 790,
-  "off-target season in title": 455,
+  "non-ME discipline": 1175,
+  "no mechanical signal": 359,
+  "software / data / AI role": 1103,
+  "not a student req": 27012,
+  "outside the US": 1495,
+  "master's/PhD only": 743,
+  "no Summer/Fall 2027": 774,
+  "off-target season in title": 436,
   "degree-level blocker": 4
  },
  "jobs": [
@@ -3290,7 +3309,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "wd:avav:8387",
@@ -12415,7 +12435,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-16T22:07:06+00:00"
+   "first_seen": "2026-11-16T22:07:06+00:00",
+   "stale": true
   },
   {
    "id": "wd:asml:J-00358421",
@@ -13957,7 +13978,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-15T09:17:02+00:00"
+   "first_seen": "2026-10-15T09:17:02+00:00",
+   "stale": true
   },
   {
    "id": "ab:reliable-robotics:0cd44e07-169f-4664-bf31-cded94b93deb",
@@ -16453,7 +16475,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-20T15:03:05+00:00"
+   "first_seen": "2026-11-20T15:03:05+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3095747",
@@ -16516,7 +16539,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "wd:rockwellautomation:R26-8461",
@@ -18306,7 +18330,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "or:ibwujb:10681",
@@ -18975,7 +19000,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01887900",
@@ -22557,7 +22583,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3097141",
@@ -22616,7 +22643,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "gh:rocketlab:7990138003",
@@ -23873,7 +23901,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T19:09:05+00:00"
+   "first_seen": "2026-11-12T19:09:05+00:00",
+   "stale": true
   },
   {
    "id": "or:fa-evmr-saasfaprod1:41935",
@@ -26942,7 +26971,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-19T19:30:52+00:00"
+   "first_seen": "2026-11-19T19:30:52+00:00",
+   "stale": true
   },
   {
    "id": "or:edbz:25019928",
@@ -30675,7 +30705,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-13T20:39:35+00:00"
+   "first_seen": "2026-10-13T20:39:35+00:00",
+   "stale": true
   },
   {
    "id": "ab:regent:6e880bc1-e111-47ce-962e-8253767a58e7",
@@ -33374,53 +33405,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "ef:lockheedmartin.com:23610",
-   "title": "College Intern - Scientist",
-   "location": "Sunnyvale, CA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477675469",
-   "posted": "2026-11-23",
-   "body": "Standard Job Description The coolest jobs on this planet\u2026 or any other\u2026 are with Lockheed Martin Space. At the dawn of a new space age, Lockheed Martin is a pioneer, partner, innovator and builder. Our amazing people are on a mission to make a difference in the world and every single day we use our unique skills and experiences to create, design and build solutions to some of the worlds\u2019 hardest engineering problems. Do you want to be part of a culture that inspires employees to think big, perform with excellence and build incredible products? We provide the resources, inspiration and focus - if you have the passion and courage to dream big, then we want to build a better tomorrow with you. The Advanced Technology Center (ATC) is the research lab for Lockheed Martin Space. Through our own skills and those of our partners\u2014including universities and research labs around the world\u2014we are able to put vision in motion. While we are a part of LM's Space division, our technologies are far-reaching across domains. Napkin sketches of lasers that can shoot down UAVs\u2014we made it real. Changing molecules so metals behave differently? We invented that. ATC\u2019s story is written in the success of missions here on Earth and far, far into space. Our innovation extends beyond incremental change. We strive for first-of-a-kind capability with enduring impact. Whatever the application, our charter is to create game-changing technologies. At the ATC, we are inspiring change in our endless pursuit of what is next. We are searching for a Research Intern to join our extraordinary team. In this role you will perform the research, development, and analysis of algorithms to detect, acquire, and track objects of interest. You will apply this research to understanding system-level implications, analyzing new missions and enabling cutting-edge technologies to make a real-world impact. You will participate on teams implementing this understanding to develop new and novel system architectures, and evaluate performance of existing architectures. Basic Qualifications Currently enrolled in an accredited degree program such as physics, applied physics, applied mathematics, computer science, computer engineering, chemistry, mechanical engineering, or electrical engineering \u2022 Exposure to or awareness of suitable scientific/engineering disciplines related to algorithms, sensors, image processing, tracking and filtering, and modeling & simulation of physical systems. \u2022 Strong technical writing, presentation and overall communication skills for reports, proposals, technical presentations, and interaction with team members and academic/industry collaborators. Desired Skills \u2022 Scientific, data, and information visualization; and data exploitation \u2022 Experience with software programming: Python, C/C++, MATLAB, and/or Java \u2022 Image and signal processing \u2022 Artificial Intelligence / Machine learning \u2022 Modeling and simulation Pay Information Full-Time Salary Range: $25.18 - $35.19 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "unstated",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 33,
-    "base": 24,
-    "fit": 3,
-    "loc": 8,
-    "traj": 13,
-    "pay": 0,
-    "rate": [
-     25.18,
-     35.19
-    ],
-    "rate_src": "stated",
-    "fresh": 9,
-    "age": 3.7,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: matlab",
-      2
-     ],
-     [
-      "pay $30/hr",
-      0
-     ],
-     [
-      "season not stated",
-      -3
-     ]
-    ]
-   },
-   "first_seen": "2026-11-23T20:58:51+00:00"
-  },
-  {
    "id": "ef:lockheedmartin.com:25790",
    "title": "Satellite Operations Intern",
    "location": "Sunnyvale, CA, US",
@@ -33673,7 +33657,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-19T22:29:07+00:00"
+   "first_seen": "2026-11-19T22:29:07+00:00",
+   "stale": true
   },
   {
    "id": "or:egup:20279306",
@@ -37830,49 +37815,6 @@
    "first_seen": "2026-11-20T08:05:08+00:00"
   },
   {
-   "id": "ef:lockheedmartin.com:28125",
-   "title": "Systems Engineer - Intern",
-   "location": "Owego, NY, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996478149799",
-   "posted": "2026-11-24",
-   "body": "Standard Job Description By bringing together people that use their passion for purposeful innovation, at Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide diverse career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. At Lockheed Martin, we place an emphasis on empowering our employees by fostering innovation, integrity, and exemplifying the epitome of corporate responsibility. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin is seeking a Summer 2027 Intern Systems Engineer. In this role, you will address complex engineering problems across the full product lifecycle, translate customer requirements into hardware and software specifications, allocate requirements and define hardware/software interfaces. You will also integrate hardware and software, conduct system tests, and support flight test. The successful candidate will have experience and/or knowledge of engineering principles, willing to work in a cross-functional team and learn new skills while contributing to the success of the MH-60 mission. Communication and teamwork skills are essential. Must be a US Citizen. This position will require a government security clearance. This position is located at a facility that requires special access. Basic Qualifications Pursuing a bachelors degree in Computer Engineering, Electrical Engineering, or Systems Engineering from an accredited college. Interest in analytical and problem-solving assignments. Must be a US Citizen. This position will require a government security clearance. This position is located at a facility that requires special access. Desired Skills Current active Secret Security Clearance. Familiarity with Atlassian JIRA. Strong analytical and problem-solving skills. Demonstrated ability to work in cross functional teams, collaborate, and adapt to changing requirements. Analytical mindset with a focus on root cause analysis and logical reasoning. Prior internship or project experience in systems engineering, participation in engineering societies or design competition. Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "ok",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 30,
-    "base": 21,
-    "fit": 12,
-    "loc": 0,
-    "traj": 13,
-    "pay": -4,
-    "rate": [
-     20.14,
-     28.15
-    ],
-    "rate_src": "stated",
-    "fresh": 9,
-    "age": 2.7,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: root cause",
-      7
-     ],
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "pay $24/hr",
-      -4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-24T22:47:00+00:00"
-  },
-  {
    "id": "ef:lockheedmartin.com:27769",
    "title": "Systems Engineering Intern",
    "location": "Huntsville, AL, US",
@@ -37926,6 +37868,49 @@
     ]
    },
    "first_seen": "2026-11-24T17:09:56+00:00"
+  },
+  {
+   "id": "ef:lockheedmartin.com:28125",
+   "title": "Systems Engineer - Intern",
+   "location": "Owego, NY, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996478149799",
+   "posted": "2026-11-24",
+   "body": "Standard Job Description By bringing together people that use their passion for purposeful innovation, at Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide diverse career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. At Lockheed Martin, we place an emphasis on empowering our employees by fostering innovation, integrity, and exemplifying the epitome of corporate responsibility. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin is seeking a Summer 2027 Intern Systems Engineer. In this role, you will address complex engineering problems across the full product lifecycle, translate customer requirements into hardware and software specifications, allocate requirements and define hardware/software interfaces. You will also integrate hardware and software, conduct system tests, and support flight test. The successful candidate will have experience and/or knowledge of engineering principles, willing to work in a cross-functional team and learn new skills while contributing to the success of the MH-60 mission. Communication and teamwork skills are essential. Must be a US Citizen. This position will require a government security clearance. This position is located at a facility that requires special access. Basic Qualifications Pursuing a bachelors degree in Computer Engineering, Electrical Engineering, or Systems Engineering from an accredited college. Interest in analytical and problem-solving assignments. Must be a US Citizen. This position will require a government security clearance. This position is located at a facility that requires special access. Desired Skills Current active Secret Security Clearance. Familiarity with Atlassian JIRA. Strong analytical and problem-solving skills. Demonstrated ability to work in cross functional teams, collaborate, and adapt to changing requirements. Analytical mindset with a focus on root cause analysis and logical reasoning. Prior internship or project experience in systems engineering, participation in engineering societies or design competition. Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "ok",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 30,
+    "base": 21,
+    "fit": 12,
+    "loc": 0,
+    "traj": 13,
+    "pay": -4,
+    "rate": [
+     20.14,
+     28.15
+    ],
+    "rate_src": "stated",
+    "fresh": 9,
+    "age": 2.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: root cause",
+      7
+     ],
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "pay $24/hr",
+      -4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-24T22:47:00+00:00"
   },
   {
    "id": "wd:micron:JR114110",
@@ -38180,7 +38165,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "wd:globalhr:01886102",
@@ -39620,7 +39606,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-24T20:30:21+00:00"
+   "first_seen": "2026-11-24T20:30:21+00:00",
+   "stale": true
   },
   {
    "id": "or:edbz:25017579",
@@ -40368,53 +40355,6 @@
    "first_seen": "2026-11-25T04:23:25+00:00"
   },
   {
-   "id": "ef:lockheedmartin.com:26076",
-   "title": "College Student - Technical - N3",
-   "location": "Fort Worth, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477910048",
-   "posted": "2026-11-18",
-   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin Aeronautics is seeking a Summer 2027 Materials & Process Engineer Intern for the Process Control laboratory in Fort Worth, part of Quality & Mission Success. In this role, you will support material testing, failure analysis, and special process oversight work that helps engineering, production, and quality teams solve real aircraft production problems. What You Will Be Doing Working alongside experienced scientists and engineers, you will: Prepare specimens and perform chemical, physical, and mechanical testing using lab equipment such as FTIR, DSC, Instron, and hardness testers. Support failure analysis investigations, including optical and SEM/EDS microscopy and fractography. Run tests to ASTM, SAE, AWS, and Mil standards and document results in clear technical reports. Help analyze test data and lab metrics to find trends and improvement opportunities. Support special process oversight such as heat treatment, chemical processing, and corrosion testing. Present a summary of your summer project to the team and leadership. Basic Qualifications Pursuing a degree in Chemistry, Materials Science and Engineering, Chemical Engineering, or Mechanical Engineering; related science and engineering majors will also be considered. Desired Skills Hands-on laboratory experience from coursework, research, or prior internships. Familiarity with materials characterization techniques such as microscopy, spectroscopy, or mechanical testing. Experience with data analysis tools such as Excel, Python, or MATLAB. Previous internship or co-op experience in aerospace or manufacturing. Excellent written and verbal communication skills. Ability to work in a collaborative and team-based environment. Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "ok",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 28,
-    "base": 22,
-    "fit": 13,
-    "loc": 0,
-    "traj": 13,
-    "pay": -4,
-    "rate": [
-     20.14,
-     28.15
-    ],
-    "rate_src": "stated",
-    "fresh": 6,
-    "age": 8.7,
-    "age_basis": "posted",
-    "tier": "C",
-    "why": [
-     [
-      "body: failure analysis",
-      7
-     ],
-     [
-      "body: python",
-      4
-     ],
-     [
-      "body: matlab",
-      2
-     ],
-     [
-      "pay $24/hr",
-      -4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-18T00:38:05+00:00"
-  },
-  {
    "id": "ef:lockheedmartin.com:27255",
    "title": "Systems Engineering Internship",
    "location": "Colorado Springs, CO, US",
@@ -40460,6 +40400,53 @@
     ]
    },
    "first_seen": "2026-11-18T21:33:03+00:00"
+  },
+  {
+   "id": "ef:lockheedmartin.com:26076",
+   "title": "College Student - Technical - N3",
+   "location": "Fort Worth, TX, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477910048",
+   "posted": "2026-11-18",
+   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin Aeronautics is seeking a Summer 2027 Materials & Process Engineer Intern for the Process Control laboratory in Fort Worth, part of Quality & Mission Success. In this role, you will support material testing, failure analysis, and special process oversight work that helps engineering, production, and quality teams solve real aircraft production problems. What You Will Be Doing Working alongside experienced scientists and engineers, you will: Prepare specimens and perform chemical, physical, and mechanical testing using lab equipment such as FTIR, DSC, Instron, and hardness testers. Support failure analysis investigations, including optical and SEM/EDS microscopy and fractography. Run tests to ASTM, SAE, AWS, and Mil standards and document results in clear technical reports. Help analyze test data and lab metrics to find trends and improvement opportunities. Support special process oversight such as heat treatment, chemical processing, and corrosion testing. Present a summary of your summer project to the team and leadership. Basic Qualifications Pursuing a degree in Chemistry, Materials Science and Engineering, Chemical Engineering, or Mechanical Engineering; related science and engineering majors will also be considered. Desired Skills Hands-on laboratory experience from coursework, research, or prior internships. Familiarity with materials characterization techniques such as microscopy, spectroscopy, or mechanical testing. Experience with data analysis tools such as Excel, Python, or MATLAB. Previous internship or co-op experience in aerospace or manufacturing. Excellent written and verbal communication skills. Ability to work in a collaborative and team-based environment. Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "ok",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 28,
+    "base": 22,
+    "fit": 13,
+    "loc": 0,
+    "traj": 13,
+    "pay": -4,
+    "rate": [
+     20.14,
+     28.15
+    ],
+    "rate_src": "stated",
+    "fresh": 6,
+    "age": 8.7,
+    "age_basis": "posted",
+    "tier": "C",
+    "why": [
+     [
+      "body: failure analysis",
+      7
+     ],
+     [
+      "body: python",
+      4
+     ],
+     [
+      "body: matlab",
+      2
+     ],
+     [
+      "pay $24/hr",
+      -4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-18T00:38:05+00:00"
   },
   {
    "id": "wd:micron:JR114763",
@@ -44911,45 +44898,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "ef:lockheedmartin.com:27998",
-   "title": "Systems Engineer Intern - Summer 2027",
-   "location": "King of Prussia, PA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996478145903",
-   "posted": "2026-11-24",
-   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin Space in King of Prussia, PA is seeking a Summer Engineering Intern. Seeking an energetic, enthusiastic intern candidate who has training and interest in at least one of these skill areas: C, C++, C#, Java, XML, Windows, .NET, and UNIX, system software and scripting development, Java programming, web development, System analysis, System design, Software Design, Software Development and Implementation, Software Test, Cyber Security, System Operations. Applicants selected will be subject to a government security investigation and must meet eligibility requirements for access to classified information. Basic Qualifications Enrolled in an technical degree program, including only science and technology related disciplines such as Mathematics, Computer Science, Systems Engineering, Electrical Engineering, Computer Engineering, Physics, Information Technology, Management Information Systems, Cyber Security or related discipline. Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access. Desired Skills Proficiency in one of the related: C, C++, C#, Java, XML, Windows, .NET, and UNIX, system software and scripting development, Java programming, web development Experience with System analysis, System design, Software Design, Software Development and Implementation, Software Test or Cyber Security Excellent written and verbal communication skills Ability to work in a collaborative and team-based environment Proficient with Microsoft Office Interview Questions Cross Cultural Agility: Recall the most diverse team you have worked with. How did you work together? What was your role? What major challenges did you face? Effective Communications: How do you make sure that your audience has received and understood the message you are trying to convey? Problem solving: When was the last time you had to solve a difficult problem, and what actions did you take? Prioritization: Recall a time when you were assigned what you considered to be a complex project. Specifically, what steps did you take to prepare for and finish the project? What one step or activity would you have done differently if given the chance? Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "ok",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 25,
-    "base": 16,
-    "fit": 5,
-    "loc": 0,
-    "traj": 13,
-    "pay": -2,
-    "rate": [
-     22.66,
-     31.67
-    ],
-    "rate_src": "stated",
-    "fresh": 9,
-    "age": 2.7,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "pay $27/hr",
-      -2
-     ]
-    ]
-   },
-   "first_seen": "2026-11-24T16:49:55+00:00"
-  },
-  {
    "id": "ef:lockheedmartin.com:26065",
    "title": "Manufacturing Engineering Intern",
    "location": "Courtland, AL, US",
@@ -45003,6 +44951,45 @@
     ]
    },
    "first_seen": "2026-11-16T19:50:35+00:00"
+  },
+  {
+   "id": "ef:lockheedmartin.com:28000",
+   "title": "Systems Engineer Intern - Summer 2027",
+   "location": "King of Prussia, PA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996478146174",
+   "posted": "2026-11-24",
+   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin Space in King of Prussia, PA is seeking a Summer Engineering Intern. Seeking an energetic, enthusiastic intern candidate who has training and interest in at least one of these skill areas: C, C++, C#, Java, XML, Windows, .NET, and UNIX, system software and scripting development, Java programming, web development, System analysis, System design, Software Design, Software Development and Implementation, Software Test, Cyber Security, System Operations. Applicants selected will be subject to a government security investigation and must meet eligibility requirements for access to classified information. Basic Qualifications Enrolled in an technical degree program, including only science and technology related disciplines such as Mathematics, Computer Science, Systems Engineering, Electrical Engineering, Computer Engineering, Physics, Information Technology, Management Information Systems, Cyber Security or related discipline. Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access. Desired Skills Proficiency in one of the related: C, C++, C#, Java, XML, Windows, .NET, and UNIX, system software and scripting development, Java programming, web development Experience with System analysis, System design, Software Design, Software Development and Implementation, Software Test or Cyber Security Excellent written and verbal communication skills Ability to work in a collaborative and team-based environment Proficient with Microsoft Office Interview Questions Cross Cultural Agility: Recall the most diverse team you have worked with. How did you work together? What was your role? What major challenges did you face? Effective Communications: How do you make sure that your audience has received and understood the message you are trying to convey? Problem solving: When was the last time you had to solve a difficult problem, and what actions did you take? Prioritization: Recall a time when you were assigned what you considered to be a complex project. Specifically, what steps did you take to prepare for and finish the project? What one step or activity would you have done differently if given the chance? Pay Information Full-Time Salary Range: $22.66 - $31.67 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "ok",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 25,
+    "base": 16,
+    "fit": 5,
+    "loc": 0,
+    "traj": 13,
+    "pay": -2,
+    "rate": [
+     22.66,
+     31.67
+    ],
+    "rate_src": "stated",
+    "fresh": 9,
+    "age": 2.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "pay $27/hr",
+      -2
+     ]
+    ]
+   },
+   "first_seen": "2026-11-24T16:49:55+00:00"
   },
   {
    "id": "gh:lucidmotors:5306660007",
@@ -47905,6 +47892,49 @@
    "first_seen": "2026-11-16T19:50:35+00:00"
   },
   {
+   "id": "ef:lockheedmartin.com:18660",
+   "title": "Systems Engineer - Intern",
+   "location": "Orlando, FL, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477278563",
+   "posted": "2026-11-14",
+   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin Aeronautics is seeking a 2027 Summer Systems Engineer Intern. In this role, you will perform integration & test tasking in support of F-35 Maintenance Systems. Collaborate on small projects related to the adoption and implementation of AI. Support the development of test automation. The successful candidate will have experience and/or knowledge of basic engineering, computer science and AI principles, as well as an understanding of integration & test as it relates to software development. Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access. Basic Qualifications - Pursuing a Bachelor\u2019s degree program for: Systems Engineering, Software Engineering, Computer Science, or equivalent STEM field. - Knowledge of Agile Methodology & DevOps - Strong analytical skills, troubleshooting and understanding of basic engineering/computer science principles - Must have strong problem-solving skills and excellent oral and written communication skills - Ability to document and refine technical solutions in support of standards and best practices Desired Skills - Knowledge of integration & test concepts - Experience with technical writing with the ability to understand, create and refine test plans, test logs, and test reports - Knowledge or experience of backlog management - Knowledge or experience in Agile development processes and tools such as JIRA - Excellent interpersonal skills with the ability to collaborate on technical solutions, and interact with internal and external teams at all levels Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "ok",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 23,
+    "base": 20,
+    "fit": 11,
+    "loc": 0,
+    "traj": 13,
+    "pay": -4,
+    "rate": [
+     20.14,
+     28.15
+    ],
+    "rate_src": "stated",
+    "fresh": 3,
+    "age": 12.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "body: test plan",
+      6
+     ],
+     [
+      "title: systems",
+      5
+     ],
+     [
+      "pay $24/hr",
+      -4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-14T14:34:15+00:00"
+  },
+  {
    "id": "ef:lockheedmartin.com:25478",
    "title": "Radar Systems Engineer Intern",
    "location": "Liverpool, NY, US",
@@ -47954,49 +47984,6 @@
     ]
    },
    "first_seen": "2026-11-19T21:31:17+00:00"
-  },
-  {
-   "id": "ef:lockheedmartin.com:18660",
-   "title": "Systems Engineer - Intern",
-   "location": "Orlando, FL, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477278563",
-   "posted": "2026-11-14",
-   "body": "Standard Job Description At Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide career opportunities designed to propel development and boost agility. Our flexible schedules, competitive pay, and comprehensive benefits enable our employees to live a healthy, fulfilling life at and outside of work. This is a place for engineers, scientists, and problem-solvers who are ready to engage deeply, think critically, and build with purpose. You will not just launch a career. You will be part of something bigger. This is where the best are built. Lockheed Martin Aeronautics is seeking a 2027 Summer Systems Engineer Intern. In this role, you will perform integration & test tasking in support of F-35 Maintenance Systems. Collaborate on small projects related to the adoption and implementation of AI. Support the development of test automation. The successful candidate will have experience and/or knowledge of basic engineering, computer science and AI principles, as well as an understanding of integration & test as it relates to software development. Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access. Basic Qualifications - Pursuing a Bachelor\u2019s degree program for: Systems Engineering, Software Engineering, Computer Science, or equivalent STEM field. - Knowledge of Agile Methodology & DevOps - Strong analytical skills, troubleshooting and understanding of basic engineering/computer science principles - Must have strong problem-solving skills and excellent oral and written communication skills - Ability to document and refine technical solutions in support of standards and best practices Desired Skills - Knowledge of integration & test concepts - Experience with technical writing with the ability to understand, create and refine test plans, test logs, and test reports - Knowledge or experience of backlog management - Knowledge or experience in Agile development processes and tools such as JIRA - Excellent interpersonal skills with the ability to collaborate on technical solutions, and interact with internal and external teams at all levels Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "ok",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 23,
-    "base": 20,
-    "fit": 11,
-    "loc": 0,
-    "traj": 13,
-    "pay": -4,
-    "rate": [
-     20.14,
-     28.15
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 12.7,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "body: test plan",
-      6
-     ],
-     [
-      "title: systems",
-      5
-     ],
-     [
-      "pay $24/hr",
-      -4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-14T14:34:15+00:00"
   },
   {
    "id": "lv:loftorbital:34edd0b7-2a5b-4efa-a379-860097784534",
@@ -60857,49 +60844,6 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "ef:lockheedmartin.com:26060",
-   "title": "Industrial Engineering Intern - Production Operations",
-   "location": "Courtland, AL, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477909721",
-   "posted": "2026-11-16",
-   "body": "Standard Job Description Space is a critical domain, connecting our technologies, our security and our humanity. While others view space as a destination, we see it as a realm of possibilities, where we can do more \u2014 we can innovate, invest, inspire and integrate our capabilities to transform the future. At Lockheed Martin Space, we aim to harness the full potential of space to cultivate innovation, reduce costs, and push the boundaries of what technology can achieve. We\u2019re creating future-ready solutions, focusing on resiliency and urgency through our 21st Century Security\u00ae vision. We\u2019re erasing boundaries and forming partnerships across industries and around the world. We\u2019re advancing spacecraft and the workforce to fuel the next generation. And we\u2019re reimagining how space can connect us, ensuring security and prosperity. Join us in shaping a new era in space and find a career that's built for you. The Lockheed Martin Next Generation Interceptor (NGI) team is seeking a Production Operations Industrial Engineering Intern to be part of a team developing missile defense technology that could forever change our ability to deter and respond to adversity. As a Production Operations Industrial Engineering Intern on NGI you will: Perform assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Perform assignments in accordance with the need of the Production Operations manager on tasks that contribute to things such as: smooth floor operation, production optimization, human factors, etc. Typically considered a Sophomore. Basic Qualifications \u2022 Pursing a Bachelor's Degree in Industrial Engineering, Industrial and Systems Engineering, or similar degrees \u2022 Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access \u2022 Possess a strong attention to detail Desired Skills \u2022 Demonstrated work ethic through previous work experience (related and/or non-related) \u2022 Course work in classes such as Manufacturing Processes, Operations Planning, Statistics, Methods Engineering, and other similar coursework \u2022 Strong analytical and problem solving skills \u2022 Strong organizational skills Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
-   "season": "unstated",
-   "company": "Lockheed Martin",
-   "src": "Lockheed Martin",
-   "score": {
-    "total": 13,
-    "base": 10,
-    "fit": 1,
-    "loc": 0,
-    "traj": 13,
-    "pay": -4,
-    "rate": [
-     20.14,
-     28.15
-    ],
-    "rate_src": "stated",
-    "fresh": 3,
-    "age": 10.7,
-    "age_basis": "posted",
-    "tier": "B",
-    "why": [
-     [
-      "title: engineering intern",
-      4
-     ],
-     [
-      "season not stated",
-      -3
-     ],
-     [
-      "pay $24/hr",
-      -4
-     ]
-    ]
-   },
-   "first_seen": "2026-11-16T18:36:25+00:00"
-  },
-  {
    "id": "ef:lockheedmartin.com:25607",
    "title": "College Student - Technical - Intern",
    "location": "Mt Laurel Township, NJ, US",
@@ -60941,6 +60885,49 @@
     ]
    },
    "first_seen": "2026-11-12T15:51:14+00:00"
+  },
+  {
+   "id": "ef:lockheedmartin.com:26060",
+   "title": "Industrial Engineering Intern - Production Operations",
+   "location": "Courtland, AL, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477909721",
+   "posted": "2026-11-16",
+   "body": "Standard Job Description Space is a critical domain, connecting our technologies, our security and our humanity. While others view space as a destination, we see it as a realm of possibilities, where we can do more \u2014 we can innovate, invest, inspire and integrate our capabilities to transform the future. At Lockheed Martin Space, we aim to harness the full potential of space to cultivate innovation, reduce costs, and push the boundaries of what technology can achieve. We\u2019re creating future-ready solutions, focusing on resiliency and urgency through our 21st Century Security\u00ae vision. We\u2019re erasing boundaries and forming partnerships across industries and around the world. We\u2019re advancing spacecraft and the workforce to fuel the next generation. And we\u2019re reimagining how space can connect us, ensuring security and prosperity. Join us in shaping a new era in space and find a career that's built for you. The Lockheed Martin Next Generation Interceptor (NGI) team is seeking a Production Operations Industrial Engineering Intern to be part of a team developing missile defense technology that could forever change our ability to deter and respond to adversity. As a Production Operations Industrial Engineering Intern on NGI you will: Perform assignments in technical/engineering organizations (e.g., Electronics Engineering, Software Engineering, Facilities Engineering, Manufacturing Engineering) during vacations and short-term breaks from college attendance while enrolled in an accredited degree program. Perform assignments in accordance with the need of the Production Operations manager on tasks that contribute to things such as: smooth floor operation, production optimization, human factors, etc. Typically considered a Sophomore. Basic Qualifications \u2022 Pursing a Bachelor's Degree in Industrial Engineering, Industrial and Systems Engineering, or similar degrees \u2022 Must be a US Citizen; this position will require a government security clearance. This position is located at a facility that requires special access \u2022 Possess a strong attention to detail Desired Skills \u2022 Demonstrated work ethic through previous work experience (related and/or non-related) \u2022 Course work in classes such as Manufacturing Processes, Operations Planning, Statistics, Methods Engineering, and other similar coursework \u2022 Strong analytical and problem solving skills \u2022 Strong organizational skills Pay Information Full-Time Salary Range: $20.14 - $28.15 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow\u2014both professionally and personally. The salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer. Benefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics. For (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+   "season": "unstated",
+   "company": "Lockheed Martin",
+   "src": "Lockheed Martin",
+   "score": {
+    "total": 13,
+    "base": 10,
+    "fit": 1,
+    "loc": 0,
+    "traj": 13,
+    "pay": -4,
+    "rate": [
+     20.14,
+     28.15
+    ],
+    "rate_src": "stated",
+    "fresh": 3,
+    "age": 10.7,
+    "age_basis": "posted",
+    "tier": "B",
+    "why": [
+     [
+      "title: engineering intern",
+      4
+     ],
+     [
+      "season not stated",
+      -3
+     ],
+     [
+      "pay $24/hr",
+      -4
+     ]
+    ]
+   },
+   "first_seen": "2026-11-16T18:36:25+00:00"
   },
   {
    "id": "sr:BoschGroup:744000159348179",
@@ -61893,12 +61880,12 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "gh:rocketlab:8001401003",
+   "id": "gh:rocketlab:7992754003",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Littleton, CO",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
+   "location": "Washington, DC",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
    "posted": "2026-10-02",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a state and local Government Operations Intern based at Rocket Lab\u2019s site in Littleton, Colorado you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of state and local government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range CO: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs The expected salary range for the position is displayed in accordance with the Colorado Equal Pay for Equal Work Act. Final agreed upon compensation is based upon individual qualifications and experience. Base salary is only one part of Rocket Lab\u2019s compensation package for this role. You may be eligible for company stock, or cash incentives, and can purchase discounted stock through Rocket Lab\u2019s Employee Stock Purchase Program. Employee benefits also include medical, dental, and vision insurance coverage; 401(k) retirement plan options; paid vacation , holidays , and sick leave ; paid parental leave; and other discounts and perks. Base Pay Range (CO Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Federal Government Operations Intern based at Rocket Lab\u2019s site in Washington, D.C., you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of federal government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range D.C: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs Level and base salary will be determined on a case-by-case basis and may vary based on the following considerations: job-related knowledge and skills, education, and experience. Base salary is just one component of our total rewards package at Rocket Lab. Employees may also receive company equity and access to a robust benefits package including: top tier medical PPO & a 100% company-sponsored medical HSA plan option, dental and vision coverage, 3 weeks paid vacation and 5 days sick leave per year, 11 paid holidays per year, flexible spending and dependent care savings accounts, paid parental leave, disability insurance, life insurance, and access to a 401(k) retirement plan with company match. Other perks include: discounted employee stock purchase program, and other discounts. Eligibility for benefits may vary based on employment status, please check with your recruiter for a comprehensive list of the benefits available for this role. Benefit programs are subject to change at the company\u2019s discretion. Base Pay Range (D.C. Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -61936,12 +61923,12 @@
    "first_seen": "2026-11-12T00:33:22+00:00"
   },
   {
-   "id": "gh:rocketlab:7992754003",
+   "id": "gh:rocketlab:8001401003",
    "title": "Government Operations Intern Summer 2027",
-   "location": "Washington, DC",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992754003",
+   "location": "Littleton, CO",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8001401003",
    "posted": "2026-10-02",
-   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a Federal Government Operations Intern based at Rocket Lab\u2019s site in Washington, D.C., you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of federal government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range D.C: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs Level and base salary will be determined on a case-by-case basis and may vary based on the following considerations: job-related knowledge and skills, education, and experience. Base salary is just one component of our total rewards package at Rocket Lab. Employees may also receive company equity and access to a robust benefits package including: top tier medical PPO & a 100% company-sponsored medical HSA plan option, dental and vision coverage, 3 weeks paid vacation and 5 days sick leave per year, 11 paid holidays per year, flexible spending and dependent care savings accounts, paid parental leave, disability insurance, life insurance, and access to a 401(k) retirement plan with company match. Other perks include: discounted employee stock purchase program, and other discounts. Eligibility for benefits may vary based on employment status, please check with your recruiter for a comprehensive list of the benefits available for this role. Benefit programs are subject to change at the company\u2019s discretion. Base Pay Range (D.C. Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
+   "body": "ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us. As a state and local Government Operations Intern based at Rocket Lab\u2019s site in Littleton, Colorado you will have the opportunity to learn about the internal priorities of Rocket Lab and understand the processes by which the Government Operations team implements a strategy to achieve these priorities with state and local governments. WHAT YOU\u2019LL GET TO DO As an intern, you will work closely with your mentor and other employees within the department to apply your knowledge and grow your skills both technically and professionally Work with a fast-paced group of professionals to apply engineering and industry concepts to solve real challenges Attend frequent 1:1\u2019s with mentors and supervisors to facilitate success and learning while providing progress updates Enjoy tech talks and network with other interns and employees through social and professional events YOU\u2019LL BRING THESE QUALIFICATIONS Ideal candidates will thrive in ambiguity and are excited to work in small, high-performing teams that are focused on continued learning and growth. Success in this position will be measured by the knowledge and experience you bring to the role, your ability to lead development projects without supervision, and your ability to successfully collaborate across teams to deliver results. Must be enrolled in a bachelor\u2019s, master's or doctorate program in Business Administration, Public Policy, Political Science or related field and have at least one semester of school remaining post internship. GPA of 3.0 or above. 3+ months of corporate function experience within the areas of state and local government, elections, policy or corporate Government Operations. THESE QUALIFICATIONS WOULD BE NICE TO HAVE GPA of 3.5 or above. 6+ months of corporate function experience within the areas of Government Operations. Knowledge of legislative process. Knowledge of space policy. ADDITIONAL REQUIREMENTS Able to work full-time, on-site for a minimum of 12 consecutive weeks beginning May or June 2027 COMPENSATION AND OTHER BENEFITS Pay Range CO: $22.00 USD Hourly You may be eligible for a stipend to subsidize relocation costs The expected salary range for the position is displayed in accordance with the Colorado Equal Pay for Equal Work Act. Final agreed upon compensation is based upon individual qualifications and experience. Base salary is only one part of Rocket Lab\u2019s compensation package for this role. You may be eligible for company stock, or cash incentives, and can purchase discounted stock through Rocket Lab\u2019s Employee Stock Purchase Program. Employee benefits also include medical, dental, and vision insurance coverage; 401(k) retirement plan options; paid vacation , holidays , and sick leave ; paid parental leave; and other discounts and perks. Base Pay Range (CO Only) $22 \u2014 $22 USD WHAT TO EXPECT We\u2019re on a mission to unlock the potential of space to improve life on Earth, but that\u2019s not an easy task. It takes hard work, determination, relentless innovation, teamwork, grit, and an unwavering commitment to achieving what others often deem impossible. Our people out-think, out-work, and out-pace. We pride ourselves on having each other\u2019s backs, checking our egos at the door, and rolling up our sleeves on all tasks big and small. We thrive under pressure, work to tight deadlines, and our focus is always on how we can deliver, rather than dwelling on the challenges that stand in the way. Important information: FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR), Rocket Lab Employees must be a U.S. citizen, lawful U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum, or be eligible to obtain the required authorizations from the U.S. Department of State and/or the U.S. Department of Commerce, as applicable. Learn more about ITAR here . Rocket Lab provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment at Rocket Lab, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Applicants requiring a reasonable accommodation for the application/interview process for a job in the United States should contact Giulia Johnson at g.biow@rocketlabusa.com. This dedicated resource is intended solely to assist job seekers with disabilities whose disability prevents them from being able to apply/interview. Only messages left for this purpose will be considered. A response to your request may take up to two business days. FOR CANDIDATES SEEKING TO WORK IN NEW ZEALAND OFFICES ONLY: For security reasons, background checks will be undertaken prior to any employment offers being made to an applicant. These checks will include nationality checks as it is a requirement of this position that you be eligible to access equipment and data regulated by the United States' International Traffic in Arms Regulations. Under these Regulations, you may be ineligible for this role if you do not hold citizenship of Australia, Japan, New Zealand, Switzerland, the European Union, or a country that is part of NATO, or if you hold ineligible dual citizenship or nationality. For more information on these Regulations, click here ITAR Regulations.",
    "season": "ok",
    "company": "Rocket Lab",
    "src": "Rocket Lab",
@@ -62793,7 +62780,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-12T00:33:22+00:00"
+   "first_seen": "2026-11-12T00:33:22+00:00",
+   "stale": true
   },
   {
    "id": "sr:BoschGroup:744000158694511",
@@ -72615,6 +72603,13 @@
   },
   {
    "company": "Lockheed Martin",
+   "title": "College Intern - Scientist",
+   "location": "Sunnyvale, CA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477675469",
+   "reason": "no mechanical signal"
+  },
+  {
+   "company": "Lockheed Martin",
    "title": "College Student - Non-Technical - N3",
    "location": "Fort Worth, TX, US",
    "url": "https://lockheedmartin.eightfold.ai/careers/job/996478150025",
@@ -72637,15 +72632,15 @@
   {
    "company": "Lockheed Martin",
    "title": "College Student - Technical - N3",
-   "location": "Grand Prairie, TX, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477570588",
+   "location": "Manassas, VA, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477362690",
    "reason": "no mechanical signal"
   },
   {
    "company": "Lockheed Martin",
    "title": "College Student - Technical - N3",
-   "location": "Manassas, VA, US",
-   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477362690",
+   "location": "Grand Prairie, TX, US",
+   "url": "https://lockheedmartin.eightfold.ai/careers/job/996477570588",
    "reason": "no mechanical signal"
   },
   {
@@ -73087,55 +73082,6 @@
    "title": "Intern \u2013 Procurement Cost Analyst",
    "location": "Boise, ID - North Office, United States of America",
    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---North-Office/Intern---Procurement-Cost-Analyst_JR112690",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Commercial Sales INTERN",
-   "location": "DE",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557041299",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Product Management Student Worker",
-   "location": "BG, RS",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557070415",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
    "reason": "non-ME discipline"
   },
   {
@@ -73748,83 +73694,6 @@
    "reason": "no mechanical signal"
   },
   {
-   "company": "Qualcomm",
-   "title": "Enterprise Business Development Intern (Mexico City)",
-   "location": "M\u00e9xico D.F., CDMX, MX",
-   "url": "https://careers.qualcomm.com/careers/job/446721241959",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "FY27 Intern - Business Development/Sales intern - Colombia Remote",
-   "location": "CO; Remote",
-   "url": "https://careers.qualcomm.com/careers/job/446719378698",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "FY27 Intern - Engineering Systems - 6 Months, Nuremberg",
-   "location": "Nord, BY, DE",
-   "url": "https://careers.qualcomm.com/careers/job/446722246976",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "FY27 Intern - Government Affairs Intern \u2013 Middle East & Africa (MEA) - 6 months, Riyadh",
-   "location": "Riyadh, Riyadh Province, SA",
-   "url": "https://careers.qualcomm.com/careers/job/446722113331",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "FY27 Intern \u2013 Automated Driving Functions - 6 months, Munich,\u00a0Germany",
-   "location": "Munich, BY, DE",
-   "url": "https://careers.qualcomm.com/careers/job/446722334540",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "Finance & Accounting Internship - Summer 2027",
-   "location": "San Diego, CA, US",
-   "url": "https://careers.qualcomm.com/careers/job/446721159170",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship \u2013 Summer 2027",
-   "location": "San Diego, CA, US; Austin, TX, US; Boxborough, MA, US; Tempe, AZ, US; Santa Clara, CA, US",
-   "url": "https://careers.qualcomm.com/careers/job/446720740649",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "Intern - Marketing Operations - Sao Paulo",
-   "location": "S\u00e3o Paulo, SP, BR",
-   "url": "https://careers.qualcomm.com/careers/job/446720395154",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "Intern - Purchasing Intern - (Sao Paolo)",
-   "location": "S\u00e3o Paulo, SP, BR",
-   "url": "https://careers.qualcomm.com/careers/job/446715938373",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "Product Management Internship - Summer 2027",
-   "location": "San Diego, CA, US",
-   "url": "https://careers.qualcomm.com/careers/job/446720741706",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Qualcomm",
-   "title": "RF/Analog Design/Mixed-Signal Engineering Internship \u2013 Summer 2027",
-   "location": "San Diego, CA, US; Tempe, AZ, US; Irvine, CA, US; Santa Clara, CA, US",
-   "url": "https://careers.qualcomm.com/careers/job/446720740912",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "REGENT",
    "title": "Defense Team - Business Development Co-Op (Spring Co-Op)",
    "location": "North Kingstown, Rhode Island, USA",
@@ -74429,15 +74298,15 @@
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Pasadena, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+   "location": "Long Beach, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Electrical Engineering Intern Summer 2027",
-   "location": "Long Beach, CA",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+   "location": "Pasadena, CA",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
    "reason": "non-ME discipline"
   },
   {
@@ -74485,15 +74354,15 @@
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Silver Spring, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
+   "location": "Middle River, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
    "reason": "non-ME discipline"
   },
   {
    "company": "Rocket Lab",
    "title": "Supply Chain Intern Summer 2027",
-   "location": "Middle River, MD",
-   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990063003",
+   "location": "Silver Spring, MD",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7999237003",
    "reason": "non-ME discipline"
   },
   {
@@ -74901,34 +74770,6 @@
    "location": "USA Wilmington,  MA - HQ, United States of America",
    "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Robot-Manipulation_R8278",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Electrical Design Engineer Intern (Summer 2027)",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133916646700",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908134",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915545417",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Financial Planning & Analysis (FP&A) Intern - Summer 2027",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133915908136",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Teledyne FLIR",
