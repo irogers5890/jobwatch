@@ -1,17 +1,24 @@
 {
- "generated": "2026-11-28T12:39:24+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/46145735318",
- "scanned": 34731,
+ "generated": "2026-11-28T12:59:27+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/46147332880",
+ "scanned": 34639,
  "boards": 336,
- "errors": [],
+ "errors": [
+  {
+   "company": "Microsoft",
+   "board": "eightfold",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 1
+  }
+ ],
  "dropped": {
-  "non-ME discipline": 1193,
-  "no mechanical signal": 352,
-  "software / data / AI role": 1127,
+  "non-ME discipline": 1184,
+  "no mechanical signal": 350,
+  "software / data / AI role": 1110,
   "not a student req": 27066,
-  "outside the US": 1498,
-  "master's/PhD only": 807,
-  "no Summer/Fall 2027": 778,
+  "outside the US": 1494,
+  "master's/PhD only": 753,
+  "no Summer/Fall 2027": 772,
   "off-target season in title": 439,
   "degree-level blocker": 4
  },
@@ -16284,7 +16291,8 @@
      ]
     ]
    },
-   "first_seen": "2026-10-15T09:17:02+00:00"
+   "first_seen": "2026-10-15T09:17:02+00:00",
+   "stale": true
   },
   {
    "id": "ef:qualcomm.com:3095747",
@@ -72559,48 +72567,6 @@
    "reason": "non-ME discipline"
   },
   {
-   "company": "Microsoft",
-   "title": "Applied Sciences INTERN",
-   "location": "IN",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "SP,BR",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055360",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Construction Project Management INTERN",
-   "location": "Santiago de Quer\u00e9taro, Qro., MX",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557055359",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Product Management Student Worker",
-   "location": "BG, RS",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557070415",
-   "reason": "non-ME discipline"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Solution Area Specialists: Student Worker Opportunities",
-   "location": "Z\u00fcrich, ZH, CH",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557021004",
-   "reason": "no mechanical signal"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Technical Support Engineer Intern for People with Disabilities (Ignite Program)",
-   "location": "Cairo, Cairo Governorate, EG",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073164",
-   "reason": "non-ME discipline"
-  },
-  {
    "company": "Moog",
    "title": "Associate of Occupational Studies/Science Intern, Facilities",
    "location": "Buffalo, NY, United States of America",
@@ -74391,13 +74357,6 @@
    "location": "USA Wilmington,  MA - HQ, United States of America",
    "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Robot-Manipulation_R8278",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Tektronix",
-   "title": "Electrical Design Engineer Intern (Summer 2027)",
-   "location": "Beaverton, OR, US",
-   "url": "https://ralliant.eightfold.ai/careers/job/1133916646700",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Tektronix",
