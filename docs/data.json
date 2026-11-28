@@ -1,25 +1,37 @@
 {
- "generated": "2026-11-27T23:26:07+00:00",
- "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/46082463424",
- "scanned": 34656,
+ "generated": "2026-11-27T23:46:10+00:00",
+ "run_url": "https://github.com/irogers5890/jobwatch/actions/runs/46083401798",
+ "scanned": 34680,
  "boards": 334,
  "errors": [
   {
-   "company": "Microsoft",
-   "board": "eightfold",
+   "company": "Boston Metal",
+   "board": "workable",
    "error": "failed after 3 tries: HTTP 429",
-   "kept": 2
+   "kept": 0
+  },
+  {
+   "company": "Digital Control",
+   "board": "workable",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 1
+  },
+  {
+   "company": "Umbra",
+   "board": "workable",
+   "error": "failed after 3 tries: HTTP 429",
+   "kept": 0
   }
  ],
  "dropped": {
-  "non-ME discipline": 1183,
-  "no mechanical signal": 354,
-  "software / data / AI role": 1114,
-  "not a student req": 27071,
-  "outside the US": 1502,
-  "master's/PhD only": 751,
-  "no Summer/Fall 2027": 771,
-  "off-target season in title": 442,
+  "non-ME discipline": 1189,
+  "no mechanical signal": 357,
+  "software / data / AI role": 1131,
+  "not a student req": 27002,
+  "outside the US": 1506,
+  "master's/PhD only": 805,
+  "no Summer/Fall 2027": 779,
+  "off-target season in title": 441,
   "degree-level blocker": 4
  },
  "jobs": [
@@ -32120,7 +32132,8 @@
      ]
     ]
    },
-   "first_seen": "2026-11-26T19:00:08+00:00"
+   "first_seen": "2026-11-26T19:00:08+00:00",
+   "stale": true
   },
   {
    "id": "wd:entegris:REQ-15886",
@@ -69956,13 +69969,6 @@
    "location": "San Diego, California, United States of America",
    "url": "https://dexcom.wd1.myworkdayjobs.com/Dexcom/job/San-Diego-California/XMLNAME-2027-US-Summer-Internship---Early-Interest_JR116511",
    "reason": "no mechanical signal"
-  },
-  {
-   "company": "Digital Control",
-   "title": "Supply Chain Intern",
-   "location": "Kent, Washington, United States",
-   "url": "https://apply.workable.com/j/AA2CFB51F0",
-   "reason": "non-ME discipline"
   },
   {
    "company": "Donaldson",
